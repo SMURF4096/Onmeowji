@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onmyoji Codex</title>
+  <meta name="description" content="A fan-built codex for the Onmyoji game: shikigami roster, souls and stats. Data from the Onmyoji Wiki (CC BY-NC-SA).">
+  <meta name="theme-color" content="#0e0913">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=18">
+</head>
+<body data-page="index" data-data="data/">
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="seal">陰</span>
+      <span>Onmyoji Codex<small>式神図鑑</small></span>
+    </a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="shikigami.html">Shikigami</a>
+      <a href="souls.html">Souls</a>
+      <a href="bonding.html">Bonding</a>
+      <a href="characters.html">Characters</a>
+      <a href="calendar.html">Calendar</a>
+    </nav>
+  </header>
+
+  <div class="clock-band">
+    <div class="wrap clock-inner">
+      <div class="clock-zone">
+        <span class="clock-place">US East</span>
+        <time class="clock-time" id="clock-ny" datetime="">--:--:--</time>
+        <span class="clock-tz" id="clock-ny-tz">EST</span>
+        <span class="clock-date" id="clock-ny-date">--</span>
+      </div>
+      <div class="clock-sep" aria-hidden="true">時</div>
+      <div class="clock-zone">
+        <span class="clock-place">Bangkok</span>
+        <time class="clock-time" id="clock-bkk" datetime="">--:--:--</time>
+        <span class="clock-tz" id="clock-bkk-tz">GMT+7</span>
+        <span class="clock-date" id="clock-bkk-date">--</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-mono" data-glyphs="逢魔が時">逢魔が時</div>
+        <div>
+          <h1>Heian Nights, <span class="accent">Inked in Vermillion</span></h1>
+          <p class="sub">A codex of shikigami, souls and Heian-era spirits, built as a fan project.
+             Every record, skill sheet, soul effect and image is collected into this folder
+             and served locally: a self-contained database, no external pages.</p>
+          <div class="cta">
+            <a class="btn primary" href="shikigami.html">Browse Shikigami</a>
+            <a class="btn ghost" href="souls.html">Soul Catalog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="sec-head"><h2>Collection</h2><span class="jp">収録</span><span class="spacer"></span></div>
+      <div class="stats-band" id="stats-band">
+        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="sec-head"><h2>Newly Awakened</h2><span class="jp">顕現</span><span class="spacer"></span>
+        <a href="shikigami.html" class="view-all">view all <svg class="arrow-ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a></div>
+      <div id="featured"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Fan project. Not affiliated with NetEase or Fandom.</span>
+      <span>Text data derived from the public Onmyoji Fandom Wiki (CC BY-NC-SA 4.0). Mirrored images © NetEase Games.</span>
+      <span>Recollect data anytime: <code>node tools/collect.mjs</code></span>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <script src="js/app.js?v=21"></script>
+</body>
+</html>

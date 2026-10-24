@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bondlings · Onmyoji Codex</title>
+  <meta name="theme-color" content="#0e0913">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=18">
+</head>
+<body data-page="bonding" data-data="data/">
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="seal">陰</span>
+      <span>Onmyoji Codex<small>式神図鑑</small></span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shikigami.html">Shikigami</a>
+      <a href="souls.html">Souls</a>
+      <a href="bonding.html" class="active">Bonding</a>
+      <a href="characters.html">Characters</a>
+      <a href="calendar.html">Calendar</a>
+    </nav>  </header>
+
+  <main class="wrap section">
+    <div class="sec-head"><h2>Bonding</h2><span class="jp">御寵</span><span class="spacer"></span></div>
+    <p class="center-note" style="margin-bottom:1.2rem">Bondlings are companions bound to individual Onmyoji; each grants a unique bonus while an Onmyoji is deployed.</p>
+
+    <div class="toolbar">
+      <div class="search"><svg class="search-ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.4"/><path d="m10.4 10.4 3 3"/></svg><input id="bond-search" type="search" placeholder="Search bondling…" aria-label="Search bondlings"></div>
+      <span class="count-note" id="count-note"></span>
+    </div>
+
+    <div class="grid" id="bond-grid"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Bondling data derived from the public Onmyoji Fandom Wiki (CC BY-NC-SA 4.0). Mirrored art © NetEase Games.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js?v=21"></script>
+</body>
+</html>

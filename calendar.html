@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onmyoji Codex: Buff Calendar</title>
+  <meta name="description" content="Daily buff calendar for the Onmyoji global servers, dated on fixed EST (UTC-5).">
+  <meta name="theme-color" content="#0e0913">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=18">
+</head>
+<body data-page="calendar" data-data="data/">
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="seal">陰</span>
+      <span>Onmyoji Codex<small>式神図鑑</small></span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shikigami.html">Shikigami</a>
+      <a href="souls.html">Souls</a>
+      <a href="bonding.html">Bonding</a>
+      <a href="characters.html">Characters</a>
+      <a href="calendar.html" class="active">Calendar</a>
+    </nav>
+  </header>
+
+  <div class="clock-band">
+    <div class="wrap clock-inner">
+      <div class="clock-zone">
+        <span class="clock-place">US East</span>
+        <time class="clock-time" id="clock-ny" datetime="">--:--:--</time>
+        <span class="clock-tz" id="clock-ny-tz">EST</span>
+        <span class="clock-date" id="clock-ny-date">--</span>
+      </div>
+      <div class="clock-sep" aria-hidden="true">時</div>
+      <div class="clock-zone">
+        <span class="clock-place">Bangkok</span>
+        <time class="clock-time" id="clock-bkk" datetime="">--:--:--</time>
+        <span class="clock-tz" id="clock-bkk-tz">GMT+7</span>
+        <span class="clock-date" id="clock-bkk-date">--</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="section wrap">
+      <div class="sec-head">
+        <h2>Buff Calendar</h2><span class="jp">暦</span><span class="spacer"></span>
+        <div class="cal-nav">
+          <button class="cal-btn" id="cal-prev" aria-label="Previous month">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>
+          </button>
+          <span class="cal-month" id="cal-month-name">Month</span>
+          <button class="cal-btn" id="cal-next" aria-label="Next month">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+          </button>
+          <button class="cal-btn cal-today-btn" id="cal-today-btn">Today</button>
+        </div>
+      </div>
+
+      <p class="cal-note" id="cal-today-line">Reading the calendar…</p>
+
+      <table class="cal-table" aria-label="Daily buff calendar (EST)">
+        <thead>
+          <tr>
+            <th scope="col">Sun</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th>
+            <th scope="col">Thu</th><th scope="col">Fri</th><th scope="col">Sat</th>
+          </tr>
+        </thead>
+        <tbody id="cal-grid"></tbody>
+      </table>
+
+      <p class="cal-foot">
+        <span class="cal-legend" id="cal-legend"></span><br>
+        Dates follow fixed <b>EST (UTC-5)</b>: the game's buff schedule does not observe daylight saving.
+         Bangkok resets 12 hours after EST.
+      </p>
+    </section>
+
+    <section class="section wrap">
+      <div class="sec-head"><h3 class="cal-docs-head">Buff Effects</h3><span class="jp">祝詞</span><span class="spacer"></span></div>
+      <div id="buff-docs" aria-label="Daily buff effects"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Fan project. Not affiliated with NetEase or Fandom.</span>
+      <span>Text data derived from the public Onmyoji Fandom Wiki (CC BY-NC-SA 4.0). Mirrored images © NetEase Games.</span>
+      <span>Recollect data anytime: <code>node tools/collect.mjs</code></span>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <script src="js/app.js?v=21"></script>
+</body>
+</html>

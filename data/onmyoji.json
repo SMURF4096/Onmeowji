@@ -1,0 +1,1439 @@
+[
+  {
+    "no": "O1",
+    "role": "onmyoji",
+    "page": "Seimei",
+    "en": "Seimei",
+    "cn": "安倍晴明",
+    "jp": "安倍晴明",
+    "gl": "Seimei",
+    "unlock": "Chapter 1",
+    "cv": "Noriaki Sugiyama",
+    "intro": "A brilliant onmyoji who is highly renowned in Kyoto. For reasons unknown, he has lost his memory. Will his memories reveal long-lost joys? Or a horrific truth that he cannot bear to remember?",
+    "image": "assets/onmyoji/O1skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/7/76/O1skin1.png/revision/latest?cb=20251214194943",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "27140"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "1051"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "128"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o1skill1",
+        "icon": "assets/skills/o1skill1.png",
+        "name": "Basic Skill（基础术式/通常攻撃）",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Seimei uses an amulet to attack a single target, dealing damage equal to 100% of his ATK. ;Amulet: Chaos (霊符・乱) : :Damage dealt by the target is decreased by 20%, lasts 2 turns.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Has a 50% base chance of inflicting Amulet: Chaos."
+          },
+          {
+            "lvl": 3,
+            "text": "Base chance increases to 100%."
+          },
+          {
+            "lvl": 4,
+            "text": "Amulet: Chaos: Reduced damage dealt increases to 40%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 120%."
+          }
+        ]
+      },
+      {
+        "image": "o1skill2",
+        "icon": "assets/skills/o1skill2.png",
+        "name": "Spell: Bind （言灵·缚/言霊・縛)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "Seimei binds a target with a field, increasing their received damage by 10%. Also has a 50% base chance of inflicting Bind. The bound enemy can use normal attacks to break the bind. The field inherits 5% of Seimei's HP. ;Bind :Confined or bound targets can only use normal attack when they move, dealing enough damage releases them from the effect.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Received damage increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Received damage increases to 30%."
+          },
+          {
+            "lvl": 4,
+            "text": "Received damage increases to 40%."
+          },
+          {
+            "lvl": 5,
+            "text": "Inherited HP increases to 10%."
+          }
+        ]
+      },
+      {
+        "image": "o1skill3",
+        "icon": "assets/skills/o1skill3.png",
+        "name": "Spell: Protect （言灵·守/言霊・守）",
+        "type": "Special",
+        "cooldown": 3,
+        "description": "Seimei forms a large defensive barrier so enemies cannot damage allies. The shield breaks when Seimei takes 2 actions or it absorbs damage equal to 10% of his max HP.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage absorbed increases to 11%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage absorbed increases to 12%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage absorbed increases to 13%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage absorbed increases to 14%."
+          }
+        ]
+      },
+      {
+        "image": "o1skill4",
+        "icon": "assets/skills/o1skill4.png",
+        "name": "Spell: Purge （言灵·一式/言霊・一式）",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o1skill5",
+        "icon": "assets/skills/o1skill5.png",
+        "name": "Amulet: Death （符咒·灭/霊符・滅）",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Seimei inflicts Amulet: Death on all enemies. It increases their received damage by 15%, pasts for 2 turns.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Received damage increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Received damage increases to 25%."
+          },
+          {
+            "lvl": 4,
+            "text": "Received damage increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration increased by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o1skill6",
+        "icon": "assets/skills/o1skill6.png",
+        "name": "Amulet: Life （符咒·生/霊符・生）",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Seimei grants all other allies Amulet: Life. It reduces their received damage by 15%, lasts for 2 turns.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Duration increases by 1 turn."
+          },
+          {
+            "lvl": 3,
+            "text": "Reduced damage increases to 20%."
+          },
+          {
+            "lvl": 4,
+            "text": "Reduced damage increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Also grants Amulet: Life to himself."
+          }
+        ]
+      },
+      {
+        "image": "o1skill7",
+        "icon": "assets/skills/o1skill7.png",
+        "name": "Divine Lightning（雷帝召来/雷光招来)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "When Seimei receives an attack, there is a 10% chance to summon Shinryu. Shinryu invokes lightning to attack all enemies, dealing damage equal to 100% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Has 10% base chance to inflict Daze (lasts for 1 turn)."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Base chance increases to 20%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 120%."
+          }
+        ]
+      },
+      {
+        "image": "o1skill8",
+        "icon": "assets/skills/o1skill8.png",
+        "name": "Spell: Star （言灵·星/言霊・星)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Seimei forms a pentagram that increases damage dealt for all allies by 15%, lasts for 2 turns.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage dealt increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage dealt increases to 25%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage dealt increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration increased by 1 turn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": "O2",
+    "role": "onmyoji",
+    "page": "Kagura",
+    "en": "Kagura",
+    "cn": "神乐",
+    "jp": "神楽",
+    "gl": "Kagura",
+    "unlock": "Chapter 3",
+    "cv": "Rie Kugimiya",
+    "intro": "A kindhearted and quiet yet mysterious girl. She has been with Seimei since she lost her memory. She has a keen intuition, strong spiritual powers, and a completely unknown past.",
+    "image": "assets/onmyoji/O2skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/d/d9/O2skin1.png/revision/latest?cb=20170527233729",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "27140"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "1051"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "128"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o2skill1",
+        "icon": "assets/skills/o2skill1.png",
+        "name": "Umbrella Strike (伞击/傘たたき)",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Kagura waves her umbrella to unleash spiritual power that attacks a single target, dealing damage equal to 100% of her ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 120%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 130%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 140%."
+          }
+        ]
+      },
+      {
+        "image": "o2skill2",
+        "icon": "assets/skills/o2skill2.png",
+        "name": "Summon: Fish (召唤·鱼/召喚·風船金魚)",
+        "type": "Special",
+        "cooldown": 3,
+        "description": "Kagura summons a fish spirit called Kin, lasts for 3 turns. The fish Kin inherits 10% of Kagura's HP and 100% of her ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Inherited HP increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Inherited ATK increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Inherited HP increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Inherited ATK increases to 120%."
+          }
+        ]
+      },
+      {
+        "image": "o2skill7",
+        "icon": "assets/skills/o2skill7.png",
+        "name": "Channel: Storm (通灵·疾风/霊媒·疾風）",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Kagura channels the power of a storm into 1 ally. This immediately grants them a new turn and increases their ATK by 10%. In battles against Onmyoji, swaps Kagura's and the target's Move Bar positions. In battles against monsters, grant the target an extra turn without triggering cooldown.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Boost to attack increases to 15%."
+          },
+          {
+            "lvl": 3,
+            "text": "Boost to attack increases to 20%."
+          },
+          {
+            "lvl": 4,
+            "text": "Boost to attack increases to 25%."
+          },
+          {
+            "lvl": 5,
+            "text": "Boost to attack increases to 30%."
+          }
+        ]
+      },
+      {
+        "image": "o2skill4",
+        "icon": "assets/skills/o2skill4.png",
+        "name": "Channel: Butterflies (通灵·冥蝶/霊媒·冥蝶)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Kagura summons a swarm of butterflies that surround all enemies, inflicting them with 30% reduced healing, lasts for 2 turns. Also has a 10% base chance to inflict Sleep on them, lasts for 1 turn.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Reduced healing increases to 40%."
+          },
+          {
+            "lvl": 3,
+            "text": "Base chance for Sleep increases to 15%."
+          },
+          {
+            "lvl": 4,
+            "text": "Reduced healing increases to 40%."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration of reduced healing increases by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o2skill5",
+        "icon": "assets/skills/o2skill5.png",
+        "name": "Summon: Purgatory (召唤·炼狱/召喚·煉獄)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Kagura summons the souls of the dead to reach out their ghostly hands and attack all enemies 3 times, dealing damage equal to 36% of her ATK with each attack. Also has a 20% base chance to inflict a random debuff, lasts for 1 turn. Random debuffs are the following: reduced damage dealt, increased received damage and Confuse.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increase the skill damage by an additional 30%."
+          },
+          {
+            "lvl": 3,
+            "text": "Deals double damage to shields."
+          },
+          {
+            "lvl": 4,
+            "text": "The chance of inflicting a debuff increases to 30% (+ EFFECT HIT:0%)."
+          },
+          {
+            "lvl": 5,
+            "text": "Ignores target's Soul effects."
+          }
+        ]
+      },
+      {
+        "image": "o2skill3",
+        "icon": "assets/skills/o2skill3.png",
+        "name": "Summon: Umbrella (召唤·伞/召喚·唐傘)",
+        "type": "Passive",
+        "cooldown": 3,
+        "description": "When an ally's HP falls below 60%, Kagura summons an enchanted umbrella to protect all allies, granting them 20% of damage reduction, lasts for 2 turns. Triggers a 2-turn cooldown after activation.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage reduction increases to 25%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage reduction increases to 30%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage reduction increases to 35%."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration increases by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o2skill6",
+        "icon": "assets/skills/o2skill6.png",
+        "name": "Summon: Afterlife (召唤·续命/召喚·延命)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o2skill8",
+        "icon": "assets/skills/o2skill8.png",
+        "name": "Divine Fire (天狐神火/天狐神火)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "Every time Kagura loses 15% of her starting HP, she will use Hakuzosu to counter. Hakuzousu invokes Divine Fire to attack all enemies, dealing damage equal to 100% of her ATK (limited to 4 times before Kagura's turn starts). Each time Kagura uses a skill, her SPD permanently increases by 30, up to a maximum of 90. ;Continuous Damage : :Deals damage equal to 5% of the target's HP at the end of turn.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Also reduces the targets' defense by 20% (lasts for 2 turns)."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Reduced defense increases to 40%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 120%."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": "O3",
+    "role": "onmyoji",
+    "page": "Hiromasa",
+    "en": "Hiromasa",
+    "cn": "源博雅",
+    "jp": "源博雅",
+    "gl": "Hiromasa",
+    "unlock": "Chapter 7",
+    "cv": "Tatsuhisa Suzuki",
+    "intro": "An aristocratic young man of imperial blood. He excels at archery and the use of energy barriers. Although proud, aloof and very direct, he seems to be searching for someone important to him.",
+    "image": "assets/onmyoji/O3skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/e/e2/O3skin1.png/revision/latest?cb=20170528003646",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "27140"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "1051"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "128"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o3skill1",
+        "icon": "assets/skills/o3skill1.png",
+        "name": "Celestial Arrow (破魔矢/破魔の矢)",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Hiromasa draws back his bowstring and releases a magical arrow to attack a single target, dealing damage equal to 100% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 120%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 130%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 140%."
+          }
+        ]
+      },
+      {
+        "image": "o3skill2",
+        "icon": "assets/skills/o3skill2.png",
+        "name": "Double Release (多重箭/多重の矢)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Hiromasa draws back his bowstring and releases 2 magical arrows at 1 targeted enemy and 1 random enemy, dealing damage equal to 100% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 120%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 130%."
+          },
+          {
+            "lvl": 5,
+            "text": "Attacks an additional target."
+          }
+        ]
+      },
+      {
+        "image": "o3skill3",
+        "icon": "assets/skills/o3skill3.png",
+        "name": "Rapid Release (诛邪箭/3本の矢)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "Hiromasa rapidly draws back his bowstring and releases 3 magical arrows to attack a single target, each hit deals damage equal to 80% of his ATK. Damage dealt by each arrow increases by 10%.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 85%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 90%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 95%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 100%."
+          }
+        ]
+      },
+      {
+        "image": "o3skill4",
+        "icon": "assets/skills/o3skill4.png",
+        "name": "Occult: Panther Eyes (秘术·豹眼/秘術・豹の目)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "Panther joins the battle and uses its spiritual powers to increase Crit DMG for all allies by 15%, lasts for 2 turns. When an ally with this buff attacks, there is a 20% chance that Panther will cast Occult: Pursuit on a random enemy.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Crit DMG increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Chance of triggering Occult: Pursuit increases to 50%."
+          },
+          {
+            "lvl": 4,
+            "text": "Crit DMG increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration increases by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o3skill5",
+        "icon": "assets/skills/o3skill5.png",
+        "name": "Occult: Shadow Double (秘术·影分身/秘術·影分身)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Hiromasa creates a shadow clone that lasts for 2 turns and cannot be attacked. Each time an ally takes an action, the shadow double will use Celestial Arrow to attack a random enemy dealing damage equal to 30% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 40%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 50%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 60%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 70%."
+          }
+        ]
+      },
+      {
+        "image": "o3skill6",
+        "icon": "assets/skills/o3skill6.png",
+        "name": "Occult: Panther Maul (秘术·豹袭/秘術·豹襲)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "; Upper Hand : Panther will automatically pounce on 1 random enemy dealing damage equal to 100% of Hiromasa's ATK at the start of battle.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 120%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 130%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 140% and the damage will not trigger the enemies' passives or soul effects."
+          }
+        ]
+      },
+      {
+        "image": "o3skill7",
+        "icon": "assets/skills/o3skill7.png",
+        "name": "Roar of Grief (悲声哀嚎/悲声哀吼)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "When Hiromasa is KO'd, Panther will roar with grief and increase the ATK and SPD for all allies by 60% and 20, lasts for 1 turn.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "SPD increases to 30."
+          },
+          {
+            "lvl": 3,
+            "text": "ATK increases to 80%."
+          },
+          {
+            "lvl": 4,
+            "text": "SPD increases to 40."
+          },
+          {
+            "lvl": 5,
+            "text": "Duration increases by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o3skill8",
+        "icon": "assets/skills/o3skill8.png",
+        "name": "Occult: Pursuit (秘术·穷追/秘術·窮追)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "",
+        "upgrades": []
+      }
+    ]
+  },
+  {
+    "no": "O4",
+    "role": "onmyoji",
+    "page": "Yao Bikuni",
+    "en": "Yao Bikuni",
+    "cn": "八百比丘尼",
+    "jp": "八百比丘尼",
+    "gl": "Yao Bikuni",
+    "unlock": "Chapter 15",
+    "cv": "Miyuki Sawashiro",
+    "intro": "Eating the flesh of a mermaid made her immortal and forever young. Her abilities far exceed those of an ordinary wandering seer.",
+    "image": "assets/onmyoji/O4skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/0/04/O4skin1.png/revision/latest?cb=20170528030019",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "27140"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "1051"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "128"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o4skill1",
+        "icon": "assets/skills/o4skill1.png",
+        "name": "Starlight (星之光/星の光)",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Yao Bikuni waves her staff and shoots out a bird formed from the power of starlight, dealing damage equal to 100% of her ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 105%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 115%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 125%."
+          }
+        ]
+      },
+      {
+        "image": "o4skill3",
+        "icon": "assets/skills/o4skill3.png",
+        "name": "Starlight Curse (星之咒/星の呪い)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Yao Bikuni curses the enemy and harnesses the power of starlight to Seal all enemies. She has a 60% base chance to inflict Seal and Suppress on the designated enemy, and a 25% base chance to other enemies lasting for 2 turns. Skill cooldown: 1 turn.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Base chance on other enemies increased to 35%."
+          },
+          {
+            "lvl": 3,
+            "text": "Base chance to the designated enemy increased to 80%."
+          },
+          {
+            "lvl": 4,
+            "text": "Base chance on other enemies increased to 45%."
+          },
+          {
+            "lvl": 5,
+            "text": "Base chance to the designated enemy increased to 100%."
+          }
+        ]
+      },
+      {
+        "image": "o4skill2",
+        "icon": "assets/skills/o4skill2.png",
+        "name": "Clairvoyance (预知/予知)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "Yao Bikuni prays to the Peacock and uses the power of her clairvoyance to increase the protective effect of all allies for 2 turns. When an ally deals Crit damage, they have a 30% chance to have their HP restored by 10%.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "HP restored increases to 15%."
+          },
+          {
+            "lvl": 3,
+            "text": "Chance of restoring HP increases to 35%."
+          },
+          {
+            "lvl": 4,
+            "text": "HP restored increases to 20%."
+          },
+          {
+            "lvl": 5,
+            "text": "Chance of restoring HP increases to 40%."
+          }
+        ]
+      },
+      {
+        "image": "o4skill4",
+        "icon": "assets/skills/o4skill4.png",
+        "name": "Starlight Shower (星陨/流れ星)",
+        "type": "Special",
+        "cooldown": 2,
+        "description": "Yao Bikuni waves her hand, commanding starlight to shoot down from the sky and strike all enemies, dealing damage equal to 112% of her ATK. Has a 40% chance of decreasing the enemies max HP by 20% (cannot exceed 300% of Yao Bikuni's max HP), lasts for 2 turns.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 117%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 122%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 127%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 132%."
+          }
+        ]
+      },
+      {
+        "image": "o4skill6",
+        "icon": "assets/skills/o4skill6.png",
+        "name": "Divination Sigil (占卜之印/占いの印)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "At the start of battle, reveals all enemy shikigami's Souls. As the passive skills unlock, the effects of Divination Sigil can be switched. Divination Sigil cannot stack. Active Skill: Grants Divination Sigil to a designated ally for 1 turn. After being KO'd, the ally will revive upon their next action and heal themselves for 14% of their next HP.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Enhancement: Increases the proportion of HP healed to 16%."
+          },
+          {
+            "lvl": 3,
+            "text": "Enhancement: Increases the proportion of HP healed to 18%."
+          },
+          {
+            "lvl": 4,
+            "text": "Enhancement: Increases the proportion of HP healed to 20%."
+          },
+          {
+            "lvl": 5,
+            "text": "Increases Divination Sigil duration by 1 turn."
+          }
+        ]
+      },
+      {
+        "image": "o4skill6a",
+        "icon": "assets/skills/o4skill6a.png",
+        "name": "Divination Sigil (占卜之印/占いの印)",
+        "type": "|Cooldown    = 1",
+        "cooldown": 1,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o4skill6b",
+        "icon": "assets/skills/o4skill6b.png",
+        "name": "Divination Sigil (占卜之印/占いの印)",
+        "type": "|Cooldown    = 1",
+        "cooldown": 1,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o4skill6c",
+        "icon": "assets/skills/o4skill6c.png",
+        "name": "Divination Sigil (占卜之印/占いの印)",
+        "type": "|Cooldown    = 1",
+        "cooldown": 1,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o4skill5",
+        "icon": "assets/skills/o4skill5.png",
+        "name": "Purification (净化/浄化)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "",
+        "upgrades": []
+      }
+    ]
+  },
+  {
+    "no": "O5",
+    "role": "champion",
+    "page": "Minamoto no Yorimitsu",
+    "en": "Minamoto no Yorimitsu",
+    "cn": "源赖光",
+    "jp": "源頼光",
+    "unlock": "Chapter 26",
+    "cv": "Toshiyuki Morikawa",
+    "intro": "",
+    "image": "assets/onmyoji/O5skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/8/84/O5skin1.png/revision/latest?cb=20240828082705",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "20826"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "806"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "142"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o5skill1",
+        "icon": "assets/skills/o5skill1.png",
+        "name": "Heavenly Blade (天剣)",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Yorimitsu attacks a single target dealing damage equal to 100% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 105%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 115%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 125%."
+          }
+        ]
+      },
+      {
+        "image": "o5skill2",
+        "icon": "assets/skills/o5skill2.png",
+        "name": "Heavenly Purge (天誅・八華斬)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Yorimitsu launches a 3-strike attack on a targeted enemy, dealing damage equal to 68% of his ATK with each strike. Then launches a 5-strike attack on random enemies, dealing damage equal to 120% of his ATK with each strike. The random attack prioritizes undamaged enemies, and the damage is reduced by 50% for each subsequent strike on the same enemy.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage to targeted enemies increases to 72%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage to random enemies increases to 126%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage to targeted enemies increases to 76%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage to random enemies increases to 126%."
+          }
+        ]
+      },
+      {
+        "image": "o5skill3",
+        "icon": "assets/skills/o5skill3.png",
+        "name": "Armor the World (天下布武)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Yorimitsu launches a 3-strike attack on 1 enemy, dealing damage equal to 100% of his ATK with each strike. Then deal an additional strike, dealing true damage equal to 21% of the target's lost HP (cannot exceed 35% of his initial ATK).",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 106%."
+          },
+          {
+            "lvl": 3,
+            "text": "True damage increases to 25%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 112%."
+          },
+          {
+            "lvl": 5,
+            "text": "When the targeted enemy receives damage and their HP is below 30%, automatically uses this skill on them (excludes monsters, triggers once before the start of each turn)."
+          }
+        ]
+      },
+      {
+        "image": "o5skill4",
+        "icon": "assets/skills/o5skill4.png",
+        "name": "Weaponized Demon (鬼神の策)",
+        "type": "Special",
+        "cooldown": 1,
+        "description": "Yorimitsu decreases the DEF of all enemies by 150, lasts for 1 turn. Also inflicts them with 1 Slash stack. ;Slash (剑伤) : :General, Mark: When attacked, inflicted with true damage equal to 70% of Yorimitsu's ATK and removes 1 stack. If triggered by the Ghost Armour, the damage increases by 30%.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Number of Slash stacks inflicted increases to 2."
+          },
+          {
+            "lvl": 3,
+            "text": "DEF reduction duration increases to 2 turns."
+          },
+          {
+            "lvl": 4,
+            "text": "Slash: True damage increases to 90%."
+          },
+          {
+            "lvl": 5,
+            "text": "DEF reduction increases to 170."
+          }
+        ]
+      },
+      {
+        "image": "o5skill5",
+        "icon": "assets/skills/o5skill5.png",
+        "name": "Blood Pact (血之契)",
+        "type": "Special",
+        "cooldown": 3,
+        "description": "Yorimitsu grants command of the Ghost Armour to another ally and increases his own Crit by 22%.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Crit increases to 26%."
+          },
+          {
+            "lvl": 3,
+            "text": "Upon usage, the damage absorption of the Ghost Armour increases to 40% of his initial ATK."
+          },
+          {
+            "lvl": 4,
+            "text": "Crit increases to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Upon usage, the damage absorption of the Ghost Armour increases to 50% of his initial ATK."
+          }
+        ]
+      },
+      {
+        "image": "o5skill6",
+        "icon": "assets/skills/o5skill6.png",
+        "name": "Ghost Garb (鬼冑)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "",
+        "upgrades": []
+      },
+      {
+        "image": "o5skill7",
+        "icon": "assets/skills/o5skill7.png",
+        "name": "Blade Bastion (剣之累)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "When the commander of the Ghost Armour is attacked, but not damaged, it strikes the source of the attack dealing damage equal to 130% of Yorimitsu's ATK (up to 5 times before the start of each turn). Each times it launches a strike, damage for the next strike is increased by 10%, up to 2 strikes, lasts for 1 turn",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage for the next strike increases to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "Number of boosted strikes increases to 3."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage boost duration increases to 2 turns."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage for the initial strike increases to 150%."
+          }
+        ]
+      },
+      {
+        "image": "o5skill8",
+        "icon": "assets/skills/o5skill8.png",
+        "name": "Fearless (無畏)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "Each time an enemy is inflicted with a debuff effect, Yorimitsu gains 1 Anticipation stack, lasts for 3 turns. When an enemy is KO'd, his move bar is increased by 30%. ;Anticipation (剑意/剣意) : :Buff, Mark: Max of 12 stacks. Each stack increases his damage dealt by 1%.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Anticipation: Each stack increases his Crit by 1%."
+          },
+          {
+            "lvl": 3,
+            "text": "Anticipation: Max stacks increases to 18."
+          },
+          {
+            "lvl": 4,
+            "text": "Anticipation: Each stack increases his SPD by 2%."
+          },
+          {
+            "lvl": 5,
+            "text": "Anticipation: Max stacks increases to 24."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": "O6",
+    "role": "champion",
+    "page": "Fujiwara no Michitsuna",
+    "en": "Fujiwara no Michitsuna",
+    "cn": "藤原道綱",
+    "jp": "藤原道綱",
+    "cv": "Kappei Yamaguchi",
+    "intro": "",
+    "image": "assets/onmyoji/O6skin1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/c/c4/O6skin1.png/revision/latest?cb=20200829125757",
+    "stats2": null,
+    "skills": []
+  },
+  {
+    "no": "O7",
+    "role": "champion",
+    "page": "Fujiwara no Michinaga",
+    "en": "Fujiwara no Michinaga",
+    "cn": "藤原道长",
+    "jp": "藤原道長",
+    "unlock": "Chapter 26",
+    "cv": "Shinichiro Miki",
+    "intro": "",
+    "image": "assets/onmyoji/O7a.jpg",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/c/c9/O7a.jpg/revision/latest?cb=20260320004928",
+    "stats2": {
+      "atk": {
+        "lv1": "3256",
+        "max": "6382"
+      },
+      "hp": {
+        "lv1": "13847",
+        "max": "20826"
+      },
+      "def": {
+        "lv1": "536",
+        "max": "806"
+      },
+      "spd": {
+        "lv1": "100",
+        "max": "142"
+      },
+      "crit": {
+        "lv1": "0",
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "max": "150"
+      },
+      "effhit": {
+        "lv1": "0",
+        "max": "0"
+      },
+      "effres": {
+        "lv1": "0",
+        "max": "0"
+      }
+    },
+    "skills": [
+      {
+        "image": "o7skill1",
+        "icon": "assets/skills/o7skill1.png",
+        "name": "Admonition Notes (训诫之音)",
+        "type": "Normal",
+        "cooldown": 0,
+        "description": "Michinaga attacks a single target dealing damage equal to 100% of his ATK.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 105%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 115%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 125%."
+          }
+        ]
+      },
+      {
+        "image": "o7skill2",
+        "icon": "assets/skills/o7skill2.png",
+        "name": "Frontbreach Prelude (破阵奏曲)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Michinaga attacks an enemy 2 times, each dealing damage equal to 80% of ATK and lowering the target's Move Bar by 5%; then launches a charged attack against the target, dealing damage equal to 160% of ATK and lowering their Move Bar by 10%. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases charged attack damage to 200%."
+          },
+          {
+            "lvl": 3,
+            "text": "Gains 1 stack of Melodic Note when cast."
+          },
+          {
+            "lvl": 4,
+            "text": "Increases charged attack damage to 240%."
+          },
+          {
+            "lvl": 5,
+            "text": "Charged attack lowers the target's move bar by 20%."
+          }
+        ]
+      },
+      {
+        "image": "o7skill3",
+        "icon": "assets/skills/o7skill3.png",
+        "name": "Sonic Featherstring (神鸟惊弦)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Musical Onmyoji Spells. Yatagarasu consumes 3 stacks of Melodic Note, lowering the selected enemy target's move bar by 50% and inflicting Disarm for 1 turn. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Musical Onmyoji Spells (乐理阴阳木) :Michinaga blends music theory with onmyoji spells, requiring Melodic Notes to cast the skill.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Additionally reduces the target's starting ATK by 25% for 2 turns."
+          },
+          {
+            "lvl": 3,
+            "text": "Additionally reduces the target's starting DEF by 25% for 2 turns."
+          },
+          {
+            "lvl": 4,
+            "text": "Reduces starting ATK by 50%."
+          },
+          {
+            "lvl": 5,
+            "text": "Reduces starting DEF by 50%."
+          }
+        ]
+      },
+      {
+        "image": "o7skill4",
+        "icon": "assets/skills/o7skill4.png",
+        "name": "Elegant Chant (咏叹巧韵)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Enters a focused Koto Playing State, increasing all allies' ATK by 10% for 3 turns. ;Koto Playing State (奏律状态) : :[Buff, Mark] immune to control effects and banish, gains 1 additional stack of Melodic Note after the start of own turn and will not start action. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases duration to 4 turns."
+          },
+          {
+            "lvl": 3,
+            "text": "Increases the ATK boost to 20%."
+          },
+          {
+            "lvl": 4,
+            "text": "Increases duration to 5 turns."
+          },
+          {
+            "lvl": 5,
+            "text": "Increases the ATK boost to 30%."
+          }
+        ]
+      },
+      {
+        "image": "o7skill5",
+        "icon": "assets/skills/o7skill5.png",
+        "name": "Moontune Resonance (琴月齐鸣)",
+        "type": "Special",
+        "cooldown": 0,
+        "description": "Musical Onmyoji Spells. Consumes all Melodic Note, increasing all allies ATK by 10% per stack consumed for 1 turn. When 6 or more stacks of Melodic Note are consumed, removes Controlling Effect from all allies. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells. ;Musical Onmyoji Spells (乐理阴阳木) :Michinaga blends music theory with onmyoji spells, requiring Melodic Notes to cast the skill.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases the ATK by 13%."
+          },
+          {
+            "lvl": 3,
+            "text": "Increases the ATK by 16%."
+          },
+          {
+            "lvl": 4,
+            "text": "Increases the ATK boost by 20%."
+          },
+          {
+            "lvl": 5,
+            "text": "Increases duration to 2 turns."
+          }
+        ]
+      },
+      {
+        "image": "o7skill6",
+        "icon": "assets/skills/o7skill6.png",
+        "name": "Rhythm Mastery (诸律精通)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "At the start of Michinaga's own turn, gains 1 stack of Melodic Note. For each stack of Melodic Note gains, permanently increases his own SPD by 5, and all allies CRIT DMG by 5%, with stacking limit equal to Melodic Note's max stacks. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases the SPD by 8."
+          },
+          {
+            "lvl": 3,
+            "text": "Before his turn starts, when inflicted by move bar lowering effects, gains 1/2/3 stacks of Melodic Notes in sequence (up to 3 times)"
+          },
+          {
+            "lvl": 4,
+            "text": "Increases the Crit DMG by 8%."
+          },
+          {
+            "lvl": 5,
+            "text": "Increases the Melodic Note max stacks up to 10."
+          }
+        ]
+      },
+      {
+        "image": "o7skill7",
+        "icon": "assets/skills/o7skill7.png",
+        "name": "Harmonious Tuning(调律润心)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "For each stack of Melodic Note consumed, raises the move bar of Michinaga and the allied shikigami at the top of the turn order by 5%; when an enemy shikigami casts a skill, raises his own move bar by 10%. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+        "upgrades": []
+      },
+      {
+        "image": "o7skill8",
+        "icon": "assets/skills/o7skill8.png",
+        "name": "Dream Echoes (余音入梦)",
+        "type": "Passive",
+        "cooldown": 0,
+        "description": "Upon receiving lethal damage, removes all debuffs and transforms into Dream Consciousness remaining on the field for a number of turns equal to the current number of surviving allied shikigami. ;Dream Consciousness (梦境意识) : :Shares the same stats as Michinaga, immune to damage, control effects and banish. If only Dream Consciousness remains on the ally's field, the battle is lost.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Gains 1 stack of Melodic Note when triggered."
+          },
+          {
+            "lvl": 3,
+            "text": "Gains 2 stacks of Melodic Note when triggered."
+          },
+          {
+            "lvl": 4,
+            "text": "Gains 3 stacks of Melodic Note when triggered."
+          },
+          {
+            "lvl": 5,
+            "text": "Gains 4 stacks of Melodic Note when triggered."
+          },
+          {
+            "lvl": 6,
+            "text": "Gains 6 stacks of Melodic Note when triggered."
+          }
+        ]
+      }
+    ]
+  }
+]

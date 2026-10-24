@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onmyoji · Champions · Bondlings · Onmyoji Codex</title>
+  <meta name="theme-color" content="#0e0913">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=18">
+</head>
+<body data-page="characters" data-data="data/">
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="seal">陰</span>
+      <span>Onmyoji Codex<small>式神図鑑</small></span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shikigami.html">Shikigami</a>
+      <a href="souls.html">Souls</a>
+      <a href="bonding.html">Bonding</a>
+      <a href="characters.html" class="active">Characters</a>
+    </nav>
+  </header>
+
+  <main class="wrap section">
+    <div class="sec-head"><h2>Onmyoji &amp; Champions</h2><span class="jp">陰陽師</span><span class="spacer"></span></div>
+
+    <div class="toolbar">
+      <div class="search"><svg class="search-ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.4"/><path d="m10.4 10.4 3 3"/></svg><input id="char-search" type="search" placeholder="Search name…" aria-label="Search characters"></div>
+      <div class="chips" id="char-chips">
+        <button class="chip on" data-tab="onmyoji">Onmyoji</button>
+        <button class="chip" data-tab="champion">Champion</button>
+      </div>
+      <span class="count-note" id="count-note"></span>
+    </div>
+
+    <div class="grid" id="char-grid"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Character and bondling data derived from the public Onmyoji Fandom Wiki (CC BY-NC-SA 4.0). Mirrored art © NetEase Games.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js?v=21"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T11:30:00+07:00",
+  "title": "Design System: Onmyoji Codex",
+  "extensions": {
+    "colorMeta": {
+      "vermillion-seal": { "role": "primary", "displayName": "Vermillion Seal", "canonical": "#b03027" },
+      "shrine-gold": { "role": "primary", "displayName": "Shrine Gold", "canonical": "#c9a227" },
+      "lacquer-night": { "role": "neutral", "displayName": "Lacquer Night", "canonical": "#0e0913" },
+      "inked-surface": { "role": "neutral", "displayName": "Inked Surface", "canonical": "#1b1526" },
+      "ssr-gilt": { "role": "secondary", "displayName": "SSR Gilt", "canonical": "#d4af37" },
+      "sp-ember": { "role": "secondary", "displayName": "SP Ember", "canonical": "#e0554c" },
+      "sr-violet": { "role": "secondary", "displayName": "SR Violet", "canonical": "#9b6fd4" },
+      "r-blue": { "role": "secondary", "displayName": "R Blue", "canonical": "#5d9fd4" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only; Marcellus carved-roman." },
+      "data": { "displayName": "Data", "purpose": "Tables, chips, counts — system sans, tabular-nums." }
+    },
+    "shadows": [
+      { "name": "modal", "value": "0 12px 32px rgb(0 0 0 / 0.5), 0 2px 8px rgb(0 0 0 / 0.4)", "purpose": "Standing depth for the dialog and open menus." },
+      { "name": "lift", "value": "var(--shadow), 0 0 24px rgb(var(--rar-rgb) / 0.12)", "purpose": "Card hover: offset+blur shadow plus rarity halo." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Entrances and lifts." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.65, 0, 0.35, 1)", "purpose": "Color/border states." },
+      { "name": "durations", "value": "150ms / 320ms / 600ms (--dur-1/2/3)", "purpose": "State, panel, reveal steps." },
+      { "name": "stage delays", "value": "0.1s-0.45s (--stg-0..4, --dur-rise, --dur-sec)", "purpose": "Staged modal entrance." },
+      { "name": "ambient", "value": "sheen-sweep 0.9s, sheen-idle 8s (+per-card --sheen-st delay), mono-breath 7s, shimmer 1.4s", "purpose": "One ambient family per zone; reduced-motion kills all." }
+    ],
+    "breakpoints": [
+      { "name": "base", "value": "360px (phone layout, no query)" },
+      { "name": "md", "value": "min-width: 720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Vermillion seal CTA: the one affirmative fill.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Browse Shikigami</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;padding:var(--radius-sm,8px) 24px;border-radius:var(--radius-sm,8px);font-size:.95rem;letter-spacing:.1em;cursor:pointer;border:1px solid var(--border,#40304f);background:transparent;color:#efe7dd;transition:transform 150ms cubic-bezier(.22,1,.36,1),box-shadow 320ms;font-family:inherit}.ds-btn:hover{border-color:var(--gold,#c9a227);color:var(--gold-soft,#e5cf7a);transform:translateY(-1px)}.ds-btn:focus-visible{outline:2px solid var(--gold,#c9a227);outline-offset:2px}.ds-btn-primary{background:linear-gradient(135deg,#b03027,#8a241c);border-color:transparent;color:#f8ecdd;box-shadow:0 4px 18px rgba(176,48,39,.4)}.ds-btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 26px rgba(224,85,76,.45);color:#fff4e8}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action: no fill, hairline, gold hover trace.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Soul Catalog</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;padding:10px 24px;border-radius:8px;font-size:.95rem;letter-spacing:.1em;cursor:pointer;border:1px solid #40304f;background:transparent;color:#efe7dd;transition:border-color 150ms,color 150ms,transform 150ms}.ds-btn:hover{border-color:#c9a227;color:#e5cf7a;transform:translateY(-1px)}.ds-btn:active{transform:translateY(0);box-shadow:inset 0 2px 6px rgba(0,0,0,.35)}.ds-btn:focus-visible{outline:2px solid #c9a227;outline-offset:2px}"
+    },
+    {
+      "name": "Ema Card (SSR)",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The rarity plaque: gilded hairline, sheen lane, aligned meta.",
+      "html": "<div class=\"ds-card\" tabindex=\"0\" role=\"button\" aria-label=\"Yan He (SSR)\"><span class=\"ds-sheen\" aria-hidden=\"true\"></span><img class=\"ds-art\" alt=\"Yan He\" src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='170'%3E%3C/svg%3E\"/><div class=\"ds-name\"><strong>Yan He</strong></div><div class=\"ds-meta\"><span class=\"ds-badge ds-badge-ssr\">SSR</span><span class=\"ds-no\">No.606</span></div></div>",
+      "css": ".ds-card{position:relative;width:170px;padding:10px 10px 14px;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;text-align:center;background:linear-gradient(165deg,#251c33,#1b1526);border:1px solid rgba(212,175,55,.3);cursor:pointer;transition:transform 320ms cubic-bezier(.22,1,.36,1),border-color 320ms,box-shadow 320ms;font-family:inherit;color:#efe7dd}.ds-card:hover{transform:translateY(-6px);border-color:rgba(212,175,55,.8);box-shadow:0 12px 32px rgba(0,0,0,.5),0 0 24px rgba(212,175,55,.12)}.ds-card:focus-visible{outline:2px solid #c9a227;outline-offset:2px}.ds-sheen{position:absolute;top:-30%;left:-30%;width:60%;height:160%;background:linear-gradient(105deg,transparent 40%,rgba(229,207,122,.2) 50%,transparent 60%);transform:skewX(-18deg) translateX(-80%);opacity:0;transition:none}.ds-card:hover .ds-sheen{animation:ds-sweep .9s cubic-bezier(.22,1,.36,1)}@keyframes ds-sweep{0%{transform:skewX(-18deg) translateX(-80%);opacity:0}15%{opacity:1}100%{transform:skewX(-18deg) translateX(340%);opacity:0}}.ds-art{width:100%;aspect-ratio:1;object-fit:contain;border-radius:8px;background:radial-gradient(120px 90px at 50% 45%,rgba(201,162,39,.12),transparent 78%);transition:transform 600ms}.ds-card:hover .ds-art{transform:scale(1.06)}.ds-name{margin-top:8px;font-size:.9rem;line-height:1.35}.ds-meta{display:flex;justify-content:center;gap:6px;margin-top:auto;padding-top:8px;align-items:center}.ds-badge{font-size:.66rem;font-weight:700;letter-spacing:.18em;padding:2px 8px;border-radius:999px;border:1px solid rgba(212,175,55,.5);background:rgba(212,175,55,.08);color:#e5cf7a}.ds-no{color:#8b808f;font-size:.7rem}"
+    },
+    {
+      "name": "Rarity Badge",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill rarity tag; tinted hairline and 8% wash.",
+      "html": "<span class=\"ds-badge\">SSR</span>",
+      "css": ".ds-badge{font-size:.66rem;font-weight:700;letter-spacing:.18em;padding:2px 8px;border-radius:999px;border:1px solid rgba(212,175,55,.5);background:rgba(212,175,55,.08);color:#e5cf7a;text-transform:uppercase}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Selection chip: hairline idle, vermillion fill selected.",
+      "html": "<button class=\"ds-chip ds-chip-on\">All</button> <button class=\"ds-chip\">SP</button>",
+      "css": ".ds-chip{padding:6px 15px;border-radius:999px;border:1px solid #40304f;background:transparent;color:#ab9f97;cursor:pointer;font-size:.8rem;letter-spacing:.12em}.ds-chip:hover{color:#efe7dd;border-color:#8b808f}.ds-chip:focus-visible{outline:2px solid #c9a227;outline-offset:2px}.ds-chip-on{color:#f8ecdc;background:linear-gradient(135deg,#b03027,#8a241c);border-color:transparent}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": null,
+      "description": "Lacquer fill, drawn icon, gold focus halo.",
+      "html": "<div class=\"ds-search\"><svg class=\"ds-ico\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"><circle cx=\"7\" cy=\"7\" r=\"4.4\"/><path d=\"m10.4 10.4 3 3\"/></svg><input placeholder=\"Search name…\" aria-label=\"Search shikigami\"></div>",
+      "css": ".ds-search{position:relative;max-width:380px}.ds-ico{position:absolute;left:12px;top:50%;translate:0 -50%;width:16px;height:16px;color:#ab9f97;pointer-events:none}.ds-search input{width:100%;padding:9px 14px 9px 38px;background:#1b1526;border:1px solid #40304f;color:#efe7dd;border-radius:8px;font-size:.95rem;outline:none;transition:border-color 150ms,box-shadow 320ms}.ds-search input::placeholder{color:#ab9f97}.ds-search input:focus{border-color:#c9a227;box-shadow:0 0 0 3px rgba(201,162,39,.15)}.ds-search input:focus-visible{outline:none}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Sticky lacquer bar; gilt active link with vermillion underline.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-seal\">陰</span>Onmyoji Codex</a><a href=\"#\" class=\"ds-active\">Home</a><a href=\"#\">Shikigami</a></header>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:1.2rem;padding:12px 24px;background:rgba(14,9,19,.82);border-bottom:1px solid #2c2138}.ds-brand{color:#efe7dd;text-decoration:none;font-size:1.15rem;letter-spacing:.12em}.ds-seal{width:34px;height:34px;display:inline-grid;place-items:center;background:linear-gradient(135deg,#b03027,#7d1f18);color:#f6e9d8;border-radius:7px;margin-right:10px}.ds-nav a{color:#ab9f97;text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}.ds-nav a:hover,.ds-nav .ds-active{color:#e5cf7a;border-color:#b03027}.ds-nav{font-family:Georgia,serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lacquered Archive",
+    "overview": "The codex is a dark Heian display case: game data set into night-lacquer surfaces with gilded edges, where each shikigami is an ema plaque and color itself means rarity. Density is high, ornament is scarce and always load-bearing. Motion is expressive choreography — staggered reveals, rarity-conditioned sheen, staged modal entrances — all gated behind prefers-reduced-motion.",
+    "keyCharacteristics": ["Rarity is the color system, carried on full hairlines", "Deep warm neutrals carry the ground; vermilion and gold are seals, not palettes", "Marcellus display over Mincho prose; system sans for data", "Every surface answers hover, focus-visible, active, disabled, loading and error"],
+    "rules": [
+      { "name": "The Full Hairline Rule", "body": "Rarity uses a complete 1px border at 30% tint brightening to 80% on hover — never a one-sided colored bar.", "section": "colors" },
+      { "name": "The Seal Rule", "body": "Vermillion appears as a fill on at most one interaction point per viewport. Gold never fills; it traces.", "section": "colors" },
+      { "name": "The Twice-Sized Rule", "body": "Display type is at least 2.5x the body size; section heads never shrink to bold body text.", "section": "typography" },
+      { "name": "The Hairline-First Rule", "body": "If separation can be a 1px border and a tone step, it is; a shadow must answer a state.", "section": "elevation" }
+    ],
+    "dos": ["Compose translucent accents from rgb(var(--<color>-rgb) / a) triplet tokens", "Keep every animation under the .js-fx opt-in and the prefers-reduced-motion fallback", "Size art with natural aspect (heroFit); art files are WebP-as-png with transparent margins"],
+    "donts": ["No emoji or unicode glyphs as icons — all icons are inline drawn SVGs", "No native <select>, no one-sided colored borders", "No network loads of any kind; attribution stays plain-text in the footer", "Never fabricate missing art; use the img-err initial ornament"]
+  }
+}

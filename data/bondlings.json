@@ -1,0 +1,130 @@
+[
+  {
+    "no": "OB01",
+    "page": "Tomb Guard (Bondling)",
+    "en": "Tomb Guard",
+    "cn": "镇墓兽",
+    "jp": "墓守り",
+    "area": "| Heian-kyo",
+    "type": "| ATK",
+    "image": "assets/bondlings/OB01s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/6/61/OB01s1.png/revision/latest?cb=20230702112431",
+    "skins": [
+      "assets/bondlings/OB01skin1.png",
+      "assets/bondlings/OB01skin2.png"
+    ],
+    "skill": "When the onmyoji's HP drops below 70% of their max HP, summons Tomb Guard to permanently increase all allies' Crit DMG by 30%. The effect triggers up to once each battle"
+  },
+  {
+    "no": "OB02",
+    "page": "Snowball (Bondling)",
+    "en": "Snowball",
+    "cn": "茨球",
+    "jp": "茨玉",
+    "area": "| Heian-kyo",
+    "type": "| ATK",
+    "image": "assets/bondlings/OB02s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/5/53/OB02s1.png/revision/latest?cb=20230702112446",
+    "skins": [
+      "assets/bondlings/OB02skin1.png",
+      "assets/bondlings/OB02skin2.png"
+    ],
+    "skill": "When the onmyoji uses a Skill, increases their Crit by 100% for 2 turns; if single-target damage is dealt with the Skill, increases the damage by 50%; if only one target is attacked, orders Snowball to launch a follow-up strike on the enemy, dealing damage equal to 150% of the onmyoji's ATK."
+  },
+  {
+    "no": "OB03",
+    "page": "Little Kuro (Bondling)",
+    "en": "Little Kuro",
+    "cn": "小黒",
+    "jp": "| Heian-kyo",
+    "area": "| Heian-kyo",
+    "type": "| HP",
+    "image": "assets/bondlings/OB03s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/2/28/OB03s1.png/revision/latest?cb=20230702112457",
+    "skins": [
+      "assets/bondlings/OB03skin1.png",
+      "assets/bondlings/OB03skin2.png"
+    ],
+    "skill": "Increases the Coin yield in Exploration zone battles by 5%.\nAt the end of the onmyoji's turn, heals the HP of the ally with the lowest HP by 12% of their max HP and increases their DEF by 30% for 2 turns."
+  },
+  {
+    "no": "OB04",
+    "page": "Azure Basan (Bondling)",
+    "en": "Azure Basan",
+    "cn": "火灵",
+    "jp": "火霊",
+    "area": "| Heian-kyo",
+    "type": "| DEF",
+    "image": "assets/bondlings/OB04s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/a/a4/OB04s1.png/revision/latest?cb=20230702112506",
+    "skins": [
+      "assets/bondlings/OB04skin1.png",
+      "assets/bondlings/OB04skin2.png"
+    ],
+    "skill": "Grants 2 orbs at the start of battle and launches a 3-strike attack on all enemies at the end of the onmyoji's turn, dealing damage equal to 100% of the onmyoji's ATK."
+  },
+  {
+    "no": "OB05",
+    "page": "Seductress (Bondling)",
+    "en": "Seductress",
+    "cn": null,
+    "jp": "|Ominous Land",
+    "area": "|Ominous Land",
+    "type": "|ATK",
+    "image": "assets/bondlings/OB05s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/b/b6/OB05s1.png/revision/latest?cb=20251214174143",
+    "skins": [
+      "assets/bondlings/OB05skin1.png",
+      "assets/bondlings/OB05skin2.png"
+    ],
+    "skill": "For every 5 instances of CRIT DMG dealt by the ally with the highest ATK, the next attack deals an additional true damage equal to 50% of the onmyoji's ATK (not exceeding 100% of the initial ATK.) When the onmyoji deals damage, attacks all enemies 3 times, each dealing true damage equal to 200% of the Onmyoji's ATK."
+  },
+  {
+    "no": "OB06",
+    "page": "Soul Edge (Bondling)",
+    "en": "Soul Edge",
+    "cn": null,
+    "jp": null,
+    "area": "|Ominous Land",
+    "type": "|DEF",
+    "image": "assets/bondlings/OB06s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/7/7e/OB06s1.png/revision/latest?cb=20251214190237",
+    "skins": [
+      "assets/bondlings/OB01skin6.png",
+      "assets/bondlings/OB02skin6.png"
+    ],
+    "skill": "When an allied shikigami takes lethal damage, restores HP to 20% and the onmyoji shares the excess damage (this effect can be trigged up to 3 times.) When the Onmyoji's HP is 50% or below, Soul Edge attacks all enemies, dealing 100% daamge and increasing all allies damage by 30% for 2 turns. Cooldown: 2 turns."
+  },
+  {
+    "no": "OB07",
+    "page": "Lunar Lepus (Bondling)",
+    "en": "Lunar Lepus",
+    "cn": null,
+    "jp": null,
+    "area": "|Ominous Land",
+    "type": "|ATK",
+    "image": "assets/bondlings/OB07s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/3/3f/OB07s1.png/revision/latest?cb=20260131033925",
+    "skins": [
+      "assets/bondlings/OB07skin1.png",
+      "assets/bondlings/OB07skin2.png"
+    ],
+    "skill": "Upper Hand: Grants the Onmyoji Moon Blessing: Increases SPD by 30. At the end of the turn, raises the move bar of another ally at the top of the turn order by 20%."
+  },
+  {
+    "no": "OB08",
+    "page": "Fox Fire (Bondling)",
+    "en": "Fox Fire",
+    "cn": null,
+    "jp": null,
+    "area": "|HP",
+    "type": "|}",
+    "image": "assets/bondlings/OB08s1.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/3/3b/OB08s1.png/revision/latest?cb=20251220174238",
+    "skins": [
+      "assets/bondlings/OB08skin1.png",
+      "assets/bondlings/OB08skin2.png"
+    ],
+    "skill": "Increases Effect HIT by 20%. After the Onmyoji acts for 2 turns, summons fox spirits to attack all enemies, dealing 100% damage twice and additionally increasing the Onmyoji's Effect HIT by 30%."
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Onmyoji Codex — lacquer night",
+  "primitives": {
+    "ink": { "primary": { "$type": "color", "$value": "#efe7dd" }, "secondary": { "$type": "color", "$value": "#ab9f97" }, "tertiary": { "$type": "color", "$value": "#8b808f" }, "cream": { "$type": "color", "$value": "#f8ecdd" } },
+    "seal": { "vermillion": { "$type": "color", "$value": "#b03027" }, "gold": { "$type": "color", "$value": "#c9a227" }, "gold-soft": { "$type": "color", "$value": "#e5cf7a" } },
+    "hairline": { "default": { "$type": "color", "$value": "#40304f" } }
+  },
+  "semantic": {
+    "text": {
+      "primary": { "$type": "color", "$value": "#efe7dd" },
+      "secondary": { "$type": "color", "$value": "#ab9f97" },
+      "tertiary": { "$type": "color", "$value": "#8b808f" },
+      "link": { "$type": "color", "$value": "#e5cf7a" },
+      "on-action": { "$type": "color", "$value": "#f8ecdd" }
+    },
+    "surface": {
+      "page": { "$type": "color", "$value": "#0e0913" },
+      "card": { "$type": "color", "$value": "#1b1526" },
+      "raised": { "$type": "color", "$value": "#251c33" }
+    },
+    "action": {
+      "primary": { "$type": "color", "$value": "#b03027" }
+    },
+    "border": {
+      "strong": { "$type": "color", "$value": "#c9a227" },
+      "default": { "$type": "color", "$value": "#40304f" }
+    }
+  }
+}
