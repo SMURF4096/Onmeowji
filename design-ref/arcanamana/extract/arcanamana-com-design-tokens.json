@@ -1,0 +1,278 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://arcanamana.com",
+    "generatedAt": "2026-10-24T07:21:50.257Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#a67811",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "#f5efe4",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#131415",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#131415",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#0000ee",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#f5efe4",
+          "$type": "color"
+        }
+      },
+      "ramp": {
+        "primary": {
+          "50": {
+            "$value": "#fff1bf",
+            "$type": "color"
+          },
+          "100": {
+            "$value": "#ffe5ae",
+            "$type": "color"
+          },
+          "200": {
+            "$value": "#f8d395",
+            "$type": "color"
+          },
+          "300": {
+            "$value": "#e3b971",
+            "$type": "color"
+          },
+          "400": {
+            "$value": "#c59742",
+            "$type": "color"
+          },
+          "500": {
+            "$value": "#a67811",
+            "$type": "color"
+          },
+          "600": {
+            "$value": "#8e6300",
+            "$type": "color"
+          },
+          "700": {
+            "$value": "#754e00",
+            "$type": "color"
+          },
+          "800": {
+            "$value": "#613f00",
+            "$type": "color"
+          },
+          "900": {
+            "$value": "#503200",
+            "$type": "color"
+          },
+          "950": {
+            "$value": "#2e1a00",
+            "$type": "color"
+          }
+        },
+        "secondary": {
+          "50": {
+            "$value": "#f5efe4",
+            "$type": "color"
+          },
+          "100": {
+            "$value": "#ede9e2",
+            "$type": "color"
+          },
+          "200": {
+            "$value": "#ddd9d0",
+            "$type": "color"
+          },
+          "300": {
+            "$value": "#c5c0b7",
+            "$type": "color"
+          },
+          "400": {
+            "$value": "#a49f95",
+            "$type": "color"
+          },
+          "500": {
+            "$value": "#878177",
+            "$type": "color"
+          },
+          "600": {
+            "$value": "#706b62",
+            "$type": "color"
+          },
+          "700": {
+            "$value": "#5a564e",
+            "$type": "color"
+          },
+          "800": {
+            "$value": "#4a463f",
+            "$type": "color"
+          },
+          "900": {
+            "$value": "#3c3832",
+            "$type": "color"
+          },
+          "950": {
+            "$value": "#211e1a",
+            "$type": "color"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "2px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "32px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "40px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "52px",
+        "$type": "dimension"
+      },
+      "s5": {
+        "$value": "80px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "r2": {
+        "$value": "28px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "Geist Mono",
+        "$type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "display": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "body": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "body-sm": {
+        "$value": "12px",
+        "$type": "dimension"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}",
+          "$type": "color"
+        },
+        "onPrimary": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "onSecondary": {
+          "$value": "#000000",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        },
+        "page": {
+          "$value": "#131415",
+          "$type": "color"
+        },
+        "onPage": {
+          "$value": "#f5efe4",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "Geist Mono",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}",
+        "$type": "shadow"
+      }
+    }
+  }
+}

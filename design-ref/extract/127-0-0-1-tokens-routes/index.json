@@ -1,0 +1,332 @@
+{
+  "url": "http://127.0.0.1:8431",
+  "path": "/",
+  "added": {},
+  "changed": {
+    "primitive": {
+      "color": {
+        "brand": {
+          "primary": {
+            "$value": "#d4af37"
+          },
+          "secondary": {
+            "$value": "#d95546"
+          }
+        },
+        "neutral": {
+          "n100": {
+            "$value": "#8b808f"
+          },
+          "n200": {
+            "$value": "#ab9f97"
+          },
+          "n300": {
+            "$value": "#ffffff"
+          },
+          "n400": {
+            "$value": "#0e0913"
+          },
+          "n500": {
+            "$value": "#40304f"
+          }
+        },
+        "background": {
+          "bg1": {
+            "$value": "#c9a227"
+          }
+        },
+        "text": {
+          "text5": {
+            "$value": "#f8ecdc"
+          },
+          "text6": {
+            "$value": "#8b808f"
+          },
+          "text7": {
+            "$value": "#d95546"
+          },
+          "text8": {
+            "$value": "#f1958d"
+          }
+        },
+        "ramp": {
+          "primary": {
+            "50": {
+              "$value": "#fff4b5"
+            },
+            "200": {
+              "$value": "#f2d788"
+            },
+            "300": {
+              "$value": "#d4af37"
+            },
+            "400": {
+              "$value": "#bf9c26"
+            },
+            "500": {
+              "$value": "#a17d00"
+            },
+            "600": {
+              "$value": "#896700"
+            },
+            "700": {
+              "$value": "#705200"
+            },
+            "800": {
+              "$value": "#5d4200"
+            },
+            "900": {
+              "$value": "#4c3500"
+            }
+          },
+          "secondary": {
+            "50": {
+              "$value": "#ffdcce"
+            },
+            "100": {
+              "$value": "#ffcebf"
+            },
+            "200": {
+              "$value": "#ffb9a9"
+            },
+            "300": {
+              "$value": "#ff9a89"
+            },
+            "400": {
+              "$value": "#f47362"
+            },
+            "500": {
+              "$value": "#d95546"
+            },
+            "600": {
+              "$value": "#b73c2f"
+            },
+            "700": {
+              "$value": "#98291f"
+            },
+            "800": {
+              "$value": "#801c14"
+            },
+            "900": {
+              "$value": "#6a120c"
+            },
+            "950": {
+              "$value": "#400402"
+            }
+          },
+          "accent": {
+            "50": {
+              "$value": "#fff4b6"
+            },
+            "100": {
+              "$value": "#ffe8a3"
+            },
+            "200": {
+              "$value": "#f4d688"
+            },
+            "300": {
+              "$value": "#debd61"
+            },
+            "400": {
+              "$value": "#c9a227"
+            },
+            "500": {
+              "$value": "#a27c00"
+            },
+            "600": {
+              "$value": "#8a6600"
+            },
+            "700": {
+              "$value": "#715100"
+            },
+            "800": {
+              "$value": "#5e4200"
+            },
+            "900": {
+              "$value": "#4d3400"
+            },
+            "950": {
+              "$value": "#2c1c00"
+            }
+          },
+          "neutral": {
+            "50": {
+              "$value": "#faf2fc"
+            },
+            "100": {
+              "$value": "#efe7f2"
+            },
+            "200": {
+              "$value": "#ded5e2"
+            },
+            "300": {
+              "$value": "#c6bcca"
+            },
+            "400": {
+              "$value": "#a69baa"
+            },
+            "500": {
+              "$value": "#8b808f"
+            },
+            "600": {
+              "$value": "#726876"
+            },
+            "700": {
+              "$value": "#5c535f"
+            },
+            "800": {
+              "$value": "#4b434e"
+            },
+            "900": {
+              "$value": "#3d363f"
+            },
+            "950": {
+              "$value": "#211d23"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "s0": {
+          "$value": "2px"
+        },
+        "s1": {
+          "$value": "24px"
+        },
+        "s2": {
+          "$value": "29px"
+        },
+        "s3": {
+          "$value": "35px"
+        },
+        "s4": {
+          "$value": "40px"
+        },
+        "s5": {
+          "$value": "48px"
+        },
+        "s6": {
+          "$value": "56px"
+        },
+        "s7": {
+          "$value": "64px"
+        },
+        "s8": {
+          "$value": "88px"
+        }
+      },
+      "radius": {
+        "r0": {
+          "$value": "7px"
+        },
+        "r1": {
+          "$value": "12px"
+        },
+        "r2": {
+          "$value": "999px"
+        }
+      },
+      "shadow": {
+        "sh0": {
+          "$value": "rgba(176, 48, 39, 0.45) 0px 2px 10px 0px"
+        },
+        "sh1": {
+          "$value": "rgba(176, 48, 39, 0.4) 0px 4px 18px 0px"
+        }
+      },
+      "fontSize": {
+        "h1": {
+          "$value": "64px"
+        },
+        "title-1": {
+          "$value": "38.4px"
+        },
+        "title-2": {
+          "$value": "35.2px"
+        },
+        "title-3": {
+          "$value": "27.2px"
+        },
+        "title-4": {
+          "$value": "20.8px"
+        },
+        "title-5": {
+          "$value": "18.4px"
+        },
+        "title-6": {
+          "$value": "16.8px"
+        },
+        "body": {
+          "$value": "16px"
+        },
+        "body-sm": {
+          "$value": "15.2px"
+        },
+        "micro": {
+          "$value": "14.4px"
+        },
+        "sm-3": {
+          "$value": "13.6px"
+        },
+        "sm-4": {
+          "$value": "12.48px"
+        },
+        "sm-5": {
+          "$value": "12px"
+        },
+        "sm-6": {
+          "$value": "11.2px"
+        },
+        "sm-7": {
+          "$value": "10.88px"
+        },
+        "sm-8": {
+          "$value": "10.56px"
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "action": {
+          "accent": {
+            "$value": "#c9a227"
+          },
+          "onAccent": {
+            "$value": "#000000"
+          }
+        },
+        "surface": {
+          "raised": {
+            "$value": "#c9a227"
+          },
+          "onRaised": {
+            "$value": "#000000"
+          }
+        }
+      },
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "Zen Old Mincho",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal"
+          }
+        },
+        "heading": {
+          "$value": {
+            "fontFamily": "Zen Old Mincho",
+            "fontSize": "64px",
+            "fontWeight": "700",
+            "lineHeight": "71.68px"
+          }
+        }
+      },
+      "shadow": {
+        "elevated": {
+          "$value": "{primitive.shadow.sh1}"
+        }
+      }
+    }
+  }
+}

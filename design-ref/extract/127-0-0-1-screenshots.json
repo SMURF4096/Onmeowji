@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "cluster": "button--primary",
+      "variant": 0,
+      "path": "screenshots/button-primary-0.png",
+      "bounds": {
+        "w": 201,
+        "h": 47
+      },
+      "kind": "button",
+      "variantHint": "primary",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "button--ghost",
+      "variant": 0,
+      "path": "screenshots/button-ghost-0.png",
+      "bounds": {
+        "w": 159,
+        "h": 47
+      },
+      "kind": "button",
+      "variantHint": "ghost",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "card--default",
+      "variant": 0,
+      "path": "screenshots/card-default-0.png",
+      "bounds": {
+        "w": 216,
+        "h": 148
+      },
+      "kind": "card",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "card--default",
+      "variant": 1,
+      "path": "screenshots/card-default-1.png",
+      "bounds": {
+        "w": 216,
+        "h": 148
+      },
+      "kind": "card",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "card--default",
+      "variant": 2,
+      "path": "screenshots/card-default-2.png",
+      "bounds": {
+        "w": 216,
+        "h": 148
+      },
+      "kind": "card",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    }
+  ],
+  "fullPage": {
+    "path": "screenshots/full-page.png",
+    "retina": true
+  },
+  "count": 5
+}

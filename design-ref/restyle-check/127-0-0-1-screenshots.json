@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "cluster": "button--primary",
+      "variant": 0,
+      "path": "screenshots/button-primary-0.png",
+      "bounds": {
+        "w": 188,
+        "h": 42
+      },
+      "kind": "button",
+      "variantHint": "primary",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "button--ghost",
+      "variant": 0,
+      "path": "screenshots/button-ghost-0.png",
+      "bounds": {
+        "w": 153,
+        "h": 42
+      },
+      "kind": "button",
+      "variantHint": "ghost",
+      "sizeHint": "",
+      "retina": true
+    }
+  ],
+  "fullPage": {
+    "path": "screenshots/full-page.png",
+    "retina": true
+  },
+  "count": 2
+}

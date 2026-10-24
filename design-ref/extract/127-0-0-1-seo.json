@@ -1,0 +1,27 @@
+{
+  "openGraph": {},
+  "twitter": {},
+  "description": "A fan-built codex for the Onmyoji game: shikigami roster, souls and stats. Data from the Onmyoji Wiki (CC BY-NC-SA).",
+  "canonical": null,
+  "themeColor": "#0e0913",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "http://127.0.0.1:8431/assets/img/favicon.svg",
+      "sizes": "",
+      "type": "image/svg+xml"
+    }
+  ],
+  "manifest": null,
+  "structuredData": [],
+  "score": {
+    "hasOg": false,
+    "hasTwitter": false,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": true
+  }
+}

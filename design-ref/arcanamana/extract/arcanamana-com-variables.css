@@ -1,0 +1,83 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #a67811;
+  --color-secondary: #f5efe4;
+
+  /* Ramp — primary (base is 500) */
+  --color-primary-50: #fff1bf;
+  --color-primary-100: #ffe5ae;
+  --color-primary-200: #f8d395;
+  --color-primary-300: #e3b971;
+  --color-primary-400: #c59742;
+  --color-primary-500: #a67811;
+  --color-primary-600: #8e6300;
+  --color-primary-700: #754e00;
+  --color-primary-800: #613f00;
+  --color-primary-900: #503200;
+  --color-primary-950: #2e1a00;
+
+  /* Ramp — secondary (base is 50) */
+  --color-secondary-50: #f5efe4;
+  --color-secondary-100: #ede9e2;
+  --color-secondary-200: #ddd9d0;
+  --color-secondary-300: #c5c0b7;
+  --color-secondary-400: #a49f95;
+  --color-secondary-500: #878177;
+  --color-secondary-600: #706b62;
+  --color-secondary-700: #5a564e;
+  --color-secondary-800: #4a463f;
+  --color-secondary-900: #3c3832;
+  --color-secondary-950: #211e1a;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #131415;
+
+  /* Colors — Backgrounds */
+  --color-bg: #131415;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #0000ee;
+  --color-text-2: #f5efe4;
+
+  /* Semantic pairs */
+  --surface-page-bg: #131415;
+  --surface-page-fg: #f5efe4; /* 16.12:1 AAA */
+  --action-primary-bg: #a67811;
+  --action-primary-fg: #000000; /* 5.32:1 AA */
+  --action-secondary-bg: #f5efe4;
+  --action-secondary-fg: #000000; /* 18.35:1 AAA */
+
+  /* Typography — Families */
+  --font-sans: 'Geist Mono', sans-serif;
+
+  /* Typography — Named scale */
+  --font-size-display: 16px;
+  --font-size-body: 14px;
+  --font-size-body-sm: 12px;
+
+  /* Spacing */
+  --spacing-2: 2px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-52: 52px;
+  --spacing-80: 80px;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-lg: 16px;
+  --radius-full: 28px;
+
+  /* Box Shadows */
+  --shadow-xs: rgba(0, 0, 0, 0.25) 0px 2px 4px 0px;
+
+  /* Original Site Variables */
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

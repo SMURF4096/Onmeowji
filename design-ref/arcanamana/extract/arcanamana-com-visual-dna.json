@@ -1,0 +1,86 @@
+{
+  "materialLanguage": {
+    "label": "flat",
+    "confidence": 0,
+    "signals": [],
+    "metrics": {
+      "saturation": 0.412,
+      "shadowProfile": "soft",
+      "avgShadowBlur": 0,
+      "maxShadowBlur": 0,
+      "insetShadows": 0,
+      "avgRadius": 16.7,
+      "maxRadius": 28,
+      "hasPill": false,
+      "hasBackdropBlur": false,
+      "gradientCount": 1
+    },
+    "alternates": []
+  },
+  "imageryStyle": {
+    "label": "mixed",
+    "confidence": 0,
+    "counts": {
+      "total": 90,
+      "svg": 0,
+      "icon": 0,
+      "hero": 0,
+      "screenshot": 0,
+      "photoLike": 0
+    },
+    "dominantAspect": "portrait",
+    "radiusProfile": "square",
+    "alternates": [],
+    "signals": []
+  },
+  "backgroundPatterns": {
+    "labels": [
+      "svg-pattern"
+    ],
+    "counts": {
+      "noise": 0,
+      "dotGrid": 0,
+      "lineGrid": 0,
+      "meshCount": 0,
+      "svgPattern": 100
+    },
+    "gradientTotals": {
+      "radial": 0,
+      "linear": 72
+    },
+    "samples": [
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 0 0.5 L 117.01 0.5 C 122.36 0.5 125.03 6.96 121.25 10"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 0 145.5 L 117.01 145.5 C 122.36 145.5 125.03 139.04 1"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 132 0.5 L 14.99 0.5 C 9.64 0.5 6.97 6.96 10.75 10.74 "
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 132 145.5 L 14.99 145.5 C 9.64 145.5 6.97 139.04 10.7"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 275 475\\\"><path d=\\\"M 275 137.5 L 271 137.5 M 239.3 78.8 L 224.1 87.5 M 275"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 0 0.5 L 117.01 0.5 C 122.36 0.5 125.03 6.96 121.25 10"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 0 145.5 L 117.01 145.5 C 122.36 145.5 125.03 139.04 1"
+      },
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 132 146\\\"><path d=\\\"M 132 0.5 L 14.99 0.5 C 9.64 0.5 6.97 6.96 10.75 10.74 "
+      }
+    ]
+  }
+}

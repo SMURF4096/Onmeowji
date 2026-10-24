@@ -1,0 +1,24 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://arcanamana.com",
+  "generated": "2026-10-24T07:21:56.546Z",
+  "count": 1,
+  "gradients": [
+    {
+      "raw": "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%)",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgb(255, 255, 255)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    }
+  ]
+}

@@ -50893,5 +50893,56 @@
     "image": null,
     "wiki": "https://onmyoji.fandom.com/wiki/Daruma",
     "rarityIcon": "assets/icons/N.png"
+  },
+  {
+    "no": 593,
+    "en": "Scarlet Nightedge Yoto Hime",
+    "cn": "妖刀姬·绯夜猎刃 · 夜猎版",
+    "jp": "妖刀姫·緎夜猟刃",
+    "gl": "Yoto Hime, Scarlet Nightedge",
+    "rarity": "UR",
+    "art": "assets/art/593skin1.png",
+    "localImage": "assets/shikigami/593.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/5/55/593skin1.png/revision/latest?cb=20251207160631",
+    "type": "ATK",
+    "intro": "A brilliant hunter wielding a cursed crimson blade in a museum display case. The ancient weapon glows with eerie light—will it follow light or carnage? She once had a happy family; now she searches for answers in every mission.",
+    "cv": "Shiori Izawa",
+    "role": "shikigami",
+    "combo2": "Scarlet Prelude",
+    "combo4": "Midnight Hunt",
+    "skills": [
+      {
+        "name": "Scarlet Prelude",
+        "type": "Normal",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5931.png",
+        "description": "Run all you want—my blade will catch up. Attacks a single target dealing damage equal to 100% of ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%."
+      },
+      {
+        "name": "Twilight Melody",
+        "type": "Special 1",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5932.png",
+        "description": "Exclusive effect. Inflicts Bounty on selected enemy target. Bounty (General, Mark): up to 1 mark; ignores 50% DEF when attacking; gains 30% move bar at target turn end. Isolation: damage cannot be shared/redirected. Level 2: +60 SPD when Bounty target HP <90%. Level 3: damage treated as Isolation. Level 4: damage reduction and control immunity doubled when HP <60%. Level 5: targets enemy with highest SPD (non-summoned)."
+      },
+      {
+        "name": "Midnight Hunt",
+        "type": "Special 2",
+        "onibi": 3,
+        "cooldown": 0,
+        "icon": "assets/skills/5933.png",
+        "description": "My hunt, your doom. Attacks target 6 times, each 50% ATK. If Bounty active, extra attack on Bounty target (50% multiplier). Level 2: 55%. Level 3: +10% damage multiplier per enemy defeated (max 50%). Level 4: 60%. Level 5: when non-summoned enemy defeated, inflicts damage on lowest HP enemy at no cost (once per turn before her turn)."
+      },
+      {
+        "name": "Edge Rebirth",
+        "type": "Linked",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5934.png",
+        "description": "New request? No problem. Damage taken reduced 40%. 50% chance immunity to control effects; when triggers, counters attack. Bounty active: ignores 50% DEF; gains 30% move bar at target turn end. Immobile: unable to take actions (Banish/Freeze/Sleep/etc). Link Switch: only for linked tier; cast when non-summoned target defeated → switch to UR; gain +1 turn; +100% CRIT DMG; inflict Bounty on lowest HP enemy."
+      }
+    ]
   }
 ]

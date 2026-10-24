@@ -1,0 +1,203 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#c9a227",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#e0554c",
+          "name": "Secondary"
+        },
+        {
+          "slug": "accent",
+          "color": "#d4af37",
+          "name": "Accent"
+        },
+        {
+          "slug": "neutral-1",
+          "color": "#ab9f97",
+          "name": "Neutral 1"
+        },
+        {
+          "slug": "neutral-2",
+          "color": "#8b808f",
+          "name": "Neutral 2"
+        },
+        {
+          "slug": "neutral-3",
+          "color": "#cfc5bb",
+          "name": "Neutral 3"
+        },
+        {
+          "slug": "neutral-4",
+          "color": "#ffffff",
+          "name": "Neutral 4"
+        },
+        {
+          "slug": "neutral-5",
+          "color": "#b3b3b7",
+          "name": "Neutral 5"
+        },
+        {
+          "slug": "bg-0e0913",
+          "color": "#0e0913",
+          "name": "Background #0e0913"
+        },
+        {
+          "slug": "bg-c9a227",
+          "color": "#c9a227",
+          "name": "Background #c9a227"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "gradient-1",
+          "gradient": "radial-gradient(1200px 600px at 85% -12%, rgba(176, 48, 39, 0.07), rgba(0, 0, 0, 0) 78%)",
+          "name": "Gradient 1"
+        },
+        {
+          "slug": "gradient-2",
+          "gradient": "radial-gradient(900px 500px at -12% 22%, rgba(201, 162, 39, 0.05), rgba(0, 0, 0, 0) 78%)",
+          "name": "Gradient 2"
+        },
+        {
+          "slug": "gradient-3",
+          "gradient": "linear-gradient(135deg, rgb(176, 48, 39), rgb(125, 31, 24))",
+          "name": "Gradient 3"
+        },
+        {
+          "slug": "gradient-4",
+          "gradient": "linear-gradient(135deg, rgb(176, 48, 39), rgb(138, 36, 28))",
+          "name": "Gradient 4"
+        },
+        {
+          "slug": "gradient-5",
+          "gradient": "linear-gradient(160deg, rgb(37, 28, 51), rgb(27, 21, 38))",
+          "name": "Gradient 5"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Zen Old Mincho",
+          "slug": "zen-old-mincho",
+          "name": "Zen Old Mincho"
+        },
+        {
+          "fontFamily": "Marcellus",
+          "slug": "marcellus",
+          "name": "Marcellus"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "64px",
+          "slug": "size-64",
+          "name": "64px"
+        },
+        {
+          "size": "38.4px",
+          "slug": "size-38.4",
+          "name": "38.4px"
+        },
+        {
+          "size": "35.2px",
+          "slug": "size-35.2",
+          "name": "35.2px"
+        },
+        {
+          "size": "28.8px",
+          "slug": "size-28.8",
+          "name": "28.8px"
+        },
+        {
+          "size": "27.2px",
+          "slug": "size-27.2",
+          "name": "27.2px"
+        },
+        {
+          "size": "22.4px",
+          "slug": "size-22.4",
+          "name": "22.4px"
+        },
+        {
+          "size": "20.8px",
+          "slug": "size-20.8",
+          "name": "20.8px"
+        },
+        {
+          "size": "18.4px",
+          "slug": "size-18.4",
+          "name": "18.4px"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "0px",
+          "slug": "spacing-0",
+          "name": "0px"
+        },
+        {
+          "size": "2px",
+          "slug": "spacing-2",
+          "name": "2px"
+        },
+        {
+          "size": "13px",
+          "slug": "spacing-13",
+          "name": "13px"
+        },
+        {
+          "size": "24px",
+          "slug": "spacing-24",
+          "name": "24px"
+        },
+        {
+          "size": "26px",
+          "slug": "spacing-26",
+          "name": "26px"
+        },
+        {
+          "size": "29px",
+          "slug": "spacing-29",
+          "name": "29px"
+        },
+        {
+          "size": "35px",
+          "slug": "spacing-35",
+          "name": "35px"
+        },
+        {
+          "size": "38px",
+          "slug": "spacing-38",
+          "name": "38px"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1240px",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#0e0913",
+      "text": "#ffffff"
+    },
+    "typography": {
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "fontFamily": "Zen Old Mincho"
+    },
+    "spacing": {}
+  }
+}

@@ -1,0 +1,17 @@
+/* shadcn/ui Theme — extracted from https://arcanamana.com */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 210 5% 8%;
+    --foreground: 0 0% 0%;
+    --primary: 41 81% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 39 46% 93%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 210 5% 8%;
+    --muted-foreground: 0 0% 0%;
+    --border: 210 5% 8%;
+    --radius: 6px;
+  }
+}

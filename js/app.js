@@ -132,7 +132,7 @@ function shikCard(s, lead = false) {
   <div class="card${lead ? " lead" : ""}" data-no="${s.no}" data-rarity="${s.rarity}" tabindex="0" role="button"
        aria-label="${esc(s.en)} (${s.rarity})">
     <span class="sheen" aria-hidden="true"></span>
-    ${s.localImage || s.imageUrl ? `<img src="${s.localImage ?? s.imageUrl}" loading="lazy" decoding="async" alt="${esc(s.en)}">` : `<div class="skeleton"></div>`}
+    ${s.art || s.localImage || s.imageUrl ? `<img src="${s.art || s.localImage || s.imageUrl}" loading="lazy" decoding="async" alt="${esc(s.en)}">` : `<div class="skeleton"></div>`}
     <div class="name"><strong>${esc(s.en)}</strong>${s.cn ? `<div class="cn">${esc(s.cn)}</div>` : ""}</div>
     <div class="meta"><span class="badge ${s.rarity}">${s.rarity}</span>${s.no ? `<span class="no">No.${s.no}</span>` : ""}</div>
   </div>`;
@@ -281,7 +281,7 @@ function renderSoulList() {
   note.textContent = `${list.length} / ${state.souls.length} shown`;
   listEl.innerHTML = list.length ? list.map((s) => `
     <div class="soul-row" tabindex="0" role="button" data-no="${s.no}" aria-label="${esc(s.en)} details">
-      <span class="soul-icon">${s.localImage || s.imageUrl ? `<img src="${s.localImage ?? s.imageUrl}" loading="lazy" alt="${esc(s.en)} icon">` : ""}</span>
+      <span class="soul-icon">${s.art || s.localImage || s.imageUrl ? `<img src="${s.art || s.localImage || s.imageUrl}" loading="lazy" alt="${esc(s.en)} icon">` : ""}</span>
       <span class="names">
         <span class="en"><strong>No.${s.no}</strong> · ${esc(s.en)}</span>
         <span class="cn">${esc(s.cn)}${s.jp ? ` — ${esc(s.jp)}` : ""}</span>
@@ -317,11 +317,14 @@ function charCard(c) {
 }
 
 function bondCard(b) {
+  const skin0 = (b.skins && b.skins[0]) ? b.skins[0] : "";
+  const imgSrc = skin0 || b.image || b.imageUrl || "";
+  const imgHtml = imgSrc ? `<img src="${imgSrc}" loading="lazy" decoding="async" alt="${esc(b.en)}">` : `<div class="skeleton"></div>`;
   return `
     <div class="card" data-id="${esc(b.no)}" data-tab="bondling" tabindex="0" role="button"
          aria-label="${esc(b.en)} (bondling)">
       <span class="sheen" aria-hidden="true"></span>
-      ${b.image || b.imageUrl ? `<img src="${b.image ?? b.imageUrl}" loading="lazy" decoding="async" alt="${esc(b.en)}">` : `<div class="skeleton"></div>`}
+      ${imgHtml}
       <div class="name"><strong>${esc(b.en)}</strong>${b.cn ? `<div class="cn">${esc(b.cn)}</div>` : ""}</div>
       <div class="meta"><span class="badge">${esc(b.type)}</span>${b.area ? `<span class="no">${esc(b.area)}</span>` : ""}</div>
     </div>`;

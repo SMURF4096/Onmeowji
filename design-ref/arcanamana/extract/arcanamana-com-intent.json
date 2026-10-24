@@ -1,0 +1,24 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.45,
+    "path": "/",
+    "title": "Arcanamana | Unveil the Mysteries of Your Day",
+    "description": "Get clarity and guidance through tarot cards. Draw a card to uncover insights and inspiration, and possibly explanations for life’s journey; or learn what each tarot cards are saying. Perfect for begi",
+    "signals": [
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [],
+    "counts": {},
+    "readingOrder": []
+  }
+}

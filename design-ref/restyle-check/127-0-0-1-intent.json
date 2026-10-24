@@ -1,0 +1,194 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.75,
+    "path": "/",
+    "title": "Onmyoji Codex",
+    "description": "A fan-built codex for the Onmyoji game: shikigami roster, souls and stats. Data from the Onmyoji Wiki (CC BY-NC-SA).",
+    "signals": [
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      },
+      {
+        "kind": "shape",
+        "type": "landing",
+        "weight": 0.3,
+        "detail": "features+hero+footer"
+      }
+    ],
+    "alternates": [],
+    "needsSmart": false
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 70.640625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "陰\nOnmyoji Codex\n式神図鑑\nHOME\nSHIKIGAMI\nSOULS\nBONDING\nCHARACTERS\nCALENDAR"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 264.15625,
+          "y": 18.40625,
+          "w": 967.84375,
+          "h": 32.8125
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "HOME\nSHIKIGAMI\nSOULS\nBONDING\nCHARACTERS\nCALENDAR"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "main",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "HEIAN NIGHTS, INKED IN VERMILLION",
+        "bounds": {
+          "x": 0,
+          "y": 117.546875,
+          "w": 1280,
+          "h": 2412.515625
+        },
+        "buttonCount": 2,
+        "cardCount": 13,
+        "slots": {
+          "heading": "HEIAN NIGHTS, INKED IN VERMILLION",
+          "subheadings": [
+            "COLLECTION",
+            "NEWLY AWAKENED"
+          ],
+          "ctaCount": 2,
+          "lede": "逢魔が時\nHEIAN NIGHTS, INKED IN VERMILLION"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.85,
+        "heading": "HEIAN NIGHTS, INKED IN VERMILLION",
+        "bounds": {
+          "x": 0,
+          "y": 117.546875,
+          "w": 1280,
+          "h": 650.609375
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "HEIAN NIGHTS, INKED IN VERMILLION",
+          "ctaCount": 2,
+          "lede": "逢魔が時\nHEIAN NIGHTS, INKED IN VERMILLION"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "COLLECTION",
+        "bounds": {
+          "x": 20,
+          "y": 768.15625,
+          "w": 1240,
+          "h": 321.8125
+        },
+        "buttonCount": 0,
+        "cardCount": 5,
+        "slots": {
+          "heading": "COLLECTION",
+          "lede": "COLLECTION\n収録\n279\nSHIKIGAMI\n89 SSR\n68 SR\n48 SP\n70\nSOUL SETS\n2-set & 4-set effects stored\n274\nSKILL SHEETS\nfull text, onibi costs, level-ups\n7\nONMYOJI & CHAMPIONS\nplus 8 bondlings\n261\nVOICE ACTORS\ncollected with the roster"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "NEWLY AWAKENED",
+        "bounds": {
+          "x": 20,
+          "y": 1089.96875,
+          "w": 1240,
+          "h": 1440.09375
+        },
+        "buttonCount": 0,
+        "cardCount": 8,
+        "slots": {
+          "heading": "NEWLY AWAKENED",
+          "lede": "NEWLY AWAKENED\n顕現\nVIEW ALL \nSAKUYA\n咲耶\nSSR\nNo.609\nIWANAGA HIME\n岩長姫\nSSR\nNo.608\nSP HOUOUKA\n百羽凤凰火\nSSR\nNo.607\nYAN HE\n言和\nSSR\nNo.606\nLUO TIANYI\n洛天依\nSSR\nNo.605\nFUZOUKOZEN\n不相狐禅\nSSR\nNo.604\nBISHAMONTEN\n毗沙门天\nSSR\nNo.603\nTENKAMEI SUZUHIKO HIME\n天火命铃彦姬\nSP\nNo.602"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 2594.0625,
+          "w": 1280,
+          "h": 161.359375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Fan project. Not affiliated with NetEase or Fandom.\nText data derived from the public Onmyoji Fandom Wiki (CC BY-NC-SA 4.0). Mirrored images © NetEase Games.\nRecollect data anytime: node tools/collect.mjs"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "nav": 2,
+      "content": 3,
+      "hero": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "nav",
+      "content",
+      "hero",
+      "content",
+      "content",
+      "footer"
+    ]
+  }
+}

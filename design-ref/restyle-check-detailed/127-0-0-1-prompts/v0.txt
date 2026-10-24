@@ -1,0 +1,26 @@
+Build a landing page with this exact visual language.
+COLORS:
+  #f5efe4
+  #878177
+  #a49f95
+  #fff1bf
+  #ffffff
+  #17181a
+  #d4af37
+  #1d1e21
+  #a67811
+  #c59742
+  #e0554c
+  #2a2b2e
+  #f1958d
+  #050506
+FONTS: [object Object], [object Object]
+SPACING: 2, 24, 29, 35, 40, 44, 48, 56
+RADIUS: 4, 28
+SHADOWS: (none)
+MATERIAL LANGUAGE: flat
+VOICE: Tone: neutral · Headings: Title Case · CTA verbs: [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+SECTIONS (in order):
+- hero — heading: "HEIAN NIGHTS, INKED IN VERMILLION"
+- footer
+Use Tailwind. Match these tokens exactly. Keep the material language consistent.

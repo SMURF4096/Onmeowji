@@ -1,0 +1,9 @@
+Clone the design language of this landing page and build a fresh equivalent.
+Visual feel: material-you. Tone: neutral · Headings: Title Case · CTA verbs: [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+Primary palette: #efe7dd, #ab9f97, #8b808f, #e5cf7a, #d4af37.
+Typography: [object Object], [object Object].
+Corner radius vocabulary: 6, 12, 50, 999.
+Shadow vocabulary: rgba(201, 162, 39, 0.4) 0px 0px 0px 1px inset | rgba(176, 48, 39, 0.45) 0px 2px 10px 0px | rgba(176, 48, 39, 0.4) 0px 4px 18px 0px.
+Page structure:
+- hero — heading: "Heian Nights, Inked in Vermillion"
+- footer

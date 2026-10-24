@@ -1,0 +1,159 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 3076,
+        "areaShare": 0,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 238,
+          "a": 1
+        },
+        "hsl": {
+          "h": 240,
+          "s": 100,
+          "l": 47
+        },
+        "count": 610,
+        "areaShare": 0,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#f5efe4",
+        "rgb": {
+          "r": 245,
+          "g": 239,
+          "b": 228,
+          "a": 1
+        },
+        "hsl": {
+          "h": 39,
+          "s": 46,
+          "l": 93
+        },
+        "count": 186,
+        "areaShare": 0.004,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#a67811",
+        "rgb": {
+          "r": 166,
+          "g": 120,
+          "b": 17,
+          "a": 1
+        },
+        "hsl": {
+          "h": 41,
+          "s": 81,
+          "l": 36
+        },
+        "count": 82,
+        "areaShare": 0.07,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#131415",
+        "rgb": {
+          "r": 19,
+          "g": 20,
+          "b": 21,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 5,
+          "l": 8
+        },
+        "count": 10,
+        "areaShare": 0.925,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [],
+  "componentClusters": [],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://arcanamana.com/",
+        "totalBytes": 218,
+        "usedBytes": 0,
+        "unusedBytes": 218,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://arcanamana.com/",
+        "totalBytes": 85111,
+        "usedBytes": 18026,
+        "unusedBytes": 67085,
+        "unusedPercent": 79
+      }
+    ],
+    "totalBytes": 85329,
+    "usedBytes": 18026,
+    "unusedBytes": 67303,
+    "unusedPercent": 79,
+    "importantCount": 10,
+    "duplicates": 894,
+    "vendorPrefixes": {
+      "webkit": 24,
+      "moz": 2,
+      "ms": 0,
+      "o": 0
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        6,
+        4
+      ],
+      "average": [
+        0,
+        2.09,
+        0.56
+      ],
+      "count": 766
+    },
+    "issues": [
+      "10 !important rules",
+      "894 duplicate declarations",
+      "79% unused CSS"
+    ]
+  }
+}

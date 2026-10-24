@@ -1,0 +1,150 @@
+{
+  "url": "https://arcanamana.com/draw",
+  "path": "/draw",
+  "added": {},
+  "changed": {
+    "primitive": {
+      "color": {
+        "brand": {
+          "primary": {
+            "$value": "#a67811"
+          },
+          "secondary": {
+            "$value": "#f5efe4"
+          }
+        },
+        "text": {
+          "text1": {
+            "$value": "#f5efe4"
+          },
+          "text2": {
+            "$value": "#0000ee"
+          }
+        },
+        "ramp": {
+          "primary": {
+            "50": {
+              "$value": "#fff1bf"
+            },
+            "100": {
+              "$value": "#ffe5ae"
+            },
+            "200": {
+              "$value": "#f8d395"
+            },
+            "300": {
+              "$value": "#e3b971"
+            },
+            "400": {
+              "$value": "#c59742"
+            },
+            "500": {
+              "$value": "#a67811"
+            },
+            "600": {
+              "$value": "#8e6300"
+            },
+            "700": {
+              "$value": "#754e00"
+            },
+            "800": {
+              "$value": "#613f00"
+            },
+            "900": {
+              "$value": "#503200"
+            },
+            "950": {
+              "$value": "#2e1a00"
+            }
+          },
+          "secondary": {
+            "50": {
+              "$value": "#f5efe4"
+            },
+            "100": {
+              "$value": "#ede9e2"
+            },
+            "200": {
+              "$value": "#ddd9d0"
+            },
+            "300": {
+              "$value": "#c5c0b7"
+            },
+            "400": {
+              "$value": "#a49f95"
+            },
+            "500": {
+              "$value": "#878177"
+            },
+            "600": {
+              "$value": "#706b62"
+            },
+            "700": {
+              "$value": "#5a564e"
+            },
+            "800": {
+              "$value": "#4a463f"
+            },
+            "900": {
+              "$value": "#3c3832"
+            },
+            "950": {
+              "$value": "#211e1a"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "s0": {
+          "$value": "8px"
+        },
+        "s1": {
+          "$value": "80px"
+        }
+      },
+      "radius": {
+        "r0": {
+          "$value": "16px"
+        },
+        "r1": {
+          "$value": "28px"
+        }
+      },
+      "shadow": {
+        "sh0": {
+          "$value": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px"
+        }
+      },
+      "fontSize": {
+        "body": {
+          "$value": "14px"
+        },
+        "body-sm": {
+          "$value": "12px"
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "action": {
+          "secondary": {
+            "$value": "{primitive.color.brand.secondary}"
+          },
+          "onSecondary": {
+            "$value": "#000000"
+          }
+        }
+      },
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "Geist Mono",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "24px"
+          }
+        }
+      }
+    }
+  }
+}

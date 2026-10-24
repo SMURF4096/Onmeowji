@@ -1,0 +1,110 @@
+{
+  "url": "https://arcanamana.com",
+  "path": "/",
+  "added": {
+    "primitive": {
+      "radius": {
+        "r2": {
+          "$value": "28px"
+        }
+      }
+    }
+  },
+  "changed": {
+    "primitive": {
+      "color": {
+        "brand": {
+          "primary": {
+            "$value": "#f5efe4"
+          }
+        },
+        "text": {
+          "text1": {
+            "$value": "#0000ee"
+          },
+          "text2": {
+            "$value": "#f5efe4"
+          }
+        },
+        "ramp": {
+          "primary": {
+            "50": {
+              "$value": "#f5efe4"
+            },
+            "100": {
+              "$value": "#ede9e2"
+            },
+            "200": {
+              "$value": "#ddd9d0"
+            },
+            "300": {
+              "$value": "#c5c0b7"
+            },
+            "400": {
+              "$value": "#a49f95"
+            },
+            "500": {
+              "$value": "#878177"
+            },
+            "600": {
+              "$value": "#706b62"
+            },
+            "700": {
+              "$value": "#5a564e"
+            },
+            "800": {
+              "$value": "#4a463f"
+            },
+            "900": {
+              "$value": "#3c3832"
+            },
+            "950": {
+              "$value": "#211e1a"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "s0": {
+          "$value": "4px"
+        },
+        "s1": {
+          "$value": "24px"
+        },
+        "s2": {
+          "$value": "32px"
+        }
+      },
+      "radius": {
+        "r0": {
+          "$value": "6px"
+        },
+        "r1": {
+          "$value": "16px"
+        }
+      },
+      "shadow": {
+        "sh0": {
+          "$value": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px"
+        }
+      },
+      "fontSize": {
+        "body": {
+          "$value": "12px"
+        }
+      }
+    },
+    "semantic": {
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "Geist Mono",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "normal"
+          }
+        }
+      }
+    }
+  }
+}

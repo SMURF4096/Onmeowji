@@ -1,0 +1,70 @@
+/* ---------- Flip-card detail (Yu-Gi-Oh! style) for characters ---------- */
+.card-flip-wrap {
+  perspective: 1000px;
+  display: block;
+}
+.card-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.card-flip-wrap.flipped .card-flip-inner { transform: rotateY(180deg); }
+
+.card-flip-front,
+.card-flip-back {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  border: 1px solid rgb(var(--gold-rgb) / 0.4);
+  border-radius: 0;
+  background: var(--surface);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.card-flip-back { transform: rotateY(180deg); background: var(--surface-2); }
+
+/* Front face — the tarot plate */
+.card-flip-front .card-img-wrap {
+  position: relative; flex: 1; min-height: 220px;
+  background: var(--surface-2);
+}
+.card-flip-front .card-img-wrap img {
+  width: 100%; aspect-ratio: 9/16; object-fit: cover; display: block;
+  border-radius: 0;
+}
+.card-flip-front .card-meta-bar {
+  padding: var(--s10) var(--s12); display: flex; align-items: center; justify-content: space-between;
+  border-top: 1px solid rgb(var(--gold-rgb) / 0.3);
+}
+.card-flip-front .card-meta-bar .badge { font-size: 0.6rem; letter-spacing: 0.14em; }
+.card-flip-front .flip-label {
+  color: var(--gold-soft); font-family: var(--font-ui); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+  border-bottom: 1px solid rgb(var(--gold-rgb) / 0.3); padding-bottom: 1px;
+}
+
+/* Back face — editorial details (ArcanaMana style) */
+.card-flip-back .back-head {
+  padding: var(--s16) var(--s14) var(--s10);
+  border-bottom: 1px solid rgb(var(--gold-rgb) / 0.35);
+}
+.card-flip-back .back-head h3 { margin: 0 0 0.2rem; font-family: var(--font-latin); font-weight: 900; font-size: 1.1rem; letter-spacing: -0.01em; text-transform: uppercase; color: var(--text); }
+.card-flip-back .back-head .jp-name { color: var(--gold-soft); font-family: var(--font-serif); font-size: 0.82rem; letter-spacing: 0.08em; }
+.card-flip-back .back-body { padding: var(--s10) var(--s14); flex: 1; overflow-y: auto; max-height: 420px; }
+.card-flip-back .back-body p { margin: 0 0 0.6rem; color: var(--ink-2); font-size: 0.82rem; line-height: 1.55; word-break: normal; overflow-wrap: break-word; white-space: normal; display: block; }
+.card-flip-back .skill-row { display: grid; grid-template-columns: auto 1fr; gap: var(--s8); padding: var(--s6) 0; border-bottom: 1px solid var(--border-soft); }
+.card-flip-back .skill-row .skill-kind { font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-soft); border: 1px solid rgb(var(--gold-rgb)/0.35); border-radius: var(--radius-pill); padding: 1px 6px; }
+.card-flip-back .skill-row .skill-desc { font-family: var(--font-ui); font-size: 0.75rem; color: var(--ink-2); line-height: 1.45; word-break: normal; overflow-wrap: break-word; white-space: normal; display: block; }
+.card-flip-back .back-close {
+  position: absolute; top: var(--s10); right: var(--s10); width: var(--tap); height: var(--tap);
+  background: none; border: none; color: var(--muted); cursor: pointer; font-family: var(--font-ui); font-size: 1.1rem; line-height: 1;
+  border-radius: var(--radius-sm); transition: color var(--dur-1) var(--ease-in-out), background-color var(--dur-1) var(--ease-in-out);
+}
+.card-flip-back .back-close:hover { color: var(--cream); background: var(--surface-2); }
+
+/* Reduced-motion guard — show back content immediately, no rotation */
+@media (prefers-reduced-motion: reduce) {
+  .card-flip-inner { transform: none !important; transition: none !important; }
+  .card-flip-back { transform: none !important; }
+}

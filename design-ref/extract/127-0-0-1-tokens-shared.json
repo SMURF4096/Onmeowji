@@ -1,0 +1,90 @@
+{
+  "primitive": {
+    "color": {
+      "background": {
+        "bg0": {
+          "$value": "#0e0913"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#ffffff"
+        },
+        "text1": {
+          "$value": "#efe7dd"
+        },
+        "text2": {
+          "$value": "#f6e9d8"
+        },
+        "text3": {
+          "$value": "#ab9f97"
+        },
+        "text4": {
+          "$value": "#e5cf7a"
+        }
+      },
+      "ramp": {
+        "primary": {
+          "100": {
+            "$value": "#ffe8a3"
+          },
+          "950": {
+            "$value": "#2c1c00"
+          }
+        }
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "Zen Old Mincho"
+      },
+      "f1": {
+        "$value": "Marcellus"
+      }
+    },
+    "fontSize": {
+      "h2": {
+        "$value": "28.8px"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}"
+        },
+        "onPrimary": {
+          "$value": "#000000"
+        },
+        "onSecondary": {
+          "$value": "#000000"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}"
+        },
+        "page": {
+          "$value": "#0e0913"
+        },
+        "onPage": {
+          "$value": "#ffffff"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}"
+        }
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}"
+      }
+    }
+  }
+}

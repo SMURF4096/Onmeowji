@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shikigami · Onmyoji Codex</title>
-  <meta name="theme-color" content="#0e0913">
+  <meta name="theme-color" content="#131415">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
-  <link rel="stylesheet" href="css/fonts.css?v=6">
-  <link rel="stylesheet" href="css/style.css?v=18">
+  <link rel="stylesheet" href="css/fonts.css?v=7">
+  <link rel="stylesheet" href="css/style.css?v=22">
+  <link rel="stylesheet" href="css/flip-card.css?v=1">
 </head>
 <body data-page="shikigami" data-data="data/">
   <header class="nav">
@@ -31,7 +32,8 @@
     <div class="toolbar">
       <div class="search"><svg class="search-ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.4"/><path d="m10.4 10.4 3 3"/></svg><input id="search" type="search" placeholder="Search name, CV…" aria-label="Search shikigami"></div>
       <div class="chips" id="rarity-chips">
-        <button class="chip" data-rarity="ALL">All</button>
+        <button class="chip on" data-rarity="ALL">All</button>
+        <button class="chip" data-rarity="UR">UR</button>
         <button class="chip" data-rarity="SP">SP</button>
         <button class="chip" data-rarity="SSR">SSR</button>
         <button class="chip" data-rarity="SR">SR</button>
@@ -63,6 +65,8 @@
   </footer>
 
   <div class="modal-backdrop" id="modal-backdrop"></div>
-  <script src="js/app.js?v=21"></script>
+  <script src="assets/vendor/gsap.min.js?v=21"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js?v=21"></script>
+  <script src="js/app.js?v=22"></script>
 </body>
 </html>

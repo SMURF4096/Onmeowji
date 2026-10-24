@@ -1,0 +1,102 @@
+{
+  "tone": "neutral",
+  "pronoun": "third-person",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "browse",
+      "count": 1
+    },
+    {
+      "value": "soul",
+      "count": 1
+    },
+    {
+      "value": "sakuya",
+      "count": 1
+    },
+    {
+      "value": "iwanaga",
+      "count": 1
+    },
+    {
+      "value": "sp",
+      "count": 1
+    },
+    {
+      "value": "yan",
+      "count": 1
+    },
+    {
+      "value": "luo",
+      "count": 1
+    },
+    {
+      "value": "fuzoukozen",
+      "count": 1
+    },
+    {
+      "value": "bishamonten",
+      "count": 1
+    },
+    {
+      "value": "tenkamei",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "browse shikigami",
+      "count": 1
+    },
+    {
+      "value": "soul catalog",
+      "count": 1
+    },
+    {
+      "value": "sakuya\n咲耶\nssr\nno.609",
+      "count": 1
+    },
+    {
+      "value": "iwanaga hime\n岩長姫\nssr\nno.608",
+      "count": 1
+    },
+    {
+      "value": "sp hououka\n百羽凤凰火\nssr\nno.607",
+      "count": 1
+    },
+    {
+      "value": "yan he\n言和\nssr\nno.606",
+      "count": 1
+    },
+    {
+      "value": "luo tianyi\n洛天依\nssr\nno.605",
+      "count": 1
+    },
+    {
+      "value": "fuzoukozen\n不相狐禅\nssr\nno.604",
+      "count": 1
+    },
+    {
+      "value": "bishamonten\n毗沙门天\nssr\nno.603",
+      "count": 1
+    },
+    {
+      "value": "tenkamei suzuhiko hime\n天火命铃彦姬\nsp\nno.602",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "Heian Nights, Inked in Vermillion",
+    "Collection",
+    "Newly Awakened",
+    "Heian Nights, Inked in Vermillion",
+    "Collection",
+    "Newly Awakened"
+  ],
+  "stats": {
+    "buttons": 10,
+    "headings": 6
+  }
+}
