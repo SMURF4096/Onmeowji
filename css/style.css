@@ -1,10 +1,8 @@
 /* ============================================================
-   Onmyoji Codex — design system v7 ("The Black Gallery")
-   Language swap: ArcanaMana-style editorial charcoal — flat
-   neutral ground, heavy sans display, mono body, gold plate
-   frames. Portrait square-cropped tarot walls. One quiet shadow.
-   Mobile-first: base styles are the phone layout; min-width layers on.
-   Data layer unchanged: app.js + 5 same-origin JSONs.
+   Onmyoji Codex — design system v7.1 ("The Black Gallery", v23)
+   ArcanaMana extract applied: parchment ink discipline, Bellefair
+   display face, 150/300/500ms motion clock, 3D card-flip entrances.
+   Flat neutral ground, mono body, gold plate frames. Mobile-first.
    ============================================================ */
 :root {
   /* ground + surfaces — neutral charcoal, no color cast */
@@ -40,12 +38,15 @@
   /* per-rarity accent triplet; cards override this */
   --rar-rgb: var(--gold-rgb);
 
-  /* motion — quiet, response-only */
+  /* motion — ArcanaMana clock: 150ms fast / 300ms base / 500ms slow,
+     standard ease cubic-bezier(0.25,0.1,0.25,1) from their engine */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
   --dur-1: 150ms;
-  --dur-2: 320ms;
-  --dur-3: 600ms;
+  --dur-2: 300ms;
+  --dur-3: 500ms;
+  --flip-perspective: 1200px;
 
   /* elevation — one restrained shadow vocabulary */
   --radius: 16px;
@@ -78,7 +79,8 @@
   --lead-min: 180px; --lead-mid: 220px; --lead-lg: 300px; --lead-vw: 26vw; --lead-hi: 280px;
   --lead-min-m: 180px; --lead-mid-m: 40vw; --lead-hi-m: 280px; --lead-cap: 320px;
 
-  /* type — mono is the voice; Inter is the display face */
+  /* type — Bellefair is the display face (ArcanaMana); mono is the voice */
+  --font-display: "Bellefair", "Marcellus", serif;
   --font-serif: "Geist Mono", ui-monospace, "Cascadia Mono", "Menlo", monospace;
   --font-latin: "Inter", system-ui, "Segoe UI", sans-serif;
   --font-ui: "Geist Mono", ui-monospace, "Cascadia Mono", "Menlo", monospace;
@@ -131,9 +133,11 @@ input, textarea { caret-color: var(--gold-soft); }
   gap: 0.7rem;
   text-decoration: none;
   color: var(--text);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-family: var(--font-display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   flex: 0 1 auto;
   min-width: 0;
 }
@@ -213,10 +217,10 @@ input, textarea { caret-color: var(--gold-soft); }
 .hero h1 {
   margin: 0 0 0.4rem;
   font-size: clamp(2.6rem, 9vw, 7.5rem);
-  font-weight: 900;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
   line-height: 0.95;
-  font-family: var(--font-latin);
   text-transform: uppercase;
   text-wrap: balance;
 }
@@ -496,7 +500,7 @@ input, textarea { caret-color: var(--gold-soft); }
 
 /* ---------- Section headings ---------- */
 .sec-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1.6rem; flex-wrap: wrap; }
-.sec-head h2 { margin: 0; font-family: var(--font-latin); font-weight: 900; font-size: 1.6rem; letter-spacing: -0.01em; text-transform: uppercase; }
+.sec-head h2 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 1.9rem; letter-spacing: 0.05em; text-transform: uppercase; }
 .sec-head .jp { color: var(--gold-hi); font-size: 0.95rem; }
 .sec-head .spacer { flex: 1; border-bottom: 1px solid var(--border-soft); min-width: 2rem; }
 .sec-head a { color: var(--muted); font-size: 0.72rem; text-decoration: none; letter-spacing: 0.14em; text-transform: uppercase; }
@@ -598,7 +602,7 @@ input, textarea { caret-color: var(--gold-soft); }
   }
   .card.lead img { grid-row: 1 / span 2; grid-column: 1; height: clamp(var(--lead-mid), var(--lead-vw), var(--lead-lg)); }
   .card.lead .name { grid-column: 2; grid-row: 1; }
-  .card.lead .name strong { font-size: 1.4rem; font-family: var(--font-latin); text-transform: uppercase; letter-spacing: -0.01em; font-weight: 900; }
+  .card.lead .name strong { font-size: 1.5rem; font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 400; }
   .card.lead .name .cn { font-size: 0.7rem; }
   .card.lead .meta { grid-column: 2; grid-row: 2; justify-content: flex-start; }
 }
@@ -950,9 +954,17 @@ html.gsap-fx .sec-head { animation: none; }
   box-shadow: var(--shadow);
   padding: 1.8rem 2rem;
   position: relative;
-  animation: md-in var(--dur-2) var(--ease-out);
+  /* ArcanaMana card-draw flip: perspective 1200px, rotateY in from the back */
+  animation: flip-in 550ms var(--ease-standard);
+  transform-origin: 50% 50%;
 }
-@keyframes md-in { from { opacity: 0; transform: translateY(var(--s16)) scale(0.97); } }
+@keyframes flip-in {
+  0%   { opacity: 0;    transform: perspective(var(--flip-perspective)) rotateY(-180deg); }
+  40%  { opacity: 0.85; }
+  100% { opacity: 1;    transform: perspective(var(--flip-perspective)) rotateY(0deg); }
+}
+/* GSAP mode: JS owns the flip with spring-like easing; kill the CSS one */
+html.gsap-fx .modal-backdrop.open .modal { animation: none; }
 .modal.modal-wide { width: min(var(--modal-w-wide), 96vw); }
 /* wide modals (hero art + text) stack instead of flowing one long row —
    keeps the detail information from stretching horizontal */

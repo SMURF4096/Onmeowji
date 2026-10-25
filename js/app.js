@@ -38,8 +38,54 @@ const statMap = (tab) => Object.fromEntries(state.stats[tab].map((r) => [r.no, r
 /* ============ Entrance choreography ============ */
 let revealIO;
 /** Stagger-reveal .card/.soul-row/.stat-card inside the given container as they enter the viewport. */
+/* ============ ArcanaMana motion engine (GSAP mirrors arcanamana.com) ============
+   Their engine: Framer Motion JS — 3D card-draw flip (perspective 1200px,
+   rotateY 180°), scroll-appear entrances (scale 0.96 → 1, rise 16px),
+   clock 150/300/500ms, standard ease. We clone it with the vendored GSAP. */
+function arcanamanaFx() {
+  if (REDUCED || !window.gsap) return;
+  document.documentElement.classList.add("gsap-fx"); /* kills the CSS fallbacks */
+  if (window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);
+
+  window.revealGSAP = (container) => {
+    if (!container) return;
+    const els = container.querySelectorAll(".card, .soul-row, .stat-card");
+    if (!els.length) return;
+    gsap.fromTo(els,
+      { opacity: 0, y: 16, scale: 0.96, overwrite: false },
+      { opacity: 1, y: 0, scale: 1, duration: 0.3, ease: "power2.out", stagger: 0.06, overwrite: "auto" });
+  };
+
+  /* hero choreography on index (replaces the CSS rises gsap-fx disables) */
+  if (document.querySelector(".hero h1")) {
+    gsap.timeline({ defaults: { ease: "power2.out" } })
+      .from(".nav", { y: -10, opacity: 0, duration: 0.3 }, 0)
+      .from(".hero-mono", { opacity: 0, duration: 0.3 }, 0.05)
+      .from(".hero h1", { opacity: 0, y: 24, scale: 0.96, duration: 0.5 }, 0.1)
+      .from(".hero .sub", { opacity: 0, y: 16, duration: 0.5 }, 0.45)
+      .from(".hero .cta", { opacity: 0, y: 16, duration: 0.5 }, 0.6);
+  }
+
+  /* section headings reveal on scroll (replaces the view() timeline) */
+  document.querySelectorAll(".sec-head").forEach((h) => {
+    gsap.from(h, {
+      opacity: 0, y: 16, duration: 0.3, ease: "power2.out",
+      ...(window.ScrollTrigger ? { scrollTrigger: { trigger: h, start: "top 88%" } } : {}),
+    });
+  });
+}
+
+/* 3D card-draw flip for the detail dialog — the signature ArcanaMana move */
+function modalFlip(modal) {
+  if (REDUCED || !window.gsap || !modal) return;
+  gsap.fromTo(modal,
+    { opacity: 0, transformPerspective: 1200, rotateY: -180, transformOrigin: "50% 50%", overwrite: "auto" },
+    { opacity: 1, rotateY: 0, duration: 0.55, ease: "power3.out", overwrite: "auto" });
+}
+
 function revealIn(container) {
   if (!container) return;
+  if (window.revealGSAP) { window.revealGSAP(container); return; }
   const els = container.querySelectorAll(".card:not(.in-view), .soul-row:not(.in-view), .stat-card:not(.in-view)");
   if (!els.length) return;
   if (REDUCED) { els.forEach((el) => el.classList.add("in-view")); return; }
@@ -577,6 +623,7 @@ function showModal(html) {
   /* focus management: land on the close affordance, trap Tab, restore on close */
   modalOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   bd.classList.add("open");
+  modalFlip(modal); /* ArcanaMana 3D draw; no-ops when GSAP/motion unavailable */
   closeBtn.focus();
   document.addEventListener("keydown", modalTabTrap, true);
   /* images already complete when injected (cache) never fire onload — size them now */
@@ -874,6 +921,7 @@ function renderCalendar() {
 /* boot by page */
 const page = document.body.dataset.page;
 window.addEventListener("DOMContentLoaded", async () => {
+  arcanamanaFx();
   if (page === "index") { startClockBand(); await renderIndex(); }
   else if (page === "calendar") { startClockBand(); renderCalendar(); }
   else if (page === "shikigami") await renderShikigami();
