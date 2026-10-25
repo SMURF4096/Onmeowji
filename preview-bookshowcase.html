@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Field Manuals — preview of BestsellersBookShowcase (ThreeUI)</title>
+  <!--
+    Integration preview for @designcodeio/threeui <BestsellersBookShowcase />.
+    Runtime: Full HTML + DOM/CSS + embedded media, canonical revision
+    SHA-256 7c1ed1ca4a4c — vendored UNCHANGED at
+    vendor/threeui/landing-pages/bestsellers-book-showcase.html
+    (source: @designcodeio/threeui@1.2.0, lib-dist/assets/landing-pages/).
+
+    This wrapper mirrors LandingPageFrame.tsx (frame-component,
+    SHA-61de2cc5) + pageTypography.js runtime + the BESTSELLERS_TYPOGRAPHY
+    recipe (pageRecipes.js), all ported 1:1 from the verified package source.
+  -->
+  <style>
+    html, body { margin: 0; height: 100%; background: #080808; }
+    .shader-frame { position: relative; overflow: hidden; background: #080808; pointer-events: auto; height: 100dvh; }
+    .shader-frame iframe {
+      position: absolute; inset: 0; display: block;
+      width: 100%; height: 100%; border: 0; background: #080808; opacity: 1; pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="shader-frame">
+    <iframe id="threeui-frame" title="Field Manuals — Tools for Thought" loading="eager"></iframe>
+  </div>
+
+  <script>
+  /* ============================================================
+     Exact registered sources, adapted only for a static host:
+
+     1. canonical HTML  : vendor/threeui/landing-pages/bestsellers-book-showcase.html
+                          (SHA-256 7c1ed1ca…, embedded media, unchanged)
+     2. pageTypography  : applyPageCustomization / usePageTypography (init path)
+     3. pageRecipes     : BESTSELLERS_TYPOGRAPHY (m)
+     4. configured usage: the Scene props from @designcodeio/threeui
+     ============================================================ */
+  (function () {
+    "use strict";
+
+    /* ---- helpers (pageRecipes.js, verbatim) ---- */
+    const a = (e) => Number(e.toFixed(3)), i = (e) => `${a(e)}px`;
+
+    /* ---- min/max (pageTypography.js, L/T/E/b/$/B/H/D verbatim behavior) ---- */
+    const M_ = (t) => Math.min(1, Math.max(0, t));
+    function L(t, n) {
+      if (typeof t !== "string") return n;
+      const e = t.trim().match(/^#([\da-f]{3}|[\da-f]{6})$/i);
+      if (!e) return n;
+      const o = e[1].toLowerCase();
+      return `#${o.length === 3 ? o.replace(/./g, (r) => r + r) : o}`;
+    }
+    function $(t) {
+      const [n, e, o] = [1, 3, 5].map((l) => Number.parseInt(t.slice(l, l + 2), 16) / 255);
+      const r = Math.max(n, e, o), s = Math.min(n, e, o), h = (r + s) / 2, g = r - s;
+      if (g === 0) return { h: 0, s: 0, l: h };
+      const d = g / (1 - Math.abs(2 * h - 1));
+      return {
+        h: ((r === n ? (e - o) / g % 6 : r === e ? (o - n) / g + 2 : (n - e) / g + 4) * 60 + 360) % 360,
+        s: d, l: h,
+      };
+    }
+    function B({ h: t, s: n, l: e }) {
+      const o = (1 - Math.abs(2 * e - 1)) * n, r = o * (1 - Math.abs(t / 60 % 2 - 1)), s = e - o / 2;
+      const [h, i2, g] = t < 60 ? [o, r, 0] : t < 120 ? [r, o, 0] : t < 180 ? [0, o, r]
+        : t < 240 ? [0, r, o] : t < 300 ? [r, 0, o] : [o, 0, r];
+      return [h + s, i2 + s, g + s].map((d) => Math.round(M_(d) * 255));
+    }
+    function D(t) { return `#${B(t).map((n) => n.toString(16).padStart(2, "0")).join("")}`; }
+    function H(t, n) {
+      const e = $(t), o = $(n);
+      return {
+        hue: o.h - e.h,
+        saturation: e.s > 0.01 ? Math.min(3, o.s / e.s) : 1,
+        lightness: e.l > 0.01 ? Math.min(3, o.l / e.l) : 1,
+      };
+    }
+    function T(t, n) { return n.find((e) => e.value === t) ?? n[0]; }
+    function E(t, n, e) { return n.includes(t) ? t : e; }
+    function b(t, [n, e, o]) { return Number.isFinite(t) ? Math.min(o, Math.max(n, t)) : e; }
+
+    /* ---- BESTSELLERS_TYPOGRAPHY (pageRecipes.js, m, verbatim) ---- */
+    const BESTSELLERS_TYPOGRAPHY = {
+      headingFonts: [
+        { value: "iowan-old-style", label: "Iowan Old Style", stack: '"Iowan Old Style", Baskerville, "Times New Roman", serif' },
+        { value: "instrument-serif", label: "Instrument Serif", stack: '"Instrument Serif", Georgia, serif', google: "Instrument+Serif" },
+        { value: "newsreader", label: "Newsreader", stack: '"Newsreader", Georgia, serif', google: "Newsreader:wght@200..700" },
+        { value: "geist", label: "Geist", stack: '"Geist", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif', google: "Geist:wght@100..900" },
+      ],
+      bodyFonts: [
+        { value: "iowan-old-style", label: "Iowan Old Style", stack: '"Iowan Old Style", Baskerville, "Times New Roman", serif' },
+        { value: "geist", label: "Geist", stack: '"Geist", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif', google: "Geist:wght@100..900" },
+        { value: "newsreader", label: "Newsreader", stack: '"Newsreader", Georgia, serif', google: "Newsreader:wght@200..700" },
+        { value: "instrument-serif", label: "Instrument Serif", stack: '"Instrument Serif", Georgia, serif', google: "Instrument+Serif" },
+      ],
+      headingWeights: ["400", "500", "600", "700"],
+      headingWeight: "500",
+      bodyWeights: ["400", "500", "600", "700"],
+      bodyWeight: "400",
+      primaryColor: "#c3a47b",
+      headingSize: [184, 325, 420],
+      bodySize: [12, 17, 24],
+      headingLetterSpacing: [-0.12, -0.085, 0.08],
+      css: (e) => `
+:root {
+  --pink: ${e.primary};
+  --pink-bright: ${e.retone("#dbc39c")};
+  --periwinkle: ${e.retone("#b7976c")};
+}
+body { font-family: ${e.body}; font-weight: ${e.bodyWeight}; }
+.brand, .hero-word, .detail-title, .cover-title {
+  font-family: ${e.heading};
+  font-weight: ${e.headingWeight};
+}
+.hero-word {
+  font-size: clamp(184px, 22vw, ${i(e.headingSize)});
+  letter-spacing: ${e.headingLetterSpacing}em;
+}
+.detail-title {
+  font-size: clamp(52px, 5.7vw, ${i(e.headingSize * 82 / 325)});
+  letter-spacing: ${a(e.headingLetterSpacing + 0.03)}em;
+}
+.detail-description { font-size: clamp(12px, 1.28vw, ${i(e.bodySize)}); font-weight: ${e.bodyWeight}; }
+@media (max-width: 900px) {
+  .hero-word { font-size: clamp(128px, 28vw, ${i(e.headingSize * 230 / 325)}); }
+  .detail-title { font-size: clamp(48px, 10vw, ${i(e.headingSize * 70 / 325)}); }
+}
+@media (max-width: 560px) {
+  .hero-word { font-size: calc(${a(e.headingSize / 325)} * 38vw); }
+}
+`,
+    };
+
+    /* ---- configured usage (Scene props) ---- */
+    const USAGE = {
+      headingFont: "iowan-old-style",
+      bodyFont: "iowan-old-style",
+      headingWeight: "500",
+      bodyWeight: "400",
+      primaryColor: "#c3a47b",
+      headingSize: 325,
+      bodySize: 17,
+      headingLetterSpacing: -0.085,
+    };
+
+    /* ---- usePageTypography init (pageTypography.js, verbatim behavior) ---- */
+    function computeCustomization(t, n) {
+      const { headingFont: e, bodyFont: o, headingWeight: r, bodyWeight: s, primaryColor: h, headingSize: i3, bodySize: g, headingLetterSpacing: d } = n;
+      const l = T(e, t.headingFonts), x = T(o, t.bodyFonts), f = L(h, t.primaryColor), m = f === t.primaryColor;
+      const y = H(t.primaryColor, f);
+      const p = (c) => {
+        if (m) return c;
+        const a2 = $(L(c, c));
+        return D({ h: (a2.h + y.hue + 360) % 360, s: M_(a2.s * y.saturation), l: M_(a2.l * y.lightness) });
+      };
+      const j = (c) => {
+        if (m) return c;
+        const a2 = c.match(/^rgba?\(\s*([\d.]+)[\s,]+([\d.]+)[\s,]+([\d.]+)\s*(?:[,/]\s*([\d.]+%?)\s*)?\)$/i);
+        if (!a2) return c;
+        const v = `#${[a2[1], a2[2], a2[3]].map((u) => Math.round(Number(u)).toString(16).padStart(2, "0")).join("")}`;
+        const [W, C, I] = [1, 3, 5].map((u) => Number.parseInt(p(v).slice(u, u + 2), 16));
+        return a2[4] === undefined ? `rgb(${W}, ${C}, ${I})` : `rgba(${W}, ${C}, ${I}, ${a2[4]})`;
+      };
+      const F = {
+        heading: l.stack,
+        body: x.stack,
+        headingWeight: E(r, t.headingWeights, t.headingWeight),
+        bodyWeight: E(s, t.bodyWeights, t.bodyWeight),
+        primary: f,
+        headingSize: b(i3, t.headingSize),
+        bodySize: b(g, t.bodySize),
+        headingLetterSpacing: b(d, t.headingLetterSpacing),
+        retone: p,
+        retoneRgba: j,
+      };
+      return { css: t.css(F), fontHref: undefined /* no google fonts in this recipe pick */ };
+    }
+
+    /* ---- applyPageCustomization (pageTypography.js A, verbatim behavior) ---- */
+    const S = "threeui-page-typography", N2 = "threeui-page-typography-fonts";
+    function applyPageCustomization(t, n) {
+      const e = t && t.contentDocument;
+      if (!e || !e.head) return;
+      const o = e.getElementById(N2);
+      if (n.fontHref) {
+        const s = o ?? e.createElement("link");
+        if (!o) { s.id = N2; s.rel = "stylesheet"; }
+        s.href !== n.fontHref && (s.href = n.fontHref);
+        o || e.head.append(s);
+      } else if (o) o.remove();
+      if (!n.css) { const r2 = e.getElementById(S); if (r2) r2.remove(); return; }
+      const r = e.getElementById(S) ?? e.createElement("style");
+      if (!e.getElementById(S)) r.id = S;
+      if (r.textContent !== n.css) r.textContent = n.css;
+      e.head.append(r);
+    }
+
+    /* ---- LandingPageFrame behavior (URL frame sandbox + load hook) ---- */
+    const URL_FRAME_SANDBOX = "allow-downloads allow-forms allow-modals allow-popups allow-same-origin allow-scripts";
+    const frame = document.getElementById("threeui-frame");
+    frame.sandbox = URL_FRAME_SANDBOX;
+    frame.src = "vendor/threeui/landing-pages/bestsellers-book-showcase.html";
+
+    const customization = computeCustomization(BESTSELLERS_TYPOGRAPHY, USAGE);
+    function onFrameLoad(event) {
+      applyPageCustomization(event.currentTarget, customization);
+    }
+    frame.addEventListener("load", onFrameLoad);
+  })();
+  </script>
+</body>
+</html>
