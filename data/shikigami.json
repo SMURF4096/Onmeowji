@@ -42025,6 +42025,58 @@
     "art": "assets/art/559skin1.png"
   },
   {
+    "no": 560,
+    "en": "Tamatori",
+    "cn": "玉取",
+    "jp": "Tamatori",
+    "gl": "Tamatori",
+    "rarity": "SSR",
+    "type": "ATK",
+    "role": "shikigami",
+    "image": "File:560.png",
+    "wiki": "https://onmyoji.fandom.com/wiki/Tamatori",
+    "cv": "Kei Shindou",
+    "intro": "A pearl-diving adventurer, the object of every pirate’s dream. Her duels divide the sea itself — pick a foe, isolate them, and let her golden strikes decide the winner.",
+    "method": "Summon • Demon Parade • Not yet released on GL (postponed)",
+    "art": "assets/art/560skin1.png",
+    "localImage": "assets/shikigami/560.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/5/55/560skin1.png/revision/latest?cb=20231206002613",
+    "skills": [
+      {
+        "name": "Treasure Hunting",
+        "type": "Normal",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5601.png",
+        "description": "Tamatori attacks a single target dealing damage equal to 100% of her ATK. Gains Secret Treasure points (max 18). Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125% and she gains 2 Secret Treasure points."
+      },
+      {
+        "name": "Big Spender",
+        "type": "Passive",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5602.png",
+        "description": "Exclusive effect. When Tamatori uses Confrontation (3 strikes), she deals 40%, 75% and 95% of her ATK per strike and gains 2 Secret Treasure points per strike. At 18 points, after a Duel ends, she attacks all enemies for 126% ATK, ignoring enemy soul effects. Level 2: last strike 107%. Level 3: last strike 206% at 8 points. Level 4: +6% damage per 40 initial SPD (max 36%). Level 5: when receiving damage of 12%+ initial HP while uncontrolled, inflicts Golden Showdown on the source (1 turn)."
+      },
+      {
+        "name": "Burn One’s Boats",
+        "type": "Special",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5603a.png",
+        "description": "Tamatori selects 1 enemy for a Duel. Against summoned entities or monsters she immediately uses Confrontation and gains 2 Secret Treasure points. Level 2: gains Sharkperson’s Jewel for 1 turn. Level 3: inflicts Golden Showdown (1 turn). Level 4: when Golden Showdown disappears, move bar +30%. Level 5: on losing HP or lethal damage, loses all Secret Treasure and recovers 30% HP (once per battle)."
+      },
+      {
+        "name": "Confrontation",
+        "type": "Special",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5603b.png",
+        "description": "Attacks a target 3 times, dealing 40% of ATK per strike. When used in a Duel, the strikes are dealt in turns."
+      }
+    ]
+  },
+  {
     "no": 561,
     "en": "Taki",
     "cn": "泷",
@@ -48138,6 +48190,102 @@
       }
     ],
     "art": "assets/art/592skin1.png"
+  },
+  {
+    "no": 594,
+    "en": "Yumebiki Kochou no Sei",
+    "cn": "梦引蝴蝶精",
+    "jp": "夢引き胡蝶の精",
+    "gl": "Dreambound Chocho",
+    "rarity": "SP",
+    "type": "SUP",
+    "role": "shikigami",
+    "image": "File:594.png",
+    "wiki": "https://onmyoji.fandom.com/wiki/Yumebiki_Kochou_no_Sei",
+    "cv": "Aoi Yuki",
+    "intro": "The SP butterfly spirit who pulls dreams along behind her. Sleep deeply, and she will cocoon the wound — then shine a little brighter on stage.",
+    "method": "Summon • Demon Parade",
+    "art": "assets/art/594skin1.png",
+    "localImage": "assets/shikigami/594.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/2/20/594skin1.png/revision/latest?cb=20251214190842",
+    "skills": [
+      {
+        "name": "Swaying Bell",
+        "type": "Normal",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5941.png",
+        "description": "Follow me closely. SP Kochou attacks a single target dealing damage equal to 100% of her ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%."
+      },
+      {
+        "name": "Spiritual Dream",
+        "type": "Special",
+        "onibi": 1,
+        "cooldown": 0,
+        "icon": "assets/skills/5942.png",
+        "description": "I see it — the dream’s continuation. When affected by Sleep, she cocoons herself and casts this skill instead. Gains a Dream Cocoon equal to 15% of max HP for 2 turns (uncleansable shield, +10% damage dealt). Level 2: Cocoon 20%. Level 3: immune to excess damage when Cocoon breaks. Level 4: casts automatically when cumulative damage exceeds 20% of max HP (once before her next turn). Level 5: Cocoon bearer’s damage dealt +20%."
+      },
+      {
+        "name": "Sound of Dreams",
+        "type": "Special",
+        "onibi": 2,
+        "cooldown": 0,
+        "icon": "assets/skills/5943.png",
+        "description": "Now, I can shine brightly on stage too. Heals all allies for 15% of their max HP, 20% for the selected target. Level 2: selected target 30%. Level 3: all allies’ damage +20% for 1 turn. Level 4: grants the target a Dream Cocoon equal to 50% of healing received (2 turns). Level 5: Upper Hand — casts on the allied shikigami with the highest initial ATK."
+      }
+    ]
+  },
+  {
+    "no": 595,
+    "en": "Yumeyama Hakuzousu",
+    "cn": "梦山白藏主",
+    "jp": "夢山白臓主",
+    "gl": "Hakuzosu Unbound",
+    "rarity": "SP",
+    "type": "SUP",
+    "role": "shikigami",
+    "image": "File:595.png",
+    "wiki": "https://onmyoji.fandom.com/wiki/Yumeyama_Hakuzousu",
+    "cv": "Daiki Kobayashi",
+    "intro": "The young fox of the dream-mountain who swore his name to Master Seimei. Wherever Seimei walks, his seal and his blade are not far behind.",
+    "method": "Summon • Demon Parade",
+    "art": "assets/art/595skin1.png",
+    "localImage": "assets/shikigami/595.png",
+    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/d/d0/595skin1.png/revision/latest?cb=20260204005638",
+    "skills": [
+      {
+        "name": "My Name Drives Me",
+        "type": "Normal",
+        "onibi": 0,
+        "cooldown": 0,
+        "icon": "assets/skills/5951.png",
+        "description": "Let my name become your blade. SP Hakuzousu attacks a single target dealing damage equal to 100% of his ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%."
+      },
+      {
+        "name": "White Fox Seal",
+        "type": "Special",
+        "onibi": 1,
+        "cooldown": 0,
+        "icon": "assets/skills/5952.png",
+        "description": "Leave the rest to me! Applies Guardian Seal to an ally for 2 turns; raises the onmyoji’s move bar by 30%, and removes Seimei’s cooldown. Guardian Seal heals 20% of lost HP after each onmyoji skill. Level 2: sealed allies immune to damage. Level 3: onmyoji move bar +20% more. Level 4: enemies attacking the sealed ally get Amulet·Break (2 turns); with Seimei, his move bar +10% (once per turn, up to 3 times). Level 5: Upper Hand — targets the ally with the highest ATK."
+      },
+      {
+        "name": "Dream Slash",
+        "type": "Special",
+        "onibi": 3,
+        "cooldown": 0,
+        "icon": "assets/skills/5953.png",
+        "description": "I’ll sever the illusory dreams! Only with Seimei present: attacks all enemies with indirect damage equal to 20% of his max HP and inflicts Amulet·Break (damage dealt -30%; start-of-turn indirect damage equal to 8% of his max HP) for 2 turns. Without Seimei, replaces Dream Slash with Mt. Dream Oath. Level 2: 25%. Level 3: recovers 20% of lost HP. Level 4: 30%. Level 5: no Onibi cost after Seimei casts a skill."
+      },
+      {
+        "name": "Mt. Dream Oath",
+        "type": "Special",
+        "onibi": 3,
+        "cooldown": 0,
+        "icon": "assets/skills/5953b.png",
+        "description": "I swear by this body and name. Attacks all enemies with indirect damage equal to 14% of his max HP and inflicts Amulet·Break for 2 turns. Level 2: 17%. Level 3: also applies Seimei’s current Amulet: Life level. Level 4: 20%. Level 5: also applies Seimei’s current Amulet: Death level."
+      }
+    ]
   },
   {
     "no": 596,
