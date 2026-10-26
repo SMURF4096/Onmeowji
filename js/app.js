@@ -502,23 +502,100 @@ function heroFit(img) {
   img.style.height = Math.round(img.naturalHeight * s) + "px";
 }
 
-function skillsBlock(skills, emptyNote) {
-  const rows = (skills ?? []).map((k) => `
+/* --- skill description parser: split wiki glossary ";Name (jp) : :'''Buff, Mark''': text" --- */
+const CLASSIC_BUFF = ["Heal", "Shield", "Amulet"];
+const CLASSIC_DEBUFF = ["Confuse", "Silence", "Sleep", "Freeze", "Stun", "Bind", "Morph", "Disarm", "Daze", "Bone Lock", "Blind", "Slow", "Curse", "Poison", "Bleed", "Banish"];
+
+function parseSkillDesc(k) {
+  const raw = String(k.description ?? "");
+  const parts = raw.split(/;(?=[A-Za-z(])/);
+  const main = parts[0].replace(/<br\s*\/?>\s*/gi, " ").replace(/\s+/g, " ").trim();
+  const effects = [];
+  for (const seg of parts.slice(1)) {
+    const m = seg.match(/^([^:]{1,60}?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
+    if (m) {
+      effects.push({
+        name: m[1].trim(),
+        jp: (m[2] ?? "").trim(),
+        types: m[3].trim(),
+        text: m[4].replace(/<br\s*\/?>/gi, " ").replace(/\s+/g, " ").trim(),
+      });
+      continue;
+    }
+    /* patch notes like "Upon Usage: ..." carry no type annotation — keep as a plain entry */
+    const n = seg.match(/^([^:]{1,60}?)\s*:+\s*([\s\S]{10,})$/);
+    if (n && /^[A-Z]/.test(n[1])) effects.push({ name: n[1].trim(), jp: "", types: "General", text: n[2].replace(/<br\s*\/?>/gi, " ").replace(/\s+/g, " ").trim() });
+  }
+  /* classify for glossary-less skills with the safe classics */
+  if (!effects.length) {
+    for (const w of [...CLASSIC_DEBUFF, ...CLASSIC_BUFF]) {
+      if (new RegExp("(^|[^A-Za-z])" + w + "(?![A-Za-z])").test(main)) effects.push({ name: w, jp: "", types: CLASSIC_BUFF.includes(w) ? "Buff" : "Debuff", text: "" });
+    }
+  }
+  return { main, effects };
+}
+
+/* wrap status names inside the escaped description with colored highlights */
+function highlightStatuses(escapedMain, effects) {
+  let html = escapedMain;
+  const seen = new Set();
+  for (const f of effects) {
+    const key = f.name.toLowerCase();
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    const c = fxClass(f.types);
+    const cls = c === "fx-buff" ? "ef-buff" : c === "fx-debuff" ? "ef-debuff" : "ef-gen";
+    const name = f.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    html = html.replace(new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])"), (all, pre, word) => `${pre}<b class="ef ${cls}">${word}</b>`);
+  }
+  return html;
+}
+
+function fxClass(types) {
+  return types.startsWith("Buff") ? "fx-buff" : types.startsWith("Debuff") ? "fx-debuff" : "fx-gen";
+}
+
+/* shared skill card: numbered photo, cost chips, effect chips + definitions */
+const SKILL_NUM = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+function skillCard(k, i) {
+  const { main, effects } = parseSkillDesc(k);
+  const chips = effects.length
+    ? `<div class="skill-effects">${effects.map((f) => `<span class="fx-chip ${fxClass(f.types)}">${esc(f.types.split(",")[0])}${f.types.includes(",") ? `<i>${esc(f.types.split(",")[1].trim())}</i>` : ""}<b>${esc(f.name)}</b></span>`).join("")}</div>`
+    : "";
+  const defs = effects.filter((f) => f.text).length
+    ? `<div class="fx-defs">${effects.filter((f) => f.text).map((f) => `
+      <div class="fx-def ${fxClass(f.types)}">
+        <span class="fx-name">${esc(f.name)}${f.jp ? ` <i>${esc(f.jp)}</i>` : ""} <em>${esc(f.types)}</em></span>
+        <span class="fx-body">${esc(f.text)}</span>
+      </div>`).join("")}</div>`
+    : "";
+  return `
     <div class="skill-card">
-      ${k.icon ? `<img class="skill-icon" src="${k.icon}" alt="" onerror="this.onerror=null;this.style.display='none'">` : ""}
+      <div class="skill-photo">
+        ${k.icon ? `<img class="skill-icon" src="${k.icon}" alt="" loading="lazy" onerror="this.onerror=null;this.style.display='none'">` : ""}
+        <span class="skill-no">${SKILL_NUM[i] ?? i + 1}</span>
+      </div>
       <div class="skill-body">
-        <div class="skill-head"><strong>${esc(k.name)}</strong>
+        <div class="skill-head">
+          <strong>${esc(k.name)}</strong>
           <span class="skill-tags">
-            ${k.type ? `<span class="skill-kind">${esc(k.type)}</span>` : ""}
+            ${k.group ? `<span class="skill-kind">${esc(k.group)}</span>` : k.type ? `<span class="skill-kind">${esc(k.type)}</span>` : ""}
+            ${k.type && k.group && k.type.toUpperCase() !== k.group.toUpperCase() ? `<span>${esc(k.type)}</span>` : ""}
             ${k.onibi != null && k.onibi !== "" ? `<span>Onibi ${esc(k.onibi)}</span>` : ""}
+            ${k.cooldown ? `<span>CD ${esc(k.cooldown)}</span>` : ""}
           </span>
         </div>
-        <div class="skill-cost">Cooldown ${k.cooldown ?? 0}</div>
         ${k.line ? `<p class="skill-line">“${esc(k.line)}”</p>` : ""}
-        ${k.description ? `<p>${fmtText(k.description)}</p>` : ""}
+        ${main ? `<p>${highlightStatuses(esc(main), effects)}</p>` : ""}
+        ${chips}
+        ${defs}
         ${(k.upgrades ?? []).length ? `<ul class="skill-ups">${k.upgrades.map((u) => `<li><b>Lv.${u.lvl}</b> ${esc(u.text)}</li>`).join("")}</ul>` : ""}
       </div>
-    </div>`).join("");
+    </div>`;
+}
+
+function skillsBlock(skills, emptyNote) {
+  const rows = (skills ?? []).map((k, i) => skillCard(k, i)).join("");
   return `<section><h4>Skills</h4>${rows || `<p class="center-note">${emptyNote}</p>`}</section>`;
 }
 
@@ -673,20 +750,7 @@ function openDetail(s) {
       <tr><td>MAX</td>${statRows.map((k) => `<td>${legacy.max[k] ?? "?"}</td>`).join("")}</tr></tbody></table></section>`;
   }
 
-  const skills = (s.skills ?? []).map((k) => `
-    <div class="skill-card">
-      ${k.icon ? `<img class="skill-icon" src="${k.icon}" alt="" onerror="this.onerror=null;this.style.display='none'">` : ""}
-      <div class="skill-body">
-        <div class="skill-head"><strong>${esc(k.name)}</strong>
-          <span class="skill-tags"><span class="skill-kind">${esc(k.group ?? "")}</span>
-          ${k.type && k.type.toUpperCase() !== (k.group ?? "").toUpperCase() ? `<span>${esc(k.type)}</span>` : ""}</span>
-        </div>
-        <div class="skill-cost">Onibi ${k.onibi ?? 0} · Cooldown ${k.cooldown ?? 0}</div>
-        ${k.line ? `<p class="skill-line">“${esc(k.line)}”</p>` : ""}
-        ${k.description ? `<p>${fmtText(k.description)}</p>` : ""}
-        ${(k.upgrades ?? []).length ? `<ul class="skill-ups">${k.upgrades.map((u) => `<li><b>Lv.${u.lvl}</b> ${esc(u.text)}</li>`).join("")}</ul>` : ""}
-      </div>
-    </div>`).join("");
+  const skills = (s.skills ?? []).map((k, i) => skillCard(k, i)).join("");
 
   const bio = (s.bio ?? []).length ? `
     <section><h4>Biography</h4>

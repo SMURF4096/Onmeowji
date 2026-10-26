@@ -180,9 +180,11 @@ input, textarea { caret-color: var(--gold-soft); }
   overflow-x: auto;
   scrollbar-width: none;
   /* edge-fade affordance: the next link melts into the edge instead of blunt clipping;
-     the fade zone lives in the reserved end padding so fits never get trimmed */
+     the fade zones live in reserved padding so the first link ("Home") is never covered
+     while at rest — the mask only eats the empty padding, never the tab label */
   --nav-fade: var(--s14);
   min-width: 0;
+  padding-inline-start: var(--nav-fade);
   padding-inline-end: var(--nav-fade);
   mask-image: linear-gradient(90deg, transparent 0, var(--bg) var(--s10), var(--bg) calc(100% - var(--s12)), transparent 100%);
   -webkit-mask-image: linear-gradient(90deg, transparent 0, var(--bg) var(--s10), var(--bg) calc(100% - var(--s12)), transparent 100%);
@@ -937,21 +939,36 @@ html.gsap-fx .sec-head { animation: none; }
 .soul-row .type-col { display: flex; padding: var(--s6) var(--s12) var(--s12); margin-top: 0; }
 
 
-/* ---------- Skill cards (detail modal) ---------- */
+/* ---------- Skill cards (detail modal) ----------
+   layout: numbered photo column + info column; effect chips
+   (Buff gold / Debuff vermilion / General neutral) under the text */
 .skill-card {
   display: grid;
-  grid-template-columns: var(--skill-col) 1fr;
+  grid-template-columns: auto 1fr;
   gap: 0.9rem;
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--border-soft);
 }
 .skill-card:last-child { border-bottom: none; }
+.skill-photo {
+  width: var(--skill-col);
+  display: grid;
+  justify-items: center;
+  gap: 0.25rem;
+}
 .skill-icon {
   width: var(--skill-ico); height: var(--skill-ico);
   object-fit: contain;
   border-radius: 0;
   border: 1px solid rgb(var(--gold-rgb) / 0.3);
   background: var(--surface-2);
+  padding: 2px;
+}
+.skill-no {
+  font-family: var(--font-serif);
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  color: var(--muted);
 }
 .skill-head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
 .skill-head strong { font-size: 0.92rem; letter-spacing: 0.04em; }
@@ -973,12 +990,49 @@ html.gsap-fx .sec-head { animation: none; }
   border-radius: var(--radius-pill);
   padding: 1px var(--s8);
 }
-.skill-cost { color: var(--faint); font-size: 0.7rem; margin-top: 0.15rem; letter-spacing: 0.08em; font-family: var(--font-ui); }
 .skill-line { color: var(--gold-hi); font-size: 0.78rem; font-style: italic; margin: 0.35rem 0 0; }
 .skill-body p { margin: 0.3rem 0 0; color: var(--ink-2); font-size: 0.8rem; white-space: normal; word-break: normal; overflow-wrap: break-word; }
 .skill-ups { margin: 0.4rem 0 0; padding-left: 1rem; color: var(--muted); font-size: 0.74rem; font-family: var(--font-ui); }
 .skill-ups li { margin: 0.15rem 0; }
 .skill-ups b { color: var(--gold-soft); font-weight: 600; }
+/* status highlights inside the description */
+.skill-body b.ef { font-weight: 600; border-bottom: 1px solid rgb(var(--gold-rgb) / 0.4); padding-bottom: 1px; }
+.skill-body b.ef-buff { color: var(--gold-soft); }
+.skill-body b.ef-debuff { color: #e08576; }
+.skill-body b.ef-gen { color: var(--text); }
+/* effect chip row — the quick-read buff/debuff tags */
+.skill-effects { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.45rem; }
+.fx-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius-pill);
+  padding: 2px var(--s8) 2px var(--s10);
+  border: 1px solid var(--border-soft);
+  background: var(--surface-2);
+  color: var(--muted);
+}
+.fx-chip b { font-weight: 600; letter-spacing: 0.14em; text-transform: none; color: var(--text); }
+.fx-chip i { font-style: normal; opacity: 0.7; font-size: 0.55rem; }
+.fx-chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--faint); }
+.fx-chip.fx-buff { border-color: rgb(var(--gold-rgb) / 0.5); }
+.fx-chip.fx-buff::before { background: var(--gold); box-shadow: 0 0 6px rgb(var(--gold-rgb) / 0.6); }
+.fx-chip.fx-buff b { color: var(--gold-soft); }
+.fx-chip.fx-debuff { border-color: rgb(var(--sp-rgb) / 0.5); }
+.fx-chip.fx-debuff::before { background: rgb(var(--sp-rgb)); box-shadow: 0 0 6px rgb(var(--sp-rgb) / 0.6); }
+.fx-chip.fx-debuff b { color: #ef9a8b; }
+/* effect definitions — the wiki glossary lines under the description */
+.fx-defs { display: grid; gap: 0.35rem; margin-top: 0.45rem; border-left: 2px solid var(--border); padding-left: 0.6rem; }
+.fx-def { display: grid; grid-template-columns: minmax(6.5rem, auto) 1fr; gap: 0.2rem 0.6rem; align-items: baseline; }
+.fx-def .fx-name { font-size: 0.72rem; color: var(--text); font-family: var(--font-serif); }
+.fx-def .fx-name i { color: var(--faint); font-size: 0.66rem; }
+.fx-def .fx-name em { font-style: normal; font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint); margin-left: 0.3rem; }
+.fx-def .fx-body { font-size: 0.72rem; color: var(--muted); line-height: 1.45; }
+.fx-def.fx-buff { border-left-color: rgb(var(--gold-rgb) / 0.6); }
+.fx-def.fx-debuff { border-left-color: rgb(var(--sp-rgb) / 0.6); }
 
 .bio-list { margin: 0; padding-left: 1.1rem; color: var(--ink-2); font-size: 0.8rem; }
 .bio-list li { margin: 0.3rem 0; }
