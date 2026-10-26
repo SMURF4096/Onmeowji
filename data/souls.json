@@ -538,7 +538,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/7/7c/Soul34.png/revision/latest?cb=20180403141157",
     "localImage": "assets/souls/Soul34.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "At the start of each battle against monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them. Stacks removed after receiving damage 3 times, reduced SPD by 10% and inflicting 10% indirect damage for 1 turn",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -554,7 +554,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/f/ff/Soul35.png/revision/latest?cb=20180403141127",
     "localImage": "assets/souls/Soul35.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive passive effect. When taking attacks from monsters, has a 75% chance of raising the Move Bar by 30%. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -570,7 +570,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/d/d5/Soul36.png/revision/latest?cb=20180403140934",
     "localImage": "assets/souls/Soul36.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive passive effect. Increases damage dealt to monsters by 15% for 2 turns. If attacked by monsters, increases damage boost effect to 40%.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -586,7 +586,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/9/9f/Soul37.png/revision/latest?cb=20180403141005",
     "localImage": "assets/souls/Soul37.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive passive effect. At the start of a battle against monsters, grants 70% damage reduction. When taking damage, transfer 8% damage reduction to 2% damage boost. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -602,7 +602,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/b/be/Soul38.png/revision/latest?cb=20180403141052",
     "localImage": "assets/souls/Soul38.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive passive effect. At the start of battle against monsters, grants a shelter. Shelter regenerates 4 turns after being lifted.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -778,7 +778,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/9/92/Soul49.png/revision/latest?cb=20190905145804",
     "localImage": "assets/souls/Soul49.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive passive effect. After dealing damage to monsters 3 times, the next damage dealt to a monster inflicts damage equal to 30% of its max HP, ignoring its DEF, to a max of 355% of own ATK.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
@@ -986,7 +986,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/3/3a/Soul62.png/revision/latest?cb=20240619053553",
     "localImage": "assets/souls/Soul62.png",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "",
+    "combo4": "Exclusive effect. When the equipped unit lands a controlling effect or Banishes a monster during their turn, for each target, increases all non-summoned ally entities's SPD by 25, up to a maximum of 135. Sustainable for 1 turn. Triggers only once for multiple hits on the same target.",
     "location": "Demon Encounter · Mall",
     "version": "",
     "art": "assets/souls/M56.png"
