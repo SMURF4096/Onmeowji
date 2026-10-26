@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Onmyoji Codex — Shikigami Field Books (ThreeUI showcase preview)</title>
+  <title>Field Manuals — preview of BestsellersBookShowcase (ThreeUI)</title>
   <!--
     Integration preview for @designcodeio/threeui <BestsellersBookShowcase />.
     Runtime: Full HTML + DOM/CSS + embedded media, canonical revision
@@ -14,11 +14,6 @@
     This wrapper mirrors LandingPageFrame.tsx (frame-component,
     SHA-61de2cc5) + pageTypography.js runtime + the BESTSELLERS_TYPOGRAPHY
     recipe (pageRecipes.js), all ported 1:1 from the verified package source.
-
-    Default view: onmyoji-showcase.html — a fork of the canonical page with
-    Onmyoji Codex content (brand, hero word, three shikigami volumes with
-    real skill/lore data from data/shikigami.json, site menu links).
-    Add ?source=threeui to view the canonical Field Manuals page instead.
   -->
   <style>
     html, body { margin: 0; height: 100%; background: #080808; }
@@ -31,7 +26,7 @@
 </head>
 <body>
   <div class="shader-frame">
-    <iframe id="threeui-frame" title="Onmyoji Codex — Shikigami Field Books" loading="eager"></iframe>
+    <iframe id="threeui-frame" title="Field Manuals — Tools for Thought" loading="eager"></iframe>
   </div>
 
   <script>
@@ -208,14 +203,7 @@ body { font-family: ${e.body}; font-weight: ${e.bodyWeight}; }
     const URL_FRAME_SANDBOX = "allow-downloads allow-forms allow-modals allow-popups allow-same-origin allow-scripts";
     const frame = document.getElementById("threeui-frame");
     frame.sandbox = URL_FRAME_SANDBOX;
-    const params = new URLSearchParams(location.search);
-    const sources = {
-      threeui: { src: "vendor/threeui/landing-pages/bestsellers-book-showcase.html", title: "Field Manuals — Tools for Thought" },
-      onmyoji: { src: "onmyoji-showcase.html", title: "Onmyoji Codex — Shikigami Field Books" },
-    };
-    const source = sources[params.get("source")] || sources.onmyoji;
-    frame.src = source.src;
-    frame.title = source.title;
+    frame.src = "vendor/threeui/landing-pages/bestsellers-book-showcase.html";
 
     const customization = computeCustomization(BESTSELLERS_TYPOGRAPHY, USAGE);
     function onFrameLoad(event) {
