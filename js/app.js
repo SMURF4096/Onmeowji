@@ -902,19 +902,68 @@ function renderCalendar() {
     line.innerHTML = `<img class="cal-ico mini" src="${buffIco(b)}" alt="" onerror="this.style.display='none'">Today (<b>EST</b>) is ${wd}, and the daily buff is <b>${b}</b>.`;
   }
   drawCalendar();
-  const step = (n) => {
-    calMonth += n;
-    if (calMonth < 1) { calMonth = 12; calYear--; }
-    if (calMonth > 12) { calMonth = 1; calYear++; }
+  const now2 = estNow();
+
+  /* ---- month / year picker (click to select) ---- */
+  let pickerYear = calYear;
+  const monthBtn = document.getElementById("cal-month-btn");
+  const picker = document.getElementById("cal-picker");
+
+  const closePicker = () => {
+    if (!picker) return;
+    picker.hidden = true;
+    monthBtn?.setAttribute("aria-expanded", "false");
+  };
+  const openPicker = () => {
+    if (!picker) return;
+    pickerYear = calYear;
+    buildPicker();
+    picker.hidden = false;
+    monthBtn?.setAttribute("aria-expanded", "true");
+  };
+  function buildPicker() {
+    const yv = document.getElementById("cal-year-val");
+    if (yv) yv.textContent = pickerYear;
+    const grid = document.getElementById("cal-month-grid");
+    if (!grid) return;
+    const names = new Intl.DateTimeFormat("en", { month: "short" });
+    grid.innerHTML = Array.from({ length: 12 }, (_, i) => {
+      const m = i + 1;
+      const sel = pickerYear === calYear && m === calMonth;
+      const isNow = pickerYear === now2.getUTCFullYear() && m === now2.getUTCMonth() + 1;
+      return `<button class="cal-pick${sel ? " selected" : ""}" type="button" data-month="${m}">
+        <span>${names.format(new Date(Date.UTC(pickerYear, i, 1)))}</span>
+        ${isNow ? '<span class="now-flag">now</span>' : ""}
+      </button>`;
+    }).join("");
+  }
+
+  monthBtn?.addEventListener("click", () => (picker.hidden ? openPicker() : closePicker()));
+  document.getElementById("cal-year-prev")?.addEventListener("click", () => { pickerYear--; buildPicker(); });
+  document.getElementById("cal-year-next")?.addEventListener("click", () => { pickerYear++; buildPicker(); });
+  document.getElementById("cal-month-grid")?.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-month]");
+    if (!b) return;
+    calYear = pickerYear;
+    calMonth = Number(b.dataset.month);
     drawCalendar();
     renderBuffDocs();
-  };
-  document.getElementById("cal-prev")?.addEventListener("click", () => step(-1));
-  document.getElementById("cal-next")?.addEventListener("click", () => step(1));
+    closePicker();
+  });
+  /* outside click + Escape close */
+  document.addEventListener("click", (e) => {
+    if (!picker || picker.hidden) return;
+    if (!e.target.closest("#cal-picker") && !e.target.closest("#cal-month-btn")) closePicker();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && picker && !picker.hidden) closePicker();
+  });
+
   document.getElementById("cal-today-btn")?.addEventListener("click", () => {
     const n = estNow();
     calYear = n.getUTCFullYear(); calMonth = n.getUTCMonth() + 1;
     drawCalendar();
+    if (!picker?.hidden) closePicker();
   });
 }
 

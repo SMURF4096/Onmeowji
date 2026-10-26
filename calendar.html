@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#131415">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="css/fonts.css?v=8">
-  <link rel="stylesheet" href="css/style.css?v=23">
+  <link rel="stylesheet" href="css/style.css?v=25">
   <link rel="stylesheet" href="css/flip-card.css?v=1">
 </head>
 <body data-page="calendar" data-data="data/">
@@ -50,14 +50,23 @@
       <div class="sec-head">
         <h2>Buff Calendar</h2><span class="jp">暦</span><span class="spacer"></span>
         <div class="cal-nav">
-          <button class="cal-btn" id="cal-prev" aria-label="Previous month">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>
-          </button>
-          <span class="cal-month" id="cal-month-name">Month</span>
-          <button class="cal-btn" id="cal-next" aria-label="Next month">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+          <button class="cal-btn cal-month-btn" id="cal-month-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select month and year">
+            <span class="cal-month" id="cal-month-name">Month</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l4 5 4-5"/></svg>
           </button>
           <button class="cal-btn cal-today-btn" id="cal-today-btn">Today</button>
+          <div class="cal-picker" id="cal-picker" hidden>
+            <div class="cal-picker-year">
+              <button class="cal-btn" id="cal-year-prev" aria-label="Previous year">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>
+              </button>
+              <span class="cal-year-val" id="cal-year-val">2026</span>
+              <button class="cal-btn" id="cal-year-next" aria-label="Next year">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+              </button>
+            </div>
+            <div class="cal-picker-grid" id="cal-month-grid"></div>
+          </div>
         </div>
       </div>
 
@@ -97,6 +106,6 @@
   <div class="modal-backdrop" id="modal-backdrop"></div>
   <script src="assets/vendor/gsap.min.js?v=21"></script>
   <script src="assets/vendor/ScrollTrigger.min.js?v=21"></script>
-  <script src="js/app.js?v=23"></script>
+  <script src="js/app.js?v=25"></script>
 </body>
 </html>

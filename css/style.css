@@ -262,15 +262,84 @@ input, textarea { caret-color: var(--gold-soft); }
 }
 
 /* ---------- buff calendar (calendar.html) : fixed EST daily rotation ---------- */
-.cal-nav { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.5rem; max-width: 100%; }
+.cal-nav { position: relative; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.5rem; max-width: 100%; }
+/* fixed-width trigger: changing months never shifts the neighbours */
+.cal-btn.cal-month-btn { min-width: 11.5rem; justify-content: space-between; }
 .cal-month {
   color: var(--text);
   font-family: var(--font-latin);
   font-size: 1rem;
   letter-spacing: 0.08em;
   min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+.cal-month-btn[aria-expanded="true"] { color: var(--gold-soft); border-color: rgb(var(--gold-rgb) / 0.55); }
+.cal-picker {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  width: 18.5rem;
+  padding: 0.85rem;
+  background: var(--surface);
+  border: 1px solid rgb(var(--gold-rgb) / 0.45);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+}
+.cal-picker[hidden] { display: none; }
+.cal-picker-year {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+.cal-year-val {
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+  text-align: center;
+  min-width: 5rem;
+}
+.cal-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+.cal-pick {
+  display: grid;
+  place-items: center;
+  min-height: 2.15rem;
+  padding: 0 0.3rem;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  cursor: pointer;
   text-align: center;
 }
+.cal-pick:hover { color: var(--text); border-color: rgb(var(--gold-rgb) / 0.45); }
+.cal-pick:focus-visible { outline: 2px solid rgb(var(--gold-rgb) / 0.9); outline-offset: 1px; }
+.cal-pick .now-flag {
+  font-size: 0.55rem;
+  color: var(--gold-hi);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.cal-pick.selected {
+  color: var(--seal-ink, #131415);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.cal-pick.selected .now-flag { color: var(--seal-ink, #131415); }
+/* stacked rows let the short month name and the "now" flag breathe */
+.cal-pick { grid-template-rows: auto auto; line-height: 1.05; }
 .cal-btn {
   display: inline-flex;
   align-items: center;
