@@ -2,7 +2,7 @@
    Data: data/*.json produced by tools/collect*.mjs (public wiki data, CC BY-NC-SA).
    Site is fully self-contained: no outbound navigation anywhere. */
 
-const state = { shikigami: [], souls: [], stats: { min: [], max: [] }, chars: [], bonds: [] };
+const state = { shikigami: [], souls: [], stats: { min: [], max: [] }, chars: [], bonds: [], statusIcons: {} };
 
 /* entrance choreography opt-in: only when JS is live and motion allowed */
 const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -18,18 +18,20 @@ const fmtText = (s) => esc(String(s ?? "")
 
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
-  const [sh, so, st, ch, bo] = await Promise.all([
+  const [sh, so, st, ch, bo, ic] = await Promise.all([
     fetch(base + "shikigami.json").then((r) => r.json()),
     fetch(base + "souls.json").then((r) => r.json()),
     fetch(base + "stats.json").then((r) => r.json()),
     fetch(base + "onmyoji.json").then((r) => r.json()),
     fetch(base + "bondlings.json").then((r) => r.json()),
+    fetch(base + "status-icons.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ]);
   state.shikigami = sh;
   state.souls = so.sort((a, b) => a.no - b.no);
   state.stats = st;
   state.chars = ch;
   state.bonds = bo;
+  state.statusIcons = ic ?? {};
   document.dispatchEvent(new CustomEvent("data-ready"));
 }
 
@@ -507,8 +509,12 @@ const CLASSIC_BUFF = ["Heal", "Shield", "Amulet"];
 const CLASSIC_DEBUFF = ["Confuse", "Silence", "Sleep", "Freeze", "Stun", "Bind", "Morph", "Disarm", "Daze", "Bone Lock", "Blind", "Slow", "Curse", "Poison", "Bleed", "Banish"];
 
 function parseSkillDesc(k) {
-  const raw = String(k.description ?? "");
-  const parts = raw.split(/;(?=[A-Za-z(])/);
+  let raw = String(k.description ?? "");
+  /* wiki-incomplete entries ("? ;Performance (奏乐)…") — a bare ? as the whole
+     main description only hurts the display; the glossary def carries the info */
+  raw = raw.replace(/^\?\s*(?=\n|;|$)/, "");
+  /* split only at glossary starts: ";" followed by an uppercase/jp name, not mid-sentence */
+  const parts = raw.split(/;(?=[A-Z(（])/);
   const main = parts[0].replace(/<br\s*\/?>\s*/gi, " ").replace(/\s+/g, " ").trim();
   const effects = [];
   for (const seg of parts.slice(1)) {
@@ -536,6 +542,11 @@ function parseSkillDesc(k) {
 }
 
 /* wrap status names inside the escaped description with colored highlights */
+function statusIcon(name) {
+  const ic = state.statusIcons?.[String(name ?? "").toLowerCase()];
+  return ic?.url ? `<img class="fx-ico" src="${esc(ic.url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+}
+
 function highlightStatuses(escapedMain, effects) {
   let html = escapedMain;
   const seen = new Set();
@@ -546,7 +557,9 @@ function highlightStatuses(escapedMain, effects) {
     const c = fxClass(f.types);
     const cls = c === "fx-buff" ? "ef-buff" : c === "fx-debuff" ? "ef-debuff" : "ef-gen";
     const name = f.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    html = html.replace(new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])"), (all, pre, word) => `${pre}<b class="ef ${cls}">${word}</b>`);
+    const ico = state.statusIcons?.[key]
+      ? `<img class="fx-ico" src="${esc(state.statusIcons[key].url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+    html = html.replace(new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])"), (all, pre, word) => `${pre}<b class="ef ${cls}">${ico}${word}</b>`);
   }
   return html;
 }
@@ -555,17 +568,30 @@ function fxClass(types) {
   return types.startsWith("Buff") ? "fx-buff" : types.startsWith("Debuff") ? "fx-debuff" : "fx-gen";
 }
 
+/* upgrade lines carry wiki bold-status markup — 'Name''': text → colored name + em-dash */
+function fmtUpgrade(raw, effects) {
+  const known = new Map(effects.map((f) => [f.name.toLowerCase(), fxClass(f.types)]));
+  const parts = String(raw ?? "").split(/'''([^']+?)'''\s*:\s*/);
+  let out = esc(parts[0] ?? "");
+  for (let i = 1; i < parts.length; i += 2) {
+    const name = parts[i] ?? "";
+    const c = known.get(name.toLowerCase()) ?? "";
+    out += `<b class="ef ${c || "ef-gen"}">${statusIcon(name)}${esc(name)}</b> — ` + esc(parts[i + 1] ?? "");
+  }
+  return out;
+}
+
 /* shared skill card: numbered photo, cost chips, effect chips + definitions */
 const SKILL_NUM = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
 function skillCard(k, i) {
   const { main, effects } = parseSkillDesc(k);
   const chips = effects.length
-    ? `<div class="skill-effects">${effects.map((f) => `<span class="fx-chip ${fxClass(f.types)}">${esc(f.types.split(",")[0])}${f.types.includes(",") ? `<i>${esc(f.types.split(",")[1].trim())}</i>` : ""}<b>${esc(f.name)}</b></span>`).join("")}</div>`
+    ? `<div class="skill-effects">${effects.map((f) => `<span class="fx-chip ${fxClass(f.types)}">${statusIcon(f.name)}${esc(f.types.split(",")[0])}${f.types.includes(",") ? `<i>${esc(f.types.split(",")[1].trim())}</i>` : ""}<b>${esc(f.name)}</b></span>`).join("")}</div>`
     : "";
   const defs = effects.filter((f) => f.text).length
     ? `<div class="fx-defs">${effects.filter((f) => f.text).map((f) => `
       <div class="fx-def ${fxClass(f.types)}">
-        <span class="fx-name">${esc(f.name)}${f.jp ? ` <i>${esc(f.jp)}</i>` : ""} <em>${esc(f.types)}</em></span>
+        <span class="fx-name">${statusIcon(f.name)}${esc(f.name)}${f.jp ? ` <i>${esc(f.jp)}</i>` : ""} <em>${esc(f.types)}</em></span>
         <span class="fx-body">${esc(f.text)}</span>
       </div>`).join("")}</div>`
     : "";
@@ -589,7 +615,7 @@ function skillCard(k, i) {
         ${main ? `<p>${highlightStatuses(esc(main), effects)}</p>` : ""}
         ${chips}
         ${defs}
-        ${(k.upgrades ?? []).length ? `<ul class="skill-ups">${k.upgrades.map((u) => `<li><b>Lv.${u.lvl}</b> ${esc(u.text)}</li>`).join("")}</ul>` : ""}
+        ${(k.upgrades ?? []).length ? `<ul class="skill-ups">${k.upgrades.map((u) => `<li><b>Lv.${u.lvl}</b> ${fmtUpgrade(u.text, effects)}</li>`).join("")}</ul>` : ""}
       </div>
     </div>`;
 }

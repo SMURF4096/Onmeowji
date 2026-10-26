@@ -1034,6 +1034,19 @@ html.gsap-fx .sec-head { animation: none; }
 .fx-def.fx-buff { border-left-color: rgb(var(--gold-rgb) / 0.6); }
 .fx-def.fx-debuff { border-left-color: rgb(var(--sp-rgb) / 0.6); }
 
+/* inline status sub-photos (fandom BuffNN.png / DebuffNN.png icons) */
+.fx-ico {
+  width: 1em; height: 1em; vertical-align: -0.14em;
+  image-rendering: pixelated;
+  margin-right: 2px;
+  border-radius: 50%;
+  background: rgb(var(--gold-rgb) / 0.08); /* framed dot behind transparent corners */
+  outline: 1px solid rgb(var(--gold-rgb) / 0.3);
+}
+.skill-body b.ef .fx-ico { width: 1.05em; height: 1.05em; }
+.fx-def .fx-name .fx-ico { width: 1.15em; height: 1.15em; vertical-align: -0.2em; }
+.fx-chip .fx-ico { margin-right: 4px; }
+
 .bio-list { margin: 0; padding-left: 1.1rem; color: var(--ink-2); font-size: 0.8rem; }
 .bio-list li { margin: 0.3rem 0; }
 .bio-award { color: var(--gold-soft); font-size: 0.76rem; }

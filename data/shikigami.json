@@ -1214,7 +1214,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "One down, eight to go!",
-        "description": "",
+        "description": "When Kyuumei Neko deals a crit attack, she gains 1 layer of Kyuumei Neko: Nine Lives (max of 4 layers). \nWhen she is KO'd and has 4 layers of Kyuumei Neko: Nine Lives, she is immediately revived with 20% of her max HP recovered then uses Revenge on a random enemy.\nWhen she is KO'd, she also inflicts Cat Vengeance to the source of the lethal damage. \n;Kyuumei Neko： Nine Lives (九命猫・九命)\n: '''Buff, Mark''': \"This is why I keep showing up nya!\"\n:''(1-4 pawprints will circle around Kyuumei Neko, 1 pawprint represents 1 layer.)''\n;Cat Vengeance (九命猫・復習)\n:\n:'''Debuff, Mark''': At the start of her turn, Kyuumei Neko can use Revenge on the enemy without any onibi and ignore 100 of their defense.",
         "upgrades": [],
         "icon": "assets/skills/2072.png"
       },
@@ -1966,7 +1966,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "There is no escape.",
-        "description": "",
+        "description": "Kuro Mujou gains a new turn immediately after KO'ing an enemy.",
         "upgrades": [],
         "icon": "assets/skills/2112.png"
       },
@@ -2164,7 +2164,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "I'm willing to offer my soul.",
-        "description": "",
+        "description": "Oguna sacrifices himself to revive all KO'd allies and restores their HP by 30% of his max HP. \n;\n:",
         "upgrades": [],
         "icon": "assets/skills/2123.png"
       }
@@ -3416,7 +3416,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I want more... More!",
-        "description": "",
+        "description": "At the end of a turn, Shuten Doji has a 50% chance of gaining 1 layer of Madness. When he is attacked, he has a 25% chance of gaining 1 layer. \nMadness has a max of 4 layers. \n;Madness (狂気)\n:'''Buff, Status''': Increases the number of follow-up attacks Calabash Spray inflicts.\n:''(1-4 flaming calabash will circle around him, 1 calabash represents 1 layer.)''",
         "upgrades": [],
         "icon": "assets/skills/2192.png"
       },
@@ -3614,7 +3614,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Inugami's base ATK is increased by 210% and he grants Protection Mark to all allies.\nWhenever a Protection Mark triggers a counter attack, recovers his own HP by 15% of the damage dealt; if Inugami is Immobile, dispels 1 control effect or debuff on him instead.\nSword Flurry's damage dealt no longer decreased when attacking the same enemy and its cost is decreased by 2 onibi. Before Inugami's next turn, each 1 new ally KO'd allows his next Sword Flurry to inflict 1 additional follow-up strike.",
         "upgrades": [],
         "icon": "assets/skills/2202b.png"
       },
@@ -3783,7 +3783,7 @@
         "onibi": 3,
         "cooldown": 1,
         "line": "It looks like you need some beauty sleep!",
-        "description": "",
+        "description": "Kamikui uses his pipe to blow magical smoke that turns into strands of hair and entangles 1 enemy and has a 100% base chance of inflicting Sleep on them, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/2212.png"
       },
@@ -4138,7 +4138,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "I don't want to leave this place just yet... Feel my wrath!",
-        "description": "",
+        "description": "When Hone Onna is attacked, she gains a layer of Fury (max of 6 layers). \nWhen she id KO'd, and if she has 4 or more layers of Fury, all layers are consumed and she immediately revives, restoring her HP by 20% of her max HP.\n;\n:\n;Fury (憎しみ)\n:'''General, Status''': Hone Onna filled with Fury refuses to die.\n:''(1-6 pink flames with circle around her, 1 flame represents 1 layer of Fury.)''",
         "upgrades": [],
         "icon": "assets/skills/2232.png"
       },
@@ -4307,7 +4307,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "How long will it take before these tears stop pouring from my heart?",
-        "description": "",
+        "description": "At the start of the turn, removes all controlling effects on self and dispels all debuffs. Gains 40 SPD for 1 turn when affected by debuffs or controlling effects (triggers at most once before own turn starts).\n;Remove\n:Removes the effects that cannot be dispelled.",
         "upgrades": [],
         "icon": "assets/skills/2242.png"
       },
@@ -4658,7 +4658,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Wwaaah... I'm not playing anymore! Wa Waah...",
-        "description": "",
+        "description": "At the end of Kyonshii Imouto's turn, she has a 30% chance of granting Cuteness is Justice to all allies, lasts for 2 turns.\nWhen Kyonshii Imouto is KO'd, and if Tomato is on the battlefield, she is revived immediately. Each revival increases the cooldown of her next revival by 1 turn.\n; (萝莉正义/可愛いは正義)\n:\n:'''Buff, Status''': Increases DEF by 30%.",
         "upgrades": [],
         "icon": "assets/skills/2262.png"
       },
@@ -4699,7 +4699,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "",
-        "description": "",
+        "description": "Kyonshii Imouto grants Tomato 1 layer of Grow Up. Tomato attacks a targeted enemy and then the enemy with the lowest proportion of HP, each attack deals damage equal to 125% of its ATK.\n;Grow Up (早く大きくなって)\n:\n:'''Buff, Mark''': Max of 5 layers. Increases ATK by 20%, Crit by 20% and SPD by 10.",
         "upgrades": [],
         "icon": "assets/skills/2263c.png"
       },
@@ -4711,7 +4711,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tomato deals damage equal to 100% of its ATK.",
         "upgrades": [],
         "icon": "assets/skills/4021.png"
       },
@@ -4723,7 +4723,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "",
-        "description": "",
+        "description": "Tomato takes the spot of a KO'd enemy and recovers it HP by 100%. Enemies who have their spot taken cannot be revived.",
         "upgrades": [],
         "icon": "assets/skills/4022.png"
       }
@@ -5607,7 +5607,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "If you want to live, you need money!",
-        "description": "",
+        "description": "When Tesso is attacked, he has a 40% base chance of inflicting Bribed on the attacker, lasts for 2 turns.\nWinning a battle with Tesso grants a 9% coin bonus.\n;Bribed (買収)\n:\n:'''Debuff, Status''': Decreases ATK by 20%.",
         "upgrades": [],
         "icon": "assets/skills/2322.png"
       },
@@ -6872,7 +6872,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "No strings on me!",
-        "description": "",
+        "description": "When Karaishi deals damage, she has a 20% chance of inflicting damage equal to 10% of the target's max HP (cannot exceed 120% of her ATK).",
         "upgrades": [],
         "icon": "assets/skills/2422.png"
       },
@@ -7041,7 +7041,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Hey you! Wanna wrestle?",
-        "description": "",
+        "description": "When Yamawaro attacks, he has a 8% base chance of inflicting enemies with Daze, lasts for 1 turns.",
         "upgrades": [],
         "icon": "assets/skills/2432.png"
       },
@@ -7210,7 +7210,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Hellfire, lend me your strength!",
-        "description": "",
+        "description": "When Kubinashi deals damage, he steals 40% Crit from the target, lasts for 1 turn.\nCan only affect 1 target at a time.",
         "upgrades": [],
         "icon": "assets/skills/2442.png"
       },
@@ -7720,7 +7720,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Let the gentle waters ease your pain.",
-        "description": "",
+        "description": "When Umibouzu deals damage, restores the HP of the non-summoned ally with the lowest proportion of HP by 60% of his damage dealt.\nWhen the same ally is healed multiple times during an action, decreases the restored amount by 15% for each extra healing performed.\n;\n:",
         "upgrades": [],
         "icon": "assets/skills/2472.png"
       },
@@ -8075,7 +8075,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "You strike me, I'll strike back twice as hard!",
-        "description": "",
+        "description": "When Satori is attacked, she has a 40% base chance of inflicting Grudge on the attacker.\n;Grudge (根に持つ)\n:'''Debuff, Status''': When she attacks inflicted enemies, deals an extra 15% of damage to them, lasts for 1 turn.\n:''(A green orb will circle around inflicted enemies.)''",
         "upgrades": [],
         "icon": "assets/skills/2492.png"
       },
@@ -8244,7 +8244,7 @@
         "onibi": 0,
         "cooldown": 1,
         "line": "Lady Luck will look after me, croak!",
-        "description": "",
+        "description": "When Jikikaeru is KO'd, he uses Tile Fling on all enemies without spending any onibi. Revives himself immediately if 2 or more dice have the same numbers and recovers his 10% of his max HP × the minimum number of dice with the same rolls. Cooldown is based on the maximum number of dice with the same rolls.",
         "upgrades": [],
         "icon": "assets/skills/2502.png"
       },
@@ -8599,7 +8599,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "The weak will turn to ashes amidst the flames!",
-        "description": "",
+        "description": "When Hououka attacks, she has a 50% base chance of inflicting Daze on enemies with a debuff or control effect.",
         "upgrades": [],
         "icon": "assets/skills/2522.png"
       },
@@ -8764,7 +8764,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I will repay you in blood!",
-        "description": "",
+        "description": "Kyuuketsu Hime transfers her lost HP into energy, increasing her damage dealt by 4% for each 1% of lost HP.\n:''(Dark red energy and bats will swirl around her to indicate that her damage dealt boost is active.)''",
         "upgrades": [],
         "icon": "assets/skills/2532.png"
       },
@@ -9487,7 +9487,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sleep too deeply and you'll never wake up! Squeak squeak!",
-        "description": "",
+        "description": "When Yumekui deals damage, Sleep will not be removed from the target.\n;\n:",
         "upgrades": [],
         "icon": "assets/skills/2572.png"
       },
@@ -10031,7 +10031,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Love is poison...",
-        "description": "",
+        "description": "When a target is inflicted with Poison by Kiyohime, their DEF is also reduced by 10, up to a maximum of 150 until the end of battle.\nMultiple Kiyohime cannot reduce DEF further than the limit.\n;\n:",
         "upgrades": [],
         "icon": "assets/skills/2602.png"
       },
@@ -10386,7 +10386,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "It feels like rain! Let me lend you my umbrella...",
-        "description": "",
+        "description": "Ubume has a 30% chance to Assist.\nIf her total ATK is the highest among non-summoned allies, she also gains First Feathers.\n When Ubume is deployed and wins a battle, EXP awarded increases by 9%.\n;First Feathers (羽初)\n:\n:'''General, Mark''': Increases her damage dealt by 100% and her chance to Assist by 60%.\n;Assist\n: When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
         "upgrades": [],
         "icon": "assets/skills/2622.png"
       },
@@ -10555,7 +10555,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "No! Stay back!",
-        "description": "",
+        "description": "When an ally takes an action, Futakuchi Onna has a 40% chance to gain a stack of Vial of Demon Force, max of 6 stacks.\n;Upper Hand\n:Automatically gains 4 stacks of Vial of Demon Force at the start of battle.\n; Vial of Demon Force (妖気弾)\n:'''Buff, Status''': Max of 6 stacks. Each stack allows Apology to inflict 1 follow-up attack.\n:''(1-6 blue flaming orbs will circle around Futakuchi Onna, 1 orb represents 1 stack.)''",
         "upgrades": [],
         "icon": "assets/skills/2632.png"
       },
@@ -10724,7 +10724,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Dispense with distracting thoughts and focus the mind.",
-        "description": "",
+        "description": "At the end of Hakurou's turn, and if she is not in a Recharging state, she enters a Meditative state. While in a Meditative state, her Crit DMG is increased by 20% until the end of her next turn. Also creates a shadow double that cannot be attacked. The shadow double has a 30% chance of preventing Hakurou from taking any damage.",
         "upgrades": [],
         "icon": "assets/skills/2642.png"
       },
@@ -10885,7 +10885,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "You dare hurt my friends? Prepare to pay for what you've done!",
-        "description": "",
+        "description": "When Ibaraki Doji KO's a non-summoned enemy, he inflicts 50% of the excess damage to all enemies and consumes all Fury Fire stacks. If he fails to perform a KO, he gains a stack of Fury Fire, max of 3 stacks.\n;\n:\n;Fury Fire (怒りの炎)\n:\n:'''Buff, Status''': Increases damage dealt by 33%.",
         "upgrades": [],
         "icon": "assets/skills/2652.png"
       },
@@ -11819,7 +11819,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Feel the pain!",
-        "description": "",
+        "description": "When Jorougumo attacks, she has a 60% base chance of inflicting Spider Mark, lasts for 2 turn.\n;Spider Mark (蜘蛛の印)\n:'''Debuff, Status''': When using an onibi skill, inflicts indirect damage equal to 100% of Jorougumo's ATK and decreases SPD by 20 for 1 turn.\n:''(A black spider mark with a purple glow will circle around inflicted targets.)''",
         "upgrades": [],
         "icon": "assets/skills/2702.png"
       },
@@ -12017,7 +12017,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Ugh, your ugliness sickens me!",
-        "description": "",
+        "description": "When Hannya attacks, has a 40% base chance of inflicting his targets with Demon Mask, lasts for 2 turns.\n;\n:{{Color|red|Demon Mask also causes shikigami passives to be considered as ed.}}\n;Demon Mask (鬼面)\n:\n:'''Debuff, Status''': Shikigami's equipped soul are considered as ed.",
         "upgrades": [],
         "icon": "assets/skills/2712.png"
       },
@@ -12372,7 +12372,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Be strengthened by my holy light!",
-        "description": "",
+        "description": "Exclusive effect.\nAt the start of battle, Aobouzu gains 1 layer of Divine Light (max of 6, minimum of 1 active layer), lasts until the end of battle.\nWhen ally is inflicted with a control effect, he gains 1 layer of Divine Light. Divine Light decreases by 1 layer at the end of his turn.\n;Divine Light (仏の力)\n:\n:'''Buff, Mark''': Each layer increases his RES by 30% and the RES of all other allies by 15%.",
         "upgrades": [],
         "icon": "assets/skills/2732.png"
       },
@@ -12718,7 +12718,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Be prepared.",
-        "description": "",
+        "description": "At the end of Mannendake's turn, he gains Leaf Barrier, lasts 1 turn.\n;Leaf Barrier (竹の葉の守り)\n:'''Buff, Mark''': When an ally is receives damage, Mannendake has a 40% chance of launching a counter-attack against the source of the damage. When he receives damage, the chance increases to 100%.\n:''(A green orb with a bamboo leaf emblem will circle around allies while the effect is active.)''",
         "upgrades": [],
         "icon": "assets/skills/2752.png"
       },
@@ -13259,7 +13259,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I won't let you hurt my friends!",
-        "description": "",
+        "description": "When an enemy is KO'd, Shiro Douji will use a normal attack to attack a random enemy.",
         "upgrades": [],
         "icon": "assets/skills/2782.png"
       },
@@ -13970,7 +13970,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Don't you dare try to bully me, you scoundrel!",
-        "description": "",
+        "description": "When the enemy team takes 8 actions, Kingyo Hime's Goldfish attacks all enemies dealing damage equal to 120% of its ATK and has a 25% base chance of inflicting them with Silence, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/2822.png"
       },
@@ -14011,7 +14011,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kingyo Hime's Goldfish launches a water grenade at 1 enemy, dealing damage equal to 100% of her ATK.",
         "upgrades": [],
         "icon": "assets/skills/2823.png"
       }
@@ -14738,7 +14738,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "You're my most precious treasure",
-        "description": "",
+        "description": "Exclusive effect.\nBefore an ally takes an action, Hako no Shoujo creates a shield on them that can absorb damage equal to 8% of her max HP, lasts for 2 turn. Also grants them a Random Buff, lasts for 2 turn.\n;\n:\n;Random Buff (ランダムバフ)\n:\n:Includes the following 5 effects: ATK is increased by 10%, DEF is increased by 20%, Crit DMG is increased by 10%, SPD is increased by 10 and RES is increased by 10%.\n;Random Debuff (ランダムデバフ)\n:\n:Includes the following 5 effects: ATK is decreased by 10%, DEF is decreased by 20%, Crit DMG is decreased by 10%, SPD is decreased by 10 and RES is decreased by 10%.",
         "upgrades": [],
         "icon": "assets/skills/2872.png"
       },
@@ -15650,7 +15650,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "When it snows, it pours!",
-        "description": "",
+        "description": "When Yuki Douji attacks or deals transferred damage, he has a 25% base chance of inflicting the enemy with Freeze, lasts for 1 turn. Attacking Freeze targets again converts it into Deep Freeze and inflicts Ice Mark on the enemy for 2 turns. He also breaks the ice around enemies with Freeze, Deep Freeze or Frostbound, increasing his damage dealt to them by 300%. When inflicting a freeze type effect on an enemy, gains an undispellable shield that absorbs damage equal to 150% of Yuki's starting ATK for 2 turns. Gains Frostwoven Shelter at the start of the battle and at the end of each turn.\n;\n:\n;Ice Mark\n:\n:'''Debuff, Mark''': Reduces starting SPD by 40%.\n;Frostwoven Shelter (霜衣の守り)\n:'''General, Mark''': Negates the effect of Suppress, Seal, Freeze, Deep Freeze, Frostbound or Banish once. If the target has Shelter, loses Frostwoven Shelter and removes the target's Shelter.\n:''(A blue snowflake will appear underneath him while Frostwoven Shelter is active.)''\n;Freezing Effect\n:Freeze, Deep Freeze, Frostbound, and Rest in Ice",
         "upgrades": [],
         "icon": "assets/skills/2922.png"
       },
@@ -15877,7 +15877,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''Enemy special skills are changed to this skill while inflicted with Gaze State.''\nWhen an enemy uses this skill, Doumeki deals indirect damage equal to 211% of her ATK to them, as well as additional indirect damage equal to 8% of their max HP (cannot exceed 600% of her ATK). After this, Gaze State is removed from all enemies.",
         "upgrades": [],
         "icon": "assets/skills/2933b.png"
       }
@@ -16017,7 +16017,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Nurarihyon is a flower reflected in a mirror, the moon floating on top of water.",
-        "description": "",
+        "description": "When Rikuo receives damage or resists an effect he has a 35% chance to gain 1 Fear stack and, if he is not Immobile, launch a counter-attack.\nOnly triggers once per attack. Fear has a max of 4 stacks, lasts for 4 turns.\n;Fear (畏)\n:\n:'''Buff, Status''': Max of 4 stacks. Damage dealt is increased by 75% per stack.",
         "upgrades": [],
         "icon": "assets/skills/2942.png"
       },
@@ -16558,7 +16558,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Keep it up, everyone!",
-        "description": "",
+        "description": "Hiyoribou helps her allies by storing sunshine energy in her Sunshine Doll. Storage limit is equal to her max HP.\nWhen a non-summoned ally receives damage, she stores 25% of the damage as sunshine energy in the Sunshine Doll.\nWhen an enemy ends their turn, she consumes sunshine energy to restore the HP of a non-summoned ally with the lowest HP by 30% of their lost HP.\n;\n:",
         "upgrades": [],
         "icon": "assets/skills/2972.png"
       },
@@ -17471,7 +17471,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "You're losing the game. Again.",
-        "description": "",
+        "description": "Kisei holds The Black Stone and The White Stone in his hand in turns. When he deals damage, he has a 100% base chance of inflicting the enemy with a layer of the stone in his hand (can stack up to a max of 4 layers of either stone color). If a fully stacked enemy is hit by a new stone, a stone of a different color is replaced.\nIf an enemy ends a turn without using onibi, a random stone is removed.\n;\n:\n; (黑子/黒石)\n:\n:'''Debuff, Mark''': Becomes vulnerable, damage received is increased by 5%.\n;The White Stone (白子/白石)\n:\n:'''Debuff, Mark''': Damage dealt is decreased by 5%.",
         "upgrades": [],
         "icon": "assets/skills/3032.png"
       },
@@ -17640,7 +17640,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "Together, let's protect this land ...",
-        "description": "",
+        "description": "Miketsu forms a Fox Realm that lasts for 1 turn. While the realm is open, the chance of her releasing Arrow of Sealing is increased to 40% and grants her 4 layers of Amulet, max 12 layers.\n;\n:\n;Amulet (呪符)\n:\n:'''General, Mark''': Each layer increases all allies' DEF by 3%, damage dealt by 2% and SPD by 1.",
         "upgrades": [],
         "icon": "assets/skills/3042.png"
       },
@@ -17809,7 +17809,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Exclusive effect.\nAfter an enemy takes a turn, Kusuriuri has a 40% chance of marking them with a Scale. Scales have a max of 3 layers. When attacking an enemy with Scales, each layer increases their damage received by 33%.\nWhen the HP of an enemy with 1~3 Scales goes below 30%/40%/60%, all Scales will be Revealed for 2 turns.\n;\n:\n;Scale (天秤)\n:\n:'''General, Mark''': The target has been marked.\n:''(1-3 Scales will appear around the marked enemy's feet, each Scale represents 1 layer.)''\n;Revealed (見破る)\n:\n:'''General, Mark''': Kusuriuri has acquired all the details he needs.\n:''(An eye symbol will appear above the marked enemy.)''",
         "upgrades": [],
         "icon": "assets/skills/3052.png"
       },
@@ -17978,7 +17978,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sleep, like I did once!",
-        "description": "",
+        "description": "When Mushishi receives damage, and if she's not immobile, she has a 25% of gaining immunity to that damage and has a 100% base chance of inflicting the attacker with Mar of Mushi, lasts for 2 turns. Only triggers once for a single attack.\n;\n:\n;Mark of Mushi (虫の痕)\n:\n:'''Debuff, Mark''': Becomes vulnerable, damage received is increased by 30%.",
         "upgrades": [],
         "icon": "assets/skills/3062.png"
       },
@@ -18147,7 +18147,7 @@
         "onibi": 2,
         "cooldown": 2,
         "line": "Don't be lazy Tachibana, let's get to work!",
-        "description": "",
+        "description": "Nekomata channels her energy to enlarge Tachibana and Rides her for 2 turns. When mounted, Nekomata's SPD is increased by 20 and she can summon two of her kittens instead.\n;\n:\n;Ride (騎乗)\n:'''General, Mark''': Nekomata rides Tachibana, she gains a boost to her normal attack and special skill.",
         "upgrades": [],
         "icon": "assets/skills/3072.png"
       },
@@ -18316,7 +18316,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "So annoying......",
-        "description": "",
+        "description": "When Hozuki deals attacks, he has a 22% base chance to inflict Daze, lasts for 1 turn. At the end of his turn, if he is not Immobile, he will randomly attack an ally who is inflicted with a control effects 2 times, dealing damage equal to 10% of his ATK each time. This will remove all of the ally’s control effects and increase their move bar by 30%. \n;\n:",
         "upgrades": [],
         "icon": "assets/skills/3082.png"
       },
@@ -18484,7 +18484,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sorry, did I scare you?",
-        "description": "",
+        "description": "When Okou attacks, she has a 100% base chance of inflicting 1 Snake Shadow layer, lasts for 3 turns and has a max of 3 layers.\n;\n:\n;Snake Shadow (蛇の影)\n:\n:'''Debuff, Status''': Max of 3 layers. DEF is decreased by 8% per layer.\n:''(1-3 small purple snakes will float around an inflicted enemy.)''",
         "upgrades": [],
         "icon": "assets/skills/3092.png"
       },
@@ -18653,7 +18653,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When Peach Maki & Karashi receive damage, they have a 30% chance of reducing the damage by 50%.",
         "upgrades": [],
         "icon": "assets/skills/3102.png"
       },
@@ -19194,7 +19194,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Backlash Wave!",
-        "description": "",
+        "description": "Whenever an enemy consumes onibi, and Inuyasha is not Immobile, he has 10% chance (increases by 16% for each Force of Wind layer) of launching a counter-attack on that enemy, dealing damage equal to 176% of his ATK before consuming all Force of Wind layers. Each layer consumed increases the damage by 10%.\n;\n:\n;Force of Wind (風の纏)\n:\n: '''Buff, Mark''': Max 5 layers. Increases SPD by 10 and damage dealt by 5% per layer.",
         "upgrades": [],
         "icon": "assets/skills/3132.png"
       },
@@ -19206,7 +19206,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When dealing damage, ignores shields.",
         "upgrades": [],
         "icon": "assets/skills/3132a.png"
       },
@@ -19218,7 +19218,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Inherits the effects of Red Tessaiga.\nWhen dealing damage, ignores 40% of DEF.",
         "upgrades": [],
         "icon": "assets/skills/3132b.png"
       },
@@ -19230,7 +19230,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Inherits the all of the effects of Diamond Tessaiga.\nBefore Inuyasha attacks, dispels 1 buff from the target. If a buff is dispelled, increases his Crit DMG by 10% up to a max of 70%, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/3132c.png"
       },
@@ -19242,7 +19242,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Inherits the all of the effects of Dragon-scaled Tessaiga.\nWhen dealing damage, 50% of the damage reduces the target's max HP up to a max of 20%.\nLaunching counter-attacks no longer consumes Force of Wind layers (damage increase effect for each layer remains).",
         "upgrades": [],
         "icon": "assets/skills/3132d.png"
       },
@@ -19411,7 +19411,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Barrier: Tenseiga!",
-        "description": "",
+        "description": "When Sesshoumaru takes damage, Tenseiga will prevent 30% of damage being taken, up to a max of 40% of his lost HP.\n;\n:\n;Invincible (無敵)\n:Immune to damage, debuffs and control effects.\n:''(A large barrier will appear around Sesshoumaru.)''\n;Weakened After Resurrection (復活結界による衰弱)\n:\n:'''General, Mark''': Damage dealt is decreased by 40%.\n;Statuses and Marks\n:Includes buffs, debuffs and general effects.",
         "upgrades": [],
         "icon": "assets/skills/3142.png"
       },
@@ -19609,7 +19609,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I'm bound to be the strongest wings in the highest clouds.",
-        "description": "",
+        "description": "When SP Ootengu uses his special attack, the damage is increased by 10% for each consecutive hit to the same target.\nWhen SP Ootengu is inflicted with a control effect, he gains Soar into the Clouds, lasts for 2 turns. And when he deals damage, he gains Chasing the Wind, max of 80 layers. For each 40 layers of Chasing the Wind gained, decreases the onibi cost for Feather Wind Blade by 1.\n;Soar into the Clouds (雲を貫く)\n:\n:'''Buff, Mark''': SPD is increased by 100%.\n;Chasing the Wind (逐風)\n:\n:'''General, Mark''': SPD is increased by 1 per each layer. Max of 80 layers.",
         "upgrades": [],
         "icon": "assets/skills/3152.png"
       },
@@ -20336,7 +20336,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I will not evade, nor will I hide.",
-        "description": "",
+        "description": "At the end of Kikyou's turn, if she not Immobile, creates a Soul Barrier to defend herself. The Soul Barrier can absorb damage equal to 100% of her ATK.\n;\n:\n;Soul Barrier (霊魂結界)\n:\n:'''Buff, Mark''': Counts as a shield. Not affected by Crit. When receiving damage high enough to break the shield, excess damage is completely absorbed.",
         "upgrades": [],
         "icon": "assets/skills/3192.png"
       },
@@ -21435,7 +21435,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Gazes at Orochi's target, allowing the attack to ignore 20% of the target's DEF.",
         "upgrades": [],
         "icon": "assets/skills/3251a.png"
       },
@@ -21476,7 +21476,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''This skill can only be used by Naga.''\nThe Naga attacks 1 enemy, dealing damage equal to 100% its ATK. At the end of its turn, increases Orochi's move bar by 10%.",
         "upgrades": [],
         "icon": "assets/skills/3252b.png"
       },
@@ -21488,7 +21488,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Orochi takes the place of your onmyoji for the remainder of the battle and summons a Naga to his previous position. The Naga inherits 120% of all of his stats.\nOrochi gains a new turn and increasing his own damage dealt by 30% and SPD by 30 until the end of battle.",
         "upgrades": [],
         "icon": "assets/skills/3252.png"
       },
@@ -21529,7 +21529,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''This skill can only be used by Naga.''\nThe Naga attacks 1 enemy, dealing damage equal to 100% its ATK. At the end of its turn, increases Orochi's move bar by 10%.",
         "upgrades": [],
         "icon": "assets/skills/3252b.png"
       },
@@ -21541,7 +21541,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Orochi opens the Diabolic Space and commands all of his Naga to inflict All Senses Fail on random enemies, lasts until his turn ends.\nThen he attacks all enemies dealing damage equal to 158% of his attack and orders all of his Naga to use Venom Spit to attack random enemies once. Consumes all onibi. For each onibi consumed, the order is repeated once.",
         "upgrades": [],
         "icon": "assets/skills/3253.png"
       }
@@ -22727,7 +22727,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''All enemy passives are changed to this skill while Sealing Field is active.''\nCan use this skill to shatter 2 Demon Masks to close the Sealing Field faster.\nMonsters are immune to Sealing Field and their passives will not be changed to this skill.",
         "upgrades": [],
         "icon": "assets/skills/3312.png"
       },
@@ -22925,7 +22925,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "No one hurts my friend!",
-        "description": "",
+        "description": "Exclusive effect.\nWhen an ally is not protected by Bone Shield receives non-transferred damage, Kujira creates a Bone Shield to protect that ally and launches a counter-attack against the source of the damage.\nIn a single turn, if multiple allies are not protected by Bone Shield receive damage, Kujira will only create a Bone Shield to protect 1 of those allies and launch a counter-attack.\nWhen Kujira is in Attacking stance, this skill changes to Co-op Combat.\n;Bone Shield (骨盾)\n:\n:Decreases damage received from crits by 40% in a single turn. Disappears when the turns ends after receiving damage from a crit.",
         "upgrades": [],
         "icon": "assets/skills/3322.png"
       },
@@ -22937,7 +22937,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kujira has a 30% chance to Assist. \nWhen Kujira is in Defensive stance, this skill changes to Defend to Attack.\n;\n:\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
         "upgrades": [],
         "icon": "assets/skills/3322b.png"
       },
@@ -23135,7 +23135,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Advanced secret of the Jade Blade of Yasakani. Ootakemaru unleashes a crashing wave of energy at a single target, dealing damage equal to 100% of his ATK. Damage from this attack will not trigger enemy passives or souls. He also gains a 50% to Assist.\n100% of the damage dealt with Hillcry: Slash will be added to the next damage dealt by Rock Fall from Unlimited Sword Prison (cannot exceed 600% of Ootakemaru's ATK).\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
         "upgrades": [],
         "icon": "assets/skills/3331b.png"
       },
@@ -23920,7 +23920,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When an ally other than himself with less than 40% of their max HP receives damage, Ichigo will counter-attack the attacker. Only triggers once per turn.\nAt the end of his turn, and if he is not Immobile, he gains 1 Reiatsu layer. For every ally with less than 40% of their max HP, he gains an additional layer of Reiatsu. When Ichigo gains 1 Reiatsu layer for the first time, Final Getsuga Tensho will be unlocked. \n;Upon Usage\n:While Ichigo is in his Hollowed form, using this skill will allow him to enter his 2nd Stage Hollowed form.\n;Reiatsu (霊圧)\n:\n:'''General, Mark''': After gaining 4 layers of Reiatsu, enter Hollowed form.\n;Hollowed (虚化)\n:\n:'''General, Mark''': Damage dealt is increased by 100%, damage received is decreased by 40%.\n;2nd Stage Hollowed (虚化・弐)\n:\n:'''General, Mark''': Damage dealt is increased by 100%, damage received is reduced by 40% and become immune to debuffs.\nCounter-attack effect changes to: When an ally receives damage, Ichigo counter attacks the attacker with Getsuga Tensho without using onibi. Only triggers once per turn. Using Zangetsu or Getsuga Tensho 4 times releases Ichigo from his hollowed forms.",
         "upgrades": [],
         "icon": "assets/skills/3372a.png"
       },
@@ -23932,7 +23932,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When Ichigo receives lethal damage, all buffs and debuffs removed from him and he is released from all hollowed forms. He gains a new turn and attacks a random enemy, dealing damage equal to 600% of his ATK. This damage does not trigger the target's passive or souls and the damage cannot be shared.\nAfter this skill has been activated, Ichigo will be KO'd and cannot be revived.",
         "upgrades": [],
         "icon": "assets/skills/3372b.png"
       },
@@ -24159,7 +24159,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Allows Takiyasha Hime to ignore 180 of the enemy's defense when attacking enemies with more than 50% HP.",
         "upgrades": [],
         "icon": "assets/skills/3382b.png"
       },
@@ -24171,7 +24171,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Allows each of Takiyasha Hime's attacks to dispel 1 buff from an enemy. If no buff was dispelled, the enemy's move bar is decreased by 5% instead.",
         "upgrades": [],
         "icon": "assets/skills/3382c.png"
       },
@@ -24183,7 +24183,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Allows Takiyasha Hime's damage dealt to be increased by 30% when attacking enemies with less than 50%.",
         "upgrades": [],
         "icon": "assets/skills/3382d.png"
       },
@@ -24195,7 +24195,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Prevents damage from Takiyasha Hime's attacks from triggering enemy's souls. Grants her Moon Shelter, lasts for 1 turn.\n;Moon Shelter\n:Same as Shelter. Blocks all control effects or Banish and similar effects from a single skill, includes self-inflicted control effects.",
         "upgrades": [],
         "icon": "assets/skills/3382e.png"
       },
@@ -25381,7 +25381,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "The dawn breaks and the world wakes up for the first time.",
-        "description": "",
+        "description": "Ungaikyou lives in the Mirror Realm where their 2 faces are independent on each other. They can change between their Yin/Yang states. Their starting HP is halved. The HP in Yin and Yang states compliment to each other.\n;\n:\n;Upon Usage\n:Ungaikyou enters the Yang state and inverts their HP to Yang's HP. Also increases their speed by 100, lasts for 1 turn. Each subsequent use of this skill permanently increases the onibi cost by 2.\n;Mirror Realm (鏡の世界)\n:Ungaikyo cannot be healed, but will 50% of healing effects are converted into a shield that lasts for 2 turns.\n;Yin/Yang (陰/陽)\n:Yin/Yang are the 2 unique states that belong to Ungaikyou. When in Yin state, their ATK is increased by 200% of their initial DEF, and Yang state increases DEF by 10% of their initial ATK. When in Yang state, their DEF is increased by 10% of their initial ATK. Their HP in the Yin and Yang states compliment to each other. If Ungaikyou receives damage while in the Yin state, Yin state's HP will decrease while Yang state's HP will increase and vice versa. Their starting HP is halved, each state starts battle with 50% HP.\nAt the start of the battle, if Ungaikyou's initial ATK is more than 500% of their initial DEF, they will enter the Yin state; otherwise, they enter the Yang state.",
         "upgrades": [],
         "icon": "assets/skills/3442a.png"
       },
@@ -25393,7 +25393,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "The sun sets and the old friend returns.",
-        "description": "",
+        "description": ";Upon Usage\n:Ungaikyou enters the Yin state and inverts their HP to Yin's HP. Also increases their SPD by 100, lasts for 1 turn. Each subsequent use of this skill permanently increases the onibi cost by 2.",
         "upgrades": [],
         "icon": "assets/skills/3442b.png"
       },
@@ -25806,7 +25806,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I stand in the water.",
-        "description": "",
+        "description": "At the end of an enemy's turn, SP Kingyo Hime gains 1 layer of Focused and gains Spiritfish Shield if she does not already have one. The shield is equal to 80% of her ATK. \n;Upper Hand\n:SP Kingyo Hime automatically gains 4 layers of Focused.\n;Focused (精神統一)\n:\n:'''General, Mark''': Max 8 stacks. When SP Kingyo Hime reaches 8 stacks, all stacks are consumed, all control effects on her are removed and all enemies are inflicted with River's Binding, lasts for 2 turns. Then activates Fishtail Embrace, lasts for 1 turn. If she already has Fishtail Embrace, her move bar is increased by 25% instead.\n;Spiritfish Shield\n:'''Buff''', '''Mark''': Absorbs a certain amount of damage and cannot be dispelled.\n;River's Binding (川流の縛)\n:\n:'''Debuff, Mark''': When an inflicted enemy receives a single target move bar increasing effect, SP Kingyo Hime focuses spiritual fish energy to reverse the flow, decreasing their SPD by 40% at the end of their turn.",
         "upgrades": [],
         "icon": "assets/skills/3462.png"
       },
@@ -25975,7 +25975,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I'm happy to be single. But you two must get together!",
-        "description": "",
+        "description": "Exclusive effect.\nAt the start of another ally's turn, Enmusubi no Kami grants them 1 Knot of a random type (max 4 types). If Knot they receive is the same type as the one granted to the last ally that took an action (other than Enmusubi no Kami), a match is formed. Then 1 onibi will be immediately gain and Enmusubi no Kami will gain 1 layer of Fateful Bond. If a match is not formed, she will gain 1 layer of Frustration. \n;\n:\n;Fateful Bond (縁)\n:\n:'''General, Mark''': Max 7 layers. Upon using Blessed Bond, each layer of Fateful Bond increases damage dealt for allies by 5% and increases Enmusubi no Kami's healing by 1%.\n;Frustration (怒った)\n:\n:'''Common, Mark''': Max 5 layers. When Enmusubi no Kami gains 5 layers of Frustration, all layers are consumed to dispel or remove all control effects on her and decreases move bar of all enemies by 25%. She loses 2 layers when a match is formed.\n;Remove\n: Removes non-dispellable control effects such as Deep Freeze, Transform, Daze and Provoke.",
         "upgrades": [],
         "icon": "assets/skills/3472.png"
       },
@@ -26173,7 +26173,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Aoandon consumes all 100 of the onibi collected to launch a 4-strike attack on all enemies with each strike dealing damage equal to 1200% of her ATK. Damage is shared equally among all enemies.",
         "upgrades": [],
         "icon": "assets/skills/3482b.png"
       },
@@ -26958,7 +26958,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Kiyohime launches a 3-strike attack on an enemy, dealing damage equal to 70% of her ATK with each strike and inflicts all enemies with a layer of Bewitching Stare, sustained for 3 turns.",
         "upgrades": [],
         "icon": "assets/skills/3523b.png"
       }
@@ -27127,7 +27127,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kinnara attacks an enemy dealing damage equal to 150% of her ATK and has a 100% base chance of inflicting Isolation on them, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3532b.png"
       },
@@ -27139,7 +27139,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kinnara launches a 5-strike attack on random enemies, dealing damage equal to 90% of her ATK with each strike. This attack will not trigger enemy souls.",
         "upgrades": [],
         "icon": "assets/skills/3532c.png"
       },
@@ -27151,7 +27151,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kinnara increases the move bar of all allies by 10% and their Crit DMG by 40%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3532d.png"
       },
@@ -27163,7 +27163,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kinnara restores the HP for all allies by 80% of her ATK and increases their DEF by 40%, lasts 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3532e.png"
       },
@@ -27175,7 +27175,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kinnara grants 1 onibi and dispels 1 debuff or control effect from all allies. If no more than 3 debuffs or control effects are dispelled, 1 additional onibi is granted.",
         "upgrades": [],
         "icon": "assets/skills/3532f.png"
       },
@@ -27344,7 +27344,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Watch and learn how I fight.",
-        "description": "",
+        "description": "Exclusive effect. \nAt the of SP Ubume's turn, she gains 2 stacks of Feathery Tutelage.\n;Feathery Tutelage (羽授)\n:\n:'''General, Mark''': SP Ubume is guaranteed to Assist an ally when they use a normal attack for the first time. After assisting them, a stack of Feathery Tutelage is consumed and the ally gains 1 stack of Feathery Caring. \n;Feathery Caring (羽念)\n:\n:'''Buff, Mark''': Permanently increases ATK by 5%, max 5 stacks.",
         "upgrades": [],
         "icon": "assets/skills/3542.png"
       },
@@ -27539,7 +27539,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Ootakemaru commands imps to launch a 5-strike attack to random enemies, dealing damage equal to 240% of his ATK with each strike.",
         "upgrades": [],
         "icon": "assets/skills/3553b.png"
       },
@@ -27766,7 +27766,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Senhime raises Murex Halberd to direct a torrent of waves at all enemies, dealing damage equal to 120% of her ATK.\nAt the start of her turn, she gains 1 layer of Dirge, max 5 layers. The damage for this skill increases to 220%/320%/420%/520%/620% based on how many Dirge layers (1-5) she has.\nAfter usage or Murex Halberd is KO'd, all layers of Dirge are removed and this skill changes to Tame the Tides.\n;Dirge (悲歌)\n:\n:Increases damage dealt by Tide of Eternity.",
         "upgrades": [],
         "icon": "assets/skills/3563b.png"
       }
@@ -27935,7 +27935,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":Gain 40 MP upon using this skill.\nBriskey hovers behind an ally, creating an undispellable shield that can absorb 75% of SP Yamakaze's ATK and grants them 100% of Crit RES, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3572a.png"
       },
@@ -27947,7 +27947,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":Gain 40 MP upon using this skill.\nBriskey gazes at the an enemy and decreases their ATK, DEF and SPD by 35%, lasts for 2 turns. Briskey can only gaze at 1 enemy at a single time.",
         "upgrades": [],
         "icon": "assets/skills/3572b.png"
       },
@@ -27959,7 +27959,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":Consumes 60 MP upon using this skill.\nBriskey hovers before 1 enemy, blowing them of the ground. Their souls and passive are Sealed when blown off the ground. When the enemy lands, they receive damage equal to 240% of SP Yamakaze's ATK. \nMonsters cannot be blown off the ground. Instead, they receive damage equal to 480% SP Yamakaze's ATK when landing. Then Briskey gains 40 MP.",
         "upgrades": [],
         "icon": "assets/skills/3572c.png"
       },
@@ -28157,7 +28157,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''Enemies inflicted with Nether Seeds gain this skill.''\nSelect an ally with Nether Seeds and 1 Seed from them and yourself.",
         "upgrades": [],
         "icon": "assets/skills/3582b.png"
       },
@@ -28169,7 +28169,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "A cluster of red spider lilies blossom around an enemy and inflicts a number of strikes equal to SP Higanbana's Nether Flower stacks, dealing damage equal to 80% of her ATK with each strike. For each Nether Flower strike inflicted, the damage for the next strike will also be inflicted on an additional enemy.\nAfter this skill activates, all Nether Flowers are losts and SP Higanbana's move bar is increased by 25%.",
         "upgrades": [],
         "icon": "assets/skills/3582c.png"
       },
@@ -28338,7 +28338,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When Tanjiro receives damage, and he is not immobile, he has a 30% chance to use Water Wheel to reduce the damage by 70%. Then he counter-attacks the the source of the damage, dealing damage equal to 60% of his ATK and gains 1 layer of Total Concentration. Each time Tanjiro's HP is reduced by 20%, the chance of triggering Water Wheel increases by 20%.",
         "upgrades": [],
         "icon": "assets/skills/3591b.png"
       },
@@ -28350,7 +28350,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tanjiro attacks a single target dealing damage equal to 100% of his ATK. If the target's HP is below 30%, the damage is increased by 40%.",
         "upgrades": [],
         "icon": "assets/skills/3591c.png"
       },
@@ -28362,7 +28362,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tanjiro attacks a single target dealing damage equal to 100% of his ATK. If the target's HP is above 70%, the damage is increased by 40%.",
         "upgrades": [],
         "icon": "assets/skills/3591d.png"
       },
@@ -28403,7 +28403,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "At the start of Tanjiro's turn in [[Main Story|Explore]] battles, he attacks all enemies dealing damage equal to 210% of his ATK.",
         "upgrades": [],
         "icon": "assets/skills/3592b.png"
       },
@@ -28415,7 +28415,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "",
-        "description": "",
+        "description": "At the start of Tanjiro's turn and if he is inflicted with a control effect, he uses Whirlpool to remove all control effects from himself and gains a new turn.",
         "upgrades": [],
         "icon": "assets/skills/3592c.png"
       },
@@ -28427,7 +28427,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "If there are 3 or less enemies, the skill Flowing Dance will be replaced by Waterfall Basin. Tanjiro attacks all enemies 4 times, dealing damage equal to 75% of his ATK with each attack.",
         "upgrades": [],
         "icon": "assets/skills/3592d.png"
       },
@@ -28439,7 +28439,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tanjiro gains 30% of Crit RES and at the end of a non-summoned entities' turn his move bar is increased by 3%.",
         "upgrades": [],
         "icon": "assets/skills/3591a.png"
       },
@@ -28480,7 +28480,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tanjiro attacks an enemy 5 times, with the first 4 hits dealing damage equal to 50%/60%/70%/80% of the target's max HP and the final hit dealing true damage equal to 99% of the target's max HP (cannot exceed 1000% of his ATK).\nThis skill can only be used once per battle.",
         "upgrades": [],
         "icon": "assets/skills/3593b.png"
       }
@@ -28835,7 +28835,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I wonder how long it has been since I last look a bath.",
-        "description": "",
+        "description": "Exclusive effect.\nAkaname picks up his cleaning tools and starts cleaning things up. If he is not immobile and has less than 4 Soot Balls, up to 3 debuffs or control effects are dispelled from a random ally on an enemy's turn. Then, he gains 1 Soot Ball.\nAt the end of Akaname's turn, all Soot Ball are removed.\n;Soot Balls (カビの玉)\n:\n:'''General, Mark''': Each ball decreases RES by 15%. Max 4 layers.",
         "upgrades": [],
         "icon": "assets/skills/3612.png"
       },
@@ -29033,7 +29033,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Exclusive effect.\nWhere spring breeze blows, everything springs to life. All allies gain a 25% increase todamage dealt and their SPD is increased by 20.",
         "upgrades": [],
         "icon": "assets/skills/3622b.png"
       },
@@ -29231,7 +29231,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I shall deliver judgement upon this world!",
-        "description": "",
+        "description": "While this field is active, decreases SPD for all allies by 3% for every enemy or onmyouji. At the start of an enemy's turn, the move bar for the ally at the top of the move bar is increased by 30%.\nThe field disappears when Taishakuten is KO'd.",
         "upgrades": [],
         "icon": "assets/skills/3632b.png"
       },
@@ -29429,7 +29429,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Asura becomes immune to controlling effects and similar effects such as Banish. At the start of his turn, he will automatically use this skill. At the end of another non-summoned allies' turn, restores 1 point of Sanity. If Taishakuten is an ally, then at the end of his turn Asura will restore an additional 3 points of Sanity.\n;Upon Usage\n:If Asura doesn't have 9 points of Sanity at the start of his turn, a giant sword will be summoned to attack a random target other than himself dealing damage equal to 263% of his ATK. Then summons a rain of swords to all remaining targets dealing damage equal to 113% of his ATK.\nIf Asura does have 9 points of Sanity, this skill will change back to Mighty Crush.",
         "upgrades": [],
         "icon": "assets/skills/3642b.png"
       },
@@ -29842,7 +29842,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Menreiki attack an enemy dealing indirect damage equal to 63% of her ATK. If the target is KO'd and there are still remaining strikes, they will be inflicted on the enemy with the lowest HP.",
         "upgrades": [],
         "icon": "assets/skills/3663b.png"
       }
@@ -30569,7 +30569,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "More rice, please!",
-        "description": "",
+        "description": "Exclusive effect.\nAt the end of a non-summoned ally's turn, and Mishige isn't immobile, she gains 1 stack of Grain Reserve.\n;\n:\n;Upon Usage\n:Mishige gains 2 stacks of Grain Reserve and increases the SPD of all other allies by 30. Then she gains a Huge Appetite, lasts for 1 turn.\n;Grain Reserve (不動穀)\n:\n:'''Buff, Mark''': Max 10 stacks. Each stack increases ATK by 10% and Crit DMG by 5%. If Mishige has 6 or less stacks, she is cannot Assist or receive Calls to Arms. Stacks won't reset in multi-round battles.\n;Huge Appetite (食欲増進)\n:\n:'''Buff, Mark''': At the end of a non-summed enemy's turn, can gain 1 stack of Grain Reserve.",
         "upgrades": [],
         "icon": "assets/skills/3702.png"
       },
@@ -30825,7 +30825,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kawazaru emits a puzzling cloud towards a single enemy and has an 80% base chance of inflicting them with Confuse, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3713b.png"
       },
@@ -30837,7 +30837,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kawazaru throws out a handful of scattered paper to attack all enemies, dealing damage equal to 100% of her ATK.",
         "upgrades": [],
         "icon": "assets/skills/3713c.png"
       },
@@ -30849,7 +30849,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Kawazaru opens up her double umbrella to protect all allies, creating a shield for them that can absorb 62% of Kawazaru's ATK, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3713d.png"
       }
@@ -31047,7 +31047,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Inaba Rabbit becomes Winged Tsukinohime who launches another attack on all enemies, dealing damage equal to 153% of SP Kaguya Hime's ATK. The damage from this attack ignores the enemy passives and souls.",
         "upgrades": [],
         "icon": "assets/skills/3723b.png"
       }
@@ -31187,7 +31187,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Let's play a game, shall we?",
-        "description": "",
+        "description": "When Yato no Kami deals damage, he inflicts 15% HP Steal.\nEach time he releases 1 Bat, he gains 1 stack of Waltz. When he has 7 stacks, and if he's not immobile, consumes all stacks of Waltz to launche a 3-strike attack on the enemy with the lowest HP, dealing true damage equal to 77% of his ATK with each strike.\n;\n:\n; Waltz (共舞)\n:\n:'''General, Mark''': Max 7 layers. Each stack increases his move bar by 10%.\n; Nightfall (夜幕)\n:Causes the summoned entity to be regarded as having left the battlefield. This means it is temporarily considered unplayable, immobile, its place on move bar cannot be changed, all skill effects are sealed, and cannot receive buffs or debuffs.\nHas no effect on monsters.\n:''(Dark smoke and 3 moons will circle around the enemy summon.)''",
         "upgrades": [],
         "icon": "assets/skills/3732.png"
       },
@@ -31228,7 +31228,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 1, even the breath is sealed.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Removes 2 onibi from the enemy.\n'''Triggers At End of Own Turn''': Removes 2 onibi from the enemy and permanently decreases their max onibi by 2.",
         "upgrades": [],
         "icon": "assets/skills/3733a.png"
       },
@@ -31240,7 +31240,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 2, even the soul falls into oblivion.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The move bar for the enemy at the top of the turn order is decreased by 30%.\n'''Triggers At End of Own Turn''': The move bar for all enemies is decreased by 20% and for all allies it is increased by 20%.",
         "upgrades": [],
         "icon": "assets/skills/3733b.png"
       },
@@ -31252,7 +31252,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 3, offer everything until there is nothing.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes all enemies to receive true damage equal to 100% of Yato no Kami's ATK.\n'''Triggers At End of Own Turn''': Causes all enemies to receive true damage equal to 200% of Yato no Kami's ATK. Also recovers the HP of all allies by 80% of the damage dealt, the recovered amount is shared evenly among all allies.",
         "upgrades": [],
         "icon": "assets/skills/3733c.png"
       },
@@ -31264,7 +31264,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 4, the dried marrow has long been corroded.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The target's Crit is decreased by 80%, lasts for 2 turns.\n'''Triggers At End of Own Turn''': The target's Crit is decreased by 100% and the Crit for all other enemies is also decreased by 80%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3733d.png"
       },
@@ -31276,7 +31276,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 5, the empty bones still rattle.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes the target to have a 100% base chance of having their passive and soul effects to be Sealed, lasts for 2 turns.\n'''Triggers At End of Own Turn''': Cause the target and 3 random enemies to have a 100% base chance of having their passive and soul effects to be Sealed, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3733e.png"
       },
@@ -31288,7 +31288,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 6, even the pale heart will be offered.",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes the target to have an 80% base chance to being inflicted with Confuse, lasts for 1 turns.\n'''Triggers At End of Own Turn''': Causes the target to have a 100% base chance to be inflicted with Confuse and a 60% base chance to inflict Confuse on all other enemies, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3733f.png"
       },
@@ -31300,7 +31300,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Sigil 7, in the end, even the lost life is...",
-        "description": "",
+        "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The target's max HP is permanently decreased by 50%.\n'''Triggers At End of Own Turn''': The max HP for all enemies is permanently decreased by 30%.",
         "upgrades": [],
         "icon": "assets/skills/3733g.png"
       }
@@ -31655,7 +31655,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "I shall live forever in my own flame.",
-        "description": "",
+        "description": "Exclusive effect.\nThe flame my be extinguished, but my heart shall burn for eternity! All buffs and debuffs are removed from Suzuhiko Hime. She stays on the battlefield until the last non-summoned ally is KO'd. \nWhile in this state, she gains 100% of Crit RES, her DEF is increased by 100% and she becomes immune to debuffs and effects such as Banish, and becomes immobile. Also increases other allies' Crit RES and DEF by 40%.\nUpon entering this state and when another non-summoned entity is KO'd, she immediately recovers 50% of her HP. When her HP reaches max HP, she's resurrected, the cooldown for Holy Fire is reset and this skill changes to Scorching Fire.",
         "upgrades": [],
         "icon": "assets/skills/3762b.png"
       },
@@ -31853,7 +31853,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Yama Usagi increases the move bar for all allies by 10% and increases their ATK by 10%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3772b.png"
       },
@@ -32609,7 +32609,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Recognize me as your new master!",
-        "description": "",
+        "description": "This skill can only be used while in his original form.\nSP Orochi removes the seal of the 6th Ama no Habakiri and creates the Final Judgement field, then takes the place of your onmyoji for the remainder of the battle. \nHe gains a new turn, changes the skill Trial Ritual changes to Final Judgement, and summons a Corrupted Sword to his previous spot. Also sacrifices all remaining non-summoned allies, turning them into Corrupted Swords and takes 6% of their initial ATK.\n;Corrupted Sword (堕落之剑/堕落の剣)\n:Serves as an Offering to awaken the sealed power of the Evil God. Inherits the stats of the sacrificed ally, except its HP is equal to 310% of SP Orochi's ATK. On its turn, recovers 20% of its own HP, grants 1 onibi and increases SP Orochi's move bar by 15%. Each Corrupted Sword, decreases SP Orochi's damage received by 20%.\n;Offering (献祭/生贄)\n:Regarded as being KO'd. Sacrificed allies cannot be reverted back, don't trigger revival effects and cannot be revived.\n;Final Judgement (终焉审判/終焉裁決)\n:While the field is active, SP Orochi is immune to debuffs and effects such as Banish.",
         "upgrades": [],
         "icon": "assets/skills/3832b.png"
       },
@@ -32650,7 +32650,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "It's your time to fall, you hypocritical gods!",
-        "description": "",
+        "description": "SP Orochi attacks all enemies dealing damage equal to 313% of his ATK. Then inflicts 4 follow-up strikes on random enemies, dealing damage equal to 128% of his ATK with each strike.",
         "upgrades": [],
         "icon": "assets/skills/3833b.png"
       }
@@ -32790,7 +32790,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Eyes see through the facade of frivolity.",
-        "description": "",
+        "description": "Whenever an enemy with Makeup receives an HP restoring effect or move bar increasing effect, Oshiroi Baba inflicts an additional Makeup stack on them (max of 2 stacks each time). \n;\n:\n;Makeup (粉妆/粉粧)\n:\n:'''Debuff, Status''': Max of 7 stack, lasts for 2 turns. At the start of turn, deals indirect damage equal to 45% of her ATK. At 7 stacks, removes 5 stacks at the end of turn and has a 100% base chance of inflicting Seal, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/3842.png"
       },
@@ -33761,7 +33761,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Don't try to get your hands on the god's people!",
-        "description": "",
+        "description": ":''Non-summoned allies can use this skill at the start of their turn before using their own skills.''\nThe spear can pierce the sky and shock the world. Susanoo uses Divine Sword: Ama no Habakiri to attack 1 enemy if he's not Immobile. This attack cannot trigger Assist. The ally cannot deal damage on the turn this skill is used on.\n;Upon Usage\n:Susanoo consumes 1 Ama no Habakiri to attack 1 enemy, dealing damage equal to 211% of his ATK (cannot exceed 400% of the initial ATK for the ally on that turn).\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
         "upgrades": [],
         "icon": "assets/skills/3892b.png"
       },
@@ -34331,7 +34331,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Upon selecting this season, restores 24% of Shiki's max HP and 8% of all non-summoned allies max HP. Whenever an ally uses a special skill, restores 8% of the ally's max HP and 8% of her max HP.",
         "upgrades": [],
         "icon": "assets/skills/3922b.png"
       },
@@ -34343,7 +34343,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When a Seasonling attacks, it has a 30% chance to Seal the target's passive and soul effects, sustained for 1 turn. When an ally uses a special skill, increases their SPD by 30 and HIT by 30%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3922c.png"
       },
@@ -34355,7 +34355,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Increases the Seasonling's damage to to 120% of Shiki's ATK.",
         "upgrades": [],
         "icon": "assets/skills/3922d.png"
       },
@@ -34367,7 +34367,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Increases all allies' RES by 50%. When all allies is attacked, decreases the attacker's total Crit DMG by 30%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/3922e.png"
       },
@@ -35309,7 +35309,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": ":''(This skill triggers when an enemy is inflicted with Taunt or Provocation.)''\nGintoki increases his move bar by 5% and and inflicts the enemy with Seal, lasts for 1 turn. Then he attacks a single target dealing damage equal to 198% of his ATK, when attacking monsters the damage increases to 297%.",
         "upgrades": [],
         "icon": "assets/skills/3971.png"
       },
@@ -35321,7 +35321,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Exclusive effect. Gintoki gains 6 stacks of Sugar at the start of battle and his turn. When the enemy is inflicted with Taunt or Provocation, and if he isn't inflicted with a control effect or Banish and similar effects, he will consume 1 stack of Sugar to attack the enemy with Sugar Rush.\n;\n:\n;Sugar (糖分)\n:\n:'''Buff, Mark''': Each layer increases RES by 10%, HIT by 5%, DEF by 5% and ATK by 5%.",
         "upgrades": [],
         "icon": "assets/skills/3972.png"
       },
@@ -35490,7 +35490,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "Shh, your fear makes me powerful.",
-        "description": "",
+        "description": "Exclusive effect.\nYou can never shake off your fear. Amanozako inflicts 4 stacks of Fear on a non-summoned enemy and increases her own move bar by 50%. She can inflict Fear on 1 enemy at a single time and she is immune to Fear.\n; Fear (恐惧)\n:\n:'''Debuff, Mark''': Ineffective on monsters. Max of 8 stacks. When the inflicted target uses a normal attack on an ally, adds 2 stacks; when they use a normal attack on an enemy, lose 1 stack. At the start of the inflicted target's turn, they have a 15% base chance × the current number stacks of being inflicted with Silence, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/3982.png"
       },
@@ -35531,7 +35531,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Surrender to chaos in fear. Amanozako consumes 3 stacks of Fear to have a 60% base chance of inflicting Confuse on all enemies, lasts for 1 turn. Then issues a Call to Arms to all allies to attack the enemy with Fear.\nIf the enemy has less than 6 or more stacks of Fear, this skill changes to Dread Blade Wind.",
         "upgrades": [],
         "icon": "assets/skills/3983b.png"
       }
@@ -35729,7 +35729,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "''When an enemy only uses Faux Orb to use a special skill, replaces that skill with this skill.''\nCauses the enemy's skill to have no effect when used.",
         "upgrades": [],
         "icon": "assets/skills/3993b.png"
       }
@@ -36077,7 +36077,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Tomato deals damage equal to 100% of its attack.",
         "upgrades": [],
         "icon": "assets/skills/4021.png"
       },
@@ -36089,7 +36089,7 @@
         "onibi": 0,
         "cooldown": 2,
         "line": "",
-        "description": "",
+        "description": "Tomato takes the spot of a KO'd enemy and recovers it HP by 100%. Enemies who have their spot taken cannot be revived.",
         "upgrades": [],
         "icon": "assets/skills/4022.png"
       }
@@ -36522,7 +36522,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Amanojaku Aka turns around and spanks his butt, taunting a single enemy. The taunted enemy is forced to use a normal attack the following turn. The target also becomes enraged, dealing 20% more damage while receiving 40% more damage.",
         "upgrades": [],
         "icon": "assets/skills/4052.png"
       }
@@ -36657,7 +36657,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Amanojaku Ki hits his drum to boost morale, grants Drumbeat to all allies. Sustained for 1 turn.\n;Drumbeat\n:\n:'''Buff, State''': Increases crit by 15%.",
         "upgrades": [],
         "icon": "assets/skills/4062.png"
       }
@@ -36792,7 +36792,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Amanojaku hums while flying her kite. Increases speed of all allies by 40 for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/4072.png"
       }
@@ -37079,7 +37079,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Increase defense by 40% for all allies for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/4092.png"
       }
@@ -39996,7 +39996,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Exclusive effect. When an ally with Umbrella Shield attacks a single enemy, Kagura & Sadaharu will Assist with a normal attack.\nWhen an ally with Umbrella Shield is inflicted with a debuff or control effect, they will launch up to 4 counter-attacks per turn on the source. Their move is increased by 5% when an enemy with Sadaharu's Heavy Attack receives damage from a single target attack (can trigger once per attack).\n;Sadaharu's Heavy Attack (定春重撃)\n:\n:'''Debuff, Status''': Max of 3 stacks. At the start of turn, dealt indirect damage equal to 33% of their ATK, lasts for 2 turns.\n;Umbrella Shield (傘の盾)\n:\n:An undispellable shield that can absorb damage equal to 180% of ATK (cannot exceed 200% of the target's max HP). Reduces non-indirect damage received by 60%.",
         "upgrades": [],
         "icon": "assets/skills/5002.png"
       },
@@ -40595,7 +40595,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "Karmic sins cannot easily be atoned for.",
-        "description": "",
+        "description": "When Miakashi receives damage from an enemy, she inflicts 1 Karmic Hindrance stack on them.\nWhen a non-summoned ally other than herself receives single target damage, and if she not inflicted with a control effect, Miakashi has a 50% chance of taking 50% of the damage for the ally. Also restores her own HP and the HP the ally with lowest proportion of HP by 6% of her max HP.\n;Karmic Hindrance (業障)\n:\n:'''Debuff, Mark''': Max of 3 stacks. Each stack decreases ATK by 5%.",
         "upgrades": [],
         "icon": "assets/skills/5522.png"
       },
@@ -41008,7 +41008,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "I will defy destiny and cut down all obstacles!",
-        "description": "",
+        "description": "Exclusive effect. SP Enmusubi no Kami has immunity to changes to move bar effects from other sources. She grants Red Heavenly Bond or Blue Heavenly Bond to another ally and grants herself 2 Divine Power stacks. Using this skill again removes the Heavenly Bond and dispels all debuffs and control effects from them.\nAt the end of her turn and the turn end of the ally with the Heavenly Bond, increases the ally's move bar by 30% (triggers up to once before their next turn). There can only be up to 1 ally with Heavenly Bond on the battlefield.\n;Divine Power (神力)\n:\n:'''Buff, Mark''': Max of 5 stacks. Each stack increases her RES by 20%. The effects of Bonding with the World increase with the stacks.",
         "upgrades": [],
         "icon": "assets/skills/5542a.png"
       },
@@ -41020,7 +41020,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Enmusubi no Kami grants Red Heavenly Bond to the selected ally, granting them immunity to decrease to move bar effects. When Bonding with the World is used on the ally, they are guaranteed to gain Red Earthly Bond.\n;Red Earthly Bond (俗縁・赤)\n:\n:'''Buff, Mark''': Immediately grants a new turn after the turn ends. Reduces the onibi cost of skills in the new turn by 2. These effects cannot trigger repeatedly.",
         "upgrades": [],
         "icon": "assets/skills/5542b.png"
       },
@@ -41032,7 +41032,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Enmusubi no Kami grants Blue Heavenly Bond to the selected ally, granting them immunity to decrease to move bar effects. When Bonding with the World is used on the ally, they are guaranteed to gain Blue Earthly Bond.\n;Blue Earthly Bond (俗縁・青)\n:\n:'''Buff, Mark''': At the start of the turn, dispels 1 debuff and 1 control effect from all other allies and increases the ally's damage reduction by 50% until the start of SP Enmusubi no Kami's next turn.",
         "upgrades": [],
         "icon": "assets/skills/5542c.png"
       },
@@ -41974,7 +41974,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Sanbi no Kitsune attacks 1 enemy at the cost of 1 Heart's Flame, dealing damage equal to 168% of her ATK. Attacking the same target decreases the damage by 30%. The first 3 strikes on a monster cost no Heart's Flame and have a cooldown of 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/5592b.png"
       },
@@ -42048,7 +42048,25 @@
         "onibi": 0,
         "cooldown": 0,
         "icon": "assets/skills/5601.png",
-        "description": "Tamatori attacks a single target dealing damage equal to 100% of her ATK. Gains Secret Treasure points (max 18). Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125% and she gains 2 Secret Treasure points."
+        "description": "Tamatori attacks a single target dealing damage equal to 100% of her ATK. Gains Secret Treasure points (max 18). Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125% and she gains 2 Secret Treasure points.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 105%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 115%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 125% and she gains 2 Secret Treasure points."
+          }
+        ]
       },
       {
         "name": "Big Spender",
@@ -42056,7 +42074,25 @@
         "onibi": 0,
         "cooldown": 0,
         "icon": "assets/skills/5602.png",
-        "description": "Exclusive effect. When Tamatori uses Confrontation (3 strikes), she deals 40%, 75% and 95% of her ATK per strike and gains 2 Secret Treasure points per strike. At 18 points, after a Duel ends, she attacks all enemies for 126% ATK, ignoring enemy soul effects. Level 2: last strike 107%. Level 3: last strike 206% at 8 points. Level 4: +6% damage per 40 initial SPD (max 36%). Level 5: when receiving damage of 12%+ initial HP while uncontrolled, inflicts Golden Showdown on the source (1 turn)."
+        "description": "Exclusive effect. When Tamatori uses Confrontation (3 strikes), she deals 40%, 75% and 95% of her ATK per strike and gains 2 Secret Treasure points per strike. At 18 points, after a Duel ends, she attacks all enemies for 126% ATK, ignoring enemy soul effects. Level 2: last strike 107%. Level 3: last strike 206% at 8 points. Level 4: +6% damage per 40 initial SPD (max 36%). Level 5: when receiving damage of 12%+ initial HP while uncontrolled, inflicts Golden Showdown on the source (1 turn).",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage for the last attack of Tamatori's Confrontation increases to 107%."
+          },
+          {
+            "lvl": 3,
+            "text": "When she has 8 Secret Treasure points, damage for the last attack of Tamatori's Confrontation increases to 206%."
+          },
+          {
+            "lvl": 4,
+            "text": "For every 40 initial SPD she has, her damage dealt increases by 6%, max of 36%."
+          },
+          {
+            "lvl": 5,
+            "text": "The following effect triggers when Tamatori is not inflicted with a control effect and there is no enemy with Golden Showdown; when she receives damage equal to 12% or more if her initial HP, inflicts Golden Showdown on the source of the damage, lasts for 1 turn."
+          }
+        ]
       },
       {
         "name": "Burn One’s Boats",
@@ -42072,7 +42108,8 @@
         "onibi": 0,
         "cooldown": 0,
         "icon": "assets/skills/5603b.png",
-        "description": "Attacks a target 3 times, dealing 40% of ATK per strike. When used in a Duel, the strikes are dealt in turns."
+        "description": "Attacks a target 3 times, dealing 40% of ATK per strike. When used in a Duel, the strikes are dealt in turns.",
+        "upgrades": []
       }
     ]
   },
@@ -42596,7 +42633,7 @@
         "onibi": 1,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Miku increases the ally's damage by 6% and grants her 1 Tempo stack.",
         "upgrades": [],
         "icon": "assets/skills/5632.png"
       },
@@ -42637,7 +42674,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Miku increases all allies ATK by 25% of their initial ATK, sustained for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/5633a.png"
       },
@@ -42649,7 +42686,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Miku increases allies' move bars by 25%.",
         "upgrades": [],
         "icon": "assets/skills/5633b.png"
       },
@@ -42661,7 +42698,7 @@
         "onibi": 4,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Miku grants 5 onibi.",
         "upgrades": [],
         "icon": "assets/skills/5633c.png"
       }
@@ -43016,7 +43053,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Basic R effect. Increases all allies damage reduction by 30%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/5652a.png"
       },
@@ -43028,7 +43065,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Basic R effect. Increases all allies damage dealt and damage reduction by 15%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/5652b.png"
       },
@@ -43040,7 +43077,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Basic R effect. Increases all allies RES by 60% of her initial RES, lasts for 2 turns. If an ally resists an effect, increases their move bar by 30% (only once).",
         "upgrades": [],
         "icon": "assets/skills/5652c.png"
       },
@@ -43052,7 +43089,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Rare SR effect with a 9% probability rate. Grants all the Basic R effects and increases all allies damage dealt by 30%, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/5652d.png"
       },
@@ -43064,7 +43101,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Super Rare SSR effect with a 1% probability rate. Immediately grants the Rare SR effect and has a 100% base chance of inflicting Morph on all enemies, lasts for 2 turns.",
         "upgrades": [],
         "icon": "assets/skills/5652e.png"
       },
@@ -44622,7 +44659,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "SP Inugami attacks all enemies, dealing damage equal to 80% of his ATK, doesn't trigger enemy souls. If there is no enemy with Sparrow's Mark on the battlefield, inflicts Sparrow's Mark on the enemy with the lowest HP.\n;Sparrow's Mark (雀の印)\n:\n:'''General, Mark''': Max of 5 stacks. When receiving a normal attack from SP Inugami or an onmyoji, increases by 1 stack. When stacks reach the max, SP Inugami consumes all stacks and activates Spirit Sparrow: Divine Heart Strike.",
         "upgrades": [],
         "icon": "assets/skills/5743b.png"
       }
@@ -44762,7 +44799,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Fuuyoukun attacks a single target 2 times, dealing damage equal to 50% of his ATK with each hit and has a 30% base chance to inflict Deep Freeze, lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/5751b.png"
       },
@@ -44774,7 +44811,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Fuuyoukun attacks a single target 3 times, dealing damage equal to 25%, 35% and 165% of his ATK with each hit respectively.",
         "upgrades": [],
         "icon": "assets/skills/5751c.png"
       },
@@ -44844,7 +44881,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Fuuyoukun attacks all enemies 3 times, dealing damage equal to 40% of his ATK with each hit and has a 12% base chance to inflict Freeze , lasts for 1 turn.",
         "upgrades": [],
         "icon": "assets/skills/5753b.png"
       },
@@ -44856,7 +44893,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Fuuyoukun attacks all enemies 3 times, dealing damage equal to 25%, 35% and 180% of his ATK with each hit respectively.",
         "upgrades": [],
         "icon": "assets/skills/5753c.png"
       }
@@ -45955,7 +45992,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Karuta attacks an enemy dealing indirect damage equal to 300% of her ATK.",
         "upgrades": [],
         "icon": "assets/skills/5813b.png"
       }
@@ -46868,7 +46905,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "The road is long, but the green mountains remain in sight.",
-        "description": "",
+        "description": "SP Fukengaku attacks all enemies 3 times, dealing damage equal to 600% of his DEF with each attack (a single hit from this skill cannot exceed more than 20x of his initial ATK), then inflicts 5 Scorching Fire stacks. After using this skill for the first time, permanently increases all allies' damage dealt by 30%.\n;Scorching Fire (炙烤)\n:\n:'''Common, Mark''': Max of 5 stacks. When attacked by a Fire Shikigami, the damage received is increased by 16% and 1 stack is removed, then additional damage equal to 300% of SP Fukengaku's DEF is inflicted.",
         "upgrades": [],
         "icon": "assets/skills/5863b.png"
       }
@@ -47769,7 +47806,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "The caster and all guarding Onmyoji Meows each attack once that deals 25% ATK damage and applies different effects based on the awakened Onmyoji Meows.\n;Onmyoji Meow (阴阠师喵)\n:Guarding order: Seimei Meow, Kagura Meow, Hiromasa Meow, Yao Bikuni Meow.\n;Seimei Meow (晴明喵）\n: When dealing damage, damage taken by the enemy is increased by 30% for 1 turn.\n;Kagura Meow (神乐喵）\n: When dealing damage, grants SP Kyuumei Neko 30% damage reduction for 1 turn.\n;Hiromasa Meow 博雅喵）\n:Deals 2 instances of damage.\n;Yao Bikuni Meow 八百比丘尼喵)\n: When dealing damage, dispels 2 random debuff or control effects from allies.",
         "upgrades": [],
         "icon": "assets/skills/5902b.png"
       },
@@ -48223,7 +48260,26 @@
         "onibi": 1,
         "cooldown": 0,
         "icon": "assets/skills/5942.png",
-        "description": "I see it — the dream’s continuation. When affected by Sleep, she cocoons herself and casts this skill instead. Gains a Dream Cocoon equal to 15% of max HP for 2 turns (uncleansable shield, +10% damage dealt). Level 2: Cocoon 20%. Level 3: immune to excess damage when Cocoon breaks. Level 4: casts automatically when cumulative damage exceeds 20% of max HP (once before her next turn). Level 5: Cocoon bearer’s damage dealt +20%."
+        "description": "I see it — the dream’s continuation. When affected by Sleep, she cocoons herself and casts this skill instead. Gains a Dream Cocoon equal to 15% of max HP for 2 turns (uncleansable shield, +10% damage dealt). Level 2: Cocoon 20%. Level 3: immune to excess damage when Cocoon breaks. Level 4: casts automatically when cumulative damage exceeds 20% of max HP (once before her next turn). Level 5: Cocoon bearer’s damage dealt +20%.",
+        "line": "I see it-the dream's continuation.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases Dream Cocoon absorption to 20%."
+          },
+          {
+            "lvl": 3,
+            "text": "When Dream Cocoon is broken, immune to excess damage."
+          },
+          {
+            "lvl": 4,
+            "text": "In any turn, when cumulative damage taken exceeds 20% of max HP, casts Spirit Dream. (Up to once before their next turn.)"
+          },
+          {
+            "lvl": 5,
+            "text": "Increases Dream Cocoon bearer's damage dealt by 20%."
+          }
+        ]
       },
       {
         "name": "Sound of Dreams",
@@ -48231,7 +48287,26 @@
         "onibi": 2,
         "cooldown": 0,
         "icon": "assets/skills/5943.png",
-        "description": "Now, I can shine brightly on stage too. Heals all allies for 15% of their max HP, 20% for the selected target. Level 2: selected target 30%. Level 3: all allies’ damage +20% for 1 turn. Level 4: grants the target a Dream Cocoon equal to 50% of healing received (2 turns). Level 5: Upper Hand — casts on the allied shikigami with the highest initial ATK."
+        "description": "Now, I can shine brightly on stage too. Heals all allies for 15% of their max HP, 20% for the selected target. Level 2: selected target 30%. Level 3: all allies’ damage +20% for 1 turn. Level 4: grants the target a Dream Cocoon equal to 50% of healing received (2 turns). Level 5: Upper Hand — casts on the allied shikigami with the highest initial ATK.",
+        "line": "Now, I can shine brightly on stage too.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases healing on selected target to 30%."
+          },
+          {
+            "lvl": 3,
+            "text": "Using the skill additionally increases all allies' damage by 20% for 1 turn."
+          },
+          {
+            "lvl": 4,
+            "text": "Grants the selected target a Dream Cocoon equal to 50% of healing received for 2 turns."
+          },
+          {
+            "lvl": 5,
+            "text": "Upper Hand: Effective exclusively, casts on the allied shikigami with the highest initial ATK."
+          }
+        ]
       }
     ]
   },
@@ -48259,7 +48334,26 @@
         "onibi": 0,
         "cooldown": 0,
         "icon": "assets/skills/5951.png",
-        "description": "Let my name become your blade. SP Hakuzousu attacks a single target dealing damage equal to 100% of his ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%."
+        "description": "Let my name become your blade. SP Hakuzousu attacks a single target dealing damage equal to 100% of his ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%.",
+        "line": "Let my name become your blade.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Damage increases to 105%."
+          },
+          {
+            "lvl": 3,
+            "text": "Damage increases to 110%."
+          },
+          {
+            "lvl": 4,
+            "text": "Damage increases to 115%."
+          },
+          {
+            "lvl": 5,
+            "text": "Damage increases to 125%."
+          }
+        ]
       },
       {
         "name": "White Fox Seal",
@@ -48267,7 +48361,26 @@
         "onibi": 1,
         "cooldown": 0,
         "icon": "assets/skills/5952.png",
-        "description": "Leave the rest to me! Applies Guardian Seal to an ally for 2 turns; raises the onmyoji’s move bar by 30%, and removes Seimei’s cooldown. Guardian Seal heals 20% of lost HP after each onmyoji skill. Level 2: sealed allies immune to damage. Level 3: onmyoji move bar +20% more. Level 4: enemies attacking the sealed ally get Amulet·Break (2 turns); with Seimei, his move bar +10% (once per turn, up to 3 times). Level 5: Upper Hand — targets the ally with the highest ATK."
+        "description": "Leave the rest to me! Applies Guardian Seal to an ally for 2 turns; raises the onmyoji’s move bar by 30%, and removes Seimei’s cooldown. Guardian Seal heals 20% of lost HP after each onmyoji skill. Level 2: sealed allies immune to damage. Level 3: onmyoji move bar +20% more. Level 4: enemies attacking the sealed ally get Amulet·Break (2 turns); with Seimei, his move bar +10% (once per turn, up to 3 times). Level 5: Upper Hand — targets the ally with the highest ATK.",
+        "line": "Leave the rest to me!",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Allies who have Guardian Seal are immune to damage."
+          },
+          {
+            "lvl": 3,
+            "text": "When Guardian Seal is present, the onmyoji's move bar is raised by an additional 20%."
+          },
+          {
+            "lvl": 4,
+            "text": "If an ally with Guardian Seal is attacked by an enemy, then they inflict Amulet·Break onto them, lasts for 2 turn; if the onmyoji is Seimei, additionally raises his move bar by 10% (once per turn, up to 3 times before Seimei's turn starts)"
+          },
+          {
+            "lvl": 5,
+            "text": "Upper Hand: Guardian Seal is applied to the ally with the highest ATK."
+          }
+        ]
       },
       {
         "name": "Dream Slash",
@@ -48275,7 +48388,26 @@
         "onibi": 3,
         "cooldown": 0,
         "icon": "assets/skills/5953.png",
-        "description": "I’ll sever the illusory dreams! Only with Seimei present: attacks all enemies with indirect damage equal to 20% of his max HP and inflicts Amulet·Break (damage dealt -30%; start-of-turn indirect damage equal to 8% of his max HP) for 2 turns. Without Seimei, replaces Dream Slash with Mt. Dream Oath. Level 2: 25%. Level 3: recovers 20% of lost HP. Level 4: 30%. Level 5: no Onibi cost after Seimei casts a skill."
+        "description": "I’ll sever the illusory dreams! Only with Seimei present: attacks all enemies with indirect damage equal to 20% of his max HP and inflicts Amulet·Break (damage dealt -30%; start-of-turn indirect damage equal to 8% of his max HP) for 2 turns. Without Seimei, replaces Dream Slash with Mt. Dream Oath. Level 2: 25%. Level 3: recovers 20% of lost HP. Level 4: 30%. Level 5: no Onibi cost after Seimei casts a skill.",
+        "line": "I'll protect everyone,anytime and anywhere!",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases damage to 25%."
+          },
+          {
+            "lvl": 3,
+            "text": "Recovers 20% of the lost HP when cast."
+          },
+          {
+            "lvl": 4,
+            "text": "Increases damage to 30%."
+          },
+          {
+            "lvl": 5,
+            "text": "Casts Dream Slash with no Onibi needed after Seimei casts skill."
+          }
+        ]
       },
       {
         "name": "Mt. Dream Oath",
@@ -48283,7 +48415,26 @@
         "onibi": 3,
         "cooldown": 0,
         "icon": "assets/skills/5953b.png",
-        "description": "I swear by this body and name. Attacks all enemies with indirect damage equal to 14% of his max HP and inflicts Amulet·Break for 2 turns. Level 2: 17%. Level 3: also applies Seimei’s current Amulet: Life level. Level 4: 20%. Level 5: also applies Seimei’s current Amulet: Death level."
+        "description": "I swear by this body and name. Attacks all enemies with indirect damage equal to 14% of his max HP and inflicts Amulet·Break for 2 turns. Level 2: 17%. Level 3: also applies Seimei’s current Amulet: Life level. Level 4: 20%. Level 5: also applies Seimei’s current Amulet: Death level.",
+        "line": "I swear by this body and name.",
+        "upgrades": [
+          {
+            "lvl": 2,
+            "text": "Increases damage to 17%."
+          },
+          {
+            "lvl": 3,
+            "text": "Additionally applies Seimei's current level of Amulet: Life."
+          },
+          {
+            "lvl": 4,
+            "text": "Increases damage to 20%."
+          },
+          {
+            "lvl": 5,
+            "text": "Additionally applies Seimei's current level of Amulet: Death."
+          }
+        ]
       }
     ]
   },
@@ -49051,7 +49202,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "Summons 3 Bats to attack an enemy target 3 times, each strike dealing damage equal to 125% of ATK, and then summons Bat to deal damage equal to 125% of ATK to all enemies. This damage doesn't trigger the target's Soul effects or passive skills, and it inflicts 100% HP steal.\n;Bat (蝙蝠)\n:Attacks inflict a corresponding stacks of Gnaw. Accumulating 12 Bats will enter the Night Incarnate form.\n;Enshyoujo (飞缘魔)\n:Unable to take action, does not trigger Soul effects or passive skills, with HP equal to 50% of SP Vampira's HP. If only Enshyoujo remain on the enemy side, counts as a battle victory. This effect can only trigger once for the same shikigami.\nFor each Enshyoujo present, increases the Moonclipse Crown damage dealt to all enemies by 75%, up to 2 stacks.",
         "upgrades": [],
         "icon": "assets/skills/5993a.png"
       }
@@ -49402,7 +49553,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "When the bearer of Wisdom Flame and Fire Shikigami cast skills to attack, Omoikane no Kami assists by casting a skill, dealing damage equal to 12% Fixed DMG of this attack's damage (Can be triggered up to 40 times per action. Damage dealt to each target cannot exceed 2400% of Omoikane no Kami's starting ATK.)\n;Wisdom Flame (智识之火)\n:\n:'''Buff''', '''Mark''': Increases CRIT DMG by 30%.",
         "upgrades": [],
         "icon": "assets/skills/6012a.png"
       },
@@ -50400,7 +50551,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "?\n;Performance (奏乐)\n:\n:When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音)",
         "upgrades": [],
         "icon": "assets/skills/6063a.png"
       },
@@ -50412,7 +50563,7 @@
         "onibi": 3,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "?\n;Performance (奏乐)\n:\n:When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音)",
         "upgrades": [],
         "icon": "assets/skills/6063b.png"
       }
@@ -50552,7 +50703,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "Exclusive only. ; (淬火) : ;(羽茧) : ;(余烬) :",
+        "description": "SP Hououka attacks a single target dealing damage equal to 100% of her ATK, and loses 10% of her own HP (might cause the shikigami's own death).",
         "upgrades": [
           {
             "lvl": 2,
@@ -50581,7 +50732,7 @@
         "onibi": 2,
         "cooldown": 0,
         "line": "",
-        "description": "?",
+        "description": "SP Hououka attacks a single target dealing damage equal to 100% of her ATK, and loses 10% of her own HP (might cause the shikigami's own death).",
         "upgrades": [
           {
             "lvl": 2,
@@ -50738,7 +50889,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "Exclusive only. ; (磐长花) : ; (磐根之佑) :",
+        "description": "Iwanaga Hime attacks target 3 times, each hit deals damage equal to 33% of her ATK.",
         "upgrades": [
           {
             "lvl": 2,
@@ -50767,7 +50918,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "? ; (磐根之佑) :",
+        "description": "Iwanaga Hime attacks target 3 times, each hit deals damage equal to 33% of her ATK.",
         "upgrades": [
           {
             "lvl": 2,
@@ -50895,7 +51046,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "----",
         "upgrades": [
           {
             "lvl": 2,
@@ -50924,7 +51075,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "",
+        "description": "----",
         "upgrades": [
           {
             "lvl": 2,
@@ -50953,7 +51104,7 @@
         "onibi": 0,
         "cooldown": 0,
         "line": "",
-        "description": "?",
+        "description": "----",
         "upgrades": [
           {
             "lvl": 2,
