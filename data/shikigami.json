@@ -82,7 +82,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2001",
         "name": "Flower Dance (花舞/花舞い)",
         "type": "Normal",
@@ -268,7 +268,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2011",
         "name": "Snowball (雪球/雪玉)",
         "type": "Normal",
@@ -454,7 +454,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2021",
         "name": "Tail Slash (狐袭/尻尾攻撃)",
         "type": "Normal",
@@ -648,7 +648,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2031",
         "name": "Lick (舔/舐める)",
         "type": "Normal",
@@ -822,7 +822,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2051",
         "name": "Soul Fire (魂之火/魂の炎)",
         "type": "Normal",
@@ -992,7 +992,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2061",
         "name": "Tail Whip (尾鞭/魚尾鞭)",
         "type": "Normal",
@@ -1178,7 +1178,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2071",
         "name": "Razor Claws (猫爪/猫の爪)",
         "type": "Normal",
@@ -1347,7 +1347,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2081",
         "name": "Bottle Bash (妖酒壶/妖しの徳利)",
         "type": "Normal",
@@ -1533,7 +1533,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2091",
         "name": "Water Grenade (水流弹/水流弾)",
         "type": "Normal",
@@ -1715,7 +1715,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2101",
         "name": "Living Dead (活死人/死人化)",
         "type": "Normal",
@@ -1901,7 +1901,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2111",
         "name": "Punishment (惩戒/制裁)",
         "type": "Normal",
@@ -1930,7 +1930,7 @@
         "icon": "assets/skills/2111.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2111b",
         "name": "Soul Chaser (追魂)",
         "type": "Normal",
@@ -2099,7 +2099,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2121",
         "name": "Feather Blade (羽刃/羽の刃)",
         "type": "Normal",
@@ -2268,7 +2268,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2131",
         "name": "Feather Pierce (羽刺/羽刺)",
         "type": "Normal",
@@ -2450,7 +2450,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2141",
         "name": "Rotten Bun (臭馒头/腐った饅頭)",
         "type": "Normal",
@@ -2636,7 +2636,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2151",
         "name": "Violaceous (药汤/薬湯)",
         "type": "Normal",
@@ -2822,7 +2822,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2161",
         "name": "Bug Toss (施蛊/毒虫を放つ)",
         "type": "Normal",
@@ -3008,7 +3008,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2171",
         "name": "Vortex Assault (风袭/風の襲撃)",
         "type": "Normal",
@@ -3194,7 +3194,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2181",
         "name": "Blade of Justice (正义之刺/正義の薙刀)",
         "type": "Normal",
@@ -3380,7 +3380,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2191",
         "name": "Calabash Spray (鬼葫芦/鬼瓢箪)",
         "type": "Normal",
@@ -3549,7 +3549,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2201",
         "name": "Heart Strike (心斩/心剣)",
         "type": "Normal",
@@ -3747,7 +3747,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2211",
         "name": "Hair Whip (发鞭/髪鞭)",
         "type": "Normal",
@@ -3916,7 +3916,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2221",
         "name": "Warrior's Heart (武士之心/侍の心)",
         "type": "Normal",
@@ -4102,7 +4102,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2231",
         "name": "Bone Sword (骨刃/骨刃)",
         "type": "Normal",
@@ -4271,7 +4271,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2241",
         "name": "Teardrops (泪珠/涙の雫)",
         "type": "Normal",
@@ -4436,7 +4436,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2251",
         "name": "Mighty Punch (直拳/正拳突き)",
         "type": "Normal",
@@ -4622,7 +4622,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2261",
         "name": "Baddies Begone (坏人走开/悪者め！)",
         "type": "Normal",
@@ -4827,7 +4827,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2271",
         "name": "Swinging Slice (挥斩/振り斬り)",
         "type": "Normal",
@@ -5013,7 +5013,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2281",
         "name": "Curse Dart (咒锥/呪錐)",
         "type": "Normal",
@@ -5199,7 +5199,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2301",
         "name": "Stone Throw (投石/石投げ)",
         "type": "Normal",
@@ -5385,7 +5385,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2311",
         "name": "Maple Shot (红枫/紅葉)",
         "type": "Normal",
@@ -5571,7 +5571,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2321",
         "name": "Jingle Jingle (钱响叮当/チャリンチャリン)",
         "type": "Normal",
@@ -5740,7 +5740,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2331",
         "name": "Coffin Crash (棺击/棺撃)",
         "type": "Normal",
@@ -5926,7 +5926,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2341",
         "name": "Water Jet (水花弹/水飛沫の弾)",
         "type": "Normal",
@@ -6100,7 +6100,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2361",
         "name": "Pipe Throw (竹管投掷/竹管投げ)",
         "type": "Normal",
@@ -6282,7 +6282,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2371",
         "name": "Be Nice (谁还不听话/悪い子ど～こだ)",
         "type": "Normal",
@@ -6464,7 +6464,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2381",
         "name": "Absorption (吸取/吸収)",
         "type": "Normal",
@@ -6650,7 +6650,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2411",
         "name": "Butterfly Strike (香气袭人/香りに包まれる)",
         "type": "Normal",
@@ -6836,7 +6836,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2421",
         "name": "Puppet: Attack (傀儡·出击/傀儡·出撃)",
         "type": "Normal",
@@ -7005,7 +7005,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2431",
         "name": "Hammer Smash (碎岩)",
         "type": "Normal",
@@ -7174,7 +7174,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2441",
         "name": "Heavy Attack (重击/重撃)",
         "type": "Normal",
@@ -7342,7 +7342,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2451",
         "name": "Head Hammer (头槌/頭槌)",
         "type": "Normal",
@@ -7498,7 +7498,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2461",
         "name": "Hit (海扁/ぶっ飛ばす)",
         "type": "Normal",
@@ -7684,7 +7684,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2471",
         "name": "Waterspout (水龙卷/水竜巻)",
         "type": "Normal",
@@ -7853,7 +7853,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2481",
         "name": "Roaming Fish (游鱼/遊魚)",
         "type": "Normal",
@@ -8039,7 +8039,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2491",
         "name": "Club Smash (棒打/棒打ち)",
         "type": "Normal",
@@ -8208,7 +8208,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2501",
         "name": "Mahjong Cheat (出千/いかさま)",
         "type": "Normal",
@@ -8377,7 +8377,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2511",
         "name": "Brush of Death (墨笔夺魂/墨筆の魂奪取)",
         "type": "Normal",
@@ -8563,7 +8563,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2521",
         "name": "Fire Launch (凤火/鳳火)",
         "type": "Normal",
@@ -8728,7 +8728,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2531",
         "name": "Blood Boost (血袭/血襲)",
         "type": "Normal",
@@ -8897,7 +8897,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2541",
         "name": "Wind Blade (风刃/風刃)",
         "type": "Normal",
@@ -9083,7 +9083,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2551",
         "name": "Demon Mask (鬼面)",
         "type": "Normal",
@@ -9269,7 +9269,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2561",
         "name": "Sonic Arrow (惊弦/驚弦)",
         "type": "Normal",
@@ -9451,7 +9451,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2571",
         "name": "Sleep Snout (入眠/眠れ)",
         "type": "Normal",
@@ -9620,7 +9620,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2581",
         "name": "Random Element (风雷两生/風雷)",
         "type": "Normal",
@@ -9805,7 +9805,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2591",
         "name": "Forest Vines (森之力/森の力)",
         "type": "Normal",
@@ -9991,7 +9991,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2601",
         "name": "Serpent Lash (蛇行击/蛇行撃)",
         "type": "Normal",
@@ -10164,7 +10164,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2611",
         "name": "Beat Down (胖揍/ぶん殴る)",
         "type": "Normal",
@@ -10350,7 +10350,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2621",
         "name": "Umbrella Sword (伞剑/傘剣)",
         "type": "Normal",
@@ -10519,7 +10519,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2631",
         "name": "Surprise Attack (意外袭击/襲撃)",
         "type": "Normal",
@@ -10688,7 +10688,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2641",
         "name": "Perfect Shot (文射/礼射)",
         "type": "Normal",
@@ -10849,7 +10849,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2651",
         "name": "Black Flame (黑焰/黒炎)",
         "type": "Normal",
@@ -11018,7 +11018,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2661",
         "name": "Ghostly Light (幽光)",
         "type": "Normal",
@@ -11204,7 +11204,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2671",
         "name": "Sakura Shower (散り桜)",
         "type": "Normal",
@@ -11390,7 +11390,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2681",
         "name": "Blessing (赐福/福賜り)",
         "type": "Normal",
@@ -11568,7 +11568,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2691",
         "name": "Cursed Blade (不吉な刃)",
         "type": "Normal",
@@ -11783,7 +11783,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2701",
         "name": "Venom Claw (毒针/毒針)",
         "type": "Normal",
@@ -11952,7 +11952,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2711",
         "name": "Fiendish Mask (鬼之假面/鬼の面)",
         "type": "Normal",
@@ -11981,7 +11981,7 @@
         "icon": "assets/skills/2711.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2711",
         "name": "Demon Claw (鬼之爪/鬼の爪)",
         "type": "Normal",
@@ -12150,7 +12150,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2721",
         "name": "Wind Amulet: Damage (风符·破/風符·破)",
         "type": "Normal",
@@ -12336,7 +12336,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2731",
         "name": "Divine Greatness (摩诃/マハー)",
         "type": "Normal",
@@ -12504,7 +12504,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2741",
         "name": "Fire Pinwheel (火風車)",
         "type": "Normal",
@@ -12682,7 +12682,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2751",
         "name": "Sword Flute (笛中剑/笛の剣)",
         "type": "Normal",
@@ -12851,7 +12851,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2761",
         "name": "Massacre (屠戮/虐殺)",
         "type": "Normal",
@@ -13037,7 +13037,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2771",
         "name": "Kuro Blast (罪罚·黑/罪と罰・黒)",
         "type": "Normal",
@@ -13223,7 +13223,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2781",
         "name": "Shiro Blast (罪罚·白/罪と罰・白)",
         "type": "Normal",
@@ -13384,7 +13384,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2791",
         "name": "Loyal Flock (归鸟/帰鳥)",
         "type": "Normal",
@@ -13570,7 +13570,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2801",
         "name": "Horai Branch (蓬莱玉枝/蓬莱の玉枝)",
         "type": "Normal",
@@ -13748,7 +13748,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2811",
         "name": "Devastation (蹂躏/踏み躙り)",
         "type": "Normal",
@@ -13934,7 +13934,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2821",
         "name": "Fan Dance (扇舞/扇の舞)",
         "type": "Normal",
@@ -14115,7 +14115,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2831",
         "name": "Star Beam (星轨/星の軌跡)",
         "type": "Normal",
@@ -14330,7 +14330,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2851",
         "name": "Chin's Feathers (鸩羽/鴆の羽)",
         "type": "Normal",
@@ -14516,7 +14516,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2861",
         "name": "Dance of the Wind (风之舞/風の舞)",
         "type": "Normal",
@@ -14702,7 +14702,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2871",
         "name": "Glittering Light (流光/光の矢)",
         "type": "Normal",
@@ -14871,7 +14871,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2881",
         "name": "Deadly Blooms (死亡之花/死の花)",
         "type": "Normal",
@@ -15056,7 +15056,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2891",
         "name": "Adorable Strike (萌动/ニンジン)",
         "type": "Normal",
@@ -15242,7 +15242,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2901",
         "name": "Pine Cone Attack (松果一击/松ぼっくり投げ)",
         "type": "Normal",
@@ -15428,7 +15428,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2911",
         "name": "Ink Splash (墨染/墨染)",
         "type": "Normal",
@@ -15614,7 +15614,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2921",
         "name": "Snow Chaser (雪走)",
         "type": "Normal",
@@ -15783,7 +15783,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2931",
         "name": "Flaming Eye (瞳炎)",
         "type": "Normal",
@@ -15981,7 +15981,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2941",
         "name": "Nenekirimaru (弥弥切丸/弥々切丸)",
         "type": "Normal",
@@ -16150,7 +16150,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2951",
         "name": "Inviting Moon (邀月/月招)",
         "type": "Normal",
@@ -16336,7 +16336,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2961",
         "name": "Wind (风/風)",
         "type": "Normal",
@@ -16522,7 +16522,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2971",
         "name": "Blazing Sun (阳炎/陽炎)",
         "type": "Normal",
@@ -16691,7 +16691,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "2981",
         "name": "Interfering Throw (干扰投掷/石投げ)",
         "type": "Normal",
@@ -16877,7 +16877,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3001",
         "name": "Soul Burst (灵击/狐の面)",
         "type": "Normal",
@@ -17063,7 +17063,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3011",
         "name": "Holy Staff (降魔杖/降魔の杖)",
         "type": "Normal",
@@ -17249,7 +17249,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3021",
         "name": "Hidden Sting（绵里藏针/綿里蔵針）",
         "type": "Normal",
@@ -17435,7 +17435,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3031",
         "name": "Ladder (征子/四丁)",
         "type": "Normal",
@@ -17604,7 +17604,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3041",
         "name": "Divine Arrow (一矢)",
         "type": "Normal",
@@ -17773,7 +17773,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3051",
         "name": "Shape Revealer（释物之形/釈物の形）",
         "type": "Normal",
@@ -17942,7 +17942,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3061",
         "name": "Dance of Mushi（虫之舞/虫の舞）",
         "type": "Normal",
@@ -18111,7 +18111,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3071",
         "name": "Hear Meow Call (猫猫召来/猫ちゃん召喚)",
         "type": "Normal",
@@ -18280,7 +18280,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3081",
         "name": "Club Strike (锤击)",
         "type": "Normal",
@@ -18448,7 +18448,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3091",
         "name": "Venomous Fangs (蛇卒·毒牙)",
         "type": "Normal",
@@ -18617,7 +18617,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3101",
         "name": "Rabbit Jailer: Scold (兔狱卒·叱责/うさぎ獄卒・叱る)",
         "type": "Normal",
@@ -18786,7 +18786,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3111",
         "name": "Enchant (注灵/注霊)",
         "type": "Normal",
@@ -18972,7 +18972,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3121",
         "name": "Demonic Slash (鬼斩/鬼斬り)",
         "type": "Normal",
@@ -19158,7 +19158,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3131",
         "name": "Wind Scar (風の傷)",
         "type": "Normal",
@@ -19375,7 +19375,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3141",
         "name": "Dokkasou (毒華爪)",
         "type": "Normal",
@@ -19573,7 +19573,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3151",
         "name": "Wind Coil (風纏)",
         "type": "Normal",
@@ -19742,7 +19742,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3161",
         "name": "Flamed Shadow (炎影)",
         "type": "Normal",
@@ -19928,7 +19928,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3171",
         "name": "Holy Wood (神木)",
         "type": "Normal",
@@ -20114,7 +20114,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3181",
         "name": "Venomous Spit (吐丝/吐糸)",
         "type": "Normal",
@@ -20300,7 +20300,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3191",
         "name": "Spiritual Burst (灵力进发)",
         "type": "Normal",
@@ -20469,7 +20469,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3201",
         "name": "Wrapping Strike (缠击/纏撃)",
         "type": "Normal",
@@ -20655,7 +20655,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3211",
         "name": "Death Ritual (葬仪/葬儀)",
         "type": "Normal",
@@ -20841,7 +20841,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3221",
         "name": "Demonic Claw (鬼爪)",
         "type": "Normal",
@@ -21027,7 +21027,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3231",
         "name": "Stone Strike (石を投げる)",
         "type": "Normal",
@@ -21213,7 +21213,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3241",
         "name": "Water Attack (水襲)",
         "type": "Normal",
@@ -21399,7 +21399,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3251",
         "name": "Soul Crusher (魂魄碎裂/魂魄砕裂)",
         "type": "Normal",
@@ -21428,7 +21428,7 @@
         "icon": "assets/skills/3251.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3251a",
         "name": "Gaze (凝視)",
         "type": "Normal",
@@ -21645,7 +21645,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3261",
         "name": "Fox Bell (狐鈴)",
         "type": "Normal",
@@ -21831,7 +21831,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3271",
         "name": "Wind Amulet: Destroy (风符·灭/風符・滅)",
         "type": "Normal",
@@ -22017,7 +22017,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3281",
         "name": "Flaming Blade (炎の刃)",
         "type": "Normal",
@@ -22203,7 +22203,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3291",
         "name": "Shadow Strike (影出)",
         "type": "Normal",
@@ -22389,7 +22389,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3301a",
         "name": "Debut (初舞)",
         "type": "Normal",
@@ -22418,7 +22418,7 @@
         "icon": "assets/skills/3301a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3301b",
         "name": "Finale (終舞)",
         "type": "Normal",
@@ -22662,7 +22662,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3311",
         "name": "Returning Hatred (恨返/恨み返し)",
         "type": "Normal",
@@ -22860,7 +22860,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3321a",
         "name": "Whale Bone: Station (鲸骨·驻/鯨骨・駐)",
         "type": "Normal",
@@ -22889,7 +22889,7 @@
         "icon": "assets/skills/3321a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3321b",
         "name": "Whale Bone: Open (鲸骨·开/鯨骨・開)",
         "type": "Normal",
@@ -23099,7 +23099,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3331a",
         "name": "Hillcry: Blast (麓鸣·轰/麓鳴・轟)",
         "type": "Normal",
@@ -23128,7 +23128,7 @@
         "icon": "assets/skills/3331a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3331b",
         "name": "Hillcry: Slash (麓鸣·斬/麓鳴・斬)",
         "type": "Normal",
@@ -23297,7 +23297,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3341",
         "name": "River's Breath (川息/川の息吹)",
         "type": "Normal",
@@ -23483,7 +23483,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3351",
         "name": "Left Claw Right Punch (左鉗接右拳)",
         "type": "Normal",
@@ -23669,7 +23669,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3361",
         "name": "Sode no Shirayuki (袖白雪)",
         "type": "Normal",
@@ -23855,7 +23855,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3371a",
         "name": "Zangetsu (斬月)",
         "type": "Normal",
@@ -23884,7 +23884,7 @@
         "icon": "assets/skills/3371a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3371b",
         "name": "Tensa Zangetsu (天鎖斬月)",
         "type": "Normal",
@@ -24094,7 +24094,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3381",
         "name": "Moon Slash (曜断)",
         "type": "Normal",
@@ -24357,7 +24357,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3391",
         "name": "Soul Rush (霊衝)",
         "type": "Normal",
@@ -24543,7 +24543,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3401",
         "name": "Paper Swallow (紙燕)",
         "type": "Normal",
@@ -24729,7 +24729,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3411a",
         "name": "Blazing Fire (梵天)",
         "type": "Normal",
@@ -24758,7 +24758,7 @@
         "icon": "assets/skills/3411a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3411b",
         "name": "Torch the Sky (烈焰焚天/烈火梵天)",
         "type": "Normal",
@@ -24944,7 +24944,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3421",
         "name": "Listen Up (听咱一言/話を聞いてくれ)",
         "type": "Normal",
@@ -25130,7 +25130,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3431",
         "name": "Intangible Blade (無剣)",
         "type": "Normal",
@@ -25316,7 +25316,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3441a",
         "name": "Falling Shadow (落影)",
         "type": "Normal",
@@ -25345,7 +25345,7 @@
         "icon": "assets/skills/3441a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3441b",
         "name": "Dharma (曇無)",
         "type": "Normal",
@@ -25555,7 +25555,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3451",
         "name": "Arrival of Death (天誅)",
         "type": "Normal",
@@ -25770,7 +25770,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3461",
         "name": "River Water (清流)",
         "type": "Normal",
@@ -25939,7 +25939,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3471",
         "name": "Moonlit Flower (月下花)",
         "type": "Normal",
@@ -26108,7 +26108,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3481",
         "name": "Floating Flame (浮光)",
         "type": "Normal",
@@ -26306,7 +26306,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3491",
         "name": "Tornado: Shuriken (竜巻・手裏剣)",
         "type": "Normal",
@@ -26492,7 +26492,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3501",
         "name": "Scorpion Sting (蠍刺)",
         "type": "Normal",
@@ -26678,7 +26678,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3511",
         "name": "Shadowchaser (逐影)",
         "type": "Normal",
@@ -26864,7 +26864,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3521",
         "name": "Bind Heart (纏心)",
         "type": "Normal",
@@ -27062,7 +27062,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3531",
         "name": "Introduction (序)",
         "type": "Normal",
@@ -27308,7 +27308,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3541",
         "name": "Ink Wind (墨風)",
         "type": "Normal",
@@ -27474,7 +27474,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3551",
         "name": "Mountain's Shadow: Erode (麓影・蝕)",
         "type": "Normal",
@@ -27672,7 +27672,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3561",
         "name": "Thousand Tides (千汐)",
         "type": "Normal",
@@ -27870,7 +27870,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3571",
         "name": "Swift (疾)",
         "type": "Normal",
@@ -28092,7 +28092,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3581",
         "name": "Descent into the Deep (落溟)",
         "type": "Normal",
@@ -28302,7 +28302,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3591a",
         "name": "First Form: Water Surface Slash (壱ノ型・水面斬り)",
         "type": "Normal",
@@ -28331,7 +28331,7 @@
         "icon": "assets/skills/3591a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3591b",
         "name": "Second Form: Water Wheel (弐ノ型・水車)",
         "type": "Normal",
@@ -28343,7 +28343,7 @@
         "icon": "assets/skills/3591b.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3591c",
         "name": "Fifth Form: Blessed Rain After the Drought (伍ノ型・干天の慈雨)",
         "type": "Normal",
@@ -28355,7 +28355,7 @@
         "icon": "assets/skills/3591c.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3591d",
         "name": "Seventh Form: Piercing Rain Drop (漆ノ型・雫波紋突き)",
         "type": "Normal",
@@ -28584,7 +28584,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3601a",
         "name": "Kick (腿踢)",
         "type": "Normal",
@@ -28613,7 +28613,7 @@
         "icon": "assets/skills/3601a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3601b",
         "name": "Flying Kick (拳打腿踢)",
         "type": "Normal",
@@ -28799,7 +28799,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3611",
         "name": "Tidy Up (汚れ)",
         "type": "Normal",
@@ -28968,7 +28968,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3621",
         "name": "Jade Echoing (玉响/玉響)",
         "type": "Normal",
@@ -29166,7 +29166,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3631",
         "name": "Celestial Judgement​ (天誅)",
         "type": "Normal",
@@ -29364,7 +29364,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3641",
         "name": "Annihilation Flames (紅蓮誅灰)",
         "type": "Normal",
@@ -29562,7 +29562,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3651",
         "name": "Sparrow Peck (雀啄)",
         "type": "Normal",
@@ -29748,7 +29748,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3661",
         "name": "Obliterate Existence (在湮/存湮)",
         "type": "Normal",
@@ -29946,7 +29946,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3671",
         "name": "Plum Blossom Strike (寒梅裁雪/寒梅裁雪)",
         "type": "Normal",
@@ -30161,7 +30161,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3681",
         "name": "Hot Flame (融芯化火)",
         "type": "Normal",
@@ -30347,7 +30347,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3691",
         "name": "Stir Wok (開鍋)",
         "type": "Normal",
@@ -30533,7 +30533,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3701",
         "name": "Gourmet Charge（尋味飛撲）",
         "type": "Normal",
@@ -30731,7 +30731,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3711",
         "name": "Scattered Paper (花紙散)",
         "type": "Normal",
@@ -30953,7 +30953,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3721",
         "name": "Crystal Light (瑠璃光)",
         "type": "Normal",
@@ -31151,7 +31151,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3731",
         "name": "Crimson Child (赤子)",
         "type": "Normal",
@@ -31404,7 +31404,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3751",
         "name": "Shadowstrike (影襲)",
         "type": "Normal",
@@ -31590,7 +31590,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3761",
         "name": "Shake Bell (振铃/振鈴)",
         "type": "Normal",
@@ -31788,7 +31788,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3771",
         "name": "Ninja Kick! (忍兔飞踢！/忍兎飛踢!)",
         "type": "Normal",
@@ -31986,7 +31986,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3781",
         "name": "Transformation Scythe (化生戟)",
         "type": "Normal",
@@ -32172,7 +32172,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3791",
         "name": "Heavy Boulder (重峦/重巒)",
         "type": "Normal",
@@ -32358,7 +32358,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3821",
         "name": "Decorative Wave (波綴)",
         "type": "Normal",
@@ -32544,7 +32544,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3831",
         "name": "Soul's Punishment (霊魂懲戒)",
         "type": "Normal",
@@ -32754,7 +32754,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3841",
         "name": "White Rouge (頬の色・雪)",
         "type": "Normal",
@@ -32923,7 +32923,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3851",
         "name": "Verdict of the Dead (亡者裁决)",
         "type": "Normal",
@@ -33109,7 +33109,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3861",
         "name": "First Form: Thunderclap and Flash (壱ノ型・霹靂一閃)",
         "type": "Normal",
@@ -33295,7 +33295,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3871",
         "name": "First Fang: Pierce (壱ノ牙・穿ち抜き)",
         "type": "Normal",
@@ -33481,7 +33481,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3881a",
         "name": "Crow Feather (乌翎/烏翎)",
         "type": "Normal",
@@ -33510,7 +33510,7 @@
         "icon": "assets/skills/3881a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3881b",
         "name": "Leaf Blade (叶刃)",
         "type": "Normal",
@@ -33696,7 +33696,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3891",
         "name": "Lightning-style (雷霆式)",
         "type": "Normal",
@@ -33894,7 +33894,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3901",
         "name": "Comet (隕星)",
         "type": "Normal",
@@ -34080,7 +34080,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3911",
         "name": "Guiding Fragrance (御香引)",
         "type": "Normal",
@@ -34266,7 +34266,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3921",
         "name": "Viola Quadricolor (四色堇)",
         "type": "Normal",
@@ -34529,7 +34529,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3931",
         "name": "Boundless Water (水无垠/水無垠)",
         "type": "Normal",
@@ -34715,7 +34715,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3941",
         "name": "Empty Void (空亡)",
         "type": "Normal",
@@ -34901,7 +34901,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3951",
         "name": "Flowing Radiance (流明)",
         "type": "Normal",
@@ -35087,7 +35087,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3961",
         "name": "Corrode Bones (蚀骸/蝕骸)",
         "type": "Normal",
@@ -35273,7 +35273,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3971",
         "name": "Toyako Slash (洞爺湖斬撃)",
         "type": "Normal",
@@ -35302,7 +35302,7 @@
         "icon": "assets/skills/3971.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3971",
         "name": "Sugar Rush (糖分追撃)",
         "type": "Normal",
@@ -35454,7 +35454,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3981",
         "name": "One with Fear (惧中人)",
         "type": "Normal",
@@ -35635,7 +35635,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "3991",
         "name": "Word's Action (言动/言動)",
         "type": "Normal",
@@ -35832,7 +35832,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4001",
         "name": "Black Flames of Darkness (/闇の黒炎)",
         "type": "Normal",
@@ -35959,7 +35959,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4011",
         "name": "Flamethrower (/火投げ)",
         "type": "Normal",
@@ -36070,7 +36070,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4021",
         "name": "Rage (愤怒)",
         "type": "Normal",
@@ -36178,7 +36178,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4031",
         "name": "Pierce (我顶!/刺突)",
         "type": "Normal",
@@ -36334,7 +36334,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4041",
         "name": "Hit (我打/ぶん殴る)",
         "type": "Normal",
@@ -36486,7 +36486,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4051",
         "name": "Meatball Tackle (肉弹战车/肉弾戦車)",
         "type": "Normal",
@@ -36621,7 +36621,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4061",
         "name": "Boom Boom (咚咚/ドンドン)",
         "type": "Normal",
@@ -36756,7 +36756,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4071",
         "name": "Wild Scratches (乱打/乱れ打ち)",
         "type": "Normal",
@@ -36891,7 +36891,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4081",
         "name": "Mighty Blow (蓄力一击/渾身の一撃)",
         "type": "Normal",
@@ -37043,7 +37043,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4091",
         "name": "Earthquake (地震/地震)",
         "type": "Normal",
@@ -37182,7 +37182,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4141",
         "name": "Gero: Wind Blast (呱·风袭)",
         "type": "Normal",
@@ -37338,7 +37338,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4151",
         "name": "Gero: Demon Gourd (呱·鬼葫芦)",
         "type": "Normal",
@@ -37494,7 +37494,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4161",
         "name": "Gero: Swimming Fish (呱·游鱼)",
         "type": "Normal",
@@ -37646,7 +37646,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4171",
         "name": "Gero: Demonic Semblance (呱·鬼面)",
         "type": "Normal",
@@ -37798,7 +37798,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4181",
         "name": "Croak: Duel Element",
         "type": "Normal",
@@ -37954,7 +37954,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4191",
         "name": "Gero: Strength of the Forest (呱·森之力)",
         "type": "Normal",
@@ -38106,7 +38106,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4201",
         "name": "Gero: Black Inferno (呱·黑焰)",
         "type": "Normal",
@@ -38262,7 +38262,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4211",
         "name": "Gero: Dim Light (呱·幽光)",
         "type": "Normal",
@@ -38414,7 +38414,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4221",
         "name": "Gero: Ominous Blade (呱·不祥之刃)",
         "type": "Normal",
@@ -38566,7 +38566,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4231",
         "name": "Gero: Wind Seal, Shattered (呱·风符·破)",
         "type": "Normal",
@@ -38722,7 +38722,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4241",
         "name": "Gero: Homecoming Fowl (呱·归鸟)",
         "type": "Normal",
@@ -38878,7 +38878,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4251",
         "name": "Gero: Jeweled Staff of Mount Hourai (呱·蓬莱玉枝)",
         "type": "Normal",
@@ -39030,7 +39030,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4261",
         "name": "Gero: Heavenly Orbit (呱·星轨)",
         "type": "Normal",
@@ -39182,7 +39182,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4271",
         "name": "Gero: Flower of Death (呱·死亡之花)",
         "type": "Normal",
@@ -39337,7 +39337,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4281",
         "name": "Croak: Snow Chaser（呱·雪走/蛙・雪走）",
         "type": "Normal",
@@ -39492,7 +39492,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4291",
         "name": "Croak: Soul Burst（呱·灵击/蛙・狐の面）",
         "type": "Normal",
@@ -39647,7 +39647,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4301",
         "name": "Croak: Divine Arrow（呱·一矢/蛙・一矢）",
         "type": "Normal",
@@ -39803,7 +39803,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4331",
         "name": "Sotobuki（扫堂桶）",
         "type": "Normal",
@@ -39832,7 +39832,7 @@
         "icon": "assets/skills/4331.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "4331a",
         "name": "One Two Three Freeze （一二三不许动）",
         "type": "Normal",
@@ -39960,7 +39960,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5001",
         "name": "Let's go, Sadaharu! (行くネ、定春！)",
         "type": "Normal",
@@ -40129,7 +40129,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5501a",
         "name": "Plume Dart (流羽風)",
         "type": "Normal",
@@ -40158,7 +40158,7 @@
         "icon": "assets/skills/5501a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5501b",
         "name": "Plume Razor (流羽斬)",
         "type": "Normal",
@@ -40373,7 +40373,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5511",
         "name": "Sylvan Breath (林间息/森の息吹)",
         "type": "Normal",
@@ -40559,7 +40559,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5521",
         "name": "Impurity Absolution (浄穢)",
         "type": "Normal",
@@ -40728,7 +40728,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5531a",
         "name": "Fire Punch (火拳)",
         "type": "Normal",
@@ -40757,7 +40757,7 @@
         "icon": "assets/skills/5531a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5531b",
         "name": "Flame Bound (焰缚/焔縛)",
         "type": "Normal",
@@ -40972,7 +40972,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5541",
         "name": "Weave Bonds (紡縁)",
         "type": "Normal",
@@ -41165,7 +41165,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5551",
         "name": "Luminescent Shot (流光之箭/流光の矢)",
         "type": "Normal",
@@ -41351,7 +41351,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5561",
         "name": "Divine Light (神光)",
         "type": "Normal",
@@ -41537,7 +41537,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5571",
         "name": "Annihilation! (湮滅)",
         "type": "Normal",
@@ -41723,7 +41723,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5581",
         "name": "Least-expected Strike (攻無備)",
         "type": "Normal",
@@ -41909,7 +41909,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5591",
         "name": "Steal Heart (摂心)",
         "type": "Normal",
@@ -42196,7 +42196,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5611",
         "name": "Torrential Blade (湍刃/怒涛の刃)",
         "type": "Normal",
@@ -42382,7 +42382,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5621",
         "name": "Tidal Thought (汐念/潮汐の思い)",
         "type": "Normal",
@@ -42568,7 +42568,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5631",
         "name": "Start the Beat (音弦動)",
         "type": "Normal",
@@ -42802,7 +42802,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5641",
         "name": "Flying Notes (音符紛飛/踊る音符)",
         "type": "Normal",
@@ -42988,7 +42988,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5651",
         "name": "Daruma Strike (ダルマ出撃)",
         "type": "Normal",
@@ -43234,7 +43234,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5661",
         "name": "Courtesy (礼教/礼儀作法)",
         "type": "Normal",
@@ -43420,7 +43420,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5671",
         "name": "(寒氷乍破)",
         "type": "Normal",
@@ -43606,7 +43606,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5681",
         "name": "Mountain's Soul: Shattering Blade (麓魂・破刃)",
         "type": "Normal",
@@ -43792,7 +43792,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5691",
         "name": "Temperature Test (深温)",
         "type": "Normal",
@@ -43978,7 +43978,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5701",
         "name": "Whisper (低語/囁き)",
         "type": "Normal",
@@ -44164,7 +44164,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5721",
         "name": "Smoke Blossom (煙華)",
         "type": "Normal",
@@ -44350,7 +44350,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5731",
         "name": "Dragon's Scolding (龍叱)",
         "type": "Normal",
@@ -44536,7 +44536,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5741a",
         "name": "Divine Heart Strike (天心斬)",
         "type": "Normal",
@@ -44565,7 +44565,7 @@
         "icon": "assets/skills/5741a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5741b",
         "name": "Spirit Sparrow: Divine Heart Strike (雀霊・天心斬)",
         "type": "Normal",
@@ -44763,7 +44763,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5751a",
         "name": "Sword Technique (封阳刀法)",
         "type": "Normal",
@@ -44792,7 +44792,7 @@
         "icon": "assets/skills/5751a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5751b",
         "name": "Sword Technique: Cold Snow (封阳刀法・寒雪)",
         "type": "Normal",
@@ -44804,7 +44804,7 @@
         "icon": "assets/skills/5751b.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5751c",
         "name": "Sword Technique: Clear Sky (封阳刀法・晴空)",
         "type": "Normal",
@@ -45154,7 +45154,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5771",
         "name": "Surprise Ram (金羊奇袭)",
         "type": "Normal",
@@ -45340,7 +45340,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5781",
         "name": "Intoxicating Sip (小醉怡情)",
         "type": "Normal",
@@ -45526,7 +45526,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5791",
         "name": "Music’s Creation (浴音而生)",
         "type": "Normal",
@@ -45712,7 +45712,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5801",
         "name": "Crackaboom (轰隆隆)",
         "type": "Normal",
@@ -45898,7 +45898,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5811",
         "name": "Blue Tanzaku (青短)",
         "type": "Normal",
@@ -46096,7 +46096,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5821",
         "name": "Orchestra (管弦奏)",
         "type": "Normal",
@@ -46282,7 +46282,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5831",
         "name": "Temporal Sundial (时汐之晷)",
         "type": "Normal",
@@ -46439,7 +46439,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5841",
         "name": "Severed Time (岁痕之断)",
         "type": "Normal",
@@ -46625,7 +46625,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5851",
         "name": "Bone Assault (骸袭)",
         "type": "Normal",
@@ -46811,7 +46811,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5861",
         "name": "Towering (巍峨)",
         "type": "Normal",
@@ -47009,7 +47009,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5711",
         "name": "Flowing Sails (帆流)",
         "type": "Normal",
@@ -47195,7 +47195,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5871a",
         "name": "Gale (疾风)",
         "type": "Normal",
@@ -47224,7 +47224,7 @@
         "icon": "assets/skills/5871a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5871b",
         "name": "The Windy (风/風)",
         "type": "Normal",
@@ -47468,7 +47468,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5881a",
         "name": "Element: Fire (火神招来)",
         "type": "Normal",
@@ -47497,7 +47497,7 @@
         "icon": "assets/skills/5881a.png"
       },
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5881b",
         "name": "Element: Wind (風華招来)",
         "type": "Normal",
@@ -47741,7 +47741,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5901",
         "name": "Fluffy Fluff (毛呼毛呼)",
         "type": "Normal",
@@ -47939,7 +47939,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5911",
         "name": "Snow Cut (雪立•裁)",
         "type": "Normal",
@@ -48125,7 +48125,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5921",
         "name": "Soaring Strike (凌空一击)",
         "type": "Normal",
@@ -48521,7 +48521,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5961",
         "name": "Dreamcatcher (捕梦)",
         "type": "Normal",
@@ -48707,7 +48707,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5971",
         "name": "Fox Whispers (狐言)",
         "type": "Normal",
@@ -48922,7 +48922,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5981",
         "name": "Return of Spring Dance (回春舞)",
         "type": "Normal",
@@ -49108,7 +49108,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "5991",
         "name": "Bat Strike (蝠击)",
         "type": "Normal",
@@ -49306,7 +49306,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6001",
         "name": "End of Illusions (是身如幻)",
         "type": "Normal",
@@ -49488,7 +49488,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6011",
         "name": "Blazepath (焰途)",
         "type": "Normal",
@@ -49686,7 +49686,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6021",
         "name": "Chiming Blade (铃刀)",
         "type": "Normal",
@@ -49901,7 +49901,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6031",
         "name": "Thunder Fist (震拳)",
         "type": "Normal",
@@ -50087,7 +50087,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6041",
         "name": "Dice Strike (当骰一击)",
         "type": "Normal",
@@ -50272,7 +50272,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6051",
         "name": "Scattered Notes (扬音)",
         "type": "Normal",
@@ -50457,7 +50457,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6061",
         "name": "Harmony (和音)",
         "type": "Normal",
@@ -50667,7 +50667,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6071",
         "name": "(唤羽)",
         "type": "Normal",
@@ -50853,7 +50853,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6081",
         "name": "(叩岩)",
         "type": "Normal",
@@ -51039,7 +51039,7 @@
     },
     "skills": [
       {
-        "group": "Normal",
+        "group": "Special",
         "image": "6091",
         "name": "()",
         "type": "Normal",

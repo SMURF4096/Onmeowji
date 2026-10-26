@@ -903,6 +903,9 @@ function startClockBand() {
 }
 
 /* ============ calendar.html — daily game buffs, dated on fixed EST (UTC-5) ============ */
+/* boss avatar for each day-of-week (0=Sun → 6=Sat); M1..M6, M56 */
+const CAL_BOSSES = ["assets/souls/M56.png", "assets/souls/Ml6.png", "assets/souls/Ml5.png", "assets/souls/Ml2.png", "assets/souls/Ml3.png", "assets/souls/Ml4.png", "assets/souls/Ml1.png"];
+
 const BUFFS = ["Fighting Soul", "Dash", "Skillful", "Fragile", "Curse Spell", "Strong Fire", "Raging Wind"];
 /* effect copy as referenced from the wiki (Fighting Soul: "Buff51ATK" template junk removed) */
 const BUFF_DESC = {
@@ -951,7 +954,9 @@ function drawCalendar() {
     const today = calYear === nowY && calMonth === nowM && d === nowD;
     const weekend = (first + d - 1) % 7 === 0 || (first + d - 1) % 7 === 6;
     const buff = buffForDay(calYear, calMonth, d);
+    const bossIco = CAL_BOSSES[(first + d - 1) % 7] ?? "";
     tr.push(`<td class="cal-cell${today ? " today" : ""}${weekend ? " weekend" : ""}">
+      ${bossIco ? `<img class="cal-boss" src="${esc(bossIco)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ""}
       <div class="cal-day">${d}${today ? '<span class="cal-flag">today</span>' : ""}</div>
       <div class="cal-buff-row"><img class="cal-ico" src="${buffIco(buff)}" alt="" loading="lazy" onerror="this.style.display='none'"><span class="cal-buff" title="${esc(buff)}: ${esc(BUFF_DESC[buff] ?? "")}">${buff}</span></div>
       <time datetime="${calYear}-${String(calMonth).padStart(2, "0")}-${String(d).padStart(2, "0")}" hidden>true</time></td>`);

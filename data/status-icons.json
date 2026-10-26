@@ -1728,5 +1728,35 @@
     "file": "Buff152.png",
     "url": "assets/status/Buff152.png",
     "jp": "傘の盾"
+  },
+  "isolation": {
+    "file": "Debuff18.png",
+    "jp": "ISOLATION",
+    "url": "assets/status/Debuff18.png"
+  },
+  "silence": {
+    "file": "Debuff29.png",
+    "jp": "SILENCE",
+    "url": "assets/status/Debuff29.png"
+  },
+  "ghost rider": {
+    "file": "Buff53.png",
+    "jp": "GHOST RIDER",
+    "url": "assets/status/Buff53.png"
+  },
+  "draining": {
+    "file": "Debuff35.png",
+    "jp": "DRAINING",
+    "url": "assets/status/Debuff35.png"
+  },
+  "buff114": {
+    "file": "Buff114.png",
+    "jp": "妖華 (2段)",
+    "url": "assets/status/Buff114.png"
+  },
+  "buff113": {
+    "file": "Buff113.png",
+    "jp": "妖華",
+    "url": "assets/status/Buff113.png"
   }
 }
