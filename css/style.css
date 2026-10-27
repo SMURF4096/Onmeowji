@@ -620,6 +620,18 @@ input, textarea { caret-color: var(--gold-soft); }
   background: var(--surface-2);
   transition: filter var(--dur-2) var(--ease-in-out), transform var(--dur-2) var(--ease-out);
 }
+.char-skill-icon {
+  position: absolute;
+  top: var(--s6);
+  right: var(--s6);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 2px solid var(--surface-1);
+  box-shadow: var(--shadow-soft);
+  z-index: 2;
+}
 .card:hover img { filter: brightness(1.08); transform: scale(1.03); }
 /* error state: image missing or unwriteable — show an ornament, never a broken glyph */
 .card.img-err img { display: none; }

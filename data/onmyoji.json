@@ -11,7 +11,7 @@
     "cv": "Noriaki Sugiyama",
     "intro": "A brilliant onmyoji who is highly renowned in Kyoto. For reasons unknown, he has lost his memory. Will his memories reveal long-lost joys? Or a horrific truth that he cannot bear to remember?",
     "image": "assets/onmyoji/O1skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/7/76/O1skin1.png/revision/latest?cb=20251214194943",
+    "imageUrl": "assets/onmyoji/O1skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -49,7 +49,7 @@
     "skills": [
       {
         "image": "o1skill1",
-        "icon": "assets/skills/o1skill1.png",
+        "icon": "assets/skills/O1skill1.png",
         "name": "Basic Skill（基础术式/通常攻撃）",
         "type": "Normal",
         "cooldown": 0,
@@ -75,7 +75,7 @@
       },
       {
         "image": "o1skill2",
-        "icon": "assets/skills/o1skill2.png",
+        "icon": "assets/skills/O1skill2.png",
         "name": "Spell: Bind （言灵·缚/言霊・縛)",
         "type": "Special",
         "cooldown": 2,
@@ -101,7 +101,7 @@
       },
       {
         "image": "o1skill3",
-        "icon": "assets/skills/o1skill3.png",
+        "icon": "assets/skills/O1skill3.png",
         "name": "Spell: Protect （言灵·守/言霊・守）",
         "type": "Special",
         "cooldown": 3,
@@ -127,7 +127,7 @@
       },
       {
         "image": "o1skill4",
-        "icon": "assets/skills/o1skill4.png",
+        "icon": "assets/skills/O1skill4.png",
         "name": "Spell: Purge （言灵·一式/言霊・一式）",
         "type": "Special",
         "cooldown": 0,
@@ -136,7 +136,7 @@
       },
       {
         "image": "o1skill5",
-        "icon": "assets/skills/o1skill5.png",
+        "icon": "assets/skills/O1skill5.png",
         "name": "Amulet: Death （符咒·灭/霊符・滅）",
         "type": "Special",
         "cooldown": 0,
@@ -162,7 +162,7 @@
       },
       {
         "image": "o1skill6",
-        "icon": "assets/skills/o1skill6.png",
+        "icon": "assets/skills/O1skill6.png",
         "name": "Amulet: Life （符咒·生/霊符・生）",
         "type": "Special",
         "cooldown": 0,
@@ -188,7 +188,7 @@
       },
       {
         "image": "o1skill7",
-        "icon": "assets/skills/o1skill7.png",
+        "icon": "assets/skills/O1skill7.png",
         "name": "Divine Lightning（雷帝召来/雷光招来)",
         "type": "Passive",
         "cooldown": 0,
@@ -214,7 +214,7 @@
       },
       {
         "image": "o1skill8",
-        "icon": "assets/skills/o1skill8.png",
+        "icon": "assets/skills/O1skill8.png",
         "name": "Spell: Star （言灵·星/言霊・星)",
         "type": "Special",
         "cooldown": 0,
@@ -252,7 +252,7 @@
     "cv": "Rie Kugimiya",
     "intro": "A kindhearted and quiet yet mysterious girl. She has been with Seimei since she lost her memory. She has a keen intuition, strong spiritual powers, and a completely unknown past.",
     "image": "assets/onmyoji/O2skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/d/d9/O2skin1.png/revision/latest?cb=20170527233729",
+    "imageUrl": "assets/onmyoji/O2skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -290,7 +290,7 @@
     "skills": [
       {
         "image": "o2skill1",
-        "icon": "assets/skills/o2skill1.png",
+        "icon": "assets/skills/O2skill1.png",
         "name": "Umbrella Strike (伞击/傘たたき)",
         "type": "Normal",
         "cooldown": 0,
@@ -316,7 +316,7 @@
       },
       {
         "image": "o2skill2",
-        "icon": "assets/skills/o2skill2.png",
+        "icon": "assets/skills/O2skill2.png",
         "name": "Summon: Fish (召唤·鱼/召喚·風船金魚)",
         "type": "Special",
         "cooldown": 3,
@@ -342,7 +342,7 @@
       },
       {
         "image": "o2skill7",
-        "icon": "assets/skills/o2skill7.png",
+        "icon": "assets/skills/O2skill7.png",
         "name": "Channel: Storm (通灵·疾风/霊媒·疾風）",
         "type": "Special",
         "cooldown": 1,
@@ -368,7 +368,7 @@
       },
       {
         "image": "o2skill4",
-        "icon": "assets/skills/o2skill4.png",
+        "icon": "assets/skills/O2skill4.png",
         "name": "Channel: Butterflies (通灵·冥蝶/霊媒·冥蝶)",
         "type": "Special",
         "cooldown": 1,
@@ -394,7 +394,7 @@
       },
       {
         "image": "o2skill5",
-        "icon": "assets/skills/o2skill5.png",
+        "icon": "assets/skills/O2skill5.png",
         "name": "Summon: Purgatory (召唤·炼狱/召喚·煉獄)",
         "type": "Special",
         "cooldown": 1,
@@ -420,7 +420,7 @@
       },
       {
         "image": "o2skill3",
-        "icon": "assets/skills/o2skill3.png",
+        "icon": "assets/skills/O2skill3.png",
         "name": "Summon: Umbrella (召唤·伞/召喚·唐傘)",
         "type": "Passive",
         "cooldown": 3,
@@ -446,7 +446,7 @@
       },
       {
         "image": "o2skill6",
-        "icon": "assets/skills/o2skill6.png",
+        "icon": "assets/skills/O2skill6.png",
         "name": "Summon: Afterlife (召唤·续命/召喚·延命)",
         "type": "Special",
         "cooldown": 2,
@@ -455,7 +455,7 @@
       },
       {
         "image": "o2skill8",
-        "icon": "assets/skills/o2skill8.png",
+        "icon": "assets/skills/O2skill8.png",
         "name": "Divine Fire (天狐神火/天狐神火)",
         "type": "Passive",
         "cooldown": 0,
@@ -493,7 +493,7 @@
     "cv": "Tatsuhisa Suzuki",
     "intro": "An aristocratic young man of imperial blood. He excels at archery and the use of energy barriers. Although proud, aloof and very direct, he seems to be searching for someone important to him.",
     "image": "assets/onmyoji/O3skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/e/e2/O3skin1.png/revision/latest?cb=20170528003646",
+    "imageUrl": "assets/onmyoji/O3skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -531,7 +531,7 @@
     "skills": [
       {
         "image": "o3skill1",
-        "icon": "assets/skills/o3skill1.png",
+        "icon": "assets/skills/O3skill1.png",
         "name": "Celestial Arrow (破魔矢/破魔の矢)",
         "type": "Normal",
         "cooldown": 0,
@@ -557,7 +557,7 @@
       },
       {
         "image": "o3skill2",
-        "icon": "assets/skills/o3skill2.png",
+        "icon": "assets/skills/O3skill2.png",
         "name": "Double Release (多重箭/多重の矢)",
         "type": "Special",
         "cooldown": 1,
@@ -583,7 +583,7 @@
       },
       {
         "image": "o3skill3",
-        "icon": "assets/skills/o3skill3.png",
+        "icon": "assets/skills/O3skill3.png",
         "name": "Rapid Release (诛邪箭/3本の矢)",
         "type": "Special",
         "cooldown": 2,
@@ -609,7 +609,7 @@
       },
       {
         "image": "o3skill4",
-        "icon": "assets/skills/o3skill4.png",
+        "icon": "assets/skills/O3skill4.png",
         "name": "Occult: Panther Eyes (秘术·豹眼/秘術・豹の目)",
         "type": "Special",
         "cooldown": 2,
@@ -635,7 +635,7 @@
       },
       {
         "image": "o3skill5",
-        "icon": "assets/skills/o3skill5.png",
+        "icon": "assets/skills/O3skill5.png",
         "name": "Occult: Shadow Double (秘术·影分身/秘術·影分身)",
         "type": "Special",
         "cooldown": 0,
@@ -661,7 +661,7 @@
       },
       {
         "image": "o3skill6",
-        "icon": "assets/skills/o3skill6.png",
+        "icon": "assets/skills/O3skill6.png",
         "name": "Occult: Panther Maul (秘术·豹袭/秘術·豹襲)",
         "type": "Passive",
         "cooldown": 0,
@@ -687,7 +687,7 @@
       },
       {
         "image": "o3skill7",
-        "icon": "assets/skills/o3skill7.png",
+        "icon": "assets/skills/O3skill7.png",
         "name": "Roar of Grief (悲声哀嚎/悲声哀吼)",
         "type": "Passive",
         "cooldown": 0,
@@ -713,7 +713,7 @@
       },
       {
         "image": "o3skill8",
-        "icon": "assets/skills/o3skill8.png",
+        "icon": "assets/skills/O3skill8.png",
         "name": "Occult: Pursuit (秘术·穷追/秘術·窮追)",
         "type": "Passive",
         "cooldown": 0,
@@ -734,7 +734,7 @@
     "cv": "Miyuki Sawashiro",
     "intro": "Eating the flesh of a mermaid made her immortal and forever young. Her abilities far exceed those of an ordinary wandering seer.",
     "image": "assets/onmyoji/O4skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/0/04/O4skin1.png/revision/latest?cb=20170528030019",
+    "imageUrl": "assets/onmyoji/O4skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -772,7 +772,7 @@
     "skills": [
       {
         "image": "o4skill1",
-        "icon": "assets/skills/o4skill1.png",
+        "icon": "assets/skills/O4skill1.png",
         "name": "Starlight (星之光/星の光)",
         "type": "Normal",
         "cooldown": 0,
@@ -798,7 +798,7 @@
       },
       {
         "image": "o4skill3",
-        "icon": "assets/skills/o4skill3.png",
+        "icon": "assets/skills/O4skill3.png",
         "name": "Starlight Curse (星之咒/星の呪い)",
         "type": "Special",
         "cooldown": 1,
@@ -824,7 +824,7 @@
       },
       {
         "image": "o4skill2",
-        "icon": "assets/skills/o4skill2.png",
+        "icon": "assets/skills/O4skill2.png",
         "name": "Clairvoyance (预知/予知)",
         "type": "Special",
         "cooldown": 2,
@@ -850,7 +850,7 @@
       },
       {
         "image": "o4skill4",
-        "icon": "assets/skills/o4skill4.png",
+        "icon": "assets/skills/O4skill4.png",
         "name": "Starlight Shower (星陨/流れ星)",
         "type": "Special",
         "cooldown": 2,
@@ -876,7 +876,7 @@
       },
       {
         "image": "o4skill6",
-        "icon": "assets/skills/o4skill6.png",
+        "icon": "assets/skills/O4skill6.png",
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "Special",
         "cooldown": 1,
@@ -902,7 +902,7 @@
       },
       {
         "image": "o4skill6a",
-        "icon": "assets/skills/o4skill6a.png",
+        "icon": "assets/skills/O4skill6a.png",
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
@@ -911,7 +911,7 @@
       },
       {
         "image": "o4skill6b",
-        "icon": "assets/skills/o4skill6b.png",
+        "icon": "assets/skills/O4skill6b.png",
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
@@ -920,7 +920,7 @@
       },
       {
         "image": "o4skill6c",
-        "icon": "assets/skills/o4skill6c.png",
+        "icon": "assets/skills/O4skill6c.png",
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
@@ -929,7 +929,7 @@
       },
       {
         "image": "o4skill5",
-        "icon": "assets/skills/o4skill5.png",
+        "icon": "assets/skills/O4skill5.png",
         "name": "Purification (净化/浄化)",
         "type": "Passive",
         "cooldown": 0,
@@ -949,7 +949,7 @@
     "cv": "Toshiyuki Morikawa",
     "intro": "",
     "image": "assets/onmyoji/O5skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/8/84/O5skin1.png/revision/latest?cb=20240828082705",
+    "imageUrl": "assets/onmyoji/O5skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -987,7 +987,7 @@
     "skills": [
       {
         "image": "o5skill1",
-        "icon": "assets/skills/o5skill1.png",
+        "icon": "assets/skills/O5skill1.png",
         "name": "Heavenly Blade (天剣)",
         "type": "Normal",
         "cooldown": 0,
@@ -1013,7 +1013,7 @@
       },
       {
         "image": "o5skill2",
-        "icon": "assets/skills/o5skill2.png",
+        "icon": "assets/skills/O5skill2.png",
         "name": "Heavenly Purge (天誅・八華斬)",
         "type": "Special",
         "cooldown": 0,
@@ -1039,7 +1039,7 @@
       },
       {
         "image": "o5skill3",
-        "icon": "assets/skills/o5skill3.png",
+        "icon": "assets/skills/O5skill3.png",
         "name": "Armor the World (天下布武)",
         "type": "Special",
         "cooldown": 0,
@@ -1065,7 +1065,7 @@
       },
       {
         "image": "o5skill4",
-        "icon": "assets/skills/o5skill4.png",
+        "icon": "assets/skills/O5skill4.png",
         "name": "Weaponized Demon (鬼神の策)",
         "type": "Special",
         "cooldown": 1,
@@ -1091,7 +1091,7 @@
       },
       {
         "image": "o5skill5",
-        "icon": "assets/skills/o5skill5.png",
+        "icon": "assets/skills/O5skill5.png",
         "name": "Blood Pact (血之契)",
         "type": "Special",
         "cooldown": 3,
@@ -1117,7 +1117,7 @@
       },
       {
         "image": "o5skill6",
-        "icon": "assets/skills/o5skill6.png",
+        "icon": "assets/skills/O5skill6.png",
         "name": "Ghost Garb (鬼冑)",
         "type": "Passive",
         "cooldown": 0,
@@ -1126,7 +1126,7 @@
       },
       {
         "image": "o5skill7",
-        "icon": "assets/skills/o5skill7.png",
+        "icon": "assets/skills/O5skill7.png",
         "name": "Blade Bastion (剣之累)",
         "type": "Passive",
         "cooldown": 0,
@@ -1152,7 +1152,7 @@
       },
       {
         "image": "o5skill8",
-        "icon": "assets/skills/o5skill8.png",
+        "icon": "assets/skills/O5skill8.png",
         "name": "Fearless (無畏)",
         "type": "Passive",
         "cooldown": 0,
@@ -1179,20 +1179,6 @@
     ]
   },
   {
-    "no": "O6",
-    "role": "champion",
-    "page": "Fujiwara no Michitsuna",
-    "en": "Fujiwara no Michitsuna",
-    "cn": "藤原道綱",
-    "jp": "藤原道綱",
-    "cv": "Kappei Yamaguchi",
-    "intro": "",
-    "image": "assets/onmyoji/O6skin1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/c/c4/O6skin1.png/revision/latest?cb=20200829125757",
-    "stats2": null,
-    "skills": []
-  },
-  {
     "no": "O7",
     "role": "champion",
     "page": "Fujiwara no Michinaga",
@@ -1202,8 +1188,8 @@
     "unlock": "Chapter 26",
     "cv": "Shinichiro Miki",
     "intro": "",
-    "image": "assets/onmyoji/O7a.jpg",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/c/c9/O7a.jpg/revision/latest?cb=20260320004928",
+    "image": "assets/onmyoji/O7skin1.png",
+    "imageUrl": "assets/onmyoji/O7skin1.png",
     "stats2": {
       "atk": {
         "lv1": "3256",
@@ -1241,7 +1227,7 @@
     "skills": [
       {
         "image": "o7skill1",
-        "icon": "assets/skills/o7skill1.png",
+        "icon": "assets/skills/O7skill1.png",
         "name": "Admonition Notes (训诫之音)",
         "type": "Normal",
         "cooldown": 0,
@@ -1267,7 +1253,7 @@
       },
       {
         "image": "o7skill2",
-        "icon": "assets/skills/o7skill2.png",
+        "icon": "assets/skills/O7skill2.png",
         "name": "Frontbreach Prelude (破阵奏曲)",
         "type": "Special",
         "cooldown": 0,
@@ -1293,7 +1279,7 @@
       },
       {
         "image": "o7skill3",
-        "icon": "assets/skills/o7skill3.png",
+        "icon": "assets/skills/O7skill3.png",
         "name": "Sonic Featherstring (神鸟惊弦)",
         "type": "Special",
         "cooldown": 0,
@@ -1319,7 +1305,7 @@
       },
       {
         "image": "o7skill4",
-        "icon": "assets/skills/o7skill4.png",
+        "icon": "assets/skills/O7skill4.png",
         "name": "Elegant Chant (咏叹巧韵)",
         "type": "Special",
         "cooldown": 0,
@@ -1345,7 +1331,7 @@
       },
       {
         "image": "o7skill5",
-        "icon": "assets/skills/o7skill5.png",
+        "icon": "assets/skills/O7skill5.png",
         "name": "Moontune Resonance (琴月齐鸣)",
         "type": "Special",
         "cooldown": 0,
@@ -1371,7 +1357,7 @@
       },
       {
         "image": "o7skill6",
-        "icon": "assets/skills/o7skill6.png",
+        "icon": "assets/skills/O7skill6.png",
         "name": "Rhythm Mastery (诸律精通)",
         "type": "Passive",
         "cooldown": 0,
@@ -1397,7 +1383,7 @@
       },
       {
         "image": "o7skill7",
-        "icon": "assets/skills/o7skill7.png",
+        "icon": "assets/skills/O7skill7.png",
         "name": "Harmonious Tuning(调律润心)",
         "type": "Passive",
         "cooldown": 0,
@@ -1406,7 +1392,7 @@
       },
       {
         "image": "o7skill8",
-        "icon": "assets/skills/o7skill8.png",
+        "icon": "assets/skills/O7skill8.png",
         "name": "Dream Echoes (余音入梦)",
         "type": "Passive",
         "cooldown": 0,

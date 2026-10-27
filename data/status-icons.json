@@ -1758,5 +1758,10 @@
     "file": "Buff113.png",
     "jp": "妖華",
     "url": "assets/status/Buff113.png"
+  },
+  "dragon jewel": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.png",
+    "jp": "龙首之玉"
   }
 }

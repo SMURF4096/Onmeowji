@@ -354,11 +354,14 @@ let charQuery = "";
 
 function charCard(c) {
   const sub = c.unlock ? `${esc(c.unlock)}` : "";
+  // Show first skill icon if available
+  const skillIcon = (c.skills && c.skills[0]?.icon) ? `<img class="char-skill-icon" src="${c.skills[0].icon}" alt="" loading="lazy" onerror="this.style.display='none'">` : "";
   return `
     <div class="card" data-id="${esc(c.no)}" data-tab="${c.role}" tabindex="0" role="button"
          aria-label="${esc(c.en)} (${c.role})">
       <span class="sheen" aria-hidden="true"></span>
       ${c.image || c.imageUrl ? `<img src="${c.image ?? c.imageUrl}" loading="lazy" decoding="async" alt="${esc(c.en)}">` : `<div class="skeleton"></div>`}
+      ${skillIcon}
       <div class="name"><strong>${esc(c.en)}</strong>${c.cn ? `<div class="cn">${esc(c.cn)}</div>` : ""}</div>
       <div class="meta"><span class="badge ${c.role === "onmyoji" ? "SSR" : "SP"}">${c.role === "onmyoji" ? "Onmyoji" : "Champion"}</span>${sub ? `<span class="no">${sub}</span>` : ""}</div>
     </div>`;
@@ -513,9 +516,13 @@ function parseSkillDesc(k) {
   /* wiki-incomplete entries ("? ;Performance (奏乐)…") — a bare ? as the whole
      main description only hurts the display; the glossary def carries the info */
   raw = raw.replace(/^\?\s*(?=\n|;|$)/, "");
-  /* split only at glossary starts: ";" followed by an uppercase/jp name, not mid-sentence */
-  const parts = raw.split(/;(?=[A-Z(（])/);
-  const main = parts[0].replace(/<br\s*\/?>\s*/gi, " ").replace(/\s+/g, " ").trim();
+  /* split only at glossary starts: ";" followed by an uppercase/jp name, not mid-sentence.
+     allow optional whitespace after the ";" — wiki sometimes emits "; Glorious Blade (妖華)" */
+  const parts = raw.split(/;\s*(?=[A-Z(（])/);
+  /* the orphaned "; :" separator wiki leaves before some glossaries is junk in the main text */
+  const main = parts[0].replace(/<br\s*\/?>\s*/gi, " ")
+    .replace(/;\s*:\s*/g, " ")
+    .replace(/\s+/g, " ").trim();
   const effects = [];
   for (const seg of parts.slice(1)) {
     const m = seg.match(/^([^:]{1,60}?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
@@ -524,7 +531,7 @@ function parseSkillDesc(k) {
         name: m[1].trim(),
         jp: (m[2] ?? "").trim(),
         types: m[3].trim(),
-        text: m[4].replace(/<br\s*\/?>/gi, " ").replace(/\s+/g, " ").trim(),
+        text: m[4].replace(/^:+\s*/, "").replace(/<br\s*\/?>/gi, " ").replace(/\s+/g, " ").trim(),
       });
       continue;
     }
@@ -542,8 +549,26 @@ function parseSkillDesc(k) {
 }
 
 /* wrap status names inside the escaped description with colored highlights */
+/* fuzzy status-key resolution: exact key → key without the (jp) tail → longest key that
+   overlaps the name at a word boundary (e.g. "reign (君臨)" → "reign") */
+function findStatusKey(name) {
+  const ic = state.statusIcons;
+  if (!ic) return null;
+  const raw = String(name ?? "").toLowerCase().trim();
+  if (!raw) return null;
+  if (ic[raw]) return raw;
+  const noJp = raw.replace(/\s*[（(][^）)]*[）)]\s*/g, "").trim().replace(/[.。]$/, "");
+  if (noJp && ic[noJp]) return noJp;
+  const keys = Object.keys(ic).sort((a, b) => b.length - a.length);
+  for (const key of keys) {
+    if (noJp.startsWith(key) || key.startsWith(noJp)) return key;
+  }
+  return null;
+}
+
 function statusIcon(name) {
-  const ic = state.statusIcons?.[String(name ?? "").toLowerCase()];
+  const key = findStatusKey(name);
+  const ic = key ? state.statusIcons[key] : null;
   return ic?.url ? `<img class="fx-ico" src="${esc(ic.url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
 }
 
@@ -557,8 +582,9 @@ function highlightStatuses(escapedMain, effects) {
     const c = fxClass(f.types);
     const cls = c === "fx-buff" ? "ef-buff" : c === "fx-debuff" ? "ef-debuff" : "ef-gen";
     const name = f.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const ico = state.statusIcons?.[key]
-      ? `<img class="fx-ico" src="${esc(state.statusIcons[key].url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+    const skey = findStatusKey(f.name);
+    const ico = state.statusIcons?.[skey]
+      ? `<img class="fx-ico" src="${esc(state.statusIcons[skey].url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
     html = html.replace(new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])"), (all, pre, word) => `${pre}<b class="ef ${cls}">${ico}${word}</b>`);
   }
   return html;
@@ -778,6 +804,13 @@ function openDetail(s) {
 
   const skills = (s.skills ?? []).map((k, i) => skillCard(k, i)).join("");
 
+  /* Evolution section derived from the wiki data itself:
+     - bio unlock conditions that mention evolving/awakening the shikigami
+     - the first passive skill carrying an "Exclusive effect" description */
+  const evolveConds = (s.bio ?? []).filter((b) => /evolve/i.test(b.condition ?? "")).map((b) => b.condition);
+  const exSkill = (s.skills ?? []).find((k) => /exclusive effect/i.test(k.description ?? ""));
+  const evolution = (evolveConds.length || exSkill)
+    ? { conditions: evolveConds, ex: exSkill } : null;
   const bio = (s.bio ?? []).length ? `
     <section><h4>Biography</h4>
       <ul class="bio-list">${s.bio.map((b) => `<li>${esc(b.condition)}${b.reward ? ` <span class="bio-award">— reward: ${esc(b.reward)}</span>` : ""}</li>`).join("")}</ul></section>` : "";
@@ -798,7 +831,10 @@ function openDetail(s) {
           </div>
         </div>
       </div>
-      ${s.intro ? `<section><h4>Introduction</h4><p>${esc(s.intro)}</p></section>` : ""}
+      ${evolution ? `<section><h4>Evolution</h4>
+        ${evolution.conditions.length ? `<ul>${evolution.conditions.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>` : ""}
+        ${evolution.ex ? `<div class="fx-def fx-buff"><span class="fx-name">${esc(evolution.ex.name)} <em>Exclusive effect</em></span><span class="fx-body">${fmtText(evolution.ex.description.replace(/^\s*Exclusive effect\.?\s*(<br\s*\/?>)?/i, "").split(/;\s*(?=[A-Z（(])/)[0].replace(/'{2,4}/g, ""))}</span></div>` : ""}
+      </section>` : ""}
       ${skills ? `<section><h4>Skills</h4>${skills}</section>` : ""}
       ${stats}
       ${bio}
@@ -826,6 +862,7 @@ function openSoulDetail(s) {
           </div>
         </div>
       </div>
+      ${s.combo1 ? `<section><h4>1-Set Bonus</h4><p>${esc(s.combo1)}</p></section>` : ""}
       ${s.combo2 ? `<section><h4>2-Set Bonus</h4><p>${esc(s.combo2)}</p></section>` : ""}
       ${s.combo4 ? `<section><h4>4-Set Bonus</h4><p>${esc(s.combo4)}</p></section>` : ""}
       ${s.location ? `<section><h4>Where to Find</h4><p>${esc(s.location)}</p></section>` : ""}

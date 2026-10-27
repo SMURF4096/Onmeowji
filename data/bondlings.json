@@ -8,7 +8,7 @@
     "area": "| Heian-kyo",
     "type": "| ATK",
     "image": "assets/bondlings/OB01s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/6/61/OB01s1.png/revision/latest?cb=20230702112431",
+    "imageUrl": "assets/bondlings/OB01s1.png",
     "skins": [
       "assets/bondlings/OB01skin1.png",
       "assets/bondlings/OB01skin2.png"
@@ -24,7 +24,7 @@
     "area": "| Heian-kyo",
     "type": "| ATK",
     "image": "assets/bondlings/OB02s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/5/53/OB02s1.png/revision/latest?cb=20230702112446",
+    "imageUrl": "assets/bondlings/OB02s1.png",
     "skins": [
       "assets/bondlings/OB02skin1.png",
       "assets/bondlings/OB02skin2.png"
@@ -40,7 +40,7 @@
     "area": "| Heian-kyo",
     "type": "| HP",
     "image": "assets/bondlings/OB03s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/2/28/OB03s1.png/revision/latest?cb=20230702112457",
+    "imageUrl": "assets/bondlings/OB03s1.png",
     "skins": [
       "assets/bondlings/OB03skin1.png",
       "assets/bondlings/OB03skin2.png"
@@ -56,7 +56,7 @@
     "area": "| Heian-kyo",
     "type": "| DEF",
     "image": "assets/bondlings/OB04s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/a/a4/OB04s1.png/revision/latest?cb=20230702112506",
+    "imageUrl": "assets/bondlings/OB04s1.png",
     "skins": [
       "assets/bondlings/OB04skin1.png",
       "assets/bondlings/OB04skin2.png"
@@ -72,7 +72,7 @@
     "area": "|Ominous Land",
     "type": "|ATK",
     "image": "assets/bondlings/OB05s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/b/b6/OB05s1.png/revision/latest?cb=20251214174143",
+    "imageUrl": "assets/bondlings/OB05s1.png",
     "skins": [
       "assets/bondlings/OB05skin1.png",
       "assets/bondlings/OB05skin2.png"
@@ -88,7 +88,7 @@
     "area": "|Ominous Land",
     "type": "|DEF",
     "image": "assets/bondlings/OB06s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/7/7e/OB06s1.png/revision/latest?cb=20251214190237",
+    "imageUrl": "assets/bondlings/OB06s1.png",
     "skins": [
       "assets/bondlings/OB01skin6.png",
       "assets/bondlings/OB02skin6.png"
@@ -104,7 +104,7 @@
     "area": "|Ominous Land",
     "type": "|ATK",
     "image": "assets/bondlings/OB07s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/3/3f/OB07s1.png/revision/latest?cb=20260131033925",
+    "imageUrl": "assets/bondlings/OB07s1.png",
     "skins": [
       "assets/bondlings/OB07skin1.png",
       "assets/bondlings/OB07skin2.png"
@@ -120,7 +120,7 @@
     "area": "|HP",
     "type": "|}",
     "image": "assets/bondlings/OB08s1.png",
-    "imageUrl": "https://static.wikia.nocookie.net/onmyoji/images/3/3b/OB08s1.png/revision/latest?cb=20251220174238",
+    "imageUrl": "assets/bondlings/OB08s1.png",
     "skins": [
       "assets/bondlings/OB08skin1.png",
       "assets/bondlings/OB08skin2.png"
