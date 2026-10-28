@@ -1,0 +1,195 @@
+{
+  "no": 361,
+  "en": "Akaname",
+  "cn": "垢尝",
+  "jp": "垢嘗",
+  "gl": "垢嘗",
+  "rarity": "R",
+  "image": "File:361.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Akaname",
+  "cv": "",
+  "intro": "",
+  "method": "Mystery Merchant • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/361.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/361.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "2492"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": null,
+        "max": "450"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3611",
+      "name": "Tidy Up (汚れ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Off you go, you filth!",
+      "description": "Akaname kicks out the filth in front of him to attack a single target dealing damage equal to 100% of his ATK and decreases their HIT by 25%, lasts for 1 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/3611.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3612",
+      "name": "Take a Bath (垢擦り)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I wonder how long it has been since I last look a bath.",
+      "description": "Exclusive effect.\nAkaname picks up his cleaning tools and starts cleaning things up. If he is not immobile and has less than 4 Soot Balls, up to 3 debuffs or control effects are dispelled from a random ally on an enemy's turn. Then, he gains 1 Soot Ball.\nAt the end of Akaname's turn, all Soot Ball are removed.\n;Soot Balls (カビの玉)\n:\n:'''General, Mark''': Each ball decreases RES by 15%. Max 4 layers.",
+      "upgrades": [],
+      "icon": "assets/skills/3612.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3613",
+      "name": "All Gone (一網打尽)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "All the filth and dirt, be gone!",
+      "description": "Akaname cleans up all the filth and dumps it on an enemy before he casts all the Soot Balls on them, dealing damage equal to 211% of his ATK. Also increases the RES for all allies by 20%, sustained for 1 turn. ;Soot Balls (カビの玉) : :'''General, Mark''': Each ball decreases RES by 15%. Max 4 layers.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 223%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 235%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 247%."
+        },
+        {
+          "lvl": 5,
+          "text": "Each layer of Soot Balls decreases the target's move bar by 15%."
+        }
+      ],
+      "icon": "assets/skills/3613.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Akaname.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Akaname's level to 30.",
+      "reward": "Shikigami No.361 ×10"
+    },
+    {
+      "condition": "Team Akaname with another player's Kinnara and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/361skin1.webp",
+  "stats": {
+    "min": {
+      "no": 361,
+      "en": null,
+      "atk": 107,
+      "hp": 1014,
+      "def": 70,
+      "spd": 99,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 361,
+      "en": null,
+      "atk": 2492,
+      "hp": 11963,
+      "def": 450,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 60
+    }
+  }
+}

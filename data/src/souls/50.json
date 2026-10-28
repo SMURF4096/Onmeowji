@@ -1,0 +1,16 @@
+{
+  "no": 50,
+  "en": "Wisp",
+  "cn": "遗念火",
+  "jp": "遺念火",
+  "type": "HIT",
+  "image": "File:Soul50.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Wisp",
+  "imageUrl": "assets/souls/Soul50.webp",
+  "localImage": "assets/souls/Soul50.webp",
+  "combo2": "Increases HIT by 15%",
+  "combo4": "At the start of turn gain 1 stack of Thought (increases resist by 15%), max of 3 stacks. An equal amount of Thought stacks are consumed first before onibi when using skills that require onibi.",
+  "location": "Soul Zones (Monday, Wednesday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M44.webp"
+}

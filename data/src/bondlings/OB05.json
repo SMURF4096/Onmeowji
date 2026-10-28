@@ -1,0 +1,16 @@
+{
+  "no": "OB05",
+  "page": "Seductress (Bondling)",
+  "en": "Seductress",
+  "cn": null,
+  "jp": "|Ominous Land",
+  "area": "|Ominous Land",
+  "type": "|ATK",
+  "image": "assets/bondlings/OB05s1.webp",
+  "imageUrl": "assets/bondlings/OB05s1.webp",
+  "skins": [
+    "assets/bondlings/OB05skin1.webp",
+    "assets/bondlings/OB05skin2.webp"
+  ],
+  "skill": "For every 5 instances of CRIT DMG dealt by the ally with the highest ATK, the next attack deals an additional true damage equal to 50% of the onmyoji's ATK (not exceeding 100% of the initial ATK.) When the onmyoji deals damage, attacks all enemies 3 times, each dealing true damage equal to 200% of the Onmyoji's ATK."
+}

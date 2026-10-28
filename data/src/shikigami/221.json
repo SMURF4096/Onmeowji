@@ -1,0 +1,195 @@
+{
+  "no": 221,
+  "en": "Kamikui",
+  "cn": "食发鬼",
+  "jp": "髪喰い",
+  "gl": "髪喰い",
+  "rarity": "R",
+  "image": "File:221.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kamikui",
+  "cv": "Mamiya Yasuhiro",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Main Story|Challenge Zone: Chapter 5",
+  "imageUrl": "assets/shikigami/221.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/221.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "123",
+        "lv2": "137",
+        "max": "2894"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": "1003",
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": "74",
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": "118",
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2211",
+      "name": "Hair Whip (发鞭/髪鞭)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It is an honor to die by my hair!",
+      "description": "Kamikui twists his long hair into a powerful whip and lashes a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2211.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2212",
+      "name": "Sleep Smoke (迷烟/迷煙)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 1,
+      "line": "It looks like you need some beauty sleep!",
+      "description": "Kamikui uses his pipe to blow magical smoke that turns into strands of hair and entangles 1 enemy and has a 100% base chance of inflicting Sleep on them, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/2212.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2213",
+      "name": "True Face (真实之颜/真実の顔)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Must I reveal my true self to make you behave?",
+      "description": "Kamikui reveals his true self and terrifies all enemies, dealing damage equal to 87% of his ATK. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 91%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 96%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 104%."
+        }
+      ],
+      "icon": "assets/skills/2213.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kamikui gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kamikui.",
+      "reward": "Shikigami No.221 ×10"
+    },
+    {
+      "condition": "Collect 40 Kamikui shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/221skin1.webp",
+  "stats": {
+    "min": {
+      "no": 221,
+      "en": null,
+      "atk": 123,
+      "hp": 907,
+      "def": 66,
+      "spd": 108,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 221,
+      "en": null,
+      "atk": 2894,
+      "hp": 10709,
+      "def": 432,
+      "spd": 118,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

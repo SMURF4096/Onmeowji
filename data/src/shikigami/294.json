@@ -1,0 +1,195 @@
+{
+  "no": 294,
+  "en": "Nura Rikuo",
+  "cn": "奴良陆生",
+  "jp": "奴良リクオ",
+  "gl": "奴良リクオ",
+  "rarity": "SSR",
+  "image": "File:294.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nura_Rikuo",
+  "cv": "Jun Fukuyama",
+  "intro": "",
+  "method": "Limited Collab Event (Summon) • Demon Seal (Event)",
+  "imageUrl": "assets/shikigami/294.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/294.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2941",
+      "name": "Nenekirimaru (弥弥切丸/弥々切丸)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It's as if... my blood is boiling...",
+      "description": "Rikuo uses the Exorcism Blade: Nenekirimaru to strike a single target, dealing damage equal to 80% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Has a 25% chance of issuing Call to Arms to 1-2 random allies."
+        }
+      ],
+      "icon": "assets/skills/2941.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2942",
+      "name": "Kyouka Suigetsu (鏡花水月)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Nurarihyon is a flower reflected in a mirror, the moon floating on top of water.",
+      "description": "When Rikuo receives damage or resists an effect he has a 35% chance to gain 1 Fear stack and, if he is not Immobile, launch a counter-attack.\nOnly triggers once per attack. Fear has a max of 4 stacks, lasts for 4 turns.\n;Fear (畏)\n:\n:'''Buff, Status''': Max of 4 stacks. Damage dealt is increased by 75% per stack.",
+      "upgrades": [],
+      "icon": "assets/skills/2942.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2943",
+      "name": "Hyakki Yakou (百鬼夜行)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I am the master of all spirits!",
+      "description": "Rikuo gains 1 Fear stack, lasts for 4 turns, then uses the Exorcism Blade: Nenekirimaru to strike an enemy, dealing damage equal to 120% of his ATK. ;Fear (畏) : :'''Buff, Status''': Max of 4 stacks. Damage dealt is increased by 75% per stack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 126%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 132%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 138%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 150%."
+        }
+      ],
+      "icon": "assets/skills/2943.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Rikuo.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Rikuo's level to 30.",
+      "reward": "Shikigami No.294 ×10"
+    },
+    {
+      "condition": "With Rikuo win 40 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/294skin1.webp",
+  "stats": {
+    "min": {
+      "no": 294,
+      "en": null,
+      "atk": 130,
+      "hp": 960,
+      "def": 59,
+      "spd": 103,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 294,
+      "en": null,
+      "atk": 3028,
+      "hp": 11393,
+      "def": 384,
+      "spd": 113,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "no": 377,
+  "en": "Mujin Yama Usagi",
+  "cn": "梦寻山兔",
+  "jp": "夢尋山兎",
+  "gl": "Ninja Yamausagi",
+  "rarity": "SP",
+  "image": "File:377.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Mujin_Yama_Usagi",
+  "cv": "Aki Toyosaki",
+  "intro": "",
+  "method": "Limited Event • Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/377.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/377.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": null,
+        "max": "3031"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": null,
+        "max": "418"
+      },
+      "spd": {
+        "lv1": "116",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3771",
+      "name": "Ninja Kick! (忍兔飞踢！/忍兎飛踢!)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Be nice, bad guys!",
+      "description": "SP Yama Usagi gets serious and launches a 2-strike attack on a single target twice, dealing damage equal to 50% of her ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 59%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 65%."
+        }
+      ],
+      "icon": "assets/skills/3771.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3772a",
+      "name": "Ninja Formation! (梦心迷兔阵！/夢心迷兎降!)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Heroes never turn back to watch an explosion!!",
+      "description": "Exclusive effect. <br>SP Yama Usagi places 3 Ninja Mines by the enemy's feet. When a Ninja Mines is detonated, and if she is not inflicted with Banish and similar effects or by a control effect, she uses Ninja Dance!! and gains 1 chapter of Ninja Tricks. <br>Whenever non-summoned enemies take 6 turns, 1 control effect will be dispelled from SP Yama Usagi. If she is not inflicted with a control effect and is not immobile, this skill is automatically used once to place 2 Ninja Mines without any onibi. ;Ninja Mines (迷兔炸弹/迷兎爆弾) : :Max of 9 can be placed. Place on the move bar is locked on the 50% position. A mine is detonated when an enemy passes by them on the move bar, dealing damage equal to 120% of SP Yama Usagi's ATK. A mine is removed after it's detonated. ;Ninja Tricks (梦忍法/夢忍法) : :'''Buff, Mark''': Max of 9 chapters. Each time 1 chapter is used, the damage for Ninja Scurrying Steps! is increased by 20%. After using that skill, all chapters of Ninja Tricks are consumed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Ninja Mines''': Damage dealt also ignores 150 defense."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Ninja Dance!!''': ATK increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Ninja Mines''': When a mine detonates, also decreases the target's resist by 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Number of enemy turns needed to activate this skill without onibi decreases to 5."
+        }
+      ],
+      "icon": "assets/skills/3772a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3772b",
+      "name": "Ninja Dance!! (兎忍舞!!)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Yama Usagi increases the move bar for all allies by 10% and increases their ATK by 10%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3772b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3773",
+      "name": "Ninja Scurrying Steps! (狩梦之乱舞！/狩夢の乱舞!)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Behold possibly the most ultimate skill of Rabbit Ninja Tricks!",
+      "description": "SP Yama Usagi has a 10% base chance to inflict 1 enemy with Morph. Then she summons mines to attack all enemies, dealing damage equal to 160% of her ATK. ;Ninja Mines (迷兔炸弹/迷兎爆弾) : :Max of 9 can be placed. Place on the move bar is locked on the 50% position. A mine is detonated when an enemy passes by them on the move bar, dealing damage equal to 120% of SP Yama Usagi's ATK. A mine is removed after it's detonated.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Using this skill increases her HIT by 30% (lasts for 2 turns)."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Using this skill also places 1 Ninja Mine."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/3773.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Yama Usagi with another player's Yama Usagi and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Yama Usagi's skills 12 times.",
+      "reward": "Shikigami No.377 ×10"
+    },
+    {
+      "condition": "With SP Yama Usagi win 30 times in PVP, Practice or Spar.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/377skin1.webp"
+}

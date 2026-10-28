@@ -1,0 +1,139 @@
+{
+  "no": 401,
+  "en": "Parasite",
+  "cn": "寄生魂",
+  "jp": "寄生霊",
+  "gl": "寄生霊",
+  "rarity": "N",
+  "image": "File:401.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Parasite",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/401.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/401.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "4011",
+      "name": "Flamethrower (/火投げ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kiseirei throws a ball of fire at a single target dealing damage equal to 100% of its attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%"
+        }
+      ],
+      "icon": "assets/skills/4011.webp"
+    }
+  ],
+  "art": "assets/art/401skin1.webp",
+  "stats": {
+    "min": {
+      "no": 401,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 401,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

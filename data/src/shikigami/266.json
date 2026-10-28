@@ -1,0 +1,212 @@
+{
+  "no": 266,
+  "en": "Aoandon",
+  "cn": "青行灯",
+  "jp": "青行燈",
+  "gl": "青行燈",
+  "rarity": "SSR",
+  "image": "File:266.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Aoandon",
+  "cv": "Nana Mizuki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/266.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/266.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "2439"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "11621"
+      },
+      "def": {
+        "lv1": "73",
+        "lv2": null,
+        "max": "472"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2661",
+      "name": "Ghostly Light (幽光)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Now you will be free of your wordly worries.",
+      "description": "Aoandon channels her energy to attack a single target, dealing damage equal to 100% of her ATK and has a 30% chance of stealing 1 onibi from them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2661.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2662",
+      "name": "Lantern Support (明灯/灯明)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let me help you out a little.",
+      "description": "Exclusive effect. <br>At the start of another ally's turn, Aoandon has a 10% chance of granting Lantern Support to the ally until the end of their turn. <br>During an ally or an enemy's turn, and if your onibi overflows, she gains 1 stack of Candlelight. When she has 3 stacks, all stacks are consumed and Lantern Support is guaranteed to trigger when the next ally other than herself takes an action. Can only be triggered once per turn. ; : ;Lantern Support (灯明) :'''General, Mark''': Using skills under this effect cost no onibi. ;Candlelight (ろうそくの炎) : :'''General, Mark''': At 3 stacks, all stacks are consumed and Lantern Support is guaranteed to trigger when the next ally other than herself takes an action. Can only be triggered once per turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 14%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 16%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 40% but is reduced by 3% for each onibi you have."
+        }
+      ],
+      "icon": "assets/skills/2662.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2663",
+      "name": "Lantern Drain (吸魂灯/吸魂燈)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Weak souls don't deserve to exist. I'll help them move on...",
+      "description": "Aoandon lights her lantern and attacks all enemies, dealing damage equal to 158% of her ATK and has a 30% chance of stealing 1 onibi from each enemy who receives damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 165%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 172%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 180%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 190%."
+        }
+      ],
+      "icon": "assets/skills/2663.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Aoandon win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Aoandon's level to 30.",
+      "reward": "Shikigami No.266 ×10"
+    },
+    {
+      "condition": "Increase Aoandon's skill 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/266skin1.webp",
+  "stats": {
+    "min": {
+      "no": 266,
+      "en": null,
+      "atk": 103,
+      "hp": 982,
+      "def": 73,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 266,
+      "en": null,
+      "atk": 2439,
+      "hp": 11621,
+      "def": 472,
+      "spd": 119,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

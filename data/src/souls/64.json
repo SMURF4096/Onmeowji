@@ -1,0 +1,16 @@
+{
+  "no": 64,
+  "en": "Chartbringer",
+  "cn": "奉海図",
+  "jp": "Houkaizu",
+  "type": "DEF",
+  "image": "File:Soul64.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Chartbringer",
+  "imageUrl": "assets/souls/Soul64.webp",
+  "localImage": "assets/souls/Soul64.webp",
+  "combo2": "Increases DEF by 30%.",
+  "combo4": "Exclusive effect. When an ally is attacked, grants Chart Protection lasting 1 turn on them.",
+  "location": "Fallen Soul Zone: Stage 4 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M58.webp"
+}

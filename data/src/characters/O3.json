@@ -1,0 +1,241 @@
+{
+  "no": "O3",
+  "role": "onmyoji",
+  "page": "Hiromasa",
+  "en": "Hiromasa",
+  "cn": "源博雅",
+  "jp": "源博雅",
+  "gl": "Hiromasa",
+  "unlock": "Chapter 7",
+  "cv": "Tatsuhisa Suzuki",
+  "intro": "An aristocratic young man of imperial blood. He excels at archery and the use of energy barriers. Although proud, aloof and very direct, he seems to be searching for someone important to him.",
+  "image": "assets/onmyoji/O3.webp",
+  "imageUrl": "assets/onmyoji/O3.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "27140"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "1051"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "128"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o3skill1",
+      "icon": "assets/skills/O3skill1.webp",
+      "name": "Celestial Arrow (破魔矢/破魔の矢)",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Hiromasa draws back his bowstring and releases a magical arrow to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 140%."
+        }
+      ]
+    },
+    {
+      "image": "o3skill2",
+      "icon": "assets/skills/O3skill2.webp",
+      "name": "Double Release (多重箭/多重の矢)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Hiromasa draws back his bowstring and releases 2 magical arrows at 1 targeted enemy and 1 random enemy, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "Attacks an additional target."
+        }
+      ]
+    },
+    {
+      "image": "o3skill3",
+      "icon": "assets/skills/O3skill3.webp",
+      "name": "Rapid Release (诛邪箭/3本の矢)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Hiromasa rapidly draws back his bowstring and releases 3 magical arrows to attack a single target, each hit deals damage equal to 80% of his ATK. Damage dealt by each arrow increases by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ]
+    },
+    {
+      "image": "o3skill4",
+      "icon": "assets/skills/O3skill4.webp",
+      "name": "Occult: Panther Eyes (秘术·豹眼/秘術・豹の目)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Panther joins the battle and uses its spiritual powers to increase Crit DMG for all allies by 15%, lasts for 2 turns. When an ally with this buff attacks, there is a 20% chance that Panther will cast Occult: Pursuit on a random enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Crit DMG increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of triggering Occult: Pursuit increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Crit DMG increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increases by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o3skill5",
+      "icon": "assets/skills/O3skill5.webp",
+      "name": "Occult: Shadow Double (秘术·影分身/秘術·影分身)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Hiromasa creates a shadow clone that lasts for 2 turns and cannot be attacked. Each time an ally takes an action, the shadow double will use Celestial Arrow to attack a random enemy dealing damage equal to 30% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 70%."
+        }
+      ]
+    },
+    {
+      "image": "o3skill6",
+      "icon": "assets/skills/O3skill6.webp",
+      "name": "Occult: Panther Maul (秘术·豹袭/秘術·豹襲)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "; Upper Hand : Panther will automatically pounce on 1 random enemy dealing damage equal to 100% of Hiromasa's ATK at the start of battle.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 140% and the damage will not trigger the enemies' passives or soul effects."
+        }
+      ]
+    },
+    {
+      "image": "o3skill7",
+      "icon": "assets/skills/O3skill7.webp",
+      "name": "Roar of Grief (悲声哀嚎/悲声哀吼)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "When Hiromasa is KO'd, Panther will roar with grief and increase the ATK and SPD for all allies by 60% and 20, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "SPD increases to 30."
+        },
+        {
+          "lvl": 3,
+          "text": "ATK increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "SPD increases to 40."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increases by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o3skill8",
+      "icon": "assets/skills/O3skill8.webp",
+      "name": "Occult: Pursuit (秘术·穷追/秘術·窮追)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "When Hiromasa uses Celestial Arrow, the Panther has a 30% chance of attacking alongside him, dealing damage equal to 100% of his ATK. Each time Hiromasa or his shadow double attacks, he gains a stack of Charged Force.",
+      "upgrades": []
+    }
+  ]
+}

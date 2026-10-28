@@ -1,0 +1,186 @@
+{
+  "no": 379,
+  "en": "Fukengaku",
+  "cn": "不见岳",
+  "jp": "不見岳",
+  "gl": "不見岳",
+  "rarity": "SSR",
+  "image": "File:379.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Fukengaku",
+  "cv": "Kenshou Ono",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/379.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/379.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "2492"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "538"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "S",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3791",
+      "name": "Heavy Boulder (重峦/重巒)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The road is blocked. Please turn back.",
+      "description": "Fukengaku harnesses a giant boulder with the power of a mountain god and smashes it at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and increases his own RES by 50% after using this skill (lasts for 2 turns)."
+        }
+      ],
+      "icon": "assets/skills/3791.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3792",
+      "name": "God of Mountain (古山之神/古山の神)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sealed memories echo in the valley.",
+      "description": "Exclusive effect. <br>While the Hiking Realm is active, whenever an ally gains a Rock Pattern: Cloud's Color stack, Fukengaku gains a Rock Pattern: Cloud stack and whenever an ally gains Rock Pattern: Mountain Views, he gains a Rock Pattern: Mountain stack. ; Rock Pattern：Cloud's Color (峦纹·云衣/巒紋・雲衣) : :'''Buff, Status''': ATK is increased by 200% of Fukengaku's initial DEF (cannot exceed 40% of their initial ATK), lasts for 1 turn. ; Rock Pattern：Cloud (峦纹·云/巒紋・雲) : :'''General, Mark''': Max of 5 stacks. Using a normal attack consumes all stacks. Each stack consumed increases all allies' non-crit damage dealt by 3% (max of 15%, cannot exceed 6000% of Fukengaku's initial DEF), lasts for 1 turn. Multiple triggers of this the effect will stack and cause the duration to be refreshed. ; Rock Pattern：Mountain Views (峦纹·山色/巒紋・山色) : :'''Buff, Status''': Gain a shield that can absorb damage equal to 350% of Fukengaku's initial DEF and increases RES by 30%, lasts for 1 turn. ; Rock Pattern：Mountain (峦纹·山/巒紋・山) : :'''General, Mark''': Max of 5 stacks. Using a normal attack consumes all stacks. Each stack consumed restores the HP for all allies by 100% of his initial DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "At the start of his own turn, he randomly gains 1 stack of Rock Pattern: Cloud or Rock Pattern: Mountain."
+        },
+        {
+          "lvl": 3,
+          "text": "Each time 1 stack of Rock Pattern: Mountain is consumed, 1 debuff or control effect will be dispelled from a random ally, dispelling control effects is prioritised."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Upper Hand''': Automatically gains 1 stack of Rock Pattern: Clouds and Rock Pattern: Mountain at the start of battle."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration for the boost to non-crit damage dealt increases to 2 turns."
+        }
+      ],
+      "icon": "assets/skills/3792.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3793",
+      "name": "Mountain Hiking (水宿山行/水宿山行)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "It's a lovely day. Would you like to go hiking with me?",
+      "description": "Exclusive effect. <br>Fukengaku creates a Hiking Realm that lasts for 3 turns. While the realm is active, allies gain Rock Pattern: Cloud's Color at the start of their first turn. <br> Then, if an ally uses the same skill they used on their last turn, they gain Rock Pattern: Cloud's Color; if they use a different skill or are inflicted with a control effect, they gain Rock Pattern: Mountain Views at the end of their turn. ; Rock Pattern：Cloud's Color (峦纹·云衣/巒紋・雲衣) : :'''Buff, Status''': ATK is increased by 200% of Fukengaku's initial DEF (cannot exceed 40% of their initial ATK), lasts for 1 turn. ; Rock Pattern：Mountain Views (峦纹·山色/巒紋・山色) : :'''Buff, Status''': Gain a shield that can absorb damage equal to 350% of Fukengaku's initial DEF and increases RES by 30%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While in Hiking Realm, allies take 25% less CRIT DMG."
+        },
+        {
+          "lvl": 3,
+          "text": "While in Hiking Realm, allies deal 25% more non-CRIT damage."
+        },
+        {
+          "lvl": 4,
+          "text": "While the realm is active, the ATK for all allies is increased by 50% of Fukengaku's initial DEF (cannot exceed 20% of the allies' respective initial ATK)."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3793.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Fukengaku's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Fukengaku's skills 8 times.",
+      "reward": "Shikigami No.379 ×10"
+    },
+    {
+      "condition": "With Fukengaku win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/379skin1.webp"
+}

@@ -1,0 +1,224 @@
+{
+  "no": 333,
+  "en": "Ootakemaru",
+  "cn": "大岳丸",
+  "jp": "大嶽丸",
+  "gl": "Otakemaru",
+  "rarity": "SSR",
+  "image": "File:333.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ootakemaru",
+  "cv": "Nobuhiko Okamoto",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/333.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/333.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": null,
+        "max": "3323"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "12646"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "100"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "D",
+        "B"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3331a",
+      "name": "Hillcry: Blast (麓鸣·轰/麓鳴・轟)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Slow down. I can tell you the stories of Mt. Suzuka all night.",
+      "description": "Ootakemaru wields the Jade Blade of Yasakani and unleashes a wave of energy at a single target, dealing damage equal to 100% of his ATK. When an enemy is banished by his Unlimited Blade Prison, changes Hillcry: Blast to Hillcry: Slash and increases the next three Assist trigger chances to 100%. ;Assist :When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3331a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3331b",
+      "name": "Hillcry: Slash (麓鸣·斬/麓鳴・斬)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Advanced secret of the Jade Blade of Yasakani. Ootakemaru unleashes a crashing wave of energy at a single target, dealing damage equal to 100% of his ATK. Damage from this attack will not trigger enemy passives or souls. He also gains a 50% to Assist.\n100% of the damage dealt with Hillcry: Slash will be added to the next damage dealt by Rock Fall from Unlimited Sword Prison (cannot exceed 600% of Ootakemaru's ATK).\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
+      "upgrades": [],
+      "icon": "assets/skills/3331b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3332",
+      "name": "Earth Magic (覆土之术/覆土の術)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "My shelter is what made me strong.",
+      "description": "Ootakemaru conjures Force of Earth to protect himself at the end of his turn and it lasts until the start of his next turn. <br>Force of Earth breaks after taking 2 attacks. ;Force of Earth (覆土の力) : :'''Buff, Mark''': Reduce damage taken by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Force of Earth''': Damage reduction increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Force of Earth''': Damage reduction increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Force of Earth''': Damage reduction increases to 35%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Force of Earth''': Damage reduction increases to 40%."
+        }
+      ],
+      "icon": "assets/skills/3332.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3333",
+      "name": "Unlimited Blade Prison (无尽剑狱/無尽剣獄)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "You have nowhere to escape!",
+      "description": "Ootakemaru uses Unlimited Blade Prison to Banish an enemy, gains 30% of the target's inital ATK and DEF (the gained stats cannot exceed 50% of Otakemaru's own initial ATK and DEF) until the end of his next turn. Then he conjures a devastating Wave of Rocks to attack all enemies, dealing damage equal to 285% of his ATK. When the Blade Prison closes, the floating Rock Falls on the Banished enemy, dealing damage equal to 358% of his ATK. This damage cannot be shared, does not trigger the enemy's passive or souls and increases Ootakemaru's move bar by 40% and removes extra stats gained. <br>When Unlimited Blade Prison is in effect, this skill cannot be used. ;Unlimited Blade Prison (無限剣獄) :'''Debuff, Mark''': Decreases damage dealt by the Wave of Rocks by 10% for each enemy it attacks. Blade Prison ends immediately when Ootakemaru or ally other enemies are KO'd.<br>If there is only 1 enemy when using this skill or the enemy is immune to control effects, the Blade Prison cannot be created. Damage dealt by the Wave of Rocks is doubled instead.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the Wave of Rocks increases to 299%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the Wave of Rocks increases to 312%."
+        },
+        {
+          "lvl": 4,
+          "text": "When Blade Prison closes, raises Move Bar by 70%."
+        },
+        {
+          "lvl": 5,
+          "text": "12% of the total damage dealt by the Wave of Rocks is added to Rock Fall's damage (cannot exceed 600% of Ootakemaru's ATK)."
+        }
+      ],
+      "icon": "assets/skills/3333.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ootakemaru.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increases Ootakemaru's skills 12 times.",
+      "reward": "Shikigami No.333 ×10"
+    },
+    {
+      "condition": "With Ootakemaru win 50 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/333skin1.webp",
+  "stats": {
+    "min": {
+      "no": 333,
+      "en": null,
+      "atk": 144,
+      "hp": 1078,
+      "def": 61,
+      "spd": 90,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 333,
+      "en": null,
+      "atk": 3323,
+      "hp": 12646,
+      "def": 397,
+      "spd": 100,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

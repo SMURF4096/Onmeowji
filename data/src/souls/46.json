@@ -1,0 +1,16 @@
+{
+  "no": 46,
+  "en": "Hyosube",
+  "cn": "兵主部",
+  "jp": "",
+  "type": "ATK",
+  "image": "File:Soul46.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hyosube",
+  "imageUrl": "assets/souls/Soul46.webp",
+  "localImage": "assets/souls/Soul46.webp",
+  "combo2": "Increases attack by 15%",
+  "combo4": "At the end of turn gain 1 layer of a Piercing Arrow, each layer ignores 75 of target's defense when attacking. Max 3 layers.",
+  "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M46.webp"
+}

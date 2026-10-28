@@ -1,0 +1,16 @@
+{
+  "no": 1,
+  "en": "Snow Spirit",
+  "cn": "雪幽魂",
+  "jp": "Setsuyuukon",
+  "type": "DEF",
+  "image": "File:Soul1.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Snow_Spirit",
+  "imageUrl": "assets/souls/Soul1.webp",
+  "localImage": "assets/souls/Soul1.webp",
+  "combo2": "Increases DEF by 30%",
+  "combo4": "When dealing damage, has a 15% base chance (chance increases to 30% if target has Slow) to inflict targets with Freeze when dealing damage, lasts for 1 turn. When attacked, decreases attacker’s SPD by 30, lasts for 1 turn.",
+  "location": "Soul Zones (Monday, Weekends) · Orochi: Stages 1-1 · Sougenbi · Sea of Eternity · Chapter 7 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M6.webp"
+}

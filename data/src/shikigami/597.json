@@ -1,0 +1,215 @@
+{
+  "no": 597,
+  "en": "Kuzunoha",
+  "cn": "葛叶",
+  "jp": "葛の葉",
+  "gl": "葛の葉",
+  "rarity": "SSR",
+  "image": "File:597.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kuzunoha",
+  "cv": "Endo Anya",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/597.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/597.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "175",
+        "lv2": null,
+        "max": "3966"
+      },
+      "hp": {
+        "lv1": "1088",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "494"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": "12"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5971",
+      "name": "Fox Whispers (狐言)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "If you wish to have a taste of despair, I'd be happy to help.",
+      "description": "Kuzunoha attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5971.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5972a",
+      "name": "Spirit Crossing (渡灵)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Bestow upon you the Mark of the Fox-from now on, you're one of mine.",
+      "description": "Exclusive effect. When Kuzunoha uses a skill other than Origin Art, gains 1 stack of Nine-Tailed Power. ;Upon Usage :She gains 1 stack of Nine-Tailed Power, and grants an allied target 3 stacks of Kitsune Protection, lasts for 1 turn. ;Nine-Tailed Power (九尾之力) : :'''General, Mark''': Max 3 stacks, When carried, unlocks Origin Art, allowing the transfiguration of allied units equal to the number of stacks. ;Kitsune Protection (狐族庇佑) : :'''Buff, Mark''': Max 3 stacks. Immune to 1 instance of damage, control effects or banish. Removes 1 stack after immunity. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Grants an ally 3 stack of Kitsune Protection."
+        },
+        {
+          "lvl": 3,
+          "text": "When an ally gains Kitsune Protection, increases Kuzunoha's SPD by 75 (up to 3 times), lasting for 1 turn."
+        },
+        {
+          "lvl": 4,
+          "text": "When cast, grants herself 1 stack of Kitsune Protection for 1 turn."
+        },
+        {
+          "lvl": 5,
+          "text": "At the start of battle, gains 1 stack of Kitsune Protection, lasting 1 turn."
+        }
+      ],
+      "icon": "assets/skills/5972a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5973b",
+      "name": "Origin Art (归源术)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. Kuzunoha selects an allied shikigami to remove all their debuffs, and grant them the Transfiguration effect, merging with them into Great Spirit Form and gaining a new turn; or select an allied shikigami to remove the Transfiguration effect. ;Transfiguration (幻化) :Protected by Kuzunoha, increasing her SPD by 15%. Unable to act, cannot be targeted, and Move Bar position locked; immune to damage, healing, buffs, and debuffs. ;Great Spirit Form (大妖姿态) : :HP equals to 225% of Kuzunoha's starting ATK. When HP is above 50%, immune to debuffs and Banish. Gains orbs equal to the number of transfigured units before action. Removes all statuses and marks except Nine-Tailed Power, replaces Fox Shadow Array with Finale: Sky Blast. Returns to normal form upon receiving lethal damage or when all transfigured shikigami have their Transfiguration removed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "For each shikigami transfigured, increases the Great Spirit Form's HP by 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "For each shikigami transfigured, increases the Great Spirit Form's ATK by 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "For each shikigami transfigured, increases the Great Spirit Form's DEF by 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each shikigami transfigured, increases the Great Spirit Form's CRIT DMG by 10%."
+        }
+      ],
+      "icon": "assets/skills/5973b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5973a",
+      "name": "Fox Shadow Array (狐影阵)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Before any sparks of trouble touch my child, I'll burn down the source of the problem!",
+      "description": "Kuzunoha uses fox spirit sorcery to attack all enemies, dealing damage equal to 180% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage dealt to 195%"
+        },
+        {
+          "lvl": 3,
+          "text": "Increases damage dealt to 210%"
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage dealt to 225%"
+        },
+        {
+          "lvl": 5,
+          "text": "Increases damage dealt to 240%"
+        }
+      ],
+      "icon": "assets/skills/5973a.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kuzunoha’s level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kuzunoha’s skills 12 times.",
+      "reward": "Shikigami No.597 ×10"
+    },
+    {
+      "condition": "Team Kuzunoha with another player’s Seimei and clear any zone 20 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/597skin1.webp"
+}

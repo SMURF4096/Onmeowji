@@ -1,0 +1,212 @@
+{
+  "no": 228,
+  "en": "Ushi no Toki",
+  "cn": "丑时之女",
+  "jp": "丑の刻参り",
+  "gl": "丑の刻参り",
+  "rarity": "R",
+  "image": "File:228.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ushi_no_Toki",
+  "cv": "Chiwa Saitou",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/228.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/228.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "123",
+        "lv2": "137",
+        "max": "2894"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": "1046",
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": "71",
+        "max": "415"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": "117",
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2281",
+      "name": "Curse Dart (咒锥/呪錐)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Knock knock knock! Clang clang clang! Ha ha ha!",
+      "description": "Ushi no Toki hammers a nail into her straw doll, causing a magic symbol to appear and shoot a cursed dart at a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2281.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2282",
+      "name": "Cursed Fire (咒火/呪火)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hehehe. It will all be over soon.",
+      "description": "At the end Ushi no Toki's turn, she has a 20% base chance of inflicting Cursed Fire on a random enemy, lasts for 2 turns. ; Cursed Fire (呪火) : :'''Debuff, Status''': Inflicted target becomes vulnerable, their damage received is increased by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Cursed Fire''': Vulnerability increases to 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Cursed Fire''': Vulnerability increases to 15%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 40%."
+        }
+      ],
+      "icon": "assets/skills/2282.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2283",
+      "name": "Decoy Doll (草人替身/案山子の身代わり)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Hurt my straw doll and you're only hurting yourself! Hahaha!",
+      "description": "Ushi no Toki summons a straw doll that connects an enemy. When the straw doll takes damage, it inflicts transferred damage equal to the amount dealt to it. The straw doll lasts for 3 turns. <br>The straw doll inherits 10% of the target's HP and 80% of their DEF. ; : ; Straw Doll (案山子) : A summoned entity. :''(Uses enemy summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases inherited HP to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases inherited HP to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases inherited HP to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases inherited HP to 30%."
+        }
+      ],
+      "icon": "assets/skills/2283.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Ushi no Toki take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Ushi no Toki.",
+      "reward": "Shikigami No.228 ×10"
+    },
+    {
+      "condition": "Increase Ushi no Toki's skill 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/228skin1.webp",
+  "stats": {
+    "min": {
+      "no": 228,
+      "en": null,
+      "atk": 123,
+      "hp": 939,
+      "def": 64,
+      "spd": 107,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 228,
+      "en": null,
+      "atk": 2894,
+      "hp": 11165,
+      "def": 415,
+      "spd": 117,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

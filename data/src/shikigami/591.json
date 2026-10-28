@@ -1,0 +1,186 @@
+{
+  "no": 591,
+  "en": "Yuki Gozen",
+  "cn": "雪御前",
+  "jp": "",
+  "gl": "Yuki Gozen",
+  "rarity": "SSR",
+  "image": "File:591.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yuki_Gozen",
+  "cv": "Saori Hayami",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/591.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/591.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "173",
+        "lv2": null,
+        "max": "3913"
+      },
+      "hp": {
+        "lv1": "1103",
+        "lv2": null,
+        "max": "12920"
+      },
+      "def": {
+        "lv1": "86",
+        "lv2": null,
+        "max": "549"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "13",
+        "lv2": null,
+        "max": "13"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "S",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5911",
+      "name": "Snow Cut (雪立•裁)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This snow becomes my blade, carving out new hope.",
+      "description": "Yuki Gozen attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5911.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5912",
+      "name": "Gentian: Bloom (龙胆•绽)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "When the flowers finish blooming, the wind and snow come knocking.",
+      "description": "For every single-target attack gain 1 stack of Snowy Edge. When defeating a non-summoned enemy, Yuki Gozen summons Gentian Glass at their Move Bar. When Gentian Glass acts, glass blades deals damage equal to 50% of Gentian Glass's max HP when striking the enemy with the lowest HP. <br> When casting, Gentian Glass is summoned. ; : ;Snowy Edge (巫灵雪刃) : :'''General, Mark''': Can stack up to three times, when casting Snow Slash, consumes 2 stacks to evolve the next blade strike into Snow Burst that deals 88% ATK damage to all enemies. ;Gentian Glass (龙胆蓝璃) :Immune to debuff and control effects. HP is equal to 240% of Yuki Gozen's starting ATK. When summoned, it inherits Yuki Gozen's CRIT, CRIT DMG, DEF and 95% of her SPD. When resummoned, max HP increases by 39% of starting ATK (up to 3 times) and fully restores HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Raises Gentian Glass's HP to 280% of starting ATK."
+        },
+        {
+          "lvl": 3,
+          "text": "Raises Gentian Glass's HP to 320% of starting ATK."
+        },
+        {
+          "lvl": 4,
+          "text": "Raises Gentian Glass's HP to 360% of starting ATK."
+        },
+        {
+          "lvl": 5,
+          "text": "At the start of battle, summons Gentian Glass."
+        }
+      ],
+      "icon": "assets/skills/5912.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5913",
+      "name": "Snow Slash (千雪•斩)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "With this blade in hang, I protect every soul returning home.",
+      "description": "9 slashes are unleashed at the selected enemy target, each slash deals damage equal to 18% of ATK. ;Snowy Edge (巫灵雪刃) : :'''General, Mark''': Can stack up to three times, when casting Snow Slash, consumes 2 stacks to evolve the next blade strike into Snow Burst that deals 88% ATK damage to all enemies.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Blade strike damage increases to 27% of ATK."
+        },
+        {
+          "lvl": 3,
+          "text": "Snowy Edge increases Snow Burst's damage to 108% of ATK."
+        },
+        {
+          "lvl": 4,
+          "text": "Snow Burst's damage taken by selected enemy target is increased by 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the target is defeated, the enemy with the lowest HP is targeted next."
+        }
+      ],
+      "icon": "assets/skills/5913.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Yuki Gozen's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Yuki Gozen's skills 12 times.",
+      "reward": "Shikigami No.591 ×10"
+    },
+    {
+      "condition": "Trigger Gentian Glass 99 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/591skin1.webp"
+}

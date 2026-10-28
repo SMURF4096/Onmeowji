@@ -1,0 +1,186 @@
+{
+  "no": 561,
+  "en": "Taki",
+  "cn": "泷",
+  "jp": "瀧",
+  "gl": "瀧",
+  "rarity": "SSR",
+  "image": "File:561.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Taki",
+  "cv": "Takeo Ootsuka",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/561.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/561.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "91",
+        "lv2": null,
+        "max": "2171"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "520"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "C"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "S",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5611",
+      "name": "Torrential Blade (湍刃/怒涛の刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The far sea is my home.",
+      "description": "Taki conjures a torrential blade to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5611.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5612",
+      "name": "Torrential Shelter (涛泷之佑/瀧の守り)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Special care from the Golden Tentacles.",
+      "description": "Exclusive effect. <br>Taki grants himself 1 Alert stack, plus 1 additional Alert stack for each 50% of initial Crit he has. ;Alert (戒备/警戒) : :'''Buff, Mark''': Max of 4 stacks. If he doesn't have Taki's Pact, 1 stack is removed to initiate Taki's Pact. Triggers when an ally receives crit damage. Each stack decreases the attacker's Crit DMG by 40% (cannot exceed 80% of the their initial Crit DMG). Has no effect on monsters. ;Taki's Pact (泷之契/瀧の契) : :'''Buff, Mark''': A undispellable shield that can absorb a damage equal to 10% of his initial max HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Taki's Pact''': Absorption increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "Initial Crit required to gain additional Alert stacks decreases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Upper Hand''': Automatically starts battle with 4 Alert stacks."
+        },
+        {
+          "lvl": 5,
+          "text": "For each Alert stack he has, increases Sweeping Moment's damage multiplier by 100%."
+        }
+      ],
+      "icon": "assets/skills/5612.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5613",
+      "name": "Taki's Sweeper (泷之决荡/激動の瀧)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Show them what you've got, Hizz.",
+      "description": "Don't try to play tricks on my crew. <br>Taki grants Convoy to another ally, lasts for 2 turns. Then triggers Sweeping moment, dealing true damage to all enemies equal to 150% of his initial DEF. Only 1 ally can be Convoyed at a single time. The damage does not trigger his soul effect. ;Convoy (护航/航行護衛) : :'''Buff, Mark''': Decreases the onibi cost for the ally's skills by 1. When the ally doesn't use onibi on their turn, and if Taki is not Inflicted with a control effect, triggers Sweeping Moment, dealing true damage to all enemies equal to 150% of Taki's initial DEF. The damage can only be triggered once each turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Sweeping Moment no longer triggers enemy souls."
+        },
+        {
+          "lvl": 3,
+          "text": "When the ally with Convoy uses a special skill, increases Taki's move bar by 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "Sweeping Moment no longer triggers enemy passives."
+        },
+        {
+          "lvl": 5,
+          "text": "When the ally with Convoy uses a special skill, decreases their skills' onibi cost by 2."
+        }
+      ],
+      "icon": "assets/skills/5613.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Taki's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Taki's skills 12 times.",
+      "reward": "Shikigami No.561 ×10"
+    },
+    {
+      "condition": "With Taki win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/561skin1.webp"
+}

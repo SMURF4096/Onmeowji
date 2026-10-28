@@ -1,0 +1,212 @@
+{
+  "no": 300,
+  "en": "Tamamo no Mae",
+  "cn": "玉藻前",
+  "jp": "Tamamonomae",
+  "gl": "Tamamonomae",
+  "rarity": "SSR",
+  "image": "File:300.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tamamo_no_Mae",
+  "cv": "Romi Park (previous CV) · Chifuyu (Skins 1-3) · Shinichiro Miki (Skins 4-6)",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/300.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/300.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "145",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "54",
+        "lv2": null,
+        "max": "353"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": "12"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3001",
+      "name": "Soul Burst (灵击/狐の面)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "In this world, everyone has their secrets.",
+      "description": "Tamamo no Mae uses spirit energy to attack a single enemy, dealing damage to 100% of his ATK and has a 10% base chance of inflicting them with Confuse, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3001.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3002",
+      "name": "Fox Fire (狐火)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I have to punish you!",
+      "description": "Tamamo no Mae focuses Fox Fire to attack 1 enemy, dealing damage equal to 353% of his ATK. His damage on enemies with more than 80% HP is decreased by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 362%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 371%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 380%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 389%."
+        }
+      ],
+      "icon": "assets/skills/3002.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3003",
+      "name": "The Falling (堕天)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Outer beauty always makes one forget inner danger.",
+      "description": "Tamamo no Mae channels all of his power to attack all enemies, dealing damage equal to 176% of his ATK. His damage on enemies with less than 50% HP is decreased by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 182%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 188%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 195%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemy is KO'd when using Fox Fire or The Falling, immediately casts another skill without cost, with damage decreasing by 20% each time."
+        }
+      ],
+      "icon": "assets/skills/3003.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Tamamo no Mae's skills 8 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Tamamo no Mae clear stage 9 of the Orochi soul zone (solo).",
+      "reward": "Shikigami No.300 ×10"
+    },
+    {
+      "condition": "With Tamamo no Mae win 40 times in .",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/300skin1.webp",
+  "stats": {
+    "min": {
+      "no": 300,
+      "en": null,
+      "atk": 145,
+      "hp": 1067,
+      "def": 54,
+      "spd": 100,
+      "crit": 12,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 300,
+      "en": null,
+      "atk": 3350,
+      "hp": 12532,
+      "def": 353,
+      "spd": 110,
+      "crit": 12,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

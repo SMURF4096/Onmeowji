@@ -1,0 +1,198 @@
+{
+  "no": 590,
+  "en": "Myoushu Kyuumei Neko",
+  "cn": "妙主九命猫",
+  "jp": "Meowlord Kyuumei Neko",
+  "gl": "Meowlord Kyuumei Neko",
+  "rarity": "SP",
+  "image": "File:590.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Myoushu_Kyuumei_Neko",
+  "cv": "Mayumi Shintani",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/590.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/590.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "1035",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "75",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5901",
+      "name": "Fluffy Fluff (毛呼毛呼)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Struggle all you want in the fluff, meow-haha!",
+      "description": "SP Kyuumei Neko attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5901.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5902a",
+      "name": "King's Arrival (国王驾到)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Who dares cause trouble on my turf, meow?",
+      "description": "Exclusive effect. When SP Kyuumei Neko is in King Form, if an enemy applies control effect on a non-summoned ally, SP Kyuumei Neko awakens 1 Onmyoji Meow to guard for 1 turn, and casts Guard Me! on the debuff source. (This effect can only be used once per turn, enemies with the lowest HP are prioritized first) If affected by control effects, SP Kyuumei Neko will lose 2 Onmyoji Meows and remove all control effects. <br> '''Cast''': Enter King Form and gain sustain for 3 turns, extending the duration of any awakened Onmyoji Meow by 1 turn. ;King Form (国王形态) : :'''Buff, Mark''': Gain 40% Damage Reduction for every 1% Effect RES, gains 1% CRIT DMG (Up to a maximum of 300% CRIT DMG gained this way). ;Onmyoji Meow (阴阠师喵) :Guard order: Seimei Meow, Kagura Meow, Hiromasa Meow, Yao Bikuni Meow. ;Sustain (维持 / 持続) :A status or mark will last depending on the number of turns of the originator, and not target.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When all Onmyoji Meows are guarding, SP Kyuumei Neko gains 150 SPD and becomes immune to move bar lowering effects."
+        },
+        {
+          "lvl": 3,
+          "text": "For every 4 debuffs cast by enemies, SP Kyuumei Neko awakens 1 Onmyoji Meow and casts Guard Me! on it."
+        },
+        {
+          "lvl": 4,
+          "text": "For every Onmyoji Meow awakened, the damage multiplier of Guard Me! increases by 5%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': This skill is automatically used at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5902a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5902b",
+      "name": "Guard Me! (速速护驾)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "The caster and all guarding Onmyoji Meows each attack once that deals 25% ATK damage and applies different effects based on the awakened Onmyoji Meows.\n;Onmyoji Meow (阴阠师喵)\n:Guarding order: Seimei Meow, Kagura Meow, Hiromasa Meow, Yao Bikuni Meow.\n;Seimei Meow (晴明喵）\n: When dealing damage, damage taken by the enemy is increased by 30% for 1 turn.\n;Kagura Meow (神乐喵）\n: When dealing damage, grants SP Kyuumei Neko 30% damage reduction for 1 turn.\n;Hiromasa Meow 博雅喵）\n:Deals 2 instances of damage.\n;Yao Bikuni Meow 八百比丘尼喵)\n: When dealing damage, dispels 2 random debuff or control effects from allies.",
+      "upgrades": [],
+      "icon": "assets/skills/5902b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5903",
+      "name": "Cat's Revenge (猫的报仇)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I'm a cat of clear principles-kindness for kindness, claws for grudges. Take this!",
+      "description": "SP Kyuumei Neko attacks an enemy twice, dealing 70% of ATK damage, then the castor and all awakened Onmyoji Meows follow up with 1 attack each, dealing 115% ATK damage. ;Cat Vengeance ; :'''General, Mark''': Become immune to all damage and recovers 50% of max HP. Also removes all control effects and casts Cat's Revenge on the damage source. ;Onmyoji Meow (阴阠师喵) :Guard order: Seimei Meow, Kagura Meow, Hiromasa Meow, Yao Bikuni Meow.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the follow up single-target damage to 125%."
+        },
+        {
+          "lvl": 3,
+          "text": "Upon first receiving fatal damage, gains Cat Vengeance."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases the follow up single-target damage to 135%."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon receiving fatal damage again, if at least 3 Onmyoji Meows are in Guard state, regains Cat Vengenace and loses all Onmyoji Meow's protection after resolution."
+        }
+      ],
+      "icon": "assets/skills/5903.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.590 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/590skin1.webp"
+}

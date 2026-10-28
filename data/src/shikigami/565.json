@@ -1,0 +1,246 @@
+{
+  "no": 565,
+  "en": "Shoufuku Zashiki Warashi",
+  "cn": "福悦座敷童子",
+  "jp": "招福座敷童子",
+  "gl": "Fortunegiver Zashiki",
+  "rarity": "SP",
+  "image": "File:565.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shoufuku_Zashiki_Warashi",
+  "cv": "Junko Takeuchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/565.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/565.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "2224"
+      },
+      "hp": {
+        "lv1": "1174",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "80",
+        "lv2": null,
+        "max": "472"
+      },
+      "spd": {
+        "lv1": "126",
+        "lv2": null,
+        "max": "126"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5651",
+      "name": "Daruma Strike (ダルマ出撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Your fortune will be everlasting when you're with friends and family.",
+      "description": "SP Zashiki Warashi commands a daruma to attack a single target, dealing damage equal to 100% of her ATK. ;Parade Lover (福运/福運) : :'''General, Mark''': Max of 75 stacks. Each time she gains 15 stacks, and if she is not inflicted with a control effect and an effect such as Banish, she immediately uses Fun Gacha which grants 1 random Basic R effect that hasn't been triggered yet. Using Fun Gacha at max stacks clears all stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and grants her 2 Parade Lover stacks."
+        }
+      ],
+      "icon": "assets/skills/5651.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5652",
+      "name": "Fortune Accumulated (福運蓄積/福運貯め)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't worry, the fortune you missed will come back to you when accumulated...",
+      "description": "Exclusive effect. <br>What's your gacha luck today? Whenever another ally uses 1 onibi, SP Zashiki Warashi is granted 1 Parade Lover stack. ;Parade Lover (福运/福運) : :'''General, Mark''': Max of 75 stacks. Each time she gains 15 stacks, and if she is not inflicted with a control effect and an effect such as Banish, she immediately uses Fun Gacha which grants 1 random Basic R effect that hasn't been triggered yet. Using Fun Gacha at max stacks clears all stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Triggers EXP Daruma first if her initial RES is higher than 50%; otherwise, triggers Base Daruma first."
+        },
+        {
+          "lvl": 3,
+          "text": "Unlocks Fun Gacha's SR effect: Skill Daruma."
+        },
+        {
+          "lvl": 4,
+          "text": "Unlocks Fun Gacha's SSR effect: The Fortunebringer."
+        },
+        {
+          "lvl": 5,
+          "text": "Guaranteed to trigger The Fortunebringer when using Fun Gacha at max stacks."
+        }
+      ],
+      "icon": "assets/skills/5652.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5652a",
+      "name": "Fun Gacha: Base Daruma (子供ガチャ・招福ダルマ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Basic R effect. Increases all allies damage reduction by 30%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/5652a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5652b",
+      "name": "Fun Gacha: Grade Daruma (子供ガチャ・奉為ダルマ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Basic R effect. Increases all allies damage dealt and damage reduction by 15%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/5652b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5652c",
+      "name": "Fun Gacha: EXP Daruma (子供ガチャ・大吉ダルマ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Basic R effect. Increases all allies RES by 60% of her initial RES, lasts for 2 turns. If an ally resists an effect, increases their move bar by 30% (only once).",
+      "upgrades": [],
+      "icon": "assets/skills/5652c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5652d",
+      "name": "Fun Gacha: Skill Daruma (子供ガチャ・御行ダルマ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Rare SR effect with a 9% probability rate. Grants all the Basic R effects and increases all allies damage dealt by 30%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/5652d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5652e",
+      "name": "Fun Gacha: Lucky Daruma (子供ガチャ・福運ダルマ)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Super Rare SSR effect with a 1% probability rate. Immediately grants the Rare SR effect and has a 100% base chance of inflicting Morph on all enemies, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/5652e.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5653",
+      "name": "Purging Orb (魂火除厄/魂火厄祓)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "May all reap what they sow.",
+      "description": "SP Zashiki Warashi spends additional onibi (up to 3), each onibi spent grants her 2 Parade Lover stacks. <br>She grants Fortune Shelter to all allies, sustained for 1 turn. At the end of turn, and if she is not inflicted with a control effect or an effect such as Banish, immediately uses Fun Gacha. ;Parade Lover (福运/福運) : :'''General, Mark''': Max of 75 stacks. Each time she gains 15 stacks, and if she is not inflicted with a control effect and an effect such as Banish, she immediately uses Fun Gacha which grants 1 random Basic R effect that hasn't been triggered yet. Using Fun Gacha at max stacks clears all stacks. ;Fortune Shelter (福運・守) : :'''Buff, Mark''': Consumed when damage received exceeds 30% of own max HP to reduce the damage by 25%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Fortune Shelter''': Increases RES by 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Fortune Shelter''': Damage reduction increases to 35%."
+        },
+        {
+          "lvl": 4,
+          "text": "When Fortune Shelter on an ally is consumed, increases their move bar by 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Grants 3 onibi when using Fun Gacha."
+        }
+      ],
+      "icon": "assets/skills/5653.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Zashiki Warashi's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Zashiki Warashi's skills 8 times.",
+      "reward": "Shikigami No.565 ×10"
+    },
+    {
+      "condition": "In PVN zones, trigger Fun Gacha: The Fortunegiver and win.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/565skin1.webp"
+}

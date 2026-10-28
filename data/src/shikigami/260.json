@@ -1,0 +1,199 @@
+{
+  "no": 260,
+  "en": "Kiyohime",
+  "cn": "清姬",
+  "jp": "",
+  "gl": "Kiyohime",
+  "rarity": "SR",
+  "image": "File:260.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kiyohime",
+  "cv": "Toa Yukinari",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/260.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/260.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2412"
+      },
+      "hp": {
+        "lv1": "1003",
+        "lv2": null,
+        "max": "11849"
+      },
+      "def": {
+        "lv1": "72",
+        "lv2": null,
+        "max": "467"
+      },
+      "spd": {
+        "lv1": "95",
+        "lv2": null,
+        "max": "105"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2601",
+      "name": "Serpent Lash (蛇行击/蛇行撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You've been very bad... prepare to be punished!",
+      "description": "Kiyohime whips a single target, dealing damage equal to 86% of her ATK and has a 100% base chance of inflicting Grade 3 of Poison, lasts for 5 turns. Also inflicts Burning Fire on the target, deals damage equal to equal to 22% of her ATK and lasts for 1 turn. ;Burning Fire (焚火) : :'''Debuff, Status''': Inflicts indirect damage at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 94%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 98%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 102%."
+        },
+        {
+          "lvl": 6,
+          "text": "Indirect damage increases to 33%."
+        }
+      ],
+      "icon": "assets/skills/2601.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2602",
+      "name": "Venom Frenzy (淬毒/愛の焔)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Love is poison...",
+      "description": "When a target is inflicted with Poison by Kiyohime, their DEF is also reduced by 10, up to a maximum of 150 until the end of battle.\nMultiple Kiyohime cannot reduce DEF further than the limit.\n;\n:",
+      "upgrades": [],
+      "icon": "assets/skills/2602.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2603",
+      "name": "Sacrificial Fire (焚身之火/毒塗り)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Sometimes love is an all consuming fire. Now you will sacrifice your life to its flames.",
+      "description": "Kiyohime breathes fire at all enemies 3 times, dealing damage equal to 36% of her ATK with each hit and has a 60% base chance of inflicting Grade 2 of Poison, lasts for 5 turns. Also inflicts Viper on the target, deals indirect damage equal to 66% of her ATK and lasts for 1 turn. ;Burning Fire (焚火) : :'''Debuff, Status''': Inflicts indirect damage at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 38%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 42%."
+        },
+        {
+          "lvl": 5,
+          "text": "Indirect damage increases to 99%."
+        }
+      ],
+      "icon": "assets/skills/2603.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kiyohime.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Wish for 15 Kiyohime shards in guild.",
+      "reward": "Shikigami No.260 ×10"
+    },
+    {
+      "condition": "Increase Kiyohime's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/260skin1.webp",
+  "stats": {
+    "min": {
+      "no": 260,
+      "en": null,
+      "atk": 102,
+      "hp": 1003,
+      "def": 72,
+      "spd": 95,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 260,
+      "en": null,
+      "atk": 2412,
+      "hp": 11849,
+      "def": 467,
+      "spd": 105,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

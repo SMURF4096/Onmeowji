@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Admin — Onmyoji Codex</title>
+<style>
+  :root {
+    --bg1: #1a1710; --bg2: #221d12; --line: #3d3626; --ink: #e8dfc8; --dim: #9a8e6e;
+    --gold: #d9b96c; --gold-hi: #f0d49a; --bad: #e58; --ok: #7ba77b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 13px/1.45 "Geist Mono", ui-monospace, monospace; color: var(--ink); background: linear-gradient(160deg, var(--bg1), var(--bg2) 60%); min-height: 100vh; display: flex; flex-direction: column; }
+  header { padding: 10px 16px; border-bottom: 1px solid var(--line); display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; position: sticky; top: 0; background: rgba(26,23,16,.94); z-index: 5; backdrop-filter: blur(4px); }
+  header h1 { margin: 0; font-size: 14px; letter-spacing: .18em; color: var(--gold); text-transform: uppercase; }
+  nav button { margin-right: 6px; }
+  main { display: flex; min-height: 0; flex: 1; }
+  #side { width: 260px; border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+  #side .inner { overflow: auto; flex: 1; padding: 8px; }
+  #side input[type=search] { width: 100%; margin-bottom: 6px; }
+  button { background: #2c2617; color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit; }
+  button:hover { border-color: var(--gold); color: var(--gold-hi); }
+  button.p { background: var(--gold); color: #221c0d; border-color: transparent; font-weight: 700; }
+  button.p:hover { background: var(--gold-hi); color: #221c0d; }
+  button.mini { padding: 2px 7px; font-size: 11px; }
+  button:disabled { opacity: .45; cursor: default; }
+  .btnrow { padding: 8px; border-top: 1px solid var(--line); display: flex; gap: 6px; flex-wrap: wrap; }
+  #list { list-style: none; margin: 0; padding: 0; }
+  #list li { padding: 6px 9px; border-radius: 6px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--dim); }
+  #list li:hover { color: var(--ink); background: rgba(255,255,255,.04); }
+  #list li.sel { color: var(--gold-hi); background: rgba(217,185,108,.13); }
+  #edit { flex: 1; overflow: auto; padding: 14px 20px 40px; }
+  .pageTitle { color: var(--gold-hi); margin: 0 0 10px; font-size: 15px; }
+  fieldset { border: 1px solid var(--line); border-radius: 10px; margin: 0 0 12px; padding: 10px 12px 12px; }
+  legend { color: var(--gold); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; padding: 0 6px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .row label { flex: 0 0 210px; color: var(--dim); font-size: 12px; text-align: right; }
+  .row input[type=text], .row input[type=number], .row textarea { flex: 1; background: rgba(255,255,255,.045); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; font: inherit; min-width: 0; }
+  .row input:focus, .row textarea:focus { outline: none; border-color: var(--gold); }
+  textarea { width: 100%; min-height: 60px; resize: vertical; }
+  .arrblock { border: 1px dashed #4a4128; border-radius: 8px; padding: 8px; margin: 6px 0; position: relative; }
+  .arrblock .ops { position: absolute; top: 6px; right: 6px; display: flex; gap: 4px; }
+  .imgprev { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: #111; flex: 0 0 42px; }
+  .imgprev.broken { visibility: hidden; }
+  .pathRow { display:flex; gap:8px; align-items:center; flex: 1; }
+  .pathRow .f { display:flex; gap:6px; align-items:center; flex:1; }
+  .mk { font-size: 10px; padding: 1px 6px; border-radius: 4px; background: #3a3116; color: var(--gold); letter-spacing: .08em; }
+  #status { position: fixed; right: 16px; bottom: 14px; z-index: 6; }
+  #statusbox { max-width: 560px; max-height: 40vh; overflow: auto; white-space: pre-wrap; background: #171310; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-top: 6px; font-size: 12px; color: var(--dim); display: none; }
+  .tag { color: var(--dim); }
+  .warn { color: var(--bad); }
+  a { color: var(--gold); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Onmyoji Codex — Content Admin</h1>
+  <nav id="cats"></nav>
+  <span style="flex:1"></span>
+  <button class="p" id="buildBtn">Build site data</button>
+  <a href="/site/../index.html" style="visibility:var(--sitelink,visible)" id="openSite" target="_blank">open site ↗</a>
+</header>
+<main>
+  <aside id="side">
+    <div class="inner">
+      <input type="search" id="q" placeholder="search…">
+      <ul id="list"></ul>
+    </div>
+    <div class="btnrow">
+      <input id="newNo" placeholder="no (e.g. 284)" style="width:96px; background:rgba(255,255,255,.05); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:4px 8px; font:inherit;">
+      <input id="newName" placeholder="EN name" style="flex:1; background:rgba(255,255,255,.05); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:4px 8px; font:inherit;">
+      <button class="mini" id="newBtn">+ New</button>
+      <button class="mini" id="delBtn">– Delete</button>
+    </div>
+  </aside>
+  <section id="edit"></section>
+</main>
+<div id="status"><div id="statusbox"></div><span id="statusmsg"></span></div>
+
+<script type="module">
+const $ = (s) => document.querySelector(s);
+const CATS = {
+  shikigami: "Shikigami", souls: "Souls",
+  characters: "Onmyoji & Champions", bondlings: "Bondlings", "status-icons": "Status Icons",
+};
+let cat = localStorage.getItem("admin.cat") ?? "shikigami";
+let slug = null, original = null, stripMode = false;
+
+$("style").insertAdjacentHTML("beforeend", `#openSite{visibility:visible;text-decoration:none}`);
+
+/* ---------- helpers ---------- */
+const api = (p, body) => fetch(p, body ? { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) } : undefined).then(async (r) => {
+  const j = await r.json().catch(() => ({}));
+  if (r.ok) return j;
+  throw new Error(j.error ?? r.status);
+});
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&${{ "&": "amp", "<": "lt", ">": "gt", '"': "quot", "'": "#39" }[c]}`);
+const isPath = (key, v) => typeof v === "string" && /^(assets\/|File:).+\.(webp|png|jpe?g|gif|svg)$/i.test(v) && /\.(webp|png|jpe?g|gif|svg)$/i.test(v);
+
+function status(msg, ok) {
+  $("#statusmsg").textContent = msg;
+  $("#statusmsg").style.color = ok === false ? "var(--bad)" : ok === true ? "var(--ok)" : "var(--gold)";
+  clearTimeout(status._t);
+  status._t = setTimeout(() => ($("#statusmsg").textContent = ""), 3500);
+}
+
+/* ---------- recursive form editor ---------- */
+function render(v, path) {
+  if (v === null) return `<span class="row"><label title="${esc(path)}">${esc(path.split(".").pop())}</label><input type="text" data-path="${esc(path)}" value="" data-null="1" placeholder="null"></span>`;
+  if (typeof v === "number") return `<span class="row"><label>${esc(path.split(".").pop())}</label><input type="number" step="any" data-path="${esc(path)}" value="${v}"></span>`;
+  if (typeof v === "boolean") return `<span class="row"><label>${esc(path.split(".").pop())}</label><input type="text" data-path="${esc(path)}" value="${v}" style="max-width:80px"></span>`;
+  if (typeof v === "string") {
+    const prev = isPath(path, v) && !v.startsWith("File:")
+      ? `<img class="imgprev" loading="lazy" src="/site/${esc(v)}" onerror="this.classList.add('broken')">` : "";
+    const long = v.length > 120 || /\n/.test(v);
+    return `<span class="row"><label>${esc(path.split(".").pop())}</label><span class="pathRow"><span class="f">
+      ${long ? `<textarea data-path="${esc(path)}" data-long="1">${esc(v)}</textarea>` : `<input type="text" data-path="${esc(path)}" value="${esc(v)}">`}
+      ${v?.startsWith("File:") ? `<span class="tag">wiki-file</span>` : ""}${prev}</span></span>`;
+  }
+  if (Array.isArray(v)) {
+    if (!v.length) return `<fieldset><legend>${esc(path.split(".").pop())} <span class="tag">(empty)</span></legend><button class="mini add-item" data-path="${esc(path)}">+ add</button></fieldset>`;
+    return `<fieldset><legend>${esc(path.split(".").pop())} <span class="tag">[${v.length}]</span></legend>${v.map((x, i) =>
+      `<div class="arrblock"><span class="ops"><button class="mini arr-up" data-path="${esc(path)}" data-i="${i}" title="move up">↑</button><button class="mini del-item" data-path="${esc(path)}" data-i="${i}" title="remove">✕</button></div>${render(x, `${path}.${i}`)}</div>`).join("")
+    }<button class="mini add-item" data-path="${esc(path)}">+ add</button></fieldset>`;
+  }
+  /* object */
+  return `<fieldset><legend>${esc(path.split(".").pop()) || "entry"}</legend>${Object.entries(v).map(([k, x]) => render(x, path ? `${path}.${k}` : k)).join("")}</fieldset>`;
+}
+
+function get(obj, path) { return path.split(".").reduce((o, k) => o?.[k], obj); }
+function set(obj, path, val) {
+  const ks = path.split(".");
+  const last = ks.pop();
+  const tgt = ks.reduce((o, k, i) => {
+    const key = /^\d+$/.test(k) ? +k : k;
+    if (o[key] == null) o[key] = /^\d+$/.test(ks[i + 1]) ? [] : {};
+    return o[key];
+  }, obj);
+  tgt[(/^\d+$/.test(last) ? +last : last)] = val;
+}
+
+function hydrateFromDOM(root) {
+  for (const el of root.querySelectorAll("[data-path]")) {
+    if (el.dataset.consumed) continue;
+    let v = el.dataset.null != null ? null : el.type === "number" ? parseFloat(el.value) : el.value;
+    set(original, el.dataset.path, v);
+  }
+}
+
+/* ---------- data flow ---------- */
+async function loadCats() {
+  $("#cats").innerHTML = Object.entries(CATS).map(([k, n]) => `<button data-cat="${k}" class="${k === cat ? "p" : ""}">${n}</button>`).join("");
+  for (const b of $("#cats").querySelectorAll("button")) b.onclick = () => { cat = b.dataset.cat; localStorage.setItem("admin.cat", cat); location.hash = ""; slug = null; open(); };
+}
+
+async function open() {
+  await loadCats();
+  const r = await api(`/api/list?cat=${cat}`);
+  const q = $("#q").value.toLowerCase();
+  const items = r.items.filter((i) => i.label.toLowerCase().includes(q) || i.slug.toLowerCase().includes(q));
+  $("#list").innerHTML = items.map((i) => `<li data-slug="${esc(i.slug)}" class="${i.slug === slug ? "sel" : ""}">${esc(i.label)}</li>`).join("");
+  for (const li of $("#list").querySelectorAll("li")) li.onclick = () => { slug = li.dataset.slug; location.hash = slug; open(); };
+  if (items.length && !slug) slug = items[0].slug;
+  if (slug) await loadEntry(); else $("#edit").innerHTML = `<p class="tag" style="padding:30px">Select an entry on the left.</p>`;
+}
+
+async function loadEntry() {
+  try { original = await api(`/api/entry?cat=${cat}&slug=${encodeURIComponent(slug)}`); }
+  catch (e) { status(e.message, false); return; }
+  $("#edit").innerHTML = `<h2 class="pageTitle">${esc(CATS[cat])} › ${esc(slug)}</h2>${render(original, "")}`;
+}
+
+function wireMultiply() {
+  $("#edit").addEventListener("click", (ev) => {
+    const b = ev.target;
+    const path = b.dataset?.path;
+    if (!path) return;
+    hydrateFromDOM($("#edit"));
+    if (b.classList.contains("add-item")) {
+      const arr = get(original, path);
+      const proto = arr[arr.length - 1] ?? {};
+      const clone = structuredClone(proto);
+      if (typeof clone === "object") { for (const k in clone) if (typeof clone[k] === "string") clone[k] = ""; }
+      arr.push(clone);
+    } else if (b.classList.contains("del-item")) {
+      get(original, path).splice(+b.dataset.i, 1);
+    } else if (b.classList.contains("arr-up") && +b.dataset.i > 0) {
+      const a = get(original, path);
+      [a[+b.dataset.i - 1], a[+b.dataset.i]] = [a[+b.dataset.i], a[+b.dataset.i - 1]];
+    } else return;
+    $("#edit").innerHTML = `<h2 class="pageTitle">${esc(CATS[cat])} › ${esc(slug)}</h2>${render(original, "")}`;
+  });
+}
+
+async function save() {
+  hydrateFromDOM($("#edit"));
+  const r = await api("/api/save", { cat, slug, data: original });
+  status(`saved → ${r.file}`, true);
+}
+async function build() {
+  hydrateFromDOM($("#edit"));
+  if (slug) await save();
+  const r = await api("/api/build");
+  const box = $("#statusbox");
+  box.style.display = "block";
+  box.textContent = `build exit=${r.code}\n${r.out.trim().slice(-1500)}`;
+  status(r.code ? "build FAILED — see output" : "built data/*.json", !r.code);
+}
+
+$("#edit").addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); save(); } });
+$("#buildBtn").onclick = build;
+$("#q").oninput = open;
+$("#newBtn").onclick = async () => {
+  const no = $("#newNo").value.trim(), name = $("#newName").value.trim();
+  if (!no && !name) return status("give a no or name first", false);
+  const r = await api("/api/new", { cat, no, name });
+  if (r.code) status("already exists / error:\n" + r.out.trim().split("\n").pop(), false);
+  else { slug = no; status("entry created — now edit:", true); }
+  open();
+};
+$("#delBtn").onclick = async () => {
+  if (cat === "status-icons") return status("can't delete the glossary file", false);
+  if (!confirm(`Delete ${cat}/${slug}.json? (site bundle updates on Build)`)) return;
+  await api("/api/delete", { cat, slug });
+  slug = null; open();
+};
+
+wireMultiply();
+open();
+</script>
+</body>
+</html>

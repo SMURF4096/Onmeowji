@@ -1,0 +1,211 @@
+{
+  "no": 246,
+  "en": "Akashita",
+  "cn": "赤舌",
+  "jp": "",
+  "gl": "Akashita",
+  "rarity": "N",
+  "image": "File:246.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Akashita",
+  "cv": "Nara Toru",
+  "intro": "",
+  "imageUrl": "assets/shikigami/246.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/246.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2461",
+      "name": "Hit (海扁/ぶっ飛ばす)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Aha! I can't control my strength.",
+      "description": "Rushes to an enemy and attempts to lick them, but because of his overwhelming strength, he sends them flying, dealing damage equal to 100% his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%"
+        }
+      ],
+      "icon": "assets/skills/2461.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2462",
+      "name": "Morale Boost (鼓舞/鼓舞)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Good luck! I'm drumming!",
+      "description": "Beats the drum in his hand, invigorating the battle, grants all allies Morale Boost. Lasts 2 turns. ;Morale Boost : : '''Buff, State''': Increases speed by 5 and crit by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Crit increases to 8%"
+        },
+        {
+          "lvl": 3,
+          "text": "Speed increases to 10"
+        },
+        {
+          "lvl": 4,
+          "text": "Crit increases to 11%"
+        },
+        {
+          "lvl": 5,
+          "text": "Speed increases to 15"
+        }
+      ],
+      "icon": "assets/skills/2462.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2463",
+      "name": "Winds and Thunders (风鼓雷/風鼓雷)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Ahoy...... it's thundering!",
+      "description": "Beats a drum and summons thunderclouds, dropping lightning onto all enemies 2 times, dealing damage equal to 60% of his attack each time. Has a 30% chance to reduce their move bar by 100%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 63%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 66%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 69%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 72%"
+        }
+      ],
+      "icon": "assets/skills/2463.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Clear Awakening Dungeon 5 (Solo) with Akajita.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Obtain 30 Akajita shards from Hyakki Yakou.",
+      "reward": "Shikigami No.246 ×10"
+    },
+    {
+      "condition": "Increase Akajita's skill 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/246skin1.webp",
+  "stats": {
+    "min": {
+      "no": 246,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 246,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

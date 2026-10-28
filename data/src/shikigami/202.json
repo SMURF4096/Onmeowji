@@ -1,0 +1,220 @@
+{
+  "no": 202,
+  "en": "Sanbi no Kitsune",
+  "cn": "三尾狐",
+  "jp": "三尾の狐",
+  "gl": "Mio",
+  "rarity": "R",
+  "image": "File:202.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sanbi_no_Kitsune",
+  "cv": "Miyuki Sawashiro",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/202.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/202.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "124",
+        "lv2": null,
+        "max": "2921"
+      },
+      "hp": {
+        "lv1": "875",
+        "lv2": null,
+        "max": "10368"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "92",
+        "lv2": null,
+        "max": "122"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2021",
+      "name": "Tail Slash (狐袭/尻尾攻撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hehe! I'm coming for you!",
+      "description": "Sanbi no Kitsune approaches with a smile and mercilessly slashes a single target with her tails, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Has a 20% chance of increasing her own SPD by 10, lasts for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of increasing her own SPD increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 6,
+          "text": "Duration of SPD boost increases to 2 turns."
+        }
+      ],
+      "icon": "assets/skills/2021.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2022",
+      "name": "Seduction (诱惑/誘惑)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Come with me! I know how to have a good time.",
+      "description": "When dealing damage, Sanbi no Kitsune has a 50% chance of inflicting 20% HP Steal.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP Steal increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of inflicting HP Steal increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP Steal increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "If her current HP is equal to her max HP, she deals an additional 15% of damage."
+        }
+      ],
+      "icon": "assets/skills/2022.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2023",
+      "name": "Woman Scorned (红颜怒发/紅顔怒髪)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "So you seek to betray me? I'll show you betrayal!",
+      "description": "Sanbi no Kitsune launches a 3 strike attack on an enemy, dealing damage equal to 88% of her ATK with each strike. ;Cunning Mark (狐の印) : :'''Debuff, Status''': Each stack of Cunning Mark deals indirect damage equal to 10% of Sanbi no Kitsune's ATK each turn, lasts for 2 turns. Can be stacked.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 97%."
+        },
+        {
+          "lvl": 3,
+          "text": "When dealing damage, each strike has a 100% base chance of inflicting 1 layer of level 5 Poison and 1 layer of Cunning Mark, both last for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 106%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Cunning Mark''': Indirect damage increases to 20%."
+        },
+        {
+          "lvl": 6,
+          "text": "Duration of Poison and Cunning Mark increases to 3 turns."
+        }
+      ],
+      "icon": "assets/skills/2023.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Sanbi no Kitsune.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Sanbi no Kitsune take part in 60 Realm Raids.",
+      "reward": "Shikigami No.202 ×10"
+    },
+    {
+      "condition": "With Sanbi no Kitsune clear stage 5 of the Orochi soul zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/202skin1.webp",
+  "stats": {
+    "min": {
+      "no": 202,
+      "en": null,
+      "atk": 124,
+      "hp": 875,
+      "def": 68,
+      "spd": 92,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 202,
+      "en": null,
+      "atk": 2921,
+      "hp": 10368,
+      "def": 441,
+      "spd": 122,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

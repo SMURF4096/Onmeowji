@@ -1,0 +1,16 @@
+{
+  "no": 31,
+  "en": "Senecio",
+  "cn": "返魂香",
+  "jp": "Henkonkou",
+  "type": "RES",
+  "image": "File:Soul31.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Senecio",
+  "imageUrl": "assets/souls/Soul31.webp",
+  "localImage": "assets/souls/Soul31.webp",
+  "combo2": "Increases resist by 15%",
+  "combo4": "When receiving damage, has 25% base chance to inflict the attacker with daze, lasts for 1 turn. Chance is decreased by 60% against taunted targets, if the equipper is attacked multiple times it will only activate once.",
+  "location": "Soul Zones · Sougenbi · Chapter 21 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M31.webp"
+}

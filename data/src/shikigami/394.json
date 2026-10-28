@@ -1,0 +1,186 @@
+{
+  "no": 394,
+  "en": "Tsukuyomi",
+  "cn": "月读",
+  "jp": "月読",
+  "gl": "月読",
+  "rarity": "SSR",
+  "image": "File:394.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tsukuyomi",
+  "cv": "Hiroki Takahashi (Skin 1, 3) · Kikuko Inoue (Skin 2, 4)",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/394.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/394.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "148",
+        "lv2": null,
+        "max": "3401"
+      },
+      "hp": {
+        "lv1": "1335",
+        "lv2": null,
+        "max": "15392"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "S",
+        "SS"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3941",
+      "name": "Empty Void (空亡)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The night gives no answers.",
+      "description": "Tsukuyomi strikes a single target with the power of lies, dealing damage equal to 100% of their ATK. ; Illusory Moon (虚偽の月) :Immune to debuffs and control effects. Inherits 45% of Tsukuyomi's HP, 100% of their DEF, and 100% of their SPD. When it takes an action, inflicts all enemies with 2 stacks of Lost Star. Reduces its redirected damage received and AOE damage received by 50%. When it takes lethal damage, it is KO'd after the attacker takes an action. When the Illusory Moon is present, Tsukuyomi ignores 100 DEF when attacking monsters. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and if the Illusory Moon is present, restores 10% of Tsukuyomi's HP."
+        }
+      ],
+      "icon": "assets/skills/3941.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3942",
+      "name": "Illusory Moonfall (虚誕月落)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "The stars are now in place and the illusory moon will fall again.",
+      "description": "There's a fine line between illusion and reality, friend and foe. Tsukuyomi conjures the Illusory Moon. While the Illusory Moon is present and when an enemy use a normal attack or single target special skill to attack an ally, there is a 40% chance of the damage and accompanying debuffs or control effects to be redirected to the Illusory Moon; when an enemy uses a normal attack or single target special skill and and fails to deal damage, there is also a 40% chance of its debuffs or control effects to be redirected to the Illusory Moon. ; : ; Illusory Moon (虚偽の月) :Immune to debuffs and control effects. Inherits 45% of Tsukuyomi's HP, 100% of their DEF, and 100% of their SPD. When it takes an action, inflicts all enemies with 2 stacks of Lost Star. Reduces its redirected damage received and AOE damage received by 50%. When it takes lethal damage, it is KO'd after the attacker takes an action. When the Illusory Moon is present, Tsukuyomi ignores 100 DEF when attacking monsters. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 70%. For every 30% of Illusory Moon's max HP, the chance increases by an additional 10%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Exclusive effect''': At the end of a non-summoned enemy's turn, increases Tsukuyomi's move bar by 10% until the Illusory Moon is conjured for the first time."
+        }
+      ],
+      "icon": "assets/skills/3942.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3943",
+      "name": "Moon Collapsed (月烬天極/月燼天極)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Sleep now. This is the truth prepared especially for you.",
+      "description": "The ashes of lies fall from the sky. Tsukuyomi launches a 4-strike attack on all enemies, dealing damage equal to 44% of their ATK with each strike. Also inflicts 1 stack of Lost Star on a targeted enemy. ;Lost Star (惑星) : :'''Debuff, Mark''': Max of 5 stacks. After a target with Lost Star is attacked, detonates it and removes 1 stack, dealing damage equal to 55% of Tsukuyomi's ATK and restoring 5% of Illusory Moon's max HP, does not trigger the enemy's soul effects. Damage increases to 85% when attacking monsters. Triggers once per turn. When Tsukuyomi attacks an enemy with 2 or more Lost Star stacks, detonates it at the end of Tsukuyomi's turn and removes 3 Lost Star stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 47%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 56% and the number of Lost Star stacks inflicted increases to 2."
+        }
+      ],
+      "icon": "assets/skills/3943.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Tsukuyomi's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Tsukuyomi's skills 8 times.",
+      "reward": "Shikigami No.394 ×10"
+    },
+    {
+      "condition": "With Tsukuyomi win 30 times in .",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/394skin1.webp"
+}

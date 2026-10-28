@@ -1,0 +1,186 @@
+{
+  "no": 391,
+  "en": "Jinkougyou",
+  "cn": "寻香行",
+  "jp": "尋香行",
+  "gl": "尋香行",
+  "rarity": "SSR",
+  "image": "File:391.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Jinkougyou",
+  "cv": "Yuusuke Kobayashi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/391.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/391.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "152",
+        "lv2": null,
+        "max": "3511"
+      },
+      "hp": {
+        "lv1": "790",
+        "lv2": null,
+        "max": "9228"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3911",
+      "name": "Guiding Fragrance (御香引)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is our way home.",
+      "description": "Jinkougyou shapes a wisp of incense smoke into a blade and attacks a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3911.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3912",
+      "name": "Dream Binder (縛夢明香)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "With this one wisp of incense smoke, lost souls will return from all directions.",
+      "description": "Exclusive effect. <br>The echoes of incense from distant memory drift out from the divine censer to create a Scented Realm, sustained for 3 turns. While the realm is active and at the end of each other non-summoned allies' turn, Jinkougyou gains 1 Devout Mind stack. Also, he has a 40% base chance of inflicting Soul Binder when attacking enemies. Additionally, for every 1% the enemy's DEF is lower than Jinkougyou's, his damage dealt increases by 1%. ;Devout Mind (心香) : :'''Buff, Mark''': When stacked 5 times, consumes all stacks to deal indirect damage equal to 43% of his ATK to all enemies. ;Soul Binder (縛魂香) : :'''Debuff, Mark''': Each stack permanently decreases the target's initial DEF by 5%, max of 5 stacks. When stacked 3 times, converts all stacks into Distracted and inflicts indirect damage equal 231% of his ATK to an enemy. ;Distracted (失神) : :'''Debuff, Mark''': When the move bar of the enemy with this mark reaches the top of the turn order, removes this mark to skip their turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When casting Bodhicitta, Scented Realm lasts for 1 more turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Each stack of Soul Binder decreases the enemy's DEF by 10%."
+        },
+        {
+          "lvl": 4,
+          "text": "Onibi cost decreases to 2."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': This skill is automatically used at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3912.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3913",
+      "name": "Bodhicitta (菩提愿)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "With my crystal heart, I shall makes a kind wish and become the avatar of awakening to encompass boundless sins.",
+      "description": "I will contain the evil within my body to grant you a long and peaceful dream. <br>Jinkougyou attacks all enemies dealing indirect damage equal to 80% of his ATK. ; : ;Soul Binder (縛魂香) : :'''Debuff, Mark''': Each stack decreases the target's initial DEF by 5%, max of 3 stacks. When stacked 3 times, converts all stacks into Distracted and inflicts indirect damage equal 231% of his ATK to the inflicted enemy. ;Distracted (失神) : :'''Debuff, Mark''': When the move bar of the enemy with this mark reaches the top of the turn order, removes this mark to skip their turn. When an enemy is inflicted with this for the first time, their initial DEF is permanently decreased by 35%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Indirect damage increases to 100% and for each enemy KO'd since the start of battle, his indirect damage is increased by 12% (max of 60%)."
+        }
+      ],
+      "icon": "assets/skills/3913.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Jinkougyou's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Jinkougyou's skills 8 times.",
+      "reward": "Shikigami No.391 ×10"
+    },
+    {
+      "condition": "Successfully inflict Distracted on an enemy 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/391skin1.webp"
+}

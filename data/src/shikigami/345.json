@@ -1,0 +1,241 @@
+{
+  "no": 345,
+  "en": "Kidoumaru",
+  "cn": "鬼童丸",
+  "jp": "Kidomaru",
+  "gl": "Kidomaru",
+  "rarity": "SSR",
+  "image": "File:345.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kidoumaru",
+  "cv": "KENN",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/345.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/345.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "148",
+        "lv2": null,
+        "max": "3396"
+      },
+      "hp": {
+        "lv1": "843",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "11",
+        "lv2": null,
+        "max": "11"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3451",
+      "name": "Arrival of Death (天誅)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is the best hunting ground.",
+      "description": "Kidoumaru unleashes his chains to attack a single target twice, dealing damage equal to 50% of his ATK with each hit. Also has a 100% of inflicting Bone Lock on the target for 2 turns. If the target is already afflicted with Bone Lock, the chance is reduced to 30%. When the enemy gains a single target SPD boost, Kidomaru casts Descending Judgement on them. (Before the turn starts, this effect and the extra Descending Judgement triggered by Bone Lock can be cast up to 5 times max. If the enemy already has Bone Lock, it will not trigger again. ;Bone Lock (骸の鎖) : :'''Debuff, Mark''': Immune to any Move Bar alterations or SPD boosts. When dealing damage, he also deals damage equal to 60% of ATK to other targets afflicted with Bone Lock. When an ally uses a normal attack on a target afflicted with Bone Lock, Kidomaru joins with a double team.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 59%."
+        },
+        {
+          "lvl": 5,
+          "text": "Attacking an enemy with Bone Lock grants Kidoumaru gains 1 layer of Demon Madness at the end of his turn."
+        }
+      ],
+      "icon": "assets/skills/3451.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3452a",
+      "name": "Demon Outfit (残月鬼衣)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Would you like to be my outfit?",
+      "description": "Exclusive effect. <br>Kidoumaru enters the Asura state when he has 3 layers of Demon Madness. <br>When he's in Asura state, he uses Soul Hunter on all enemies at the end of an enemy's turn. ; : ;Demon Madness (狂) : : '''Buff, Mark''': Increases SPD by 20 and damage dealt by 30%. Max 3 layers. ;Asura (修羅) : : '''Buff, Mark''': Gains a shield that can absorb 120% of his ATK and immunity to control effects.<br>Asura state ends when Soul Hunter is used 3 times or the shield fails, clearing all layers of Demon Madness on him and all Bone Locks on enemies. At the start of Kidomaruès turn, if Asura state has not been removed, Kidomaru will first use up his remaining Soul Hunter attempts.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption increases to 130%."
+        },
+        {
+          "lvl": 3,
+          "text": "Absorption increases to 140%."
+        },
+        {
+          "lvl": 4,
+          "text": "Absorption increases to 150%."
+        },
+        {
+          "lvl": 5,
+          "text": "Absorption increases to 160%."
+        }
+      ],
+      "icon": "assets/skills/3452a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3452b",
+      "name": "Soul Hunter (猟魂狂殺)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kidoumaru launches an attack on all enemies dealing damage equal to 32% of his ATK. Damage dealt by this skill won't trigger the enemies' souls.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 34%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 36%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Asura state ends, each Bone Lock removed recovers Kidoumaru's HP by 25% of his max HP."
+        }
+      ],
+      "icon": "assets/skills/3452b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3453",
+      "name": "Asura Chains (修羅骸鎖)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Your name is on my chains. You can never get away.",
+      "description": "Exclusive effect. <br>Kidoumaru launches a 3-strike attack on a single target dealing damage equal to 70% of his ATK and inflicts them with Bone Lock. Kidoumaru then enters Hidden Secret state and gains a layer of Demon Madness at the end of turn. If he is already in Hidden Secret state, he cannot re-enter the state again. ;Bone Chains (骸の鎖) : :'''Debuff, Mark''': Decreases SPD by 20 and ATK by 30%. Also prevents the target's place on the move bar from being altered. Lasts for 2 turns. When Kidoumaru deals damage, he'll deal additional damage equal to 60% of his ATK on targets with Bone Lock. This resets Bone Lock turns. ;Hidden Secret (ステルス) : :'''Buff, Mark''': Kidomaru enters a special state where enemy skills cannot target Kidoumaru, lasts 3 turns. Kidoumaru takes 20% less damage and his attacks inflict additional true damage equal to 33% of his ATK. Hidden Secret state ends after he launches an attack. ;Demon Madness (狂) : : '''Buff, Mark''': Increases SPD by 20 and damage dealt by 30%. Max 3 layers.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 75%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': At the start of battle Kidoumaru automatically enters Hidden Secret state."
+        }
+      ],
+      "icon": "assets/skills/3453.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kidoumaru's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kidoumaru's skills 8 times.",
+      "reward": "Shikigami No.345 ×10"
+    },
+    {
+      "condition": "With Kidoumaru win 30 times in .",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/345skin1.webp",
+  "stats": {
+    "min": {
+      "no": 345,
+      "en": null,
+      "atk": 148,
+      "hp": 843,
+      "def": 59,
+      "spd": 108,
+      "crit": 11,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 345,
+      "en": null,
+      "atk": 3396,
+      "hp": 10140,
+      "def": 392,
+      "spd": 118,
+      "crit": 11,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

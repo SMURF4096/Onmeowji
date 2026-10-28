@@ -1,0 +1,16 @@
+{
+  "no": 33,
+  "en": "Yamabiko",
+  "cn": "幽谷响",
+  "jp": "Yamabiko",
+  "type": "RES",
+  "image": "File:Soul33.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yamabiko",
+  "imageUrl": "assets/souls/Soul33.webp",
+  "localImage": "assets/souls/Soul33.webp",
+  "combo2": "Increases RES by 15%",
+  "combo4": "When a control effect is successfully resisted, has a 50% chance to reflect the effect to the source and is guaranteed to inflict them with the resisted control effect.",
+  "location": "Orochi Soul Zones: Stage 11 (Tuesday) · Orochi Soul Zones: Stages 1-11 (Weekends) · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M33.webp"
+}

@@ -1,0 +1,234 @@
+{
+  "no": 575,
+  "en": "Fuuyoukun",
+  "cn": "封阳君",
+  "jp": "封陽君",
+  "gl": "Fengyang",
+  "rarity": "SSR",
+  "image": "File:575.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Fuuyoukun",
+  "cv": "Masahiro Yamanaka",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/575.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/575.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "135",
+        "lv2": null,
+        "max": "3109"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "30"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5751a",
+      "name": "Sword Technique (封阳刀法)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Put down your weapon and surrender.",
+      "description": "Fuuyoukun attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5751a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "5751b",
+      "name": "Sword Technique: Cold Snow (封阳刀法・寒雪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Fuuyoukun attacks a single target 2 times, dealing damage equal to 50% of his ATK with each hit and has a 30% base chance to inflict Deep Freeze, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/5751b.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "5751c",
+      "name": "Sword Technique: Clear Sky (封阳刀法・晴空)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Fuuyoukun attacks a single target 3 times, dealing damage equal to 25%, 35% and 165% of his ATK with each hit respectively.",
+      "upgrades": [],
+      "icon": "assets/skills/5751c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5752",
+      "name": "Leopard's Tactics (龙韬豹略)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "With the strategies of the Loong and the tactics of the leopard. I ride the wind and move like the cloud.",
+      "description": "Exclusive effect. When Fuuyoukun attacks a target, they become a Wanted Criminal, lasts for turns. After using his normal attack, he switches to his Cold Snow sword style; after using 望月星河, he switches to his Clear Sky sword style. While the sword style effects are active, his damage reduction is increased by 50%. ;Upon Usage :Fuuyoukun resets his current sword style and increases his move bar by 50%. ;Wanted Criminal (通缉) : :'''Debuff, Mark''': The inflicted target becomes vulnerable to the next attack, their damage received is increased by 50%. ;Cold Snow (寒雪) : :'''General, Mark''': Sword Technique changes to Sword Technique: Cold Snow, 望月星河 changes to 望月星河・雪影. ;Clear Sky (晴空) : :'''General, Mark''': Sword Technique: changes to Sword Technique: Clear Sky, 望月星河 changes to 望月星河・艳阳.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "At the start of battle and after switching sword styles, gains Shelter, lasts for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "When his move bar is decreased, he launches a counter-attack on the source of the decrease."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to move bar upon resetting sword styles increases to 75%."
+        },
+        {
+          "lvl": 5,
+          "text": "Switching sword styles on turn increases his move bar by 100% (max of once per turn)."
+        }
+      ],
+      "icon": "assets/skills/5752.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5753a",
+      "name": "? (望月星河)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The YLED is ordered to investigate the case.",
+      "description": "Fuuyoukun attacks all enemies 3 times, dealing damage equal to 25% of his ATK with each hit. ;Freeze Effect (凍結類効果) :When inflicted with effects such as Freeze, Deep Freeze, Frostbound, and Rest in Ice.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''望月星河・雪影''': Freeze changes to Deep Freeze."
+        },
+        {
+          "lvl": 3,
+          "text": "'''望月星河・艳阳''': Damage for the the 3rd hit increases to 180%."
+        },
+        {
+          "lvl": 4,
+          "text": "When an enemy's Freeze Effects are removed, his SPD is increased by 40 (max of 80), lasts for 1 turn"
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi costs decreases by 1."
+        }
+      ],
+      "icon": "assets/skills/5753a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5753b",
+      "name": "Moonlit Stars: Shadowing Snow (望月星河・雪影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Fuuyoukun attacks all enemies 3 times, dealing damage equal to 40% of his ATK with each hit and has a 12% base chance to inflict Freeze , lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/5753b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5753c",
+      "name": "Moonlit Stars: Bright Sun (望月星河・艳阳)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Fuuyoukun attacks all enemies 3 times, dealing damage equal to 25%, 35% and 180% of his ATK with each hit respectively.",
+      "upgrades": [],
+      "icon": "assets/skills/5753c.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Fuuyoukun's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Fuuyoukun's skills 12 times.",
+      "reward": "Shikigami No.575 ×10"
+    },
+    {
+      "condition": "With Fuuyoukun win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/575skin1.webp"
+}

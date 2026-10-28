@@ -1,0 +1,186 @@
+{
+  "no": 551,
+  "en": "Jinshin Shishio",
+  "cn": "寻森小鹿男",
+  "jp": "尋森シシオ",
+  "gl": "Greenwarden Shishio",
+  "rarity": "SP",
+  "image": "File:551.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Jinshin_Shishio",
+  "cv": "Kengo Kawanishi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/551.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/551.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2680"
+      },
+      "hp": {
+        "lv1": "1099",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "73",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "120",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "30",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "A"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5511",
+      "name": "Sylvan Breath (林间息/森の息吹)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The breath of the forest lingers on the wind.",
+      "description": "SP Shishio waves a tree branch and directs a florescent light towards a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5511.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5512",
+      "name": "Deer Tracer (寻鹿迹/鹿の跡)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I won't give up on my friends.",
+      "description": "Exclusive effect. Whenever SP Shishio attacks an enemy, he inflicts them with Sylvan Soul, lasts for 1 turn. At the start of his turn, he absorbs the Sylvan Souls from the enemies to gain an equal amount of Sylvan Hearts, lasts for 2 turns. ;Sylvan Soul (森の霊) : :'''General, Mark''': Triggers whenever the enemy launches an attack. SP Shishio drains their ATK by 20% of their initial ATK (cannot exceed more than 280% of his own initial ATK), max of 3 stacks, and decreases their move bar by 15%. At the end of their turn, removes 2 stacks of the draining effect. Each mark can trigger up to 3 times. ;Sylvan Heart (森の心) : :'''General, Mark''': Max of 3 stacks. Each stack increases his RES by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When he's inflicted with a debuff or control effect, has a 30% chance to be immune to them and gain a Sylvan Heart ."
+        },
+        {
+          "lvl": 3,
+          "text": "At the start of turn, each Sylvan Heart stack he has recovers his HP by 13% of his max HP."
+        },
+        {
+          "lvl": 4,
+          "text": "When a Sylvan Soul is triggered, increases his SPD by 60, lasts for 1 turn."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemies don't have a Sylvan Soul, and at the end of non-summoned enemies' turn, increases his move is by 10% ."
+        }
+      ],
+      "icon": "assets/skills/5512.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5513",
+      "name": "Sylvan Pact (森之契/森の契り)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "My people are still here with me.",
+      "description": "SP Shishio focuses the spiritual breath of his people to attack 1 enemy, dealing damage equal to 228% of his ATK. If he has a Sylvan Heart, also decreases the enemy's move bar by 40%; if they are pushed to the bottom of the move bar, he has a 100% base chance to inflicting them with Vinebound, lasts for 1 turn. ;Sylvan Heart (森の心) : :'''General, Mark''': Max of 3 stacks. Each stack increases his RES by 20%. ;Vinebound (纒繞/絡みつく) : :Bound by vines, cannot deal damaged and boost to move bar effects are decreased by 60%. Cannot be dispelled.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each Sylvan Heart he has increases this skill's damage multiplier by 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "When he has 1 Sylvan Heart, he attacks 1 additional enemy at random."
+        },
+        {
+          "lvl": 4,
+          "text": "When he has 2 Sylvan Hearts, he attacks 2 additional enemies at random."
+        },
+        {
+          "lvl": 5,
+          "text": "When he has 3 Sylvan Hearts, he's guaranteed to inflict Vinebound."
+        }
+      ],
+      "icon": "assets/skills/5513.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Shishio's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Shishio's skills 8 times.",
+      "reward": "Shikigami No.551 ×10"
+    },
+    {
+      "condition": "Donate 1 SP Shishio shard in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/551skin1.webp"
+}

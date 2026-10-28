@@ -1,0 +1,224 @@
+{
+  "no": 356,
+  "en": "Senhime",
+  "cn": "千姬",
+  "jp": "千姫",
+  "gl": "千姫",
+  "rarity": "SSR",
+  "image": "File:356.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Senhime",
+  "cv": "Ayahi Takagaki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/356.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/356.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "111",
+        "lv2": null,
+        "max": "121"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3561",
+      "name": "Thousand Tides (千汐)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The waves bring both blessings and destruction.",
+      "description": "Senhime sends splashing waves to attack a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and if Murex Halberd is present, it gains 1 layer of Sound of the Tides."
+        }
+      ],
+      "icon": "assets/skills/3561.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3562",
+      "name": "Tidal Dream (汐夢)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Time is meaningless in the Sea of Eternity.",
+      "description": "At the end of a non-summoned enemy's turn, Senhime rides the waves to increase her move bar by 10%. <br>Senhime attacks a single target dealing damage equal to 172% of her ATK. If Murex Halberd is present, also inflicts them with Tidal Dream, lasts for 1 turn. ;Tidal Dream (汐夢) : :'''Debuff, Mark''': Effect is consumed after taking an action and removes 3 onibi from the enemy. Does not affect monsters.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 185%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 198%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 211%."
+        },
+        {
+          "lvl": 5,
+          "text": "If a enemy inflicted with Tidal Dream has 0 onibi after taking an action, they become inflicted with Deep Freeze (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3562.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3563a",
+      "name": "Tame the Tides (海潮入夢)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Only the tides and songs of the merfolk are the guiding lights in the sea.",
+      "description": "Senhime summons Murex Halberd to receive blessings from the tides. ; : ;Sound of the Tides (潮声) : :'''Buff, Mark''': Each time Murex Halberd gains 7 layers of Sound of the Tides, gain 3 onibi and damage dealt for all allies is permanently increased by 15%, max 5 layers. ;Murex Halberd (海貝の戟) :Immune to debuffs and controlling effects. Unable to move. Its DEF is equal to 100% of Senhime's DEF and HP is equal to 550% of her ATK.<br>When it is on the battlefield, it recovers the HP of an ally by 30% of the damage received. Murex Halberd has is a 50% chance of gaining 1 layer of Sound of the Tides when an ally spends an onibi. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Murex Halberd is present, Senhime and Murex Halberd gain 30% of damage reduction."
+        },
+        {
+          "lvl": 3,
+          "text": "When Murex Halberd is present, chance of gaining 1 layer of Sound of the Tides increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "When Senhime is wielding the Murex Halberd, she gains immunity to controlling effects and similar effects such as Banish."
+        },
+        {
+          "lvl": 5,
+          "text": "When Murex Halberd is summoned, it immediately gains 3 layers of Sound of the Tides."
+        }
+      ],
+      "icon": "assets/skills/3563a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3563b",
+      "name": "Tide of Eternity (永生の汐)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Senhime raises Murex Halberd to direct a torrent of waves at all enemies, dealing damage equal to 120% of her ATK.\nAt the start of her turn, she gains 1 layer of Dirge, max 5 layers. The damage for this skill increases to 220%/320%/420%/520%/620% based on how many Dirge layers (1-5) she has.\nAfter usage or Murex Halberd is KO'd, all layers of Dirge are removed and this skill changes to Tame the Tides.\n;Dirge (悲歌)\n:\n:Increases damage dealt by Tide of Eternity.",
+      "upgrades": [],
+      "icon": "assets/skills/3563b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Senhime with another player's Suzuka Gozen and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Senhime's skills 8 times.",
+      "reward": "Shikigami No.356 ×10"
+    },
+    {
+      "condition": "Increase Senhime's level to 40.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/356skin1.webp",
+  "stats": {
+    "min": {
+      "no": 356,
+      "en": null,
+      "atk": 127,
+      "hp": 1064,
+      "def": 64,
+      "spd": 111,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 356,
+      "en": null,
+      "atk": 2948,
+      "hp": 12532,
+      "def": 410,
+      "spd": 121,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 279,
+  "en": "Kachou Fuugetsu",
+  "cn": "花鸟卷",
+  "jp": "花鳥風月",
+  "gl": "Hana",
+  "rarity": "SSR",
+  "image": "File:279.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kachou_Fuugetsu",
+  "cv": "Saori Hayami",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/279.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/279.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "100",
+        "lv2": "109",
+        "max": "2305"
+      },
+      "hp": {
+        "lv1": "1216",
+        "lv2": "1323",
+        "max": "14127"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "68",
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": "112",
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "c"
+      ],
+      "hp": [
+        "s",
+        "s"
+      ],
+      "def": [
+        "c",
+        "c"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2791",
+      "name": "Loyal Flock (归鸟/帰鳥)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Remember to come back to me!",
+      "description": "Kacho Fuugetsu commands the birds around her to peck a single target a number of times based on how many birds she currently has. Each bird deals damage equal to 40% of her attack and has a 50% chance of restoring the ally with the lowest HP by 10% of her max HP. <br>At the start of her turn or when she has no birds, 1 new bird will be replenished. Max of 2 birds. <br>Launching a counter-attack sacrifices 1 bird.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance of restoring HP increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of restoring HP increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of restoring HP increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases max bird limit to 3."
+        }
+      ],
+      "icon": "assets/skills/2791.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2792",
+      "name": "Painting Realm (画境/絵巻の世界)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The world in my paintings is the world inside my heart!",
+      "description": "At the end of Kachou Fuugetsu's action, she has a 20% chance of increasing her move bar by 20%. <bf>Unique effect. When she or an ally is inflicted with a control effect, has a 30% chance of sacrificing 1 bird to negate the control effect.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance of triggering the boost to move bar increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Boost to move bar increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of triggering the boost to move bar increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Boost to move bar increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2792.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2793",
+      "name": "Fragrant Flowers (花鸟相闻/花鳥共鳴)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Behold the sweet fragrance of my flowers!",
+      "description": "Kachou Fuugetsu restores the HP of all allies by 8% of her max HP and grants them Nectar, lasts for 2 turns. Nectar restores their HP by 7% and 6% on those turns respectively. ;Nectar (かぐわしい花) : :'''Buff, Mark''': HP is restored before taking an action.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Nectar''': HP restored increases to 9% and 8%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 12%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Nectar''': HP restored increases to 11% and 10%."
+        }
+      ],
+      "icon": "assets/skills/2793.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kachou Fuugetsu win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kachou Fuugetsu's level to 30.",
+      "reward": "Shikigami No.279 ×10"
+    },
+    {
+      "condition": "Increase Kachou Fuugetsu's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/279skin1.webp",
+  "stats": {
+    "min": {
+      "no": 279,
+      "en": null,
+      "atk": 100,
+      "hp": 1216,
+      "def": 61,
+      "spd": 102,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 279,
+      "en": null,
+      "atk": 2305,
+      "hp": 14127,
+      "def": 397,
+      "spd": 112,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

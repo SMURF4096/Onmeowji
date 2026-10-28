@@ -1,0 +1,212 @@
+{
+  "no": 301,
+  "en": "Juzu",
+  "cn": "数珠",
+  "jp": "",
+  "gl": "Juzu",
+  "rarity": "R",
+  "image": "File:301.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Juzu",
+  "cv": "Yukari Tamura",
+  "intro": "",
+  "method": "Shrine",
+  "imageUrl": "assets/shikigami/301.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/301.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "2251"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "485"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "c"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "b",
+        "s"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "c",
+        "c"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3011",
+      "name": "Holy Staff (降魔杖/降魔の杖)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Evil begone! Don't you dare break the peace!",
+      "description": "Juzu slams her holy staff on the ground to attack a single target with a shockwave, dealing damage equal to 100% of her ATK and has a 10% base chance to inflict them with Demon's Bane, lasts 2 turns. ;Demon's Bane (降魔) : :'''Debuff, Status''': HIT is decreased by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3011.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3012",
+      "name": "Karma (轮回/輪回)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The Buddha says reincarnation follows karma... But what does that mean?",
+      "description": "Each time an enemy takes an action, and if she is not immobile, Juzu gains 1 Buddhist Bead. <br>Zen; while under meditation, Juzu immediately gains 1 Buddhist Bead if she has none. ;Buddhist Bead (念珠) :'''General, Mark''': When she 6 Beads, she consumes all Beads to attack all enemies, dealing damage equal to 136% of her ATK and has a 30% chance of decreasing their move bar by 30%. :''(1-6 red numbered orbs with black flames will appear behind Juzu, 1 orb represents 1 layer.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Buddhist Bead''': Damage increases to 143%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Buddhist Bead''': Decrease to move bar increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Buddhist Bead''': Damage increases to 150%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Buddhist Bead''': Decrease to move bar increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3012.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3013",
+      "name": "Zen (禅意)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "\"Of all those things that from a cause arise....\" What's the next line again?",
+      "description": "Juzu meditates for 2 turns. While meditating, and if she is not immobile, each of her allies have a 40% chance of 1 debuff or control effect being dispelled (chance increases by 10% for each Buddhist Bead she has). Each debuff or control effect successfully dispelled restores that ally's HP by 3% of Juzu's max HP and increases their move bar by 30% at the cost of 1 Buddhist Bead at the end of their turn. If the dispelling fails, their RES is increased by 40%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 4%."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of debuffs or control effect that can be dispelled increases to 2."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 5%."
+        },
+        {
+          "lvl": 5,
+          "text": "Number of debuffs or control effect that can be dispelled increases to 3."
+        }
+      ],
+      "icon": "assets/skills/3013.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Juzu.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Juzu's level to 30.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "With Juzu clear any zone 40 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/301skin1.webp",
+  "stats": {
+    "min": {
+      "no": 301,
+      "en": null,
+      "atk": 97,
+      "hp": 939,
+      "def": 74,
+      "spd": 101,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 301,
+      "en": null,
+      "atk": 2251,
+      "hp": 11051,
+      "def": 485,
+      "spd": 111,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 40
+    }
+  }
+}

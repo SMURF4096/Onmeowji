@@ -1,0 +1,195 @@
+{
+  "no": 265,
+  "en": "Ibaraki Douji",
+  "cn": "茨木童子",
+  "jp": "Ibaraki Doji",
+  "gl": "Ibaraki Doji",
+  "rarity": "SSR",
+  "image": "File:265.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ibaraki_Douji",
+  "cv": "Jun Fukuyama",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/265.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/265.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3216"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "69",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2651",
+      "name": "Black Flame (黑焰/黒炎)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This should be enough to finish you off!",
+      "description": "Ibaraki Douji focuses his energy into fierce black flames and attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2651.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2652",
+      "name": "Rage Outlet (迁怒/八つ当たり)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You dare hurt my friends? Prepare to pay for what you've done!",
+      "description": "When Ibaraki Doji KO's a non-summoned enemy, he inflicts 50% of the excess damage to all enemies and consumes all Fury Fire stacks. If he fails to perform a KO, he gains a stack of Fury Fire, max of 3 stacks.\n;\n:\n;Fury Fire (怒りの炎)\n:\n:'''Buff, Status''': Increases damage dealt by 33%.",
+      "upgrades": [],
+      "icon": "assets/skills/2652.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2653",
+      "name": "Infernal Hand (地狱之手/地獄の腕)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "You should have been watching my other hand!",
+      "description": "Exclusive effect. <br>Ibaraki Douji summons his hand from hell with a demonic power to attack 1 enemy, dealing damage equal to 263% of his ATK and he gains 3 Demonic Arm stacks. After using this skill, each Fury Fire stack he has recovers 1 onibi. ;Demonic Arm (鬼の手) : :'''Buff, Mark''': Whenever another non-summoned ally uses a special skill on a single target, consumes 1 Demonic Arm stack to inflict damage equal to 171% of his ATK on that enemy. ;Fury Fire (怒りの炎) : :'''Buff, Status''': Increases damage dealt by 33%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 276% and Demonic Arm's damage increases to 176%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 289% and Demonic Arm's damage increases to 181%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 302% and Demonic Arm's damage increases to 186%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 315% and Demonic Arm's damage increases to 191%."
+        }
+      ],
+      "icon": "assets/skills/2653.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ibaraki Douji.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Ibaraki Ddouji with another player's Shuten Douji and clear any zone 10 times.",
+      "reward": "Shikigami No.265 ×10"
+    },
+    {
+      "condition": "With Ibaraki Douji clear stage 9 of any Evo zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/265skin1.webp",
+  "stats": {
+    "min": {
+      "no": 265,
+      "en": null,
+      "atk": 140,
+      "hp": 854,
+      "def": 60,
+      "spd": 102,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 265,
+      "en": null,
+      "atk": 3216,
+      "hp": 10254,
+      "def": 397,
+      "spd": 112,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

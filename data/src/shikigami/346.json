@@ -1,0 +1,195 @@
+{
+  "no": 346,
+  "en": "Reikai Kingyo Hime",
+  "cn": "聆海金鱼姬",
+  "jp": "聆海金魚姫",
+  "gl": "Seawatch Kingyo",
+  "rarity": "SP",
+  "image": "File:346.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Reikai_Kingyo_Hime",
+  "cv": "Maaya Uchida",
+  "intro": "",
+  "method": "Limited Event • Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/346.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/346.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "1035",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "111",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3461",
+      "name": "River Water (清流)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I stand by the water.",
+      "description": "SP Kingyo Hime channels a stream of water to attack a single target, dealing damage equal to 80% of her ATK and dispels 1 of the target's buffs. <br>When an ally receives damage from an enemy and the damage exceeds more than 30% of their max HP, the attacker is inflicted with 3 stacks of Grudged for 2 turns. ;Grudged (因縁) : :'''Debuff, Mark''': Max 3 stacks. In Fishtail Embrace, Surge targets the bearer and deals damage equal to 100% of SP Kingyo Hime's ATK, costing 1 stack of Grudge.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3461.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3462",
+      "name": "Ride Wave (凌波)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I stand in the water.",
+      "description": "At the end of an enemy's turn, SP Kingyo Hime gains 1 layer of Focused and gains Spiritfish Shield if she does not already have one. The shield is equal to 80% of her ATK. \n;Upper Hand\n:SP Kingyo Hime automatically gains 4 layers of Focused.\n;Focused (精神統一)\n:\n:'''General, Mark''': Max 8 stacks. When SP Kingyo Hime reaches 8 stacks, all stacks are consumed, all control effects on her are removed and all enemies are inflicted with River's Binding, lasts for 2 turns. Then activates Fishtail Embrace, lasts for 1 turn. If she already has Fishtail Embrace, her move bar is increased by 25% instead.\n;Spiritfish Shield\n:'''Buff''', '''Mark''': Absorbs a certain amount of damage and cannot be dispelled.\n;River's Binding (川流の縛)\n:\n:'''Debuff, Mark''': When an inflicted enemy receives a single target move bar increasing effect, SP Kingyo Hime focuses spiritual fish energy to reverse the flow, decreasing their SPD by 40% at the end of their turn.",
+      "upgrades": [],
+      "icon": "assets/skills/3462.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3463",
+      "name": "Goldfish's Embrace (霊魚の心)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I'm embraced by the water.",
+      "description": "Exclusive effect. <br>SP Kingyo Hiime applies 3 stacks of Grudge onto an enemy and activates Fishtail Embrace, lasts for 1 turn. Upon activation, all allies' move bars are raised by 10% and gain one stack of Surge. During it's duration, when an enemy gains a move bar boost, gain 1 stack of Surge. After an ally's turn ends, if she is still able to act, SP Kingyo Hime heals the target for 50% of ATK and triggers Surge. ;Surge : :Max 3 stacks. Each stacks deals indirect damage equal to 50% of ATK to 1 random enemy, prioritizing different targets. Each trigger increases the damage multiplier by 3%, max 80%. ;Grudged (因縁) : :'''Debuff, Status''': ATK is decreased by 20%. Cannot be stacked.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage dealt to enemies with Karma increases to 300%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Fishtail Embrace''': Decreases non-crit damage dealt to allies by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Restore effects on allies with less than 50% HP increases to 200%."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost is reduced by 1."
+        }
+      ],
+      "icon": "assets/skills/3463.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Kingyo Hime with another player's Kingyo Hime and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kingyo Hime's skills 8 times.",
+      "reward": "Shikigami No.346 ×10"
+    },
+    {
+      "condition": "With SP Kingyo Hime win 30 matches in Duel, Practice or Spar.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/346skin1.webp",
+  "stats": {
+    "min": {
+      "no": 346,
+      "en": null,
+      "atk": 142,
+      "hp": 1035,
+      "def": 68,
+      "spd": 111,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 346,
+      "en": null,
+      "atk": 3002,
+      "hp": 11051,
+      "def": 401,
+      "spd": 111,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

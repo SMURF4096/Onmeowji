@@ -1,0 +1,169 @@
+{
+  "no": 384,
+  "en": "Oshiroi Baba",
+  "cn": "粉婆婆",
+  "jp": "白粉婆",
+  "gl": "Oshiroibaba",
+  "rarity": "SR",
+  "image": "File:384.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oshiroi_Baba",
+  "cv": "Eiko Hanawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/384.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/384.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "2503"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12418"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "111",
+        "lv2": null,
+        "max": "121"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3841",
+      "name": "White Rouge (頬の色・雪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Face reflects one'a change of preference.",
+      "description": "Oshiroi Baba throws her compact a single target, dealing damage equal to 80% of her ATK. ;Makeup (粉妆/粉粧) : :'''Debuff, Status''': Max of 7 stack, lasts for 2 turns. At the start of turn, deals indirect damage equal to 45% of her ATK. At 7 stacks, removes 5 stacks at the end of turn and has a 100% base chance of inflicting Seal, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100% and inflicts 1 stack of Makeup."
+        }
+      ],
+      "icon": "assets/skills/3841.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3842",
+      "name": "Colorful Mascara (眸の色・嫣)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Eyes see through the facade of frivolity.",
+      "description": "Whenever an enemy with Makeup receives an HP restoring effect or move bar increasing effect, Oshiroi Baba inflicts an additional Makeup stack on them (max of 2 stacks each time). \n;\n:\n;Makeup (粉妆/粉粧)\n:\n:'''Debuff, Status''': Max of 7 stack, lasts for 2 turns. At the start of turn, deals indirect damage equal to 45% of her ATK. At 7 stacks, removes 5 stacks at the end of turn and has a 100% base chance of inflicting Seal, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/3842.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3843",
+      "name": "Red Lipstick (唇の色・赤)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Lips speak indiscreet words.",
+      "description": "Oshiroi Baba inflicts 3 stacks of Makeup on all enemies, lasts for 2 turns. At the start of their turn, each stack deals indirect damage equal to 45% of her ATK. When she receives damage from a normal attack, removes 3 stacks of Makeup from all enemies. ;Makeup (粉妆/粉粧) : :'''Debuff, Status''': Max of 7 stack, lasts for 2 turns. At the start of turn, deals indirect damage equal to 45% of her ATK. At 7 stacks, removes 5 stacks at the end of turn and has a 100% base chance of inflicting Seal, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When receiving damage from a normal attack, number of Makeup stacks removed from all enemies decreases to 1."
+        },
+        {
+          "lvl": 3,
+          "text": "If an enemy has 4 or more stacks of Makeup, each stack ignores 30 DEF when dealing damage."
+        },
+        {
+          "lvl": 4,
+          "text": "At the end of turn of an enemy with 7 stacks of Makeup, her HP is recovered by 8% of her max HP."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost decreases to 2."
+        }
+      ],
+      "icon": "assets/skills/3843.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Oshiroi Baba.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Oshiroi Baba's level to 40.",
+      "reward": "Shikigami No.384 ×10"
+    },
+    {
+      "condition": "Collect 10 Oshiroi Baba shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/384skin1.webp"
+}

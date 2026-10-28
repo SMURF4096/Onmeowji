@@ -1,0 +1,212 @@
+{
+  "no": 339,
+  "en": "Jinten Tamamo no Mae",
+  "cn": "烬天玉藻前",
+  "jp": "燼天玉藻前",
+  "gl": "Blazing Tamamonomae",
+  "rarity": "SP",
+  "image": "File:339.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Jinten_Tamamo_no_Mae",
+  "cv": "Romi Park (previous CV) · Chifuyu (Skins 1-2) · Shinichiro Miki (Skins 3-5)",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/339.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/339.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "166",
+        "lv2": null,
+        "max": "3511"
+      },
+      "hp": {
+        "lv1": "1174",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "115",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3391",
+      "name": "Soul Rush (霊衝)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I see everything in your soul as clear as day.",
+      "description": "SP Tamamo no Mae attacks a single target dealing damage equal to 100% his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3391.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3392",
+      "name": "Soul Devourer (食魂)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You don't deserve this power.",
+      "description": "Exclusive effect. <br>Before using Blazing Tails, SP Tamamo no Mae drains 3% of the ATK for all units on the battlefield (each target can be drained a max of 10 times) to increase his own ATK. The total ATK drained cannot exceed 60% of his initial ATK. <br>When he is KO'd, all the drained ATK will be returned.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Max ATK drained increases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "Max ATK drained increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Max ATK drained increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases drained ATK to 6%."
+        }
+      ],
+      "icon": "assets/skills/3392.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3393",
+      "name": "Blazing Tails (焚天九尾)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Legendary flame, go and alter the flow of fate!",
+      "description": "SP Tamamo no Mae launches 12 random attacks on enemies, dealing damage equal to 80% of his ATK with each strike. <br>Damage is reduced by 20% for each subsequent strike on the same target.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 96%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 104%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage reduction for each subsequent strike decreases to 15%."
+        }
+      ],
+      "icon": "assets/skills/3393.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Clear any zone 30 times with SP Tamamo no Mae.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Tamamo no Mae's level to 40.",
+      "reward": "Shikigami No.339 ×10"
+    },
+    {
+      "condition": "Increase SP Tamamo no Mae's skill 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/339skin1.webp",
+  "stats": {
+    "min": {
+      "no": 339,
+      "en": null,
+      "atk": 166,
+      "hp": 1174,
+      "def": 66,
+      "spd": 115,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 339,
+      "en": null,
+      "atk": 3511,
+      "hp": 12532,
+      "def": 388,
+      "spd": 115,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

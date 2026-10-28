@@ -1,0 +1,212 @@
+{
+  "no": 312,
+  "en": "Onikiri",
+  "cn": "鬼切",
+  "jp": "",
+  "gl": "Onikiri",
+  "rarity": "SSR",
+  "image": "File:312.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Onikiri",
+  "cv": "Kousuke Toriumi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/312.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/312.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "146",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "53",
+        "lv2": null,
+        "max": "353"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "11",
+        "lv2": null,
+        "max": "11"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3121",
+      "name": "Demonic Slash (鬼斩/鬼斬り)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Humans and spirits never co-existed in peace!",
+      "description": "Onikiri randomly draws one blade from Higekiri, Tomokiri and Shishinko to attack a single target, dealing damage equal to 80% of his ATK and activate its corresponding effect. ;Higekiri (髭切) :Gains a 20% Double Team chance for 1 turn. ;Tomokiri (友切) :Damage taken is reduced by 50%, removed after triggering 3 times. ;Shishinoko (獅子の子) :After Onmyoji defeats a non-summoned entity target, Demonic Slash strikes the enemy with the lowest HP percentage, then this blade effect disappears.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3121.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3122",
+      "name": "Demonic Blade: Rajomon (鬼刃·罗城门/鬼の刃・羅城門)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I am Onikiri, the blade that demons fear!",
+      "description": "After attacking, Onikiri inflicts a follow-up attack on the target if their is below 85%, dealing damage equal to 125% of his ATK. Then inflicts another follow-up attack on all enemies if the target's HP is below 65%, dealing damage equal to 125% of his ATK. <br>Follow-up attacks ignore shields, the damage cannot be shared and do not trigger passives or soul effects. ; : ;Shield : :Can absorb a certain amount of damage, can crit, can stack with other shields created from different sources, without any specifications it can be dispelled or removed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "At the start of battle, gain the effect of 1 random blade."
+        },
+        {
+          "lvl": 3,
+          "text": "At the start of battle, gain the effect of 2 random blades."
+        },
+        {
+          "lvl": 4,
+          "text": "At the start of battle, gain the effect of 3 random blades."
+        },
+        {
+          "lvl": 5,
+          "text": "Each activated blade effect increases ATK by 15%."
+        }
+      ],
+      "icon": "assets/skills/3122.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3123",
+      "name": "Shadow Slash (鬼影闪/鬼瞬影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Hear my blades in perfect harmony!",
+      "description": "Onikiri draws all three blades to launch 3-strikes on an enemy, dealing damage equal to 80% of his ATK and activates the effects of all three blades. ;Higekiri (髭切) :Gains a 20% Double Team chance for 1 turn. ;Tomokiri (友切) :Damage taken is reduced by 50%, removed after triggering 3 times. ;Shishinoko (獅子の子) :After Onmyoji defeats a non-summoned entity target, Demonic Slash strikes the enemy with the lowest HP percentage, then this blade effect disappears.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3123.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Onikiri.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Onikiri's skills 8 times.",
+      "reward": "Shikigami No.312 ×10"
+    },
+    {
+      "condition": "With Onikiri win 30 times in against Ibaraki Douji.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/312skin1.webp",
+  "stats": {
+    "min": {
+      "no": 312,
+      "en": null,
+      "atk": 146,
+      "hp": 907,
+      "def": 53,
+      "spd": 107,
+      "crit": 11,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 312,
+      "en": null,
+      "atk": 3350,
+      "hp": 10823,
+      "def": 353,
+      "spd": 117,
+      "crit": 11,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

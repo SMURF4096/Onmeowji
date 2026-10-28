@@ -1,0 +1,195 @@
+{
+  "no": 212,
+  "en": "Oguna",
+  "cn": "童男",
+  "jp": "",
+  "gl": "Oguna",
+  "rarity": "R",
+  "image": "File:212.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oguna",
+  "cv": "Marina Inoue",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/212.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/212.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "104",
+        "lv2": "116",
+        "max": "2340"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": "1195",
+        "max": "12836"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": "73",
+        "max": "425"
+      },
+      "spd": {
+        "lv1": "93",
+        "lv2": "103",
+        "max": "103"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2121",
+      "name": "Feather Blade (羽刃/羽の刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Downy feathers, become hard as diamond!",
+      "description": "Oguna hardens his feathers and shoots them at a single target, dealing damage equal to 100% of his ATK and has a 100% base chance of inflicting them with Blind, lasts for 2 turns. ;Blind (目を覆う) : :'''Debuff, Mark''': Decreases HIT by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2121.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2122",
+      "name": "Feather Cloak (羽衣/羽の衣)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sister, I'm here for you!",
+      "description": "When receiving damage, Oguna's Feather Cloak prevents damage equal to 3% of his max HP, up to 40% of the damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases HP proportion prevented to 3.5%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases HP proportion prevented to 4%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases HP proportion prevented to 4.5%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases HP proportion prevented to 5%."
+        }
+      ],
+      "icon": "assets/skills/2122.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2123",
+      "name": "Soul Offering (魂之祭献/魂の犠牲)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I'm willing to offer my soul.",
+      "description": "Oguna sacrifices himself to revive all KO'd allies and restores their HP by 30% of his max HP. \n;\n:",
+      "upgrades": [],
+      "icon": "assets/skills/2123.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Oguna win 30 times in PVN zones.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Oguna with another player's Doujo and clear any zone 10 times.",
+      "reward": "Shikigami No.212 ×10"
+    },
+    {
+      "condition": "Collect 40 Oguna shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/212skin1.webp",
+  "stats": {
+    "min": {
+      "no": 212,
+      "en": null,
+      "atk": 104,
+      "hp": 1078,
+      "def": 65,
+      "spd": 93,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 212,
+      "en": null,
+      "atk": 2340,
+      "hp": 12836,
+      "def": 425,
+      "spd": 103,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

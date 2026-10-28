@@ -1,0 +1,16 @@
+{
+  "no": 43,
+  "en": "Okuri-inu",
+  "cn": "夜送犬",
+  "jp": "夜送りの犬",
+  "type": "RES",
+  "image": "File:SoulO43.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Okuri-inu",
+  "imageUrl": "assets/souls/Soul43.webp",
+  "localImage": "assets/souls/Soul43.webp",
+  "combo2": "Increases RES by 15%",
+  "combo4": "When the equipper is inflicted with a control effect for the first time, gain 1 Night Parade stack. Night Parade increases RES by 80%, max of 3 stacks. At the start of turn, and if the equipper is able to take an action, removes Night Parade effect.",
+  "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M63.webp"
+}

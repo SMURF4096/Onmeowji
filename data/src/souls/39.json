@@ -1,0 +1,16 @@
+{
+  "no": 39,
+  "en": "Kataha no Ashi",
+  "cn": "片叶之苇",
+  "jp": "片叶の葦",
+  "type": "Crit",
+  "image": "File:Soul39.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kataha_no_Ashi",
+  "imageUrl": "assets/souls/Soul39.webp",
+  "localImage": "assets/souls/Soul39.webp",
+  "combo2": "Increases Crit by 15%",
+  "combo4": "When current HP is at max, damage dealt is increased by 45%.",
+  "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M59.webp"
+}

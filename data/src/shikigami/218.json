@@ -1,0 +1,212 @@
+{
+  "no": 218,
+  "en": "Karasu Tengu",
+  "cn": "鸦天狗",
+  "jp": "烏天狗",
+  "gl": "烏天狗",
+  "rarity": "R",
+  "image": "File:218.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Karasu_Tengu",
+  "cv": "Yuu Kobayashi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/218.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/218.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2975"
+      },
+      "hp": {
+        "lv1": "886",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2181",
+      "name": "Blade of Justice (正义之刺/正義の薙刀)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Justice will defeat evil!",
+      "description": "Karasu Tengu dashes forward to stab a single target, dealing damage equal to 80% of his ATK and has a 30% chance of issuing a Call to Arms to an ally with the highest initial ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/2181.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2182",
+      "name": "Purification Wings (羽清/羽清)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will eliminate all evil!",
+      "description": "When an ally use a normal attack, Karasu Tengu's move bar is increased by 5%. At the start of his turn, there's a 50% that 1 control effect will be dispelled or removed from him.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "When he issues a Call to Arms with the skills Blade of Justice or Deadly Flock, all controlling effects will be dispelled or removed from the invited ally."
+        },
+        {
+          "lvl": 5,
+          "text": "Also dispels or removes 1 control effect from a random ally."
+        }
+      ],
+      "icon": "assets/skills/2182.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2183",
+      "name": "Deadly Flock (群鸦乱舞/群烏の乱舞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Crows of justice, do my bidding!",
+      "description": "Karasu Tengu summons crows to attack all enemies, starting with the enemy with the lowest proportion of HP, dealing damage equal to 119% of his ATK with a with a 30% chance of issuing a Call to Arms to an ally with the highest initial ATK. Damage is increased by 20% for each KO'd enemy, up to a max of 100%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 131%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 143%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/2183.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Karasu Tengu take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Karasu Tengu's skills 6 times.",
+      "reward": "Shikigami No.218 ×10"
+    },
+    {
+      "condition": "Collect 40 Karasu Tengu shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/218skin1.webp",
+  "stats": {
+    "min": {
+      "no": 218,
+      "en": null,
+      "atk": 127,
+      "hp": 886,
+      "def": 65,
+      "spd": 101,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 218,
+      "en": null,
+      "atk": 2975,
+      "hp": 10482,
+      "def": 428,
+      "spd": 111,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

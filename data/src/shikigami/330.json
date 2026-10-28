@@ -1,0 +1,299 @@
+{
+  "no": 330,
+  "en": "Shiranui",
+  "cn": "不知火",
+  "jp": "",
+  "gl": "Shiranui",
+  "rarity": "SSR",
+  "image": "File:330.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shiranui",
+  "cv": "Nao Tōyama",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/330.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/330.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "149",
+        "lv2": null,
+        "max": "3457"
+      },
+      "hp": {
+        "lv1": "790",
+        "lv2": null,
+        "max": "9229"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3301a",
+      "name": "Debut (初舞)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The first song of Songstress.",
+      "description": "Shiranui dances to the music and send off butterflies to launch 2-strike attack on a single target, dealing damage equal to 50% of her ATK with each strike. <br>When Shiranui is in Sorrowful state, the skill changes to Finale.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 54%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 60%."
+        }
+      ],
+      "icon": "assets/skills/3301a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3301b",
+      "name": "Finale (終舞)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Shiranui stokes the flames and send over fire butterflies to launch a 2-strike attack, dealing damage equal to 62% of her ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 64%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 66%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 68%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 72%."
+        }
+      ],
+      "icon": "assets/skills/3301b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3302a",
+      "name": "Silhouette of Sorrow (離影)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The border between humans and spirits gradually began to blur.",
+      "description": "Exclusive effect. <br>If an ally uses a normal attack or is immobile on their turn, Shiranui has a 50% chance of performing a dance at the end of that turn, spending 5% of her current HP to increase the RES of the ally by 50%, lasts for 1 turn. <br>When Shiranui is in Sorrowful state, the skill changes to Song of Sorrow. ; : ;Upon Usage :This skill can only be used when Shiranui's HP is below 50%. Enters Sorrowful state and uses Blazing Flames without any onibi. ;Sorrowful State (離別) : :'''Buff, Mark''': Increases Crit by 30%. At the end of an ally's or enemy's turn, she restores her HP by 40% of her lost HP. At the end of her own turn, 15% of her max HP is lost.<br>Her attacks inflict Blaze of Sorrow. When attacking targets inflicted with Blaze of Sorrow, the effect is consumed to deal double damage.<br>When entering this state, her HP is restored to 100% and all buffs and debuffs are removed from her.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "RES increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "RES increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "RES increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "While the Sparkling Flame realm is active, chance of her performing a dance is increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3302a.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3302b",
+      "name": "Song of Sorrow (離歌)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Shiranui increases her own SPD by 20.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each onibi you have increases her SPD by 5."
+        },
+        {
+          "lvl": 3,
+          "text": "RES is increased by 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Each onibi you have also increases her RES by 5%."
+        },
+        {
+          "lvl": 5,
+          "text": "After using Blazing Flames, for each onibi you have dealing damage equal to 46% of her ATK."
+        }
+      ],
+      "icon": "assets/skills/3302b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3303a",
+      "name": "Blazing Sky (星火満天)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Look at the flames as they light up the sky. May this moment last forever.",
+      "description": "Exclusive effect. <br>Shiranui forms a Sparkling Flame realm, last for 2 turns. While the realm is active, all allies' damage dealt is increased by 10%, SPD by 25 and damage reduction by 10%. <br>When the realm is active and an ally use their normal attack on their turn, they have a 50% chance of using an extra normal attack on the same target again. The extra normal attack will not trigger the attacker's passive and the target's passive or souls. <br>When Shiranui is in Sorrowful state, the skill changes to Blazing Flame.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Extra normal attacks ignore 200 DEF and inflict 30% of HP steal."
+        },
+        {
+          "lvl": 3,
+          "text": "While Sparkling Flame realm is active, every onibi increases damage dealt by 2% and damage reduction by 2%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of using an extra normal attack increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Blazing Sky is automatically used at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3303a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3303b",
+      "name": "Blazing Flame (燼染不夜/火蝶炎舞)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "",
+      "description": "Shiranui performs a dance of flame and attacks all enemies, dealing damage equal to 125% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 132%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 138%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 144%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each ally KO'd, onibi cost decreases by 1."
+        }
+      ],
+      "icon": "assets/skills/3303b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Shiranui.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Shiranui's skills 8 times.",
+      "reward": "Shikigami No.330 ×10"
+    },
+    {
+      "condition": "Donate 1 Shiranui shard in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/330skin1.webp",
+  "stats": {
+    "min": {
+      "no": 330,
+      "en": null,
+      "atk": 149,
+      "hp": 790,
+      "def": 61,
+      "spd": 107,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 330,
+      "en": null,
+      "atk": 3457,
+      "hp": 9229,
+      "def": 397,
+      "spd": 117,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "no": 383,
+  "en": "Kamiochi Orochi",
+  "cn": "神堕八岐大蛇",
+  "jp": "神堕オロチ",
+  "gl": "Fallen God Orochi",
+  "rarity": "SP",
+  "image": "File:383.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kamiochi_Orochi",
+  "cv": "Mamoru Miyano",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/383.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/383.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "197",
+        "lv2": null,
+        "max": "4153"
+      },
+      "hp": {
+        "lv1": "1238",
+        "lv2": null,
+        "max": "13216"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "437"
+      },
+      "spd": {
+        "lv1": "118",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3831",
+      "name": "Soul's Punishment (霊魂懲戒)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do you feel the baptism of sin?",
+      "description": "SP Orochi gazes at the evil in the depth of single target's soul and makes a verdict, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3831.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3832a",
+      "name": "Corrupted Force (神堕之力/神堕の力)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The will of the Evil Gods is also my will!",
+      "description": "Exclusive effect. <br>SP Orochi is suppressed by a total of 6 Divine Swords: Ama no Habakiri. <br>Using this skill turn himself into The Serpent Lord, storing 6% of the initial ATK of all other allies into 1 Ama no Habakiri to serve as the energy required to break the seal of Ama no Habakiri. When he is KO'd, all stored ATK will be returned. If this skill is used in succession, the onibi cost increases by 1 each time. ;The Serpent Lord (蛇神) :His max HP cannot be changed. Max HP is equal to 200% of his ATK. Has immunity to debuffs and effects such as Banish. When The Serpent Lord removes the suppression of an Ama no Habakiri with Trial Ritual or he receives lethal damage, his original form returns to the battlefield.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''The Serpent Lord''': Max HP increases to 380%."
+        },
+        {
+          "lvl": 3,
+          "text": "Decreases The Serpent Lord's damage received from AOE attacks by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "When The Serpent Lord is KO'd, his SPD is increased by 100 (lasts for 1 turn)."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses Corrupted Force at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3832a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3832b",
+      "name": "Serpent's Devouring (蛇神之噬/蛇神の噬)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Recognize me as your new master!",
+      "description": "This skill can only be used while in his original form.\nSP Orochi removes the seal of the 6th Ama no Habakiri and creates the Final Judgement field, then takes the place of your onmyoji for the remainder of the battle. \nHe gains a new turn, changes the skill Trial Ritual changes to Final Judgement, and summons a Corrupted Sword to his previous spot. Also sacrifices all remaining non-summoned allies, turning them into Corrupted Swords and takes 6% of their initial ATK.\n;Corrupted Sword (堕落之剑/堕落の剣)\n:Serves as an Offering to awaken the sealed power of the Evil God. Inherits the stats of the sacrificed ally, except its HP is equal to 310% of SP Orochi's ATK. On its turn, recovers 20% of its own HP, grants 1 onibi and increases SP Orochi's move bar by 15%. Each Corrupted Sword, decreases SP Orochi's damage received by 20%.\n;Offering (献祭/生贄)\n:Regarded as being KO'd. Sacrificed allies cannot be reverted back, don't trigger revival effects and cannot be revived.\n;Final Judgement (终焉审判/終焉裁決)\n:While the field is active, SP Orochi is immune to debuffs and effects such as Banish.",
+      "upgrades": [],
+      "icon": "assets/skills/3832b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3833a",
+      "name": "Trial Ritual (审判仪式/審判儀式)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Now that the Divine Swords have been removed, I'm free from shackles!",
+      "description": "This skill can only be used while in The Serpent Lord form. ;Upon Usage :SP Orochi removes the suppression of 1 Ama no Habakiri to attacks all enemies, dealing damage equal to 188% of his ATK and inflicts Corrupted on an ally other than himself. :If a total of 5 Ama no Habakiri have been removed, sets free a powerful evil force free and the skill Corrupted Force changes to Serpent's Devouring. ;The Serpent Lord (蛇神) :His max HP cannot be changed. Max HP is equal to 200% of his ATK. Has immunity to debuffs and effects such as Banish. When The Serpent Lord removes the suppression of an Ama no Habakiri with Trial Ritual or he receives lethal damage, his original form returns to the battlefield. ;Corrupted (堕化) : :'''General, Mark''': SPD is increased by 40% and corrupts 24% of their current HP at the start of their turn. When the Corrupted ally is KO'd, SP Orochi's move bar is increased by 40% and they are turned into a Corrupted Sword. If the total number of Ama no Habakiri removed is less than 5, removes 1 Ame no Habakiri immediately.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "For each 20% of HP The Serpent Lord has, using this skill also recovers his own HP by 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "For each 20% of HP The Serpent Lord has, using this skill also increases his move bar by 8%."
+        },
+        {
+          "lvl": 4,
+          "text": "For each 20% of HP The Serpent Lord has, using this skill also increases this attack's damage by 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Using this skill withdraws the stored ATK of his allies (cannot exceed 100% of his initial ATK)."
+        }
+      ],
+      "icon": "assets/skills/3833a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3833b",
+      "name": "Final Judgement (终焉审判/終焉裁決)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "It's your time to fall, you hypocritical gods!",
+      "description": "SP Orochi attacks all enemies dealing damage equal to 313% of his ATK. Then inflicts 4 follow-up strikes on random enemies, dealing damage equal to 128% of his ATK with each strike.",
+      "upgrades": [],
+      "icon": "assets/skills/3833b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increases SP Orochi's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Orochi's skills 12 times.",
+      "reward": "Shikigami No.383 ×10"
+    },
+    {
+      "condition": "In , use Final Judgement and win.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/383skin1.webp"
+}

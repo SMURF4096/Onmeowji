@@ -1,0 +1,132 @@
+{
+  "no": 595,
+  "en": "Yumeyama Hakuzousu",
+  "cn": "梦山白藏主",
+  "jp": "夢山白臓主",
+  "gl": "Hakuzosu Unbound",
+  "rarity": "SP",
+  "type": "SUP",
+  "role": "shikigami",
+  "image": "File:595.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yumeyama_Hakuzousu",
+  "cv": "Daiki Kobayashi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "art": "assets/art/595skin1.webp",
+  "localImage": "assets/shikigami/595.webp",
+  "imageUrl": "assets/shikigami/595.webp",
+  "skills": [
+    {
+      "name": "My Name Drives Me",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5951.webp",
+      "description": "Let my name become your blade. SP Hakuzousu attacks a single target dealing damage equal to 100% of his ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%.",
+      "line": "Let my name become your blade.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "group": "Normal"
+    },
+    {
+      "name": "White Fox Seal",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "icon": "assets/skills/5952.webp",
+      "description": "Leave the rest to me! Applies Guardian Seal to an ally for 2 turns; raises the onmyoji’s move bar by 30%, and removes Seimei’s cooldown. Guardian Seal heals 20% of lost HP after each onmyoji skill. Level 2: sealed allies immune to damage. Level 3: onmyoji move bar +20% more. Level 4: enemies attacking the sealed ally get Amulet·Break (2 turns); with Seimei, his move bar +10% (once per turn, up to 3 times). Level 5: Upper Hand — targets the ally with the highest ATK.",
+      "line": "Leave the rest to me!",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Allies who have Guardian Seal are immune to damage."
+        },
+        {
+          "lvl": 3,
+          "text": "When Guardian Seal is present, the onmyoji's move bar is raised by an additional 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "If an ally with Guardian Seal is attacked by an enemy, then they inflict Amulet·Break onto them, lasts for 2 turn; if the onmyoji is Seimei, additionally raises his move bar by 10% (once per turn, up to 3 times before Seimei's turn starts)"
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Guardian Seal is applied to the ally with the highest ATK."
+        }
+      ],
+      "group": "Special"
+    },
+    {
+      "name": "Dream Slash",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "icon": "assets/skills/5953.webp",
+      "description": "I’ll sever the illusory dreams! Only with Seimei present: attacks all enemies with indirect damage equal to 20% of his max HP and inflicts Amulet·Break (damage dealt -30%; start-of-turn indirect damage equal to 8% of his max HP) for 2 turns. Without Seimei, replaces Dream Slash with Mt. Dream Oath. Level 2: 25%. Level 3: recovers 20% of lost HP. Level 4: 30%. Level 5: no Onibi cost after Seimei casts a skill.",
+      "line": "I'll protect everyone,anytime and anywhere!",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Recovers 20% of the lost HP when cast."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Casts Dream Slash with no Onibi needed after Seimei casts skill."
+        }
+      ],
+      "group": "Special"
+    },
+    {
+      "name": "Mt. Dream Oath",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "icon": "assets/skills/5953b.webp",
+      "description": "I swear by this body and name. Attacks all enemies with indirect damage equal to 14% of his max HP and inflicts Amulet·Break for 2 turns. Level 2: 17%. Level 3: also applies Seimei’s current Amulet: Life level. Level 4: 20%. Level 5: also applies Seimei’s current Amulet: Death level.",
+      "line": "I swear by this body and name.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage to 17%."
+        },
+        {
+          "lvl": 3,
+          "text": "Additionally applies Seimei's current level of Amulet: Life."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Additionally applies Seimei's current level of Amulet: Death."
+        }
+      ],
+      "group": "Special"
+    }
+  ]
+}

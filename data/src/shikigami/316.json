@@ -1,0 +1,212 @@
+{
+  "no": 316,
+  "en": "Hakuzousu",
+  "cn": "白藏主",
+  "jp": "Hakuzosu",
+  "gl": "Hakuzosu",
+  "rarity": "SSR",
+  "image": "File:316.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hakuzousu",
+  "cv": "Daiki Kobayashi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/316.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/316.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "79",
+        "lv2": null,
+        "max": "1822"
+      },
+      "hp": {
+        "lv1": "1227",
+        "lv2": null,
+        "max": "14241"
+      },
+      "def": {
+        "lv1": "73",
+        "lv2": null,
+        "max": "472"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3161",
+      "name": "Flamed Shadow (炎影)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I don't run away.",
+      "description": "Hakuzousu attacks a single target dealing damage equal to 100% of his ATK and has a 100% base chance of inflict them with Burnt Flame, lasts for 1 turn. ;Burnt Flame (残炎) : :'''Debuff, Status''': ATK is decreased by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 105%."
+        }
+      ],
+      "icon": "assets/skills/3161.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3162",
+      "name": "Sheltering Pact (約束を守る)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't you dare hurt them!",
+      "description": "Exclusive effect. <br>At the end of Hakuzosu's turn, grants Fox Shadow: Shelter to all allies, lasts until the start of his next turn. ;Fox Shadow：Shelter (狐影・守) : :'''Buff, Mark''': When receiving damage, absorbs 20% of that damage up to a max of 10% of his max HP. :''(Only Hakuzousu gains the effect icon, all other allies will have a small fox mark circle around them.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Fox Shadow: Shelter''': Damage absorption increases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Fox Shadow: Shelter is broken, and if Hakuzousu isn't inflicted with any control effects, he launches a counter-attack against the source of the damage, dealing damage equal to 10% of his max HP and has a 100% base chance to inflict decreases their Crit by 30% (effect cannot be stacked). This damage is increased when multiple are broken at the same time."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Fox Shadow: Shelter''': Damage absorption increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "His SPD and RES are permanently increased by 60 and 60%, respectively. Each ally with Fox Shadow: Shelter decreases his SPD by 10 and RES by 10%."
+        }
+      ],
+      "icon": "assets/skills/3162.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3163",
+      "name": "Shadowing Shelter (夢山狐影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "As long as I'm here, you'll be just fine!",
+      "description": "Hakuzosu creates a Fox Shadow realm, lasts for 1 turn. Whenever an ally receives single-target damage or indirect damage, the damage is reduced by 35%. ; : :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage reduction increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage reduction increases to 45%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage reduction increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increases to 2 turns."
+        }
+      ],
+      "icon": "assets/skills/3163.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Hakuzosu with another player using Seimei and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Hakuzosu with another player using Kagura and clear any zone 10 times.",
+      "reward": "Shikigami No.316 ×10"
+    },
+    {
+      "condition": "Team Hakuzosu with another player using Hiromasa and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/316skin1.webp",
+  "stats": {
+    "min": {
+      "no": 316,
+      "en": null,
+      "atk": 79,
+      "hp": 1227,
+      "def": 73,
+      "spd": 101,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 316,
+      "en": null,
+      "atk": 1822,
+      "hp": 14241,
+      "def": 472,
+      "spd": 111,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 277,
+  "en": "Kuro Douji",
+  "cn": "黑童子",
+  "jp": "黒童子",
+  "gl": "Kuro",
+  "rarity": "SR",
+  "image": "File:277.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kuro_Douji",
+  "cv": "Tomozaku Sugita",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/277.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/277.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "149",
+        "lv2": null,
+        "max": "3377"
+      },
+      "hp": {
+        "lv1": "843",
+        "lv2": null,
+        "max": "9912"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "s",
+        "s"
+      ],
+      "hp": [
+        "d",
+        "c"
+      ],
+      "def": [
+        "d",
+        "c"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2771",
+      "name": "Kuro Blast (罪罚·黑/罪と罰・黒)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You must pay for your sins!",
+      "description": "Kuro Douji attacks a single target, dealing damage equal to 100% of his ATK. Damage from this attack can vary greatly.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2771.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2772",
+      "name": "Soul Rage (魂之怒火/魂の怒火)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "Hmm... Where is Shiro?",
+      "description": "When Kuro Douji receives non-transferred damage, he has a 12% chance of using the skill Extra Slice without spending any onibi. Upon casting, gains Revenant, lasting for 2 turns. ;Revenant () : :'''Buff, Mark''': When taking fatal damage, survives with 1 HP and immediately gains a shield equal to 135% of ATK for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance of triggering increases to 16%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of triggering increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "For every 30% decrease in HP, the trigger chance increases by an additional 3%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': This skill is automatically used at the start of the battle."
+        }
+      ],
+      "icon": "assets/skills/2772.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2773",
+      "name": "Extra Slice (连斩/斬りつけ)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Farewell!",
+      "description": "Kuro Douji spins his blade and slices all enemies, dealing damage equal to 83% of his ATK. He inflicts 1 follow-up attack for each 30% of HP he has lost. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 87%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 91%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 99%."
+        }
+      ],
+      "icon": "assets/skills/2773.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kuro Douji.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Kuro Douji with another player's Shiro Douji and clear any zone 10 times.",
+      "reward": "Shikigami No.277 ×10"
+    },
+    {
+      "condition": "Donate 5 Kuro Douji shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/277skin1.webp",
+  "stats": {
+    "min": {
+      "no": 277,
+      "en": null,
+      "atk": 149,
+      "hp": 843,
+      "def": 59,
+      "spd": 99,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 277,
+      "en": null,
+      "atk": 3377,
+      "hp": 9912,
+      "def": 384,
+      "spd": 109,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

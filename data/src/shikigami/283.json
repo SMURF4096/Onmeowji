@@ -1,0 +1,241 @@
+{
+  "no": 283,
+  "en": "Susabi",
+  "cn": "荒",
+  "jp": "",
+  "gl": "Susabi",
+  "rarity": "SSR",
+  "image": "File:283.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Susabi",
+  "cv": "Daisuke Hirakawa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/283.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/283.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": "157",
+        "max": "3323"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": "960",
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": "83",
+        "max": "490"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": "109",
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "s",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "a",
+        "s"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2831",
+      "name": "Star Beam (星轨/星の軌跡)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Destiny, change at my command!",
+      "description": "Susabi releases a beam of starlight to attack a single target, dealing damage equal to 100% of his attack and inflicts Star Mark. ;Star Mark (星の痕) : :'''General, Mark''': Max of 5 stacks. When the stacks are at max, and if Susabi is not inflicts with control effects, all stacks are consumed to use Scourge: Star free of onibi on the the inflicted enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2831.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2832",
+      "name": "Stellar Field (星辰之境/日月星辰)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "\"I shall punish you for entering my realm!\"",
+      "description": "Exclusive effect. <br>At the start of Susabi's turn, he has a 30% chance of forming an attack-assisting field that lasts for 1 turn. While the field is active, a debuff or control effect will be dispelled at the start of his turn and he has a 50% chance to Assist. ; : ;Upon Usage :Susabi forms an attack-assisting field that lasts for 1 turn or extends the duration by an additional turn, then inflicts 3 Star Marks on an enemy. ;Star Mark (星の痕) : :'''General, Mark''': Max of 5 stacks. When the stacks are at max, and if Susabi is not inflicts with control effects, all stacks are consumed to use Scourge: Star free of onibi on the the inflicted enemy. ;Assist :When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance of forming the field increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of forming the field increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of forming the field increases to 100% if there are 4 or more onibi."
+        },
+        {
+          "lvl": 5,
+          "text": "While the field is active, using this skill increases the move bar for all allies by 25%."
+        }
+      ],
+      "icon": "assets/skills/2832.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2833",
+      "name": "Scourge: Star (天罚·星/天罰·星)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "Accept the punishment of destiny!",
+      "description": "Susabi summons comets to inflict 3-strikes on 1 enemy, dealing damage equal to 120% of his attack for the first strike and the damage is decreased by 10% for each subsequent strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 135%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 150%."
+        },
+        {
+          "lvl": 4,
+          "text": "If the enemy is not KO'd, inflicts them with Star Mark."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemy is a non-summoned entity and they're KO'd, the remaining comets inflict damage to all other enemies instead."
+        }
+      ],
+      "icon": "assets/skills/2833.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2833",
+      "name": "Scourge: Moon (天罚·星/天罰·星)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Susabi uses up all onibi to summon comets which inflict an equal number of strikes on 1 enemy, dealing damage equal to 120% of his attack for the first strike and the damage is decreased by 20% for each subsequent strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 135%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 150%."
+        },
+        {
+          "lvl": 4,
+          "text": "If the enemy is inflicted with Star Mark, consumes all stacks of Star Mark. Each stack consumed reduces the onibi cost by 1."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemy is a non-summoned entity and they're KO'd, the remaining comets inflict damage to all other enemies instead."
+        }
+      ],
+      "icon": "assets/skills/2833.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Susabi win 50 times in PVN zones.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Susabi's level to 40.",
+      "reward": "Shikigami No.283 ×10"
+    },
+    {
+      "condition": "Increase Susabi's skill 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/283skin1.webp",
+  "stats": {
+    "min": {
+      "no": 283,
+      "en": null,
+      "atk": 142,
+      "hp": 864,
+      "def": 75,
+      "spd": 94,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 283,
+      "en": null,
+      "atk": 3323,
+      "hp": 10254,
+      "def": 490,
+      "spd": 104,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

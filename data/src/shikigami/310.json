@@ -1,0 +1,195 @@
+{
+  "no": 310,
+  "en": "Peach Maki & Karashi",
+  "cn": "蜜桃&芥子",
+  "jp": "ピーチマキ＆芥子",
+  "gl": "ピーチマキ＆芥子",
+  "rarity": "R",
+  "image": "File:310.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Peach_Maki_%26_Karashi",
+  "cv": "Sumire Uesaka (Peach Maki) · Atsumi Tanezaki (Karashi)",
+  "intro": "",
+  "method": "Limited Collab Event (Shrine) • Mystery Merchant (Event)",
+  "imageUrl": "assets/shikigami/310.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/310.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "89",
+        "lv2": null,
+        "max": "2064"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12418"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "485"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3101",
+      "name": "Rabbit Jailer: Scold (兔狱卒·叱责/うさぎ獄卒・叱る)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Peach Maki & Karashi leap at a single target to attack them, dealing damage equal to 100% of their ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3101.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3102",
+      "name": "Rabbit Jailer: Resolve (兔狱卒·坚毅/うさぎ獄卒・逞しさ)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When Peach Maki & Karashi receive damage, they have a 30% chance of reducing the damage by 50%.",
+      "upgrades": [],
+      "icon": "assets/skills/3102.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3103",
+      "name": "Peach: Hell Idol (蜜桃·地狱偶像/マキ・地獄アイドル)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Peach Maki & Karashi cheer for their allies, increasing the move bars for all allies by 15% and restoring for all allies 6% of their HP by Peach Maki & Karashi's max HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 8%."
+        },
+        {
+          "lvl": 3,
+          "text": "Boost to move bar increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 10%."
+        },
+        {
+          "lvl": 5,
+          "text": "Boost to move bar increases to 25%."
+        }
+      ],
+      "icon": "assets/skills/3103.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Peach Maki & Karashi.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Peach Maki & Karashi clear any zone 30 times.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "Increase Peach Maki & Karashi's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/310skin1.webp",
+  "stats": {
+    "min": {
+      "no": 310,
+      "en": null,
+      "atk": 89,
+      "hp": 1067,
+      "def": 75,
+      "spd": 105,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 310,
+      "en": null,
+      "atk": 2064,
+      "hp": 12418,
+      "def": 485,
+      "spd": 110,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

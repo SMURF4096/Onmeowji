@@ -1,0 +1,186 @@
+{
+  "no": 566,
+  "en": "Gyoujitsu Ebisu",
+  "cn": "晨晖惠比寿",
+  "jp": "暁日恵比寿",
+  "gl": "Returner Ebisu",
+  "rarity": "SP",
+  "image": "File:566.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Gyoujitsu_Ebisu",
+  "cv": "Yuuto Uemura",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/566.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/566.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "2278"
+      },
+      "hp": {
+        "lv1": "1216",
+        "lv2": null,
+        "max": "12988"
+      },
+      "def": {
+        "lv1": "76",
+        "lv2": null,
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "115",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5661",
+      "name": "Courtesy (礼教/礼儀作法)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Fortune is right here. Don't get too greedy.",
+      "description": "SP Ebisu swings his fishing rod to catch a goldfish that strikes a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5661.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5662",
+      "name": "Fortune Landing (洪福降臨/幸運降臨)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Keep your feet on the ground, because every bit counts.",
+      "description": "Fortune favors the diligent. At the end SP Ebisu's turn, he decreases all enemies' move bar by 10%. If Great Responsibility was used in the turn, he begins to Snooze, sustained for 1 turn. ;Snooze (打盹/昏睡) :SP Ebisu begins to Sleep. If Sleep is removed while he's Snoozing, he recovers the HP of all non-summoned allies by 14% of his max HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Decrease to enemies' move bar effect increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "At the end of turn, grants 2 onibi."
+        },
+        {
+          "lvl": 4,
+          "text": "When he's Snoozing, grants 1 additional onibi."
+        },
+        {
+          "lvl": 5,
+          "text": "At the start of battle and when he receives damage for the first time, he'll begin to Snooze."
+        }
+      ],
+      "icon": "assets/skills/5662.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5663",
+      "name": "Great Responsibility (委以重任/他力本願)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Granting divine blessings is a great responsibility, I'm just going to... take a nap first.",
+      "description": "SP Ebisu recovers the HP of 1 non-summoned ally by 14% of his max HP and has a 50% of transferring the 4-set of his equipped souls (up to 1 effect can be transferred, total damage boost from all souls is maxed out at 140%), sustained for 1 turn. <br>When used on an ally who has the souls-transferring effect again, he dispels or removes all control effects on them instead; if the ally is not inflicted with any control effects, he grants them a new turn and removes the soul-transferring effect at the end of that new turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP recovered increases to 16%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP recovered increases to 18%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP recovered increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/5663.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Ebisu's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Ebisu's skills 12 times.",
+      "reward": "Shikigami No.566 ×10"
+    },
+    {
+      "condition": "Team SP Ebisu with another player's Ebisu and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/566skin1.webp"
+}

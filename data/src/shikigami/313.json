@@ -1,0 +1,243 @@
+{
+  "no": 313,
+  "en": "Inuyasha",
+  "cn": "犬夜叉",
+  "jp": "",
+  "gl": "Inuyasha",
+  "rarity": "SSR",
+  "image": "File:313.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Inuyasha",
+  "cv": "Kappei Yamaguchi",
+  "intro": "",
+  "method": "Limited Collab Event (Summon) • Demon Seal (Event)",
+  "imageUrl": "assets/shikigami/313.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/313.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2975"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3131",
+      "name": "Wind Scar (風の傷)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Wind scar!",
+      "description": "Inuyasha wields his Tessaiga to launch a heavy strike at a single target, dealing damage equal to 100% of his ATK with a 10% chance of gaining 1 layer of Force of Wind after the attack. <br>Gains 1 layer of Force of Wind at the of his turn. ;Force of Wind (風の纏) : : '''Buff, Mark''': Max 5 layers. Increases SPD by 10 and damage dealt by 5% per layer.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3131.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3132",
+      "name": "Backlash Wave (爆流破)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Backlash Wave!",
+      "description": "Whenever an enemy consumes onibi, and Inuyasha is not Immobile, he has 10% chance (increases by 16% for each Force of Wind layer) of launching a counter-attack on that enemy, dealing damage equal to 176% of his ATK before consuming all Force of Wind layers. Each layer consumed increases the damage by 10%.\n;\n:\n;Force of Wind (風の纏)\n:\n: '''Buff, Mark''': Max 5 layers. Increases SPD by 10 and damage dealt by 5% per layer.",
+      "upgrades": [],
+      "icon": "assets/skills/3132.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3132a",
+      "name": "Red Tessaiga (赤い鉄砕牙)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When dealing damage, ignores shields.",
+      "upgrades": [],
+      "icon": "assets/skills/3132a.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3132b",
+      "name": "Diamond Tessaiga (金剛鉄砕牙)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inherits the effects of Red Tessaiga.\nWhen dealing damage, ignores 40% of DEF.",
+      "upgrades": [],
+      "icon": "assets/skills/3132b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3132c",
+      "name": "Dragon-scaled Tessaiga (竜鱗の鉄砕牙)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inherits the all of the effects of Diamond Tessaiga.\nBefore Inuyasha attacks, dispels 1 buff from the target. If a buff is dispelled, increases his Crit DMG by 10% up to a max of 70%, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/3132c.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3132d",
+      "name": "Black Tessaiga (漆黒鉄砕牙)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inherits the all of the effects of Dragon-scaled Tessaiga.\nWhen dealing damage, 50% of the damage reduces the target's max HP up to a max of 20%.\nLaunching counter-attacks no longer consumes Force of Wind layers (damage increase effect for each layer remains).",
+      "upgrades": [],
+      "icon": "assets/skills/3132d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3133",
+      "name": "Tessaiga (鉄砕牙)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Tessaiga!",
+      "description": "Inuyasha strikes random enemies 7 times, dealing damage equal to 40% of his ATK with each strike. Also has an 80% chance of attacking an additional random enemy. ;Force of Wind (風の纏) : : '''Buff, Mark''': Max 5 layers. Increases SPD by 10 and damage dealt by 5% per layer.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 42%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 46%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3133.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Inuyasha.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Inuyasha win 10 times in PVN zones against Sesshoumaru.",
+      "reward": "Shikigami No.313 ×10"
+    },
+    {
+      "condition": "Team Inuyasha with another player's Sesshoumaru and clear any zone times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/313skin1.webp",
+  "stats": {
+    "min": {
+      "no": 313,
+      "en": null,
+      "atk": 127,
+      "hp": 960,
+      "def": 60,
+      "spd": 104,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 313,
+      "en": null,
+      "atk": 2975,
+      "hp": 11393,
+      "def": 392,
+      "spd": 114,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

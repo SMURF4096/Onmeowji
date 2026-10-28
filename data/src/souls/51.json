@@ -1,0 +1,16 @@
+{
+  "no": 51,
+  "en": "Merrow",
+  "cn": "共潜",
+  "jp": "",
+  "type": "RES",
+  "image": "File:Soul51.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Merrow",
+  "imageUrl": "assets/souls/Soul51.webp",
+  "localImage": "assets/souls/Soul51.webp",
+  "combo2": "Increases resist by 15%",
+  "combo4": "At the end of the turn, 1 random debuff will be dispelled from the equipper or an ally. If no damage is dealt on that turn, 2 additional random debuffs will also be dispelled.",
+  "location": "Soul Zones (Monday, Friday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
+  "version": "CN TW JP GL",
+  "art": "assets/souls/M45.webp"
+}

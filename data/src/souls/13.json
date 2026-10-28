@@ -1,0 +1,16 @@
+{
+  "no": 13,
+  "en": "Priestess",
+  "cn": "钟灵",
+  "jp": "鍾霊",
+  "type": "HP",
+  "image": "File:Soul13.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Priestess",
+  "imageUrl": "assets/souls/Soul13.webp",
+  "localImage": "assets/souls/Soul13.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "When dealing damage has a 10% chance of inflicting daze on the target, lasts for 1 turn. If there are no enemies inflicted with Daze, chance increases to 20%.",
+  "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 12 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M18.webp"
+}

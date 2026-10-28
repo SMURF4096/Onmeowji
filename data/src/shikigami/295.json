@@ -1,0 +1,212 @@
+{
+  "no": 295,
+  "en": "Oitsukigami",
+  "cn": "追月神",
+  "jp": "",
+  "gl": "Oitsukigami",
+  "rarity": "SR",
+  "image": "File:295.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oitsukigami",
+  "cv": "Kaori Nazuka",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/295.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/295.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "2305"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "12760"
+      },
+      "def": {
+        "lv1": "69",
+        "lv2": null,
+        "max": "450"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "C"
+      ],
+      "hp": [
+        "a",
+        "S"
+      ],
+      "def": [
+        "b",
+        "A"
+      ],
+      "spd": [
+        "c",
+        "A"
+      ],
+      "crit": [
+        "b",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2951",
+      "name": "Inviting Moon (邀月/月招)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let me show you the way.",
+      "description": "Oitsukigami uses Mark of Moon to attack a single target, dealing damage equal to 100% of her ATK and increases her move bar by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2951.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2952",
+      "name": "Moon's Boon (明月潮生)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will fulfil all your desires.",
+      "description": ";Upper Hand :The onibi bar automatically fills up by 1 extra slot at the start of battle.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Fills up by 2 extra slots."
+        },
+        {
+          "lvl": 3,
+          "text": "Fills up by 3 extra slots."
+        },
+        {
+          "lvl": 4,
+          "text": "Fills up by 4 extra slots."
+        },
+        {
+          "lvl": 5,
+          "text": "Monsters cannot remove orbs from her and allies affected by Moon's Blessings. When using Clear Moon while there aren't enough onibi, can spend all the remaining onibi to use the skill. When this effect is triggered, a number of filled slots will be emptied from the onibi bar equal to the difference. If there aren't enough filled slots on the onibi bar, this effect won't trigger"
+        }
+      ],
+      "icon": "assets/skills/2952.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2953",
+      "name": "Clear Moon (清辉月华/清輝月華)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Be grateful for my decent!",
+      "description": "Oitsukigami gains Shelter at the start of battle and loses it at the start of her turn. <br>Oitsukigami dances under the moonlight to cast Moon's Blessings to all other allies, sustained for 1 turn. ;Moon's Blessing (月の祝福) : : '''Buff, Mark''': SPD is increased by 10. At the end of an ally's turn, the onibi bar fills up by 1 extra slot. ;Shelter :Blocks all control effects or Banish and similar effects from a single skill, includes self-inflicted control effects. :''(An orb with a crescent moon will appear around her while Shelter is active.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Moon's Blessing''': ATK is increased by 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Moon's Blessing''': SPD increases to 20."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Moon's Blessing''': ATK increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "When using this skill, she gains Shelter (sustained for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/2953.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Oitsukigami with another players Yama Usagi and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Oitsukigami with another player's Usagimaru and clear any zone 20 times.",
+      "reward": "Shikigami No.295 ×10"
+    },
+    {
+      "condition": "With Oitsukigami win 30 times in Duel, Practice or Spar against Kaguya Hime.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/295skin1.webp",
+  "stats": {
+    "min": {
+      "no": 295,
+      "en": null,
+      "atk": 98,
+      "hp": 1078,
+      "def": 69,
+      "spd": 99,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 295,
+      "en": null,
+      "atk": 2305,
+      "hp": 12760,
+      "def": 450,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

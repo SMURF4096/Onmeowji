@@ -1,0 +1,212 @@
+{
+  "no": 201,
+  "en": "Yuki Onna",
+  "cn": "雪女",
+  "jp": "",
+  "gl": "Yuki Onna",
+  "rarity": "SR",
+  "image": "File:201.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yuki_Onna",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/201.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/201.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": null,
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "886",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": null,
+        "max": "415"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2011",
+      "name": "Snowball (雪球/雪玉)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Ha! Take this.",
+      "description": "Yuki Onna throws a snowball at a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Has a 25% base chance of Slowing the target's SPD by 10, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 120%"
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance of inflicting Slow increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/2011.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2012",
+      "name": "Ice Buffer (冰甲术/氷鎧の術)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Ice crystals, protect me!",
+      "description": "At the end of Yuki Onna's turn, she creates an Ice Shield, sustained for 1 turn, to protect herself and 2 allies with the highest Crit DMG. The Ice Shield can absorb damage equal to 6% of her max HP. ;Ice Shield (氷鎧) : :'''Buff, Status''': When an ally with Ice Shield deals damage to a enemy with Freeze or Deep Freeze, increases their ATK by 40% of their initial ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption increases to 9%."
+        },
+        {
+          "lvl": 3,
+          "text": "When attacked, her Ice Shield has a 25% base chance of Slowing the attacker's SPD by 10, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Absorption increases to 12%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance of inflicting Slow increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/2012.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2013",
+      "name": "Blizzard (暴风雪/吹雪)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Nothing can escape my mighty blizzard.",
+      "description": "Yuki Onna summons a blizzard to attack all enemies 3 times, dealing damage equal to 30% of her ATK each time and has a 8% base chance of inflicting Freeze, lasts for 1 turn. The overall chance increases by 10% for enemies with Slow and the base chance increases to 25% when attacking monsters. <br>When she attacks targets with Freeze again, she has a 30% chance of converting it to Deep Freeze. If the target is a monster, Deep Freeze will instead become Freeze, lasts for for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 33%."
+        },
+        {
+          "lvl": 3,
+          "text": "Has a 8% base chance of Slowing the target's SPD by 10, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 36%"
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance of inflicting Slow increases to 16%."
+        }
+      ],
+      "icon": "assets/skills/2013.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Yuki Onna.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Yuki Onna take part in 60 Realm Raids.",
+      "reward": "Shikigami No.201 ×10"
+    },
+    {
+      "condition": "With Yuki Onna clear stage 7 of any Evo zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/201skin1.webp",
+  "stats": {
+    "min": {
+      "no": 201,
+      "en": null,
+      "atk": 131,
+      "hp": 886,
+      "def": 63,
+      "spd": 99,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 201,
+      "en": null,
+      "atk": 3055,
+      "hp": 10482,
+      "def": 415,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

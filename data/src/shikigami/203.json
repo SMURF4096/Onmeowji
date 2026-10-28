@@ -1,0 +1,200 @@
+{
+  "no": 203,
+  "en": "Lantern Soul",
+  "cn": "灯笼鬼",
+  "jp": "提灯お化け",
+  "gl": "提灯お化け",
+  "rarity": "N",
+  "image": "File:203.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Lantern_Soul",
+  "cv": "Koyasu Takehito",
+  "intro": "",
+  "method": "Summon, Demon Parade, Wanted",
+  "imageUrl": "assets/shikigami/203.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/203.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2031",
+      "name": "Lick (舔/舐める)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let me taste you~?",
+      "description": "Jumps in front of a single target and licks them dealing damage equal to 105% of its attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 120%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 130%"
+        }
+      ],
+      "icon": "assets/skills/2031.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2032",
+      "name": "Lantern of Fire (笼中火/籠の炎)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Setting myself aflame, lighting others",
+      "description": "Has a 20% chance of gaining 1 onibi when being attacked.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 25%"
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 30%"
+        }
+      ],
+      "icon": "assets/skills/2032.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2033",
+      "name": "Great Demon Lantern (大鬼笼/大鬼籠)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "Lighting the darkness is my duty.",
+      "description": "Transforms into a huge lantern and increases crit for all allies by 5%, sustained for 3 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Crit increases to 10%"
+        },
+        {
+          "lvl": 3,
+          "text": "Crit increases to 15%"
+        },
+        {
+          "lvl": 4,
+          "text": "Crit increases to 20%"
+        }
+      ],
+      "icon": "assets/skills/2033.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Gain 50000 exp by placing Chouchin Obake in Kekkai Training.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win in the Arena with Chouchin Obake 40 times.",
+      "reward": "Shikigami No.203 ×10"
+    },
+    {
+      "condition": "Obtain 40 Chouchin Obake shards from Hyakki Yakou.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/203skin1.webp",
+  "stats": {
+    "min": {
+      "no": 203,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 203,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

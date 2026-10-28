@@ -1,0 +1,16 @@
+{
+  "no": 26,
+  "en": "Pearl",
+  "cn": "珍珠",
+  "jp": "真珠",
+  "type": "DEF",
+  "image": "File:Soul26.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Pearl",
+  "imageUrl": "assets/souls/Soul26.webp",
+  "localImage": "assets/souls/Soul26.webp",
+  "combo2": "Increases defense by 30%",
+  "combo4": "When healing, creates an undispellable shield that can absorb damage equal to 30% of the healing, lasts for 2 turns.",
+  "location": "Chapter 23 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M1.webp"
+}

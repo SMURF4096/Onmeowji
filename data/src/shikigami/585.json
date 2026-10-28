@@ -1,0 +1,186 @@
+{
+  "no": 585,
+  "en": "Gashadokuro",
+  "cn": "荒骷髅",
+  "jp": "餓者髑髏",
+  "gl": "Odokuro",
+  "rarity": "SSR",
+  "image": "File:585.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Gashadokuro",
+  "cv": "Kenyu Horiuchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/585.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/585.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "1849"
+      },
+      "hp": {
+        "lv1": "1291",
+        "lv2": null,
+        "max": "14925"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5851",
+      "name": "Bone Assault (骸袭)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Anyone who steps back will be cut down!",
+      "description": "Gashadokuro attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5851.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5852",
+      "name": "Soulful Kiss (花吻烈魂)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Never betray!",
+      "description": "Exclusive effect. At the start of battle, Gashadokuro grant the ally with the highest ATK a Blood Red Flower. When he loses HP, he will not be KO'd and the lost HP will be stored in a Taira Shield. ;Upon Usage :Gashadokuro transfers a Blood Red Flower to a non-summoned ally. ;Blood Red Flower (血色之花) : :'''Common, Mark''': When an ally other than himself with this effect receives damage, Gashadokuro will share 40% of the damage as lost HP and the ally will be immune to the first lethal damage they receive. ;Taira Shield (平氏之盾) :Can absorb damage equal to the stored lost HP, up to a max of 50% of Gashadokuro's initial HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Blood Red Flower''': Shared damaged increases to 45%."
+        },
+        {
+          "lvl": 3,
+          "text": "While the ally with Blood Red Flower is immune to lethal damage, they also gain a Taira Shield equal to the total lost HP of Gashadokuro."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Blood Red Flower''': Shared damaged increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "When the turn of the ally with Blood Red Flower ends, Gashadokuro immediately enters the Rift in Time (can only trigger once before the start of each turn)."
+        }
+      ],
+      "icon": "assets/skills/5852.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5853",
+      "name": "Underworld Banner (黄泉战旗)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "My bones are a thousand times harder than this shield!",
+      "description": "Gashadokuro launches attacks an enemy twice, losing 30% of his max HP to deal true damage equal to 8% and 20% of his lost HP with each attack respectively (cannot exceed 1200% of his initial ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "True damage of the 2nd attack increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "When using this skill while in the Rift in Time, onibi cost is decreased by 2."
+        },
+        {
+          "lvl": 4,
+          "text": "True damage of the 2nd attack increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "When he KO's an enemy shikigami, his max HP is increased by 35% of his initial amount and an equal amount of HP is recovered."
+        }
+      ],
+      "icon": "assets/skills/5853.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Gashadokuro's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Gashadokuro's skills 12 times.",
+      "reward": "Shikigami No.585 ×10"
+    },
+    {
+      "condition": "With Gashadokuro clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/585skin1.webp"
+}

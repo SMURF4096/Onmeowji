@@ -1,0 +1,207 @@
+{
+  "no": 282,
+  "en": "Kingyo Hime",
+  "cn": "金鱼姬",
+  "jp": "金魚姫",
+  "gl": "Kingyo",
+  "rarity": "SR",
+  "image": "File:282.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kingyo_Hime",
+  "cv": "Maaya Uchida",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/282.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/282.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": "110",
+        "max": "2332"
+      },
+      "hp": {
+        "lv1": "1174",
+        "lv2": "1280",
+        "max": "13671"
+      },
+      "def": {
+        "lv1": "62",
+        "lv2": "70",
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": "116",
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "c"
+      ],
+      "hp": [
+        "s",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2821",
+      "name": "Fan Dance (扇舞/扇の舞)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hmph! You're not stopping me from pursing my dream!",
+      "description": "Kingyo Hime charges at a single target and whacks them with her fan, dealing damage equal to 80% of her ATK. <br>If her Goldfish is on the the battlefield, its HP is restored by 10% of Kingyo Hime's max HP and it gains a layer of Fan Dance, max of 5 layers. ;Fan Dance (扇の舞) : :'''Buff, Mark''': Each layer increases ATK by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/2821.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2822",
+      "name": "Goldfish: Counter (金鱼·反击/金魚·反撃)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't you dare try to bully me, you scoundrel!",
+      "description": "When the enemy team takes 8 actions, Kingyo Hime's Goldfish attacks all enemies dealing damage equal to 120% of its ATK and has a 25% base chance of inflicting them with Silence, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/2822.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2823",
+      "name": "Goldfish: Aid (金鱼·助阵/金魚·協力)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Goldfish, let's go rule the world!",
+      "description": "Kingyo Hime summons a Goldfish who can use Fish Fury. When an ally receives damage from a single-target attack, the Goldfish takes 40% of the damage for them (takes priority over Soul Edge's effect) until the attack is completed. Each attack only triggers this effect once per turn. <br>Her Goldfish inherits 48% of Kingyo Hime's HP, 100% of her ATK and 100% of her SPD. ; : ;Goldfish (金魚) : A summoned entity. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Inherited HP increases to 54%."
+        },
+        {
+          "lvl": 3,
+          "text": "Inherited HP increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Inherited HP increases to 66%."
+        },
+        {
+          "lvl": 5,
+          "text": "Fish Fury has a 50% chance of reducing the target's move bar by 30%."
+        }
+      ],
+      "icon": "assets/skills/2823.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2823",
+      "name": "Fish Fury (金魚の恐り)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kingyo Hime's Goldfish launches a water grenade at 1 enemy, dealing damage equal to 100% of her ATK.",
+      "upgrades": [],
+      "icon": "assets/skills/2823.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kingyo Hime.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Kingyo Hime gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kingyo Hime's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/282skin1.webp",
+  "stats": {
+    "min": {
+      "no": 282,
+      "en": null,
+      "atk": 102,
+      "hp": 1174,
+      "def": 62,
+      "spd": 106,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 282,
+      "en": null,
+      "atk": 2332,
+      "hp": 13671,
+      "def": 410,
+      "spd": 116,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

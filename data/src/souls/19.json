@@ -1,0 +1,16 @@
+{
+  "no": 19,
+  "en": "Tree Nymph",
+  "cn": "木魅",
+  "jp": "玉樹",
+  "type": "DEF",
+  "image": "File:Soul19.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tree_Nymph",
+  "imageUrl": "assets/souls/Soul19.webp",
+  "localImage": "assets/souls/Soul19.webp",
+  "combo2": "Increases defense by 30%",
+  "combo4": "Has a 25% chance to decrease target's onibi by 1 when an ally takes damage, chance decreases by 60% against taunted targets. Effect does not stack with multiple hits.",
+  "location": "Soul Zones · Sougenbi · Chapter 19 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M29.webp"
+}

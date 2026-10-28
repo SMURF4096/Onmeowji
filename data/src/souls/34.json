@@ -1,0 +1,16 @@
+{
+  "no": 34,
+  "en": "Tsuchigumo",
+  "cn": "土蜘蛛",
+  "jp": "土蜘蛛",
+  "type": "Random Stat",
+  "image": "File:Soul34.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
+  "imageUrl": "assets/souls/Soul34.webp",
+  "localImage": "assets/souls/Soul34.webp",
+  "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
+  "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
+  "location": "Demon Encounter · Mall",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/Ml1.webp"
+}

@@ -1,0 +1,195 @@
+{
+  "no": 242,
+  "en": "Kairaishi",
+  "cn": "傀儡师",
+  "jp": "Puppeteer",
+  "gl": "Puppeteer",
+  "rarity": "SR",
+  "image": "File:242.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kairaishi",
+  "cv": "Mamiko Noto",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/242.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/242.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "121",
+        "lv2": null,
+        "max": "2841"
+      },
+      "hp": {
+        "lv1": "992",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2421",
+      "name": "Puppet: Attack (傀儡·出击/傀儡·出撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "What was that? You want me to hurt them?",
+      "description": "Kairaishi mumbles to herself, wanders across to a single target then suddenly makes her puppet attack them, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2421.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2422",
+      "name": "Puppet: Follow-up (傀儡·追击/傀儡·修復)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "No strings on me!",
+      "description": "When Karaishi deals damage, she has a 20% chance of inflicting damage equal to 10% of the target's max HP (cannot exceed 120% of her ATK).",
+      "upgrades": [],
+      "icon": "assets/skills/2422.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2423",
+      "name": "Puppet: Combo (傀儡·爆发/傀儡·爆発)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Brother is getting angry...",
+      "description": "Kairaishi activates a mechanism that makes the puppet inflict 5 consecutive attacks on 1 enemy, dealing damage equal to 55% of her ATK with each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 58%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 61%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 64%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 67%."
+        }
+      ],
+      "icon": "assets/skills/2423.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kairaishi gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kairaishi.",
+      "reward": "Shikigami No.242 ×10"
+    },
+    {
+      "condition": "Collect 10 Kairaishi shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/242skin1.webp",
+  "stats": {
+    "min": {
+      "no": 242,
+      "en": null,
+      "atk": 121,
+      "hp": 992,
+      "def": 61,
+      "spd": 98,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 242,
+      "en": null,
+      "atk": 2841,
+      "hp": 11735,
+      "def": 401,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

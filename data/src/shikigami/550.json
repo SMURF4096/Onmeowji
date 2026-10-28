@@ -1,0 +1,244 @@
+{
+  "no": 550,
+  "en": "Kujaku-Myouou",
+  "cn": "孔雀明王",
+  "jp": "Kujaku-Myoo",
+  "gl": "Kujaku-Myoo",
+  "rarity": "SSR",
+  "image": "File:550.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kujaku-Myouou",
+  "cv": "Chiwa Saitou",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/550.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/550.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "155",
+        "lv2": null,
+        "max": "3538"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "30"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5501a",
+      "name": "Plume Dart (流羽風)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The plumes will stir your heart.",
+      "description": "Kujaku-Myouou conjures darts of plumes to strike a single target, dealing damage equal to 100% of her ATK and has 30% base chance of inflicting them with Disarm. <br>When she is performing in her Train-rattling form, this skill changes to Plume Razor. ;Train-rattling (开屏/開屏) : :'''General, Mark''': Cannot gain Peacock's Plumes. Increases her Crit by 40% and HIT by 75%. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Base Chance :This chance can be affected by HIT.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5501a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5501b",
+      "name": "Plume Razor (流羽斬)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Beware her killing plume razor.",
+      "description": "Kujaku-Myouou turns her feather fan into a sword to attack a single target, dealing damage equal to 150% of her ATK and has 100% base chance of inflicting them with Disarm lasting 1 turn. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Base Chance :This chance can be affected by HIT.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 160%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 170%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 180%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 200%."
+        }
+      ],
+      "icon": "assets/skills/5501b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5502",
+      "name": "Ascendant (羽化)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "What doesn't destroy me makes me stronger.",
+      "description": "Exclusive effect. When At the start of battle and at the end of her turn, Kujaku-Myouou gains 1 Peacock's Plume stack. When the non-summoned ally with the lowest HP receives damage, she has a 30% base chance of inflicting Disarm on the source of the damage. Whenever she gains 5 Peacock's Plumes stacks. If she has 5 Peacock's Plumes stacks at the start of her turn, she ends the Plume Realm and consumes all Peacock's Plume stack to perform in her Train-rattling form, lasts for 3 turns. ;Peacock Plume (孔雀翎) : :'''Buff, Mark''': Max 5 stacks. Each stack increases her HIT by 15%. When at max stacks, SPD increases by 50%. ;Train-rattling (开屏/開屏) : :'''General, Mark''': Cannot gain Peacock's Plumes. Increases her Crit by 40% and HIT by 75%. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While performing in her Train-rattling form, removes all debuffs from herself. If a control effect is removed, duration for her Train-rattling form decreases by 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "While performing in her Train-rattling form, grants her immunity to debuffs and damage on her turn."
+        },
+        {
+          "lvl": 4,
+          "text": "Whenever she gains 1 Peacock's Plume stack, dispels 1 debuff from all allies."
+        },
+        {
+          "lvl": 5,
+          "text": "While performing in her Train-rattling form, each 1% of HIT increases her ATK by 1%."
+        }
+      ],
+      "icon": "assets/skills/5502.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5503a",
+      "name": "Alluring Realm (迷離の境)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Indulge in this falsehood and enjoy its sweetness.",
+      "description": "Exclusive effect. Kujaku-Myouou creates a Plume Realm for 2 turns and gains 1 stack of Peacock's Plume. Enemies in the realm have their Effect RES decreases by 30% and causes their normal attacks to have a 30% chance to miss their target. <br>When she is performing in her Train-rattling form, this skill changes to Sundering Dance. ;Peacock Plume (孔雀翎) : :'''Buff, Mark''': Max 5 stacks. Each stack increases her HIT by 15%. When at max stacks, SPD increases by 50%. ;Train-rattling (开屏/開屏) : :'''General, Mark''': Cannot gain Peacock's Plumes. Increases her Crit by 40% and HIT by 75%. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Base Chance :This chance can be affected by HIT.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When cast, has a 40% base chance to inflict Disarm on all enemies for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Plume Realm''': the non-summoned entity ally with the lowest HP takes damage and has a 40% base chance to inflict Disarm on the damage source for 1 turn."
+        },
+        {
+          "lvl": 4,
+          "text": "While the realm is active, damage taken reduces by 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically creates a Plume Realm at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5503a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5503b",
+      "name": "Sundering Dance (雀舞斬棘)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Only bloody feet can make world-shaking dance moves.",
+      "description": "Kujaku-Myouou has a 100% base of inflict Disarm on all enemies, lasts for 2 turn. Then she launches a 4-strike attack on all enemies, dealing damage equal to 45% of her ATK with each strike and inflicts 2 additional follow-up strikes, dealing damage equal to 45% of her ATK with each strike. After entering Display Stance, the skill doubles the number of attacks. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Base Chance :This chance can be affected by HIT.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Follow-up damage increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Follow-up damage increases to 55%."
+        },
+        {
+          "lvl": 4,
+          "text": "Follow-up damage increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Follow-up damage ignores 240 of DEF."
+        }
+      ],
+      "icon": "assets/skills/5503b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kujaku-Myouou's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kujaku-Myouou's skills 8 times.",
+      "reward": "Shikigami No.550 ×10"
+    },
+    {
+      "condition": "In PVN zones, inflict Disarm 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/550skin1.webp"
+}

@@ -1,0 +1,152 @@
+{
+  "no": 422,
+  "en": "Youtou Hime Frog",
+  "cn": "妖刀姬呱",
+  "jp": "妖刀姫蛙",
+  "gl": "Yoto Hime Frog",
+  "rarity": "N",
+  "image": "File:422.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Youtou_Hime_Frog",
+  "cv": "Mari Hagai",
+  "intro": "",
+  "imageUrl": "assets/shikigami/422.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/422.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "117 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "65 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "99 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "C",
+        null
+      ],
+      "spd": [
+        "C",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4221",
+      "name": "Gero: Ominous Blade (呱·不祥之刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4221.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4222",
+      "name": "Gero: Oppression of the Vengeful Spirit (呱·怨魂重压)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Youtouhime-gero attacks 1 enemy 6 times. Every attack deals 10% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4222.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Yoto Hime Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Yoto Hime Frog and another player who has Yoto Hime.",
+      "reward": "Shikigami No.422 ×2"
+    },
+    {
+      "condition": "Clear a stage-10 Evo zone in solo mode with Yoto Hime Frog.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/422skin1.webp"
+}

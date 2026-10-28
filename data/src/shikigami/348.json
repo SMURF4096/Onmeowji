@@ -1,0 +1,224 @@
+{
+  "no": 348,
+  "en": "Ukiyo Aoandon",
+  "cn": "浮世青行灯",
+  "jp": "浮世青行燈",
+  "gl": "Wordly Aoandon",
+  "rarity": "SP",
+  "image": "File:348.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ukiyo_Aoandon",
+  "cv": "Nana Mizuki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/348.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/348.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": null,
+        "max": "2734"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "73",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "119",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "A"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3481",
+      "name": "Floating Flame (浮光)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The lights are out, but the story continues",
+      "description": "SP Aoandon forms a butterfly out of a scorching blue flame to attack a single target, dealing damage equal to 100% of her ATK. Also inflicts Light Drain on them, lasts for 2 turns. ;Light Drain (奪火) : :'''Debuff, Status''': Using skills for the first time cost an extra 1 onibi, lasts for 2 turns. Does not apply to monsters or summoned entities.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases damage to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases damage to 120%."
+        }
+      ],
+      "icon": "assets/skills/3481.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3482a",
+      "name": "Lights On (煢灯焕夜)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Wonder what happened afterwards? Come closer and I'll tell.",
+      "description": "Exclusive effect. <br>SP Aoandon re-writes the ending of all lives, permanently gaining Unextinguished. <br>When inflicting Light Drain on an enemy already inflicted with it again removes 2 onibi from them and SP Aoandon collects the removed onibi. <br>SP Aoandon collects all the onibi you have gained. Whenever she collects 30 onibi, she immediately uses Lantern of Death with no onibi cost. Whenever she collects 100 onibi, she gains the additional skill Final Chapter. ;Unextinguished (不滅) : :'''General, Mark''': SP Aoandon gains 1 stack for each onibi collected, max 100 stacks. The stacks don't reset when she is revived after being KO'd. Each stack increases the ATK and DEF for all allies by 1%. ;Light Drain (奪火) : :'''Debuff, Status''': Using skills for the first time cost an extra 1 onibi, lasts for 2 turns. Does not apply to monsters or summonable entities.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Collects all your overflow onibi."
+        },
+        {
+          "lvl": 3,
+          "text": "Collects 1 onibi when an ally uses a special skill."
+        },
+        {
+          "lvl": 4,
+          "text": "Collects all onibi spent on skills used by enemies with Light Drain."
+        },
+        {
+          "lvl": 5,
+          "text": "When you gain onibi from the onibi bar, gain 1 additional onibi and the onibi bar fills up by 1 extra slot at the end of SP Aoandon's turn."
+        }
+      ],
+      "icon": "assets/skills/3482a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3482b",
+      "name": "Final Chapter (浮世終活)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Aoandon consumes all 100 of the onibi collected to launch a 4-strike attack on all enemies with each strike dealing damage equal to 1200% of her ATK. Damage is shared equally among all enemies.",
+      "upgrades": [],
+      "icon": "assets/skills/3482b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3483",
+      "name": "Lantern of Death (告死瞑灯)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "There may be millions of endings for you, but this is the only one you deserve.",
+      "description": "The Lantern of Death falls, heralding impending doom. <br>SP Aoandon attacks a single target dealing damage equal to 211% of her ATK and inflicts them with Light Drain, lasts for 2 turns. <br>Then attacks all other enemies dealing damage equal to 105% of her ATK and inflicts Light Drain on 2 random enemies, priority is given to enemies not inflicted with it, lasts for 2 turns. ;Light Drain (奪火) : :'''Debuff, Status''': Using skills for the first time cost an extra 1 onibi, lasts for 2 turns. Does not apply to monsters or summonable entities.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 216% and 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 221% and 115%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 226% and 120%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 231% and 125%."
+        }
+      ],
+      "icon": "assets/skills/3483.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Aoandon with another player's Aoandon and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Aoandon's skill 8 times.",
+      "reward": "Shikigami No.348 ×10"
+    },
+    {
+      "condition": "In , use Final Chapter and win.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/348skin1.webp",
+  "stats": {
+    "min": {
+      "no": 348,
+      "en": null,
+      "atk": 130,
+      "hp": 1078,
+      "def": 73,
+      "spd": 119,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 348,
+      "en": null,
+      "atk": 2734,
+      "hp": 11507,
+      "def": 428,
+      "spd": 119,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

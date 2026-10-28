@@ -1,0 +1,272 @@
+{
+  "no": 353,
+  "en": "Kinnara",
+  "cn": "紧那罗",
+  "jp": "緊那羅",
+  "gl": "緊那羅",
+  "rarity": "SSR",
+  "image": "File:353.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kinnara",
+  "cv": "Yoshino Nanjou",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/353.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/353.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "135",
+        "lv2": null,
+        "max": "3109"
+      },
+      "hp": {
+        "lv1": "918",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "15",
+        "lv2": null,
+        "max": "15"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3531",
+      "name": "Introduction (序)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The show is about to begin.",
+      "description": "Kinnara strums her lute to play the prelude and attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "This attack also inflicts the effect of her last played Tune."
+        }
+      ],
+      "icon": "assets/skills/3531.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532a",
+      "name": "Raided (破)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "In this endless night, I form my melodies into light.",
+      "description": "At the start of Kinnara's turn, 1 of random 5 Tunes will be available to her. Their related effects are triggered when she plays a Tune. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After playing a Tune her, move bar is increased by 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "At the start of every round, she gains 50% of damage reduction from crit damage. Each time after playing a Tune, 10% of the damage reduction will be converted into 20% of Crit DMG."
+        },
+        {
+          "lvl": 4,
+          "text": "After playing a Tune, she gains Shelter (lasts for 1 turn)."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost is reduced by 1."
+        }
+      ],
+      "icon": "assets/skills/3532a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532b",
+      "name": "Do: Crimson Dusk (宮・赤之霞/宮・赤の霞)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kinnara attacks an enemy dealing damage equal to 150% of her ATK and has a 100% base chance of inflicting Isolation on them, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3532b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532c",
+      "name": "Re: Royalty Orange (商・山吹)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kinnara launches a 5-strike attack on random enemies, dealing damage equal to 90% of her ATK with each strike. This attack will not trigger enemy souls.",
+      "upgrades": [],
+      "icon": "assets/skills/3532c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532d",
+      "name": "Mi: Glowing Shrine (角・神宫华辉/角・神宮華輝)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kinnara increases the move bar of all allies by 10% and their Crit DMG by 40%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3532d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532e",
+      "name": "So: Gentle Breeze (徴・薫風)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kinnara restores the HP for all allies by 80% of her ATK and increases their DEF by 40%, lasts 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3532e.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3532f",
+      "name": "La: Purity (羽・澈)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kinnara grants 1 onibi and dispels 1 debuff or control effect from all allies. If no more than 3 debuffs or control effects are dispelled, 1 additional onibi is granted.",
+      "upgrades": [],
+      "icon": "assets/skills/3532f.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3533",
+      "name": "Conclusion (急)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Thank you all for playing this number with me.",
+      "description": "Kinnara plays Tune of Itsukushima to attack an enemy with music notes 5 times, dealing damage equal to 50% of her ATK with each music note.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "This attack also inflicts the effects of her played Tunes."
+        }
+      ],
+      "icon": "assets/skills/3533.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kinnara's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kinnara's skills 8 times.",
+      "reward": "Shikigami No.353 ×10"
+    },
+    {
+      "condition": "In Duel, Practice or Spar, use Conclusion with all 5 Tune effects and win.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/353skin1.webp",
+  "stats": {
+    "min": {
+      "no": 353,
+      "en": null,
+      "atk": 135,
+      "hp": 918,
+      "def": 61,
+      "spd": 105,
+      "crit": 15,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 353,
+      "en": null,
+      "atk": 3109,
+      "hp": 10709,
+      "def": 397,
+      "spd": 115,
+      "crit": 15,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 231,
+  "en": "Kijo Momiji",
+  "cn": "鬼女红叶",
+  "jp": "鬼女紅葉",
+  "gl": "Momiji",
+  "rarity": "SR",
+  "image": "File:231.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kijo_Momiji",
+  "cv": "Houko Kuwashima",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/231.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/231.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": "141",
+        "max": "2975"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": "960",
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "67",
+        "lv2": "74",
+        "max": "437"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": "114",
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2311",
+      "name": "Maple Shot (红枫/紅葉)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hehe! Look how red my maple leaves are! Aren't they beautiful?",
+      "description": "Kijo Momiji shoots maple leaves at a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2311.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2312",
+      "name": "Explosive Death (爆炸之咒/爆発の霊符)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Explode! Hahaha! Hahahahaha!",
+      "description": "When Kijo Momoji attacks, she inflicts a Maple Doll on the target, lasts for 2 turns. ; : ;Maple Doll (紅葉の人形) : : '''Debuff, Status''': Has a 50% chance of receiving indirect damage equal to 18% of their own HP (cannot exceed 250% of her ATK) after using a normal attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Maple Doll''': Indirect damage increases to 22% and chance of triggering increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Maple Doll''': Indirect damage increases to 26% and chance of triggering increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Maple Doll''': Indirect damage increases to 30% and chance of triggering increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Targets with Maple Doll have a 50% chance of having 1 onibi being removed after using a skill that costs onibi."
+        }
+      ],
+      "icon": "assets/skills/2312.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2313",
+      "name": "Dance of Death (死亡之舞/亡者の舞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Come dance with me on these red maple leaves!",
+      "description": "Kijo Momiji transforms maple leaves into blades and sends them flying through all enemies, dealing damage equal to 132% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 139%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 146%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 152%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 159%."
+        }
+      ],
+      "icon": "assets/skills/2313.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kijo Momiji take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kijo Momiji.",
+      "reward": "Shikigami No.231 ×10"
+    },
+    {
+      "condition": "Collect 10 Kijo Momiji shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/231skin1.webp",
+  "stats": {
+    "min": {
+      "no": 231,
+      "en": null,
+      "atk": 127,
+      "hp": 864,
+      "def": 67,
+      "spd": 104,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 231,
+      "en": null,
+      "atk": 2975,
+      "hp": 10254,
+      "def": 437,
+      "spd": 114,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

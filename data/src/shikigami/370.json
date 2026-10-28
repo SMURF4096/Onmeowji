@@ -1,0 +1,198 @@
+{
+  "no": 370,
+  "en": "Mishige",
+  "cn": "饭笥",
+  "jp": "飯笥",
+  "gl": "飯笥",
+  "rarity": "SSR",
+  "image": "File:370.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Mishige",
+  "cv": "Rie Takahashi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/370.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/370.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "137",
+        "lv2": null,
+        "max": "3162"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3701",
+      "name": "Gourmet Charge（尋味飛撲）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Charge, Porkie!",
+      "description": "Mishige commands Porkie the piglet to crash into a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3701.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3702",
+      "name": "Ready to Feast (蓄食待發)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "More rice, please!",
+      "description": "Exclusive effect.\nAt the end of a non-summoned ally's turn, and Mishige isn't immobile, she gains 1 stack of Grain Reserve.\n;\n:\n;Upon Usage\n:Mishige gains 2 stacks of Grain Reserve and increases the SPD of all other allies by 30. Then she gains a Huge Appetite, lasts for 1 turn.\n;Grain Reserve (不動穀)\n:\n:'''Buff, Mark''': Max 10 stacks. Each stack increases ATK by 10% and Crit DMG by 5%. If Mishige has 6 or less stacks, she is cannot Assist or receive Calls to Arms. Stacks won't reset in multi-round battles.\n;Huge Appetite (食欲増進)\n:\n:'''Buff, Mark''': At the end of a non-summed enemy's turn, can gain 1 stack of Grain Reserve.",
+      "upgrades": [],
+      "icon": "assets/skills/3702.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3703a",
+      "name": "Appetite Stimulated (胃口大開)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Warm smiles spread across the land with the smell of rice!",
+      "description": "This skill unlocks when Mishige has 6 or more stacks of Grain Reserve. Upon usage, Mishige launches an attack on the enemy with the highest HP, dealing damage equal to 100% of her ATK. Then she inflicts 8 strikes on random enemies, dealing damage equal to 33% of her ATK with each strike. <br>After the attack, 4 stacks of Grain Reserve are consumed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the first hit increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the first hit increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the first hit increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage for the first hit increases to 150%."
+        }
+      ],
+      "icon": "assets/skills/3703a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3703b",
+      "name": "Appetite Stimulated: Voracious (胃口大開・呑食天地)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When Mishige has 10 stacks of Grain Reserve, this skill is automatically used free of onibi. If she is inflicted with a control effect, then 5 stacks of Grain Reserve will be consumed to dispel or remove all of them first. <br>Upon usage, Mishige launches attack on the enemy with the highest HP dealing damage equal to 180% of her ATK once and deals equally distributed true damage equal to 40% of that damage to all other enemies. Then she inflicts 9 strikes on random enemies, dealing damage equal to 33% of her ATK. <br>After the attack, all stacks of Grain Reserve are consumed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the first hit increases to 200%."
+        },
+        {
+          "lvl": 3,
+          "text": "True damage increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the first hit increases to 230%."
+        },
+        {
+          "lvl": 5,
+          "text": "True damage increases to 80%."
+        }
+      ],
+      "icon": "assets/skills/3703b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Mishige's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Mishige's skills 8 times.",
+      "reward": "Shikigami No.370 ×10"
+    },
+    {
+      "condition": "Team Mishige with another player's Shokurei and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/370skin1.webp"
+}

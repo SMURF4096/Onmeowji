@@ -1,0 +1,227 @@
+{
+  "no": 574,
+  "en": "Shinyuu Inugami",
+  "cn": "心友犬神",
+  "jp": "Bosomboddy Inugami",
+  "gl": "Bosomboddy Inugami",
+  "rarity": "SP",
+  "image": "File:574.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shinyuu_Inugami",
+  "cv": "Toshihiko Seki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/574.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/574.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "147",
+        "lv2": null,
+        "max": "3109"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "62",
+        "lv2": null,
+        "max": "366"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "30",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5741a",
+      "name": "Divine Heart Strike (天心斬)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sparrow, strike with me!",
+      "description": "SP Inugami attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5741a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "5741b",
+      "name": "Spirit Sparrow: Divine Heart Strike (雀霊・天心斬)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Spotting the enemy's flaw is a basic skill for us wanderers.",
+      "description": "SP Inugami attacks a single target 5 times, dealing damage equal to 60% of his ATK with each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 65%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 75%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 80%."
+        }
+      ],
+      "icon": "assets/skills/5741b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5742",
+      "name": "On Guard: Sparrow's Protection (残心・雀守)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "With my heart as the blade, I unsheathe my weapon for you!",
+      "description": "Exclusive effect. SP Inugami inflicts Sparrow's Mark when using normal attacks. When switching targets for normal attacks, Sparrow's Mark carries over to the new target. When the marked target is KO'd, Sparrow's Mark transfers to the enemy with the lowest HP. ;Sparrow's Mark (雀の印) : :'''General, Mark''': Max of 5 stacks. When receiving a normal attack from SP Inugami or an onmyoji, increases by 1 stack. When stacks reach the max, SP Inugami consumes all stacks and activates Spirit Sparrow: Divine Heart Strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When an onmyoji uses a normal attack on the target with Sparrow's Mark, increases their move bar by 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "When an onmyoji uses a normal attack on the target with Sparrow's Mark, increases their ATK by 20% (up to 3 times)."
+        },
+        {
+          "lvl": 4,
+          "text": "When an onmyoji uses a normal attack on the target with Sparrow's Mark, increases their HIT by 20% (up to 3 times, doesn't effect totems)."
+        },
+        {
+          "lvl": 5,
+          "text": "When an onmyoji uses a normal attack on the target with Sparrow's Mark, SP Inugami will Assist with the attack."
+        }
+      ],
+      "icon": "assets/skills/5742.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5743a",
+      "name": "Wanderer's Return (浪客帰刀)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. SP Inugami grants a shield equal to 120% of his ATK to himself and the ally with the lowest HP. He then enters a Critical Defense stance, lasts for 2 turns. ;Critical Defense (会心守勢) : :'''Buff, Mark''': Gains 50% of the onmyoji's DEF. When ally with a shield is attacked, triggers Homeward Vow (once per turn, max of 4 times before the start of his own turn).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Also grants a shield to the onmyoji."
+        },
+        {
+          "lvl": 3,
+          "text": "If the onmyoji does not deal any damage on their turn, SP Inugami uses Homeward Vow at the end of their turn."
+        },
+        {
+          "lvl": 4,
+          "text": "After using Homeward Vow on the target with Sparrow's Mark, attacks again."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5743a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5743b",
+      "name": "Homeward Vow (一誓帰心)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Inugami attacks all enemies, dealing damage equal to 80% of his ATK, doesn't trigger enemy souls. If there is no enemy with Sparrow's Mark on the battlefield, inflicts Sparrow's Mark on the enemy with the lowest HP.\n;Sparrow's Mark (雀の印)\n:\n:'''General, Mark''': Max of 5 stacks. When receiving a normal attack from SP Inugami or an onmyoji, increases by 1 stack. When stacks reach the max, SP Inugami consumes all stacks and activates Spirit Sparrow: Divine Heart Strike.",
+      "upgrades": [],
+      "icon": "assets/skills/5743b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Shinyuu Inugami's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Shinyuu Inugami's skills 12 times.",
+      "reward": "Shikigami No.574 ×10"
+    },
+    {
+      "condition": "In PVN zones, use Spirit Sparrow: Divine Heart Strike 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/574skin1.webp"
+}

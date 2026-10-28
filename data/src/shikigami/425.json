@@ -1,0 +1,152 @@
+{
+  "no": 425,
+  "en": "Kaguya Hime Frog",
+  "cn": "辉夜姬呱",
+  "jp": "かぐや姫蛙",
+  "gl": "Kaguya Frog",
+  "rarity": "N",
+  "image": "File:425.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kaguya_Hime_Frog",
+  "cv": "Misaki Ikeda",
+  "intro": "",
+  "imageUrl": "assets/shikigami/425.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/425.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "109 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "69 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "C",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4251",
+      "name": "Gero: Jeweled Staff of Mount Hourai (呱·蓬莱玉枝)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4251.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4252",
+      "name": "Gero: Dragon's Jewel (呱·龙首之玉)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kaguyahime-gero opens a illusionary realm lasting for one turn. In this time, all allies have +5% defence, +1% effect resistance.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Gives +2% effect resistance"
+        },
+        {
+          "lvl": 3,
+          "text": "Gives +3% effect resistance"
+        },
+        {
+          "lvl": 4,
+          "text": "Gives +5% effect resistance"
+        }
+      ],
+      "icon": "assets/skills/4252.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Kaguya Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Kaguya Frog and another player who has Kaguya.",
+      "reward": "Shikigami No.425 ×2"
+    },
+    {
+      "condition": "Wish for 5 Kaguya Frog Shards in a guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/425skin1.webp"
+}

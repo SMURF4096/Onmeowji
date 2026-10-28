@@ -1,0 +1,186 @@
+{
+  "no": 386,
+  "en": "Zenitsu Agatsuma",
+  "cn": "我妻善逸",
+  "jp": "",
+  "gl": "Zenitsu Agatsuma",
+  "rarity": "SSR",
+  "image": "File:386.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Zenitsu_Agatsuma",
+  "cv": "Hiro Shimono",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/386.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/386.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "146",
+        "lv2": null,
+        "max": "3404"
+      },
+      "hp": {
+        "lv1": "886",
+        "lv2": null,
+        "max": "10368"
+      },
+      "def": {
+        "lv1": "56",
+        "lv2": null,
+        "max": "362"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3861",
+      "name": "First Form: Thunderclap and Flash (壱ノ型・霹靂一閃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "This can only be used if Zenitsu is in his Thunder Breathing state. <br>Zenitsu attacks a single target dealing damage equal to 100% of his ATK and gains 5 stacks of Thunderclap at the end of turn. When there are no non-summoned allies other than himself, these Thunderclap stacks can be gained a total of 5 more times. ;Thunder Breathing (雷の呼吸) : :'''Buff, Mark''': When Zenitsu has 6 stacks of Thunderclap, he becomes immune to Sleep. ;Thunderclap (霹靂) : :'''Buff, Mark''': Max of 6 stacks. When Zenitsu receives damage or is inflicted with a control effect, consumes 1 stack to grant him immunity to those effects on that turn. Immunity can be granted up to a max of 5 times.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3861.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3862",
+      "name": "Sleeping Zenitsu (善逸昏睡)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "At the start of Zenitsu's turn, he will permanently enter his Thunder Breathing state. The skills First Form: Thunderclap and Flash and First Form: Thunderclap and Flash Sixfold will also become unlocked. ;Thunder Breathing (雷の呼吸) : :'''Buff, Mark''': When Zenitsu has 6 stacks of Thunderclap, he becomes immune to Sleep. ;Thunderclap (霹靂) : :'''Buff, Mark''': Max of 6 stacks. When Zenitsu receives damage or is inflicted with a control effect, consumes 1 stack to grant him immunity to those effects on that turn. Immunity can be granted up to a max of 5 times.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to move bar increases to 6%."
+        },
+        {
+          "lvl": 3,
+          "text": "Boost to move bar increases to 9%."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to move bar increases to 12%."
+        },
+        {
+          "lvl": 5,
+          "text": "Boost to move bar increases to 15%."
+        }
+      ],
+      "icon": "assets/skills/3862.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3863",
+      "name": "First Form: Thunderclap and Flash Sixfold (壱ノ型・霹靂一閃・六連)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "This can only be used if Zenitsu is in his Thunder Breathing state. <br>Zenitsu attacks the enemy, dealing damage equal to 64% of his ATK to random enemies. The number of attacks is equal to the number of Thunderclap stacks he has. Then he attacks targeted enemy, dealing damage equal to 256% of his ATK. ; : ;Thunder Breathing (雷の呼吸) : :'''Buff, Mark''': When Zenitsu has 6 stacks of Thunderclap, he becomes immune to Sleep. ;Thunderclap (霹靂) : :'''Buff, Mark''': Max of 6 stacks. When Zenitsu receives damage or is inflicted with a control effect, consumes 1 stack to grant him immunity to those effects on that turn. Immunity can be granted up to a max of 5 times.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When 1 or more non-summoned enemies remain, damage for the targeted attack increases by 5%."
+        },
+        {
+          "lvl": 3,
+          "text": "When 2 or more non-summoned enemies remain, damage for the targeted attack increases by 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "When 3 or more non-summoned enemies remain, damage for the targeted attack increases by 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "When 4 or more non-summoned enemies remain, damage for the targeted attack increases by 30%."
+        }
+      ],
+      "icon": "assets/skills/3863.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.386 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/386skin1.webp"
+}

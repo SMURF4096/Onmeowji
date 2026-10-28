@@ -1,0 +1,248 @@
+{
+  "no": 357,
+  "en": "Hatsurei Yamakaze",
+  "cn": "初翎山风",
+  "jp": "初翎山風",
+  "gl": "Valiant Yamakaze",
+  "rarity": "SP",
+  "image": "File:357.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hatsurei_Yamakaze",
+  "cv": "Masuda Toshiki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/357.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/357.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "156",
+        "lv2": null,
+        "max": "3296"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "116",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3571",
+      "name": "Swift (疾)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You don't stay alert, you die.",
+      "description": "SP Yamakaze charges at a single target and launches a 2-strike attack, dealing damage equal to 40% of his ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 42%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 46%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3571.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3572",
+      "name": "Orders (令)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Prey, I've got my eye on you.",
+      "description": "Each time Briskey gains 1 MP during battle, SP Yamakaze's move bar is increased by 1%. When a control effect is dispelled or expires on him, if he's not inflicted by any additional control effects, his move bar is increased by 30%. Then Briskey consumes all MP (max of 60) by an additional 1% for each MP consumed. When dealing damage, SP Yamakaze deals an extra by 0.5% of damage for every 1% of HP the enemy has lost. ;Briskey (迅風) :At the start of SP Yamakaze's turn, if he not inflicted with any control effects, Briskey the owl will execute a command from one of these skills: Briskey's Shelter, Briskey's Hunting Eyes and Briskey's Blow Off. :''(MP is represented by a yellow bar under Briskey's skills.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage from AOE attacks is decreased by 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "At the start of his turn, his Crit DMG is increased by 1% for each 1 MP Briskey has."
+        },
+        {
+          "lvl": 4,
+          "text": "Each time an ally receives a crit attack, increases his move bar by 10% (only triggers once per attack)."
+        },
+        {
+          "lvl": 5,
+          "text": "At the start of battle, Briskey gains 20 MP."
+        }
+      ],
+      "icon": "assets/skills/3572.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3572a",
+      "name": "Briskey's Shelter (迅・庇羽)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":Gain 40 MP upon using this skill.\nBriskey hovers behind an ally, creating an undispellable shield that can absorb 75% of SP Yamakaze's ATK and grants them 100% of Crit RES, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3572a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3572b",
+      "name": "Briskey's Hunting Eyes (迅・猟目)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":Gain 40 MP upon using this skill.\nBriskey gazes at the an enemy and decreases their ATK, DEF and SPD by 35%, lasts for 2 turns. Briskey can only gaze at 1 enemy at a single time.",
+      "upgrades": [],
+      "icon": "assets/skills/3572b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3572c",
+      "name": "Briskey's Blow Off (迅・撃空)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":Consumes 60 MP upon using this skill.\nBriskey hovers before 1 enemy, blowing them of the ground. Their souls and passive are Sealed when blown off the ground. When the enemy lands, they receive damage equal to 240% of SP Yamakaze's ATK. \nMonsters cannot be blown off the ground. Instead, they receive damage equal to 480% SP Yamakaze's ATK when landing. Then Briskey gains 40 MP.",
+      "upgrades": [],
+      "icon": "assets/skills/3572c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3573",
+      "name": "Storm (嵐)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Rots with the fallen leaves now that the wind has stopped.",
+      "description": "SP Yamakaze rushes towards an enemy with a vortex of fire and slashes them 4 times, dealing damage equal to 63% of his ATK with each slash.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 66%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 69%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 72%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 75%."
+        }
+      ],
+      "icon": "assets/skills/3573.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "In , have SP Yamakaze defeat 2 enemies at the same time in 1 turn.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Yamakaze's skills 12 times.",
+      "reward": "Shikigami No.357 ×10"
+    },
+    {
+      "condition": "With SP Yamakaze win 10 times in against Yamakaze.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/357skin1.webp",
+  "stats": {
+    "min": {
+      "no": 357,
+      "en": null,
+      "atk": 156,
+      "hp": 1067,
+      "def": 66,
+      "spd": 116,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 357,
+      "en": null,
+      "atk": 3296,
+      "hp": 11393,
+      "def": 388,
+      "spd": 116,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

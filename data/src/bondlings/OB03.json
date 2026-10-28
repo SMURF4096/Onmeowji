@@ -1,0 +1,16 @@
+{
+  "no": "OB03",
+  "page": "Little Kuro (Bondling)",
+  "en": "Little Kuro",
+  "cn": "小黒",
+  "jp": "| Heian-kyo",
+  "area": "| Heian-kyo",
+  "type": "| HP",
+  "image": "assets/bondlings/OB03s1.webp",
+  "imageUrl": "assets/bondlings/OB03s1.webp",
+  "skins": [
+    "assets/bondlings/OB03skin1.webp",
+    "assets/bondlings/OB03skin2.webp"
+  ],
+  "skill": "Increases the Coin yield in Exploration zone battles by 5%.\nAt the end of the onmyoji's turn, heals the HP of the ally with the lowest HP by 12% of their max HP and increases their DEF by 30% for 2 turns."
+}

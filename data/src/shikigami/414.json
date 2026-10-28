@@ -1,0 +1,156 @@
+{
+  "no": 414,
+  "en": "Ootengu Frog",
+  "cn": "大天狗呱",
+  "jp": "大天狗蛙",
+  "gl": "大天狗蛙",
+  "rarity": "N",
+  "image": "File:414.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ootengu_Frog",
+  "cv": "Tetsu Kimishima",
+  "intro": "",
+  "imageUrl": "assets/shikigami/414.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/414.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "117 -> 2466",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "939 -> 10026",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 -> 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "C",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4141",
+      "name": "Gero: Wind Blast (呱·风袭)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4141.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4142",
+      "name": "Gero: Featherblade Cyclone (呱·羽刃暴风)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Ootengu-gero calls forth a cyclone, attacking all enemies 4 times. Each attack deals 8% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4142.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Ootengu Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Ootengu Frog and another player who has Ootengu.",
+      "reward": "Shikigami No.414 ×2"
+    },
+    {
+      "condition": "Clear a stage-10 Soul zone with Ootengu Frog.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/414skin1.webp"
+}

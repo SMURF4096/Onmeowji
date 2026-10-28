@@ -1,0 +1,236 @@
+{
+  "no": 358,
+  "en": "Yomei Higanbana",
+  "cn": "夜溟彼岸花",
+  "jp": "Nightveil Higanbana",
+  "gl": "Nightveil Higanbana",
+  "rarity": "SP",
+  "image": "File:358.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yomei_Higanbana",
+  "cv": "Sayaka Ohara",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/358.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/358.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "159",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "353"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "|CritGr1  = S"
+      ],
+      "crit": [
+        "S",
+        "|Cdmg1    = 150"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3581",
+      "name": "Descent into the Deep (落溟)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "May this crimson flower bloom in your soul's deepest place",
+      "description": "SP Higanbana casts a red spider lily at a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3581.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3582a",
+      "name": "Withering Blooms (赤色凋零)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Continious withering brings ever more beautiful flowers.",
+      "description": "Exclusive effect. <br>SP Higanbana loses 40% of her current HP and casts 6 Nether Seeds at all enemies, prioritizing enemies with the fewer seeds. Then she becomes Dormant. If SP Higan is Dormant at the start of her turn, she collects all Nether Seeds (max of 3 stacks) and she gains an equal amount of Nether Flowers. Then she leaves her Dormant state. <br>This skill cannot be used if she has Nether Flowers. ;Nether Seeds (溟種) : :'''General, Mark''': At the end of turn, each Nether Seed stack inflicts damage equal 100% to SP Higanbana's ATK. If the damage is absorbed by a shield or negated by damage immunity, SP Higanbana gains an additional Nether Flower. ;Nether Flower (溟花) : :'''Buff, Mark''': Max 10 layers. Upon collection, each stack restores 10% of SP Higanbana's max HP. If she has Nether Flowers, Path of Flames activates after she attacks. ;Dormant (沈眠) : : SP Higanbana becomes immobile, immune to damage, debuffs and control effects. When all Nether Seeds are cleared, all Nether Flowers on her are removed and she will leave her Dormant state.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Whenever she leaves her Dormant state, her ATK is permanently increased by 10% (max 3 layers)."
+        },
+        {
+          "lvl": 3,
+          "text": "Onibi cost for Root Out increases by 1."
+        },
+        {
+          "lvl": 4,
+          "text": "Whenever she leaves her Dormant state, the number max number of Nether Flowers converted from Nether Seeds increases by 1 (max 6)."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses Withering Blooms at the start of a battle."
+        }
+      ],
+      "icon": "assets/skills/3582a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3582b",
+      "name": "Root Out (花燼)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''Enemies inflicted with Nether Seeds gain this skill.''\nSelect an ally with Nether Seeds and 1 Seed from them and yourself.",
+      "upgrades": [],
+      "icon": "assets/skills/3582b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3582c",
+      "name": "Path of Flames (火照の路)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "A cluster of red spider lilies blossom around an enemy and inflicts a number of strikes equal to SP Higanbana's Nether Flower stacks, dealing damage equal to 80% of her ATK with each strike. For each Nether Flower strike inflicted, the damage for the next strike will also be inflicted on an additional enemy.\nAfter this skill activates, all Nether Flowers are losts and SP Higanbana's move bar is increased by 25%.",
+      "upgrades": [],
+      "icon": "assets/skills/3582c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3583",
+      "name": "Doom of the Underworld (殛尽黄泉)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Higanbana orders Odokuro to wield her blade and attack all enemies, dealing damage equal to 100% of her ATK and reduces their ATK by 15%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110% and reduced ATK increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 125% and reduced ATK increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 140% and reduced ATK increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "After using this skill, herSPD is increased by 50 (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3583.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Higanbana's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Higanbana's skills 12 times.",
+      "reward": "Shikigami No.358 ×10"
+    },
+    {
+      "condition": "With SP Higanbana win 30 battles against Enma in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/358skin1.webp",
+  "stats": {
+    "min": {
+      "no": 358,
+      "en": null,
+      "atk": 159,
+      "hp": 1014,
+      "def": 60,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 358,
+      "en": null,
+      "atk": 3350,
+      "hp": 10823,
+      "def": 353,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

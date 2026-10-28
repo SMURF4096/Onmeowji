@@ -1,0 +1,85 @@
+{
+  "no": 594,
+  "en": "Yumebiki Kochou no Sei",
+  "cn": "梦引蝴蝶精",
+  "jp": "夢引き胡蝶の精",
+  "gl": "Dreambound Chocho",
+  "rarity": "SP",
+  "type": "SUP",
+  "role": "shikigami",
+  "image": "File:594.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yumebiki_Kochou_no_Sei",
+  "cv": "Aoi Yuki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "art": "assets/art/594skin1.webp",
+  "localImage": "assets/shikigami/594.webp",
+  "imageUrl": "assets/shikigami/594.webp",
+  "skills": [
+    {
+      "name": "Swaying Bell",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5941.webp",
+      "description": "Follow me closely. SP Kochou attacks a single target dealing damage equal to 100% of her ATK. Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125%.",
+      "group": "Normal"
+    },
+    {
+      "name": "Spiritual Dream",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "icon": "assets/skills/5942.webp",
+      "description": "I see it — the dream’s continuation. When affected by Sleep, she cocoons herself and casts this skill instead. Gains a Dream Cocoon equal to 15% of max HP for 2 turns (uncleansable shield, +10% damage dealt). Level 2: Cocoon 20%. Level 3: immune to excess damage when Cocoon breaks. Level 4: casts automatically when cumulative damage exceeds 20% of max HP (once before her next turn). Level 5: Cocoon bearer’s damage dealt +20%.",
+      "line": "I see it-the dream's continuation.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases Dream Cocoon absorption to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Dream Cocoon is broken, immune to excess damage."
+        },
+        {
+          "lvl": 4,
+          "text": "In any turn, when cumulative damage taken exceeds 20% of max HP, casts Spirit Dream. (Up to once before their next turn.)"
+        },
+        {
+          "lvl": 5,
+          "text": "Increases Dream Cocoon bearer's damage dealt by 20%."
+        }
+      ],
+      "group": "Special"
+    },
+    {
+      "name": "Sound of Dreams",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "icon": "assets/skills/5943.webp",
+      "description": "Now, I can shine brightly on stage too. Heals all allies for 15% of their max HP, 20% for the selected target. Level 2: selected target 30%. Level 3: all allies’ damage +20% for 1 turn. Level 4: grants the target a Dream Cocoon equal to 50% of healing received (2 turns). Level 5: Upper Hand — casts on the allied shikigami with the highest initial ATK.",
+      "line": "Now, I can shine brightly on stage too.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases healing on selected target to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "Using the skill additionally increases all allies' damage by 20% for 1 turn."
+        },
+        {
+          "lvl": 4,
+          "text": "Grants the selected target a Dream Cocoon equal to 50% of healing received for 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Effective exclusively, casts on the allied shikigami with the highest initial ATK."
+        }
+      ],
+      "group": "Special"
+    }
+  ]
+}

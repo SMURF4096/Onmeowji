@@ -1,0 +1,265 @@
+{
+  "no": 332,
+  "en": "Kujira",
+  "cn": "久次良",
+  "jp": "",
+  "gl": "Kujira",
+  "rarity": "SR",
+  "image": "File:332.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kujira",
+  "cv": "Ryota Takeuchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/332.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/332.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "3457"
+      },
+      "hp": {
+        "lv1": "779",
+        "lv2": null,
+        "max": "9115"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "485"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3321a",
+      "name": "Whale Bone: Station (鲸骨·驻/鯨骨・駐)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't worry, hold you ground.",
+      "description": "At the start of the Kujira's turn, he creates a Bone Shield to protect all allies. Then uses his bone blade to attack a single target, dealing damage equal to 80% of his ATK. <br>If all allies are protected by Bone Shield when he tries to create the shields, his attack inflicts additional true damage equal to 10% of the target's max HP (cannot exceed 120% of his ATK). <br>When Kujira is in Attacking stance, the skill changes to Whale Bones: Open. ;Bone Shield (骨盾) : :Decreases damage received from crits by 40% in a single turn. Disappears when the turns ends after receiving damage from a crit.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3321a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3321b",
+      "name": "Whale Bone: Open (鲸骨·开/鯨骨・開)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kujira attacks a single target with crushing force, dealing damage equal to 100% his ATK. <br>When Kujira is in Defensive stance, the skill changes to Whale Bones: Station. ;Double Crit : :When landing a crit attack, the Crit DMG is doubled.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%, when this attack crits a Double Crit is dealt instead."
+        }
+      ],
+      "icon": "assets/skills/3321b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3322",
+      "name": "Defend for Attack (以守为攻/攻守兼備)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "No one hurts my friend!",
+      "description": "Exclusive effect.\nWhen an ally is not protected by Bone Shield receives non-transferred damage, Kujira creates a Bone Shield to protect that ally and launches a counter-attack against the source of the damage.\nIn a single turn, if multiple allies are not protected by Bone Shield receive damage, Kujira will only create a Bone Shield to protect 1 of those allies and launch a counter-attack.\nWhen Kujira is in Attacking stance, this skill changes to Co-op Combat.\n;Bone Shield (骨盾)\n:\n:Decreases damage received from crits by 40% in a single turn. Disappears when the turns ends after receiving damage from a crit.",
+      "upgrades": [],
+      "icon": "assets/skills/3322.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3322b",
+      "name": "Co-op Combat (协战/協同作戦)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kujira has a 30% chance to Assist. \nWhen Kujira is in Defensive stance, this skill changes to Defend to Attack.\n;\n:\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
+      "upgrades": [],
+      "icon": "assets/skills/3322b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3323",
+      "name": "Scale Preparation (鱼鳞之备/魚鱗の備)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The time has come. Charge!",
+      "description": "Exclusive effect. <br>When in Defensive stance, Kujira increases the RES and DEF for all allies by 10% and grants them an 80% chance of gaining a Bone Shield at the end of their turn. If an ally already has a Bone Shield, their HP is restored by 15% of their lost HP instead (cannot exceed more than 120% of Kujira's ATK). ;Upon Usage :Changes Kujira's stance to Attacking and increases the move bar for all allies by 15%. This skill changes to Area Preparation. ;Bone Shield (骨盾) : :Decreases damage received from crits by 40% in a single turn. Disappears when the turns ends after receiving damage from a crit.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "DEF increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "RES increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Move bar increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Move bar for himself is increased to 60%."
+        }
+      ],
+      "icon": "assets/skills/3323.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3323b",
+      "name": "Area Preparation (方圆之备/方円の備)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. <br>When in Attacking stance, Kujira increases the SPD for all allies by 20. ;Upon Usage :Changes Kujira's stance to Defensive and creates an undispellable shield to protect all allies, lasts for 2 turns. This shield can absorb damage equal to 94% of his ATK (cannot exceed more the 100% of the target's HP). This skill changes to Scale Preparation.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When in Attacking stance, also increases the Crit DMG for all allies by 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "SPD increases to 30."
+        },
+        {
+          "lvl": 4,
+          "text": "Shield absorption increases to 104%."
+        },
+        {
+          "lvl": 5,
+          "text": "Crit DMG boost for all allies increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/3323b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kujira.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Kujira with another player's Ootakemaru and clear any zone 10 times.",
+      "reward": "Shikigami No.332 ×10"
+    },
+    {
+      "condition": "Increase Kujira's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/332skin1.webp",
+  "stats": {
+    "min": {
+      "no": 332,
+      "en": null,
+      "atk": 127,
+      "hp": 779,
+      "def": 75,
+      "spd": 99,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 332,
+      "en": null,
+      "atk": 3457,
+      "hp": 9115,
+      "def": 485,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

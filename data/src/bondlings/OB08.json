@@ -1,0 +1,16 @@
+{
+  "no": "OB08",
+  "page": "Fox Fire (Bondling)",
+  "en": "Fox Fire",
+  "cn": null,
+  "jp": null,
+  "area": "|HP",
+  "type": "|}",
+  "image": "assets/bondlings/OB08s1.webp",
+  "imageUrl": "assets/bondlings/OB08s1.webp",
+  "skins": [
+    "assets/bondlings/OB08skin1.webp",
+    "assets/bondlings/OB08skin2.webp"
+  ],
+  "skill": "Increases Effect HIT by 20%. After the Onmyoji acts for 2 turns, summons fox spirits to attack all enemies, dealing 100% damage twice and additionally increasing the Onmyoji's Effect HIT by 30%."
+}

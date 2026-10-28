@@ -1,0 +1,186 @@
+{
+  "no": 596,
+  "en": "Kannazuki",
+  "cn": "神无月",
+  "jp": "神無月",
+  "gl": "神無月",
+  "rarity": "SSR",
+  "image": "File:596.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kannazuki",
+  "cv": "Inoue Honoka",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/596.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/596.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "95",
+        "lv2": null,
+        "max": "2010"
+      },
+      "hp": {
+        "lv1": "1227",
+        "lv2": null,
+        "max": "13899"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "157",
+        "lv2": null,
+        "max": "157"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "D",
+        "A"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5961",
+      "name": "Dreamcatcher (捕梦)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Bubbles, it's dinner time.",
+      "description": "Kannazuki attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5961.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5963",
+      "name": "Reverie Granted (美梦赐予)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You're the master of your dreams-all unfolds as you wish.",
+      "description": "Effect exclusive. Kannazuki creates a field that lasts for 1 turn. Non-summoned entity ally target gains 2 stacks of Into the Dream for 2 turns. <br> Within the field, Kannazuki and the Into the Dream bearer gain 40% damage reduction, while other allies gain 20% damage reduction. ;Into the Dream (入梦) : :'''Buff''', '''Mark''': up to 2 stacks, a maximum of 1 instance of this effect can exist on the ally field. When the bearer casts a skill, reduces orb cost by 3 and consumes 1 stack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Before the turn of herself and of the Into the Dream bearer within the field, gain 1 orb."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases field effect to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduces orb cost by 2."
+        },
+        {
+          "lvl": 5,
+          "text": "The target gains Dream Realized in the next turn."
+        }
+      ],
+      "icon": "assets/skills/5963.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5962",
+      "name": "Dreamweaver Tune (织梦曲)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Fireflies nestle in the heart, dreams dock in the moonlit bay.",
+      "description": "Exclusive effect. Kannazuki and Into the Dream bearer gain 40% damage reduction, while other allies gain 20% damage reduction. At the start of battle, Kannazuki gains Dreams Realized (once per round only.) Each time Kannazuki creates a field, she gains 1 stack of Dream Divinity. ;Into the Dream (入梦) : :'''Buff''', '''Mark''': up to 2 stacks, a maximum of 1 instance of this effect can exist on the ally field. When the bearer casts a skill, reduces orb cost by 3 and consumes 1 stack. ;Dream Divinity (梦神) : :'''Buff''', '''Mark''': max 5 stacks, each stack grants allies in the field a 12% damage increase.. ;Dreams Realized (美梦必成) : :The bearer's initial 4-piece Soul effect probability and base probability are increased to 100% (a maximum of 1 instance of this effect can exist on the ally field excluding Kannazuki, and it is removed after activation)",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Dream Divinity damage boost increases to 13%."
+        },
+        {
+          "lvl": 3,
+          "text": "Dream Divinity damage boost increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "Dream Divinity damage boost increases to 17%."
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Gains 1 stack of Dream Divinity."
+        }
+      ],
+      "icon": "assets/skills/5962.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "? ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/596skin1.webp"
+}

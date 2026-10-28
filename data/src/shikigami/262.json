@@ -1,0 +1,195 @@
+{
+  "no": 262,
+  "en": "Ubume",
+  "cn": "姑获鸟",
+  "jp": "姑獲鳥",
+  "gl": "姑獲鳥",
+  "rarity": "SR",
+  "image": "File:262.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ubume",
+  "cv": "Toa Yukinari",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/262.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/262.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "133",
+        "lv2": null,
+        "max": "3082"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "50",
+        "lv2": null,
+        "max": "50"
+      },
+      "cdmg": {
+        "lv1": "120",
+        "lv2": null,
+        "max": "120"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "SSS",
+        "SSS"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2621",
+      "name": "Umbrella Sword (伞剑/傘剣)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The umbrella is mightier than the sword!",
+      "description": "Faster than the eye can see, Ubume pulls out her umbrella and strikes a single target, dealing damage equal to 80% of her ATK and ignores 20% of the their DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 96%."
+        }
+      ],
+      "icon": "assets/skills/2621.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2622",
+      "name": "Co-op (协战/協戦)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It feels like rain! Let me lend you my umbrella...",
+      "description": "Ubume has a 30% chance to Assist.\nIf her total ATK is the highest among non-summoned allies, she also gains First Feathers.\n When Ubume is deployed and wins a battle, EXP awarded increases by 9%.\n;First Feathers (羽初)\n:\n:'''General, Mark''': Increases her damage dealt by 100% and her chance to Assist by 60%.\n;Assist\n: When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
+      "upgrades": [],
+      "icon": "assets/skills/2622.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2623",
+      "name": "Hack and Slash (天翔鹤斩/天翔鶴切)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "It's raining, it's pouring... My umbrella is goring!",
+      "description": "Using her umbrella as a sword, Ubume inflicts a barrage of 3 attacks on all enemies, dealing damage equal to 33% of her ATK with each ATK. Also the finishing slash on the targeted enemy deals damage equal to 88% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 35% and finishing slash damage increases to 93%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 37% and finishing slash damage increases to 98%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 39% and finishing slash damage increases to 103%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 41% and finishing slash damage increases to 108%. If the HP of the enemy is less than 60% or if they're the last enemy standing, damage for the finishing slash increases to 200%."
+        }
+      ],
+      "icon": "assets/skills/2623.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ubume.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Ubume clear stage 5 of the Orochi soul zone (solo).",
+      "reward": "Shikigami No.262 ×10"
+    },
+    {
+      "condition": "Donate 10 Ubume shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/262skin1.webp",
+  "stats": {
+    "min": {
+      "no": 262,
+      "en": null,
+      "atk": 133,
+      "hp": 907,
+      "def": 60,
+      "spd": 103,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 262,
+      "en": null,
+      "atk": 3082,
+      "hp": 10823,
+      "def": 397,
+      "spd": 113,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

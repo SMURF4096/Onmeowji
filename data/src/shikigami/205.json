@@ -1,0 +1,196 @@
+{
+  "no": 205,
+  "en": "Zashiki Warashi",
+  "cn": "座敷童子",
+  "jp": "Zashiki",
+  "gl": "Zashiki",
+  "rarity": "R",
+  "image": "File:205.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Zashiki_Warashi",
+  "cv": "Junko Takeuchi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/205.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/205.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "99",
+        "lv2": "110",
+        "max": "2332"
+      },
+      "hp": {
+        "lv1": "1046",
+        "lv2": "1163",
+        "max": "12418"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": "78",
+        "max": "459"
+      },
+      "spd": {
+        "lv1": "92",
+        "lv2": "102",
+        "max": "102"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "c"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2051",
+      "name": "Soul Fire (魂之火/魂の炎)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Soul Fire, come to my aid!",
+      "description": "Zashiki Warashi casts soul fire to attack a single target, dealing damage equal to 100% of her ATK and has a 50% chance of gaining 1 onibi.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2051.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2052",
+      "name": "Serendipity (福运昌隆/福運繁栄)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Why keep all the good luck for yourself?",
+      "description": ";Upper Hand :Automatically gain 1 onibi at the start of battle.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Number of onibi gained increases to 2."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of onibi gained increases to 3."
+        }
+      ],
+      "icon": "assets/skills/2052.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2053",
+      "name": "Trade-Off (祸福相生/転禍為福)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sometimes a loss can become a win.",
+      "description": "Zashiki Warashi sacrifices 30% of her current HP to gain 2 onibi.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Number of onibi gained increases to 3."
+        },
+        {
+          "lvl": 3,
+          "text": "HP sacrificed reduced to 20%."
+        }
+      ],
+      "icon": "assets/skills/2053.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Zashiki Warashi clear stage 5 of any Evo zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Zashiki Warashi win 40 times in PVN zones.",
+      "reward": "Shikigami No.205 ×10"
+    },
+    {
+      "condition": "Donate 5 Zashiki Warashi shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/205skin1.webp",
+  "stats": {
+    "min": {
+      "no": 205,
+      "en": null,
+      "atk": 99,
+      "hp": 1046,
+      "def": 71,
+      "spd": 92,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 205,
+      "en": null,
+      "atk": 2332,
+      "hp": 12418,
+      "def": 459,
+      "spd": 102,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

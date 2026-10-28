@@ -1,0 +1,221 @@
+{
+  "no": 355,
+  "en": "Rokumei Ootakemaru",
+  "cn": "麓铭大岳丸",
+  "jp": "麓銘大嶽丸",
+  "gl": "Monumental Otakemaru",
+  "rarity": "SP",
+  "image": "File:355.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Rokumei_Ootakemaru",
+  "imageUrl": "assets/shikigami/355.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/355.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "159",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "115",
+        "lv2": "|CritGr1  = S",
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "|Cdmg1    = 150",
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "|Spd2     ="
+      ],
+      "crit": [
+        "S",
+        "|Crit2    ="
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3551",
+      "name": "Mountain's Shadow: Erode (麓影・蝕)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will reduce you to mass of bubbles.",
+      "description": "SP Ootakemaru wields Kenmyoren and unleashes a wave of energy at a single target, dealing damage equal to 100% of his ATK and inflicts them with Mountain's Erosion. ;Mountain's Erosion (麓蝕) : :'''Debuff, Status''': Overall ATK is reduced by 15% and healing effects are reduced by 30%. Converted into Mountain Crush after taking an action. ;Mountain's Crush (麓圧) : :'''Debuff, Mark''': Overall SPD is reduced by 30% and inflicts , lasts until the start of the next turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3551.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3552",
+      "name": "Master of the Mountain (銘海の主)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Mt. Suzuka is where I stand.",
+      "description": "Exclusive effect. <br>SP Ootakemaru enters Soul-controlling form for 2 turns, increasing his RES by 100%. He gains a Mountain's Boon stack when an ally uses a special skill. <br>While in Soul-controlling form and when 3 or more non-summoned entities are KO'd, all buffs and control effects on SP Ootakemaru are removed. He then enters the Reincarnation form, increasing his SPD by 100 and damage reduction by 50%. While in the form, he also becomes immune to debuffs, control effects, Banish and similar effects. He automatically uses Obliterate Evils on his turns. ;Mountain's Boom (麓沢) : :'''Buff, Mark''': Max 4 stacks. Each stack reduced the onibi cost for Forgotten End. After using Forgotten End, all stacks are consumed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While in Soul-controlling form, damage received from single target attacks is decreased by 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "While in Soul-controlling form, when a non-summoned entity is KO'd he restores 30% of his max HP."
+        },
+        {
+          "lvl": 4,
+          "text": "Duration of Soul-controlling state increases to 3 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3552.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3553b",
+      "name": "Obliterate Evils (逆魂尽断)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Ootakemaru commands imps to launch a 5-strike attack to random enemies, dealing damage equal to 240% of his ATK with each strike.",
+      "upgrades": [],
+      "icon": "assets/skills/3553b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3553a",
+      "name": "Forgotten End (断末無銘)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "Enemes of Mt. Suzuka, disappear now and be forgotten!",
+      "description": "SP Ootakemaru unleashes a wave of rocks to attack all enemies, dealing damage equal to 180% of his ATK. While he is in Soul-controlling form, also inflicts all enemies with Mountain's Erosion. ;Mountain's Erosion (麓蝕) : :'''Debuff, Status''': Overall ATK is reduced by 15% and healing effects are reduced by 30%. Converted into Mountain Crush after taking an action. ;Mountain's Crush (麓圧) : :'''Debuff, Mark''': Overall SPD is reduced by 30% and inflicts , lasts until the start of the next turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 200%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 220%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 240%."
+        },
+        {
+          "lvl": 5,
+          "text": "Before dealing damage, dispel 1 buff from all enemies."
+        }
+      ],
+      "icon": "assets/skills/3553a.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Ootakemaru with another player's Suzuka Gozen and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Ootakemaru's skill 12 times.",
+      "reward": "Shikigami No.355 ×10"
+    },
+    {
+      "condition": "With SP Ootakemaru win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/355skin1.webp",
+  "stats": {
+    "min": {
+      "no": 355,
+      "en": null,
+      "atk": 159,
+      "hp": 1067,
+      "def": 75,
+      "spd": 115,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 355,
+      "en": null,
+      "atk": 3350,
+      "hp": 11393,
+      "def": 441,
+      "spd": 115,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

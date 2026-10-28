@@ -1,0 +1,191 @@
+{
+  "no": 224,
+  "en": "Ame Onna",
+  "cn": "雨女",
+  "jp": "",
+  "gl": "Ame Onna",
+  "rarity": "R",
+  "image": "File:224.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ame_Onna",
+  "cv": "Ai Kakuma",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/224.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/224.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "2251"
+      },
+      "hp": {
+        "lv1": "1035",
+        "lv2": null,
+        "max": "12304"
+      },
+      "def": {
+        "lv1": "73",
+        "lv2": null,
+        "max": "476"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "c"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2241",
+      "name": "Teardrops (泪珠/涙の雫)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Boo hoo hoo...",
+      "description": "Ame Onna collects her magical tears in her umbrella and launches them at an a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2241.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2242",
+      "name": "Purifying Rain (净化之雨/浄化の雨)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "How long will it take before these tears stop pouring from my heart?",
+      "description": "At the start of the turn, removes all controlling effects on self and dispels all debuffs. Gains 40 SPD for 1 turn when affected by debuffs or controlling effects (triggers at most once before own turn starts).\n;Remove\n:Removes the effects that cannot be dispelled.",
+      "upgrades": [],
+      "icon": "assets/skills/2242.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2243",
+      "name": "Sky Tear (天之泪/空の涙)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Even the sky doesn't cry this much.",
+      "description": "Select an allied target to remove all controlling effects they bear, and dispels all debuffs or controlling effects from all allies (up to four per allied shikigami). <br>Dispels 1 buff from each enemy and has a 100% base chance to inflict Shackle of Tears on them, lasting for 2 turns. ;Shackle of Tears (涙の絆) : :'''Debuff, Status''': Slows the inflicted target, decreasing their SPD by 10. ;Remove :Removes the effects that cannot be dispelled. ;Base Chance :Chance is affected by Effect HIT.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the selected allied target's Effect RES by 80% for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of enemy buffs that can be dispelled increases to 2."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Shackle of Tears''': Slow effect increases to 20."
+        }
+      ],
+      "icon": "assets/skills/2243.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Ame Onne gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Ame Onna's skills 6 times.",
+      "reward": "Shikigami No.224 ×10"
+    },
+    {
+      "condition": "With Ame Onna clear any zone 50 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/224skin1.webp",
+  "stats": {
+    "min": {
+      "no": 224,
+      "en": null,
+      "atk": 97,
+      "hp": 1035,
+      "def": 73,
+      "spd": 93,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 224,
+      "en": null,
+      "atk": 2251,
+      "hp": 12304,
+      "def": 476,
+      "spd": 103,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

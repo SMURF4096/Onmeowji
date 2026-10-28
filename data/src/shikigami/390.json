@@ -1,0 +1,186 @@
+{
+  "no": 390,
+  "en": "Shinkei Susabi",
+  "cn": "神启荒",
+  "jp": "神啓荒",
+  "gl": "Divine Prophet Susabi",
+  "rarity": "SP",
+  "image": "File:390.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shinkei_Susabi",
+  "cv": "Daisuke Hirakawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/390.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/390.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "174",
+        "lv2": null,
+        "max": "3672"
+      },
+      "hp": {
+        "lv1": "1227",
+        "lv2": null,
+        "max": "13102"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "116",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3901",
+      "name": "Comet (隕星)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is what has been foretold by the stars.",
+      "description": "SP Susabi commands comets to fall on a single target, dealing damage equal to 100% of his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "While the Galaxy of Fate field is active and when he uses a normal attack, increases the available Star Burst triggers by 1 (max of 6)."
+        }
+      ],
+      "icon": "assets/skills/3901.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3902",
+      "name": "Starry Galaxy (星羅雲布)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Fate might be predestined, but fortune is made.",
+      "description": "Exclusive effect. <br>SP Susabi creates the Galaxy of Fate field. While it is active, he checks the prophecy at the start of a non-onmyoji enemy's turn. If an enemy shikigami does not spend any onibi, a Star Burst triggers dealing indirect damage equal to 72% of his ATK to all enemies. Then recovers 8% of his HP max HP and decreases allies' damage from normal attacks by 20%. Each time a Star Burst is triggered, he will gain 1 Power of the Stars stack. The field ends after 6 Star Bursts have been triggered. When the field ends, his move bar is increased by 30%. ;Power of the Stars (星辰の力) : :'''General, Mark''': Max of 6 stacks. If he is inflicted with a control effect and has 3 or more stacks at the start of his turn, consumes 3 stacks to dispel or remove all control effects from himself.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While the field is active, each Star Burst triggered increases the damage for the next Star Burst by 25% (max of 75%)."
+        },
+        {
+          "lvl": 3,
+          "text": "While the field is active, SP Susabi gains 40% of damage reduction."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Upper Hand''': Automatically uses the this skill at the start of battle."
+        },
+        {
+          "lvl": 5,
+          "text": "Star Burst ignores enemy passives."
+        }
+      ],
+      "icon": "assets/skills/3902.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3903",
+      "name": "Comet and Lightning (星流霆撃)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "From the stars, to the stars.",
+      "description": "SP Susabi commands stars to open up a black hole in a nebula and unleashes it onto all enemies, dealing damage equal to 127% of his ATK. Each Power of the Stars stack inflicts an additional strike on all enemies, dealing damage equal to 48% of his ATK. Then all Power of the Stars stacks are consumed. ;Power of the Stars (星辰の力) : :'''General, Mark''': Max of 6 stacks. If he is inflicted with a control effect and has 3 or more stacks at the start of his turn, consumes 3 stacks to dispel or remove all control effects from himself.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 139%."
+        },
+        {
+          "lvl": 3,
+          "text": "Additional damage increases to 68%."
+        },
+        {
+          "lvl": 4,
+          "text": "While the Stars of Fate field is active and when he uses this skill, increases the available Star Burst triggers by 3 (max of 6)."
+        },
+        {
+          "lvl": 5,
+          "text": "Additional damage ignores enemy soul effects."
+        }
+      ],
+      "icon": "assets/skills/3903.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Susabi's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Susabi's skills 8 times.",
+      "reward": "Shikigami No.390 ×10"
+    },
+    {
+      "condition": "With SP Susabi win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/390skin1.webp"
+}

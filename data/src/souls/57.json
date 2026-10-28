@@ -1,0 +1,16 @@
+{
+  "no": 57,
+  "en": "Possessor",
+  "cn": "隐念",
+  "jp": "隱念",
+  "type": "ATK",
+  "image": "File:Soul57.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Possessor",
+  "imageUrl": "assets/souls/Soul57.webp",
+  "localImage": "assets/souls/Soul57.webp",
+  "combo2": "Increases ATK by 15%",
+  "combo4": "Increases damage dealt by 20%. If it's dealt to the same target, increases the damage dealt by subsequent strikes by 40% and 60% respectively. Damage boost loops 20%, 40%, 60% for further strikes.",
+  "location": "Orochi Soul Zones: Stage 12 (Thursday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M51.webp"
+}

@@ -1,0 +1,208 @@
+{
+  "no": 256,
+  "en": "Youkinshi",
+  "cn": "妖琴师",
+  "jp": "Maestro",
+  "gl": "Maestro",
+  "rarity": "SR",
+  "image": "File:256.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Youkinshi",
+  "cv": "Nobunaga Shimazaki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/256.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/256.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "2573"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "12646"
+      },
+      "def": {
+        "lv1": "62",
+        "lv2": null,
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "s",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2561",
+      "name": "Sonic Arrow (惊弦/驚弦)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Time to calm you down.",
+      "description": "Youkinshi uses his zither as a bow to shoot an arrow of sound at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2561.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2562",
+      "name": "Lingering Sound (余音/余韻)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "This song is about to end.",
+      "description": "Youkinshi grants an ally an action. <br>Grants all allies Lingering Sound, lasts for 1 turn. ;Lingering Sound (余韻) : :'''Buff, Status''': Increases SPD by 8.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Lingering Sound''': SPD increases to 11."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Lingering Sound''': SPD increases to 14."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Lingering Sound''': SPD increases to 17."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Lingering Sound''': SPD increases to 20."
+        }
+      ],
+      "icon": "assets/skills/2562.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2563",
+      "name": "Maddening Melody (疯魔琴心/魔狂琴心)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Genius and madness are two sides of the same coin.",
+      "description": "Youkinshi pours his heart and soul into his performance as he plays a maddening tune, dealing damage equal to 85% of his ATK to all enemies and has a 20% chance decreasing their move bar by 100%. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 89%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 93%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 97%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 101%."
+        }
+      ],
+      "icon": "assets/skills/2563.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Youkinshi.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Youkinshi win 40 times in {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/256skin1.webp",
+  "stats": {
+    "min": {
+      "no": 256,
+      "en": null,
+      "atk": 109,
+      "hp": 1078,
+      "def": 68,
+      "spd": 110,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 256,
+      "en": null,
+      "atk": 2573,
+      "hp": 12646,
+      "def": 410,
+      "spd": 120,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

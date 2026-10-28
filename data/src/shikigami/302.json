@@ -1,0 +1,212 @@
+{
+  "no": 302,
+  "en": "Kosode no Te",
+  "cn": "小袖之手",
+  "jp": "小袖の手",
+  "gl": "Kosodenote",
+  "rarity": "R",
+  "image": "File:302.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kosode_no_Te",
+  "cv": "Yuka Iguchi",
+  "intro": "",
+  "method": "Mystery Merchant • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/302.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/302.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3021",
+      "name": "Hidden Sting（绵里藏针/綿里蔵針）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "He hasn't returned yet. I guess he won't be coming back today...",
+      "description": "Kosode no Te commands her needle and thread to pierce through a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3021.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3022",
+      "name": "Threads Connection（丝缕相连/絲路相連）",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Our hearts are connected, even across the battlefield.",
+      "description": "Kosode no Te summons a needle and thread to connect to 1 selected enemy with another random enemy. When one of the connected enemies is inflicted with a control effect, the thread has a 40% chance of inflicting the same effect on the other enemy without triggering souls or passives. <br>The needle inherits 50% (cannot exceed 300% of Kosode no Te's max HP) of the target's HP and 70% of their DEF. ; : ;Needle (針) : A summoned entity. Lasts for 2 turns. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Inherited HP increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Inherited defense increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3022.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3023",
+      "name": "Needle and Threads（穿针引线/貫針引線）",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "When is this war going to end? I'm still waiting ...",
+      "description": "Kosode no Te commands her needle and thread to pierce all enemies dealing damage equal to 100% of her ATK. For each enemy attacked and connected by her needle and thread, 1 onibi is refunded. Also deals additional damage equal to 100% of her ATK to the targeted enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and damage to connected enemies is increased by 30%."
+        }
+      ],
+      "icon": "assets/skills/3023.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kosode no Te.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Clear stage 9 of the Orochi soul zone (solo) with Kosode no Te.",
+      "reward": "Shikigami No.302 ×10"
+    },
+    {
+      "condition": "Increase Kosode no Te's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/302skin1.webp",
+  "stats": {
+    "min": {
+      "no": 302,
+      "en": null,
+      "atk": 127,
+      "hp": 939,
+      "def": 60,
+      "spd": 106,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 302,
+      "en": null,
+      "atk": 2948,
+      "hp": 11051,
+      "def": 401,
+      "spd": 116,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

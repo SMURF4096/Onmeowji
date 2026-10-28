@@ -1,0 +1,186 @@
+{
+  "no": 369,
+  "en": "Shokurei",
+  "cn": "食灵",
+  "jp": "食霊",
+  "gl": "食霊",
+  "rarity": "SSR",
+  "image": "File:369.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shokurei",
+  "cv": "Shouya Chiba",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/369.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/369.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3691",
+      "name": "Stir Wok (開鍋)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Welcome. What can I get you?",
+      "description": "Shokurei stirs his divine wok to attack a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and when attacking outside of his turn, he also inflicts 20% of Vulnerability (lasts 2 turns)."
+        }
+      ],
+      "icon": "assets/skills/3691.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3692",
+      "name": "Heat Wave (熱浪)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Luxurious cuisine, made with love.",
+      "description": "Exclusive effect. <br>Shokurei inspires all allies with his passion and cuisine, increasing their damage dealt outside of turn by 30%. ; : ;Full Stomach (飽食) : :'''General, Mark''': After 3 turns, regardless of ally or enemy, a Feast will be triggered to deal damage to all enemies. ;Feast (飱食) :'''General, Mark''': Attacks all enemies dealing equally distributed damage to equal to 158% of the damage dealt by the ally who had a Meal on their turn. This damage ignores defense, cannot Crit, cannot trigger own or enemy souls and passives. It is only affected by the damage boost on Shokurei (damage dealt to a single target cannot exceed 3000% of the total initial ATK of all allies).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to outside of turn damage boost increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "Ally with the highest Crit DMG gains a 30% chance to Assist."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to outside of turn damage increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "When the ally with the highest Crit DMG attacks an enemy, Shokurei will Assist them with a normal attack."
+        }
+      ],
+      "icon": "assets/skills/3692.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3693",
+      "name": "Dream Dish (夢想料理)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Sorry to keep you waiting. Here's your order!",
+      "description": "Shokurei prepares a Dream Cuisine for a selected ally and serves them a Meal, lasts for 1 turn. At the end of their turn, the ally will finish their Meal and will have a Full Stomach. <br>Shokurei cannot use this skill on himself or an ally who is already has a Meal. ;Meal (用餐) : :'''General, Mark''': The selected ally indulges in gourmet cuisine and has no interest in doing battle. Their damage dealt is decreased by 30% and damage reduction is increased by 40%. ;Full Stomach (飽食) : :'''General, Mark''': After 3 turns, regardless of ally or enemy, a Feast will be triggered to deal damage to all enemies.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Onibi cost is decreased to 2."
+        },
+        {
+          "lvl": 3,
+          "text": "When an ally finishes their Meal, they gain shelter (lasts for 1 turn)."
+        },
+        {
+          "lvl": 4,
+          "text": "When an ally finishes their Meal, HP for all allies is recovered by 78% of Shokurei's ATK."
+        },
+        {
+          "lvl": 5,
+          "text": "For each enemy on the battlefield, Feast deals additional true damage equal to 66% of Shokurei's ATK."
+        }
+      ],
+      "icon": "assets/skills/3693.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Shokurei.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Shokurei's skills 12 times.",
+      "reward": "Shikigami No.369 ×10"
+    },
+    {
+      "condition": "Team Shokurei with another player's Mishige and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/369skin1.webp"
+}

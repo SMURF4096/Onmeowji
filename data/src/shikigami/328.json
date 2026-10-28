@@ -1,0 +1,212 @@
+{
+  "no": 328,
+  "en": "Akakage Youtou Hime",
+  "cn": "赤影妖刀姫",
+  "jp": "Crimson Yoto",
+  "gl": "Crimson Yoto",
+  "rarity": "SP",
+  "image": "File:328.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Akakage_Youtou_Hime",
+  "cv": "Shiori Izawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/328.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/328.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "146",
+        "lv2": null,
+        "max": "3377"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "9912"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3281",
+      "name": "Flaming Blade (炎の刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You have no meaning of living.",
+      "description": "SP Youtou Hime uses her long katana to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3281.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3282",
+      "name": "Relentless (穷追不舍/深追い)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Miss none and leave none.",
+      "description": "At the end of SP Youtou Hime's turn, she Locks onto the non-summonable enemy with the lowest proportion of HP. <br>SP Youtou Hime increases her damage dealt by 1% and SPD by 1 for each 1% of HP that the non-summoned enemy with the lowest proportion of HP loses. ;Locked (ロック) :'''General, Mark''': At the start of her next turn, this effect is consumed to deal damage equal to 100% of her ATK to the Locked on enemy. The damage from this attack does not trigger souls or passives and cannot be shared. :''(Red flames will appear underneath the marked enemy.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Locked''': Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Locked''': Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Locked''': Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "When dealing damage to a Locked on enemy, has a 100% base chance to inflict them Isolation."
+        }
+      ],
+      "icon": "assets/skills/3282.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3283",
+      "name": "Crimson Slash (赤影一瞬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The anger and judgement of the Minamoto clan.",
+      "description": "SP Youtou Hime draws her blade from the rift where the space is torn open and channels all of her power to slash 1 enemy, dealing damage equal to 295% of her ATK. ;Crimson Breath (赤影の息) : :'''Buff, Status''': Increases her damage dealt by 15% per layer (max of 90%).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When this attack KO's a non-summoned enemy, she gains Crimson Breath."
+        },
+        {
+          "lvl": 3,
+          "text": "When this attack KO's a non-summoned enemy, she gains a new turn that does not trigger Locked."
+        },
+        {
+          "lvl": 4,
+          "text": "When this attack KO's an enemy, using Crimson Slash in the new turn will not consume any onibi ."
+        },
+        {
+          "lvl": 5,
+          "text": "In the new turn, Crimson Slash deals an additional 30% of damage that cannot be shared and doesn't trigger the target's souls or passive."
+        }
+      ],
+      "icon": "assets/skills/3283.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With SP Youtou Hime clear any zone 30 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Youtou Hime's level to 40.",
+      "reward": "Shikigami No.328 ×10"
+    },
+    {
+      "condition": "Increase SP Youtou Hime's skill 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/328skin1.webp",
+  "stats": {
+    "min": {
+      "no": 328,
+      "en": null,
+      "atk": 146,
+      "hp": 854,
+      "def": 60,
+      "spd": 101,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 328,
+      "en": null,
+      "atk": 3377,
+      "hp": 9912,
+      "def": 384,
+      "spd": 101,
+      "crit": 12,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

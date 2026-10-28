@@ -1,0 +1,186 @@
+{
+  "no": 570,
+  "en": "Magatsugami",
+  "cn": "祸津神",
+  "jp": "禍津神",
+  "gl": "Magatsuhi",
+  "rarity": "SSR",
+  "image": "File:570.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Magatsugami",
+  "cv": "Saima Nakano",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/570.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/570.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "2626"
+      },
+      "hp": {
+        "lv1": "1206",
+        "lv2": null,
+        "max": "15540"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": null,
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "B"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5701",
+      "name": "Whisper (低語/囁き)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do you hear it, Mother?",
+      "description": "Magatsugami murmurs to focus her divine power and strikes a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5701.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5702",
+      "name": "Words of Prayer (祷言/祝詞)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "To be sacrificed is to be born again. This is a divine boon!",
+      "description": "Exclusive effect. At the start of battle, grants Magatsugami 7 Veil of Curse stacks. ;Upon Usage :Magatsugami creates a non-dispellable shield to protect 1 ally at the cost of 1 Veil of Curse stack. The shield can absorb damage equal to 10% of her max HP, lasts for 2 turn. :When she uses this skill on her turn, increases the cost by 1 additional Veil of Curse stack to double the shield absorption. ;Veil of Curse (呪紗/呪織) : :'''General, Mark''': Max of 7 stacks. When she receives single target damage, loses 1 stack to inflict true damage equal to 45% of the damage to all enemies (doesn't trigger ally or enemy souls or passives). When she has no stacks, increases her RES by 100% and increases her move bar by 50%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When she has 3 or more Veil of Curse stacks, grants her immunity to control effects."
+        },
+        {
+          "lvl": 3,
+          "text": "Using this skill increases all allies' damage dealt by 40%, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "When she has Veil of Curse stacks, increases the Crit DMG of allies with a shield by 27%."
+        },
+        {
+          "lvl": 5,
+          "text": "When a non-summoned ally receives damage that exceeds 10% of their max HP, immediately uses this skill on the ally free of onibi cost (triggers once per action)."
+        }
+      ],
+      "icon": "assets/skills/5702.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5703",
+      "name": "Calamity Curse (禍呪)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Interesting. A puny ant dares to trick a god.",
+      "description": "Unlocks when Magatsugami has no Veil of Curse stack. She recovers her max HP by when this skill is unlocked. <br>Magatsugami attacks all enemies, dealing damage equal to 14% of her max HP and inflicts Corrosive Curse on a selected target, lasts for 1 turn. Whenever this skill is used, all enemies and allies lose 10% of their max HP (cannot exceed 900% of her initial ATK). ;Veil of Curse (呪紗/呪織) : :'''General, Mark''': Max of 7 stacks. When she receives single target damage, loses 1 stack to inflict true damage equal to 45% of the damage to all enemies (doesn't trigger ally or enemy souls or passives). When she has no stacks, increases her RES by 100% and increases her move bar by 50%. ;Corrosive Curse (咒蚀/呪蝕) : :'''Debuff, Mark''': Whenever she receives damage or loses HP, the enemy with the mark is dealt with an equal amount of true damage (doesn't trigger ally or enemy souls or passives).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 16%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 18%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "When she is attacked by an enemy, she immediately uses this skill on the attacker with half its damage multiplier decreased by half and free of onibi cost (does not trigger the enemies' souls or passives, can trigger once before her next turn)."
+        }
+      ],
+      "icon": "assets/skills/5703.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Magatsugami level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Magatsugami's skills 12 times.",
+      "reward": "Shikigami No.570 ×10"
+    },
+    {
+      "condition": "With Magatsugami win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/570skin1.webp"
+}

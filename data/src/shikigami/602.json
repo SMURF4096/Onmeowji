@@ -1,0 +1,215 @@
+{
+  "no": 602,
+  "en": "Tenkamei Suzuhiko Hime",
+  "cn": "天火命铃彦姬",
+  "jp": "Ignis Suzuhikohime",
+  "gl": "Ignis Suzuhikohime",
+  "rarity": "SP",
+  "image": "File:602.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tenkamei_Suzuhiko_Hime",
+  "cv": "Mikato Komatsu",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/602.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/602.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "166",
+        "lv2": null,
+        "max": "3511"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "6021",
+      "name": "Chiming Blade (铃刀)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Well? Even the bell blade burns hot.",
+      "description": "SP Suzuhiko attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/6021.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6022",
+      "name": "Blazing Vigil (焚心照夜)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Heart aflame, night glows.",
+      "description": "Exclusive effect. At the start of the battle, gains Fire Veil equal to 220% of ATK until the next turn, while all allies gain 1 stack of Inner Fire. At the end of the turn, transfers a random alley's Inner Fire (prioritize uncontrolled) to self. <br> [Cast] Removes all of the target's Control Effects. ;Fire Veil (火幕) ; :'''Buff''', '''Mark''': Grants a shield that cannot be dispelled. After using a skill, shield is regained. Any Fire Veil's not gained from upper hand is detonated on the next turn to deal damage to all enemies equal to 65% of the shield's remaining value. ;Inner Fire (心火) ; :'''Buff''', '''Mark''': Increases damage dealt by 12% and damage taken reduction by 12%. When the carrier's control effects end or the carrier is defeated, their Inner Fire is transferred to SP Suzuhiko HIme.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Fire Veil increases to 240% of ATK."
+        },
+        {
+          "lvl": 3,
+          "text": "Fire Veil increases to 260% of ATK."
+        },
+        {
+          "lvl": 4,
+          "text": "Fire Veil increases to 280% of ATK."
+        },
+        {
+          "lvl": 5,
+          "text": "When Control Effect ends and disappears, gains Fire Veil equal to 280% of ATK and raises move bar by 30%."
+        }
+      ],
+      "icon": "assets/skills/6022.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6023",
+      "name": "World Aflame (与我燎原)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "One bell toll, a world aflame.",
+      "description": "Exclusive effect. SP Suzuhiko Hime transfers Inner Fire from the chosen ally to herself and raises their move bar by 20%. She then deals 3 attacks on all enemies, each dealing 40% ATK damage. If no other allies carry Inner Fire, this skill is permanently replaced with Blazing Truth, and its level scales with World Aflame. ;Inner Fire (心火) ; :'''Buff''', '''Mark''': Increases damage dealt by 12% and damage taken reduction by 12%. When the carrier's control effects end or the carrier is defeated, their Inner Fire is transferred to SP Suzuhiko HIme.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage to 40%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage ignores enemy Soul Effects"
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage to 45%"
+        },
+        {
+          "lvl": 5,
+          "text": "Increases damage to 50%"
+        }
+      ],
+      "icon": "assets/skills/6023.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6033a",
+      "name": "Blazing Truth (天火破妄)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "When unlocked, raises own move bar by 100% and removes all control effects. <br> [Cast] Deal 3 hits of 40% damage to all enemies, then follows up with 1 extra hit for 180% damage. Grants Shelter for 1 turn. ;Shelter ; : Negates all control effects and banish inflicted by a single skill.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the first 3 hit damage to 45%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage ignores enemy Soul Effects"
+        },
+        {
+          "lvl": 4,
+          "text": "Increases the first 3 hit damage to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases the damage of the final attack to 240%."
+        }
+      ],
+      "icon": "assets/skills/6033a.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Suzuhiko Hime's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Suzuhiko Hime's skills 12 times.",
+      "reward": "Shikigami No.602 ×10"
+    },
+    {
+      "condition": "With SP Suzuhiko Hime clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/602skin1.webp"
+}

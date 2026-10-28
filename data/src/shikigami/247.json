@@ -1,0 +1,195 @@
+{
+  "no": 247,
+  "en": "Umibouzu",
+  "cn": "海坊主",
+  "jp": "Umibozu",
+  "gl": "Umibozu",
+  "rarity": "SR",
+  "image": "File:247.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Umibouzu",
+  "cv": "Toshihiko Seki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Demon Seal • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/247.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/247.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": null,
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "c"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2471",
+      "name": "Waterspout (水龙卷/水竜巻)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Would you like a little drink?",
+      "description": "Umibouzu forms a waterspout to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2471.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2472",
+      "name": "Blessed Water (祝福之水/祝福の水)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let the gentle waters ease your pain.",
+      "description": "When Umibouzu deals damage, restores the HP of the non-summoned ally with the lowest proportion of HP by 60% of his damage dealt.\nWhen the same ally is healed multiple times during an action, decreases the restored amount by 15% for each extra healing performed.\n;\n:",
+      "upgrades": [],
+      "icon": "assets/skills/2472.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2473",
+      "name": "Giant Waves (巨浪/荒波)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Waves, engulf them all!",
+      "description": "Umibouzu forms a gigantic surging wave that engulfs all enemies and inflicts 3 attacks, dealing damage equal to 31% of his ATK with each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 36%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 39%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 42%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 45%."
+        }
+      ],
+      "icon": "assets/skills/2473.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Umibouzu take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Umibouzu.",
+      "reward": "Shikigami No.247 ×10"
+    },
+    {
+      "condition": "Donate 5 Umibouzu shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/247skin1.webp",
+  "stats": {
+    "min": {
+      "no": 247,
+      "en": null,
+      "atk": 131,
+      "hp": 854,
+      "def": 65,
+      "spd": 99,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 247,
+      "en": null,
+      "atk": 3055,
+      "hp": 10140,
+      "def": 428,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

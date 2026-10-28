@@ -1,0 +1,156 @@
+{
+  "no": 433,
+  "en": "Namahage Oni",
+  "cn": "生剥鬼",
+  "jp": "",
+  "gl": "Namahage Oni",
+  "rarity": "N",
+  "image": "File:433.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Namahage_Oni",
+  "cv": "Yuuka Takata",
+  "intro": "",
+  "imageUrl": "assets/shikigami/433.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/433.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "2412"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "100"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "B"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "B"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4331",
+      "name": "Sotobuki（扫堂桶）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Namahage Oni attacks a single target dealing damage equal to 100% of their attack. After casting skill, switches to One Two Three No Moving",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%"
+        }
+      ],
+      "icon": "assets/skills/4331.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4331a",
+      "name": "One Two Three Freeze （一二三不许动）",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Namahage Oni launches 3 snowballs to an enemy target. Each snowball deals 40% ATK as damage, with a 40% base chance to inflict freeze for 1 turn. After use, switches to Sotobuki. ;Base Chance :Chance is affected by Effect Hit",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Freeze chance increases to 45%"
+        },
+        {
+          "lvl": 3,
+          "text": "Freeze chance increases to 50%"
+        },
+        {
+          "lvl": 4,
+          "text": "Freeze chance increases to 55%"
+        },
+        {
+          "lvl": 5,
+          "text": "Freeze chance increases to 60%"
+        }
+      ],
+      "icon": "assets/skills/4331a.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Namahage Oni's level to 25.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Namahage Oni clear any zone 30 times.",
+      "reward": "Shikigami No.433 ×10"
+    },
+    {
+      "condition": "Have Namahage Oni gain 50000 Realm or Entrust EXP.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/433skin1.webp"
+}

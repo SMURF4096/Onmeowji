@@ -1,0 +1,212 @@
+{
+  "no": 327,
+  "en": "Soufuu Ichimokuren",
+  "cn": "苍风一目连",
+  "jp": "蒼風一目連",
+  "gl": "Azurestorm Ichimokuren",
+  "rarity": "SP",
+  "image": "File:327.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Soufuu_Ichimokuren",
+  "cv": "Midorikawa Hikaru",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/327.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/327.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "156",
+        "lv2": null,
+        "max": "3296"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "58",
+        "lv2": null,
+        "max": "340"
+      },
+      "spd": {
+        "lv1": "121",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "D",
+        "D"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3271",
+      "name": "Wind Amulet: Destroy (风符·灭/風符・滅)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The wind destroys as ruthlessly as a steel blade.",
+      "description": "SP Ichimokuren attacks a single target with his wind dragon, dealing damage equal to 80% of his ATK. Then creates a Wind Shield to protect himself that can absorb damage equal 60% of his ATK, lasts for 3 turns. <br>If he already has a Wind Shield, he creates a Wind Shield to protect an unprotected ally with the lowest HP proportion. ;Wind Shield (風の盾) : :Shield created by SP Ichimokuren that absorbs damage (max of 600% of his initial ATK) and cannot be dispelled. Each Wind Shield increases his SPD by 15. When a Wind Shield fails, increases his move bar by 12%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3271.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3272",
+      "name": "Wind Amulet: Shield (风符·守/風符・守)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "The wind protects as steadfastly as a noble heart.",
+      "description": "Exclusive effect. <br>At the end of every action (of both allies and enemies), and if SP Ichimokuren is not inflicted with any control effects, he creates Wind Shield to protect an ally with less than 30% HP, it can absorb damage equal to 188% of his ATK, cannot exceed more than 200% of target's HP. Has a cooldown of 3 turns. <br>Each ally with a shield grants his damage reduction by 5%, max of 30%. ;Upon Usage :SP Ichimokuren creates 2 Wind Shields to protect a targeted ally and an unprotected ally with lowest HP proportion without a Wind Shield. The Wind Shield can absorb damage equal to 188% of his ATK, lasts for 3 turns. ;Wind Shield (風の盾) : :Shield created by SP Ichimokuren that absorbs damage (max of 600% of his initial ATK) and cannot be dispelled. Each Wind Shield increases his SPD by 15. When a Wind Shield fails, increases his move bar by 12%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption for Wind Shield's increases to 217%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases the proportion of HP required to trigger Wind Amulet: Shield to 40% and decreases the cooldown to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "When another ally gains a shield, he creates a Wind Shield to protect himself, which can absorb damage equal to 50% of the ally's shield absorption amount."
+        },
+        {
+          "lvl": 5,
+          "text": "For each 1% of excess Crit he starts with, the Wind Shield grants 2% of damage reduction (max of 40%) and increases his Crit DMG by 2%."
+        }
+      ],
+      "icon": "assets/skills/3272.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3273",
+      "name": "Wind Halted: Dragonfall (风止·苍龙坠/風止・蒼龍墜)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The winds obey my will. They halt and become my shield, they blow and become my blade.",
+      "description": "SP Ichimokuren's dragon soars into the clouds and calls forth a storm to attack all enemies, dealing damage equal to 158% his ATK. <br>Then for each Wind Shields on ally, inflicts damage equal to 158% of his ATK on a random enemy. Damage dealt is reduced by 20% for each subsequent strike on the same enemy. ;Wind Shield (風の盾) : :Shield created by SP Ichimokuren that absorbs damage (max of 600% of his initial ATK) and cannot be dispelled. Each Wind Shield increases his SPD by 15. When a Wind Shield fails, increases his move bar by 12%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 166%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 174%."
+        },
+        {
+          "lvl": 4,
+          "text": "Using this skill also restores the HP of the allies with Wind Shields by 35% of their Wind Shield's remaining shield absorption amount."
+        },
+        {
+          "lvl": 5,
+          "text": "Resets the duration of all Wind Shields and resets the absorption amount of any Wind Shields to 72% if they are below 72%."
+        }
+      ],
+      "icon": "assets/skills/3273.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With SP Ichimokuren clear any zone 30 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Ichimokuren's level to 40.",
+      "reward": "Shikigami No.327 ×10"
+    },
+    {
+      "condition": "Donate 1 SP Ichimokuren shard in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/327skin1.webp",
+  "stats": {
+    "min": {
+      "no": 327,
+      "en": null,
+      "atk": 156,
+      "hp": 1067,
+      "def": 58,
+      "spd": 121,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 327,
+      "en": null,
+      "atk": 3296,
+      "hp": 11393,
+      "def": 340,
+      "spd": 121,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

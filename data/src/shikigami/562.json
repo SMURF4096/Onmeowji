@@ -1,0 +1,186 @@
+{
+  "no": 562,
+  "en": "Eikyo Senhime",
+  "cn": "鲸汐千姬",
+  "jp": "盈虚千姫",
+  "gl": "Senhime Resurgent",
+  "rarity": "SP",
+  "image": "File:562.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Eikyo_Senhime",
+  "cv": "Ayahi Takagaki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/562.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/562.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "147",
+        "lv2": null,
+        "max": "3109"
+      },
+      "hp": {
+        "lv1": "1163",
+        "lv2": null,
+        "max": "12418"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5621",
+      "name": "Tidal Thought (汐念/潮汐の思い)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will protect the wishes of the merfolk.",
+      "description": "Tides rise with the songs under the misty nebulous clouds, SP Senhime attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5621.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5622",
+      "name": "Merfolk Song (鮫人歌/人魚の唄)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Tides, fulfil you promise!",
+      "description": "Exclusive effect. At start of battle, SP Senhime gains the Tidal's Blessing: it converts all removable control effects inflicted on her into Rest in Ice; upon being KO'd summons 1 Midnight Whale, lasts for 1 turn. ;Upon Usage :SP Senhime shares Tidal's Blessing with another non-summoned ally, lasts for 1 turn. ;Midnight Whale (永夜鯨) :Max of 2 whales. When taking an action, grants 1 onibi and grants all allies a shield that can absorb damage equal to 98% of SP Senhime's ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Duration of the shared Tidal's Blessing increases to 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "Duration of the Midnight Whale's presence increases to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "When receiving damage while Resting in Ice, gain a shield equal to the damage, lasts for 1 turn."
+        },
+        {
+          "lvl": 5,
+          "text": "If the HP of the ally with Tidal's Blessing loses 80% or more of their HP, they immediately Rest in Ice."
+        }
+      ],
+      "icon": "assets/skills/5622.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5623",
+      "name": "Resurgent Dream (鯨息洄夢/鯨の幻夢)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "This is the Sea of Eternity where the song of the whales forever echoes and tides flow into eternity.",
+      "description": "Exclusive effect. A new form of eternity is born when the legacy carries on. SP Senhime creates the Sea of Eternity field, lasts for 2 turns. While the field is active, decreases the costs of onibi using skills for all allies by 1. Also whenever allies deal non-transferred damage to non-summoned enemies, inflicts Sea Frozen equal to 20% of the damage. When the field is created again while it is already active, summons 1 Daylight Whale, lasts for 1 turn. ;Sea Frozen (海凝/海氷) : :'''General, Mark''': Max of 9 stacks. Each stack stores up to 5000% of SP Senhime's initial ATK. When a Daylight Whale takes an action, deals indirect direct damage and removes all stacks. ;Daylight Whale (極昼鯨/白夜鯨) :Max of 2 whales. When taking an action, inflicts Sea Frozen on 3 enemies with the lowest HP, storing damage equal to 158% of SP Senhime's ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While the field is active, and at the end of a non-summoned enemy's turn, increases the move bar of the Midnight Whale and Daylight Whale by 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases Sea Frozen's damage multiplier to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Duration of the Daylight Whale's presence increases to 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically creates the Sea of Eternity field at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5623.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Senhime's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Senhime's skills 12 times.",
+      "reward": "Shikigami No.562 ×10"
+    },
+    {
+      "condition": "Summon the Midnight Whale and Daylight Whale 100 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/562skin1.webp"
+}

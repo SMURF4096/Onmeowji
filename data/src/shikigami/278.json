@@ -1,0 +1,187 @@
+{
+  "no": 278,
+  "en": "Shiro Douji",
+  "cn": "白童子",
+  "jp": "Shiro",
+  "gl": "Shiro",
+  "rarity": "SR",
+  "image": "File:278.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shiro_Douji",
+  "cv": "Yuuichi Nakamura",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/278.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/278.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": "151",
+        "max": "3139"
+      },
+      "hp": {
+        "lv1": "896",
+        "lv2": "982",
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "67",
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": "113",
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "s",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "c"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2781",
+      "name": "Shiro Blast (罪罚·白/罪と罰・白)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'll do my best to become a great emissary!",
+      "description": "Shiro Douji isn't very good at using onibi but still uses them to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2781.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2782",
+      "name": "Valor (不灭/不滅)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I won't let you hurt my friends!",
+      "description": "When an enemy is KO'd, Shiro Douji will use a normal attack to attack a random enemy.",
+      "upgrades": [],
+      "icon": "assets/skills/2782.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2783",
+      "name": "Soul Call (招魂/招魂)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Awaken!",
+      "description": "Shiro Douji uses a gigantic ghost to attack all enemies, dealing damage equal to 106% of his ATK and grants the Protection of Shiro to all allies, sustained for 1 turn. <br>Then he summons the souls of KO'd allies and enemies to their spots. The souls can only use normal attacks and exists for 1 turn. <br>The souls inherit 100% of their ATK and immediately attacks a random enemy with a normal attack when summoned. ;Protection of Shiro (白の守り) : :'''Buff, Mark''': Counts as a shield. The protection fails after absorbing damage once. Increases RES by 40% while active.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 111%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 116%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 121%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 126%."
+        }
+      ],
+      "icon": "assets/skills/2783.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Shiro Douji win 30 times in {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/278skin1.webp",
+  "stats": {
+    "min": {
+      "no": 278,
+      "en": null,
+      "atk": 140,
+      "hp": 896,
+      "def": 61,
+      "spd": 103,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 278,
+      "en": null,
+      "atk": 3139,
+      "hp": 10482,
+      "def": 392,
+      "spd": 113,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "no": 609,
+  "en": "Sakuya",
+  "cn": "咲耶",
+  "jp": "",
+  "gl": "Sakuya",
+  "rarity": "SSR",
+  "image": "File:609.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sakuya",
+  "cv": "",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/609.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/609.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "1013",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "485"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "6091",
+      "name": "()",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "----",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to %."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to %."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to %."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to %."
+        }
+      ],
+      "icon": "assets/skills/6091.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6092",
+      "name": "()",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "----",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "?"
+        },
+        {
+          "lvl": 3,
+          "text": "?"
+        },
+        {
+          "lvl": 4,
+          "text": "?"
+        },
+        {
+          "lvl": 5,
+          "text": "?"
+        }
+      ],
+      "icon": "assets/skills/6092.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6093",
+      "name": "()",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "----",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "?"
+        },
+        {
+          "lvl": 3,
+          "text": "?"
+        },
+        {
+          "lvl": 4,
+          "text": "?"
+        },
+        {
+          "lvl": 5,
+          "text": "?"
+        }
+      ],
+      "icon": "assets/skills/6093.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "|reward1 = Gold ×5000",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "|reward2 = ? ×10",
+      "reward": "? ×10"
+    }
+  ],
+  "art": null
+}

@@ -1,0 +1,208 @@
+{
+  "no": 236,
+  "en": "Kudagitsune",
+  "cn": "管狐",
+  "jp": "Kanko",
+  "gl": "Kanko",
+  "rarity": "R",
+  "image": "File:236.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kudagitsune",
+  "cv": "Kenichiro Matsuda",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Chapter 4|Chapter 4: Challenge Zone",
+  "imageUrl": "assets/shikigami/236.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/236.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "896",
+        "lv2": null,
+        "max": "10596"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2361",
+      "name": "Pipe Throw (竹管投掷/竹管投げ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "There's no escaping my pipe!",
+      "description": "Kudagitsune throws his bamboo pipe at a single target, dealing damage equal to 100% of his ATK",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2361.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2362",
+      "name": "Bamboo Shelter (竹之护/竹の守り)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't mess with me!",
+      "description": "Kudagitsune hides in his bamboo pipe, increasing his move bar by 30% and gains a stack of Fox Fury Mark (max of 4 stacks). Also gains an undispellable shield as he hides, which can absorb damage equal to 20% of his max HP and increases his DEF by 100%. If the shield is destroyed, Kudagitsune loses all stacks of Fox Fury Mark and is inflicted with Daze, lasts for 1 turn. ;Fox Fury Mark (狐の印) : :'''Buff, Mark''': Cannot be dispelled and is consumed when dealing damage. Each stack increases his damage dealt by 75%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Shield absorption increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Shield absorption increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Shield also increases RES by 100%."
+        }
+      ],
+      "icon": "assets/skills/2362.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2363",
+      "name": "Bomb Blast (爆轰炮/爆撃砲)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Eat lightning!",
+      "description": "Kudagitsune channels magic into his bamboo pipe, shooting lightning at 1 enemy, dealing damage equal to 221% of his ATK and has a 50% chance of removing 1 onibi from them. Chance increases to 100% when he launches a crit.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 233%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 244%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 255%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 266%."
+        }
+      ],
+      "icon": "assets/skills/2363.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kudagitsune gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kudagitsune.",
+      "reward": "Shikigami No.236 ×10"
+    },
+    {
+      "condition": "Collect 40 Kudagitsune shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/236skin1.webp",
+  "stats": {
+    "min": {
+      "no": 236,
+      "en": null,
+      "atk": 128,
+      "hp": 896,
+      "def": 64,
+      "spd": 98,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 236,
+      "en": null,
+      "atk": 3002,
+      "hp": 10596,
+      "def": 419,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

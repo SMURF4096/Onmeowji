@@ -1,0 +1,186 @@
+{
+  "no": 375,
+  "en": "Kagewani",
+  "cn": "影鳄",
+  "jp": "影鰐",
+  "gl": "影鰐",
+  "rarity": "R",
+  "image": "File:375.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kagewani",
+  "cv": "Kanako Miyamoto (previous) · Minami Hinata",
+  "intro": "",
+  "method": "Mystery Merchant • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/375.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/375.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "67",
+        "lv2": null,
+        "max": "524"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3751",
+      "name": "Shadowstrike (影襲)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm creeping up on you.",
+      "description": "Kagewani calls the Shadow to burrow underground and aim at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3751.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3752",
+      "name": "Shadowshell (影殻)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I... I'm not afraid!",
+      "description": "When Kagewani attacks with Shadowstrike or Overshadow, he has a 40% base chance of inflicting enemies with Shadowprey, lasts for 2 turns. ;Shadowprey (影食) : :'''Debuff, Status''': Max of 2 stacks. When an inflicted enemy has 2 stacks, consumes all stacks and they are dealt shield ignoring damage equal to 15% of Kagewani's ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Shadowprey is consumed, also restores his HP by 3% of his max HP."
+        }
+      ],
+      "icon": "assets/skills/3752.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3753",
+      "name": "Overshadow (幕影蓋地)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Poi! Attack!",
+      "description": "Kagewani encourages himself with a \"poi\" and launches a 2-strike attack on all enemies, dealing damage equal to 30% of his ATK with each strike. Then the Shadow lunges at 1 enemy, dealing damage equal to 60% of his ATK and has a 20% base chance to inflict Shadowbound, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the lunge attack increases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 35%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the lunge attack increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3753.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kagewani.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kagewani's level to 30.",
+      "reward": "Shikigami No.375 ×10"
+    },
+    {
+      "condition": "Wish for 10 Kagewani shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/375skin1.webp"
+}

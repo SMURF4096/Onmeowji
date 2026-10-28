@@ -1,0 +1,16 @@
+{
+  "no": 58,
+  "en": "Tapper",
+  "cn": "叠叩",
+  "jp": "畳叩",
+  "type": "HP",
+  "image": "File:Soul58.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tapper",
+  "imageUrl": "assets/souls/Soul58.webp",
+  "localImage": "assets/souls/Soul58.webp",
+  "combo2": "Increases HP by 15%.",
+  "combo4": "Exclusive effect.<br>If the equipped unit's starting Crit is over 120%, reduces Crit DMG taken by non-summoned ally entities by 15%.",
+  "location": "Orochi Soul Zones: Stage 12 (Tuesday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M52.webp"
+}

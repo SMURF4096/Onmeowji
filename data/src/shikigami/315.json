@@ -1,0 +1,195 @@
+{
+  "no": 315,
+  "en": "Shouu Ootengu",
+  "cn": "少羽大天狗",
+  "jp": "Jr Ootengu",
+  "gl": "Jr Ootengu",
+  "rarity": "SP",
+  "image": "File:315.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shouu_Ootengu",
+  "cv": "Ryoko Shiraishi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/315.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/315.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "165",
+        "lv2": null,
+        "max": "3484"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "9684"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "375"
+      },
+      "spd": {
+        "lv1": "122",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3151",
+      "name": "Wind Coil (風纏)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Wind, obey my command!",
+      "description": "SP Ootengu forms the wind into a vortex of feather to assault a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3151.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3152",
+      "name": "Growing Feathers (若羽)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm bound to be the strongest wings in the highest clouds.",
+      "description": "When SP Ootengu uses his special attack, the damage is increased by 10% for each consecutive hit to the same target.\nWhen SP Ootengu is inflicted with a control effect, he gains Soar into the Clouds, lasts for 2 turns. And when he deals damage, he gains Chasing the Wind, max of 80 layers. For each 40 layers of Chasing the Wind gained, decreases the onibi cost for Feather Wind Blade by 1.\n;Soar into the Clouds (雲を貫く)\n:\n:'''Buff, Mark''': SPD is increased by 100%.\n;Chasing the Wind (逐風)\n:\n:'''General, Mark''': SPD is increased by 1 per each layer. Max of 80 layers.",
+      "upgrades": [],
+      "icon": "assets/skills/3152.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3153",
+      "name": "Feather Blade Wind (羽の刃の風)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Taking the power of the winds, turning them into mine blades!",
+      "description": "SP Ootengu commands a hurricane to rain blades onto the 1 enemy to inflict 5 continuous attacks, dealing damage equal to 40% of his ATK with each attack. The hurricane then splits up into 2 smaller hurricanes based on the number of enemies to inflict random attacks on other enemies, dealing damage equal to 40% of his ATK with each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 42%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Exclusive effect. Each non-summoned enemy KO'd increases the starting strikes by 2, max of 4."
+        }
+      ],
+      "icon": "assets/skills/3153.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With SP Ootengu win 40 times in PVN zones.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Ootengu's skill 8 times.",
+      "reward": "Shikigami No.315 ×10"
+    },
+    {
+      "condition": "Increase SP Ootengu's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/315skin1.webp",
+  "stats": {
+    "min": {
+      "no": 315,
+      "en": null,
+      "atk": 165,
+      "hp": 907,
+      "def": 64,
+      "spd": 122,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 315,
+      "en": null,
+      "atk": 3484,
+      "hp": 9684,
+      "def": 375,
+      "spd": 122,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "no": 338,
+  "en": "Takiyasha Hime",
+  "cn": "泷夜叉姬",
+  "jp": "滝夜叉姫",
+  "gl": "Takiyashahime",
+  "rarity": "SSR",
+  "image": "File:338.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Takiyasha_Hime",
+  "cv": "Hitomi Nabatame",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/338.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/338.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "152",
+        "lv2": null,
+        "max": "3511"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10026"
+      },
+      "def": {
+        "lv1": "56",
+        "lv2": null,
+        "max": "357"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3381",
+      "name": "Moon Slash (曜断)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm ending this!",
+      "description": "Takiyasha Hime wields Moonlight Glaive to attack a single target, dealing damage equal to 100% of her attack. ; : ;New Moon Blessing (新月の祝福) :'''General, Mark''': Gain 20% crit resist per New Moon Blessing. At end of turn, convert 1 stack of New Moon Blessing into 20% increased damage. :''(The 5 crescent moons circling around her will change into full moons, 1 full moon represents 1 converted stack of New Moon Blessing.)'' ;Crit Resist :Source of damage has its crit reduced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3381.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3382a",
+      "name": "Moon's Secrets (月の奥義)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 2,
+      "line": "Eternal Moon.",
+      "description": "Toggles through the different modes of Moon's Secrets. At the start of battle, Takiyasha Hime will have the effect of Ignis added to her attacks. <br>This skill is also used to switch between Shadowless Sun and Sleepless Moon.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Unlocks the Aqua effect."
+        },
+        {
+          "lvl": 3,
+          "text": "Unlocks the Aer effect."
+        },
+        {
+          "lvl": 4,
+          "text": "Unlocks the Terra effect."
+        },
+        {
+          "lvl": 5,
+          "text": "Cooldown is reduced by 1."
+        }
+      ],
+      "icon": "assets/skills/3382a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3382b",
+      "name": "Ignis (侵掠)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Allows Takiyasha Hime to ignore 180 of the enemy's defense when attacking enemies with more than 50% HP.",
+      "upgrades": [],
+      "icon": "assets/skills/3382b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3382c",
+      "name": "Aqua (飛流)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Allows each of Takiyasha Hime's attacks to dispel 1 buff from an enemy. If no buff was dispelled, the enemy's move bar is decreased by 5% instead.",
+      "upgrades": [],
+      "icon": "assets/skills/3382c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3382d",
+      "name": "Aer (疾風)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Allows Takiyasha Hime's damage dealt to be increased by 30% when attacking enemies with less than 50%.",
+      "upgrades": [],
+      "icon": "assets/skills/3382d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3382e",
+      "name": "Terra (不動)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Prevents damage from Takiyasha Hime's attacks from triggering enemy's souls. Grants her Moon Shelter, lasts for 1 turn.\n;Moon Shelter\n:Same as Shelter. Blocks all control effects or Banish and similar effects from a single skill, includes self-inflicted control effects.",
+      "upgrades": [],
+      "icon": "assets/skills/3382e.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3383a",
+      "name": "Shadowless Sun (夕日無影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "To the eternal storm, charge!",
+      "description": "One of the Moon's Secrets. Takiyasha Hime commands a legion of ghost knights to charge at all enemies 3 times, dealing damage equal to 12%, 24% and 99% of her attack with each hit respectively. <br>This skill can also be switched to Sleepless Moon with Moon's Secrets.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage of the third hit increases to 109%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage of the third hit increases to 118%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage of the third hit increases to 127%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage of the third hit increases to 136%."
+        }
+      ],
+      "icon": "assets/skills/3383a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3383b",
+      "name": "Sleepless Moon (不眠の朧月)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "One of the Moon's Secrets. Takiyasha Hime focuses her spiritual power and launches a Moon Slash to inflict 5 hits on an enemy, dealing damage equal to 50% of her attack with each hit. <br>This skill can also be switched to Shadowless Sun with Moon's Secrets.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 55%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 58%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 63%."
+        }
+      ],
+      "icon": "assets/skills/3383b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Takiyasha Hime.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "In PVP, Practice or Spar, use every mode of Moon's Secrets and win.",
+      "reward": "Shikigami No.338 ×10"
+    },
+    {
+      "condition": "Donate 1 Takiyasha Hime shard in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/338skin1.webp",
+  "stats": {
+    "min": {
+      "no": 338,
+      "en": null,
+      "atk": 152,
+      "hp": 854,
+      "def": 56,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 338,
+      "en": null,
+      "atk": 3511,
+      "hp": 10026,
+      "def": 357,
+      "spd": 120,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

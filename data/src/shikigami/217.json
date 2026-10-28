@@ -1,0 +1,212 @@
+{
+  "no": 217,
+  "en": "Ootengu",
+  "cn": "大天狗",
+  "jp": "",
+  "gl": "Ootengu",
+  "rarity": "SSR",
+  "image": "File:217.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ootengu",
+  "cv": "Tomoaki Maeno",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/217.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/217.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "133",
+        "lv2": null,
+        "max": "3450"
+      },
+      "hp": {
+        "lv1": "843",
+        "lv2": null,
+        "max": "10026"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "d",
+        "c"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2171",
+      "name": "Vortex Assault (风袭/風の襲撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Wind, obey my command!",
+      "description": "Ootengu shapes the wind into a vortex to assault a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2171.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2172",
+      "name": "Wings of Steel (钢铁之羽/鋼鉄の羽)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Behold my mighty wings - and perish!",
+      "description": "At the start of battle and at the end of Ootengu's turns, he gains Shelter. At the start of his turn, Shelter is lost. <br>When dealing damage, he has a 50% chance of gaining Heroic Posture, max of 10 stacks. The effect lasts until the end of the round. ;Heroic Posture (勇気凛々) : :'''General, Mark''': Each layer increases his damage dealt by 1%. ;Shelter :Blocks all control effects, or Banish and similar effects, from a single skill. Includes self-inflicted control effects. :''(Shelter is represented by a swirling vortex of feathers underneath Ootengu.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Max Heroic Posture stacks increases to 30."
+        },
+        {
+          "lvl": 3,
+          "text": "Max Heroic Posture stacks increases to 50."
+        },
+        {
+          "lvl": 4,
+          "text": "Max Heroic Posture stacks increases to 80."
+        },
+        {
+          "lvl": 5,
+          "text": "After Shelter blocks a control effect, uses Blade Storm at no cost."
+        }
+      ],
+      "icon": "assets/skills/2172.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2173",
+      "name": "Blade Storm (羽刃暴风/刃羽の嵐)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The power of the wind shall be engraved into your flesh!",
+      "description": "Ootengu commands a storm to rain blades onto all enemies to inflict 4 continuous strikes, dealing damage equal to 65% of his ATK with each strike. For each enemy hit, gains 1 stack of Heroic Posture and increases his move bar by 5%. ;Heroic Posture (勇気凛々) : :'''General, Mark''': Each layer increases his damage dealt by 1%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 67%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 69%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 71%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 75%."
+        }
+      ],
+      "icon": "assets/skills/2173.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ootengu.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Ootengu win 5 times in PVN zones against Arakawa no Aruji.",
+      "reward": "Shikigami No.217 ×10"
+    },
+    {
+      "condition": "With Ootengu clear stage 9 of the Orochi soul zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/217skin1.webp",
+  "stats": {
+    "min": {
+      "no": 217,
+      "en": null,
+      "atk": 133,
+      "hp": 843,
+      "def": 65,
+      "spd": 100,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 217,
+      "en": null,
+      "atk": 3136,
+      "hp": 10026,
+      "def": 419,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

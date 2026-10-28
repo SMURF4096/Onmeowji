@@ -1,0 +1,187 @@
+{
+  "no": 264,
+  "en": "Hakurou",
+  "cn": "白狼",
+  "jp": "Hakuro",
+  "gl": "Hakuro",
+  "rarity": "SR",
+  "image": "File:264.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hakurou",
+  "cv": "Houko Kuwashima",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/264.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/264.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "133",
+        "lv2": null,
+        "max": "3082"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10823"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2641",
+      "name": "Perfect Shot (文射/礼射)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't you dare call me Cupid...",
+      "description": "Hakurou shoots an arrow imbued with magical power at a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2641.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2642",
+      "name": "Meditation (冥想/瞑想)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Dispense with distracting thoughts and focus the mind.",
+      "description": "At the end of Hakurou's turn, and if she is not in a Recharging state, she enters a Meditative state. While in a Meditative state, her Crit DMG is increased by 20% until the end of her next turn. Also creates a shadow double that cannot be attacked. The shadow double has a 30% chance of preventing Hakurou from taking any damage.",
+      "upgrades": [],
+      "icon": "assets/skills/2642.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2643",
+      "name": "Non-Self (无我/無我)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "You don't have to thank me!",
+      "description": "Hakurou channels all of her energy into an arrow, increasing the Crit of this attack by 30% before dealing damage equal to 237% of her ATK. Also decreases the target's move bar by 20%, or by 50% if she's in a Meditative State. If the target's move bar is decreased to zero, 1.5 × the damage of this attack is dealt instead. She then enters a Recharging state, decreasing her SPD by 40%, lasts for 1 turn. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 249%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 261%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 273%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 285%."
+        }
+      ],
+      "icon": "assets/skills/2643.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Hakurou win 5 times in {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/264skin1.webp",
+  "stats": {
+    "min": {
+      "no": 264,
+      "en": null,
+      "atk": 133,
+      "hp": 907,
+      "def": 60,
+      "spd": 102,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 264,
+      "en": null,
+      "atk": 3082,
+      "hp": 10823,
+      "def": 397,
+      "spd": 112,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

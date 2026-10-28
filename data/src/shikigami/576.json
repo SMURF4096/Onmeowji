@@ -1,0 +1,157 @@
+{
+  "no": 576,
+  "en": "Natsume & Nyanko-sensei",
+  "cn": "夏目&猫老师",
+  "jp": "夏目&ニャンコ先生",
+  "gl": "夏目&ニャンコ先生",
+  "rarity": "SSR",
+  "image": "File:576.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Natsume_%26_Nyanko-sensei",
+  "cv": "Hiroshi Kamiya (Natsume) · Kazuhiko Inoue (Nyanko)",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/576.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/576.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "5762",
+      "name": "Nyanko-sensei's Protection (猫老师的守护)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Natsume & Nyanko-sensei's damage received is decreased by 40%. When they receive damage, Nyanko-sensei has a 60% chance to transform into Madara (once before the start of their turn). If they are the only ones remaining on the battlefield, Nyanko-sensei will transform into Madara at the end of turn. ;Madara (斑) : :Madara attacks all enemies 3 times, dealing damage equal to 45% of their ATK with each attack. After attacking, Madara will transform back into Nyanko-sensei. The next time he transforms, each attack will also decrease the enemies' move bar by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "Madara's damage dealt to monsters is increased to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Madara's damage dealt to monsters is increased to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Madara's damage ignores soul effects."
+        }
+      ],
+      "icon": "assets/skills/5762.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5763",
+      "name": "Healing Medicinal Herbs (疗愈的草药)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "At the start of battle, Natsume & Nyanko-sensei gain 4 Medicinal Herbs stacks. ;Upon Usage :They gain 2 Medicinal Herbs stacks and the healing effect for the Healing is increased by 12% of their ATK, lasts for 2 turns. ;Medicinal Herbs (草药) : :Max of 6 stacks. Each stack increases their RES by 10%, consuming a stack increases their move bar by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to healing increases to 14%."
+        },
+        {
+          "lvl": 3,
+          "text": "Boost to healing increases to 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to healing increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "When they have 4 or more Medicinal Herbs, increases all allies' ATK by 24%."
+        }
+      ],
+      "icon": "assets/skills/5763.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Natsume & Nyanko-sensei's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Natsume & Nyanko-sensei's skills 12 times.",
+      "reward": "Shikigami No.576 ×10"
+    },
+    {
+      "condition": "With Natsume & Nyanko-sensei clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/576skin1.webp"
+}

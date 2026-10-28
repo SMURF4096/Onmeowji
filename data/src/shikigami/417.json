@@ -1,0 +1,152 @@
+{
+  "no": 417,
+  "en": "Enma Frog",
+  "cn": "阎魔呱",
+  "jp": "閻魔蛙",
+  "gl": "閻魔蛙",
+  "rarity": "N",
+  "image": "File:417.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Enma_Frog",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/417.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/417.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "982 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "102 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4171",
+      "name": "Gero: Demonic Semblance (呱·鬼面)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4171.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4172",
+      "name": "Gero: Oppression of the Vengeful Spirit (呱·怨魂重压)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 105% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4172.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Enma Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Enma Frog and another player who has Enma.",
+      "reward": "Shikigami No.417 ×2"
+    },
+    {
+      "condition": "Level up Enma Frog to Lv.30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/417skin1.webp"
+}

@@ -1,0 +1,186 @@
+{
+  "no": 393,
+  "en": "Zenshin Ungaikyou",
+  "cn": "禅心云外镜",
+  "jp": "禅心雲外鏡",
+  "gl": "Zen Ungaikyo",
+  "rarity": "SP",
+  "image": "File:393.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Zenshin_Ungaikyou",
+  "cv": "Ayumu Murase",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/393.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/393.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "2098"
+      },
+      "hp": {
+        "lv1": "1202",
+        "lv2": null,
+        "max": "12840"
+      },
+      "def": {
+        "lv1": "82",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "113",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "75",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3931",
+      "name": "Boundless Water (水无垠/水無垠)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Worship not other deities and take refuge in the Buddha.",
+      "description": "SP Ungaikyou uses transforming water to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and decreases the duration of all on himself by 1 turn."
+        }
+      ],
+      "icon": "assets/skills/3931.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3932",
+      "name": "Clear Mind (心净明/心浄明)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The dust has been cleared away, and the true heart has been found.",
+      "description": "Exclusive effect. <br>SP Ungaikyou clears the dust from his mind. At the start of battle, increases the RES of all non-summoned allies by 25%. For each 30% of HP he has lost, decreases the onibi cost of his skills by 1. When he takes an action, redistributes the HP of all non-summoned allies, causing all allies to have the same proportion of HP. ;Upon Usage :SP Ungaikyou decreases the duration of all on a targeted ally by 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the targeted ally's RES by 20% of his own initial RES, lasts for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases the targeted ally's move bar by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to RES granted to the targeted ally increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "If he fails to decrease the duration of on the targeted ally, increases their move bar is by 100% instead."
+        }
+      ],
+      "icon": "assets/skills/3932.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3933",
+      "name": "All is Void (万法皆空/万方皆空)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 2,
+      "line": "Like a bubble, an illusion, a phantom, or a dream. So is all conditioned existence to be seen.",
+      "description": "Exclusive effect. <br>The wheel of life turns eternally. SP Ungaikyou deducts the HP of all non-summoned allies by 50% to grants them Mirror's Ward, which absorbs damage equal to 50% of their max HP. He Flips the HP of all non-summoned allies and removes their Mirror's Ward after 2 turns. <br>While this skill is on cooldown, increases the SPD of all non-summoned allies by 25%. ; Mirror's Ward (神鏡庇佑) : :'''Buff, Mark''': A non-dispellable shield. Increases RES by 30%. When it fails, recovers the HP of the ally by 25% of the remaining shield HP and increases SP Ungaikyou's SPD by 10, lasts for 1 turn. ; Flip (翻転) : Switches the current HP with with the HP lost.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Mirror's Ward''': RES increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Proportion of HP after Flipping won't be lower than 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Mirror's Ward''': Recovered HP increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Mirror's Ward''': Recovered HP increases to 75%."
+        }
+      ],
+      "icon": "assets/skills/3933.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Ungaikyou's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Ungaikyou's skills 8 times.",
+      "reward": "Shikigami No.393 ×10"
+    },
+    {
+      "condition": "With SP Ungaikyou win 30 times in {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/393skin1.webp"
+}

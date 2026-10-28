@@ -1,0 +1,16 @@
+{
+  "no": 23,
+  "en": "Fenikkusu",
+  "cn": "伤魂鸟",
+  "jp": "悲鳴鳥",
+  "type": "Crit",
+  "image": "File:Soul23.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Fenikkusu",
+  "imageUrl": "assets/souls/Soul23.webp",
+  "localImage": "assets/souls/Soul23.webp",
+  "combo2": "Increases crit by 15%.",
+  "combo4": "When a \"non-monster target\" is KO’d, restores the equipper's max HP by 20% and increases their damage by 20% (up to 120%) until the end of battle.",
+  "location": "Chapter 22 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M26.webp"
+}

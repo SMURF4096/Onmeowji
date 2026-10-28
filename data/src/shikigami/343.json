@@ -1,0 +1,212 @@
+{
+  "no": 343,
+  "en": "Tenken Jinshin Onikiri",
+  "cn": "天剑韧心鬼切",
+  "jp": "天剣刃心鬼切",
+  "gl": "Onikiri Reforged",
+  "rarity": "SP",
+  "image": "File:343.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tenken_Jinshin_Onikiri",
+  "cv": "Mitsuki Saiga (previous CV) · Mariya Ise",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/343.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/343.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "161",
+        "lv2": null,
+        "max": "3404"
+      },
+      "hp": {
+        "lv1": "1024",
+        "lv2": null,
+        "max": "10937"
+      },
+      "def": {
+        "lv1": "58",
+        "lv2": null,
+        "max": "340"
+      },
+      "spd": {
+        "lv1": "119",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "D",
+        "D"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3431",
+      "name": "Intangible Blade (無剣)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The blade in my hand is mirrored perfectly in my mind.",
+      "description": "SP Onikiri slashes a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3431.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3432",
+      "name": "Unshaken Will (真剣・刃心)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 1,
+      "line": "My mind is sharper than any blade in this world.",
+      "description": "Onikiri is even more tenacious after being reforged. <br>SP Onikiri gains a 20% permanent damage reduction. At the end of an enemy's turn, his move bar is increased by 10% until he enters Bkade of the Mind state for the first time. <br>When he takes a normal attack, and if he is not Immobile, has a 60% chance to parry the attack. When a parry is triggered, inflicts Silence on the attacker for 1 turn, granted immunity to the damage and his move bar is increased by 10%. ;Upon Usage :SP Onikiri enters Blade of the Mind state, increases his move bar by 40% and inflicts Shadow Cut on an enemy. Then casts Shadowy Double. ;Blade of the Mind (心剣) : :'''General, Mark''': Grants immunity to control effects. While in this state, the enemy with Shadow Cut cannot counter-attack him or receive Call to Arms against him. At the start of his turn and if the enemy's Shadow Cut has been removed, Blade of the Mind is also removed. ;Shadow Cut (影切) : :'''Debuff, Mark''': The enemy is marked and locked on by the Shadowy double, cannot be affected by move bar effects. This mark can be removed if the target with Shadow Cut using normal attacks on SP Onikiri or when SP Onikiri takes 5 normal attacks. If the enemy's Shadow Cut is not removed at the end of SP Onikiri's turn, increases Shadow Cut Count by 3. Max of 5 Counts. ;Shadowy Double (影分身) :Inherits all the current stats of SP Onikiri. At the start of a turn, the double disappears if the enemy's Shadow Cut is removed. Otherwise, the double launches the same attack as SP Onikiri when he attacks on his turn against the enemy's with Shadow Cut. :''(Summoned directly in-front of SP Onikiri. Does not use ally summon spot.)'' ;Crit RES :Source of damage has its Crit reduced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Permanent damage reduction increases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to parry increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Each parry triggered increases damage dealt by 30% (max 5 layers)."
+        },
+        {
+          "lvl": 5,
+          "text": "When taking lethal damage, uses Unshaken Will on the source of the damage, recovers 50% of his max HP, increases his Crit RES by 100% for 1 turn and increases his move bar by 30%. Only triggers once each round."
+        }
+      ],
+      "icon": "assets/skills/3432.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3433",
+      "name": "Heavenly Blade: Evilslayer (天剣・断悪斬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I will end your evil delusions!",
+      "description": "SP Onikiri raises his blade high and conjures an illusory demon warrior to strike an enemy, dealing damage equal to 263% of his ATK. If the target is not already inflicted with Endangered, inflicts Endangered on them. ;Endangered (危) : :'''Debuff, Mark''': Decreases healing received by 75%, decreases SPD by 20 and decreases DEF by 20%. The next 3 attacks received from normal attacks or special skills dealt to the enemy ignore shields, cannot be shared, and won't trigger the enemy's soul or passive. Then, this mark is removed. Endangered can only be inflicted on 1 enemy at a time.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 289%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 302%."
+        },
+        {
+          "lvl": 4,
+          "text": "When the enemy with Shadow Cut uses a special skill, the Shadowy Double immediately uses this skill on them, dealing 30% less damage."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi costs decreases by 2 if he's in the Blade of the Mind state and increases his Move Bar by 40% after using this skill."
+        }
+      ],
+      "icon": "assets/skills/3433.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Onikiri's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Onikiri's skill 10 times.",
+      "reward": "Shikigami No.343 ×10"
+    },
+    {
+      "condition": "In , trigger SP Onikiri's parry effect 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/343skin1.webp",
+  "stats": {
+    "min": {
+      "no": 343,
+      "en": null,
+      "atk": 161,
+      "hp": 1024,
+      "def": 58,
+      "spd": 119,
+      "crit": 12,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 343,
+      "en": null,
+      "atk": 3404,
+      "hp": 10937,
+      "def": 340,
+      "spd": 119,
+      "crit": 12,
+      "critdmg": 160,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

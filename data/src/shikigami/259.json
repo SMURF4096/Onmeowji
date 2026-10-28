@@ -1,0 +1,211 @@
+{
+  "no": 259,
+  "en": "Shishio",
+  "cn": "小鹿男",
+  "jp": "シシオ",
+  "gl": "シシオ",
+  "rarity": "SSR",
+  "image": "File:259.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shishio",
+  "cv": "Kengo Kawanishi",
+  "intro": "",
+  "imageUrl": "assets/shikigami/259.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/259.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "121",
+        "lv2": null,
+        "max": "2814"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "s",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2591",
+      "name": "Forest Vines (森之力/森の力)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The forest itself will punish you!",
+      "description": "Shishio summons vines to attack a single target, dealing damage equal to 100% of his ATK and has a 50% base chance of inflicting them with Forest Vines, lasts for 2 turns. ;Forest Vines (森の力) : :'''Debuff, State''': Decreases RES by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105% and base chance increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110% and base chance increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115% and base chance increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120% and base chance increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/2591.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2592",
+      "name": "Circle of Life (复仇怒火/復讐の炎)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The forest provides shelter for all life.",
+      "description": "At the end of Shishio's turn, gains a layer of Circle of Life if the status has not been consumed. <br>When he is inflicted with a control effect, has a 10% of reflecting the effect back to a random enemy. <br>His move is increased by 20% when an enemy uses an onibi using skill. ;Circle of Life (生生流転) : :'''Buff, Status''': Max of 3 layers. An aura rich with the essence of the forest. Grants Shishio great power. :''(Unlocks additional effects for the skill Gore.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 14%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 16%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 20%."
+        }
+      ],
+      "icon": "assets/skills/2592.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2593",
+      "name": "Gore (鹿角冲撞/角で突進)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "My antlers are unbreakable!",
+      "description": "Shishio channels his energy into his antlers and charges into 1 enemy, dealing damage equal to 158% of his ATK. <br>When he has Circle of Life, also decreases their move bar by 40%. Also has a 100% base chance of inflicting Daze on them if they are already at the bottom of the move bar, lasts for 1 turn. <br>Inflicting Daze consumes a layer of Circle of Life. ;Circle of Life (生生流転) : :'''Buff, Status''': Max of 3 layers. An aura rich with the essence of the forest. Grants Shishio great power. :''(Unlocks additional effects for the skill Gore.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 166%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 174%. If he has 2 layers of Circle of Life, he can attack an extra random enemy and damage is decreased by 40% for each attack on the same target."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 182%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 191%. If he has 2 or more layers of Circle of Life, he can attack an extra random enemy for each layer and damage is decreased by 40% for each attack on the same target."
+        }
+      ],
+      "icon": "assets/skills/2593.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Shishio gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Wish for 10 Shishio shards in the guild.",
+      "reward": "Shikigami No.259 ×10"
+    },
+    {
+      "condition": "Increase Shishio's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/259skin1.webp",
+  "stats": {
+    "min": {
+      "no": 259,
+      "en": null,
+      "atk": 121,
+      "hp": 939,
+      "def": 65,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 259,
+      "en": null,
+      "atk": 2814,
+      "hp": 11165,
+      "def": 428,
+      "spd": 120,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

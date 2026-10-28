@@ -1,0 +1,152 @@
+{
+  "no": 419,
+  "en": "Shishio Frog",
+  "cn": "小鹿男呱",
+  "jp": "シシオ蛙",
+  "gl": "シシオ蛙",
+  "rarity": "N",
+  "image": "File:419.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shishio_Frog",
+  "cv": "Takefumi Yumihara",
+  "intro": "",
+  "imageUrl": "assets/shikigami/419.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/419.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "110 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "992 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "101 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4191",
+      "name": "Gero: Strength of the Forest (呱·森之力)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4191.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4192",
+      "name": "Gero: Antler Charge (呱·鹿角冲撞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Attacks 3 enemies, each time dealing 75% attack damage; Damage decreased by 40% if hitting the same target.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4192.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Shishio Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Shishio Frog and another player who has Shishio.",
+      "reward": "Shikigami No.419 ×2"
+    },
+    {
+      "condition": "Have Shishio Frog take part in 30 realm raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/419skin1.webp"
+}

@@ -1,0 +1,186 @@
+{
+  "no": 580,
+  "en": "Seishi Hiyoribou",
+  "cn": "晴思日和坊",
+  "jp": "Sungraced Hiyoribou",
+  "gl": "Sungraced Hiyoribou",
+  "rarity": "SP",
+  "image": "File:580.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Seishi_Hiyoribou",
+  "cv": "Suzuko Mimori",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/580.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/580.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5801",
+      "name": "Crackaboom (轰隆隆)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Stay at home when the weather isn’t looking good.",
+      "description": "SP Hiyoribou attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5801.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5802",
+      "name": "Clearsky Rainbow (澄空彩虹)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Windy with clouds and a rainbow. A perfect day for a field trip!",
+      "description": "Exclusive effect. When other allies deal damage, SP Hiyoribou stores 20% of their damage dealt as Rainbow Energy. Before the start of her turn, and if there is a non-summoned ally with HP below 70%, she consumes Rainbow Energy equal to 120% of her initial ATK to restore their HP, up to 3 allies. ;Rainbow Energy (彩虹能量) :Can store a max of 2400% of her initial ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Stored damage increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Stored damage increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Each time she and the non-summoned ally with the highest initial ATK receives damage, consumes Rainbow Energy equal to 60% of her initial ATK to resist an equal amount of damage."
+        },
+        {
+          "lvl": 5,
+          "text": "When taking damage, the Rainbow Energy consumed to block it increases to 90% of initial ATK."
+        }
+      ],
+      "icon": "assets/skills/5802.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5803",
+      "name": "Sunny Radiance (晴日华光)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Fear not. The light will dispel the darkness.",
+      "description": "SP Hiyoribou grants an ally, other than herself, a Teru Teru Bouzu which lasts for 1 turn and stores Rainbow Energy equal to 600% of her initial ATK, gains 1 Sunshine Doll (3 max before the next turn) ;Teru Teru Bouzu (霹雳娃娃) : :'''General, Status''': When the ally with this inflicts indirect damage, an additional 15% of indirect damage is dealt to the target (cannot exceed 4000% of the ally's initial ATK). ;Sunshine Doll (晴空娃娃) : :'''General, Status''': Max 3 stacks, at the start of each turn (for both sides), removes freeze effects from one non-summoned ally and consumes 1 stack. ;Rainbow Energy (彩虹能量) :Can store a max of 2400% of her initial ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Stored Rainbow Energy increases to 660%."
+        },
+        {
+          "lvl": 3,
+          "text": "Stored Rainbow Energy increases to 720%."
+        },
+        {
+          "lvl": 4,
+          "text": "After an ally with a Teru Teru Bouzu deals or receives damage, restores the HP of 3 non-summoned allies with the lowest HP proportions by 120% of her initial ATK (max of times before the start of her turn)."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Casts Sunny Radiance on the ally with the highest ATK."
+        }
+      ],
+      "icon": "assets/skills/5803.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Hiyoribou's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Hiyoribou's skills 12 times.",
+      "reward": "Shikigami No.580 ×10"
+    },
+    {
+      "condition": "With SP Hiyoribou clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/580skin1.webp"
+}

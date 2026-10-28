@@ -1,0 +1,16 @@
+{
+  "no": 16,
+  "en": "House Imp",
+  "cn": "鸣屋",
+  "jp": "家鳴",
+  "type": "ATK",
+  "image": "File:Soul16.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/House_Imp",
+  "imageUrl": "assets/souls/Soul16.webp",
+  "localImage": "assets/souls/Soul16.webp",
+  "combo2": "Increases attack by 15%",
+  "combo4": "Increases damage by 45% when attacking a target inflicted with a control effect.",
+  "location": "Soul Zones (Friay, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 13 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M21.webp"
+}

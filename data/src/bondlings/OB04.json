@@ -1,0 +1,16 @@
+{
+  "no": "OB04",
+  "page": "Azure Basan (Bondling)",
+  "en": "Azure Basan",
+  "cn": "火灵",
+  "jp": "火霊",
+  "area": "| Heian-kyo",
+  "type": "| DEF",
+  "image": "assets/bondlings/OB04s1.webp",
+  "imageUrl": "assets/bondlings/OB04s1.webp",
+  "skins": [
+    "assets/bondlings/OB04skin1.webp",
+    "assets/bondlings/OB04skin2.webp"
+  ],
+  "skill": "Grants 2 orbs at the start of battle and launches a 3-strike attack on all enemies at the end of the onmyoji's turn, dealing damage equal to 100% of the onmyoji's ATK."
+}

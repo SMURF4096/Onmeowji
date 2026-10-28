@@ -1,0 +1,241 @@
+{
+  "no": 341,
+  "en": "Oniou Shuten Douji",
+  "cn": "鬼王酒吞童子",
+  "jp": "Demoniac Shuten Doji",
+  "gl": "Demoniac Shuten Doji",
+  "rarity": "SP",
+  "image": "File:341.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oniou_Shuten_Douji",
+  "cv": "Shuuhei Sakaguchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/341.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/341.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "151",
+        "lv2": null,
+        "max": "3189"
+      },
+      "hp": {
+        "lv1": "1120",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "76",
+        "lv2": null,
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "A",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "3411a",
+      "name": "Blazing Fire (梵天)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It's your pleasure to see me enter the fray.",
+      "description": "SP Shuten Douji commands a ball of flames to attack single target, dealing damage equal to 100% of his ATK. <br>When he is in his Demoniac State, this skill changes to Torch the Sky.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3411a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3411b",
+      "name": "Torch the Sky (烈焰焚天/烈火梵天)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Shuten Douji calls forth a huge blazing comet to smash a single target, dealing damage equal to 196% of his ATK. Also inflicts splash damage to all other enemies, dealing true damage equal to 20% of the damage received by the initial target. Splash damage won't trigger his own soul effects.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 206% and true damage increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 216% and true damage increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 226% and true damage increases to 35%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 245% and true damage increases to 40%."
+        }
+      ],
+      "icon": "assets/skills/3411b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3412",
+      "name": "Inflamed (红莲/紅蓮)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "As long as I protect Mt. Oe, I'm willing to be burnt to ashes!",
+      "description": "SP Shuten Douji gains immunity to control effects and effects such as Banish. Also healing effects on him are reduced by 50%. <br>Grants all allies High Spirit's Force. ;High Spirit's Force (大妖の力) : :'''Buff, Mark''': Exclusive effect. Increases damage dealt by 1% per 1% of HP lost. Cannot be stacked.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Reduced healing decreases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases damage reduction for all allies with High Spirit's Force by 1% per 1% of HP lost."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduced healing decreases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Effect for High Spirit's Force is doubled on himself."
+        }
+      ],
+      "icon": "assets/skills/3412.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3413",
+      "name": "Raging Blaze (天火怒焱/天火怒炎)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 1,
+      "line": "This ever-burning flame will devour my last hesitation!",
+      "description": "SP Shuten Douji unleashes a powerful demoniac force and sends out a thundering roar, decreasing the move bar of all enemies by 30% and dispels 1 buff from them. Then he enters Demoniac State for 2 turns. <br>This skill can only be used when he is not in his Demoniac State. ;Demoniac State (鬼王の姿) : :'''General, Mark''': Sets the world ablaze. At the start of an ally's turn, 24% of their current HP is burned away and they become immune to all forms of damage for that turn. HP burning is consider as losing HP and can remove Sleep.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Number of buffs dispelled increases to 2."
+        },
+        {
+          "lvl": 3,
+          "text": "When Demoniac State ends, recovers all allies' HP by 20% of the damage SP Shuten Douji dealt during the state."
+        },
+        {
+          "lvl": 4,
+          "text": "Decrease to move bar increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "When an ally is burned and if their HP drops below 30%, all control effects on them are removed."
+        }
+      ],
+      "icon": "assets/skills/3413.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Shuten Douji with SP Ibaraki Douji and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Shuten Douji skills 8 times.",
+      "reward": "Shikigami No.341 ×10"
+    },
+    {
+      "condition": "With SP Shuten Douji win 10 times in against Ootakemaru.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/341skin1.webp",
+  "stats": {
+    "min": {
+      "no": 341,
+      "en": null,
+      "atk": 151,
+      "hp": 1120,
+      "def": 76,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 341,
+      "en": null,
+      "atk": 3189,
+      "hp": 11963,
+      "def": 445,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

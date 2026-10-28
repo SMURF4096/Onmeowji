@@ -1,0 +1,16 @@
+{
+  "no": 32,
+  "en": "Kyoukotsu",
+  "cn": "狂骨",
+  "jp": "Kyoukotsu",
+  "type": "ATK",
+  "image": "File:Soul32.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyoukotsu",
+  "imageUrl": "assets/souls/Soul32.webp",
+  "localImage": "assets/souls/Soul32.webp",
+  "combo2": "Increases attack by 15%",
+  "combo4": "When dealing damage, damage is increased by 8% damage per onibi currently have upon using a skill.",
+  "location": "Soul Zones (Friday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M32.webp"
+}

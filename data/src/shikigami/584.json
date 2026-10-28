@@ -1,0 +1,186 @@
+{
+  "no": 584,
+  "en": "Jiyou Takiyasha Hime",
+  "cn": "时曜泷夜叉姬",
+  "jp": "時曜滝夜叉姫",
+  "gl": "Glorious Takiyashahime",
+  "rarity": "SP",
+  "image": "File:584.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Jiyou_Takiyasha_Hime",
+  "cv": "Hitomi Nabatame",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/584.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/584.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "166",
+        "lv2": null,
+        "max": "3511"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11939"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "437"
+      },
+      "spd": {
+        "lv1": "116",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5841",
+      "name": "Severed Time (岁痕之断)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I shall safeguard the peace of time.",
+      "description": "SP Takiyasha Hime attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5841.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5842",
+      "name": "Time Travel (曜时之旅)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I shall carry forward the light of the sun and moon that once existed.",
+      "description": "Exclusive effect. Each time SP Takiyasha Hime's HP is decreased by 25%, she consumes 1 Recall stack. Each time a Recall stack is consumed, her damage reduction is increased by 15% and SPD by 15, max of 3 stacks and sustained for 1 turn. ;Upon Usage :SP Takiyasha Hime enters the Rift in Time and gains 3 Recall stacks. ;Recall (回溯) : :'''General, Status''': Max of 3 stacks. Each time SP Takiyasha Hime consumes 3 stacks, she escapes in the Rift in Time and recovers her max HP; when fighting against monsters, automatically uses Time Travel once.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage reduction increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "SPD increases to 25."
+        },
+        {
+          "lvl": 4,
+          "text": "When she has 3 Recall stacks, becomes immune to control effects and effects such as Banish."
+        },
+        {
+          "lvl": 5,
+          "text": "At the start of battle, automatically gain 3 Recall stacks."
+        }
+      ],
+      "icon": "assets/skills/5842.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5843",
+      "name": "Time Slash (烬时之斩)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Night and day, past and future. These are the threads that weave fate.",
+      "description": "SP Takiyasha Hime attacks a targeted enemy 3 times, dealing damage equal to 82% of her ATK with each attack. Then consumes 1 Recall stack to attack all enemies 3 times, dealing damage equal to 12%, 24% and 136% of her ATK respectively. ;Recall (回溯) : :'''General, Status''': Max of 3 stacks. Each time SP Takiyasha Hime consumes 3 stacks, she escapes in the Rift in Time and recovers her max HP; when fighting against monsters, automatically uses Time Travel once. ;Moment of Silence (时寂之刻) : :Cannot be dispelled, cannot take actions, cannot deal damage, equipped souls lose effect.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the last attack increases to 161%."
+        },
+        {
+          "lvl": 3,
+          "text": "When used while in the Rift in Time, damage dealt increases by 45%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the last attack increases to 186%."
+        },
+        {
+          "lvl": 5,
+          "text": "When used while in the Rift in Time, everyone other than herself will enter a Moment of Silence."
+        }
+      ],
+      "icon": "assets/skills/5843.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Takiyasha Hime's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Takiyasha Hime's skills 12 times.",
+      "reward": "Shikigami No.584 ×10"
+    },
+    {
+      "condition": "Team SP Takiyasha Hime with another player's Himiko and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/584skin1.webp"
+}

@@ -1,0 +1,16 @@
+{
+  "no": 22,
+  "en": "Harpy",
+  "cn": "阴摩罗",
+  "jp": "陰摩羅鬼",
+  "type": "ATK",
+  "image": "File:Soul22.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Harpy",
+  "imageUrl": "assets/souls/Soul22.webp",
+  "localImage": "assets/souls/Soul22.webp",
+  "combo2": "Increases attack by 15%",
+  "combo4": "Gain 3 onibi upon KO'ing a target.",
+  "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 3 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M25.webp"
+}

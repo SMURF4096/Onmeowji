@@ -1,0 +1,212 @@
+{
+  "no": 335,
+  "en": "Kani Hime",
+  "cn": "蟹姬",
+  "jp": "Kanihime",
+  "gl": "Kanihime",
+  "rarity": "SR",
+  "image": "File:335.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kani_Hime",
+  "cv": "Kana Ueda",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/335.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/335.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3243"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "56",
+        "lv2": null,
+        "max": "362"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3351",
+      "name": "Left Claw Right Punch (左鉗接右拳)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey, wanna tussle?",
+      "description": "Kani Hime uses her crab claw and fist to attack a single target twice, dealing damage equal to 50% of her ATK with each hit and increases her SPD by 30. <br>The next time she uses Conch Blow, she won't knock herself and inflict herself with Daze.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 55%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 57%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 63%."
+        }
+      ],
+      "icon": "assets/skills/3351.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3352",
+      "name": "Fully Energized (这下有劲了/力が湧いてきた)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Still not convinced I see.",
+      "description": "At the end Kani Hime's turn, and if she isn't inflicted with any control effects, she braces herself and gains Carapace, lasts for 1 turn. ; : ;Carapace (蟹殻) : :'''Buff, Mark''': Damage from non-crit attacks is reduced by 20%, cannot exceed more than 100% of her ATK. ;Crit RES :Source of damage has its Crit reduced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Carapace''': Non-crit damage reduction increases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Carapace''': Non-crit attacks cannot exceed more than 150% of her ATK."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Carapace''': Non-crit damage reduction increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Carapace''': Gain 30% of Crit RES."
+        }
+      ],
+      "icon": "assets/skills/3352.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3353",
+      "name": "Conch Blow (螺螺鎚/貝落とし)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "You may fall dead if you're hit on the head with my Conch Hammer.",
+      "description": "Kani Hime exerts herself to lift her Conch Hammer on her back and slams it down on all enemies twice, dealing damage equal to 140% of her ATK. As she is careless and uses too much strength when wielding her hammer, she knocks herself out and inflicting Daze on herself, lasts for 1 turn. ;Jump-start (力が湧いてきた) : :'''Buff, Status''': Crit DMG is increased by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 147%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 154%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 161%."
+        },
+        {
+          "lvl": 5,
+          "text": "She can gain Carapace even when inflicted with Daze and when Daze is removed she gains Jump-start (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3353.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Kani Hime.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kani Hime's level to 30.",
+      "reward": "Shikigami No.335 ×10"
+    },
+    {
+      "condition": "With Kani Hime clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/335skin1.webp",
+  "stats": {
+    "min": {
+      "no": 335,
+      "en": null,
+      "atk": 140,
+      "hp": 960,
+      "def": 56,
+      "spd": 98,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 335,
+      "en": null,
+      "atk": 3243,
+      "hp": 11051,
+      "def": 362,
+      "spd": 108,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "no": 418,
+  "en": "Ryoumenbotoke Frog",
+  "cn": "两面佛呱",
+  "jp": "両面仏蛙",
+  "gl": "Ryomen Frog",
+  "rarity": "N",
+  "image": "File:418.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ryoumenbotoke_Frog",
+  "cv": "Takayuki Miyamoto",
+  "intro": "",
+  "imageUrl": "assets/shikigami/418.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/418.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "116 -> 2439",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 -> 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "65 -> 379",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "C",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4181",
+      "name": "Croak: Duel Element",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4181.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4182",
+      "name": "Croak: Divine Combo",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 20% of attack damage to a all enemies, 3 times.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4182.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Ryomen-gero collect 50,000 EXP from Entrusting (via your realm or your friend's)",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Ryomen-gero and another player who has Ryomen.",
+      "reward": "Ryomen-gero ×2"
+    },
+    {
+      "condition": "Clear a stage-10 soul zone with Ryomen-gero.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/418skin1.webp"
+}

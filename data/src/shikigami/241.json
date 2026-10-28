@@ -1,0 +1,212 @@
+{
+  "no": 241,
+  "en": "Kochou no Sei",
+  "cn": "蝴蝶精",
+  "jp": "胡蝶の精",
+  "gl": "Chocho",
+  "rarity": "R",
+  "image": "File:241.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kochou_no_Sei",
+  "cv": "Aoi Yuuki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Chapter 6|Chapter 6: Challenge Zone",
+  "imageUrl": "assets/shikigami/241.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/241.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "2439"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "12077"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": null,
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2411",
+      "name": "Butterfly Strike (香气袭人/香りに包まれる)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Just because it smells nice, doesn't mean it is nice",
+      "description": "Kochou no Sei flaps her wings to waft destructive pollen at a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2411.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2412",
+      "name": "Graceful Agility (轻盈/窈窕)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Dance among the daises!",
+      "description": "Kochou no Sei's SPD increases by 10 for every 30% of HP lost by the ally with the lowest proportion of HP",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "SPD increases to 20."
+        },
+        {
+          "lvl": 3,
+          "text": "Lost HP threshold decreases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "SPD increases to 30."
+        },
+        {
+          "lvl": 5,
+          "text": "Lost HP threshold decreases to 20% and if she gains 4 buffs from Graceful Agility, the onibi cost for Dance of Hope is decreased by 2."
+        }
+      ],
+      "icon": "assets/skills/2412.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2413",
+      "name": "Dance of Hope (祈愿之舞/祈念の舞)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "A good dance cures everything!",
+      "description": "Kochou no Sei dispels 3 debuffs or control effects from 1 ally and restores their HP by 30% of her max HP. If there is excess restored HP, a shield that can absorb 5% of her max HP is created to protect them, lasts for 2 turns. Then the ally gains Butterfly's Dance, lasts for 3 turns. ;Butterfly's Dance (蝶の舞) : :'''Buff, Mark''': Increases SPD by 20 and restores HP by 8% of Kochou no Sei's max HP when damage is received (can be triggered once each turn).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 31%, HP restored by Butterfly's Dance increases to 9%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP restored increases to 33%, HP restored by Butterfly's Dance increases to 10%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 34%, HP restored by Butterfly's Dance increases to 11%."
+        },
+        {
+          "lvl": 5,
+          "text": "HP restored increases to 36%, HP restored by Butterfly's Dance increases to 12%."
+        }
+      ],
+      "icon": "assets/skills/2413.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kocho no Sei take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kochou no Sei's skill 6 times.",
+      "reward": "Shikigami No.241 ×10"
+    },
+    {
+      "condition": "With Kochou no Sei win 5 times in against Kodokushi.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/241skin1.webp",
+  "stats": {
+    "min": {
+      "no": 241,
+      "en": null,
+      "atk": 104,
+      "hp": 1014,
+      "def": 70,
+      "spd": 105,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 241,
+      "en": null,
+      "atk": 2439,
+      "hp": 12077,
+      "def": 454,
+      "spd": 115,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

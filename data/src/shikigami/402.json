@@ -1,0 +1,106 @@
+{
+  "no": 402,
+  "en": "Kyonshii Inu",
+  "cn": "跳跳犬",
+  "jp": "キョンシー犬",
+  "gl": "キョンシー犬",
+  "rarity": "R",
+  "image": "File:402.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyonshii_Inu",
+  "imageUrl": "assets/shikigami/402.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/402.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "|HpMax2   ="
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "|DefMax2  ="
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "|SpdMax2  ="
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "|CritMax2 ="
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "|CdmgMax2 ="
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "|AccMax2  ="
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": ""
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "|HpGr1    = b"
+      ],
+      "hp": [
+        "b",
+        "|DefGr1   = b"
+      ],
+      "def": [
+        "b",
+        "|SpdGr1   = b"
+      ],
+      "spd": [
+        "b",
+        "|CritGr1  = d"
+      ],
+      "crit": [
+        "d",
+        "|Cdmg1    = 150"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4021",
+      "name": "Rage (愤怒)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tomato deals damage equal to 100% of its attack.",
+      "upgrades": [],
+      "icon": "assets/skills/4021.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4022",
+      "name": "Brutal (蛮横)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "",
+      "description": "Tomato takes the spot of a KO'd enemy and recovers it HP by 100%. Enemies who have their spot taken cannot be revived.",
+      "upgrades": [],
+      "icon": "assets/skills/4022.webp"
+    }
+  ],
+  "art": "assets/art/402skin1.webp"
+}

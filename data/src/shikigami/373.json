@@ -1,0 +1,253 @@
+{
+  "no": 373,
+  "en": "Yato no Kami",
+  "cn": "夜刀神",
+  "jp": "",
+  "gl": "Yato no Kami",
+  "rarity": "SSR",
+  "image": "File:373.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yato_no_Kami",
+  "cv": "Kaito Ishikawa",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/373.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/373.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3731",
+      "name": "Crimson Child (赤子)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is only the first of many invites.",
+      "description": "Yato no Kami releases a Bat to bite a single target, dealing damage equal to 100% of his ATK. ; Waltz (共舞) : :'''General, Mark''': Max 7 layers. Each stack increases his move bar by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and grants him a 50% chance to gain 1 layer of Waltz."
+        }
+      ],
+      "icon": "assets/skills/3731.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3732",
+      "name": "Invite of the Night (夜の邀約)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let's play a game, shall we?",
+      "description": "When Yato no Kami deals damage, he inflicts 15% HP Steal.\nEach time he releases 1 Bat, he gains 1 stack of Waltz. When he has 7 stacks, and if he's not immobile, consumes all stacks of Waltz to launche a 3-strike attack on the enemy with the lowest HP, dealing true damage equal to 77% of his ATK with each strike.\n;\n:\n; Waltz (共舞)\n:\n:'''General, Mark''': Max 7 layers. Each stack increases his move bar by 10%.\n; Nightfall (夜幕)\n:Causes the summoned entity to be regarded as having left the battlefield. This means it is temporarily considered unplayable, immobile, its place on move bar cannot be changed, all skill effects are sealed, and cannot receive buffs or debuffs.\nHas no effect on monsters.\n:''(Dark smoke and 3 moons will circle around the enemy summon.)''",
+      "upgrades": [],
+      "icon": "assets/skills/3732.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733",
+      "name": "Seven-Night Ritual (七夜秘儀)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "Curtains fall seven times and life ends in 7 ways.",
+      "description": "Exclusive effect. <br>At the start of battle, Yato no Kami is granted the Shelter of Night, it increases his damage reduction by 49% and RES by 70%. ;Upon Usage :Yato no Kami releases 3 Bats which launch an attack on 1 enemy, dealing damage equal to 210% of his attack and inflicts Sigil of the Night on them, lasts for 1 turn.<br>When a Sigil of the Night effect is triggered, his damage reduction and RES are decreased by 7% and 10% then he deals true damage equal 100% of his ATK to all enemies. The damage doesn't trigger his or the enemies' souls. ;Sigil of the Night (夜の禊) : :'''Debuff, Mark''': Exclusive effect. There are 7 types of Sigils, each lasts for 1 turn. Doesn't effect monsters, summoned entities and onmyoji. At the start of an inflicted target's turn, they will need to choose the trigger timing and effect from 2 random types of Sigils. A chosen type won't appear again until Sigil of the Night resets.<br>When the effect of 7 types have been triggered, and if Yato no Kami is not immobile, Sigil of the Night will reset and he will launch a 3-strike attack on random enemies, dealing true damage equal to 77% of his ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 270%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Sigil of the Night resets, increases the attack to 7 strikes."
+        },
+        {
+          "lvl": 4,
+          "text": "When Sigil of the Night resets, each strike also decreases the enemy's move bar by 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost decreases to 3."
+        }
+      ],
+      "icon": "assets/skills/3733.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733a",
+      "name": "Sigil 1: Seal Breath (一の禊・止息)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 1, even the breath is sealed.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Removes 2 onibi from the enemy.\n'''Triggers At End of Own Turn''': Removes 2 onibi from the enemy and permanently decreases their max onibi by 2.",
+      "upgrades": [],
+      "icon": "assets/skills/3733a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733b",
+      "name": "Sigil 2: Blight Soul (二の楔・涸魂)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 2, even the soul falls into oblivion.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The move bar for the enemy at the top of the turn order is decreased by 30%.\n'''Triggers At End of Own Turn''': The move bar for all enemies is decreased by 20% and for all allies it is increased by 20%.",
+      "upgrades": [],
+      "icon": "assets/skills/3733b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733c",
+      "name": "Sigil 3: Drain Blood (三の禊・竭血)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 3, offer everything until there is nothing.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes all enemies to receive true damage equal to 100% of Yato no Kami's ATK.\n'''Triggers At End of Own Turn''': Causes all enemies to receive true damage equal to 200% of Yato no Kami's ATK. Also recovers the HP of all allies by 80% of the damage dealt, the recovered amount is shared evenly among all allies.",
+      "upgrades": [],
+      "icon": "assets/skills/3733c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733d",
+      "name": "Sigil 4: Corrosion (四の禊・腐髄)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 4, the dried marrow has long been corroded.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The target's Crit is decreased by 80%, lasts for 2 turns.\n'''Triggers At End of Own Turn''': The target's Crit is decreased by 100% and the Crit for all other enemies is also decreased by 80%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3733d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733e",
+      "name": "Sigil 5: Shake Bone(五の禊・震骨)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 5, the empty bones still rattle.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes the target to have a 100% base chance of having their passive and soul effects to be Sealed, lasts for 2 turns.\n'''Triggers At End of Own Turn''': Cause the target and 3 random enemies to have a 100% base chance of having their passive and soul effects to be Sealed, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3733e.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733f",
+      "name": "Sigil 6: Harm Heart (六の禊・禍心)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 6, even the pale heart will be offered.",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': Causes the target to have an 80% base chance to being inflicted with Confuse, lasts for 1 turns.\n'''Triggers At End of Own Turn''': Causes the target to have a 100% base chance to be inflicted with Confuse and a 60% base chance to inflict Confuse on all other enemies, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3733f.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3733g",
+      "name": "Sigil 7: Seal Life (七の禊・封命)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sigil 7, in the end, even the lost life is...",
+      "description": ":''At the start of the inflicted target's turn, they must select which effect to activate.''\n'''Skip Own Turn''': The target's max HP is permanently decreased by 50%.\n'''Triggers At End of Own Turn''': The max HP for all enemies is permanently decreased by 30%.",
+      "upgrades": [],
+      "icon": "assets/skills/3733g.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Yato no Kami's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Yato no Kami's skills 8 times.",
+      "reward": "Shikigami No.373 ×10"
+    },
+    {
+      "condition": "In PVP, Practice or Spar, reset Sigil of the Night 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/373skin1.webp"
+}

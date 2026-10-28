@@ -1,0 +1,195 @@
+{
+  "no": 207,
+  "en": "Kyuumei Neko",
+  "cn": "九命猫",
+  "jp": "",
+  "gl": "Kyuumei Neko",
+  "rarity": "R",
+  "image": "File:207.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyuumei_Neko",
+  "cv": "Mayumi Shintani",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/207.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/207.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": "141",
+        "max": "2975"
+      },
+      "hp": {
+        "lv1": "822",
+        "lv2": "918",
+        "max": "9798"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": "77",
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": "108",
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "a"
+      ],
+      "hp": [
+        "d",
+        "c"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "2071",
+      "name": "Razor Claws (猫爪/猫の爪)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Meow!",
+      "description": "Kyuumei Neko bares razor-sharp claws and scratches a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2071.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2072",
+      "name": "Nine Lives (九命)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "One down, eight to go!",
+      "description": "When Kyuumei Neko deals a crit attack, she gains 1 layer of Kyuumei Neko: Nine Lives (max of 4 layers). \nWhen she is KO'd and has 4 layers of Kyuumei Neko: Nine Lives, she is immediately revived with 20% of her max HP recovered then uses Revenge on a random enemy.\nWhen she is KO'd, she also inflicts Cat Vengeance to the source of the lethal damage. \n;Kyuumei Neko： Nine Lives (九命猫・九命)\n: '''Buff, Mark''': \"This is why I keep showing up nya!\"\n:''(1-4 pawprints will circle around Kyuumei Neko, 1 pawprint represents 1 layer.)''\n;Cat Vengeance (九命猫・復習)\n:\n:'''Debuff, Mark''': At the start of her turn, Kyuumei Neko can use Revenge on the enemy without any onibi and ignore 100 of their defense.",
+      "upgrades": [],
+      "icon": "assets/skills/2072.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2073",
+      "name": "Revenge (报复/報復)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I can still fight! Take this!",
+      "description": "Kyuumei Neko exacts her bitter revenge, unleashing a savage attack and scratches 1 enemy 3 times, dealing damage equal to 73% of her STK with each scratch.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 77%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 81%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 89%."
+        }
+      ],
+      "icon": "assets/skills/2073.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kyuumei Neko take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kyuumei Neko.",
+      "reward": "Shikigami No.207 ×10"
+    },
+    {
+      "condition": "With Kyuumei Neko win 5 times in PVN zones against Inugami.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/207skin1.webp",
+  "stats": {
+    "min": {
+      "no": 207,
+      "en": null,
+      "atk": 127,
+      "hp": 822,
+      "def": 70,
+      "spd": 98,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 207,
+      "en": null,
+      "atk": 2975,
+      "hp": 9798,
+      "def": 454,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

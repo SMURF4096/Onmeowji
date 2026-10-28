@@ -1,0 +1,308 @@
+{
+  "no": 359,
+  "en": "Tanjiro Kamado",
+  "cn": "灶门炭治郎",
+  "jp": "竈門炭治郎",
+  "gl": "竈門炭治郎",
+  "rarity": "SSR",
+  "image": "File:359.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tanjiro_Kamado",
+  "cv": "Natsuki Hanae",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/359.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/359.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "133",
+        "lv2": null,
+        "max": "3136"
+      },
+      "hp": {
+        "lv1": "875",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3591a",
+      "name": "First Form: Water Surface Slash (壱ノ型・水面斬り)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks a single target dealing damage equal to 90% of his ATK. He uses the most optimal skill depending on the target's status.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "The skill Second Form: Water Wheel is unlocked."
+        },
+        {
+          "lvl": 4,
+          "text": "The skill Fifth Form: Blessed Rain After the Drought is unlocked."
+        },
+        {
+          "lvl": 5,
+          "text": "The skill Seventh Form: Piercing Rain Drop is unlocked."
+        }
+      ],
+      "icon": "assets/skills/3591a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3591b",
+      "name": "Second Form: Water Wheel (弐ノ型・水車)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When Tanjiro receives damage, and he is not immobile, he has a 30% chance to use Water Wheel to reduce the damage by 70%. Then he counter-attacks the the source of the damage, dealing damage equal to 60% of his ATK and gains 1 layer of Total Concentration. Each time Tanjiro's HP is reduced by 20%, the chance of triggering Water Wheel increases by 20%.",
+      "upgrades": [],
+      "icon": "assets/skills/3591b.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3591c",
+      "name": "Fifth Form: Blessed Rain After the Drought (伍ノ型・干天の慈雨)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks a single target dealing damage equal to 100% of his ATK. If the target's HP is below 30%, the damage is increased by 40%.",
+      "upgrades": [],
+      "icon": "assets/skills/3591c.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3591d",
+      "name": "Seventh Form: Piercing Rain Drop (漆ノ型・雫波紋突き)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks a single target dealing damage equal to 100% of his ATK. If the target's HP is above 70%, the damage is increased by 40%.",
+      "upgrades": [],
+      "icon": "assets/skills/3591d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3592a",
+      "name": "Third Form: Flowing Dance (参ノ型・流流舞い)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks all enemies 3 times, dealing damage equal to 75% of his ATK with each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "The skill Fourth Form: Striking Tide is unlocked."
+        },
+        {
+          "lvl": 3,
+          "text": "The skill Sixth Form: Whirlpool is unlocked."
+        },
+        {
+          "lvl": 4,
+          "text": "The skill Eighth Form: Waterfall Basin is unlocked."
+        },
+        {
+          "lvl": 5,
+          "text": "The skill Ninth Form: Splashing Water Flow - Turbulent is unlocked."
+        }
+      ],
+      "icon": "assets/skills/3592a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3592b",
+      "name": "Fourth Form: Striking Tide (肆ノ型・打ち潮)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "At the start of Tanjiro's turn in [[Main Story|Explore]] battles, he attacks all enemies dealing damage equal to 210% of his ATK.",
+      "upgrades": [],
+      "icon": "assets/skills/3592b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3592c",
+      "name": "Sixth Form: Whirlpool (陸ノ型・ねじれ渦)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "",
+      "description": "At the start of Tanjiro's turn and if he is inflicted with a control effect, he uses Whirlpool to remove all control effects from himself and gains a new turn.",
+      "upgrades": [],
+      "icon": "assets/skills/3592c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3592d",
+      "name": "Eighth Form: Waterfall Basin (捌ノ型・滝壷)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "If there are 3 or less enemies, the skill Flowing Dance will be replaced by Waterfall Basin. Tanjiro attacks all enemies 4 times, dealing damage equal to 75% of his ATK with each attack.",
+      "upgrades": [],
+      "icon": "assets/skills/3592d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3591a",
+      "name": "Ninth Form: Splashing Water Flow - Turbulent (玖ノ型・水流飛沫・乱)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro gains 30% of Crit RES and at the end of a non-summoned entities' turn his move bar is increased by 3%.",
+      "upgrades": [],
+      "icon": "assets/skills/3591a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3593a",
+      "name": "Tenth Form: Constant Flux (拾ノ型・生生流転)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks an enemy 5 times, with the first 4 hits dealing damage equal to 50%/60%/70%/80% and the final hit dealing damage equal to 80% of his ATK. Also gains 1 layer of Total Concentration at the end of his turn. ; : ;Total Concentration : :'''Buff, Mark''': Each layer increases the final hit of Constant Flux by 30%. The skill Hinokami Kagura is unlocked at 9 layers.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the final hit increases to 90%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the final hit increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the final hit increases to 110%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage for the final hit increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/3593a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3593b",
+      "name": "Hinokami Kagura (ヒノカミ神楽)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tanjiro attacks an enemy 5 times, with the first 4 hits dealing damage equal to 50%/60%/70%/80% of the target's max HP and the final hit dealing true damage equal to 99% of the target's max HP (cannot exceed 1000% of his ATK).\nThis skill can only be used once per battle.",
+      "upgrades": [],
+      "icon": "assets/skills/3593b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Tanjiroo.",
+      "reward": "359s3 ×"
+    },
+    {
+      "condition": "In PVN zones, use every Water Breathing technique and Hinokami Kagura.",
+      "reward": "Shikigami No.359 ×10"
+    },
+    {
+      "condition": "Team Tanjiro with another players's Nezuko Kamado and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/359skin1.webp",
+  "stats": {
+    "min": {
+      "no": 359,
+      "en": null,
+      "atk": 133,
+      "hp": 875,
+      "def": 61,
+      "spd": 100,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 359,
+      "en": null,
+      "atk": 3136,
+      "hp": 10482,
+      "def": 401,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

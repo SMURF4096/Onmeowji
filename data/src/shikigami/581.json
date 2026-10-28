@@ -1,0 +1,198 @@
+{
+  "no": 581,
+  "en": "Karuta",
+  "cn": "歌留多",
+  "jp": "",
+  "gl": "Karuta",
+  "rarity": "SSR",
+  "image": "File:581.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Karuta",
+  "cv": "Toda Megumi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/581.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/581.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3296"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "11137"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "11"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "D",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "5811",
+      "name": "Blue Tanzaku (青短)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Enjoy the fun while you’re here!",
+      "description": "Karuta attacks a single target dealing damage equal to 100% of her ATK. ;Flower Memory (花忆) : :'''General, Debuff''': Max of 6 stacks. At max stacks, Karuta activates Rainy Four Hikari on the inflicted enemy (can only be attacked with this once before the start of their turn), then all stacks are removed from them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and inflicts 1 Flower Memory stack."
+        }
+      ],
+      "icon": "assets/skills/5811.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5812",
+      "name": "Boar, Deer, Butterflies (猪鹿蝶)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Indulge yourself in my world of hanafuda.",
+      "description": "When Karuta uses Five Hikari Slash, she also inflicts the selected enemy target with Boar, Deer, Butterflies, sustained for 1 turn. ;Boar, Deer, Butterflies (猪鹿蝶) : :'''General, Mark''': Exclusive effect. Decreases damage dealt by 40%, does not effect on monsters. When Karuta attacks the target with thus, she also inflicts all enemies with 1 Flower Memory stack. ;Flower Memory (花忆) : :'''General, Debuff''': Max of 6 stacks. At max stacks, Karuta activates Rainy Four Hikari on the inflicted enemy (can only be attacked with this once before the start of their turn), then all stacks are removed from them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each Flower Memory stack decreases healing by 10% (does not effect monsters)."
+        },
+        {
+          "lvl": 3,
+          "text": "When Boar, Deer, Butterflies is inflicted, she gains 30% of damage reduction, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage dealt by her own skills is increased by 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "When attacking an enemy with 6 Flower Memory stacks, ignores 180 of their DEF."
+        }
+      ],
+      "icon": "assets/skills/5812.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5813a",
+      "name": "Five Hikari Slash (五光斩)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "Shh, did you see the secrets in five lights?",
+      "description": "Karuta inflicts 2 Flower Memory stacks on a selected enemy target and deals indirect damage equal to 290% of her ATK to them, then deals indirect damage equal to 195% to all other enemies. ;Flower Memory (花忆) : :'''General, Debuff''': Max of 6 stacks. At max stacks, Karuta activates Rainy Four Hikari on the inflicted enemy (can only be attacked with this once before the start of their turn), then all stacks are removed from them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When receiving damage, she inflicts 2 Flower Memory stacks on the source of the damage."
+        },
+        {
+          "lvl": 3,
+          "text": "Targeted indirect damage multiplier increases to 310%."
+        },
+        {
+          "lvl": 4,
+          "text": "Targeted indirect damage multiplier increases to 330%."
+        },
+        {
+          "lvl": 5,
+          "text": "Targeted indirect damage multiplier increases to 350%."
+        }
+      ],
+      "icon": "assets/skills/5813a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5813b",
+      "name": "Rainy Four Hikari (雨四光)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Karuta attacks an enemy dealing indirect damage equal to 300% of her ATK.",
+      "upgrades": [],
+      "icon": "assets/skills/5813b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Karuta's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Karuta's skills 12 times.",
+      "reward": "Shikigami No.581 ×10"
+    },
+    {
+      "condition": "With Karuta clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/581skin1.webp"
+}

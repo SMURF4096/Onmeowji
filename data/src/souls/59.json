@@ -1,0 +1,16 @@
+{
+  "no": 59,
+  "en": "Echoer",
+  "cn": "应声虫",
+  "jp": "応声虫",
+  "type": "Crit",
+  "image": "File:Soul59.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Echoer",
+  "imageUrl": "assets/souls/Soul59.webp",
+  "localImage": "assets/souls/Soul59.webp",
+  "combo2": "Increases Crit by 15%.",
+  "combo4": "Grants the equipped unit a 20% chance of Assisting.",
+  "location": "Orochi Soul Zones: Stage 12 (Friday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M53.webp"
+}

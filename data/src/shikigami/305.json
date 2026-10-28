@@ -1,0 +1,195 @@
+{
+  "no": 305,
+  "en": "Kusuriuri",
+  "cn": "卖药郎",
+  "jp": "薬売り",
+  "gl": "Medicine Seller",
+  "rarity": "SSR",
+  "image": "File:305.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kusuriuri",
+  "cv": "Takahiro Sakurai",
+  "intro": "",
+  "method": "Limited Collab Event (Summon) • Demon Seal (Event)",
+  "imageUrl": "assets/shikigami/305.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/305.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "145",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "12304"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3051",
+      "name": "Shape Revealer（释物之形/釈物の形）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kusuriuri attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3051.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3052",
+      "name": "Truth and Reasoning（道物之真理/物事の真理）",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect.\nAfter an enemy takes a turn, Kusuriuri has a 40% chance of marking them with a Scale. Scales have a max of 3 layers. When attacking an enemy with Scales, each layer increases their damage received by 33%.\nWhen the HP of an enemy with 1~3 Scales goes below 30%/40%/60%, all Scales will be Revealed for 2 turns.\n;\n:\n;Scale (天秤)\n:\n:'''General, Mark''': The target has been marked.\n:''(1-3 Scales will appear around the marked enemy's feet, each Scale represents 1 layer.)''\n;Revealed (見破る)\n:\n:'''General, Mark''': Kusuriuri has acquired all the details he needs.\n:''(An eye symbol will appear above the marked enemy.)''",
+      "upgrades": [],
+      "icon": "assets/skills/3052.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3053",
+      "name": "Defense（退魔）",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kusuriuri releases his sword and transforms into his inner self to attack a single target dealing damage equal to 263% of his ATK and marking them with a Scale. <br>If the enemy if Revealed, damage equal to 300% of the target's current HP (cannot exceed 600% of Kusuriuri's ATK) is dealt instead. This damage ignores shields, cannot be shared and does not trigger souls or passives. ;Scale (天秤) : :'''General, Mark''': The target has been marked. :''(1-3 Scales will appear around the marked enemy's feet, each Scale represents 1 layer.)'' ;Revealed (見破る) : :'''General, Mark''': Kusuriuri has acquired all the details he needs. :''(An eye symbol will appear above the marked enemy.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 276%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 289%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 302%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 309%."
+        }
+      ],
+      "icon": "assets/skills/3053.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kusuriuri's level to 30.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kusuriuri's skills 8 times.",
+      "reward": "Shikigami No.305 ×10"
+    },
+    {
+      "condition": "With Kusuriuri win 40 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/305skin1.webp",
+  "stats": {
+    "min": {
+      "no": 305,
+      "en": null,
+      "atk": 145,
+      "hp": 854,
+      "def": 60,
+      "spd": 102,
+      "crit": 10,
+      "critdmg": 100,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 305,
+      "en": null,
+      "atk": 3350,
+      "hp": 12304,
+      "def": 432,
+      "spd": 112,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

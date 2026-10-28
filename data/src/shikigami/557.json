@@ -1,0 +1,186 @@
+{
+  "no": 557,
+  "en": "Izanami",
+  "cn": "伊邪那美",
+  "jp": "イザナミ",
+  "gl": "イザナミ",
+  "rarity": "SSR",
+  "image": "File:557.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Izanami",
+  "cv": "Yumi Hara",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/557.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/557.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "159",
+        "lv2": null,
+        "max": "3618"
+      },
+      "hp": {
+        "lv1": "1024",
+        "lv2": null,
+        "max": "12077"
+      },
+      "def": {
+        "lv1": "69",
+        "lv2": null,
+        "max": "450"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "15",
+        "lv2": null,
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "20",
+        "lv2": null,
+        "max": "20"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "SS"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "SS"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5571",
+      "name": "Annihilation! (湮滅)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The harvest hour has come. Return to me.",
+      "description": "Izanami commands a naga swarm to strike a single target, dealing damage equal to 100% of her ATK. ;Wither (凋零) : :'''General, Mark''': DEF is decreased by 100, at the end of turn receive indirect damage equal to 120% of Izanami's ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and has a 25% base chance of inflicting Wither, lasts for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/5571.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5572",
+      "name": "Divine Kiss (神赐之吻/神賜の吻)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Fear death, praise death.",
+      "description": "Exclusive effect. Izanami grants Destroyed to a another ally other than herself. If the ally is already Destroyed, they lose 50% of their max HP (this effect is not lethal). <br>While she is present on the battlefield, and if the ally with Destroyed receives lethal damage, their HP won't decrease below 1. This effect can be triggered once before the ally's next turn, max of 3 times before they're granted Destroyed again. ; : ;Destroyed (毁灭/毁滅) : :'''Buff, Mark''': When dealing damage, ignores 100 DEF. At the start of turn, the level for Destroyed increases by 1, max of 5 levels. Each level decreases their own DEF by 100. There can only be up to 1 ally with Destroyed on the battlefield.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When the HP of a non-summoned ally drops to 1 for the first time, their SPD is increased by 50%, lasts for 2 turns (can only trigger once on a single ally, max of 3 times per battle)."
+        },
+        {
+          "lvl": 3,
+          "text": "When the HP of a non-summoned ally drops to 1 for the first time, their Crit DMG is increased by 50%, lasts for 2 turns (can only trigger once on a single ally, max of 3 times per battle)."
+        },
+        {
+          "lvl": 4,
+          "text": "For each 100 DEF decreased due to Destroyed, the ally ignores an additional 40 DEF, up to a max of 200."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill on the ally with the highest ATK at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5572.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5573",
+      "name": "Annihilation Dance (灭世之舞/滅世の舞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Destruction is the only destiny that all things share.",
+      "description": "Izanami calls forth the Grand Finale to attack all enemies, dealing damage equal to 120% of her ATK and has a 25% base chance of inflicting them with Wither, lasts for 1 turn. Then she conjures a giant naga to attack 1 enemy, dealing damage equal to 120% of her ATK, additionally triggering their Trance. ;Wither (凋零) : :'''General, Mark''': DEF is decreased by 100. At the end of turn, receive indirect damage equal to 120% of Izanami's ATK. ;Trance (恍惚) :Counts as the inflicted enemy immediately taking a new turn, in which they are unable to take actions and their move bar will not be changed. When the enemy is inflicted with Ruined, the duration for it increases by 1 turn. :''(Inflicted enemies are engulfed in a dark red aura.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Wither is inflicted, inflicts Ruined, lasts for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Upon usage, the duration for Wither is increased to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Upon usage on monsters, base chance for Wither increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Ruined enemies receive an attack from Izanami and the target with Destroyed during the turn, increases the attackers' boost to damage dealt to 10%."
+        }
+      ],
+      "icon": "assets/skills/5573.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Izanami's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Izanami's skills 8 times.",
+      "reward": "Shikigami No.557 ×10"
+    },
+    {
+      "condition": "With Izanami win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/557skin1.webp"
+}

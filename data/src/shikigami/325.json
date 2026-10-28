@@ -1,0 +1,272 @@
+{
+  "no": 325,
+  "en": "Orochi",
+  "cn": "八岐大蛇",
+  "jp": "オロチ",
+  "gl": "オロチ",
+  "rarity": "SSR",
+  "image": "File:325.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Orochi",
+  "cv": "Mamoru Miyano",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/325.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/325.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "175",
+        "lv2": null,
+        "max": "4074"
+      },
+      "hp": {
+        "lv1": "1056",
+        "lv2": null,
+        "max": "12418"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "SS"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3251",
+      "name": "Soul Crusher (魂魄碎裂/魂魄砕裂)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm interested, human.",
+      "description": "Orochi crushes the soul of a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increased to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "When using a normal attack, commands all Naga to use Gaze at the target."
+        }
+      ],
+      "icon": "assets/skills/3251.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3251a",
+      "name": "Gaze (凝視)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Gazes at Orochi's target, allowing the attack to ignore 20% of the target's DEF.",
+      "upgrades": [],
+      "icon": "assets/skills/3251a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3252",
+      "name": "Unholy Force (不洁之力/不浄の力)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 1,
+      "line": "The power of a god comes with a price.",
+      "description": "Orochi grants Unholy Force to an ally, sustained for 2 turns before Transforming them into a Naga. <br>When no other allies are alive, this skill changes to Shadow of Orochi. ; : ;Unholy Force (不浄の力) : :'''Buff, Mark''': Gains immunity from damage, increases damage dealt by 30% and SPD by 30.<br>When this mark vanishes, the ally will be transformed into a Naga. The Naga inherits all stats of the transformed ally and 20% of all of Orochi's stats. ;Diabolic Curse (魔) :'''General, Mark''': Max of 3 layers. Explodes when at 3 layers, dealing indirect damage equal to 211% of Orochi's ATK. Also restores the HP of Orochi and the Naga with the lowest proportion of HP. :''(A snake head will appear above marked enemies. The snake's expression will change depending on how many layers are inflicted.)'' ;Transform (転化) :Regarded as being KO'd. Transformed allies cannot be reverted back, don't trigger revival effects and cannot be revived. ;Naga (蛇魔) :Special summonable allies. Can be manually controlled, fills the onibi bar and move bar as normal, won't be removed at the end of a round.<br>Orochi cannot command Naga transformed by another Orochi.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each Naga increases the DEF for Orochi and all of his Naga by 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Each Naga increases the RES for Orochi and all of his Naga by 20%"
+        },
+        {
+          "lvl": 4,
+          "text": "Each Naga increases the SPD for Orochi and all of his Naga by 10."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon using this skill on an ally, grants them a new turn."
+        }
+      ],
+      "icon": "assets/skills/3252.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3252b",
+      "name": "Venom Spit (毒液)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''This skill can only be used by Naga.''\nThe Naga attacks 1 enemy, dealing damage equal to 100% its ATK. At the end of its turn, increases Orochi's move bar by 10%.",
+      "upgrades": [],
+      "icon": "assets/skills/3252b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3252",
+      "name": "Shadow of Orochi (八岐の影)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Orochi takes the place of your onmyoji for the remainder of the battle and summons a Naga to his previous position. The Naga inherits 120% of all of his stats.\nOrochi gains a new turn and increasing his own damage dealt by 30% and SPD by 30 until the end of battle.",
+      "upgrades": [],
+      "icon": "assets/skills/3252.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3253",
+      "name": "Shadow of Divine Will (神念之影/神念の影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Do you really think you can escape from my clutches?",
+      "description": "Orochi opens the Diabolic Space and commands all of his Naga to inflict All Senses Fail on random enemies, lasts until his turn ends. <br>Then he attacks all enemies dealing damage equal to 158% of his attack and orders all of his Naga to use Venom Spit to attack random enemies once. ;All Senses Fail (五感喪失) : :'''Debuff, Mark''': Equipped soul and passive skill loses effect.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 166%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 175%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 183%."
+        },
+        {
+          "lvl": 5,
+          "text": "When no other allies or onmyouji are alive, gains the additional skill Flame of Divine Wrath."
+        }
+      ],
+      "icon": "assets/skills/3253.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3252b",
+      "name": "Venom Spit (毒液)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''This skill can only be used by Naga.''\nThe Naga attacks 1 enemy, dealing damage equal to 100% its ATK. At the end of its turn, increases Orochi's move bar by 10%.",
+      "upgrades": [],
+      "icon": "assets/skills/3252b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3253",
+      "name": "Flame of Divine Wrath (神の怒火)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Orochi opens the Diabolic Space and commands all of his Naga to inflict All Senses Fail on random enemies, lasts until his turn ends.\nThen he attacks all enemies dealing damage equal to 158% of his attack and orders all of his Naga to use Venom Spit to attack random enemies once. Consumes all onibi. For each onibi consumed, the order is repeated once.",
+      "upgrades": [],
+      "icon": "assets/skills/3253.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "In , win with Orochi and 5 Naga.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increases Orochi's level to 40.",
+      "reward": "Shikigami No.325 ×10"
+    },
+    {
+      "condition": "Increases Orochi's skills 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/325skin1.webp",
+  "stats": {
+    "min": {
+      "no": 325,
+      "en": null,
+      "atk": 175,
+      "hp": 1056,
+      "def": 74,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 325,
+      "en": null,
+      "atk": 4074,
+      "hp": 12418,
+      "def": 481,
+      "spd": 118,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 288,
+  "en": "Higanbana",
+  "cn": "彼岸花",
+  "jp": "",
+  "gl": "Higanbana",
+  "rarity": "SSR",
+  "image": "File:288.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Higanbana",
+  "cv": "Sayaka Ohara",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/288.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/288.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "132",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "971",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "107"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "S"
+      ],
+      "hp": [
+        "b",
+        "A"
+      ],
+      "def": [
+        "c",
+        "C"
+      ],
+      "spd": [
+        "c",
+        "A"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2881",
+      "name": "Deadly Blooms (死亡之花/死の花)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Fear my razor-sharp petals!",
+      "description": "Higanbana use her crimson petals to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2881.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2882",
+      "name": "Crimson Flowers (赤团华/曼珠沙華)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sometimes the most elegant curses are also the most lethal.",
+      "description": "Exclusive effect. <br>At the start of turn for an enemy who's surrounded by Flowers, each layer of the Flowers deals damage equal to 39% of her ATK. <br>Flowers are limited to 3/4/5/6 layers when her HP is at 100%/75%/50%/25%. The Flowers decrease by 1 layer on each of her turns to a minimum of 1 layer. <br>Higanbana gains a layer of Flowers and a shield created by Blood-soaked Flowers for every 25% of her HP reduced. ;Upper Hand :Automatically creates 3 layers of Flowers to surround all enemies with at the start of battle.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for each layer of Flowers increases to 41%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for each layer of Flowers increases to 43%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for each layer of Flowers increases to 45%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage for each layer of Flowers increases to 48%."
+        }
+      ],
+      "icon": "assets/skills/2882.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2883",
+      "name": "Blood-soaked Flowers (血之花海/血花の海)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I will turn this battlefield into a sea of Lycoris!",
+      "description": "Higanbana gains 2 layers of Flowers. <br>If her HP is below 75%, she also gains a undispellable shield that can absorb damage equal to 20% of her lost HP, lasts for 2 turns. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption increases to 22%."
+        },
+        {
+          "lvl": 3,
+          "text": "Absorption increases to 24%."
+        },
+        {
+          "lvl": 4,
+          "text": "Absorption increases to 26%."
+        },
+        {
+          "lvl": 5,
+          "text": "Absorption increases to 28%."
+        }
+      ],
+      "icon": "assets/skills/2883.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Higanbana's skill 8 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Higanbana's level to 40.",
+      "reward": "Shikigami No.288 ×10"
+    },
+    {
+      "condition": "With Higanbana win 30 times in Duel, Practice or Spar.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/288skin1.webp",
+  "stats": {
+    "min": {
+      "no": 288,
+      "en": null,
+      "atk": 132,
+      "hp": 971,
+      "def": 60,
+      "spd": 97,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 288,
+      "en": null,
+      "atk": 3002,
+      "hp": 11393,
+      "def": 388,
+      "spd": 107,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

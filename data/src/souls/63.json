@@ -1,0 +1,15 @@
+{
+  "no": 63,
+  "en": "Mutodori",
+  "cn": "无刀取",
+  "jp": "無刀取り",
+  "type": "Crit DMG",
+  "image": "File:Soul63.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Mutodori",
+  "imageUrl": "assets/souls/Soul63.webp",
+  "localImage": "assets/souls/Soul63.webp",
+  "combo2": "Increases Crit DMG by 20%.",
+  "combo4": "At the end of the turn, permanently increases damage by 15%, up to 45%.",
+  "location": "Fallen Soul Zone: Stage 4 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL"
+}

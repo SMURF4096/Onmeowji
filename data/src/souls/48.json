@@ -1,0 +1,16 @@
+{
+  "no": 48,
+  "en": "Nuribotoke",
+  "cn": "涂佛",
+  "jp": "塗仏",
+  "type": "HP",
+  "image": "File:Soul48.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nuribotoke",
+  "imageUrl": "assets/souls/Soul48.webp",
+  "localImage": "assets/souls/Soul48.webp",
+  "combo2": "Increases by HP by 15%",
+  "combo4": "Unique effect. <br>At the end of the equipper's turn, after they use a normal attack or are immobile, resist and damage for all allies is increased by 15%. The effect is doubled for the equipper. Lasts for 2 turns.",
+  "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M48.webp"
+}

@@ -1,0 +1,198 @@
+{
+  "no": 376,
+  "en": "Suzuhiko Hime",
+  "cn": "铃彦姬",
+  "jp": "鈴彦姫",
+  "gl": "Suzuhikohime",
+  "rarity": "SSR",
+  "image": "File:376.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Suzuhiko_Hime",
+  "cv": "Mikako Komatsu",
+  "intro": "",
+  "method": "Summon",
+  "imageUrl": "assets/shikigami/376.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/376.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3195"
+      },
+      "hp": {
+        "lv1": "771",
+        "lv2": null,
+        "max": "9251"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3761",
+      "name": "Shake Bell (振铃/振鈴)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do you feel my fiery thoughts?",
+      "description": "Suzuhiko Hime wields her chiming blade and sends fiery flames to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3761.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3762a",
+      "name": "Scorching Fire (铃焰灼心/鈴焔灼心)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "If your heart is shackled, every step will feel heavy.",
+      "description": "Exclusive effect. <br>Suzuhiko Hime cannot be revived when KO'd. When her max HP is below 50%, she permanently gains Holy Fire. ; : ;Upon Usage :Suzuhiko Hime resets the cooldown for Holy Fire, recovers 40% of her max HP and recovers the HP of all other allies by 12% of her max HP. ;Holy Fire (神火) : :'''Buff, Mark''': When her HP reaches max HP, and if she not inflicted with Banish and similar effects or control effects, she immediately uses Fire Rite used without any onibi. This effect has a cooldown of 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP required to gain Holy Fire increases to 75%."
+        },
+        {
+          "lvl": 3,
+          "text": "When she has Holy Fire, she recovers 8% of her max HP at the end of a non-summoned ally's turn."
+        },
+        {
+          "lvl": 4,
+          "text": "When receiving lethal damage, changes this skill to Undying Flame."
+        },
+        {
+          "lvl": 5,
+          "text": "When she becomes an Undying Flame, creates an undispellable shield that can absorb damage equal to 120% of her ATK (lasts for 2 turns)."
+        }
+      ],
+      "icon": "assets/skills/3762a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3762b",
+      "name": "Undying Flame (心火永明)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I shall live forever in my own flame.",
+      "description": "Exclusive effect.\nThe flame my be extinguished, but my heart shall burn for eternity! All buffs and debuffs are removed from Suzuhiko Hime. She stays on the battlefield until the last non-summoned ally is KO'd. \nWhile in this state, she gains 100% of Crit RES, her DEF is increased by 100% and she becomes immune to debuffs and effects such as Banish, and becomes immobile. Also increases other allies' Crit RES and DEF by 40%.\nUpon entering this state and when another non-summoned entity is KO'd, she immediately recovers 50% of her HP. When her HP reaches max HP, she's resurrected, the cooldown for Holy Fire is reset and this skill changes to Scorching Fire.",
+      "upgrades": [],
+      "icon": "assets/skills/3762b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3763",
+      "name": "Fire Rite (五山火祭)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The ever-burning Inner Fire has extinguished, but the flames of the Snow Realm shall burn on.",
+      "description": "Suzuhiko Hime launches an attacks on all enemies, dealing damage equal to 72% of her ATK. Then continues to inflicts strikes on all enemies at the cost of 25% of her own max HP and 1 onibi, dealing damage equal to 43% of her ATK with each strike until she has less than 50% HP or if there isn't enough onibi (or ). <br>This skill cannot trigger healing effects such as restore, recover and HP Steal. If Fire Rite manages to KO a non-summoned enemy, her HP immediately recovers to full. This effect can be triggered once per turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP cost decreases to 21%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP cost decreases to 17%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP cost decreases to 13%."
+        },
+        {
+          "lvl": 5,
+          "text": "When this skill inflicts 5-strikes, the attack will ignore 30 DEF (max of 5 stacks)."
+        }
+      ],
+      "icon": "assets/skills/3763.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Suzuhiko Hime's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increases Suzuhiko Hime's skills 12 times.",
+      "reward": "Shikigami No.376 ×10"
+    },
+    {
+      "condition": "In , have Suzuhiko Hime become an Undying Flame and win 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/376skin1.webp"
+}

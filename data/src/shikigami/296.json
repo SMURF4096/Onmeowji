@@ -1,0 +1,212 @@
+{
+  "no": 296,
+  "en": "Yamakaze",
+  "cn": "山风",
+  "jp": "山風",
+  "gl": "山風",
+  "rarity": "SSR",
+  "image": "File:296.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yamakaze",
+  "cv": "Toshiki Masuda",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/296.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/296.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "146",
+        "lv2": null,
+        "max": "3404"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "1",
+        "lv2": null,
+        "max": "1"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "D",
+        "D"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2961",
+      "name": "Wind (风/風)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The blood on the blade is the proof of my power.",
+      "description": "Yamakaze charges at a single target and launches a 2-strike attack, dealing damage equal to 76% of his ATK with each strike. The strike are guaranteed to land crits if the target has less than 35% HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 87%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 95%."
+        }
+      ],
+      "icon": "assets/skills/2961.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2962",
+      "name": "Violent (烈)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I am the king of the forest.",
+      "description": "When a control effect on Yamakaze dispelled or disappears by ending a turn, and if he is not inflicted with any control effects, his move bar is increased by 35% and he gains Trapped Beast, lasts for 1 turn. ; : ;Trapped Beast (困獣) : :'''Buff, Status''': Increases ATK by 10% and RES by 50%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Trapped Beast''': ATK increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Trapped Beast''': ATK increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Trapped Beast''': ATK increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "If any enemy has less than 35% HP, boost to move bar is increased to 70%."
+        }
+      ],
+      "icon": "assets/skills/2962.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2963",
+      "name": "Slash (斩/斬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Finally, time for vengeance!",
+      "description": "Yamakaze channels all of his power to attack 1 enemy before attacking the enemy with the lowest HP proportion, dealing damage equal to 132% of his ATK with each attack and inflicts them with Laceration, lasts for 1 turn. Both of Yamakaze's attacks are guaranteed to land crits. ;Laceration (引き裂き) : :'''Debuff, Status''': Deals indirect damage equal to 12% of the target's current HP and 88% of Yamakaze's ATK (cannot exceed 320% of his ATK) at the end of turn. This damage ignores 600 of the target's DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 139%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 152%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Laceration disappears, also inflicts 100% of Heal Down (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/2963.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Donate 5 Yamakaze shards in guild.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Yamakaze.",
+      "reward": "Shikigami No.296 ×10"
+    },
+    {
+      "condition": "Increase Yamakaze's skill 7 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/296skin1.webp",
+  "stats": {
+    "min": {
+      "no": 296,
+      "en": null,
+      "atk": 146,
+      "hp": 960,
+      "def": 60,
+      "spd": 105,
+      "crit": 1,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 296,
+      "en": null,
+      "atk": 3404,
+      "hp": 11393,
+      "def": 388,
+      "spd": 115,
+      "crit": 1,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

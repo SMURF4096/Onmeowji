@@ -1,0 +1,195 @@
+{
+  "no": 292,
+  "en": "Yuki Douji",
+  "cn": "雪童子",
+  "jp": "Yuki",
+  "gl": "Yuki",
+  "rarity": "SSR",
+  "image": "File:292.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yuki_Douji",
+  "cv": "Marina Inoue",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/292.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/292.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": null,
+        "max": "3323"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10026"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "111",
+        "lv2": null,
+        "max": "121"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2921",
+      "name": "Snow Chaser (雪走)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "No one has crossed this blade and lived...",
+      "description": "Yuki Douji draws Snow Chaser from its sheath and slashes a single target, dealing damage equal to 80% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/2921.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2922",
+      "name": "Snow Weaver (霜天之织/霜降る衣)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "When it snows, it pours!",
+      "description": "When Yuki Douji attacks or deals transferred damage, he has a 25% base chance of inflicting the enemy with Freeze, lasts for 1 turn. Attacking Freeze targets again converts it into Deep Freeze and inflicts Ice Mark on the enemy for 2 turns. He also breaks the ice around enemies with Freeze, Deep Freeze or Frostbound, increasing his damage dealt to them by 300%. When inflicting a freeze type effect on an enemy, gains an undispellable shield that absorbs damage equal to 150% of Yuki's starting ATK for 2 turns. Gains Frostwoven Shelter at the start of the battle and at the end of each turn.\n;\n:\n;Ice Mark\n:\n:'''Debuff, Mark''': Reduces starting SPD by 40%.\n;Frostwoven Shelter (霜衣の守り)\n:'''General, Mark''': Negates the effect of Suppress, Seal, Freeze, Deep Freeze, Frostbound or Banish once. If the target has Shelter, loses Frostwoven Shelter and removes the target's Shelter.\n:''(A blue snowflake will appear underneath him while Frostwoven Shelter is active.)''\n;Freezing Effect\n:Freeze, Deep Freeze, Frostbound, and Rest in Ice",
+      "upgrades": [],
+      "icon": "assets/skills/2922.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2923",
+      "name": "December Snow (胧月雪华斩/朧月雪連斬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Isn't the moon beautiful tonight?",
+      "description": "Yuki Douji draws Snow Chaser and launches a 3-strike attack on 1 enemy, dealing damage equal to 140% of his ATK with each strike. Also increases his own Effect HIT by 200% until the end of turn. After inflicting Deep Freeze, restores 1 orb. ;Freezing Effect :Freeze, Deep Freeze, Frostbound, and Rest in Ice",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 150%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 155%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 160%."
+        }
+      ],
+      "icon": "assets/skills/2923.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Yuki Douji's level to 30.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Yuki Douji's skills 8 times.",
+      "reward": "Shikigami No.292 ×10"
+    },
+    {
+      "condition": "With Yuki Douji win 40 times in Duel, Practice or Spar.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/292skin1.webp",
+  "stats": {
+    "min": {
+      "no": 292,
+      "en": null,
+      "atk": 144,
+      "hp": 854,
+      "def": 60,
+      "spd": 111,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 292,
+      "en": null,
+      "atk": 3323,
+      "hp": 10026,
+      "def": 388,
+      "spd": 121,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

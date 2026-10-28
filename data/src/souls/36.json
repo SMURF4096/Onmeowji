@@ -1,0 +1,16 @@
+{
+  "no": 36,
+  "en": "Odokuro",
+  "cn": "荒骷髅",
+  "jp": "餓者髑髏",
+  "type": "Random Stat",
+  "image": "File:Soul36.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
+  "imageUrl": "assets/souls/Soul36.webp",
+  "localImage": "assets/souls/Soul36.webp",
+  "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
+  "combo2": "Exclusive passive effect. Increases damage dealt to monsters by 10% for 1 turn. If attacked by monsters, increases damage boost effect to 25%.",
+  "location": "Demon Encounter · Mall",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/Ml3.webp"
+}

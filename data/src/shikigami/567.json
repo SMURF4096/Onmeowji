@@ -1,0 +1,186 @@
+{
+  "no": 567,
+  "en": "Shentu Ziye",
+  "cn": "申屠子夜",
+  "jp": "",
+  "gl": "Shentu Ziye",
+  "rarity": "SSR",
+  "image": "File:567.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shentu_Ziye",
+  "cv": "",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/567.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/567.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "154",
+        "lv2": null,
+        "max": "3516"
+      },
+      "hp": {
+        "lv1": "971",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "431"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "5671",
+      "name": "(寒氷乍破)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Ziye attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5671.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5672",
+      "name": "(渊氷三尺)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. <br>When an enemy is inflicted with a Freeze Effect, and Ziye is not inflicted with a control effect, he enters his Divine Water Manifestation form, lasts for 2 turns. The duration of his Divine Manifestation form resets when triggered repeatedly. ;Divine Water Manifestation (水行昭神) : :'''General, Mark''': When attacking, he has a 10% base chance to inflict Freeze, lasts for 1 turn. And when attacking enemies with Freeze Effects, the number of attacks he deals is doubled. When an ally other than himself inflicts Freeze Effects, additional damage equal to 25% of his ATK will be dealt to the same target. This damage will not trigger his Divine Manifestation's effect and cannot exceed 900% of the ally's ATK. ;Freeze Effect (凍結類効果) :When inflicted with effects such as Freeze, Deep Freeze, Frostbound, and Rest in Ice.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Divine Water Manifestation''': Additional damage increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Divine Water Manifestation''': Base chance increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Divine Water Manifestation''': Additional damage increases to 75%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Ziye is in his Divine Manifestation form, his damage dealt to enemies with Freeze Effects is increased by 20%."
+        }
+      ],
+      "icon": "assets/skills/5672.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5673",
+      "name": "(画水镂冰/画水鏤氷)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Ziye attacks all enemies 3 times, dealing damage equal to 46% of his ATK with each hit.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 48%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 55%."
+        }
+      ],
+      "icon": "assets/skills/5673.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.567 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/567skin1.webp"
+}

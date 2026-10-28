@@ -1,0 +1,195 @@
+{
+  "no": 275,
+  "en": "Mannendake",
+  "cn": "万年竹",
+  "jp": "",
+  "gl": "Mannendake",
+  "rarity": "SR",
+  "image": "File:275.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Mannendake",
+  "cv": "Shinnosuke Tachibana",
+  "intro": "",
+  "method": "Shrine",
+  "imageUrl": "assets/shikigami/275.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/275.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": "170",
+        "max": "3597"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": "950",
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "67",
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": "115",
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "s",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "c"
+      ],
+      "def": [
+        "c",
+        "c"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2751",
+      "name": "Sword Flute (笛中剑/笛の剣)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Flute in my hands, sword in my heart.",
+      "description": "Mannendake uses his Sword Flute to attack a single target, dealing damage equal to 100% of his ATK and has a 30% chance of issuing a Call to Arms.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2751.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2752",
+      "name": "Leaf Barrier (竹叶守护/竹の葉の守り)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Be prepared.",
+      "description": "At the end of Mannendake's turn, he gains Leaf Barrier, lasts 1 turn.\n;Leaf Barrier (竹の葉の守り)\n:'''Buff, Mark''': When an ally is receives damage, Mannendake has a 40% chance of launching a counter-attack against the source of the damage. When he receives damage, the chance increases to 100%.\n:''(A green orb with a bamboo leaf emblem will circle around allies while the effect is active.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2752.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2753",
+      "name": "Bamboo Whisper (竹语/竹の囁き)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Listen to the bamboo's words!",
+      "description": "Mannendake grants Leaf Barrier to all allies and increases their ATK by 10% of his ATK, sustained for 1 turn. ;Leaf Barrier (竹の葉の守り) :'''Buff, Mark''': When an ally is receives damage, Mannendake has a 40% chance of launching a counter-attack against the source of the damage. When he receives damage, the chance increases to 100%. :''(A green orb with a bamboo leaf emblem will circle around allies while the effect is active.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Leaf Barrier''': Chance of triggering increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "ATK increases to 12%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Leaf Barrier''': Chance of triggering increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "ATK increases to 15%."
+        }
+      ],
+      "icon": "assets/skills/2753.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Mannendake with another player's Kaguya Hime and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Mannendake's level to 30.",
+      "reward": ""
+    },
+    {
+      "condition": "With Mannendake clear stage 9 of the Orochi soul zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/275skin1.webp",
+  "stats": {
+    "min": {
+      "no": 275,
+      "en": null,
+      "atk": 144,
+      "hp": 864,
+      "def": 61,
+      "spd": 105,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 275,
+      "en": null,
+      "atk": 3270,
+      "hp": 10140,
+      "def": 392,
+      "spd": 115,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

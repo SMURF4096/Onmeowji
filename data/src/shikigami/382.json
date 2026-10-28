@@ -1,0 +1,186 @@
+{
+  "no": 382,
+  "en": "Umi no Chou",
+  "cn": "灵海蝶",
+  "jp": "海の蝶",
+  "gl": "Uminochou",
+  "rarity": "SR",
+  "image": "File:382.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Umi_no_Chou",
+  "cv": "Azumi Waki",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/382.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/382.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2358"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "12532"
+      },
+      "def": {
+        "lv1": "69",
+        "lv2": null,
+        "max": "450"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "6",
+        "lv2": null,
+        "max": "6"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3821",
+      "name": "Decorative Wave (波綴)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I knew life was short, but...",
+      "description": "One of Umi no Chou's Sea Genies jumps out from the water and attacks a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3821.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3822",
+      "name": "Revolving Genies (霊巡)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Come home, strayed souls.",
+      "description": "At the end of Umi no Chou's turn, the Sea Genies that revolve around her attach themselves to a random non-summoned ally, sustained for 1 turn. ; : ;Sea Genie (海霊) : :'''General, Mark''': Triggers once when receiving an attack, Removed after 3 triggers. Triggers once for multiple enemy attacks in a single turn. When it's triggered, has an 80% base chance to randomly inflict the attacker with the 1 of the following effects for 1 turn: ATK is decreased by 80%, DEF is decreased by 30%, SPD is decreased by 25.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Sea Genie''': Seal is added as a random effect."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Sea Genie''': Freeze is added as a random effect."
+        },
+        {
+          "lvl": 4,
+          "text": "Number of allies Seal Genie can be granted to increases to 2."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Umi no Chou automatically starts battle with Sea Genie (sustained for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3822.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3823",
+      "name": "Aquatic Heart (海心落)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I'm here, I'm the only one here, the sea falls.",
+      "description": "Umi no Chou focuses the power of the sea to restore the HP of 2 non-summoned allies with the lowest HP proportions by 12% of her max HP. <br>For each ally attached by a Sea Genie at the start of her turn, increases the restored amount by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 14%."
+        },
+        {
+          "lvl": 3,
+          "text": "When restoring allies' HP, also restores her own HP by 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 16%."
+        },
+        {
+          "lvl": 5,
+          "text": "When restoring allies' HP, their DEF is increased by 20% (lasts for 2 turns)."
+        }
+      ],
+      "icon": "assets/skills/3823.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Umi no Chou's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Umi no Chou's skills 8 times.",
+      "reward": "Shikigami No.382 ×10"
+    },
+    {
+      "condition": "Collect 10 Umi no Chou shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/382skin1.webp"
+}

@@ -1,0 +1,186 @@
+{
+  "no": 555,
+  "en": "Byounen Hotarugusa",
+  "cn": "渺念萤草",
+  "jp": "渺念蛍草",
+  "gl": "Kusa Regrown",
+  "rarity": "SP",
+  "image": "File:555.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Byounen_Hotarugusa",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/555.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/555.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "149",
+        "lv2": null,
+        "max": "3136"
+      },
+      "hp": {
+        "lv1": "1103",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5551",
+      "name": "Luminescent Shot (流光之箭/流光の矢)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I still remember how to wield my bow.",
+      "description": "SP Hotarugusa unleashes an arrow brimming with spiritual force on a single target, dealing damage equal to 100% of her ATK. Then spends Dandelion Force equal to 100% of her ATK to inflict damage equal to the amount of Dandelion Force spent. ;Dandelion Force (蒲公英之力/タンポポの力) :Stores the excess healing received by non-summoned ally entities until the start of her next turn. Can store up to 1800% of SP Hotarugusa's initial ATK each time. Resets the limit at the start of her turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110% and increases the amount of Dandelion Force she can use to 150%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120% and increases the amount of Dandelion Force she can use to 200%."
+        }
+      ],
+      "icon": "assets/skills/5551.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5552",
+      "name": "Adventure On (渺渺一旅)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Embark on a long adventure with dandelions.",
+      "description": "Exclusive effect. SP Hotarugusa unleashes the healing light of dandelions. When a non-summoned ally is healed, excess healing is converted into Dandelion Force. At the end of her turn, grants her 2 Seeds that are sustainable for 1 turn. When she uses a normal attack, for each portion of Dandelion Force equal to 345% of her ATK, grants her a 30% chance of launching a follow-up strike (up to 3 times), dealing Dandelion Force damage. ;Seed (種子) : :'''General, Mark''': Exclusive effect. When HP is reduced, removes 1 Seed instead. When the Seeds are used up, restores HP equal to 35% of her ATK. When receiving indirect damage, converts the indirect damage taken into Dandelion Force, doubling the restored amount. Indirect damage won't remove Seeds. Triggers up to once for a single attack. ;Dandelion Force (蒲公英之力/タンポポの力) :Stores the excess healing received by non-summoned ally entities until the start of her next turn. Can store up to 1800% of SP Hotarugusa's initial ATK each time. Resets limit at the start of her turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each Seed increases her own DEF by 30. Whenever a Seed is removed, increases her own SPD by 8 for 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "When a Seed is removed due to causes other than enemy attacks, increases ATK by 15%, lasts for 1 turn."
+        },
+        {
+          "lvl": 4,
+          "text": "At the end of her turn, grants 2 Seeds to other allies."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically grants 2 Seed to all non-summoned allies at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5552.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5553",
+      "name": "Luminescent Smash (萤光落世/蛍光落世)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I wish to grant hope to the world, even if it's as tiny as me.",
+      "description": "SP Hotarugusa uses every bit of power to bring light to the world. She launches an attack on all enemies, dealing damage equal to 162% of her ATK, and spends Dandelion Force equal to 340% of her initial ATK to inflict damage equal to the amount of Dandelion Force spent, distributes evenly among all enemies. Also restores the HP of all allies equal to 35% of her ATK. ;Seed (種子) : :'''General, Mark''': Exclusive effect. When HP is reduced, removes 1 Seed instead. When the Seeds are used up, restores HP equal to 35% of her ATK. When receiving indirect damage, converts the indirect damage taken into Dandelion Force, doubling the restored amount. Indirect damage won't remove Seeds. Triggers up to once for a single attack. ;Dandelion Force (蒲公英之力タンポポの力) :Stores the excess healing received by non-summoned ally entities until the start of her next turn. Can store up to 1800% of SP Hotarugusa's initial ATK each time. Resets the limit at the start of her turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 169%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 176%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 183%."
+        },
+        {
+          "lvl": 5,
+          "text": "Whenever she uses this skill, increases the amount of Dandelion Force she can use by 120%, up to 360%. When she receives indirect damage, decreases the amount of Dandelion Force she can use by 120%. Triggers up to once for a single attack."
+        }
+      ],
+      "icon": "assets/skills/5553.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Hotarugusa's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Hotarugusa's skills 8 times.",
+      "reward": "Shikigami No.555 ×10"
+    },
+    {
+      "condition": "Team SP Hotarugusa with another player's Hakurou and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/555skin1.webp"
+}

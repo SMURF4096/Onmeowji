@@ -1,0 +1,212 @@
+{
+  "no": 336,
+  "en": "Rukia Kuchiki",
+  "cn": "朽木露琪亚",
+  "jp": "朽木ルキア",
+  "gl": "朽木ルキア",
+  "rarity": "SR",
+  "image": "File:336.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Rukia_Kuchiki",
+  "cv": "Fumiko Orikasa",
+  "intro": "",
+  "method": "Limited Collab Event (Shrine)",
+  "imageUrl": "assets/shikigami/336.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/336.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "136",
+        "lv2": null,
+        "max": "3162"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10596"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3361",
+      "name": "Sode no Shirayuki (袖白雪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sode no Shurayuki!",
+      "description": "Rukia leaps towards a single target to attack them with her Sode no Shirayuki, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/3361.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3362",
+      "name": "San no Mai: Shirofune (参の舞・白刀)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "San no Mai: Shirofune!",
+      "description": "At the end of an action (regardless of ally or enemy), and if Rukia's HP is below 50%, all debuffs are removed and San no Mai: Shirofune is gained until the end of battle. ;San no Mai： Shirofune (参の舞・白刀) : :'''General, Mark''': SPD is permanently increased by 20. Her attacks ignores 15% of RES and inflict Ice Wound, lasts for 1 turn.<br>If the targets of her attacks are not Frozen, she has a 100% base chance of inflicting Ice Quake. ;Ice Wound (凍傷) : :'''Debuff, Status''': At the start of the target's turn, they receive indirect damage equal to 12% their max HP, lasts for 1 turn. Cannot exceed 240% of her ATK. ;Ice Quake (氷震) : :'''Debuff, Status''': SPD is decreased by 30.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Ice Wound''': Indirect damage increases to 14%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''San no Mai: Shirofune''': SPD increases to 30."
+        },
+        {
+          "lvl": 4,
+          "text": "'''San no Mai: Shirofune''': Ignore RES increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Passive triggers if Rukia's HP is below 60%."
+        }
+      ],
+      "icon": "assets/skills/3362.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3363",
+      "name": "Some no Mai: Tsukishiro (初の舞・月白)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Some no Mai: Tsukishiro!",
+      "description": "Rukia attacks all enemies dealing damage equal to 116% of her ATK and has a 20% base chance of inflicting Freeze, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 127%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 134%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/3363.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Rukia.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Rukia with another player's Ichigo Kurosaki and clear any zone 10 times.",
+      "reward": ""
+    },
+    {
+      "condition": "With Rukia win 10 times in PVN zones against Ichigo Kurosaki.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/336skin1.webp",
+  "stats": {
+    "min": {
+      "no": 336,
+      "en": null,
+      "atk": 136,
+      "hp": 907,
+      "def": 61,
+      "spd": 104,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 336,
+      "en": null,
+      "atk": 3162,
+      "hp": 10596,
+      "def": 401,
+      "spd": 114,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

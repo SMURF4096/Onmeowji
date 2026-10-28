@@ -1,0 +1,157 @@
+{
+  "no": 583,
+  "en": "Himiko",
+  "cn": "卑弥呼",
+  "jp": "",
+  "gl": "Himiko",
+  "rarity": "SSR",
+  "image": "File:583.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Himiko",
+  "cv": "Rie Tanaka",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/583.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/583.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "141",
+        "lv2": null,
+        "max": "3243"
+      },
+      "hp": {
+        "lv1": "1046",
+        "lv2": null,
+        "max": "12304"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5831",
+      "name": "Temporal Sundial (时汐之晷)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "A sun lies hidden in my heart.",
+      "description": "Himiko attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5831.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5832",
+      "name": "Rewind Time (溯回时隙)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I look back at the Castle of the Sun in the torrents of time.",
+      "description": "Exclusive effect. Himiko delays 40% of damage she receives until the start of her next turn (the delayed damage is not lethal). <br>Active Skill: When cast on an enemy target, has a 100% Base Chance of locking them in Time Seam for 1 turn. When cast on an ally, takes them into Rift in Time: if the target is herself, gains 1 stack of Time Radiance and cooldown for 1 turn; if the target is another ally, grants them 2 stacks of Time Radiance. ;Upon Usage :When Himiko uses this skill on an enemy, she has a 100% base chance to banish them into a Time Seam, lasts for 1 turn; when she uses this skill on an ally, grants them access to the Rift in Time on their next turn. ;Time Radiance : :[Buff, Mark] Up to 2 stacks. A maximum of 1 instance of this effect can exist on the ally field, after Himiko casts Timely Sunlight, consumes 1 stack of Time Radiance to make the bearer enter the rift in time. Before the bearer's turn begins, consumes 1 stack of Time Radiance to convert this turn and take them into the Rift in Time. ; : ;Time Seam (时之缝) : :'''Debuff, Mark''': Unable to receive move bar changing effects, cannot use normal attacks or special skills outside of their turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Ally's damage dealt in the Rift in Time is increased by 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Time Seam's duration increased to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Ally's damage dealt in the Rift in Time increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Grants the ally with the highest initial ATK 1 stack of Time Radiance."
+        }
+      ],
+      "icon": "assets/skills/5832.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Himiko's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Himiko's skills 12 times.",
+      "reward": "Shikigami No.583 ×10"
+    },
+    {
+      "condition": "Grant allies access to the Rift in Time 100 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/583skin1.webp"
+}

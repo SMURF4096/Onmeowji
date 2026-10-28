@@ -1,0 +1,195 @@
+{
+  "no": 243,
+  "en": "Yamawaro",
+  "cn": "山童",
+  "jp": "",
+  "gl": "Yamawaro",
+  "rarity": "R",
+  "image": "File:243.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yamawaro",
+  "cv": "Akira Ishida",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Chapter 16: Challenge Zone",
+  "imageUrl": "assets/shikigami/243.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/243.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "67",
+        "lv2": null,
+        "max": "524"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "c"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2431",
+      "name": "Hammer Smash (碎岩)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It crumbled away! What kind of rock is this?",
+      "description": "Yamawaro effortlessly raises his heavy stone hammer, leaps into the air and crashes down on a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2431.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2432",
+      "name": "Tenacity (怪力)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey you! Wanna wrestle?",
+      "description": "When Yamawaro attacks, he has a 8% base chance of inflicting enemies with Daze, lasts for 1 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/2432.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2433",
+      "name": "Bludgeoning (崩山)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "What's the matter? too much for you to handle?",
+      "description": "Yamawaro leaps into the enemy formation and brutally bludgeons all enemies 3 times, dealing damage equal to 35% of his ATK with each blow.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 37%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 39%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 41%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 43%."
+        }
+      ],
+      "icon": "assets/skills/2433.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Yamawaro win 30 times in PVN zones.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Yamawaro.",
+      "reward": "Shikigami No.243 ×10"
+    },
+    {
+      "condition": "Donate 5 Yamawaro shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/243skin1.webp",
+  "stats": {
+    "min": {
+      "no": 243,
+      "en": null,
+      "atk": 128,
+      "hp": 854,
+      "def": 67,
+      "spd": 106,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 243,
+      "en": null,
+      "atk": 3002,
+      "hp": 10140,
+      "def": 437,
+      "spd": 116,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

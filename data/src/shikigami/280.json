@@ -1,0 +1,204 @@
+{
+  "no": 280,
+  "en": "Kaguya Hime",
+  "cn": "辉夜姬",
+  "jp": "かぐや姫",
+  "gl": "かぐや姫",
+  "rarity": "SSR",
+  "image": "File:280.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kaguya_Hime",
+  "cv": "Ayana Taketatsu",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/280.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/280.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": "110",
+        "max": "2332"
+      },
+      "hp": {
+        "lv1": "1184",
+        "lv2": "1291",
+        "max": "13785"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": "69",
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": "108",
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "s",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2801",
+      "name": "Horai Branch (蓬莱玉枝/蓬莱の玉枝)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Who... Woke me?",
+      "description": "Kaguya Hime wields a jewelled branch from Horai and summons spirit energy to strike a single target, dealing damage equal to 100% of her ATK and has a 10% chance of removing 1 onibi from them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2801.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2802",
+      "name": "Fire Rat (火鼠裘/火鼠の裘)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "How I long to return to that forest ...",
+      "description": "Exclusive effect. <br>When Kaguya Hime receives damage, she has a 30% chance of gaining 1 onibi. <br>If the Dragon Jewel protective field is active, the effect also triggers when an ally receives damage. When receiving AOE attacks, multiple strikes will not trigger the effect multiple times. ; :\n;Dragon Jewel (龙首之玉) : :'''Buff, Mark''': Increases all allies' DEF by 15%, RES by 10% and has a 67% chance of granting 1 onibi at the start of their turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 40%."
+        }
+      ],
+      "icon": "assets/skills/2802.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2803",
+      "name": "Dragon Jewel (龙首之玉/龍の頸の玉)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Gentle moonlight, please lead us.",
+      "description": "Kaguya Hime forms a protective field, lasts 2 turns. The field increases all allies' DEF by 15%, RES by 10% and has a 67% chance of granting 1 onibi at the start of their turn. <br>While the field is active and an ally doesn't have enough onibi to use a skill, all the remaining onibi can be used the it. Each time this effect is triggered, Kaguya Hime sacrifices 5% of her current HP for each onibi spent and her field's duration is decreased by 1 turn. <br>While the field is active, this skill costs 1 less onibi to use.\n;Dragon Jewel (龙首之玉) : :'''Buff, Mark''': Increases all allies' DEF by 15%, RES by 10% and has a 67% chance of granting 1 onibi at the start of their turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "DEF increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "RES increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "DEF increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "RES increases to 20%."
+        }
+      ],
+      "icon": "assets/skills/2803.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kaguya Hime win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Kaguya Hime take part in 60 Realm Raids.",
+      "reward": "Shikigami No.280 ×10"
+    },
+    {
+      "condition": "Increase Kaguya Hime's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/280skin1.webp",
+  "stats": {
+    "min": {
+      "no": 280,
+      "en": null,
+      "atk": 102,
+      "hp": 1184,
+      "def": 63,
+      "spd": 98,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 280,
+      "en": null,
+      "atk": 2332,
+      "hp": 13785,
+      "def": 406,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

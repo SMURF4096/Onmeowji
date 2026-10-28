@@ -1,0 +1,186 @@
+{
+  "no": 385,
+  "en": "Daiyamaten Enma",
+  "cn": "大夜摩天阎魔",
+  "jp": "大夜摩天閻魔",
+  "gl": "Yamalord Enma",
+  "rarity": "SP",
+  "image": "File:385.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Daiyamaten_Enma",
+  "cv": "Mamiko Noto",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/385.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/385.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2144"
+      },
+      "hp": {
+        "lv1": "1199",
+        "lv2": null,
+        "max": "11806"
+      },
+      "def": {
+        "lv1": "81",
+        "lv2": null,
+        "max": "476"
+      },
+      "spd": {
+        "lv1": "123",
+        "lv2": null,
+        "max": "123"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3851",
+      "name": "Verdict of the Dead (亡者裁决)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I shall reap your names.",
+      "description": "SP Enma unleashes inferno punishment on a single target, dealing damage equal to 100% of her ATK. ;Eyes of Enma (阎魔之目/閻魔の目) : :'''Debuff, Status''': When stacked 3 times, consumes all stacks and converts them into Evil's Imprisonment. ;Evil's Imprisonment (恶灵刑期/悪霊刑期) : :'''Debuff, Mark''': If a special skill is not on cooldown, imposes an immediate 1-turn cooldown. Does not effect monsters. For each enemy inflicted with this effect, decreases SP Enma's SPD by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and has a base chance of inflicting 1 stack of Eyes of Enma ."
+        }
+      ],
+      "icon": "assets/skills/3851.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3852",
+      "name": "Book of Reincarnation (輪回之薄)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Follow me into the circle of reincarnation.",
+      "description": "Exclusive effect. <br>At the end of SP Enma's turn, records 40% of the total initial HP of all non-summoned allies in the Book of Reincarnation. <br>When the HP recorded in the Book of Reincarnation is reduced to 0 or an ally is KO'd, as long as she is not inflicted with a control effect or effects such as Banish, uses the skill Requiem Realm without consuming any onibi on the source of the damage. When she is inflicted with any control effects, they are removed and her move bar is increased by 30%. This effect can only trigger 5 times per round. ;Eyes of Enma (阎魔之目/閻魔の目) : :'''Debuff, Status''': When stacked 3 times, consumes all stacks and converts them into Evil's Imprisonment. ;Evil's Imprisonment (恶灵刑期/悪霊刑期) : :'''Debuff, Mark''': If a special skill is not on cooldown, imposes an immediate 1-turn cooldown. Does not effect monsters. For each enemy inflicted with this effect, decreases SP Enma's SPD by 5%. ;Book of Reincarnation (轮回之簿/輪回之薄) :At the end of turn, records all 40% of all non-summoned allies' initial HP. When non-summoned allies receive damage from an enemy, an equal proportion of the recorded HP will be depleted. :''(Recorded HP is represented as a purple HP bar above the head of SP Enma's gargoyle.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Recorded HP decreases to 37%."
+        },
+        {
+          "lvl": 3,
+          "text": "Recorded HP decreases to 34%."
+        },
+        {
+          "lvl": 4,
+          "text": "Recorded HP decreases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "At the end of an enemy's turn, and if no enemies are inflicted with Evil's Imprisonment, she has a 60% base chance of inflicting them with 1 stack of Eyes of Enma."
+        }
+      ],
+      "icon": "assets/skills/3852.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3853",
+      "name": "Requiem Realm (安魂鬼域)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Your life will continue in this realm.",
+      "description": "SP Enma removes the names of the dead souls, granting them a painless death. <br>She launches an attack on 1 enemy, dealing damage equal 232% of her ATK and has a 70% base chance of inflicting them with Morph, lasts for 1 turn. <br>Exclusive effect. Also has a 60% base chance of inflicting all enemies with 2 stacks of Eyes of Enma. ;Eyes of Enma (阎魔之目/閻魔の目) : :'''Debuff, Status''': When stacked 3 times, consumes all stacks and converts them into Evil's Imprisonment. ;Evil's Imprisonment (恶灵刑期/悪霊刑期) : :'''Debuff, Mark''': If a special skill is not on cooldown, imposes an immediate 1-turn cooldown. Does not effect monsters. For each enemy inflicted with this effect, decreases SP Enma's SPD by 5%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 240%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 248%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 256%."
+        },
+        {
+          "lvl": 5,
+          "text": "If she fails to inflict Morph, has a 100% base chance to inflict 1 stack of Eyes of Enma."
+        }
+      ],
+      "icon": "assets/skills/3853.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Enma's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Enma's skills 8 times.",
+      "reward": "Shikigami No.385 ×10"
+    },
+    {
+      "condition": "With SP Enma win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/385skin1.webp"
+}

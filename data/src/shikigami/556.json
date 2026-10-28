@@ -1,0 +1,186 @@
+{
+  "no": 556,
+  "en": "Amaterasu",
+  "cn": "天照",
+  "jp": "",
+  "gl": "Amaterasu",
+  "rarity": "SSR",
+  "image": "File:556.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Amaterasu",
+  "cv": "Mai Nakahara",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/556.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/556.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "171",
+        "lv2": null,
+        "max": "3886"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "94",
+        "lv2": null,
+        "max": "595"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "12"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "S",
+        "SS"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5561",
+      "name": "Divine Light (神光)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The Sun rises and sets. But the light within the people will shine forever.",
+      "description": "Hope will forever shine, for the light will never fade. Amaterasu focuses light to launch an attack on a single target enemy, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5561.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5562",
+      "name": "Ever-Shining (不滅)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Never yield to destiny. The light will shine for you.",
+      "description": "Exclusive effect. If Amaterasu is not under any control effects or Banish and similar effects, when the ally with Heavenly Radiance deals skill damage on their turn, she deals damage equal to 55% of the ally's skill multiplier to the same enemies. The damage is dealt in the same way and has the same type as the ally's skill damage. ; : ; Heavenly Radiance (天晖/光暉) : :'''General, Mark''': Exclusive effect. Decreases ATK by 15%. Immediately increases the move bar by 20%. When the ally takes lethal damage, Amaterasu grants the ally 1 HP at the cost of her own HP. ;Purged by Light (光涤/光滌) : :'''Debuff, Mark''': Reduces damage dealt to Amaterasu by 40% and decreases their DEF by 150.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage multiplier increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage multiplier increases to 65%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage multiplier increases to 70%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Amaterasu performs a KO, immediately increases her Move Bar by 50%."
+        }
+      ],
+      "icon": "assets/skills/5562.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5563",
+      "name": "Divine Verdict (神聖裁决)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "For the people I love! For the world I love!",
+      "description": "Understand its shape, fulfil its sake! Amaterasu focuses the radiance force of the Sun to launch a 3-strike attack on all enemies, dealing damage equal to 72% of her ATK with each strike. Then launches 3 follow-up strikes on 1 enemy, dealing damage equal to 72% of her ATK with each strike. She grants Heavenly Radiance to another ally shikigami with the highest initial ATK, sustained for 2 turns. ;Heavenly Radiance (天晖/光暉) : :'''General, Mark''': Exclusive effect. Decreases ATK by 15%. Immediately increases the move bar by 20%. When the ally takes lethal damage, Amaterasu grants the ally 1 HP at the cost of her own HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 79%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 86%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 93%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/5563.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Amaterasu's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Amaterasu's skills 12 times.",
+      "reward": "Shikigami No.556 ×10"
+    },
+    {
+      "condition": "Have Amaterasu take part in 30 Realm Raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/556skin1.webp"
+}

@@ -1,0 +1,186 @@
+{
+  "no": 579,
+  "en": "Youon Kinnara",
+  "cn": "瑶音紧那罗",
+  "jp": "瑶音緊那羅",
+  "gl": "Panharmonic Kinnara",
+  "rarity": "SP",
+  "image": "File:579.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Youon_Kinnara",
+  "cv": "Yoshino Nanjou",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/579.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/579.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "156",
+        "lv2": null,
+        "max": "3296"
+      },
+      "hp": {
+        "lv1": "1046",
+        "lv2": null,
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": null,
+        "max": "414"
+      },
+      "spd": {
+        "lv1": "115",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "11",
+        "lv2": null,
+        "max": "15"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5791",
+      "name": "Music’s Creation (浴音而生)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Music born from my heart, I’m one with my lute.",
+      "description": "SP Kinnara attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5791.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5792",
+      "name": "Ensemble Formed (与世同奏)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is a special concerto.",
+      "description": "Exclusive effect. At the start of battle and at the end of each turn, SP Kinnara awakens her biwa Genjo. ;Genjo (玄象) : :When it is awakened, it will assist the non-summoned ally with the highest initial ATK with 3 additional attacks, with each attack dealing damage equal to 62% of their damage. After attacking it returns to slumber. If no target is specified, it will prioritise an enemy with the lowest HP proportion.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Genjo is awakened, increases own Crit RES by 100%, lasts for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "When Genjo is awakened, increases own RES by 100%, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "When Genjo is awakened, increases all allies' DEF by 160, lasts for 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "After Genjo, increases Skill 3 damage by 12% (max of 24%, sustained between rounds)."
+        }
+      ],
+      "icon": "assets/skills/5792.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5793",
+      "name": "Secular Song (世间之曲)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The mortal world with its hustle and bustle will be my new stage.",
+      "description": "SP Kinnara attacks 1 enemy 6 times, dealing damage equal to 70% of her ATK with each attack. ;Genjo (玄象) : :When it is awakened, it will assist the non-summoned ally with the highest initial ATK with 3 additional attacks, with each attack dealing damage equal to 62% of their damage. After attacking it returns to slumber. If no target is specified, it will prioritise an enemy with the lowest HP proportion.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "When attacking a monster, her own and Genjo's single target damage is increased by 23%."
+        }
+      ],
+      "icon": "assets/skills/5793.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Kinnara's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kinnara's skills 12 times.",
+      "reward": "Shikigami No.579 ×10"
+    },
+    {
+      "condition": "Team SP Kinnara with another player's Kinnara and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/579skin1.webp"
+}

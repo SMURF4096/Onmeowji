@@ -1,0 +1,195 @@
+{
+  "no": 347,
+  "en": "Enmusubi no Kami",
+  "cn": "缘结神",
+  "jp": "縁結神",
+  "gl": "Enmusubi",
+  "rarity": "SSR",
+  "image": "File:347.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Enmusubi_no_Kami",
+  "cv": "Amamiya Sora",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/347.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/347.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "95",
+        "lv2": null,
+        "max": "2198"
+      },
+      "hp": {
+        "lv1": "1142",
+        "lv2": null,
+        "max": "13444"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "C"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3471",
+      "name": "Moonlit Flower (月下花)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You'll never find happiness like this!",
+      "description": "This is your bond with a goddess' wrath! <br>Enmusubi no Kami wields a moonlit flower to summon a crushing mark of bonds to attack a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Also increases her move bar by 20%."
+        }
+      ],
+      "icon": "assets/skills/3471.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3472",
+      "name": "Flower Moon (緋色花月)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm happy to be single. But you two must get together!",
+      "description": "Exclusive effect.\nAt the start of another ally's turn, Enmusubi no Kami grants them 1 Knot of a random type (max 4 types). If Knot they receive is the same type as the one granted to the last ally that took an action (other than Enmusubi no Kami), a match is formed. Then 1 onibi will be immediately gain and Enmusubi no Kami will gain 1 layer of Fateful Bond. If a match is not formed, she will gain 1 layer of Frustration. \n;\n:\n;Fateful Bond (縁)\n:\n:'''General, Mark''': Max 7 layers. Upon using Blessed Bond, each layer of Fateful Bond increases damage dealt for allies by 5% and increases Enmusubi no Kami's healing by 1%.\n;Frustration (怒った)\n:\n:'''Common, Mark''': Max 5 layers. When Enmusubi no Kami gains 5 layers of Frustration, all layers are consumed to dispel or remove all control effects on her and decreases move bar of all enemies by 25%. She loses 2 layers when a match is formed.\n;Remove\n: Removes non-dispellable control effects such as Deep Freeze, Transform, Daze and Provoke.",
+      "upgrades": [],
+      "icon": "assets/skills/3472.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3473",
+      "name": "Blessed Bond (神賜良縁)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Your chance has increased!",
+      "description": "Enmusubi no Kami blesses an ally, granting them Shelter and also boosts the morale of all non-summoned allies, increasing their damage dealt by 40%, lasts for 1 turn. Then restores the HP for all allies by 9% of her max HP. ;Flame Reignited (前世の縁) :'''General, Mark''': At the end of the blessed ally's turn, they are granted a new turn. Skills used in this new turn costs -3 onibi. ;Shelter : :Negates all controlling effects inflicted by a single skill.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When she has at least 1 layer of Fateful Bond, 50% of the excess healing will be converted to a shield."
+        },
+        {
+          "lvl": 3,
+          "text": "When she has at least 3 layers of Fateful Bond, increases SPD for all allies' by 30."
+        },
+        {
+          "lvl": 4,
+          "text": "When she has at least 7 layers of Fateful Bond, the blessed ally is granted Flame Reignited and she gains Shelter."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': At the start of battle, she automatically gains Shelter."
+        }
+      ],
+      "icon": "assets/skills/3473.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Enmusubi no Kami's level to 30.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Enmusubi no Kami's skills 8 times.",
+      "reward": "Shikigami No.347 ×10"
+    },
+    {
+      "condition": "In PVN zones, successfully form 99 bonds.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/347skin1.webp",
+  "stats": {
+    "min": {
+      "no": 347,
+      "en": null,
+      "atk": 95,
+      "hp": 1142,
+      "def": 68,
+      "spd": 100,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 347,
+      "en": null,
+      "atk": 2198,
+      "hp": 13444,
+      "def": 441,
+      "spd": 110,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

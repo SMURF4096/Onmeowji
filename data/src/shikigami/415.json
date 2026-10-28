@@ -1,0 +1,156 @@
+{
+  "no": 415,
+  "en": "Shuten Frog",
+  "cn": "酒吞呱",
+  "jp": "酒呑蛙",
+  "gl": "酒呑蛙",
+  "rarity": "N",
+  "image": "File:415.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shuten_Frog",
+  "cv": "Takaki Ootomari",
+  "intro": "",
+  "imageUrl": "assets/shikigami/415.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/415.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "116 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "950 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "C",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "C",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4151",
+      "name": "Gero: Demon Gourd (呱·鬼葫芦)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 50% of attack damage to a single enemy. There is 20% chance to get a layer of Frenzy, for a maximum of 1 layer.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4151.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4152",
+      "name": "Gero: Scream of Insanity (呱·狂啸)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 50% of attack damage to a single enemy. Additionally, attacks once for each layer of Frenzy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4152.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Shuten Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Shuten Frog and another player who has Shuten Doji.",
+      "reward": "Shikigami No.415 ×2"
+    },
+    {
+      "condition": "Wish for 5 Shuten Frog shards in a guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/415skin1.webp"
+}

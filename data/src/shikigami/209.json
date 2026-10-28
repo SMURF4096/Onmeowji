@@ -1,0 +1,208 @@
+{
+  "no": 209,
+  "en": "Kappa",
+  "cn": "河童",
+  "jp": "",
+  "gl": "Kappa",
+  "rarity": "R",
+  "image": "File:209.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kappa",
+  "cv": "Souichirou Hoshi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/209.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/209.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": "144",
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": "950",
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": "74",
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": "113",
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "c"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2091",
+      "name": "Water Grenade (水流弹/水流弾)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Aha! Water grenade!",
+      "description": "Kappa compresses water into a grenade to attack a single target, dealing damage equal to 75% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 79%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 83%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 87%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 91%."
+        }
+      ],
+      "icon": "assets/skills/2091.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2092",
+      "name": "Pure Water (清流/清流)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "By the power of pure water, I absolve you you of your sins!",
+      "description": "Pure water amplifies Kappa's spiritual power. At the end of his turn, he gains 1 stack of Nourishment, max of 4 stacks. ;Nourishment (光合成) : :'''Buff, Mark''': Each layer increases his ATK by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Nourishment''': ATK increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Nourishment''': ATK increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Nourishment''': ATK increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2092.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2093",
+      "name": "River Song (大河之歌/大河の歌)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kappa summons a giant projectile of river water to attack all enemies, dealing damage equal to 96% of his ATK. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 104%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 108%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 112%."
+        }
+      ],
+      "icon": "assets/skills/2093.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kappa take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Kappa with another player's Koi no Sei and clear any zone 10 times.",
+      "reward": "Shikigami No.209 ×10"
+    },
+    {
+      "condition": "Increase Kappa's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/209skin1.webp",
+  "stats": {
+    "min": {
+      "no": 209,
+      "en": null,
+      "atk": 130,
+      "hp": 854,
+      "def": 66,
+      "spd": 103,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 209,
+      "en": null,
+      "atk": 3028,
+      "hp": 10140,
+      "def": 432,
+      "spd": 113,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

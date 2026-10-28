@@ -1,0 +1,165 @@
+{
+  "no": 409,
+  "en": "Nurikabe",
+  "cn": "涂壁",
+  "jp": "ぬりかべ",
+  "gl": "ぬりかべ",
+  "rarity": "N",
+  "image": "File:409.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nurikabe",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/409.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/409.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4091",
+      "name": "Earthquake (地震/地震)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Nurikabe rushes forward to a single enemy and attacks. Deals 100% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4091.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4092",
+      "name": "Hard Wall (坚壁/堅壁)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Increase defense by 40% for all allies for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/4092.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Level up Nurikabe to Lv.25.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Nurikabe collect 50000 EXP from Entrusting (via your realm or your friends).",
+      "reward": "Shikigami No.409 ×10"
+    },
+    {
+      "condition": "Collect 20 Nurikabe shards in Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/409skin1.webp",
+  "stats": {
+    "min": {
+      "no": 409,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 409,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

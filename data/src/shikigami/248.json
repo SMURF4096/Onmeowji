@@ -1,0 +1,212 @@
+{
+  "no": 248,
+  "en": "Arakawa no Aruji",
+  "cn": "荒川之主",
+  "jp": "荒川の主",
+  "gl": "Lord Arakawa",
+  "rarity": "SSR",
+  "image": "File:248.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Arakawa_no_Aruji",
+  "cv": "Takehito Koyasu",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/248.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/248.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "928",
+        "lv2": null,
+        "max": "11051"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "20"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2481",
+      "name": "Roaming Fish (游鱼/遊魚)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The weak do not belong on the battlefield!",
+      "description": "Lord Arakawa forms water into a fish to assault a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2481.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2482",
+      "name": "Empowering Flow (逐流)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Flow on and become ever-stronger.",
+      "description": "Exclusive effect. <br>Lord Arakawa deals an extra 20% of damage when inflicting crits. At the start of battle, he gains Empowering Flow, lasts for 1 turn. ;Empowering Flow (逐流) : :'''General, Mark''': Decreases DEF by 20%. Ignores 120 DEF when dealing damage. After accumulating damage equal to 50% of his own max HP, uses Swallow on an enemy with no onibi cost (max once per turn).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Empowering Flow trigger condition decreased to 40% of his max HP."
+        },
+        {
+          "lvl": 3,
+          "text": "Empowering Flow trigger condition decreased to 30% of his max HP."
+        },
+        {
+          "lvl": 4,
+          "text": "Inflicts additional 20% HP Steal on crits."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Empowering Flow''': When affected by move bar decreasing effects, increases his move bar by 30% instead (max 2 times before own turn starts)."
+        }
+      ],
+      "icon": "assets/skills/2482.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2483",
+      "name": "Swallow (吞噬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The weak should be dragged to the deepest, darkest depths of the sea.",
+      "description": "Lord Arakawa forms water into a shoal of fish to inflict a 2-strike attack on 1 enemy, dealing damage equal to 53% of his ATK with the first strike and has a 100% base chance of inflicting Isolation on them, lasts for 2 turn. Then deals damage equal to 211% of his ATK with the second strike. After using this skin, he gains Reign, lasts for 2 turns. ;Reign (君臨) : :'''Buff, Mark''': When using Swallow, additionally performs 2 follow-up attacks on the 2 enemies with the lowest HP, dealing damage equal to 100% of his ATK with each attack.\n;Isolation : :'''Debuff, Status''': Damage received cannot be shared or redirected by soul effects or shikigami skills/passives.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the second strike increases to 226%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the second strike increases to 241%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the second strike increases to 256%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage for the second strike increases to 270%."
+        }
+      ],
+      "icon": "assets/skills/2483.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Lord Arakawa.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Lord Arakawa's skills 6 times.",
+      "reward": "Shikigami No.248 ×10"
+    },
+    {
+      "condition": "Increase Lord Arakawa's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/248skin1.webp",
+  "stats": {
+    "min": {
+      "no": 248,
+      "en": null,
+      "atk": 128,
+      "hp": 928,
+      "def": 61,
+      "spd": 101,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 248,
+      "en": null,
+      "atk": 3002,
+      "hp": 11051,
+      "def": 401,
+      "spd": 111,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

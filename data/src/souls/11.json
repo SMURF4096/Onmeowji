@@ -1,0 +1,16 @@
+{
+  "no": 11,
+  "en": "Dawn Fairy",
+  "cn": "日女巳时",
+  "jp": "日女巳時",
+  "type": "DEF",
+  "image": "File:Soul11.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Dawn_Fairy",
+  "imageUrl": "assets/souls/Soul11.webp",
+  "localImage": "assets/souls/Soul11.webp",
+  "combo2": "Increases defense by 30%",
+  "combo4": "When dealing damage has 20% chance to reduce target's action bar by 30%, chance is increased to 30% against targets with buff effects.",
+  "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 25 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M16.webp"
+}

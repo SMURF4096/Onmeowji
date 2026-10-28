@@ -1,0 +1,241 @@
+{
+  "no": "O2",
+  "role": "onmyoji",
+  "page": "Kagura",
+  "en": "Kagura",
+  "cn": "神乐",
+  "jp": "神楽",
+  "gl": "Kagura",
+  "unlock": "Chapter 3",
+  "cv": "Rie Kugimiya",
+  "intro": "A kindhearted and quiet yet mysterious girl. She has been with Seimei since she lost her memory. She has a keen intuition, strong spiritual powers, and a completely unknown past.",
+  "image": "assets/onmyoji/O2.webp",
+  "imageUrl": "assets/onmyoji/O2.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "27140"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "1051"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "128"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o2skill1",
+      "icon": "assets/skills/O2skill1.webp",
+      "name": "Umbrella Strike (伞击/傘たたき)",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Kagura waves her umbrella to unleash spiritual power that attacks a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 140%."
+        }
+      ]
+    },
+    {
+      "image": "o2skill2",
+      "icon": "assets/skills/O2skill2.webp",
+      "name": "Summon: Fish (召唤·鱼/召喚·風船金魚)",
+      "type": "Special",
+      "cooldown": 3,
+      "description": "Kagura summons a fish spirit called Kin, lasts for 3 turns. The fish Kin inherits 10% of Kagura's HP and 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Inherited HP increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Inherited ATK increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Inherited HP increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Inherited ATK increases to 120%."
+        }
+      ]
+    },
+    {
+      "image": "o2skill7",
+      "icon": "assets/skills/O2skill7.webp",
+      "name": "Channel: Storm (通灵·疾风/霊媒·疾風）",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Kagura channels the power of a storm into 1 ally. This immediately grants them a new turn and increases their ATK by 10%. In battles against Onmyoji, swaps Kagura's and the target's Move Bar positions. In battles against monsters, grant the target an extra turn without triggering cooldown.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to attack increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "Boost to attack increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to attack increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Boost to attack increases to 30%."
+        }
+      ]
+    },
+    {
+      "image": "o2skill4",
+      "icon": "assets/skills/O2skill4.webp",
+      "name": "Channel: Butterflies (通灵·冥蝶/霊媒·冥蝶)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Kagura summons a swarm of butterflies that surround all enemies, inflicting them with 30% reduced healing, lasts for 2 turns. Also has a 10% base chance to inflict Sleep on them, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Reduced healing increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance for Sleep increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduced healing increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration of reduced healing increases by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o2skill5",
+      "icon": "assets/skills/O2skill5.webp",
+      "name": "Summon: Purgatory (召唤·炼狱/召喚·煉獄)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Kagura summons the souls of the dead to reach out their ghostly hands and attack all enemies 3 times, dealing damage equal to 36% of her ATK with each attack. Also has a 20% base chance to inflict a random debuff, lasts for 1 turn. Random debuffs are the following: reduced damage dealt, increased received damage and Confuse.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increase the skill damage by an additional 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "Deals double damage to shields."
+        },
+        {
+          "lvl": 4,
+          "text": "The chance of inflicting a debuff increases to 30% (+ EFFECT HIT:0%)."
+        },
+        {
+          "lvl": 5,
+          "text": "Ignores target's Soul effects."
+        }
+      ]
+    },
+    {
+      "image": "o2skill3",
+      "icon": "assets/skills/O2skill3.webp",
+      "name": "Summon: Umbrella (召唤·伞/召喚·唐傘)",
+      "type": "Passive",
+      "cooldown": 3,
+      "description": "When an ally's HP falls below 60%, Kagura summons an enchanted umbrella to protect all allies, granting them 20% of damage reduction, lasts for 2 turns. Triggers a 2-turn cooldown after activation.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage reduction increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage reduction increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage reduction increases to 35%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increases by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o2skill6",
+      "icon": "assets/skills/O2skill6.webp",
+      "name": "Summon: Afterlife (召唤·续命/召喚·延命)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Kagura summons souls of the dead to possess and protect an ally, lasts for 2 turns. If the ally is KO'd while possessed, they will continue to exist as a spirit for 2 turns.",
+      "upgrades": []
+    },
+    {
+      "image": "o2skill8",
+      "icon": "assets/skills/O2skill8.webp",
+      "name": "Divine Fire (天狐神火/天狐神火)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "Every time Kagura loses 15% of her starting HP, she will use Hakuzosu to counter. Hakuzousu invokes Divine Fire to attack all enemies, dealing damage equal to 100% of her ATK (limited to 4 times before Kagura's turn starts). Each time Kagura uses a skill, her SPD permanently increases by 30, up to a maximum of 90. ;Continuous Damage : :Deals damage equal to 5% of the target's HP at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Also reduces the targets' defense by 20% (lasts for 2 turns)."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduced defense increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ]
+    }
+  ]
+}

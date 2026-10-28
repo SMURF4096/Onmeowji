@@ -1,0 +1,224 @@
+{
+  "no": 352,
+  "en": "Bakkotsu Kiyohime",
+  "cn": "缚骨清姬",
+  "jp": "縛骨清姫",
+  "gl": "Lovebound Kiyohime",
+  "rarity": "SP",
+  "image": "File:352.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Bakkotsu_Kiyohime",
+  "cv": "Toa Yukinari",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/352.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/352.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "1128",
+        "lv2": null,
+        "max": "12042"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "398"
+      },
+      "spd": {
+        "lv1": "118",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "C",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3521",
+      "name": "Bind Heart (纏心)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "All but love is an illusion.",
+      "description": "SP Kiyohime releases a cloud of poison mist on a single target dealing damage equal to 70% of her ATK. <br>When SP Kiyohime attacks, she inflicts level 3 of Poison, lasts for 5 turns. Also reduces the target's DEF by 20, lasts until the end of battle (cannot be reduced by more than a total of 200).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases damage to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases damage to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases damage to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Poison level increases to level 5 and the DEF reduction increases to 50 (cannot be reduced by more than a total of 500)."
+        }
+      ],
+      "icon": "assets/skills/3521.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3522",
+      "name": "Bone Corrosion (蝕骨)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Even in death, you can't escape me.",
+      "description": "SP Kiyohime inflicts Resentment on a non-summoned enemy and summons her Serpent. This skill can only be used once per round, Exclusive effect. <br>When SP Kiyohime receives lethal damage, the Serpent will pounce at the enemy with Resentment before both it and SP Kiyohime are KO'd. The next time this enemy takes damage, they will lose an amount of max HP equal to that lethal damage (max of 20%). ;Resentment (恐) :'''General, Mark''': For every 1% of initial max HP lost, decreases ATK by 1% and increases damage received by 1%. :''(Mark is represented by a skull floating above the enemy.)'' ; Burning Resentment (怨火) : :'''Debuff, Status''': At the start of turn, receive indirect damage equal to SP Kiyohime's ATK at the start of turn. ;Serpent (蛇霊) :A special summoned entity, cannot receive damage. It inherits all of SP Kiyohime's stats and replaces any already existing summoned entity occupying the ally summon spot.<br>During its turn, attacks the enemy with Resentment dealing damage equal to 200% of SP Kiyohime's ATK and inflicts them with Burning Resentment, lasts for 1 turn.<br>The Serpent returns when the enemy with Resentment is KO'd. All control effects and similar effects such as Banish on SP Kiyohime are removed. She also absorbs 40% of all the enemy's stats (absorbed ATK and HP cannot exceed SP Kiyohime's). :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After the Serpent attacks, SP Kiyohime's move bar is increased by 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "The Serpent immediately launches an attack after being summoned."
+        },
+        {
+          "lvl": 4,
+          "text": "When the Serpent is on the battlefield, grants SP Kiyohime 40% of damage reduction."
+        },
+        {
+          "lvl": 5,
+          "text": "At the end of turn for the enemy with Resentment, the Serpent will launch an attack on them."
+        }
+      ],
+      "icon": "assets/skills/3522.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3523a",
+      "name": "Bewitching Eyes (降蠱の瞳)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The memory of me shall remain in your body.",
+      "description": "SP Kiyohime launches a 3-strike attack on an enemy, dealing damage equal to 70% of her ATK with each strike and inflicts them with a layer of Bewitching Stare, sustained for 1 turn. <br>When the Serpent returns to SP Kiyohime, this skill changes Burning Love. ;Bewitching Stare (瞳蠱) : :'''Debuff, Mark''': Triggers when the inflicted target receives healing and consumes 1 layer to nullify the effect. Max 3 layers.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for each strike increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Bewitching Stare''': Also triggers when the target's move bar is increased and consumes 1 layer to nullify the effect."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for each strike increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Bewitching Stare is triggered, reduce the target's max HP by 8% (max of 20%, cannot exceed 1200% of SP Kiyohime's ATK each time)."
+        }
+      ],
+      "icon": "assets/skills/3523a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3523b",
+      "name": "Burning Love (愛怨灼身)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Kiyohime launches a 3-strike attack on an enemy, dealing damage equal to 70% of her ATK with each strike and inflicts all enemies with a layer of Bewitching Stare, sustained for 3 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3523b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Kiyohime with another player's Kiyohime and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kiyohime's skills 8 times",
+      "reward": "Shikigami No.352 ×10"
+    },
+    {
+      "condition": "With SP Kiyohime win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/352skin1.webp",
+  "stats": {
+    "min": {
+      "no": 352,
+      "en": null,
+      "atk": 144,
+      "hp": 1128,
+      "def": 68,
+      "spd": 118,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 352,
+      "en": null,
+      "atk": 3028,
+      "hp": 12042,
+      "def": 398,
+      "spd": 118,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

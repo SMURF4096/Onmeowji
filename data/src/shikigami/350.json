@@ -1,0 +1,212 @@
+{
+  "no": 350,
+  "en": "Sasori Onna",
+  "cn": "蝎女",
+  "jp": "蠍女",
+  "gl": "Sasori",
+  "rarity": "SR",
+  "image": "File:350.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sasori_Onna",
+  "cv": "Reina Ueda",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/350.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/350.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": "|HpGr1    = B",
+        "max": "2975"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": "|DefGr1   = C",
+        "max": "11279"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "|SpdGr1   = C",
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "97",
+        "lv2": "109",
+        "max": "107"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3501",
+      "name": "Scorpion Sting (蠍刺)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The dead can't feel pain.",
+      "description": "Sasori Onna flashes towards a single target and slashes them twice with her tail and claws, dealing damage equal to 50% of her ATK with each slash.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 54%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 60%."
+        }
+      ],
+      "icon": "assets/skills/3501.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3502",
+      "name": "Dark Remedy (以毒攻毒)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It worked.",
+      "description": "When Scorpion Venom is detonated and deals damage, Sasori Onna's HP is recovered by 20% of the damage dealt. <br>Each layer of Scorpion Venom increases Sasori Onna's ATK by 20%. ; : ;Scorpion Venom (蠍毒) : :'''Debuff, Mark''': Exclusive effect. Each layer decreases the target's DEF by 80, max 5 layers. Increases by 1 layer after it is detonated. Decreases by 1 layer when the target's HP is healed by 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Scorpion Venom also inflicts 40% of Healing Down on the target."
+        },
+        {
+          "lvl": 3,
+          "text": "Recovered HP from detonated Scorpion Venom increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "When there is 1 or more layers of Scorpion Venom, each layer inflicts 10% of Healing Down on the target."
+        },
+        {
+          "lvl": 5,
+          "text": "After the target with 5 layers of Scorpion Venom receives indirect damage, also deals additional indirect damage equal to 60% of the damage they took to all other enemies (cannot exceed 800% of her ATK)."
+        }
+      ],
+      "icon": "assets/skills/3502.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3503",
+      "name": "Vicious Venom (百蠍の毒)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "The enemy died peacefully.",
+      "description": "Sasori Onna summons the Lord of Scorpions to sting an enemy, dealing damage equal to 100% of her ATK and inflicts them with Scorpion Venom. <br>If the enemy is already inflicted with Scorpion Venom, it detonates on them instead and deals indirect damage equal to 75% of Sasori Onna's ATK. <br>Only 1 enemy can be inflicted with Scorpion Poison. ;Scorpion Venom (蠍毒) : :'''Debuff, Mark''': Exclusive effect. Each layer decreases the target's DEF by 80, max 5 layers. Increases by 1 layer after it is detonated. Decreases by 1 layer when the target's HP is healed by 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 85%."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 90%."
+        },
+        {
+          "lvl": 5,
+          "text": "Scorpion Venom detonates at the end of the target's turn, dealing indirect damage equal to 90% of her ATK."
+        }
+      ],
+      "icon": "assets/skills/3503.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Sasori Onna and another player's Suzuka Gozen and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Sasori Onna.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "Increase Sasori Onna's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/350skin1.webp",
+  "stats": {
+    "min": {
+      "no": 350,
+      "en": null,
+      "atk": 128,
+      "hp": 960,
+      "def": 61,
+      "spd": 97,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 350,
+      "en": null,
+      "atk": 2975,
+      "hp": 11279,
+      "def": 397,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

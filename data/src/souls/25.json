@@ -1,0 +1,16 @@
+{
+  "no": 25,
+  "en": "Tomb Guard",
+  "cn": "镇墓兽",
+  "jp": "墓守り",
+  "type": "Crit",
+  "image": "File:Soul25.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tomb_Guard",
+  "imageUrl": "assets/souls/Soul25.webp",
+  "localImage": "assets/souls/Soul25.webp",
+  "combo2": "Increases crit by 15%",
+  "combo4": "Increases crit damage by 0.5% per 1% of HP lost.",
+  "location": "Chapter 27 · Chapter 28 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M28.webp"
+}

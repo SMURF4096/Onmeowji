@@ -1,0 +1,193 @@
+{
+  "no": 554,
+  "en": "Negai Tsumugi Enmusubi no Kami",
+  "cn": "纺愿缘结神",
+  "jp": "愿紡縁結神",
+  "gl": "Bondweaver Enmusubi",
+  "rarity": "SP",
+  "image": "File:554.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Negai_Tsumugi_Enmusubi_no_Kami",
+  "cv": "Amamiya Sora",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/554.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/554.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "2224"
+      },
+      "hp": {
+        "lv1": "1270",
+        "lv2": null,
+        "max": "13557"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5541",
+      "name": "Weave Bonds (紡縁)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The spindle has started spinning! None shall end these bonds!",
+      "description": "SP Enmusubi no Kami attacks a single target with her long-lost divine power, dealing damage equal to 100% of her ATK. ;Divine Power (神力) : :'''Buff, Mark''': Max of 5 stacks. Each stack increases her RES by 20%. The effects of Bonding with the World increase with the stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and grants herself 1 Divine Power stack."
+        }
+      ],
+      "icon": "assets/skills/5541.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5542a",
+      "name": "Warding Shears (守縁刃)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "I will defy destiny and cut down all obstacles!",
+      "description": "Exclusive effect. SP Enmusubi no Kami has immunity to changes to move bar effects from other sources. She grants Red Heavenly Bond or Blue Heavenly Bond to another ally and grants herself 2 Divine Power stacks. Using this skill again removes the Heavenly Bond and dispels all debuffs and control effects from them.\nAt the end of her turn and the turn end of the ally with the Heavenly Bond, increases the ally's move bar by 30% (triggers up to once before their next turn). There can only be up to 1 ally with Heavenly Bond on the battlefield.\n;Divine Power (神力)\n:\n:'''Buff, Mark''': Max of 5 stacks. Each stack increases her RES by 20%. The effects of Bonding with the World increase with the stacks.",
+      "upgrades": [],
+      "icon": "assets/skills/5542a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5542b",
+      "name": "Heavenly Bond: Red (勝天の縁・赤)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Enmusubi no Kami grants Red Heavenly Bond to the selected ally, granting them immunity to decrease to move bar effects. When Bonding with the World is used on the ally, they are guaranteed to gain Red Earthly Bond.\n;Red Earthly Bond (俗縁・赤)\n:\n:'''Buff, Mark''': Immediately grants a new turn after the turn ends. Reduces the onibi cost of skills in the new turn by 2. These effects cannot trigger repeatedly.",
+      "upgrades": [],
+      "icon": "assets/skills/5542b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5542c",
+      "name": "Heavenly Bond: Blue (勝天の縁・青)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Enmusubi no Kami grants Blue Heavenly Bond to the selected ally, granting them immunity to decrease to move bar effects. When Bonding with the World is used on the ally, they are guaranteed to gain Blue Earthly Bond.\n;Blue Earthly Bond (俗縁・青)\n:\n:'''Buff, Mark''': At the start of the turn, dispels 1 debuff and 1 control effect from all other allies and increases the ally's damage reduction by 50% until the start of SP Enmusubi no Kami's next turn.",
+      "upgrades": [],
+      "icon": "assets/skills/5542c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5543",
+      "name": "Bonding with the World (与世結縁)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Let's weave your bond with me!",
+      "description": "Exclusive effect. SP Enmusubi no Kami grants herself 1 Divine Power stack and restores the HP of 1 ally by 8% of their max HP. The ally has a 50% chance of gaining Red Earthly Bond or a 50% chance of gaining Blue Earthy Bond, both last 1 for turn. <br>If she has 3 or more Divine Power stacks, also restores other allies' HP by 8% of their max HP. <br>If she has 5 Divine Power stacks, the ally gains both the effects of Red Earthy Bond and Blue Earthly Bond. ;Divine Power (神力) : :'''Buff, Mark''': Max of 5 stacks. Each stack increases her RES by 20%. The effects of Bonding with the World increase with the stacks. ;Red Earthly Bond (俗縁・赤) : :'''Buff, Mark''': Immediately grants a new turn after the turn ends. Reduces the onibi cost of skills in the new turn by 2. These effects cannot trigger repeatedly. ;Blue Earthly Bond (俗縁・青) : :'''Buff, Mark''': At the start of the turn, dispels 1 debuff and 1 control effect from all other allies and increases the ally's damage reduction by 50% until the start of SP Enmusubi no Kami's next turn. ;Shelter : :Negates all control effects inflicted by a single skill.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Allies with Red Earthly Bond or Blue Earthly Bond immediately grant 1 orb at the start of their turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Using this skill also grants herself and the ally Shelter, lasts for 1 turn."
+        },
+        {
+          "lvl": 4,
+          "text": "When healing the ally, if their HP is at 100%, also creates a shield for them, which can absorb damage equal to 8% of their max HP, lasts for 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "If the healing crits, also increases the targeted ally's Crit DMG by 40% of her own Crit DMG (max of 110% Crit DMG), lasts for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/5543.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Enmusubi no Kami's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Enmusubi no Kami's skills 8 times.",
+      "reward": "Shikigami No.554 ×10"
+    },
+    {
+      "condition": "With SP Enmusubi no Kami win 10 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/554skin1.webp"
+}

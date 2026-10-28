@@ -1,0 +1,212 @@
+{
+  "no": 261,
+  "en": "Kamaitachi",
+  "cn": "镰鼬",
+  "jp": "鎌鼬",
+  "gl": "鎌鼬",
+  "rarity": "SR",
+  "image": "File:261.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kamaitachi",
+  "cv": "Yasuhiro Mamiya",
+  "intro": "",
+  "method": "Summom • Demon Parade • Wanted Quests • Dispatch • Chapter 18: Challenge Zone",
+  "imageUrl": "assets/shikigami/261.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/261.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": "127",
+        "max": "2680"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": "1088",
+        "max": "11621"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": "74",
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": "117",
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2611",
+      "name": "Beat Down (胖揍/ぶん殴る)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "A hammer? A rake? A sword? I'm sure we've got something you'll like! Hahaha!",
+      "description": "Kamaitachi uses multiple weapons to attack a single target, dealing damage equal to 100% of their ATK and has a 20% base chance of inflicting one of the following effects: DEF is decreased by 30% (lasts for 2 turns), Daze (lasts for 1 turn), continuous damage (lasts for 2 turns). ;Continuous Damage : :Deals damage equal to 5% of the target's HP at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2611.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2612",
+      "name": "United (人多势众/三位一体)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hahaha! We three brothers are unstoppable!",
+      "description": "Kamaitachi has a 10% chance of gaining an extra turn, triggers at the end of their turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2612.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2613",
+      "name": "Brotherly Bond (兄弟之绊/兄弟の絆)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "We might be blood brothers, but only our enemies will bleed!",
+      "description": "Kamaitachi inspires all allies, granting them Nitaro's Whistle and Santaro's Whistle, lasts for 2 turns. ;Nitaro's Whistle (二太郎指笛) : :'''Buff, Status''': Increases ATK by 15%. ;Santaro's Whistle (三太郎指笛) : :'''Buff, Status''': Increases RES by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Nitaro's Whistle''': ATK increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases the move bar of all allies by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Santaro's Whistle''': RES increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Nitaro's Whistle''': ATK increases to 25%."
+        }
+      ],
+      "icon": "assets/skills/2613.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kamaitachi clear stage 5 of any Evo zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kamaitachi.",
+      "reward": "Shikigami No.261 ×10"
+    },
+    {
+      "condition": "Collect 10 Kamaitachi shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/261skin1.webp",
+  "stats": {
+    "min": {
+      "no": 261,
+      "en": null,
+      "atk": 114,
+      "hp": 982,
+      "def": 66,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 261,
+      "en": null,
+      "atk": 2680,
+      "hp": 11621,
+      "def": 432,
+      "spd": 117,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

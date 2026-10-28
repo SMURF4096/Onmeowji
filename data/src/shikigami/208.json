@@ -1,0 +1,212 @@
+{
+  "no": 208,
+  "en": "Baketanuki",
+  "cn": "狸猫",
+  "jp": "化け狸",
+  "gl": "Tanuki",
+  "rarity": "R",
+  "image": "File:208.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Baketanuki",
+  "cv": "Souichirou Hoshi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/208.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/208.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "2358"
+      },
+      "hp": {
+        "lv1": "1088",
+        "lv2": null,
+        "max": "12874"
+      },
+      "def": {
+        "lv1": "67",
+        "lv2": null,
+        "max": "437"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "b"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2081",
+      "name": "Bottle Bash (妖酒壶/妖しの徳利)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You'll be feeling this in the morning... Hic!",
+      "description": "Baketanuki strikes a single target over the head with his wine bottle, dealing damage equal to 100% of his ATK and inflicts 1 layer of Drunk on the target, lasts until the end of battle. Also has a 50% base chance of inflicting Provacation, lasts for 1 turn. ;Drunk (酒気) :'''General, Mark''': Max of 5 layers. Intoxicating fragrances from demonic wines. Can be ignited by Fiery Moonshine. :''(1-5 cups of Fiery Moonshine will circle around the enemy, 1 cup represents 1 layer.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2081.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2082",
+      "name": "Drunken Stupor (醉倒/酔っぱらい)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Booze! Booze! Bring... hic! Bring me some... Booze!",
+      "description": "At the end of Baketanuki's turn, he has a 20% chance of becoming drunk until he wakes up on his next turn. When he wakes up, recovers his HP by 6% of his max HP <br>When Baketanuki is attacked while drunk, he has a 50% chance of inflicting 1 layer of Drunk on the attacker, lasts until the end of battle. ;Drunk (酒気) :'''General, Mark''': Max of 5 layers. Intoxicating fragrances from demonic wines. Can be ignited by Fiery Moonshine. :''(1-5 cups of Fiery Moonshine will circle around the enemy, 1 cup represents 1 layer.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP recovered increases to 8%,"
+        },
+        {
+          "lvl": 3,
+          "text": "When woken up, increases move bar by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of becoming drunk increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "When woken up, inflicts 1 layer of Drunk on all enemies."
+        }
+      ],
+      "icon": "assets/skills/2082.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2083",
+      "name": "Fiery Moonshine (烈焰之酒/炎の酒)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "There's a reason it's called firewater!",
+      "description": "Baketanuki swigs a mouthful of wine, restoring 18% of his max HP, and spews out flames that burn all enemies, dealing damage to all enemies equal to 12% of his current HP. ; : ;Drunk (酒気) :'''General, Mark''': Max of 5 layers. Intoxicating fragrances from demonic wines. Can be ignited by Fiery Moonshine. :''(1-5 cups of Fiery Moonshine will circle around the enemy, 1 cup represents 1 layer.)'' ;Firewater (酒火) : :'''Debuff, Status''': Each stack decreases DEF by 10% and deals indirect damage at the end of the target's turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 14%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 18%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 20%."
+        }
+      ],
+      "icon": "assets/skills/2083.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Baketanuki gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Baketanuki win 40 times in PVN zones.",
+      "reward": "Shikigami No.208 ×10"
+    },
+    {
+      "condition": "Donate 5 Baketanuki shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/208skin1.webp",
+  "stats": {
+    "min": {
+      "no": 208,
+      "en": null,
+      "atk": 100,
+      "hp": 1088,
+      "def": 67,
+      "spd": 99,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 208,
+      "en": null,
+      "atk": 2358,
+      "hp": 12874,
+      "def": 437,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

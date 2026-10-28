@@ -1,0 +1,215 @@
+{
+  "no": 388,
+  "en": "Kokorogari Kijo Momiji",
+  "cn": "心狩鬼女红叶",
+  "jp": "心狩鬼女紅葉",
+  "gl": "Heartseeker Momiji",
+  "rarity": "SP",
+  "image": "File:388.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kokorogari_Kijo_Momiji",
+  "cv": "Houko Kuwashima",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/388.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/388.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "149",
+        "lv2": null,
+        "max": "3136"
+      },
+      "hp": {
+        "lv1": "1056",
+        "lv2": null,
+        "max": "11279"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": null,
+        "max": "370"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3881a",
+      "name": "Crow Feather (乌翎/烏翎)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "This is just a small punishment.",
+      "description": "SP Kijo Momiji illuminates a single target with focused maple fire before extinguishing the fire, dealing damage equal to 100% of her ATK. <br>When she is in her Into the Wood state, this skill changes to Leaf Blade. ;Into the Woods (林隐状态/林隠状態) : :'''Buff, Mark''': Max 2 stacks. Reduces by 1 stack after casting Leaf Blade during turn. Increases Indirect Damage taken by 20%, and reduces non-Indirect Damage taken by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3881a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3881b",
+      "name": "Leaf Blade (叶刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Kijo Momiji throws a shard leaf blade to strike a single target which then bounces once, striking a random enemy, dealing damage equal to 75% of her ATK with each strike. The leaf blade bounces to enemies with the highest stacks of Burnt Leaf.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of bounces increases to 2."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Number of bounces increases to 3."
+        }
+      ],
+      "icon": "assets/skills/3881b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3882",
+      "name": "Crucible (经霜/経霜)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The maple leaves are most beautiful after a crucible.",
+      "description": "Exclusive effect. <br>When SP Kijo Momiji attacks an enemy, she inflicts her targets with 1 layer of Burnt Leaf. ;Burnt Leaf (叶烬/葉の灰) : :'''Debuff, Status''': At the start of turn, inflicts indirect damage equal to 10% of SP Kijo Momiji's ATK. Each stack inflicts Grade 3 of Poison, lasts for 2 turns, and increases indirect damage received by 5%. At the end of turn, 1 stack is removed. Max of 5 stacks. Inflicting Burnt Leaf on a target with 5 will inflict Red Erosion instead. ;Red Erosion (红蚀/紅蝕) : :'''Debuff, Mark''': Decreases move bar increasing effects by 50%. When receiving an attack from SP Kijo Momiji, also receives indirect damage equal to 80% of her ATK. Lasts for 2 turns and cannot be removed. If SP Kijo Momiji inflicts this effect outside of her turn, increases her move bar by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Burnt Leaf''': Indirect damage received increases to 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "When an ally is inflicted with a debuff, the source of the debuff is inflicted with 1 stack of Burnt Leaf (only triggers once per turn)."
+        },
+        {
+          "lvl": 4,
+          "text": "When the move bar of an enemy is increased by at least 30%, they are inflicted with 1 stack of Burnt Leaf."
+        },
+        {
+          "lvl": 5,
+          "text": "Each Burnt Leaf stack decreases ATK and DEF by 10%. When SP Kijo Momiji is attacked, each stack also decreases the attack's Crit by 20%."
+        }
+      ],
+      "icon": "assets/skills/3882.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3883",
+      "name": "Maple Dance (枫起之舞/楓起の舞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "This dance is for you, and you alone.",
+      "description": "SP Kijo Momiji dances freely, summoning maple leaves to gain 2 stacks of Into the Woods. During its duration, all allies gain Leaf Buffer. <br>This skill can only be used when she is not in her Into the Woods state. ;Leaf Buffer (叶之护/葉の守護) : :'''Buff, Mark''': When the unit takes damage, inflicts a stack of Burnt Leaf on the attacker. Triggers once per each turn. ;Into the Woods (林隐状态/林隠状態) : :'''Buff, Mark''': Max 2 stacks. Reduces by 1 stack after casting Leaf Blade during turn. Increases Indirect Damage taken by 20%, and reduces non-Indirect Damage taken by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Into the Woods''': Her attacks ignore 200 DEF."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Leaf Buffer''': DEF is increased by 100."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Into the Woods''': Indirect damage received decreases to 10% and reduction for non-indirect damage received increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': This skill is automatically used at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3883.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Kijo Momiji's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kijo Momiji's skills 8 times.",
+      "reward": "Shikigami No.388 ×10"
+    },
+    {
+      "condition": "With SP Kijo Momiji win 10 times in against Kijo Momiji.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/388skin1.webp"
+}

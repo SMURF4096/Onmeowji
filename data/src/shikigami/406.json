@@ -1,0 +1,161 @@
+{
+  "no": 406,
+  "en": "Yellow Imp",
+  "cn": "天邪鬼黄",
+  "jp": "",
+  "gl": "Yellow Imp",
+  "rarity": "N",
+  "image": "File:406.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yellow_Imp",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/406.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/406.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4061",
+      "name": "Boom Boom (咚咚/ドンドン)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Amanojaku Ki throws two drumsticks at a single target, dealing damage equal to 100% of his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%"
+        }
+      ],
+      "icon": "assets/skills/4061.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4062",
+      "name": "Boom Boom Boom (锵锵锵/ドンドンドン)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Amanojaku Ki hits his drum to boost morale, grants Drumbeat to all allies. Sustained for 1 turn.\n;Drumbeat\n:\n:'''Buff, State''': Increases crit by 15%.",
+      "upgrades": [],
+      "icon": "assets/skills/4062.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "|reward1 = Gold ×5000",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "|reward2 = Shikigami No.406 ×10",
+      "reward": "Shikigami No.406 ×10"
+    }
+  ],
+  "art": "assets/art/406skin1.webp",
+  "stats": {
+    "min": {
+      "no": 406,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 406,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

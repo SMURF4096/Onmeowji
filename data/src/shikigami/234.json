@@ -1,0 +1,200 @@
+{
+  "no": 234,
+  "en": "Shouzu",
+  "cn": "椒图",
+  "jp": "椒図",
+  "gl": "椒図",
+  "rarity": "R",
+  "image": "File:234.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shouzu",
+  "cv": "Mamiko Noto",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Demon Seal",
+  "imageUrl": "assets/shikigami/234.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/234.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "98",
+        "lv2": "109",
+        "max": "2305"
+      },
+      "hp": {
+        "lv1": "1035",
+        "lv2": "1152",
+        "max": "12304"
+      },
+      "def": {
+        "lv1": "72",
+        "lv2": "80",
+        "max": "467"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": "117",
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "c"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2341",
+      "name": "Water Jet (水花弹/水飛沫の弾)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You shouldn't underestimate the power of water! Take this!",
+      "description": "Shouzu swings her tail to turn the surrounding water vapor into a vicious jet to spray at a single target, dealing damage equal to 100% of her ATK and has a 30% base chance of inflicting them with Aquatic Impairment, lasts for 2 turns. ;Aquatic Impairment (水流の泡) : :'''Debuff, Status''': Slows SPD by 10.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2341.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2342",
+      "name": "Unheard Counter (润物无声/小夜時雨)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You shall possess the power of vengeance!",
+      "description": "When taking damage, all allies have a 50% chance to gain Nourishment, lasts for 2 turns. When Shouzu deals damage, she gains Drizzle, lasts for 2 turns. ;Nourishment (滋養) : :'''Buff, Status''': Increases Crit DMG by 5%. ;Drizzle (細雨) : :'''Buff, Status''': Increases RES by 30% and SPD by 30. The onibi cost for Water Circuit is decreased by 1.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Nourishment''': Crit DMG increases to 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Nourishment''': Crit DMG increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Nourishment''': Crit DMG increases to 20%."
+        }
+      ],
+      "icon": "assets/skills/2342.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2343",
+      "name": "Water Circuit (涓流/ライフリンク)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Pain shared is pain divided.",
+      "description": "When an allied non-summoned entity other than self has their HP first drop below 70%, if no allied target on the field has HP Connection, that target and Shouzu immediately gain HP Connection for 1 turn. This effect can only trigger once per battle. <br> Active Skill: Grants all allies HP Connection for 1 turn. <br>Damage shared is regarded as transferred damage. ; : ;HP Connection (ライフリンク) :'''Buff, Mark''': When taking damage, the damage is shared equally between all connected allies. When an ally receives lethal damage, and if they aren't inflicted with Isolation, their connection is lost to block the damage. Damage dealt by allies' outside of their own turn is increased by 20%. :''(A glowing line will appear between allies to indicate that HP Connection is active.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Duration increases to 2 turns"
+        },
+        {
+          "lvl": 3,
+          "text": "'''HP Connection''': Grants 5% of damage reduction."
+        }
+      ],
+      "icon": "assets/skills/2343.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Shouzu clear stage 5 of the Orochi soul zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Collect 30 Shouzu shards from Demon Parade.",
+      "reward": "Shikigami No.234 ×10"
+    },
+    {
+      "condition": "Donate 5 Shouzu shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/234skin1.webp",
+  "stats": {
+    "min": {
+      "no": 234,
+      "en": null,
+      "atk": 98,
+      "hp": 1035,
+      "def": 72,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 234,
+      "en": null,
+      "atk": 2305,
+      "hp": 12304,
+      "def": 467,
+      "spd": 117,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "no": 424,
+  "en": "Kachou Fuugetsu Frog",
+  "cn": "花鸟卷呱",
+  "jp": "花鳥風月蛙",
+  "gl": "Hana Frog",
+  "rarity": "N",
+  "image": "File:424.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kachou_Fuugetsu_Frog",
+  "cv": "Yui Kondou",
+  "intro": "",
+  "imageUrl": "assets/shikigami/424.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/424.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "110 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "982 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4241",
+      "name": "Gero: Homecoming Fowl (呱·归鸟)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4241.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4242",
+      "name": "Gero: Birdsong (呱·花鸟相闻)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "All allies recover of 2% of Kachou Fuugetsu-geko's maximum HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Heals 2.5%"
+        },
+        {
+          "lvl": 3,
+          "text": "Heals 3%"
+        },
+        {
+          "lvl": 4,
+          "text": "Heals 3.5%"
+        },
+        {
+          "lvl": 5,
+          "text": "Heals 4%"
+        }
+      ],
+      "icon": "assets/skills/4242.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Hana Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Hana Frog and another player who has Hana.",
+      "reward": "Shikigami No.424 ×2"
+    },
+    {
+      "condition": "Level up Hana Frog to Lv.30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/424skin1.webp"
+}

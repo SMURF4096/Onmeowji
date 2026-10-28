@@ -1,0 +1,263 @@
+{
+  "no": 392,
+  "en": "Shiki",
+  "cn": "季",
+  "jp": "",
+  "gl": "Shiki",
+  "rarity": "SSR",
+  "image": "File:392.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shiki",
+  "cv": "Kana Ichinose",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/392.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/392.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "156",
+        "lv2": null,
+        "max": "3564"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "437"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "D",
+        "D"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3921",
+      "name": "Viola Quadricolor (四色堇)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "When the four seasons are gone, only the fantasized flower remains.",
+      "description": "Shiki casts a viola quadricolor that scatters upon the landing on a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3921.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3922a",
+      "name": "Born of the Seasons (华落四时生/華落四時生)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "One flower falls, many lives are born.",
+      "description": "Shiki is unable to land crits. For each 1% of Crit DMG increase to her base stat increases her non-crit damage dealt by 1%. ; : ;Exclusive effect :'''Upon Usage''' :Shiki consumes 24% of her max HP (this won't decrease her HP below 1), creating a Seasonal Sight realm, sustained for 2 turns. She gains 1 stack of Seasonal Change and causing additional effects based on the season selected. While Seasonal Sight is active, her HP cannot be restored or recovered by effects other than Seasonal Sight: Spring and when an ally uses a special skill, inflicts a Seasonling on an enemy at the end of ally's action.<br>When selecting a season, if a different season was selected previously, she gains Season of Rejuvenation, lasts for 2 turns. ; Seasonal Change (四季流转/四季の流れ) : :'''General, Mark''': Max of 4 stacks, each stack increases her own ATK by 5%. Each time she gains a stack, prevents the next lethal damage she receives. ; Season of Rejuvenation (岁时生息/季節の休息) : :'''Buff, Mark''': If damage she receives is not lethal, her HP returns to the amount before taking the damage. ; Seasonling (季灵/季霊) : :Prioritizes being inflicted on the non-summoned enemy with the lowest proportion of HP. Each enemy can only have up to 1 Seasonling and there can be up to 3 Seasonlings on the battlefield. When any target takes an action, the Seasonling attacks the inflicted enemy, dealing damage equal to 40% of Shiki's ATK. Disappears after 3 attacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When she's under Season of Rejuvenation, increases her damage reduction by 1% for each 1% of HP lost."
+        },
+        {
+          "lvl": 3,
+          "text": "Duration of Seasonal Sight realms increases to 3 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "When selecting a season, if the same season was selected previously, grants 1 onibi. Also Seasonling deal true damage when attacking monsters."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses Seasonal Sight: Spring at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3922a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3922b",
+      "name": "Seasonal Sight: Spring (四时一隅・春/四時一隅・春)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Upon selecting this season, restores 24% of Shiki's max HP and 8% of all non-summoned allies max HP. Whenever an ally uses a special skill, restores 8% of the ally's max HP and 8% of her max HP.",
+      "upgrades": [],
+      "icon": "assets/skills/3922b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3922c",
+      "name": "Seasonal Sight: Summer (四时一隅・夏/四時一隅・夏)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When a Seasonling attacks, it has a 30% chance to Seal the target's passive and soul effects, sustained for 1 turn. When an ally uses a special skill, increases their SPD by 30 and HIT by 30%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3922c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3922d",
+      "name": "Seasonal Sight: Autumn (四时一隅・秋/四時一隅・秋)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Increases the Seasonling's damage to to 120% of Shiki's ATK.",
+      "upgrades": [],
+      "icon": "assets/skills/3922d.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3922e",
+      "name": "Seasonal Sight: Winter (四时一隅・冬/四時一隅・冬)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Increases all allies' RES by 50%. When all allies is attacked, decreases the attacker's total Crit DMG by 30%, lasts for 2 turns.",
+      "upgrades": [],
+      "icon": "assets/skills/3922e.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3923a",
+      "name": "Shrouding Leaves (弥天叶唳)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "From now on, the dawn will sing no more and the seeds will stop sprouting.",
+      "description": "Shiki calls forth a sea of trees to launch a 3-strike attack on all enemies, dealing damage equal to 30% of her ATK with each strike. For each 24% of HP she has lost, inflicts 1 follow-up strike on the enemy with the lowest proportion of HP, dealing damage equal to 60% of her ATK. <br>When she has 4 stacks of Seasonal Change, this skill changes to Bury All Seasons. ; Seasonal Change (四季流转/四季の流れ) : :'''General, Mark''': Max of 4 stacks, each stack increases her own ATK by 5%. Each time she gains a stack, prevents the next lethal damage she receives.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the follow-up strike increases to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the follow-up strike increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the follow-up strike increases to 120%."
+        },
+        {
+          "lvl": 5,
+          "text": "If there's a Seasonling present when using this skill, all Seasonlings will immediately attack the enemy targeted by the follow-up strike without spending their attack attempts."
+        }
+      ],
+      "icon": "assets/skills/3923a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3923b",
+      "name": "Bury All Seasons (四季大葬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Shiki calls forth a sea of trees to launch a 3-strike attack on all enemies, dealing damage equal to 40% of her ATK with each strike. For each 24% of HP she has lost, inflicts 1 follow-up strike on 3 enemies with the lowest proportion of HP, dealing damage equal to 60% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the follow-up strike increases to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the follow-up strike increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the follow-up strike increases to 120%."
+        },
+        {
+          "lvl": 5,
+          "text": "If there's a Seasonling present when using this skill, all Seasonlings will immediately attack the enemies targeted by the follow-up strike without spending their attack attempts."
+        }
+      ],
+      "icon": "assets/skills/3923b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Shiki's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Shiki's skills 12 times.",
+      "reward": "Shikigami No.392 ×10"
+    },
+    {
+      "condition": "In {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/392skin1.webp"
+}

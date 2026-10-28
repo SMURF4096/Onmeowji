@@ -1,0 +1,16 @@
+{
+  "no": 61,
+  "en": "Dangler",
+  "cn": "钓瓶火",
+  "jp": "釣瓶火",
+  "type": "RES",
+  "image": "File:Soul61.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Dangler",
+  "imageUrl": "assets/souls/Soul61.webp",
+  "localImage": "assets/souls/Soul61.webp",
+  "combo2": "Increases RES by 15%.",
+  "combo4": "Fills up the Orb Bar by an additional 1 slot and heals the HP of the non-summoned ally entity with the lowest proportion of HP by 700% of the equipped unit's DEF.",
+  "location": "Orochi Soul Zones: Stage 12 (Wednesday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M55.webp"
+}

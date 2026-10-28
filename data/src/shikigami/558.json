@@ -1,0 +1,186 @@
+{
+  "no": 558,
+  "en": "Nusubitogami",
+  "cn": "盗人神",
+  "jp": "",
+  "gl": "Nusubitogami",
+  "rarity": "SR",
+  "image": "File:558.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nusubitogami",
+  "cv": "Daisuke Kasuya",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/558.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/558.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "2492"
+      },
+      "hp": {
+        "lv1": "971",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "72",
+        "lv2": null,
+        "max": "467"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "120"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5581",
+      "name": "Least-expected Strike (攻無備)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "By the time you see me, it'll already be too late.",
+      "description": "Nusubitogami leaps out from the shadows to attacks a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5581.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5582",
+      "name": "Tail Play (断予尾)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Always remember to run when you have the chance.",
+      "description": "Then he disappeared again as the candle flickered. <br>When Nusubitogami receives decreases to move bar effect, he inflicts Stolen on the shikigami who caused the effect, lasts for 2 turn. He also has a 50% chance to be Phased Out until his next action. ;Stolen (盗取) : :'''General, Mark''': Steals the target's initial equipped soul effect, lasts for 2 turns. The target's soul effect are considered . Nusubitogami can steal up to 2 soul effects (if he steals 2 of the same soul, only 1 will take effect). Has no effect on monsters. ;Phased Out (逃走) :Removes all debuffs from himself, leaves his tail behind and Phases Out from the battlefield. While Phased Out, he has immunity to damage, buffs, debuffs, control effects, Banish and similar effects, changes to the move bar. He returns to the battlefield on his next action, cooldown of 2 turns. :If Nusubitogami is the only one left on a team, he cannot Phased Out, and if he is already Phased Out he will return to the battlefield.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When he returns to the battlefield, restores his HP by 25% of his max HP."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to be Phased Out increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "When inflicted with a control effect, he inflicts Stolen on the shikigami who inflicted it. If his Phased Out is not on cooldown, removes the debuffs from himself and Phases Out."
+        },
+        {
+          "lvl": 5,
+          "text": "When receiving damage that exceeds 30% of his max HP, inflicts Stolen on the shikigami who dealt the damage. If his Phased Out is not on cooldown, he Phases Out."
+        }
+      ],
+      "icon": "assets/skills/5582.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5583",
+      "name": "Rogue of Principles (盗亦有道)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Nobody owns anything. I just make sure things go to those who will cherish them.",
+      "description": "Belongings server only worthy masters. That's our rogue principle! <br>Nusubitogami launches a 4-strike attack on 1 enemy, dealing damage equal to 40% of his ATK with each strike. If the attack fails to KO the enemy, each strike will steal a different stat, lasts for 2 turns. <br>The stealable stats include: 15% ATK, 20% DEF, 15% Crit, and 10 SPD. <br>Each stat can be stolen up to 3 times from a single enemy. Has no effect on monsters. ;Phased Out (逃走) :Removes all debuffs from himself, leaves his tail behind and Phases Out from the battlefield. While Phased Out, he has immunity to damage, buffs, debuffs, control effects, Banish and similar effects, changes to the move bar. He returns to the battlefield on his next action, cooldown of 2 turns. :If Nusubitogami is the only one left on a team, he cannot Phased Out, and if he is already Phased Out he will return to the battlefield.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 48%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Nusubitogami returns to the battlefield after Phasing Out, increases the strikes by 4 extra hits and grants 2 onibi."
+        }
+      ],
+      "icon": "assets/skills/5583.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Nusubitogami.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Nusubitogami's level to 40.",
+      "reward": "Shikigami No.558 ×10"
+    },
+    {
+      "condition": "Collect 1 Nusubitogami shard from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/558skin1.webp"
+}

@@ -1,0 +1,182 @@
+{
+  "no": 245,
+  "en": "Lantern Boy",
+  "cn": "提灯小僧",
+  "jp": "",
+  "gl": "Lantern Boy",
+  "rarity": "N",
+  "image": "File:245.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Lantern_Boy",
+  "cv": "Yuuki Aoi",
+  "intro": "",
+  "imageUrl": "assets/shikigami/245.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/245.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "b",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2451",
+      "name": "Head Hammer (头槌/頭槌)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't come here! Don't touch me! I didn't do it on purpose...",
+      "description": "Chouchin Kozou headbutts the enemy strongly. Deals 100% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Deals 105% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "Deals 110% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "Deals 115% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "Deals 125% damage"
+        }
+      ],
+      "icon": "assets/skills/2451.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2453",
+      "name": "Will-o-Wisp (/鬼火の玉)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "O......onibi, h-hit them!",
+      "description": "Controls will-o-wisps within the lantern with yori and fires them at all enemies, dealing 109% attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Deals 114% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "Deals 119% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "Deals 124% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "Deals 129% damage"
+        }
+      ],
+      "icon": "assets/skills/2453.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Gain 50000 exp by placing Chouchin Kozou in Kekkai Training.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Clear any instance 50 times with Chouchin Kozou.",
+      "reward": "Shikigami No.245 ×10"
+    },
+    {
+      "condition": "Obtain 40 Chouchin Kozou shards from Hyakki Yakou.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/245skin1.webp",
+  "stats": {
+    "min": {
+      "no": 245,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 245,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "no": 331,
+  "en": "Oura Hannya",
+  "cn": "御怨般若",
+  "jp": "Vengeful Hannya",
+  "gl": "Vengeful Hannya",
+  "rarity": "SP",
+  "image": "File:331.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oura_Hannya",
+  "cv": "Yuuki Kaji (Hannya) · Mayumi Shintani (Kimono Goddess)",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/331.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/331.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "135",
+        "lv2": null,
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "A"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "D",
+        "D"
+      ],
+      "spd": [
+        "A",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3311",
+      "name": "Returning Hatred (恨返/恨み返し)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The grudge shall be returned twice over!",
+      "description": "SP Hannya attacks a single target dealing damage equal to 100% of his ATK. <br>When Sealing Field is active, SP Hannya inflicts a 2-strike attack dealing damage equal to 80% of his ATK and 15% of HP steal with each strike. ;Exclusive effect :Also gains 1 layer of Hatred Mark. ;Hatred Mark (怨根の印) : :'''General, Mark''': Max of 9 stacks. Each stack increases his RES by 10% and damage reduction by 5%. When the maximum number of stacks is reached, removes all control effects from self and increases his move bar by 35%.<br>While Sealing Field is active, cannot gain Hatred Mark stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105% and 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110% and 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115% and 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and 100%."
+        }
+      ],
+      "icon": "assets/skills/3311.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3312",
+      "name": "Deep-rooted Grudge (积重难返/怨根の誓い)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Return grudge for grudge, endlessly",
+      "description": "Exclusive effect. <br>Whenever an enemy deals a crit attack, SP Hannya has a 40% chance to gain 1 layer of Hatred Mark. Only triggers once per action taken. ;Upon Usage :Using this skill costs 9 layers of Hatred Mark. SP Hannya creates a Sealing Field with 9 demon masks to shadow all enemies. The field closes when all 9 demon masks are shattered. When the field is closed there is a 100% base chance to inflict all enemies with Spreading Hatred, lasts for 1 turn. :For each enemy with Spreading Hatred he attacks, immediately gains 1 Hatred Mark. ;Hatred Mark (怨根の印) : :'''General, Mark''': Max of 9 stacks. Each stack increases his RES by 10% and damage reduction by 5%. When the maximum number of stacks is reached, removes all control effects from self and increases his move bar by 35%.<br>While Sealing Field is active, cannot gain Hatred Mark stacks. ;Spreading Hatred (御怨蔓延) : :'''Debuff, Status''': Crit is increased by 50% and damage dealt is decreased by 35%. ;Sealing Field (封印結界) : :Substitutes all enemy passives to Grudge Forsaken and their soul set effects to Vengeful Demon. Passives and soul will be considered as ed and ed. Monsters are immune to this effect.<br>While the field is active, SP Hannya's SPD is increased by 30. At the end of every non-summoned enemies' turn, 1 Demon Mask is shattered. ;Vengeful Demon (仇の鬼) :Crit is decreased by 30%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When a non-summoned ally is KO'd, gain 3 layers of Hatred Mark."
+        },
+        {
+          "lvl": 3,
+          "text": "Onibi cost is reduced by 3."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance to gain Hatred Mark increased to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically gains 6 layers of Hatred Mark at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3312.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3312",
+      "name": "Grudge Forsaken (衝撃結界/怨念払い)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''All enemy passives are changed to this skill while Sealing Field is active.''\nCan use this skill to shatter 2 Demon Masks to close the Sealing Field faster.\nMonsters are immune to Sealing Field and their passives will not be changed to this skill.",
+      "upgrades": [],
+      "icon": "assets/skills/3312.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3313",
+      "name": "Promised Wish (予愿必还/念願必達)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Play with me till the end.",
+      "description": "SP Hannya inflicts a 3-strike attack on 1 enemy, dealing damage equal to 72% of his ATK with each strike. Then deals an attack to all enemies, and an another additional attack if Sealing Field is active, dealing damage equal to 72% of his ATK with each attack. ;Exclusive effect :Also gains 3 layers of Hatred Mark. ;Hatred Mark (怨根の印) : :'''General, Mark''': Max of 9 stacks. Each stack increases his RES by 10% and damage reduction by 5%. When the maximum number of stacks is reached, removes all control effects from self and increases his move bar by 35%.<br>While Sealing Field is active, cannot gain Hatred Mark stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 74%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 77%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each non-summoned ally with less than 50% HP, an attack is dealt to a random enemy dealing 80% of his ATK."
+        }
+      ],
+      "icon": "assets/skills/3313.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Hannya's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With SP Hannya clear any zone 30 times.",
+      "reward": "Shikigami No.331 ×10"
+    },
+    {
+      "condition": "Have SP Hannya take part in 30 Realm Raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/331skin1.webp",
+  "stats": {
+    "min": {
+      "no": 331,
+      "en": null,
+      "atk": 135,
+      "hp": 982,
+      "def": 59,
+      "spd": 105,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 331,
+      "en": null,
+      "atk": 3055,
+      "hp": 11735,
+      "def": 384,
+      "spd": 105,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

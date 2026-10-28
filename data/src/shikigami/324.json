@@ -1,0 +1,212 @@
+{
+  "no": 324,
+  "en": "Bakekujira",
+  "cn": "化鯨",
+  "jp": "Bake-kujira",
+  "gl": "Bake-kujira",
+  "rarity": "SR",
+  "image": "File:324.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Bakekujira",
+  "cv": "Asami Seto",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/324.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/324.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "122",
+        "lv2": null,
+        "max": "2841"
+      },
+      "hp": {
+        "lv1": "1110",
+        "lv2": null,
+        "max": "12874"
+      },
+      "def": {
+        "lv1": "55",
+        "lv2": null,
+        "max": "357"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "A"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3241",
+      "name": "Water Attack (水襲)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Mother, please come home...",
+      "description": "Bakekujira channels a stream of water to attack a single target, dealing damage equal to 80% of his ATK and restores the HP the ally protected by Body Armor by an equal amount. Also has a 30% chance of a issuing Call to Arms to the ally protected by Teeth Armor.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 105%."
+        }
+      ],
+      "icon": "assets/skills/3241.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3242",
+      "name": "Teeth Armor (齿甲/鯨の牙)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Mother's powers will always be with me...",
+      "description": "Bakekujira create Teeth Armor to protect an ally. <br>Teeth Armor triggers when the protected ally takes an action, allowing Bakekujira to call forth a giant whale that attacks all enemies dealing true damage equal to 12% of their max HP (cannot exceed 100% of protected ally's ATK). This damage does not trigger the enemies' souls or passives. ; : ;Teeth Armor (鯨の牙) : :Disappears after being triggered 3 times. Increases the move bar of the protected ally by 20% when their turn ends. This effect does not stack with Body Armor.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 13%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 14%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 15%."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost decreases to 2."
+        }
+      ],
+      "icon": "assets/skills/3242.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3243",
+      "name": "Body Armor (体甲/鯨鎧)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Mother will protect me...",
+      "description": "Bakekujira create Teeth Armor to protect an ally and restores the HP of all allies by 6% of his max HP. <br>Body Armor triggers when the protected ally takes an action, decreases all of their received crit damage by 50%. <br>Before the protected ally takes an action, Body Armor restores their HP by 6% of Bakekujira's max HP. ;Body Armor (鯨鎧) : :Disappears after being triggered 3 times. Increases the move bar of the protected ally by 20% when their turn ends. This effect does not stack with Teeth Armor.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Restored amount increases to 7%."
+        },
+        {
+          "lvl": 3,
+          "text": "Restored amount increases to 8%."
+        },
+        {
+          "lvl": 4,
+          "text": "Restored amount increases to 9%."
+        },
+        {
+          "lvl": 5,
+          "text": "Restored amount increases to 10% and onibi cost decreases to 2."
+        }
+      ],
+      "icon": "assets/skills/3243.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Bakekujira.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Bakekujira's level to 30.",
+      "reward": "Shikigami No.324 ×10"
+    },
+    {
+      "condition": "Team Bakekujira with another player's Kingyo Hime and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/324skin1.webp",
+  "stats": {
+    "min": {
+      "no": 324,
+      "en": null,
+      "atk": 122,
+      "hp": 1110,
+      "def": 55,
+      "spd": 101,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 324,
+      "en": null,
+      "atk": 2841,
+      "hp": 12874,
+      "def": 357,
+      "spd": 111,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

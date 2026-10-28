@@ -1,0 +1,195 @@
+{
+  "no": 273,
+  "en": "Aobouzu",
+  "cn": "青坊主",
+  "jp": "",
+  "gl": "Aobouzu",
+  "rarity": "SR",
+  "image": "File:273.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Aobouzu",
+  "cv": "Hosoya Yoshimasa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/273.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/273.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "103",
+        "lv2": "113",
+        "max": "2385"
+      },
+      "hp": {
+        "lv1": "1152",
+        "lv2": "1248",
+        "max": "13330"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": "71",
+        "max": "415"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": "118",
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "c"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2731",
+      "name": "Divine Greatness (摩诃/マハー)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "All life is but an illusion.",
+      "description": "Aobouzu uses a soul spell to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2731.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2732",
+      "name": "Fortification (无量/無量光)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Be strengthened by my holy light!",
+      "description": "Exclusive effect.\nAt the start of battle, Aobouzu gains 1 layer of Divine Light (max of 6, minimum of 1 active layer), lasts until the end of battle.\nWhen ally is inflicted with a control effect, he gains 1 layer of Divine Light. Divine Light decreases by 1 layer at the end of his turn.\n;Divine Light (仏の力)\n:\n:'''Buff, Mark''': Each layer increases his RES by 30% and the RES of all other allies by 15%.",
+      "upgrades": [],
+      "icon": "assets/skills/2732.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2733",
+      "name": "Peaceful Heart (禅心)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "A peaceful heart is the key to enlightenment.",
+      "description": "Aobouzu uses a soul spell to attack all enemies, dealing damage equal to 185% of his ATK. Constrained by Divine Light, this attack deals 10% less damage for each layer he has. ; : ;Divine Light (仏の力) : :'''Buff, Mark''': Each layer increases his RES by 30% and the RES of all other allies by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 195%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 204%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 213%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 222%."
+        }
+      ],
+      "icon": "assets/skills/2733.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Aobouzu.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Aobouzu's skills 5 times.",
+      "reward": "Shikigami No.273 ×10"
+    },
+    {
+      "condition": "Increase Aobouzu's skills 7 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/273skin1.webp",
+  "stats": {
+    "min": {
+      "no": 273,
+      "en": null,
+      "atk": 103,
+      "hp": 1152,
+      "def": 65,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 273,
+      "en": null,
+      "atk": 2385,
+      "hp": 13330,
+      "def": 415,
+      "spd": 118,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 365,
+  "en": "Nyuunai-suzume",
+  "cn": "入内雀",
+  "jp": "",
+  "gl": "Nyuunai-suzume",
+  "rarity": "SR",
+  "image": "File:365.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nyuunai-suzume",
+  "cv": "Takuya Eguchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/365.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/365.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "121",
+        "lv2": null,
+        "max": "2787"
+      },
+      "hp": {
+        "lv1": "769",
+        "lv2": null,
+        "max": "9115"
+      },
+      "def": {
+        "lv1": "77",
+        "lv2": null,
+        "max": "507"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "A"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3651",
+      "name": "Sparrow Peck (雀啄)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will command my sparrows to hurt you.",
+      "description": "Nyuunai-suzume commands his sparrows to attack a single target dealing damage equal to 50% of his ATK. Also deals additional true damage equal to 50% of to his DEF and has a 40% to Assist.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 90%."
+        }
+      ],
+      "icon": "assets/skills/3651.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3652",
+      "name": "Possess (附身)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I can grant your wishes!",
+      "description": "Exclusive effect. ;Upper Hand :Nyuunai-suzume automatically Possesses the ally with the highest attack at the start of battle. :When a Possessed ally receives lethal damage, the damage is negated and they cease to be Possessed. ;Upon Usage :Nyuunai-suzume Possesses another ally instead. ; : ;Decayed Blood (腐血) : :'''Buff, Mark''': HP cannot be restored or recovered. When receiving damage, Decayed Blood will be depleted first. Each point of Decayed Blood can absorb 3 points of damage. Allies with Decayed Blood have 10% decreased Crit and 25% increased damage dealt. ;Possess (附身/憑依) : :Unique to Nyuunai-suzume. Only a single ally can be Possessed at a time. Effect disappears when the ally ceases to be Possesed.<br>Possessed allies gain Nyuunai-suzume's initial DEF (cannot exceed 50% of his defense).<br>Nyuunai-suzume gains the initial ATK of the Possessed ally (cannot exceed 50% of their ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Possessed allies gain Nyuunai-suzume's initial DEF (cannot exceed 100% of his DEF)."
+        },
+        {
+          "lvl": 3,
+          "text": "Nyuunai-suzume gains the initial ATK of Possessed allies (cannot exceed 100% of their ATK)."
+        },
+        {
+          "lvl": 4,
+          "text": "When an ally ceases to be Possessed, Nyuunai-suzume's chance to Assist increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "When an ally ceases to be Possessed, all controlling effects on them are removed and their move bar is increased by 100%."
+        }
+      ],
+      "icon": "assets/skills/3652.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3653",
+      "name": "Decay (腐化)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "This your destiny!",
+      "description": "Nyuunai-suzume deducts the max HP of an ally by 1000% of his initial DEF and grants them an equal amount of Decayed Blood (cannot exceed 50% of the target's max HP). <br>Cannot be used on allies with Decayed Blood. ;Decayed Blood (腐血) : :'''Buff, Mark''': HP cannot be restored or recovered. When receiving damage, Decayed Blood will be depleted first. Each point of Decayed Blood can absorb 3 points of damage. Allies with Decayed Blood have 10% decreased Crit and 25% increased damage dealt.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "For each ally with Decayed Blood, increases Nyuunai-suzume's SPD by 10."
+        },
+        {
+          "lvl": 3,
+          "text": "For each ally with Decayed Blood, increases Nyuunai-suzume's RES by 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases the effect of Decayed Blood to 2000% initial DEF."
+        },
+        {
+          "lvl": 5,
+          "text": "For each ally with Decayed Blood, increases Nyuunai-suzume's damage reduction by 10%."
+        }
+      ],
+      "icon": "assets/skills/3653.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Nyuunai-suzume.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Obtain 8 Nyuunai-suzume shards from Demon Parade.",
+      "reward": "Shikigami No.365 ×10"
+    },
+    {
+      "condition": "Fight in Realm Raid with Nyuunai-suzume 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/365skin1.webp",
+  "stats": {
+    "min": {
+      "no": 365,
+      "en": null,
+      "atk": 121,
+      "hp": 769,
+      "def": 77,
+      "spd": 104,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 365,
+      "en": null,
+      "atk": 2787,
+      "hp": 9115,
+      "def": 507,
+      "spd": 114,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

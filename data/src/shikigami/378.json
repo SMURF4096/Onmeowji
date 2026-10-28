@@ -1,0 +1,186 @@
+{
+  "no": 378,
+  "en": "Garuda",
+  "cn": "迦楼羅",
+  "jp": "",
+  "gl": "Garuda",
+  "rarity": "SR",
+  "image": "File:378.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Garuda",
+  "cv": "Nara Toru",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/378.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/378.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": null,
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "896",
+        "lv2": null,
+        "max": "10596"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": null,
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3781",
+      "name": "Transformation Scythe (化生戟)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You must pay for this.",
+      "description": "Garuda attacks a single target dealing damage equal to 100% of his ATK and Valuable Feather on the target will be consumed. ; Valuable Feather (惜羽) : :'''Debuff, Mark''': When the move bar for an inflicted enemy is increased, and if he is not immobile, Garuda will launch 1 normal attack at them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3781.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3782",
+      "name": "Heavenly Wings (天衣妙翅)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "As you can see, my wings are as sharp as blades.",
+      "description": "When Garuda uses his normal or special attacks, he'll deal an additional 20% of damage to enemies with shields. <br>Exclusive effect. At the end of an enemy's turn, Garuda has a 7% chance to inflict all enemies with Valuable Feather. ; : ; Valuable Feather (惜羽) : :'''Debuff, Mark''': When the move bar for an inflicted enemy is increased, and if he is not immobile, Garuda will launch 1 normal attack at them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 8%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 9%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 10%."
+        },
+        {
+          "lvl": 5,
+          "text": "When this skill doesn't trigger 5 times in a row, and if he is not inflicted with any control effects, Burning Feathers is immediately used without any onibi."
+        }
+      ],
+      "icon": "assets/skills/3782.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3783",
+      "name": "Burning Feathers (龍息燼羽)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I believe in 'quit while you're ahead'.",
+      "description": "Garuda attacks all enemies dealing damage equal to 134% of his ATK and has a 40% base chance to inflict them with Valuable Feather. ; Valuable Feather (惜羽) : :'''Debuff, Mark''': When the move bar for an inflicted enemy is increased, and if he is not immobile, Garuda will launch 1 normal attack at them.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "When using this skill, enemies are guaranteed to be inflicted with Valuable Feather."
+        }
+      ],
+      "icon": "assets/skills/3783.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Garuda's level to 30.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Garuda with another player's Asura and clear any zone 10 times.",
+      "reward": "Shikigami No.378 ×10"
+    },
+    {
+      "condition": "Wish for 10 Garuda shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/378skin1.webp"
+}

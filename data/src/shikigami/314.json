@@ -1,0 +1,224 @@
+{
+  "no": 314,
+  "en": "Sesshoumaru",
+  "cn": "杀生丸",
+  "jp": "殺生丸",
+  "gl": "Sesshomaru",
+  "rarity": "SSR",
+  "image": "File:314.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sesshoumaru",
+  "cv": "Ken Narita",
+  "intro": "",
+  "method": "Limited Collab Event (Summon) • Demon Seal (Event)",
+  "imageUrl": "assets/shikigami/314.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/314.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3323"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10026"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "12",
+        "lv2": null,
+        "max": "12"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3141",
+      "name": "Dokkasou (毒華爪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "My Poison Claws will end you.",
+      "description": "Sesshoumaru uses his claws to to attack a single target, dealing damage equal to 100% of his ATK with a 100% base chance of decreasing their DEF by 20%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3141.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3142",
+      "name": "Barrier: Tenseiga! (天生牙結界)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Barrier: Tenseiga!",
+      "description": "When Sesshoumaru takes damage, Tenseiga will prevent 30% of damage being taken, up to a max of 40% of his lost HP.\n;\n:\n;Invincible (無敵)\n:Immune to damage, debuffs and control effects.\n:''(A large barrier will appear around Sesshoumaru.)''\n;Weakened After Resurrection (復活結界による衰弱)\n:\n:'''General, Mark''': Damage dealt is decreased by 40%.\n;Statuses and Marks\n:Includes buffs, debuffs and general effects.",
+      "upgrades": [],
+      "icon": "assets/skills/3142.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3143a",
+      "name": "Meido Zangetsuha (冥道残月破)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sesshoumaru uses Meido Zangetsuha to attack all enemies dealing damage equal to 150% of his ATK with a 100% base chance of inflicting them with Fractured Mark, lasts for 2 turns. <br>''(While Sesshoumaru is in his 2nd skin, this skill changes to Bakusaiga.)'' ;Fractured Mark (破裂の印) : :'''Debuff, Status''': Healing effects are reduced by 100% when HP is below 30%. Cannot be revived and revival effects cannot be triggered upon being KO'd.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 158%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 166%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 174%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 182%."
+        }
+      ],
+      "icon": "assets/skills/3143a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3143b",
+      "name": "Bakusaiga (爆砕牙)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sesshoumaru uses Bakusaiga to attack all enemies dealing damage equal to 150% of his ATK with a 100% base chance of inflicting them with Fractured Mark, lasts for 2 turns. <br>''(While Sesshoumaru is in his 1st or 3rd skin, this skill changes to Meido Zangetsuha.)'' ;Fractured Mark (破裂の印) : :'''Debuff, Status''': Healing effects are reduced by 100% when HP is below 30%. Cannot be revived and revival effects cannot be triggered upon being KO'd.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 158%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 166%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 174%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 182%."
+        }
+      ],
+      "icon": "assets/skills/3143b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Sesshoumaru.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Sesshoumaru win 10 times in PVN zones against Inuyasha.",
+      "reward": "Shikigami No.314 ×10"
+    },
+    {
+      "condition": "Team Sesshoumaru with another player's Inuyasha and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/314skin1.webp",
+  "stats": {
+    "min": {
+      "no": 314,
+      "en": null,
+      "atk": 142,
+      "hp": 854,
+      "def": 60,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 314,
+      "en": null,
+      "atk": 3323,
+      "hp": 10026,
+      "def": 388,
+      "spd": 118,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

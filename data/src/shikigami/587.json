@@ -1,0 +1,273 @@
+{
+  "no": 587,
+  "en": "Sakura Kinomoto",
+  "cn": "木之本樱",
+  "jp": "木之本さくら",
+  "gl": "木之本さくら",
+  "rarity": "SSR",
+  "image": "File:587.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sakura_Kinomoto",
+  "cv": "",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/587.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/587.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "132",
+        "lv2": null,
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "896",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "30"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5871a",
+      "name": "Gale (疾风)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sakura attacks a single target dealing damage equal to 100% of her ATK. <br>''(While Sakura is in her 3rd skin, this skill changes to The Windy.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5871a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "5871b",
+      "name": "The Windy (风/風)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sakura attacks a single target dealing damage equal to 100% of her ATK. <br>''(While Sakura is in her 1st or 2nd skin, this skill changes to Gale.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5871b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5872a",
+      "name": "Mirage (幻影)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. <br>At the start of battle and Sakura's turns, she gains 5 Magical Power stacks. Whenever an ally attacks an enemy with less than 65% of their initial HP, she consumes 1 Magical Power stack to use The Dream card and has a 20% base chance of Morphing them into a Mirage, lasts for 1 turn. <br>''(While Sakura is in her 3rd skin, this skill changes to The Dream.)'' ;Magical Power (魔力) : :'''General, Mark''': Max of 5 stacks. Can consume stacks to Morph enemies into Mirages. For each stack consumed, she gains a shield equal to 4% of her max HP, lasts for 2 turns. ;Mirage (幻影) : :Sakura's Morph effect. Unable to take actions, shikigami's passive skill loses effect, cannot be dispelled. Exclusive effect: Whenever an enemy is Morphed into a Mirage, all allies permanently gain 15 DEF ignore.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 22%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Mirage''': DEF ignore increases to 20."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemy is a monster, the base chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/5872a.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5872b",
+      "name": "The Dream (梦/夢)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. <br>At the start of battle and Sakura's turns, she gains 5 Magical Power stacks. Whenever an ally attacks an enemy with less than 65% of their initial HP, she consumes 1 Magical Power stack to use The Dream card and has a 20% base chance of Morphing them into a Mirage, lasts for 1 turn. <br>''(While Sakura is in her 1st or 2nd skin, this skill changes to Mirage.)'' ;Magical Power (魔力) : :'''General, Mark''': Max of 5 stacks. Can consume stacks to Morph enemies into Mirages. For each stack consumed, she gains a shield equal to 4% of her max HP, lasts for 2 turns. ;Mirage (幻影) : :Sakura's Morph effect. Unable to take actions, shikigami's passive skill loses effect, cannot be dispelled. Exclusive effect: Whenever an enemy is Morphed into a Mirage, all allies permanently gain 15 DEF ignore.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 22%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Mirage''': DEF ignore increases to 20."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the enemy is a monster, the base chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/5872b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5873a",
+      "name": "Blaze (火焰/火焔)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sakura attacks all enemies twice, dealing damage equal to 105% if her ATK with each attack. She then uses The Dream card to have a 50% base chance of Morphing a selected target into a Mirage, lasts for 1 turn. <br>''(While Sakura is in her 3rd skin, this skill changes to The Firey.)'' ;Mirage (幻影) :30px :Sakura's Morph effect. Unable to take actions, shikigami's passive skill loses effect, cannot be dispelled. Exclusive effect: Whenever an enemy is Morphed into a Mirage, all allies permanently gain 15 DEF ignore.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 125%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 5,
+          "text": "If an enemy is Morphed into a Mirage, the damage multiplier is increased by 50%."
+        }
+      ],
+      "icon": "assets/skills/5873a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5873b",
+      "name": "The Firey (火)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Sakura attacks all enemies twice, dealing damage equal to 105% if her ATK with each attack. She then uses The Dream card to have a 50% base chance of Morphing a selected target into a Mirage, lasts for 1 turn. <br>''(While Sakura is in her 1st or 2nd skin, this skill changes to Blaze.)'' ;Mirage (幻影) : :Sakura's Morph effect. Unable to take actions, shikigami's passive skill loses effect, cannot be dispelled. Exclusive effect: Whenever an enemy is Morphed into a Mirage, all allies permanently gain 15 DEF ignore.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 125%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 5,
+          "text": "If an enemy is Morphed into a Mirage, the damage multiplier is increased by 50%."
+        }
+      ],
+      "icon": "assets/skills/5873b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "? ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/587skin1.webp"
+}

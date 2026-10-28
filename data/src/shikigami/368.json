@@ -1,0 +1,186 @@
+{
+  "no": 368,
+  "en": "Amezaiku",
+  "cn": "饴细工",
+  "jp": "飴細工",
+  "gl": "飴細工",
+  "rarity": "SR",
+  "image": "File:368.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Amezaiku",
+  "cv": "Tooru Ookawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/368.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/368.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "2492"
+      },
+      "hp": {
+        "lv1": "1227",
+        "lv2": null,
+        "max": "14355"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3681",
+      "name": "Hot Flame (融芯化火)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Stay back, kids.",
+      "description": "Amezaiku shapes a scorching candy dragon to attack a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3681.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3682",
+      "name": "Bittersweet (苦中作甜)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "There's no need to worry about me.",
+      "description": "Exclusive effect. <br>Warm liquid sugar liquid keeps watch over Amezaiku's allies. It will take 15% of damage dealt to the ally with the lowest HP in their place.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Taken damage increases to 18%."
+        },
+        {
+          "lvl": 3,
+          "text": "Taken damage increases to 21%."
+        },
+        {
+          "lvl": 4,
+          "text": "Taken damage increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Taken damage increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/3682.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3683",
+      "name": "Candy Mastery (一物一心)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "It burns my heat!",
+      "description": "Amezaiku uses every effort to turn the violent and free-flowing liquid sugar into a sugar dreamland, spending 15% of his current HP to grant Candied to a non-summoned ally other than himself, lasts for 2 turns. ; : ; Candied (糖漬) : :'''Buff, Mark''': When Amezaiku receives damage, he restores the HP of an ally with Candied by 10% of his max HP. The effect for Candied can be triggered on the same ally up to 3 times each turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "Duration increases to 3 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 15%."
+        },
+        {
+          "lvl": 5,
+          "text": "When restoring the HP of an ally, he also restores himself by 5% of his max HP."
+        }
+      ],
+      "icon": "assets/skills/3683.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Amezaiku.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Amezaiku's skills 8 times.",
+      "reward": "Shikigami No.368 ×10"
+    },
+    {
+      "condition": "Increase Amezaiku's level to 40.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/368skin1.webp"
+}

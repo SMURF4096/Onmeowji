@@ -1,0 +1,16 @@
+{
+  "no": "OB07",
+  "page": "Lunar Lepus (Bondling)",
+  "en": "Lunar Lepus",
+  "cn": null,
+  "jp": null,
+  "area": "|Ominous Land",
+  "type": "|ATK",
+  "image": "assets/bondlings/OB07s1.webp",
+  "imageUrl": "assets/bondlings/OB07s1.webp",
+  "skins": [
+    "assets/bondlings/OB07skin1.webp",
+    "assets/bondlings/OB07skin2.webp"
+  ],
+  "skill": "Upper Hand: Grants the Onmyoji Moon Blessing: Increases SPD by 30. At the end of the turn, raises the move bar of another ally at the top of the turn order by 20%."
+}

@@ -1,0 +1,212 @@
+{
+  "no": 342,
+  "en": "Hoshiguma Douji",
+  "cn": "星熊童子",
+  "jp": "Hoshiguma Doji",
+  "gl": "Hoshiguma Doji",
+  "rarity": "SR",
+  "image": "File:342.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hoshiguma_Douji",
+  "cv": "Yuuki Kaji",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/342.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/342.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "2358"
+      },
+      "hp": {
+        "lv1": "1174",
+        "lv2": null,
+        "max": "13557"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3421",
+      "name": "Listen Up (听咱一言/話を聞いてくれ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey ya!",
+      "description": "Hoshiguma Douji attack a single target with his harsh words, dealing damage equal to 100% of his ATK. If the target is inflicted with Confuse after the attack, he has a 40% chance of making them launch a normal attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance of launching a normal attack increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of launching a normal attack increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance of launching a normal attack increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance of launching a normal attack increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3421.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3422",
+      "name": "Spare the Innocent (刀下留人/ちょっと待った)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey, I'm on your side.",
+      "description": "Hoshiguma Douji gains immunity to confusion. <br>When receiving a normal attack, and if he is not immobile, he has a 25% chance to Dodge the attack and command the Wine Demon in his bowl to inflict the attacker with Confuse, lasts for 1 turn. <br>When Confuse wears off on an enemy, Hoshiguma Douji's move bar is increased by 10%. If Confuse is dispelled, his move bar is increased by 20% instead. ;Dodge :Grants immunity to all damage from normal attacks, including normal attacks from Assist or Call to Arms. Also grants immunity to any debuffs or control effects inflicted with normal attacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance to Dodge increases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to Dodge increases to 35%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance to Dodge increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance to Dodge increases to 45%."
+        }
+      ],
+      "icon": "assets/skills/3422.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3423",
+      "name": "The Enemy is There! (敌在酒碗处/敵は酒の杯にある！)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 1,
+      "line": "Y'all just listen to me!",
+      "description": "Hoshiguma Douji throws his wine bowl at an enemy, inflicting them with 5 layers of Accused, lasts until the end of battle or until or all layers are lost. Then, he has a 25% base chance to inflict all enemies with Confuse, lasts for 1 turn. <br>The next Listen Up he uses will have an additional effect: also has a 40% base chance to inflict Confuse on the target, lasts for 1 turn. ; : ;Accused (攻撃の的) : :'''Debuff, Mark''': Increases the damage received from normal attacks by 20%, and becomes a priority target for anyone with Confuse.<br>When receiving a normal attack, 1 layer of Accused is lost. Only 1 layer can be lost for each action taken.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance to inflict Confuse increases to 28%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance to inflict Confuse increases to 32%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance to inflict Confuse increases to 36%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance to inflict Confuse increases to 40%."
+        }
+      ],
+      "icon": "assets/skills/3423.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Hoshiguma Douji with another player's Shuten Douji and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Hoshiguma Douji's skills 8 times.",
+      "reward": "Shikigami No.342 ×10"
+    },
+    {
+      "condition": "In PVP, Practice or Spar, trigger one of Hoshiguma Douji's Wine Demon stickers.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/342skin1.webp",
+  "stats": {
+    "min": {
+      "no": 342,
+      "en": null,
+      "atk": 97,
+      "hp": 1174,
+      "def": 54,
+      "spd": 105,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 342,
+      "en": null,
+      "atk": 2358,
+      "hp": 13557,
+      "def": 481,
+      "spd": 115,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

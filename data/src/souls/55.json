@@ -1,0 +1,16 @@
+{
+  "no": 55,
+  "en": "Oracle",
+  "cn": "出世螺",
+  "jp": "出世螺",
+  "type": "DEF",
+  "image": "File:Soul55.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Oracle",
+  "imageUrl": "assets/souls/Soul55.webp",
+  "localImage": "assets/souls/Soul55.webp",
+  "combo2": "Increases defense by 15%",
+  "combo4": "After taking damage, recovers HP by 10% of the damage received. Grants Shell (max 1 stack) at the start of battle and before taking an action. When received damage exceeds 60% of own max HP, the damage will be reduced by 60% and Shell will be removed.",
+  "location": "Soul Zones (Wednesday, Saturday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M49.webp"
+}

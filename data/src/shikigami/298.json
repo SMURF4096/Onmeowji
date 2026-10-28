@@ -1,0 +1,212 @@
+{
+  "no": 298,
+  "en": "Kaoru",
+  "cn": "薰",
+  "jp": "薫",
+  "gl": "薫",
+  "rarity": "SR",
+  "image": "File:298.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kaoru",
+  "cv": "Inori Minase",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/298.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/298.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "2439"
+      },
+      "hp": {
+        "lv1": "1195",
+        "lv2": null,
+        "max": "13899"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "111"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2981",
+      "name": "Interfering Throw (干扰投掷/石投げ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "That's what you get for bullying children!",
+      "description": "Kaoru viciously throws a stone at a single target, dealing damage equal 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Also decreases the target's the move bar by 15% if they have 4 or more buffs."
+        }
+      ],
+      "icon": "assets/skills/2981.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2982",
+      "name": "Vigilant Owl (鸮之警惕/梟の警報)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Get ready! This is the moment!",
+      "description": "Exclusive effect. <br>At the start of every turn (regardless of enemy or ally), Kaoru's status change triggers, changing her status to Play or Alert. <br>Kaoru usually stays in Play status. If two or more allies are inflicted with control effects, Kaoru's status will change to Alert. ;Play (遊び) :Kaoru's default status. ;Alert (警戒) : :Increases SPD by 10 and RES by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Alert''': RES increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Alert''': RES increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Alert''': SPD increases to 15."
+        },
+        {
+          "lvl": 5,
+          "text": "If she is in Play status, increases all allies' damage dealt by 10% at the end of her turn until her status change."
+        }
+      ],
+      "icon": "assets/skills/2982.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2983",
+      "name": "Warm Protection (温柔的守护/優しい守護)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Owl, help me protect them!",
+      "description": "Kaoru spends 25% of her current HP to grant Owl's Protection to an ally, sustained for 1 turn. Also dispels 1 debuff or control effect from each ally. <br>If Kaoru is an Alert status, allies inflicted with control effects gain Owl's Dance, lasts for 2 turns. If not, gain 4 onibi instead. ;Owl's Protection (梟の守り) :'''Buff, Mark''': When receiving damage, absorbs and records all damage received. When the mark fails, causes the protected ally to lose 80% of the amount recorded. :''(A nest of yellow feathers will appear around the protected ally's lower body.)'' ;Owl's Dance (梟の舞) : :'''Buff, Status''': Increases SPD by 50. ;Alert (警戒) : :Increases SPD by 10 and RES by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When the Owl's Protection fails, lost HP decreases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "Onibi cost decreases by 1."
+        },
+        {
+          "lvl": 4,
+          "text": "When the Owl's Protection fails, lost HP decreases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically grants Owl's Protection to the ally with the lowest HP at the start of battle (sustained for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/2983.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kaoru clear any zone 40 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kaoru's level to 30.",
+      "reward": "Shikigami No.298 ×10"
+    },
+    {
+      "condition": "Increase Kaoru's skills 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/298skin1.webp",
+  "stats": {
+    "min": {
+      "no": 298,
+      "en": null,
+      "atk": 97,
+      "hp": 1195,
+      "def": 61,
+      "spd": 101,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 298,
+      "en": null,
+      "atk": 2439,
+      "hp": 13899,
+      "def": 397,
+      "spd": 111,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

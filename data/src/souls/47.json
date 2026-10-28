@@ -1,0 +1,16 @@
+{
+  "no": 47,
+  "en": "Aonyobo",
+  "cn": "青女房",
+  "jp": "",
+  "type": "Crit",
+  "image": "File:Soul47.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Aonyobo",
+  "imageUrl": "assets/souls/Soul47.webp",
+  "localImage": "assets/souls/Soul47.webp",
+  "combo2": "Increases crit by 15%",
+  "combo4": "When the equipper receives a lethal hit for the first time all buffs and debuffs will be removed, HP restored to 100% and become frozen for 1 turn. While frozen, defense is increased by 100% and they become immune to debuffs. If the equipper survives the frozen status, HP is restored to 100% again.<br>Only triggers once per battle.",
+  "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M47.webp"
+}

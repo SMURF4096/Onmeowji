@@ -1,0 +1,195 @@
+{
+  "no": 253,
+  "en": "Kyuuketsu Hime",
+  "cn": "吸血姬",
+  "jp": "Vampira",
+  "gl": "Vampira",
+  "rarity": "SR",
+  "image": "File:253.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyuuketsu_Hime",
+  "cv": "Yukana",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/253.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/253.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "918",
+        "lv2": null,
+        "max": "10937"
+      },
+      "def": {
+        "lv1": "62",
+        "lv2": null,
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2531",
+      "name": "Blood Boost (血袭/血襲)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let me give you a little kiss!",
+      "description": "Kyuuketsu Hime spends 10% of her current HP to attack a single target, dealing damage equal to 120% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 126%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 132%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 138%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 150%."
+        }
+      ],
+      "icon": "assets/skills/2531.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2532",
+      "name": "Blood Fury (血怒/血怒)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I will repay you in blood!",
+      "description": "Kyuuketsu Hime transfers her lost HP into energy, increasing her damage dealt by 4% for each 1% of lost HP.\n:''(Dark red energy and bats will swirl around her to indicate that her damage dealt boost is active.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2532.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2533",
+      "name": "Blood Embrace (鲜血之拥/鮮血の抱擁)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "It smells so good! Let me drink it!",
+      "description": "Kyuuketsu Him transforms herself into a bat and seizes 1 enemy, dealing damage equal to 131% of her ATK. Also creates a shield that can absorb damage equal to 20% of her damage dealt, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 138%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 152%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 159%."
+        }
+      ],
+      "icon": "assets/skills/2533.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kyuuketsu Hime take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Wish for 15 Kyuuketsu Hime shards in guild.",
+      "reward": "Shikigami No.253 ×10"
+    },
+    {
+      "condition": "With Kyuuketsu Hime clear any zone 50 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/253skin1.webp",
+  "stats": {
+    "min": {
+      "no": 253,
+      "en": null,
+      "atk": 128,
+      "hp": 918,
+      "def": 62,
+      "spd": 105,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 253,
+      "en": null,
+      "atk": 3002,
+      "hp": 10937,
+      "def": 406,
+      "spd": 115,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

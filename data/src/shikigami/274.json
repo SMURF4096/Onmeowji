@@ -1,0 +1,203 @@
+{
+  "no": 274,
+  "en": "Korouka",
+  "cn": "古笼火",
+  "jp": "古籠火",
+  "gl": "Koroka",
+  "rarity": "R",
+  "image": "File:274.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Korouka",
+  "cv": "Yoshitsugu Matsuoka",
+  "intro": "",
+  "imageUrl": "assets/shikigami/274.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/274.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "109",
+        "lv2": "119",
+        "max": "2519"
+      },
+      "hp": {
+        "lv1": "1142",
+        "lv2": "1238",
+        "max": "13216"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "68",
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": "117",
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "c"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2741",
+      "name": "Fire Pinwheel (火風車)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Feeling chilly? Let me warm you up!",
+      "description": "Korouka uses flames to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 119%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2741.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2742",
+      "name": "Heavenly Fate (霊運)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Stop at once!",
+      "description": "When Korouka is attacked, has a 20% chance of gaining 1 onibi. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2742.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2743",
+      "name": "Silence Prank (悪戯の火)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I don't want to listen to you. Get out of my sight!",
+      "description": "Korouka inflicts a Prank on a target other than himself, lasts for 2 turns. He has a 100% base chance of inflicting it on an enemy and a 100% chance of inflicting it on an ally. ;Prank (悪戯) : :'''Debuff, Mark''': Damage dealt is increased by 10% and inflicts .",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Prank''': Boost to damage dealt increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Prank''': Boost to damage dealt increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Prank''': Boost to damage dealt increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Prank''': Boost to damage dealt increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2743.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Korouka clear stage 5 of the Orochi soul zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Korouka take part in 60 Realm Raids.",
+      "reward": "Shikigami No.274 ×10"
+    },
+    {
+      "condition": "Increase Korouka's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/274skin1.webp",
+  "stats": {
+    "min": {
+      "no": 274,
+      "en": null,
+      "atk": 109,
+      "hp": 1142,
+      "def": 61,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 274,
+      "en": null,
+      "atk": 2519,
+      "hp": 13216,
+      "def": 397,
+      "spd": 117,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "no": 600,
+  "en": "Shinigami",
+  "cn": "市加美",
+  "jp": "",
+  "gl": "Shinigami",
+  "rarity": "SSR",
+  "image": "File:600.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shinigami",
+  "cv": "Yū Asakawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/600.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/600.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3216"
+      },
+      "hp": {
+        "lv1": "971",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "6001",
+      "name": "End of Illusions (是身如幻)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Here, slash away the inverted illusions.",
+      "description": "Shinigami attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases the damage to 120% and grants 1 stack of Flower Purge"
+        }
+      ],
+      "icon": "assets/skills/6001.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6002",
+      "name": "Falsehoods Forsaken (爱见舍离)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Abandon all attachments of favoritism here.",
+      "description": "Exclusive effect. At the start of the battle, wielding the Blade of Mercy gains 60% Effect RES; when unlocking the Blade of Judgment, additionally gains 50% Crit. When an enemy shikigami acts outside their turn, consumes 1 stack of Flower Purge to trap them in Twisted Obsession. <br> Active Skill: Gains 2 stacks of Flower Purge and increases own SPD by 100 for 2 turns. ;Flower Purge (花祓) : :'''General''', '''Mark''': Up to 5 stacks. For each stack consumed, gains 1 stack of Phantom Flower. ;Twisted Obsession (邪执) : :'''General''', '''Mark''': Disappears after taking action. If the bearer casts a skill, they enter Delusive Haze for 2 turns ;Phantom Flower (幻花) : :'''General''', '''Mark''': Up to five stacks. At 5 stacks, Shinigami unlocks Blade of Sentence.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Wielding the Blade of Mercy gains 450 DEF."
+        },
+        {
+          "lvl": 3,
+          "text": "Gains 3 stacks of Flower Purge when cast."
+        },
+        {
+          "lvl": 4,
+          "text": "Wielding the Blade of Sentence, ignores 350 DEF."
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Gains 2 stacks of Flower Purge."
+        }
+      ],
+      "icon": "assets/skills/6002.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6003",
+      "name": "Nirodha Present (寂灭现前)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Life and death are fleeting, yet my heart remains serene and ever illuminating.",
+      "description": "Shinigami gains 2 stacks of Phantom Flower. Wielding the Blade of Mercy increases allies' Effect RES by 30% for 2 turns, and recovers HP equal to 100% of ATK for 3 allies with the lowest HP; wielding the Blade of Sentence additionally attacks the specified enemy and the 2 enemies with the lowest HP, dealing damage equal to 339% of ATK in sequence. ;Phantom Flower (幻花) : :'''General''', '''Mark''': Up to five stacks. At 5 stacks, Shinigami unlocks Blade of Sentence. ;Flower Purge (花祓) : :'''General''', '''Mark''': Up to 5 stacks. For each stack consumed, gains 1 stack of Phantom Flower.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Blade of Judgment is not unlocked, orb cost is reduced by 1"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage multiplier to enemies in Delusive Haze is increased by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Gains 1 stack of Flower Purge when cast."
+        },
+        {
+          "lvl": 5,
+          "text": "Attacks against enemies in the Delusive Haze additionally ignore 100 DEF."
+        }
+      ],
+      "icon": "assets/skills/6003.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "|reward1 = Gold ×5000",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "|reward2 = ? ×10",
+      "reward": "? ×10"
+    }
+  ],
+  "art": "assets/art/600skin1.webp"
+}

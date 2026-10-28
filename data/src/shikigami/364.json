@@ -1,0 +1,224 @@
+{
+  "no": 364,
+  "en": "Asura",
+  "cn": "阿修罗",
+  "jp": "阿修羅",
+  "gl": "阿修羅",
+  "rarity": "SSR",
+  "image": "File:364.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Asura",
+  "cv": "Katsuyuki Konishi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/364.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/364.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "183",
+        "lv2": null,
+        "max": "4127"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11279"
+      },
+      "def": {
+        "lv1": "67",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3641",
+      "name": "Annihilation Flames (紅蓮誅灰)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Obey or die.",
+      "description": "Asura weilds Bonelash to attack a single target dealing damage equal to 100% of his ATK. <br>When Asura KO's an enemy, he inflicts Annihilation on them, then the skill Mighty Crush changes to Endless Slaughter. ; Annihilation (誅灰) :'''General, Mark''': ATK is permanently decreased by 50%. :''(This effect is represented by a small swirling vortex of ashes underneath KO'd enemies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/3641.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3642a",
+      "name": "Mighty Crush (天魔威圧)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Please me with cries.",
+      "description": "At the start of battle and the start of Asura's turn, he gains 9 points of Sanity. He becomes immune to control effects and similar effects such as Banish if he doesn't have 9 points of Sanity. At the start of each attack, consumes an amount of Sanity equal to the number of enemies he is attacking. ; : ; Sanity (理性) : :'''General, Mark''': Max of 9 points. Each point of Sanity that Asura restores, recovers his HP by 8% of his max HP. Asura is suppressed by Sanity, each point decreases his damage dealt by 9%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Sanity''': Reduced damage dealt decreases to 8%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Sanity''': Reduced damage dealt decreases to 7%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Sanity''': Reduced damage dealt decreases to 6%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each point of Sanity lost, reduces the damage Asura receives by 6%."
+        }
+      ],
+      "icon": "assets/skills/3642a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3642b",
+      "name": "Endless Slaughter (無間殺戮)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Asura becomes immune to controlling effects and similar effects such as Banish. At the start of his turn, he will automatically use this skill. At the end of another non-summoned allies' turn, restores 1 point of Sanity. If Taishakuten is an ally, then at the end of his turn Asura will restore an additional 3 points of Sanity.\n;Upon Usage\n:If Asura doesn't have 9 points of Sanity at the start of his turn, a giant sword will be summoned to attack a random target other than himself dealing damage equal to 263% of his ATK. Then summons a rain of swords to all remaining targets dealing damage equal to 113% of his ATK.\nIf Asura does have 9 points of Sanity, this skill will change back to Mighty Crush.",
+      "upgrades": [],
+      "icon": "assets/skills/3642b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3643",
+      "name": "Inferno Slaughter (煉獄虐殺)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Wherever I go, destruction follows.",
+      "description": "Asura plunges into the enemy lineup and summons forth a giant hand to attack all enemies dealing damage equal to 290% of his ATK. Then inflicts a follow-up attack on a selected target until all of his Sanity points are fully consumed, dealing damage equal to 54% of his ATK on each attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the all enemy attack increases 305%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage for the all enemy attack increases 315%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for the follow-up attacks increases to 63%."
+        },
+        {
+          "lvl": 5,
+          "text": "If he KO's the selected target and he still has Sanity left, the follow-up attacks will target the enemy with the lowest HP."
+        }
+      ],
+      "icon": "assets/skills/3643.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Asura.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Asura's skills 12 times.",
+      "reward": "Shikigami No.364 ×10"
+    },
+    {
+      "condition": "Recover 99 points of Sanity.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/364skin1.webp",
+  "stats": {
+    "min": {
+      "no": 364,
+      "en": null,
+      "atk": 183,
+      "hp": 939,
+      "def": 67,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 364,
+      "en": null,
+      "atk": 4127,
+      "hp": 11279,
+      "def": 428,
+      "spd": 119,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

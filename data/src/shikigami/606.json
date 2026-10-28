@@ -1,0 +1,209 @@
+{
+  "no": 606,
+  "en": "Yan He",
+  "cn": "言和",
+  "jp": "",
+  "gl": "Yan He",
+  "rarity": "SSR",
+  "image": "File:606.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yan_He",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/606.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/606.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "2010"
+      },
+      "hp": {
+        "lv1": "1280",
+        "lv2": null,
+        "max": "16292"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "6061",
+      "name": "Harmony (和音)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Yan He attacks a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/6061.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "6062",
+      "name": "With the Wind's Speech (与风言)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive only. Yan He receives 20% DMG Reduced. After the turns of all targets, Yan He receives 1 stack of Rhythm. ;Rhythm (节律) : :'''Buff, Mark''': Max 10 stacks. After hitting the max limit, all layers are consumed and Performance is activated with no consumption cost. ;Performance (奏乐) : :When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音)",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After the enemy's turn, Yan He gains an additional stack of Rhythm."
+        },
+        {
+          "lvl": 3,
+          "text": "DMG reduction increased to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "The max stacks of Rhythm is reduced to 8 stacks."
+        },
+        {
+          "lvl": 5,
+          "text": "When Rhythm reaches it's maximum number of stacks, if not under control effects, move bar is increased by 30%."
+        }
+      ],
+      "icon": "assets/skills/6062.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6063",
+      "name": "Hear My Rhythm (听我一律)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "? ;Performance (奏乐) : :When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音) ;Bathing Rhythm (沐之律) : ;Pure Rhythm (清之律) :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "?"
+        },
+        {
+          "lvl": 3,
+          "text": "?"
+        },
+        {
+          "lvl": 4,
+          "text": "?"
+        },
+        {
+          "lvl": 5,
+          "text": "?"
+        }
+      ],
+      "icon": "assets/skills/6063.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6063a",
+      "name": "Bathing Notes (浴此沐音)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "?\n;Performance (奏乐)\n:\n:When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音)",
+      "upgrades": [],
+      "icon": "assets/skills/6063.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6063b",
+      "name": "(聆此清音)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "?\n;Performance (奏乐)\n:\n:When in the state of bathing, release Bathing Notes; when in the state of purity, release (聆此清音)",
+      "upgrades": [],
+      "icon": "assets/skills/6063.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "? ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/606skin1.webp"
+}

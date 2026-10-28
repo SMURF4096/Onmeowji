@@ -1,0 +1,231 @@
+{
+  "no": 226,
+  "en": "Kyonshii Imouto",
+  "cn": "跳跳妹妹",
+  "jp": "キョンシー妹",
+  "gl": "Kyonshi Imoto",
+  "rarity": "R",
+  "image": "File:226.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyonshii_Imouto",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/226.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/226.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": "145",
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "918",
+        "lv2": "1024",
+        "max": "10937"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "68",
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": "108",
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2261",
+      "name": "Baddies Begone (坏人走开/悪者め！)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Baddies always lose. Run away while you can!",
+      "description": "Kyonshii Imouto charges forward and smacks a single target 2 times, dealing damage equal of 50% of her ATK with each smack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 55%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 58%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 63%."
+        }
+      ],
+      "icon": "assets/skills/2261.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2262",
+      "name": "Temper Tantrum (不玩了啦/もうやらないよ)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Wwaaah... I'm not playing anymore! Wa Waah...",
+      "description": "At the end of Kyonshii Imouto's turn, she has a 30% chance of granting Cuteness is Justice to all allies, lasts for 2 turns.\nWhen Kyonshii Imouto is KO'd, and if Tomato is on the battlefield, she is revived immediately. Each revival increases the cooldown of her next revival by 1 turn.\n; (萝莉正义/可愛いは正義)\n:\n:'''Buff, Status''': Increases DEF by 30%.",
+      "upgrades": [],
+      "icon": "assets/skills/2262.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2263",
+      "name": "Dog Attack (汪汪出击/ワンちゃん出撃)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Tomato, go get them! Attack!",
+      "description": "Kyonshii Imouto summons Tomato, her Kyonshii Dog, who use can use Rage. Upon being summoned can use Rage to immediately to attack the enemy with the lowest proportion of HP. <br>Tomato inherits 60% of Kyonshii Imouto's HP, 50% of her ATK and 100% of her SPD. <br>When Tomato is present, this skill changes to Watch This. ; : ;Tomato (蕃茄/トマト) : A summoned entity. :''(Uses ally summon spot.)",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases inherited ATK to 80%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Tomato deals damage to an enemy, also dispels a random buff from them."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases inherited HP to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Kyonshii Imouto attacks, she will invite Tomato to attack the same target."
+        }
+      ],
+      "icon": "assets/skills/2263.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2263c",
+      "name": "Watch This (跟我学)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "",
+      "description": "Kyonshii Imouto grants Tomato 1 layer of Grow Up. Tomato attacks a targeted enemy and then the enemy with the lowest proportion of HP, each attack deals damage equal to 125% of its ATK.\n;Grow Up (早く大きくなって)\n:\n:'''Buff, Mark''': Max of 5 layers. Increases ATK by 20%, Crit by 20% and SPD by 10.",
+      "upgrades": [],
+      "icon": "assets/skills/2263c.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4021",
+      "name": "Rage (愤怒)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tomato deals damage equal to 100% of its ATK.",
+      "upgrades": [],
+      "icon": "assets/skills/4021.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4022",
+      "name": "Brutal (蛮横)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "",
+      "description": "Tomato takes the spot of a KO'd enemy and recovers it HP by 100%. Enemies who have their spot taken cannot be revived.",
+      "upgrades": [],
+      "icon": "assets/skills/4022.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kyonshii Imouto clear stage 5 of the Orochi soul zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kyonshii Imouto's skill 6 times.",
+      "reward": "Shikigami No.226 ×10"
+    },
+    {
+      "condition": "Team Kyonshii Imouto with another player's Kyonshii Otouto and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/226skin1.webp",
+  "stats": {
+    "min": {
+      "no": 226,
+      "en": null,
+      "atk": 131,
+      "hp": 918,
+      "def": 61,
+      "spd": 98,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 226,
+      "en": null,
+      "atk": 3055,
+      "hp": 10937,
+      "def": 397,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

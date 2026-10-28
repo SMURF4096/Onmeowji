@@ -1,0 +1,16 @@
+{
+  "no": 4,
+  "en": "Holy Flame",
+  "cn": "涅槃之火",
+  "jp": "再生の火",
+  "type": "HP",
+  "image": "File:Soul4.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Holy_Flame",
+  "imageUrl": "assets/souls/Soul4.webp",
+  "localImage": "assets/souls/Soul4.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "At the end of turn, if HP is below 30%, 15% of max HP will be restored.",
+  "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 8 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M9.webp"
+}

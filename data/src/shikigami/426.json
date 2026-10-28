@@ -1,0 +1,152 @@
+{
+  "no": 426,
+  "en": "Susabi Frog",
+  "cn": "荒呱- 荒蛙",
+  "jp": "",
+  "gl": "Susabi Frog",
+  "rarity": "N",
+  "image": "File:426.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Susabi_Frog",
+  "cv": "Ryou Iwasaki",
+  "intro": "",
+  "imageUrl": "assets/shikigami/426.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/426.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "116 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "67 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "99 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "C",
+        null
+      ],
+      "spd": [
+        "C",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4261",
+      "name": "Gero: Heavenly Orbit (呱·星轨)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4261.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4262",
+      "name": "Gero: Divine Retribution - Star (呱·天罚·星)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Susabi-gero calls 3 comets towards a single enemy, each comet dealing 50% of attack damage. Each comet that strikes the same target as the previous will deal 25% less damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4262.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Susabi Frog take part in 30 realm raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Susabi Frog and another player who has Susabi.",
+      "reward": "Shikigami No.426 ×2"
+    },
+    {
+      "condition": "Level up Susabi Frog to Lv.30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/426skin1.webp"
+}

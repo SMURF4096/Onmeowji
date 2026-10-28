@@ -1,0 +1,16 @@
+{
+  "no": "OB01",
+  "page": "Tomb Guard (Bondling)",
+  "en": "Tomb Guard",
+  "cn": "镇墓兽",
+  "jp": "墓守り",
+  "area": "| Heian-kyo",
+  "type": "| ATK",
+  "image": "assets/bondlings/OB01s1.webp",
+  "imageUrl": "assets/bondlings/OB01s1.webp",
+  "skins": [
+    "assets/bondlings/OB01skin1.webp",
+    "assets/bondlings/OB01skin2.webp"
+  ],
+  "skill": "When the onmyoji's HP drops below 70% of their max HP, summons Tomb Guard to permanently increase all allies' Crit DMG by 30%. The effect triggers up to once each battle"
+}

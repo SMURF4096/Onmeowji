@@ -1,0 +1,186 @@
+{
+  "no": 387,
+  "en": "Inosuke Hashibira",
+  "cn": "嘴平伊之助",
+  "jp": "",
+  "gl": "Inosuke Hashibira",
+  "rarity": "SSR",
+  "image": "File:387.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Inosuke_Hashibira",
+  "cv": "Yoshitsugu Matsuoka",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/387.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/387.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "118",
+        "lv2": null,
+        "max": "2760"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "A"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3871",
+      "name": "First Fang: Pierce (壱ノ牙・穿ち抜き)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inosuke attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3871.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3872",
+      "name": "Seventh Form: Spatial Awareness (漆ノ型・空間識覚)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. When the move bar for the shikigami with the highest ATK is increased, and they are before Inosuke on the move bar, his move bar is increased by 20%. <br>At the start of his turn, he has an 80% chance to gain 1 stack of Awareness. Max of 3 stacks. ;Awareness (識覚) : :'''Buff, Mark''': Each stack increases Inosuke's damage reduction by 15%. When he is inflicted with a control effect, consumes 1 stack to negate it and reduces his damage dealt by 40%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Awareness''': Reduction to damage dealt decreases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Awareness''': Reduction to damage dealt decreases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to move bar effect increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance to gain 1 stack of Awareness increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3872.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3873",
+      "name": "Fifth Fang: Crazy Cutting (伍ノ牙・狂い裂き)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inosuke attacks all enemies twice, dealing damage equal to 44% of his ATK. When he has Awareness, he has a 40% chance to deal an extra attack, can deal a max of 3 extra attacks. Each stack of Awareness increases this chance by 20%. ;Awareness (識覚) : :'''Buff, Mark''': Each stack increases Inosuke's damage reduction by 15%. When he is inflicted with a control effect, consumes 1 stack to negate it and reduces his damage dealt by 40%, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 69%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 68%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 76%."
+        }
+      ],
+      "icon": "assets/skills/3873.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Inosuke's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Inosuke's skills 8 times.",
+      "reward": "Shikigami No.387 ×10"
+    },
+    {
+      "condition": "With Inosuke win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/387skin1.webp"
+}

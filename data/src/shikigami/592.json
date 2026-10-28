@@ -1,0 +1,186 @@
+{
+  "no": 592,
+  "en": "Taira no Masakado",
+  "cn": "平将门",
+  "jp": "平将門",
+  "gl": "平将門",
+  "rarity": "SSR",
+  "image": "File:592.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Taira_no_Masakado",
+  "cv": "Makoto Furukawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/592.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/592.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "178",
+        "lv2": null,
+        "max": "4020"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "94",
+        "lv2": null,
+        "max": "595"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "160",
+        "lv2": null,
+        "max": "160"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "S",
+        "SS"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5921",
+      "name": "Soaring Strike (凌空一击)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Amidst chaos, kneel before me.",
+      "description": "Taira no Maskado attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5921.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5922",
+      "name": "Temporal Shift (时隙轮转)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "The tides of battle turn.",
+      "description": "Exclusive effect. At the start of the battle, Taira no Masakado's starting ATK exceeds 700% DEF, enters Offensive Stance; otherwise enters Defensive Stance. Wields artifact Futsunomitama. <br>[Cast] Switches stance. ; : ;Offensive Stance (攻击架势) : :When casting Eternal Blazing Sun, enhances Futsunomitama once. ;Defensive Stance (防守架势) : : When attacked, recovers HP equal to 500% of starting DEF (up to 70% of starting ATK) and enhances Futsunomitama once (can be enhanced once per turn). ;Futsunomitama : :After every 3 enhancements, Taira no Masakado immediately enters Rift in Time. ;Transferred Damage :One of the types of damage, cannot crit, is due to some shikigami skills being able to distribute damage, such as Shouzu's link and Ushi no Toki's doll. ;Recover :Different from healing or restoring, cannot Crit, unaffected by reduced healing effects and does not trigger effects related to healing.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After Rift in Time ends, reduces own duration of received debuffs and control effects by 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "While in Rift in Time, Eternal Blazing Sun's orb cost is reduced by 2."
+        },
+        {
+          "lvl": 4,
+          "text": "Defensive Stance's recover effect also applies to other allies, with the amount equal to 70% of their own stats (does not trigger when affected by transferred damage)."
+        },
+        {
+          "lvl": 5,
+          "text": "While in Offensive Stance, each time Futsunomitama is enhanced, Eternal Blazing Sun's AoE multiplier increases by 5% (max 15%)"
+        }
+      ],
+      "icon": "assets/skills/5922.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5923",
+      "name": "Ever-burning Sun (骄阳长明)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Halting the war with my might, no legion's power can compare to mine.",
+      "description": "Taira no Masakado attacks all enemies 3 times, dealing 64% ATK damage each hit. Then he deals ruin damage equal to 18% of total damage dealt to selected enemy. If an enemy is defeated, gains 3 orbs and strengthens Futsunomitama once. ;Ruin Damage :One of the types of damage, ignores DEF and damage reduction effects. ;Futsunomitama : :After every 3 enhancements, Taira no Masakado immediately enters Rift in Time.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases AoE damage to 68%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases AoE damage to 72%"
+        },
+        {
+          "lvl": 4,
+          "text": "Increases AoE damage to 76%"
+        },
+        {
+          "lvl": 5,
+          "text": "AoE damage increases to 80%; for each enemy shikigami defeated, Taira no Masakado receives 7% less damage and the ruin damage coefficient increases by 5% (up to 5 times.)"
+        }
+      ],
+      "icon": "assets/skills/5923.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Taira no Masakado's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Taira no Masakado's skills 12 times.",
+      "reward": "Shikigami No.592 ×10"
+    },
+    {
+      "condition": "With Taira no Masakado clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/592skin1.webp"
+}

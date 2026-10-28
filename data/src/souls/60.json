@@ -1,0 +1,16 @@
+{
+  "no": 60,
+  "en": "Bell-Haunt",
+  "cn": "元兴寺",
+  "jp": "元興寺",
+  "type": "HIT",
+  "image": "File:Soul60.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Bell-Haunt",
+  "imageUrl": "assets/souls/Soul60.webp",
+  "localImage": "assets/souls/Soul60.webp",
+  "combo2": "Increases HIT by 15%",
+  "combo4": "Exclusive effect.<br>When the equipped unit lands a controling effect on their turn, for each target, increases the damage dealt by non-summoned ally entities by 5%, up to 40% for 2 turns (triggers only once for multiple hits on the same target.)",
+  "location": "Orochi Soul Zones: Stage 12 (Monday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M54.webp"
+}

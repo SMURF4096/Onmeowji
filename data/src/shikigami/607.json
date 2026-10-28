@@ -1,0 +1,186 @@
+{
+  "no": 607,
+  "en": "SP Hououka",
+  "cn": "百羽凤凰火",
+  "jp": "",
+  "gl": "SP Hououka",
+  "rarity": "SSR",
+  "image": "File:607.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/SP_Hououka",
+  "cv": "Inoue Marina",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/607.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/607.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "|AtkGr2   = A",
+        "lv2": null,
+        "max": "2680"
+      },
+      "hp": {
+        "lv1": "|HpGr2    = B",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "|DefGr2   = C",
+        "lv2": null,
+        "max": "353"
+      },
+      "spd": {
+        "lv1": "|SpdGr2   = S",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "|CritGr2  = S",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "|Atk1     =",
+        "A"
+      ],
+      "hp": [
+        "|Hp1      =",
+        "B"
+      ],
+      "def": [
+        "|Def1     =",
+        "C"
+      ],
+      "spd": [
+        "|Spd1     =",
+        "S"
+      ],
+      "crit": [
+        "|Crit1    =",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "6071",
+      "name": "(唤羽)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Hououka attacks a single target dealing damage equal to 100% of her ATK, and loses 10% of her own HP (might cause the shikigami's own death).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/6071.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6072",
+      "name": "(未熄羽)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Hououka attacks a single target dealing damage equal to 100% of her ATK, and loses 10% of her own HP (might cause the shikigami's own death).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "?"
+        },
+        {
+          "lvl": 3,
+          "text": "?"
+        },
+        {
+          "lvl": 4,
+          "text": "?"
+        },
+        {
+          "lvl": 5,
+          "text": "?"
+        }
+      ],
+      "icon": "assets/skills/6072.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6073",
+      "name": "(百羽衔火)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Hououka attacks a single target dealing damage equal to 100% of her ATK, and loses 10% of her own HP (might cause the shikigami's own death).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "?"
+        },
+        {
+          "lvl": 3,
+          "text": "?"
+        },
+        {
+          "lvl": 4,
+          "text": "?"
+        },
+        {
+          "lvl": 5,
+          "text": "?"
+        }
+      ],
+      "icon": "assets/skills/6073.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "? ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/607skin1.webp"
+}

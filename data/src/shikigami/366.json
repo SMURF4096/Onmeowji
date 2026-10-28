@@ -1,0 +1,224 @@
+{
+  "no": 366,
+  "en": "Kuusou Menreiki",
+  "cn": "空相面灵气",
+  "jp": "空相面霊気",
+  "gl": "Void Menreiki",
+  "rarity": "SP",
+  "image": "File:366.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kuusou_Menreiki",
+  "cv": "Kana Hanazawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/366.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/366.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "3162"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "119",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "B",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3661",
+      "name": "Obliterate Existence (在湮/存湮)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Try to take off your mask now.",
+      "description": "SP Menreiki casts a broken mask at a single target, dealing indirect damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Indirect damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3661.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3662",
+      "name": "Two Faces (表里之相/表里の相)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I won't lose myself again",
+      "description": "Exclusive effect. <br>When a non-summoned entity is KO'd, their soul converges into a Void Mask. When SP Menreiki takes lethal damage, she becomes Darkened. ;Upon Usage :This skill can be activated when SP Menreiki has 4 or more Void Masks. She ignites the Watchful Eye on the inflicted enemy and becomes Darkened. ;Void Mask (未面) : :'''General, Mark''': Max 7 masks. Each mask allows her to ignore 50 DEF when attacking. ;Darknened (黒光) :'''General, Mark''': Removes the Watchful Eye, removes all debuffs from herself and changes the skill Void Dreamland to Recurrence Strike. Then she recovers 100% of her HP, her attacks will ignore 350 DEF and she gains 15% HP Steal when attacking.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Darkened, each Void Mask increases the SPD for all allies by 10."
+        },
+        {
+          "lvl": 3,
+          "text": "Recurrence Strike deals an additional for each Void Mask."
+        },
+        {
+          "lvl": 4,
+          "text": "If no Void Mask have been collected by the start of her next turn, she'll gain a Void Mask at the end of that turn."
+        },
+        {
+          "lvl": 5,
+          "text": "After using this skill she will gain a new turn."
+        }
+      ],
+      "icon": "assets/skills/3662.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3663a",
+      "name": "Void Dreamland (梦虚空境/夢虚空境)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I'll invite myself for a dance at the end of dreamland.",
+      "description": "SP Menreiki opens up a dreamland to inflict a Watchful Eye on 1 enemy with and increases the move bar for all allies by 25%. If the enemy is already inflicted with Watchful Eye, the eye is ignited before it is inflicted on them again. ; Watchful Eye (一線目) : :'''General, Mark''': Exclusive effect. Decreases the inflicted target's DEF by 20%. The effect is removed after being ignited. It will automatically ignite after 3 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "At the start of turn, 131% of her ATK is marked as Rancor in the Watchful Eye."
+        },
+        {
+          "lvl": 3,
+          "text": "20% of damage dealt by allies is marked as Rancor in the Watchful Eye."
+        },
+        {
+          "lvl": 4,
+          "text": "When receiving damage, marks 30% of the damage as Rancor in the Watchful Eye."
+        },
+        {
+          "lvl": 5,
+          "text": "When Watchful Eye is inflicted on the same target again, causes their passive to Suppressed, sustained until the end of her next turn and cannot be dispelled."
+        }
+      ],
+      "icon": "assets/skills/3663a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3663b",
+      "name": "Recurrence Strike (轮回一息/輪廻一息)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Menreiki attack an enemy dealing indirect damage equal to 63% of her ATK. If the target is KO'd and there are still remaining strikes, they will be inflicted on the enemy with the lowest HP.",
+      "upgrades": [],
+      "icon": "assets/skills/3663b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Menreiki's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Menreiki's skills 12 times.",
+      "reward": "Shikigami No.366 ×10"
+    },
+    {
+      "condition": "With SP Menreiki win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/366skin1.webp",
+  "stats": {
+    "min": {
+      "no": 366,
+      "en": null,
+      "atk": 150,
+      "hp": 982,
+      "def": 68,
+      "spd": 119,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 366,
+      "en": null,
+      "atk": 3162,
+      "hp": 10482,
+      "def": 397,
+      "spd": 119,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

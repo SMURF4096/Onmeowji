@@ -1,0 +1,212 @@
+{
+  "no": 222,
+  "en": "Samurai no Rei",
+  "cn": "武士之灵",
+  "jp": "侍の霊",
+  "gl": "Warrior Soul",
+  "rarity": "R",
+  "image": "File:222.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Samurai_no_Rei",
+  "cv": "Inoue Kazuhiko",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/222.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/222.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": "144",
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "886",
+        "lv2": "982",
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": "71",
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": "110",
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2221",
+      "name": "Warrior's Heart (武士之心/侍の心)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm still standing!",
+      "description": "Although he has lost his body and his weapon, Samurai no Rei uses his powerful fists to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2221.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2222",
+      "name": "Soul Slash (灭魂/魂滅)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Souls, unleash your hatred!",
+      "description": "Samurai no Rei decreases the HIT of targets with Haunting Souls by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HIT increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "HIT increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "HIT increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Haunted Souls is dispelled, removes 1 onibi from the enemy."
+        }
+      ],
+      "icon": "assets/skills/2222.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2223",
+      "name": "Restless Rage (不甘之怒/亡魂の憤り)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Souls, make them feel your pain!",
+      "description": "Samurai no Rei releases the restless souls of the dead to attack all enemies, dealing damage equal to 93% of his ATK and has a 100% base chance of inflicting them with Haunting Souls, lasts for 3 turns. ;Haunting Souls (亡魂憑依) : :'''Debuff, Status''': When enemies use onibi using skills removes this effect and inflicts indirect damage equal to 54% of his ATK × turns left. Also inflicts 40% of Heal Down, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 114% and increases Haunting Souls indirect damage to 57%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 119% and increases Haunting Souls indirect damage to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 125% and increases Haunting Souls indirect damage to 63%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 130% and increases Haunting Souls indirect damage to 65%."
+        }
+      ],
+      "icon": "assets/skills/2223.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Samurai no Rei win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Samurai no Rei clear any zone 50 times.",
+      "reward": "Shikigami No.222 ×10"
+    },
+    {
+      "condition": "Increase Samurai no Rei's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/222skin1.webp",
+  "stats": {
+    "min": {
+      "no": 222,
+      "en": null,
+      "atk": 130,
+      "hp": 886,
+      "def": 64,
+      "spd": 100,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 222,
+      "en": null,
+      "atk": 3028,
+      "hp": 10482,
+      "def": 419,
+      "spd": 110,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

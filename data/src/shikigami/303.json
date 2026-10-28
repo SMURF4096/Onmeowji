@@ -1,0 +1,195 @@
+{
+  "no": 303,
+  "en": "Kisei",
+  "cn": "弈",
+  "jp": "棋聖",
+  "gl": "棋聖",
+  "rarity": "SR",
+  "image": "File:303.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kisei",
+  "cv": "Tetsuya Kakihara",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/303.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/303.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "843",
+        "lv2": null,
+        "max": "9912"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "96",
+        "lv2": null,
+        "max": "106"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "A"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3031",
+      "name": "Ladder (征子/四丁)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You think you can counter me?",
+      "description": "Kisei casts the stone in hand at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/3031.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3032",
+      "name": "Fighting Spirit (气合/気合)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You're losing the game. Again.",
+      "description": "Kisei holds The Black Stone and The White Stone in his hand in turns. When he deals damage, he has a 100% base chance of inflicting the enemy with a layer of the stone in his hand (can stack up to a max of 4 layers of either stone color). If a fully stacked enemy is hit by a new stone, a stone of a different color is replaced.\nIf an enemy ends a turn without using onibi, a random stone is removed.\n;\n:\n; (黑子/黒石)\n:\n:'''Debuff, Mark''': Becomes vulnerable, damage received is increased by 5%.\n;The White Stone (白子/白石)\n:\n:'''Debuff, Mark''': Damage dealt is decreased by 5%.",
+      "upgrades": [],
+      "icon": "assets/skills/3032.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3033",
+      "name": "Godly Move (神之一手/神の一手)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The world is my gameboard and everything in it my pieces.",
+      "description": "Kisei casts stones to inflict 9 attacks. The first stone lands on a targeted enemy and the rest of the stones hit random enemies, dealing damage equal to 42% of his ATK with each stone.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 46%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 48%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 51%."
+        }
+      ],
+      "icon": "assets/skills/3033.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kisei clear any zone 40 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kisei's level to 30.",
+      "reward": "Shikigami No.303 ×10"
+    },
+    {
+      "condition": "Increase Kisei's skills 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/303skin1.webp",
+  "stats": {
+    "min": {
+      "no": 303,
+      "en": null,
+      "atk": 128,
+      "hp": 843,
+      "def": 68,
+      "spd": 96,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 303,
+      "en": null,
+      "atk": 3002,
+      "hp": 9912,
+      "def": 445,
+      "spd": 106,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

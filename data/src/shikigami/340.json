@@ -1,0 +1,212 @@
+{
+  "no": 340,
+  "en": "Kamimai",
+  "cn": "纸舞",
+  "jp": "紙舞",
+  "gl": "紙舞",
+  "rarity": "SR",
+  "image": "File:340.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kamimai",
+  "cv": "Sumire Uesaka",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/340.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/340.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "2546"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "11621"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": null,
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "6",
+        "lv2": null,
+        "max": "6"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "A"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3401",
+      "name": "Paper Swallow (紙燕)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Through a thin sheet of paper, I live in the human world.",
+      "description": "Kamimai attack a single target with a paper fan, dealing damage equal to 80% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Also detonates all layers of Paper Blade on the target."
+        }
+      ],
+      "icon": "assets/skills/3401.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3402",
+      "name": "Falling Papers (落紙)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The moon still shines bright, yet the fallen papers have not returned.",
+      "description": "When an enemy uses a skill, Kamimai gains a layer of Falling Papers (max of 1 layer), lasts for 1 turn. <br>All debuffs and control effects on her are dispelled at the start of her turn and consuming an equal number of Falling Paper layers. ;Falling Papers (落紙) : :'''Buff, Status''': Ignores 30 DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Max number of Falling Paper layers increases to 2."
+        },
+        {
+          "lvl": 3,
+          "text": "Each Falling Papers layer increases her DEF by 10%"
+        },
+        {
+          "lvl": 4,
+          "text": "Max number of Falling Paper layers increases to 3."
+        },
+        {
+          "lvl": 5,
+          "text": "When using Dancing Papers, each layer of Falling Papers decreases the onibi cost by 1."
+        }
+      ],
+      "icon": "assets/skills/3402.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3403",
+      "name": "Dancing Papers (紙刃飛揚)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I'm the girl in the painting, the paper blade in the wind.",
+      "description": "Kamimai performs a spinning dance to conjure a whirlwind of flaying paper among all enemies, inflicting them with Paper Blade, lasts for 2 turns. Also deals indirect damage equal to 108% of her ATK. ; : ;Paper Blade (紙刃) : :'''Debuff, Status''': Deals indirect damage at the end of turn. Paper Blade will detonate if an enemy inflicted with it uses a skill, removing this status and dealing indirect damage equal to 108% of Kamimai's ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 110% and Paper Blade ignores 100 DEF."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 112% and Paper Blade ignores 150 DEF."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 114% and Paper Blade ignores 200 DEF."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon using this skill on enemies with Paper Blade, the duration is reset and inflicts an additional 154% of indirect damage equal to 154% of her ATK."
+        }
+      ],
+      "icon": "assets/skills/3403.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kamimai's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kamimai.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "Increase Kamimai's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/340skin1.webp",
+  "stats": {
+    "min": {
+      "no": 340,
+      "en": null,
+      "atk": 108,
+      "hp": 982,
+      "def": 70,
+      "spd": 99,
+      "crit": 6,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 340,
+      "en": null,
+      "atk": 2546,
+      "hp": 11621,
+      "def": 454,
+      "spd": 109,
+      "crit": 6,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

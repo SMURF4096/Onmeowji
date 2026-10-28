@@ -1,0 +1,241 @@
+{
+  "no": 360,
+  "en": "Nezuko Kamado",
+  "cn": "灶门祢豆子",
+  "jp": "竈門禰豆子",
+  "gl": "竈門禰豆子",
+  "rarity": "SSR",
+  "image": "File:360.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nezuko_Kamado",
+  "cv": "Akari Kitou",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/360.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/360.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "132",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3601a",
+      "name": "Kick (腿踢)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Nezuko attacks a single target dealing damage equal to 80% of her ATK. If the target has a shield, she deals an additional 100% of damage to the shield. <br>While in Demon Form, this skill changes to Flying Kick. ;Demon Form (鬼化) :'''General, Mark''': Replaces Kick with Flying Kick. At the end of every enemies' turn, Nezuko attacks the enemy at the top of the move bar with Flying Kick. :''(Dark red flames will surround Nezuko.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%, while inflicted with Sleep she recovers 10% of her max HP at the end of every turn (regardless of enemies and allies) and removes Sleep at the start of her turn."
+        }
+      ],
+      "icon": "assets/skills/3601a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3601b",
+      "name": "Flying Kick (拳打腿踢)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Nezuko attacks a single target twice with each hit dealing damage equal to 80% of her ATK. If the target has a shield, she deals an additional 100% of damage to the shield.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%, while inflicted with Sleep she recovers 10% of her max HP at the end of every turn (regardless of enemies and allies) and removes Sleep at the start of her turn."
+        }
+      ],
+      "icon": "assets/skills/3601b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3602",
+      "name": "Blood Demon Art: Exploding Blood (血鬼術・爆血)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "",
+      "description": "Nezuko sacrifices 20% of her current HP to increase a selected ally's their move bar by 50%. If the selected ally is Tanjiro, he will be granted a new turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Sacrificed HP is decreased by 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "Removes or dispels a control effect from the selected ally."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases Crit DMG for the selected ally by 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost is reduced by 1."
+        }
+      ],
+      "icon": "assets/skills/3602.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3603",
+      "name": "Demon Form (鬼化)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Nezuko enter Demon Form, lasts for 2 turns. When she leaves that form, she becomes inflicted with Sleep for 1 turn. <br>This can only be used if Nezuko is not in Demon Form. ;Demon Form (鬼化) :'''General, Mark''': Replaces Kick with Flying Kick. At the end of every enemies' turn, Nezuko attacks the enemy at the top of the move bar with Flying Kick. :''(Dark red flames will surround Nezuko.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While in Demon Form, Crit DMG is increased by 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "While in Demon Form, Crit RES is increased by 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "While in Demon Form and inflicted with a control effect, at the end of an enemy's turn 1 control effect will be removed or dispelled from her and she will not attack with Flying Kick."
+        },
+        {
+          "lvl": 5,
+          "text": "When Demon Form is removed, the move bar for all enemies attacked by Nezuko will be decreased by 40%."
+        }
+      ],
+      "icon": "assets/skills/3603.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Nezuko's level to 30.",
+      "reward": "360s3 ×"
+    },
+    {
+      "condition": "Increase Nezuko's skills 8 times.",
+      "reward": "Shikigami No.360 ×10"
+    },
+    {
+      "condition": "Evolve Nezuko.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/360skin1.webp",
+  "stats": {
+    "min": {
+      "no": 360,
+      "en": null,
+      "atk": 132,
+      "hp": 960,
+      "def": 60,
+      "spd": 108,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 360,
+      "en": null,
+      "atk": 3002,
+      "hp": 11393,
+      "def": 388,
+      "spd": 118,
+      "crit": 9,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

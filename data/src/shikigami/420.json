@@ -1,0 +1,156 @@
+{
+  "no": 420,
+  "en": "Ibaraki Frog",
+  "cn": "茨木呱",
+  "jp": "茨木蛙",
+  "gl": "茨木蛙",
+  "rarity": "N",
+  "image": "File:420.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ibaraki_Frog",
+  "cv": "Souichi Abe",
+  "intro": "",
+  "imageUrl": "assets/shikigami/420.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/420.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 -> 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 -> 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 -> 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "1",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4201",
+      "name": "Gero: Black Inferno (呱·黑焰)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4201.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4202",
+      "name": "Gero: Hell's Grasp (呱·地狱之手)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Ibaraki-gero conjures his hand from the underworld, dealing 80% of attack damage to a single enemy, and 50% of attack damage to all other enemies.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4202.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Ibaraki Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Ibaraki Frog and another player who has Ibaraki Doji.",
+      "reward": "Shikigami No.420 ×2"
+    },
+    {
+      "condition": "Clear a stage-10 Soul zone in solo mode with Ibaraki Frog.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/420skin1.webp"
+}

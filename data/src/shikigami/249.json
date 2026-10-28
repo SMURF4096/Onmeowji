@@ -1,0 +1,195 @@
+{
+  "no": 249,
+  "en": "Satori",
+  "cn": "觉",
+  "jp": "覚",
+  "gl": "覚",
+  "rarity": "R",
+  "image": "File:249.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Satori",
+  "cv": "Yukana",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Chapter 18: Challenge Zone • Dispatch",
+  "imageUrl": "assets/shikigami/249.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/249.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "110",
+        "lv2": null,
+        "max": "2600"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": null,
+        "max": "11621"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "98",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2491",
+      "name": "Club Smash (棒打/棒打ち)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "That's gotta hurt!",
+      "description": "Satori swings her spiked club and slams it into a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2491.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2492",
+      "name": "Grudge (记仇/根に持つ)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You strike me, I'll strike back twice as hard!",
+      "description": "When Satori is attacked, she has a 40% base chance of inflicting Grudge on the attacker.\n;Grudge (根に持つ)\n:'''Debuff, Status''': When she attacks inflicted enemies, deals an extra 15% of damage to them, lasts for 1 turn.\n:''(A green orb will circle around inflicted enemies.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2492.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2493",
+      "name": "Club Bomb (棒球炸弹/野球爆弾)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Home run coming up! Here!",
+      "description": "Satori uses her spiked club to hit a bomb towards all enemies, dealing damage equal to 132% of her ATK on explosion.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 139%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 146%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 153%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 160%."
+        }
+      ],
+      "icon": "assets/skills/2493.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Wish for 10 Satori shards in guild.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Satori.",
+      "reward": "Shikigami No.249 ×10"
+    },
+    {
+      "condition": "Collect 40 Satori from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/249skin1.webp",
+  "stats": {
+    "min": {
+      "no": 249,
+      "en": null,
+      "atk": 110,
+      "hp": 982,
+      "def": 68,
+      "spd": 98,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 249,
+      "en": null,
+      "atk": 2600,
+      "hp": 11621,
+      "def": 445,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

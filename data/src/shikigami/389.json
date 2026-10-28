@@ -1,0 +1,198 @@
+{
+  "no": 389,
+  "en": "Susanoo",
+  "cn": "须佐之男",
+  "jp": "",
+  "gl": "Susanoo",
+  "rarity": "SSR",
+  "image": "File:389.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Susanoo",
+  "cv": "Kouki Uchiyama",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/389.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/389.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "184",
+        "lv2": null,
+        "max": "4154"
+      },
+      "hp": {
+        "lv1": "992",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "77",
+        "lv2": null,
+        "max": "494"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "12"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "SS",
+        "SS"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3891",
+      "name": "Lightning-style (雷霆式)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It's time for the heavenly judgement.",
+      "description": "Susanoo focuses the power of thunder to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3891.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3892a",
+      "name": "Divine Realm (神の領域)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Thunder is my body, Storm is my breath, Lighting is my bones.",
+      "description": "Exclusive effect. <br>At the start of battle and his turn, Susanoo gains the 6 Divine Swords: Ama no Habakiri. When an Ama no Habakiri is present, other non-summoned allies gain the skill Heavenly Might. When an enemy shikigami receives lethal damage from Susanoo, they will first become suppressed and turned into a Thunder Tomb. ; : ;Thunder Aegis (雷盾) : :'''Buff, Mark''': Absorbs a certain amount of damage and cannot be dispelled. ;Thunder Tomb (雷塚) : :Becomes Immobile and cannot trigger souls or passives. HP is equal to 150% of Susanoo's initial ATK. When Thunder Tomb is KO'd, the suppressed enemy shikigami is revived at 1 HP. If the enemy only has Thunder Tombs on their side, it will be considered a win. This effect can only be inflicted on the same enemy once. :''(Tombs are considered as allies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Heavenly Might''': Damage increases to 231%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Heavenly Might''': Damage ignores enemy soul effects."
+        },
+        {
+          "lvl": 4,
+          "text": "When using Heavenly Might, Susanoo gains a Thunder Aegis that can absorb damage equal to 49% of his ATK, lasts for 2 turns and has a max of 2 stacks."
+        },
+        {
+          "lvl": 5,
+          "text": "If Susanoo is not protected by Thunder Aegis, he is in high spirits, causing Thunder Armageddon's the damage and damage boost limit are increased by an additional 20%."
+        }
+      ],
+      "icon": "assets/skills/3892a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3892b",
+      "name": "Heavenly Might (天威)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't try to get your hands on the god's people!",
+      "description": ":''Non-summoned allies can use this skill at the start of their turn before using their own skills.''\nThe spear can pierce the sky and shock the world. Susanoo uses Divine Sword: Ama no Habakiri to attack 1 enemy if he's not Immobile. This attack cannot trigger Assist. The ally cannot deal damage on the turn this skill is used on.\n;Upon Usage\n:Susanoo consumes 1 Ama no Habakiri to attack 1 enemy, dealing damage equal to 211% of his ATK (cannot exceed 400% of the initial ATK for the ally on that turn).\n;Assist\n:When an ally uses a normal attack to attack an enemy, will also use normal attack to attack the same target.",
+      "upgrades": [],
+      "icon": "assets/skills/3892b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3893",
+      "name": "Thunder Armageddon (天雷万象)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The gods live above the sky and the sinners are locked away in hell.",
+      "description": "Even the crushing force of the thunde3 follows the god's will. <br>Susanoo focuses the power of thunder and lightning to forge a sky-piercing spear and launches a 6-strike attack on 1 enemy, dealing damage equal to 60% of his ATK with each strike. If the target has higher max HP then him, each 10% difference increases the damage by 3% (max of 50%).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage boost limit increases to 75%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage boost limit increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 80%."
+        }
+      ],
+      "icon": "assets/skills/3893.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Susanoo's level to 49.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Susanoo's skills 12 times.",
+      "reward": "Shikigami No.389 ×10"
+    },
+    {
+      "condition": "With Susanoo win 10 times in against SP Orochi.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/389skin1.webp"
+}

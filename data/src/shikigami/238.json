@@ -1,0 +1,212 @@
+{
+  "no": 238,
+  "en": "Hotarugusa",
+  "cn": "萤草",
+  "jp": "蛍草",
+  "gl": "Kusa",
+  "rarity": "R",
+  "image": "File:238.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hotarugusa",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Chapter 17|Chapter 17: Challenge Zone",
+  "imageUrl": "assets/shikigami/238.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/238.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "2680"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "93",
+        "lv2": null,
+        "max": "103"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2381",
+      "name": "Absorption (吸取/吸収)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I'm coming to help!",
+      "description": "Hotarugusa focuses her magical power and attacks a single target, dealing damage equal to 100% of her ATK and inflicts 30% of HP Steal.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2381.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2382",
+      "name": "Flower Power (生花/薬草)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Where there's a will, there is a way!",
+      "description": "When Hotarugusa is attacked, restores her HP by 15% of her ATK. Only triggers once for multi-stage attacks. <br>If the source of the damage has lower ATK than Hotarugusa, decreases her damage received by 30%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 16%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP restored increases to 17%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 18%."
+        },
+        {
+          "lvl": 5,
+          "text": "HP restored increases to 19%."
+        }
+      ],
+      "icon": "assets/skills/2382.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2383",
+      "name": "Healing Light (治愈之光/癒しの光)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Hear me, gods!Grant me the power to heal!",
+      "description": "Exclusive effect. <br>Hotarugusa carries 2 Blessed Seeds at the start of battle. Each Blessed Seed increases her ATK by 60%. ;Upon Usage :Grants a Blessed Seed to an ally before restoring the HP of all allies by 87% of her ATK. ; : ;Blessed Seed (祝福の種) : :'''General, Status''': After granting it to an ally and when she has her HP restored, she restores the HP of the ally by an equal amount of HP. ;Photosynthesis (光合成) : :'''Buff, Status''': Restores the ally's HP after they take an action. Converts the first hit indirect damage taken each turn into an equal amount of restored HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increased to 91% and when evolved, HP restored by Photosynthesis increases to 23%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP restored increased to 95% and when evolved, HP restored by Photosynthesis increases to 24%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increased to 99% and when evolved, HP restored by Photosynthesis increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "HP restored increased to 104% and when evolved, HP restored by Photosynthesis increases to 26%."
+        }
+      ],
+      "icon": "assets/skills/2383.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Hotarugusa gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Hotarugusa.",
+      "reward": "Shikigami No.238 ×10"
+    },
+    {
+      "condition": "Donate 10 Hotarugusa shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/238skin1.webp",
+  "stats": {
+    "min": {
+      "no": 238,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 93,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 238,
+      "en": null,
+      "atk": 2680,
+      "hp": 11393,
+      "def": 441,
+      "spd": 103,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

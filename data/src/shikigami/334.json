@@ -1,0 +1,212 @@
+{
+  "no": 334,
+  "en": "Gyourou Arakawa no Aruji",
+  "cn": "骁浪荒川之主",
+  "jp": "驍浪荒川の主",
+  "gl": "Waverider Lord Arakawa",
+  "rarity": "SP",
+  "image": "File:334.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Gyourou_Arakawa_no_Aruji",
+  "cv": "Takehito Koyasu",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/334.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/334.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "161",
+        "lv2": null,
+        "max": "3404"
+      },
+      "hp": {
+        "lv1": "1056",
+        "lv2": null,
+        "max": "11279"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "110",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "20",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "SS",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3341",
+      "name": "River's Breath (川息/川の息吹)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "In the name of Arakawa, I'm Lord Arakawa!",
+      "description": "SP Lord Arakawa forms water to a torrent to attack a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3341.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3342",
+      "name": "River's Fury (川怒/川の怒り)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "The strong must be hunted down if they bully the weak!",
+      "description": "When SP Lord Arakawa is KO'd, his body becomes Unflinching until the end of battle. <br>Exclusive effect. When an ally receives over 30% of their max HP as damage, his move bar is increased by 50% and 1 control effect is removed from him. Only triggers once each turn. ;Upon Usage :Gains a Sea Fury stack. All allies gain the damage reduction effects of Unflinching. Sustained for 1 turn. ;Unflinching (不動の守護) : :'''General, Mark''': Prevents SP Lord Arakawa from being revived or have his spot taken. Reduces the damage taken for all allies by 10%, for every 300 of their initial ATK he has grants an additional 1% of damage reduction, up to a max of 30%. He continues to exist as a soul upon being KO'd. On his turn, he harnesses Sea Waves to attack all enemies dealing damage equal to 20% of the total initial ATK of all ally shikigami (total ATK cannot exceed 120% of his initial ATK). This is an exclusive effect and the damage from Sea Waves doesn't trigger his or the enemies' soul effects. ;Sea Fury (海の怒り) : : '''Buff, Mark''': Each stack increases damage dealt by 20% and SPD by 30. Max 3 stacks.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for Sea Waves increases to 22% of all allies' initial ATK."
+        },
+        {
+          "lvl": 3,
+          "text": "Effects of Sea Fury won't disappeared after he is KO'd."
+        },
+        {
+          "lvl": 4,
+          "text": "When KO'd, restores the HP of all allies by 125% of his own HP."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage multiplier for each strike of Sea Waves is equal to 120% of the last strike (damage can be increased a max of 5 times)."
+        }
+      ],
+      "icon": "assets/skills/3342.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3343",
+      "name": "Wavebreaker Slash (驍浪海作斬/海の驍浪を刃に)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The waves rise for me!",
+      "description": "SP Lord Arakawa cleaves through the water and strikes an enemy with a towering wave, dealing damage equal to 287% of his ATK. If the target is KO'd, he loses 1 layer of Sea Fury.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 315%."
+        },
+        {
+          "lvl": 3,
+          "text": "Target is regarded as being inflicted with Isolation."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 335%."
+        },
+        {
+          "lvl": 5,
+          "text": "When he has 3 layers of Sea Fury, his DEF is decreased by 20% and his damage dealt is increased by 40%, after using this skill all allies gain the damage reduction effects of Unflinching (sustained for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3343.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With SP Lord Arakawa clear any zone 30 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Lord Arakawa's level to 40.",
+      "reward": "Shikigami No.334 ×10"
+    },
+    {
+      "condition": "Increase SP Lord Arakawa's skill 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/334skin1.webp",
+  "stats": {
+    "min": {
+      "no": 334,
+      "en": null,
+      "atk": 161,
+      "hp": 1056,
+      "def": 65,
+      "spd": 110,
+      "crit": 20,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 334,
+      "en": null,
+      "atk": 3404,
+      "hp": 11279,
+      "def": 384,
+      "spd": 110,
+      "crit": 20,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

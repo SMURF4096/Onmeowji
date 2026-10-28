@@ -1,0 +1,186 @@
+{
+  "no": 568,
+  "en": "Ryougin Suzuka Gozen",
+  "cn": "龙吟铃鹿御前",
+  "jp": "龍吟鈴鹿御前",
+  "gl": "Draconic Suzuka Gozen",
+  "rarity": "SP",
+  "image": "File:568.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ryougin_Suzuka_Gozen",
+  "cv": "Youko Hikasa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/568.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/568.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "155",
+        "lv2": null,
+        "max": "3270"
+      },
+      "hp": {
+        "lv1": "1270",
+        "lv2": null,
+        "max": "13557"
+      },
+      "def": {
+        "lv1": "82",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "117",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "180",
+        "lv2": null,
+        "max": "180"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5681",
+      "name": "Mountain's Soul: Shattering Blade (麓魂・破刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "With this blade, I shall conquer this battlefield.",
+      "description": "SP Suzuka Gozen wields her hit Shadowchaser, home of the mountain's soul, to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%; and as long as an enemy has a shield, her damage received is decreased by 50%."
+        }
+      ],
+      "icon": "assets/skills/5681.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5682",
+      "name": "Mountain's Soul: Allied (麓魂・共赴/麓魂・同行)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Soul of Mt. Suzuka, evolve with me.",
+      "description": "Exclusive effect. At the start of turn, SP Suzuka Gozen gains Mountain's Soul. Whenever she lands a crit hits during her turn, she stores 3% of her initial ATK in Mountain's Soul. At the end of turn, she loses Mountain's Soul, clearing the stored ATK to increase all other allies' ATK by an equal amount that was stored (cannot exceed 50% of their own initial ATK), lasts for 2 turns. ;Mountain's Soul (麓魂) : :'''General, Mark''': The soul of Mt. Suzuka. It can store a maximum of 60% of her initial ATK. When she attacks an enemy with a shield while having this mark, each attack will deal additional true damage equal to 10% of the the enemy's max HP (ignores shields, doesn't trigger own soul effect, damage cannot exceed 120% of her ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When she gains Mountain's Soul for the first time, increases all other allies' ATK will be increased by 135% of their initial ATK (max Mountain's Soul's storage limit) on their next turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Next turn ATK boost for all other allies' increases to 145%."
+        },
+        {
+          "lvl": 4,
+          "text": "Next turn ATK boost for all other allies' increases to 155%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically gains Mountain's Soul at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5682.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5683",
+      "name": "Mountain's Soul: Conquest (麓魂・遠征)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Demonship Army, follow me!",
+      "description": "Demonship Army, assemble! SP Suzuka Gozen launches a 3-strike attack on all enemies, dealing damage equal to 60% of her ATK with each strike and gains immune to debuffs during this attack. ;Mountain's Soul (麓魂) : :'''General, Mark''': The soul of Mt. Suzuka. It can store a maximum of 60% of her initial ATK. When she attacks an enemy with a shield while having this mark, each attack will deal additional true damage equal to 10% of the the enemy's max HP (ignores shields, doesn't trigger own soul effect, damage cannot exceed 120% of her ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "While she has Mountain's Soul, onibi cost decreases by 1."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "If she has Mountain's Soul upon using this skill, her Crit DMG increases by 100%."
+        }
+      ],
+      "icon": "assets/skills/5683.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Suzuka Gozen's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Suzuka Gozen's skills 8 times.",
+      "reward": "Shikigami No.568 ×10"
+    },
+    {
+      "condition": "Team SP Suzuka Gozen with another player's SP Senhime and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/568skin1.webp"
+}

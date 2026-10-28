@@ -1,0 +1,212 @@
+{
+  "no": 227,
+  "en": "Heiyou",
+  "cn": "兵俑",
+  "jp": "Samurai X",
+  "gl": "Samurai X",
+  "rarity": "R",
+  "image": "File:227.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Heiyou",
+  "cv": "Akira Ishida",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/227.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/227.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2385"
+      },
+      "hp": {
+        "lv1": "1120",
+        "lv2": null,
+        "max": "13330"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": null,
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2271",
+      "name": "Swinging Slice (挥斩/振り斬り)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Without strong armor and a sharp sword, your soul has no protection!",
+      "description": "Heiyou swings his sword into a single target, dealing damage equal to 300% of his DEF (cannot exceed 400% of initial ATK). ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 340%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 380%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 420%."
+        },
+        {
+          "lvl": 5,
+          "text": "When used during his turn, has a 30% base chance to inflict Taunt on the target, lasts for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/2271.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2272",
+      "name": "Sturdy Armor (坚甲/堅甲)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I can take anything you throw at me!",
+      "description": "Exclusive effect. <br>Heiyou increases his DEF by 8% for each 20% of HP he has lost. If he is immobile, he becomes Hardened and his SPD is increased by 100, lasts for 2 turns. ;Hardened (石化) : :Increases DEF by 100%, cannot land crits, immune to move bar changes.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "DEF increases to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "Counter-attacks the attacker when hit by an enemy's normal attack for the first time each turn."
+        },
+        {
+          "lvl": 4,
+          "text": "Shares the DEF boost effect with all allies."
+        },
+        {
+          "lvl": 5,
+          "text": "When allies are hit by enemy normal attacks, Heiyou takes 65% of the damage (does not trigger his own soul effects)."
+        }
+      ],
+      "icon": "assets/skills/2272.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2273",
+      "name": "Unbreakable (坚不可破/堅くて破れまい)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I'm solid as a rock!",
+      "description": "Heiyou's damage received from normal attacks is decreased by 30%. ;Upon Usage :Heiyou becomes Hardened and has a 50% base chance of inflicting Taunt on all enemies, lasts for 1 turn. ;Hardened (石化) : :Increases DEF by 100%, cannot land crits, immune to move bar changes.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Hardened''': DEF increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Hardened''': DEF increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Hardened''': DEF increases to 130%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Hardened''': DEF increases to 150%."
+        }
+      ],
+      "icon": "assets/skills/2273.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Heiyou.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Collect 30 Heiyou shards from Demon Parade.",
+      "reward": "Shikigami No.227 ×10"
+    },
+    {
+      "condition": "Donate 5 Heiyou shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/227skin1.webp",
+  "stats": {
+    "min": {
+      "no": 227,
+      "en": null,
+      "atk": 102,
+      "hp": 1120,
+      "def": 64,
+      "spd": 106,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 227,
+      "en": null,
+      "atk": 2385,
+      "hp": 13330,
+      "def": 415,
+      "spd": 116,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

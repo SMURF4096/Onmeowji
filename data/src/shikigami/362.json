@@ -1,0 +1,224 @@
+{
+  "no": 362,
+  "en": "Semigoori Yuki Onna",
+  "cn": "蝉冰雪女",
+  "jp": "Frosty Yuki Onna",
+  "gl": "Frosty Yuki Onna",
+  "rarity": "SP",
+  "image": "File:362.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Semigoori_Yuki_Onna",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/362.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/362.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "10026"
+      },
+      "def": {
+        "lv1": "75",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "A",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3621",
+      "name": "Jade Echoing (玉响/玉響)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Listen, it's the sound of the ice cracking.",
+      "description": "SP Yuki Onna creates an ice dart in her hands to attack a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3621.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3622a",
+      "name": "Frost Breath (息吹)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "When the bitter wind blows, everything is frozen.",
+      "description": "Exclusive effect. <br>SP Yuki Onna increases the DEF for all allies by 30%. At the end of a turn for an ally or enemy (excluding summoned entities), she creates 1 stack of Flower of Ice. When an ally other than herself takes lethal damage, they become Bound in Ice to occupy their spot but are regarded as KO'd. ;Upon Usage :If there is an ally Bound in Ice on the battlefield, SP Yuki Onna will revive all allies Bound in Ice and recovers their max HP to full.<br>After usage, this skill changes to Spring's Arrival. ;Flower of Ice (氷花) : :'''General, Mark''': If SP Yuki Onna is not Immobile, she emits an Ice Nova every time she has 6 stacks. Ice Nova deals indirect damage equal to 100% of her ATK to all allies, other than herself, and enemies. This damage does not trigger passives.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for Ice Nova dealt to Frostbound enemies is increased by 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "SP Yuki Onna gains 50 SPD for every ally Bound in Ice."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage for Ice Nova dealt to allies is decreased by 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Gains additional 3 stacks of Flower of Ice at the end of her own turn."
+        }
+      ],
+      "icon": "assets/skills/3622a.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3622b",
+      "name": "Spring's Arrival (春告)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect.\nWhere spring breeze blows, everything springs to life. All allies gain a 25% increase todamage dealt and their SPD is increased by 20.",
+      "upgrades": [],
+      "icon": "assets/skills/3622b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3623",
+      "name": "Eternal Winter (永冬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The snow at the top of the mountain with never melt.",
+      "description": "SP Yuki Onna turns into a cold ice lancer to attack a an enemy dealing damage equal to 100% of her ATK and inflicts them with Frostbound. She also gains Thin Ice. When Thin Ice is lost, Frostbound is removed. <br>This skill cannot be used if there is a Frostbound enemy on the battlefield. ;Thin Ice (蝉翼) : :'''Buff, Mark''': An undispellable shield. It disappears at the start of SP Yuki Onna's turns and can absorb damage equal to 120% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Frostbound''': Place on move bar cannot be altered is added as an additional effect."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Thin Ice''': Absorption increases to 135%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Thin Ice''': Grants 100% Crit RES."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically gain Thin Ice at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3623.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Yuki Onna's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Yuki Onna's skills 12 times.",
+      "reward": "Shikigami No.362 ×10"
+    },
+    {
+      "condition": "In PVN zones, use Frost Breath once and win.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/362skin1.webp",
+  "stats": {
+    "min": {
+      "no": 362,
+      "en": null,
+      "atk": 142,
+      "hp": 939,
+      "def": 75,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 362,
+      "en": null,
+      "atk": 3002,
+      "hp": 10026,
+      "def": 441,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

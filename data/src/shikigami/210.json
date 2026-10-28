@@ -1,0 +1,212 @@
+{
+  "no": 210,
+  "en": "Shiro Mujou",
+  "cn": "鬼使白",
+  "jp": "白無常",
+  "gl": "白無常",
+  "rarity": "SR",
+  "image": "File:210.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shiro_Mujou",
+  "cv": "Suzumura Ken'ichi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/210.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/210.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": "145",
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": "960",
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": "72",
+        "max": "423"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": "116",
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2101",
+      "name": "Living Dead (活死人/死人化)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Souls of the underworld, hear my call!",
+      "description": "Shiro Mujou focuses the power of the Underworld to attack a single target, dealing damage equal to 100% of his ATK. Also has a 100% base chance of inflicting the target with 40% of Heal Down, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2101.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2102",
+      "name": "Soul Hunt (魂狩/魂狩り)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "The time has come for me to send you to the underworld!",
+      "description": "When a non-summoned enemy is KO'd, Shiro Mujou's move bar is increased by 50%. ;Upon Usage :Shiro Mujou summons 1 White Ghost where each enemy was KO'd. Each White Ghost will sacrifice itself to attack all enemies on its next turn, dealing indirect damage equal to 100% of its inherited ATK. :Each White Ghost inherits 10% of Shiro Mujou's HP and and 50% of his ATK. When a White Ghost occupies the spot of a KO'd enemy, they cannot be revived.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Inherited HP and ATK increases to 15% and 60%."
+        },
+        {
+          "lvl": 3,
+          "text": "Inherited HP and ATK increases to 20% and 70%."
+        },
+        {
+          "lvl": 4,
+          "text": "Inherited HP and ATK increases to 25% and 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Inherited HP and ATK increases to 30% and 90%."
+        }
+      ],
+      "icon": "assets/skills/2102.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2103",
+      "name": "Hands of Hell (无常夺命/無常の命取り)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Vengeful souls, drag these foul beings to the underworld!",
+      "description": "Shiro Mujou summons cursed hands from hell to attack all enemies 3 consecutive times, dealing damage equal to 32% of his ATK with each hit. Also inflicts them with Life Steal, which deals indirect damage equal to 158% of his ATK at the end of turn, lasts for 1 turn. ; : ;Life Steal (命を奪う) : :'''Debuff, Status''': Deals indirect damage equal at the end of the target's turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Life Steal''': Indirect damage increases to 167%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Life Steal''': Indirect damage increases to 174%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Life Steal''': Indirect damage increases to 182%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases the duration of Life Steal to 2 turns."
+        }
+      ],
+      "icon": "assets/skills/2103.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Shiro Mujou clear stage 5 of any Evo zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Shiro Mujou with another player's Kuro Mujou and clear any zone 10 times.",
+      "reward": "Shikigami No.210 ×10"
+    },
+    {
+      "condition": "Increase Shiro Mujou's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/210skin1.webp",
+  "stats": {
+    "min": {
+      "no": 210,
+      "en": null,
+      "atk": 131,
+      "hp": 864,
+      "def": 65,
+      "spd": 106,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 210,
+      "en": null,
+      "atk": 3055,
+      "hp": 10254,
+      "def": 423,
+      "spd": 116,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

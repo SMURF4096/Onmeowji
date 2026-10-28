@@ -1,0 +1,212 @@
+{
+  "no": 206,
+  "en": "Koi no Sei",
+  "cn": "鲤鱼精",
+  "jp": "鯉の精",
+  "gl": "Koi",
+  "rarity": "R",
+  "image": "File:206.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Koi_no_Sei",
+  "cv": "Yuuki Aoi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/206.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/206.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "117",
+        "lv2": "130",
+        "max": "2734"
+      },
+      "hp": {
+        "lv1": "982",
+        "lv2": "1088",
+        "max": "11621"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": "72",
+        "max": "423"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": "117",
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2061",
+      "name": "Tail Whip (尾鞭/魚尾鞭)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You're making me angry!",
+      "description": "Koi flicks her tail and whips a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Dispels 1 of the target's buffs."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 115%."
+        }
+      ],
+      "icon": "assets/skills/2061.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2062",
+      "name": "Bubble Shield (泡泡之盾/泡の盾)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Lovely bubbles! Become a shield!",
+      "description": "Koi no Sei forms bubbles into energy shields to protect all non-summoned allies that can absorb damage equal to 12% of her max HP, lasts for 2 turns. ; : ;Shield : :Can absorb a certain amount of damage, can be dispelled.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption increases to 14%."
+        },
+        {
+          "lvl": 3,
+          "text": "Absorption increases to 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "Absorption increases to 18%."
+        },
+        {
+          "lvl": 5,
+          "text": "While the shields are active, received indirect damage is decreased by 50%."
+        }
+      ],
+      "icon": "assets/skills/2062.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2063",
+      "name": "Bubble Cage (泡泡之牢/泡の牢獄)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 1,
+      "line": "You just stay right there!",
+      "description": "Koi no Sei turn bubbles into a cage with a 100% base chance of inflicting Prison on 1 enemy, lasts for 2 turns. The Prison effect can absorb damage equal to 150% of Koi's ATK and decreases the enemy's Crit by 20%, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Enemies with Prison receives damage equal to 50% of Koi's ATK at the end of their turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases damage absorbed by Prison to 165%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage received by enemies with Prison increases to 63%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases damage absorbed by Prison to 180%."
+        }
+      ],
+      "icon": "assets/skills/2063.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Koi no Sei gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Koi no Sei with another player's Kappa and clear any zone 10 times.",
+      "reward": "Shikigami No.206 ×10"
+    },
+    {
+      "condition": "Collect 40 Koi no Sei shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/206skin1.webp",
+  "stats": {
+    "min": {
+      "no": 206,
+      "en": null,
+      "atk": 117,
+      "hp": 928,
+      "def": 65,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 206,
+      "en": null,
+      "atk": 2734,
+      "hp": 11621,
+      "def": 423,
+      "spd": 117,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

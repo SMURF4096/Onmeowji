@@ -1,0 +1,195 @@
+{
+  "no": 223,
+  "en": "Hone Onna",
+  "cn": "骨女",
+  "jp": "",
+  "gl": "Hone Onna",
+  "rarity": "SR",
+  "image": "File:223.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hone_Onna",
+  "cv": "Ayaka Suwa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Demon Seal • Dispatch",
+  "imageUrl": "assets/shikigami/223.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/223.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "126",
+        "lv2": "140",
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "832",
+        "lv2": "928",
+        "max": "9912"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": "77",
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "97",
+        "lv2": "107",
+        "max": "107"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "s"
+      ],
+      "hp": [
+        "d",
+        "c"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2231",
+      "name": "Bone Sword (骨刃/骨刃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't touch me!",
+      "description": "Hone Onna wields a bone sword fueled with pure hatred to stab a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2231.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2232",
+      "name": "Wrath (怨生/怨生)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 2,
+      "line": "I don't want to leave this place just yet... Feel my wrath!",
+      "description": "When Hone Onna is attacked, she gains a layer of Fury (max of 6 layers). \nWhen she id KO'd, and if she has 4 or more layers of Fury, all layers are consumed and she immediately revives, restoring her HP by 20% of her max HP.\n;\n:\n;Fury (憎しみ)\n:'''General, Status''': Hone Onna filled with Fury refuses to die.\n:''(1-6 pink flames with circle around her, 1 flame represents 1 layer of Fury.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2232.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2233",
+      "name": "Triple Slash (一步一息/一歩一息)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Don't be afraid. It will all be over soon.",
+      "description": "Hone Onna rushes to an enemy and lands 3 blows, dealing damage equal to 78% of her ATK with each blow and ignores 40% of the enemy's DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 82%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 86%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 94%."
+        }
+      ],
+      "icon": "assets/skills/2233.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Hone Onna clear stage 5 of any Evo zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Collect 8 Hone Onna shards from Demon Parade.",
+      "reward": "Shikigami No.223 ×10"
+    },
+    {
+      "condition": "Donate 5 Hone Onna shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/223skin1.webp",
+  "stats": {
+    "min": {
+      "no": 223,
+      "en": null,
+      "atk": 126,
+      "hp": 832,
+      "def": 70,
+      "spd": 97,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 223,
+      "en": null,
+      "atk": 2948,
+      "hp": 9912,
+      "def": 454,
+      "spd": 107,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

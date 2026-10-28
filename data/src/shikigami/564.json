@@ -1,0 +1,186 @@
+{
+  "no": 564,
+  "en": "Kagamine Rin & Len",
+  "cn": "镜音铃·连",
+  "jp": "鏡音リン・レン",
+  "gl": "Kagamine Rin/Len",
+  "rarity": "SSR",
+  "image": "File:564.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kagamine_Rin_%26_Len",
+  "cv": "",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/564.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/564.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "216",
+        "lv2": null,
+        "max": "1983"
+      },
+      "hp": {
+        "lv1": "2308",
+        "lv2": null,
+        "max": "16405"
+      },
+      "def": {
+        "lv1": "192",
+        "lv2": null,
+        "max": "467"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5641",
+      "name": "Flying Notes (音符紛飛/踊る音符)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Whoosh! The notes are flying!",
+      "description": "Rin & Len launch a 2-strike attack a single target, dealing damage equal to 50% of their ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 59%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 62%."
+        }
+      ],
+      "icon": "assets/skills/5641.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5642",
+      "name": "Bonded Duet (絆の二重奏)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 1,
+      "line": "This is our very own rhythm!",
+      "description": "Exclusive effect. Rin & Len are unable to receive healing effects from others. While they have Mirrored Rhythm, they increase all allies' DEF by 20%. ;Upon Usage :Rin & Len convert 30% of their current HP into Mirrored Rhythm. ;Mirrored Rhythm (鏡音旋律/鏡の旋律) : :'''Buff, Mark''': A shield that can absorb a certain amount of damage. Each portion of the 10% of HP converted grants them 1 immunity effect, max of 3 stacks. A stack of the immunity effect is consumed to grant all non-summoned allies gain immunity to debuffs, control effects and effects such as Banish from an enemy. When enough damage to dealt to to break the shield, the excess damage will be absorbed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP conversion increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP conversion increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP conversion increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Mirrored Rhythm's immunity effect increases their move bar by 20% for each stack consumed for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/5642.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5643",
+      "name": "Protective Moment (守護定格/止まる瞬間)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Remember this moment. Thank you for bringing us go thus world.",
+      "description": "Rin & Len recover the HP of an ally and themselves by 30% of their lost HP. <br>If they have Mirrored Rhythm, consumes the Mirrored Rhythm to launch a 3-strike attack the non-summoned enemy with the lowest HP 3 times, dealing indirect damage equal to the Mirrored Rhythm's remaining shield HP with each strike (cannot exceed 400% of Rin & Len's initial ATK). ;Mirrored Rhythm (鏡音旋律/鏡の旋律) : :'''Buff, Mark''': A shield that can absorb a certain amount of damage. Each portion of the 10% of HP converted grants them 1 immunity effect, max of 3 stacks. A stack of the immunity effect is consumed to grant all non-summoned allies gain immunity to debuffs, control effects and effects such as Banish from an enemy. When enough damage to dealt to to break the shield, the excess damage will be absorbed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP recovered increases to 40%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP recovery for themselves increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "If the enemy is KO'd and there are remaining attacks, the attacks will switch to next enemy with the lowest HP."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon usage, gain Mirrored Rhythm equal to 10% of their max HP."
+        }
+      ],
+      "icon": "assets/skills/5643.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Rin & Len's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Rin & Len's skills 12 times.",
+      "reward": "Shikigami No.564 ×10"
+    },
+    {
+      "condition": "Team Rin & Len with another player's Miku and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/564skin1.webp"
+}

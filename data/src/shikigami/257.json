@@ -1,0 +1,195 @@
+{
+  "no": 257,
+  "en": "Yumekui",
+  "cn": "食梦貘",
+  "jp": "夢喰い",
+  "gl": "夢喰い",
+  "rarity": "SR",
+  "image": "File:257.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Yumekui",
+  "cv": "Shuuichi Nishitani",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/257.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/257.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2412"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "1963"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": null,
+        "max": "463"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2571",
+      "name": "Sleep Snout (入眠/眠れ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Squeak squeak! I'm your worst nightmare!",
+      "description": "Yumekui plunges a single target into a nightmare, dealing damage equal to 80% of his ATK. Also has a 20% chance of dispelling all of the target's buffs and has 20% base chance of inflicting them with Sleep, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 199%."
+        }
+      ],
+      "icon": "assets/skills/2571.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2572",
+      "name": "Sleep (沉睡/昏睡)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sleep too deeply and you'll never wake up! Squeak squeak!",
+      "description": "When Yumekui deals damage, Sleep will not be removed from the target.\n;\n:",
+      "upgrades": [],
+      "icon": "assets/skills/2572.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2573",
+      "name": "Dream Devour (食梦者/夢喰い)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Squeak squeak! I'm going to devour your dreams!",
+      "description": "Yumekui enters dreams of each enemy, has a 30% base chance of inflicting all enemies with Sleep, lasts for 1-2 turns. ;Sleep (沉睡) :----",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 45%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/2573.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Yumekui clear stage 5 of any Evo zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Yumekui with another player's Kocho no Sei and clear any zone 10 times.",
+      "reward": "Shikigami No.257 ×10"
+    },
+    {
+      "condition": "Collect 10 Yumekui shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/257skin1.webp",
+  "stats": {
+    "min": {
+      "no": 257,
+      "en": null,
+      "atk": 102,
+      "hp": 1014,
+      "def": 71,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 257,
+      "en": null,
+      "atk": 2412,
+      "hp": 11963,
+      "def": 463,
+      "spd": 119,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

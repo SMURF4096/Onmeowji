@@ -1,0 +1,216 @@
+{
+  "no": "O4",
+  "role": "onmyoji",
+  "page": "Yao Bikuni",
+  "en": "Yao Bikuni",
+  "cn": "八百比丘尼",
+  "jp": "八百比丘尼",
+  "gl": "Yao Bikuni",
+  "unlock": "Chapter 15",
+  "cv": "Miyuki Sawashiro",
+  "intro": "Eating the flesh of a mermaid made her immortal and forever young. Her abilities far exceed those of an ordinary wandering seer.",
+  "image": "assets/onmyoji/O4.webp",
+  "imageUrl": "assets/onmyoji/O4.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "27140"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "1051"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "128"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o4skill1",
+      "icon": "assets/skills/O4skill1.webp",
+      "name": "Starlight (星之光/星の光)",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Yao Bikuni waves her staff and shoots out a bird formed from the power of starlight, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ]
+    },
+    {
+      "image": "o4skill3",
+      "icon": "assets/skills/O4skill3.webp",
+      "name": "Starlight Curse (星之咒/星の呪い)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Yao Bikuni curses the enemy and harnesses the power of starlight to Seal all enemies. She has a 60% base chance to inflict Seal and Suppress on the designated enemy, and a 25% base chance to other enemies lasting for 2 turns. Skill cooldown: 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance on other enemies increased to 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance to the designated enemy increased to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance on other enemies increased to 45%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance to the designated enemy increased to 100%."
+        }
+      ]
+    },
+    {
+      "image": "o4skill2",
+      "icon": "assets/skills/O4skill2.webp",
+      "name": "Clairvoyance (预知/予知)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Yao Bikuni prays to the Peacock and uses the power of her clairvoyance to increase the protective effect of all allies for 2 turns. When an ally deals Crit damage, they have a 30% chance to have their HP restored by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance of restoring HP increases to 35%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance of restoring HP increases to 40%."
+        }
+      ]
+    },
+    {
+      "image": "o4skill4",
+      "icon": "assets/skills/O4skill4.webp",
+      "name": "Starlight Shower (星陨/流れ星)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Yao Bikuni waves her hand, commanding starlight to shoot down from the sky and strike all enemies, dealing damage equal to 112% of her ATK. Has a 40% chance of decreasing the enemies max HP by 20% (cannot exceed 300% of Yao Bikuni's max HP), lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 117%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 122%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 127%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 132%."
+        }
+      ]
+    },
+    {
+      "image": "o4skill6",
+      "icon": "assets/skills/O4skill6.webp",
+      "name": "Divination Sigil (占卜之印/占いの印)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "At the start of battle, reveals all enemy shikigami's Souls. As the passive skills unlock, the effects of Divination Sigil can be switched. Divination Sigil cannot stack. Active Skill: Grants Divination Sigil to a designated ally for 1 turn. After being KO'd, the ally will revive upon their next action and heal themselves for 14% of their next HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Enhancement: Increases the proportion of HP healed to 16%."
+        },
+        {
+          "lvl": 3,
+          "text": "Enhancement: Increases the proportion of HP healed to 18%."
+        },
+        {
+          "lvl": 4,
+          "text": "Enhancement: Increases the proportion of HP healed to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases Divination Sigil duration by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o4skill6a",
+      "icon": "assets/skills/O4skill6a.webp",
+      "name": "Divination Sigil (占卜之印/占いの印)",
+      "type": "|Cooldown    = 1",
+      "cooldown": 1,
+      "description": "Grants Divination Sigil to a designated ally for 1 turn. When the ally is KO'd, they will revive upon their next action and heal themselves for 20% of their max HP.",
+      "upgrades": []
+    },
+    {
+      "image": "o4skill6b",
+      "icon": "assets/skills/O4skill6b.webp",
+      "name": "Divination Sigil (占卜之印/占いの印)",
+      "type": "|Cooldown    = 1",
+      "cooldown": 1,
+      "description": "Grants Divination Sigil to a designated ally for 1 turn. When the ally takes a direct single target attack or indirect damage, reflects 80% of the damage taken.",
+      "upgrades": []
+    },
+    {
+      "image": "o4skill6c",
+      "icon": "assets/skills/O4skill6c.webp",
+      "name": "Divination Sigil (占卜之印/占いの印)",
+      "type": "|Cooldown    = 1",
+      "cooldown": 1,
+      "description": "Grants Divination Sigil to a designated ally for 2 turns, healing them by 30% of their lost HP at the start of their turn.",
+      "upgrades": []
+    },
+    {
+      "image": "o4skill5",
+      "icon": "assets/skills/O4skill5.webp",
+      "name": "Purification (净化/浄化)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "At the start of turn or when healing an ally, dispels all debuffs from self and 1 random ally. When any ally is affected by a control effect, raises self's Move Bar by 10%, once per turn.",
+      "upgrades": []
+    }
+  ]
+}

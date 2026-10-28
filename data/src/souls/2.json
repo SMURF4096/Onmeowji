@@ -1,0 +1,16 @@
+{
+  "no": 2,
+  "en": "Jizo Statue",
+  "cn": "地藏像",
+  "jp": "地蔵の像",
+  "type": "HP",
+  "image": "File:Soul2.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Jizo_Statue",
+  "imageUrl": "assets/souls/Soul2.webp",
+  "localImage": "assets/souls/Soul2.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "When receiving a crit attack, gain a shield that can absorb 10% of damage received and has 30% chance to grant random allies shields, chance to trigger is lowered by 60% against taunted targets.",
+  "location": "Soul Zones (Monday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Fallen Sun · Sea of Eternity · Chapter 26 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M7.webp"
+}

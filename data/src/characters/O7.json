@@ -1,0 +1,244 @@
+{
+  "no": "O7",
+  "role": "champion",
+  "page": "Fujiwara no Michinaga",
+  "en": "Fujiwara no Michinaga",
+  "cn": "藤原道长",
+  "jp": "藤原道長",
+  "unlock": "Chapter 26",
+  "cv": "Shinichiro Miki",
+  "intro": "",
+  "image": "assets/onmyoji/O7.webp",
+  "imageUrl": "assets/onmyoji/O7.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "20826"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "806"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "142"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o7skill1",
+      "icon": "assets/skills/O7skill1.webp",
+      "name": "Admonition Notes (训诫之音)",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Michinaga attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ]
+    },
+    {
+      "image": "o7skill2",
+      "icon": "assets/skills/O7skill2.webp",
+      "name": "Frontbreach Prelude (破阵奏曲)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Michinaga attacks an enemy 2 times, each dealing damage equal to 80% of ATK and lowering the target's Move Bar by 5%; then launches a charged attack against the target, dealing damage equal to 160% of ATK and lowering their Move Bar by 10%. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases charged attack damage to 200%."
+        },
+        {
+          "lvl": 3,
+          "text": "Gains 1 stack of Melodic Note when cast."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases charged attack damage to 240%."
+        },
+        {
+          "lvl": 5,
+          "text": "Charged attack lowers the target's move bar by 20%."
+        }
+      ]
+    },
+    {
+      "image": "o7skill3",
+      "icon": "assets/skills/O7skill3.webp",
+      "name": "Sonic Featherstring (神鸟惊弦)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Musical Onmyoji Spells. Yatagarasu consumes 3 stacks of Melodic Note, lowering the selected enemy target's move bar by 50% and inflicting Disarm for 1 turn. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells. ;Disarm (缴械) : :Cannot use normal attacks and inflicted shikigami's equipped soul loses effect. When this effect is dispelled, decreases the enemy's normal attack damage by 20%, lasts for 1 turn. ;Musical Onmyoji Spells (乐理阴阳木) :Michinaga blends music theory with onmyoji spells, requiring Melodic Notes to cast the skill.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Additionally reduces the target's starting ATK by 25% for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "Additionally reduces the target's starting DEF by 25% for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduces starting ATK by 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Reduces starting DEF by 50%."
+        }
+      ]
+    },
+    {
+      "image": "o7skill4",
+      "icon": "assets/skills/O7skill4.webp",
+      "name": "Elegant Chant (咏叹巧韵)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Enters a focused Koto Playing State, increasing all allies' ATK by 10% for 3 turns. ;Koto Playing State (奏律状态) : :[Buff, Mark] immune to control effects and banish, gains 1 additional stack of Melodic Note after the start of own turn and will not start action. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases duration to 4 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases the ATK boost to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases duration to 5 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases the ATK boost to 30%."
+        }
+      ]
+    },
+    {
+      "image": "o7skill5",
+      "icon": "assets/skills/O7skill5.webp",
+      "name": "Moontune Resonance (琴月齐鸣)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Musical Onmyoji Spells. Consumes all Melodic Note, increasing all allies ATK by 10% per stack consumed for 1 turn. When 6 or more stacks of Melodic Note are consumed, removes Controlling Effect from all allies. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells. ;Musical Onmyoji Spells (乐理阴阳木) :Michinaga blends music theory with onmyoji spells, requiring Melodic Notes to cast the skill.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the ATK by 13%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases the ATK by 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases the ATK boost by 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases duration to 2 turns."
+        }
+      ]
+    },
+    {
+      "image": "o7skill6",
+      "icon": "assets/skills/O7skill6.webp",
+      "name": "Rhythm Mastery (诸律精通)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "At the start of Michinaga's own turn, gains 1 stack of Melodic Note. For each stack of Melodic Note gains, permanently increases his own SPD by 5, and all allies CRIT DMG by 5%, with stacking limit equal to Melodic Note's max stacks. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases the SPD by 8."
+        },
+        {
+          "lvl": 3,
+          "text": "Before his turn starts, when inflicted by move bar lowering effects, gains 1/2/3 stacks of Melodic Notes in sequence (up to 3 times)"
+        },
+        {
+          "lvl": 4,
+          "text": "Increases the Crit DMG by 8%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases the Melodic Note max stacks up to 10."
+        }
+      ]
+    },
+    {
+      "image": "o7skill7",
+      "icon": "assets/skills/O7skill7.webp",
+      "name": "Harmonious Tuning(调律润心)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "For each stack of Melodic Note consumed, raises the move bar of Michinaga and the allied shikigami at the top of the turn order by 5%; when an enemy shikigami casts a skill, raises his own move bar by 10%. ;Melodic Note (律音) : :[General, Mark] Max 6 stacks, can be used to cast musical onmyoji spells.",
+      "upgrades": []
+    },
+    {
+      "image": "o7skill8",
+      "icon": "assets/skills/O7skill8.webp",
+      "name": "Dream Echoes (余音入梦)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "Upon receiving lethal damage, removes all debuffs and transforms into Dream Consciousness remaining on the field for a number of turns equal to the current number of surviving allied shikigami. ;Dream Consciousness (梦境意识) : :Shares the same stats as Michinaga, immune to damage, control effects and banish. If only Dream Consciousness remains on the ally's field, the battle is lost.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Gains 1 stack of Melodic Note when triggered."
+        },
+        {
+          "lvl": 3,
+          "text": "Gains 2 stacks of Melodic Note when triggered."
+        },
+        {
+          "lvl": 4,
+          "text": "Gains 3 stacks of Melodic Note when triggered."
+        },
+        {
+          "lvl": 5,
+          "text": "Gains 4 stacks of Melodic Note when triggered."
+        },
+        {
+          "lvl": 6,
+          "text": "Gains 6 stacks of Melodic Note when triggered."
+        }
+      ]
+    }
+  ]
+}

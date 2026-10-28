@@ -1,0 +1,155 @@
+{
+  "no": 429,
+  "en": "Tamamo no Mae Frog",
+  "cn": "玉藻前呱",
+  "jp": "玉藻前蛙",
+  "gl": "Tamamonomae Frog",
+  "rarity": "N",
+  "image": "File:429.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tamamo_no_Mae_Frog",
+  "cv": "Ken Uo",
+  "imageUrl": "assets/shikigami/429.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/429.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "142",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "950",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "97",
+        "lv2": null,
+        "max": "97"
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "C",
+        "C"
+      ],
+      "crit": [
+        "D",
+        "D"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4291",
+      "name": "Croak: Soul Burst（呱·灵击/蛙・狐の面）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tamamo no Mae Frog attacks a single target dealing damage equal to 100% of his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%"
+        }
+      ],
+      "icon": "assets/skills/4291.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4292",
+      "name": "Croak: The Falling（呱·堕天/蛙・堕天)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Tamamo no Mae Frog attacks all enemies dealing damage equal to 116% of his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 117%"
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 118%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 119%"
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%"
+        }
+      ],
+      "icon": "assets/skills/4292.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Tamamo no Mae Frog's level to 25.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Tamamo no Mae Frog's skills 8 times.",
+      "reward": "Shikigami No.429 ×10"
+    },
+    {
+      "condition": "Donate 3 Tamamo no Mae Frog shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/429skin1.webp"
+}

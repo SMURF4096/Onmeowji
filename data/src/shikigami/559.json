@@ -1,0 +1,198 @@
+{
+  "no": 559,
+  "en": "Honshin Sanbi no Kitsune",
+  "cn": "本真三尾狐",
+  "jp": "本真三尾の狐",
+  "gl": "Trueself Mio",
+  "rarity": "SP",
+  "image": "File:559.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Honshin_Sanbi_no_Kitsune",
+  "cv": "Miyuki Sawashiro",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/559.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/559.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "159",
+        "lv2": null,
+        "max": "3350"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "9684"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "115",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5591",
+      "name": "Steal Heart (摂心)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It'll be dangerous for you to keep looking at me.",
+      "description": "SP Sanbi no Kitsune drains the life of an enemy with her fox force, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5591.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5592a",
+      "name": "Souls Bonded (霊合)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "May falling flowers be treated well for they, too, have feelings.",
+      "description": "Exclusive effect. <br>At the end of her turn, the fox in SP Sanbi no Kitsune's arms unleashes its power, granting her Vulpine Protection, which absorbs damage equal to 90% of her ATK, sustained for 1 turn. Also grants her 3 stacks Heart's Flame stacks. ;Vulpine Protection (霊狐守護) : :'''Buff, Mark''': A undispellable shield that can absorb a certain amount of damage. While it is active, grants her immunity to control effects and effects such as Banish. ;Heart's Flame (心焔) : :'''Buff, Mark''': Max of 3 stacks. Each stack increases her DEF by 15%. At the end of an action, and if she not inflicted with any control effects, uses Steal Soul if a non-summoned enemy's HP loses more than 25% in that action and they have at least 10% of their max HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Vulpine Protection''': Damage absorption increases to 140%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Steal Soul''': For each enemy she attacks, increases her move bar by 10%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Vulpine Protection''': When the shield disappears, recovers her HP by 80% of the remaining shield HP."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically gain Vulpine Protection and 3 Heart's Flame stacks at the start battle."
+        }
+      ],
+      "icon": "assets/skills/5592a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5592b",
+      "name": "Steal Soul (汲魄)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Sanbi no Kitsune attacks 1 enemy at the cost of 1 Heart's Flame, dealing damage equal to 168% of her ATK. Attacking the same target decreases the damage by 30%. The first 3 strikes on a monster cost no Heart's Flame and have a cooldown of 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/5592b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5593",
+      "name": "Seductive Phantom (狐惑魅影)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Forsake your thoughts and indulge yourself in the realm",
+      "description": "When SP Sanbi no Kitsune uses a normal attack or deals single-target damage, she also inflicts 20% of HP Steal and inflicts the target with Fox Mark. ;Upon Usage :SP Sanbi no Kitsune attacks 1 enemy, dealing damage equal to 105% of her ATK. When attacking, inflicts a follow-up strike for each 25% of HP they have lost. Then she inflicts a strike on another enemy, dealing damage equal to 105% of her ATK. ;Fox Mark (狐印/狐の印) : :'''Debuff, Mark''': Max of 1 stack. Removed upon dealing damage. Triggers at the start of turn, deals indirect damage equal to 50% of the inflicted target's lost HP (cannot exceed 1000% of her initial ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 125%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 135%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 5,
+          "text": "Immediately triggers the selected target's Fox Mark."
+        }
+      ],
+      "icon": "assets/skills/5593.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Sanbi no Kitsune's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Sanbi no Kitsune's skills 12 times.",
+      "reward": "Shikigami No.559 ×10"
+    },
+    {
+      "condition": "With SP Sanbi no Kitsune win 30 times in PVN zones",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/559skin1.webp"
+}

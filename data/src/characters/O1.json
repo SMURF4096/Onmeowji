@@ -1,0 +1,241 @@
+{
+  "no": "O1",
+  "role": "onmyoji",
+  "page": "Seimei",
+  "en": "Seimei",
+  "cn": "安倍晴明",
+  "jp": "安倍晴明",
+  "gl": "Seimei",
+  "unlock": "Chapter 1",
+  "cv": "Noriaki Sugiyama",
+  "intro": "A brilliant onmyoji who is highly renowned in Kyoto. For reasons unknown, he has lost his memory. Will his memories reveal long-lost joys? Or a horrific truth that he cannot bear to remember?",
+  "image": "assets/onmyoji/O1.webp",
+  "imageUrl": "assets/onmyoji/O1.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "27140"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "1051"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "128"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o1skill1",
+      "icon": "assets/skills/O1skill1.webp",
+      "name": "Basic Skill（基础术式/通常攻撃）",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Seimei uses an amulet to attack a single target, dealing damage equal to 100% of his ATK. ;Amulet: Chaos (霊符・乱) : :Damage dealt by the target is decreased by 20%, lasts 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Has a 50% base chance of inflicting Amulet: Chaos."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Amulet: Chaos: Reduced damage dealt increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ]
+    },
+    {
+      "image": "o1skill2",
+      "icon": "assets/skills/O1skill2.webp",
+      "name": "Spell: Bind （言灵·缚/言霊・縛)",
+      "type": "Special",
+      "cooldown": 2,
+      "description": "Seimei binds a target with a field, increasing their received damage by 10%. Also has a 50% base chance of inflicting Bind. The bound enemy can use normal attacks to break the bind. The field inherits 5% of Seimei's HP. ;Bind :Confined or bound targets can only use normal attack when they move, dealing enough damage releases them from the effect.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Received damage increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Received damage increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Received damage increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Inherited HP increases to 10%."
+        }
+      ]
+    },
+    {
+      "image": "o1skill3",
+      "icon": "assets/skills/O1skill3.webp",
+      "name": "Spell: Protect （言灵·守/言霊・守）",
+      "type": "Special",
+      "cooldown": 3,
+      "description": "Seimei forms a large defensive barrier so enemies cannot damage allies. The shield breaks when Seimei takes 2 actions or it absorbs damage equal to 10% of his max HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage absorbed increases to 11%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage absorbed increases to 12%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage absorbed increases to 13%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage absorbed increases to 14%."
+        }
+      ]
+    },
+    {
+      "image": "o1skill4",
+      "icon": "assets/skills/O1skill4.webp",
+      "name": "Spell: Purge （言灵·一式/言霊・一式）",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Seimei explodes all amulets on the field and eliminates their effects. Each amulet an ally has restores their HP by 10% and each amulet an enemy has deals damage equal to 10% of his ATK.",
+      "upgrades": []
+    },
+    {
+      "image": "o1skill5",
+      "icon": "assets/skills/O1skill5.webp",
+      "name": "Amulet: Death （符咒·灭/霊符・滅）",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Seimei inflicts Amulet: Death on all enemies. It increases their received damage by 15%, pasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Received damage increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Received damage increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Received damage increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increased by 1 turn."
+        }
+      ]
+    },
+    {
+      "image": "o1skill6",
+      "icon": "assets/skills/O1skill6.webp",
+      "name": "Amulet: Life （符咒·生/霊符・生）",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Seimei grants all other allies Amulet: Life. It reduces their received damage by 15%, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Duration increases by 1 turn."
+        },
+        {
+          "lvl": 3,
+          "text": "Reduced damage increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduced damage increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Also grants Amulet: Life to himself."
+        }
+      ]
+    },
+    {
+      "image": "o1skill7",
+      "icon": "assets/skills/O1skill7.webp",
+      "name": "Divine Lightning（雷帝召来/雷光招来)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "When Seimei receives an attack, there is a 10% chance to summon Shinryu. Shinryu invokes lightning to attack all enemies, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Has 10% base chance to inflict Daze (lasts for 1 turn)."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ]
+    },
+    {
+      "image": "o1skill8",
+      "icon": "assets/skills/O1skill8.webp",
+      "name": "Spell: Star （言灵·星/言霊・星)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Seimei forms a pentagram that increases damage dealt for all allies by 15%, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage dealt increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage dealt increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage dealt increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration increased by 1 turn."
+        }
+      ]
+    }
+  ]
+}

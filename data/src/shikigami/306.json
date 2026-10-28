@@ -1,0 +1,195 @@
+{
+  "no": 306,
+  "en": "Mushishi",
+  "cn": "虫师",
+  "jp": "蟲師",
+  "gl": "蟲師",
+  "rarity": "R",
+  "image": "File:306.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Mushishi",
+  "cv": "Sakura Ayane",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/306.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/306.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "2385"
+      },
+      "hp": {
+        "lv1": "1206",
+        "lv2": null,
+        "max": "14013"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "B"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3061",
+      "name": "Dance of Mushi（虫之舞/虫の舞）",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Shala, shala... What are you looking at?",
+      "description": "Mushishi appears in front of a single target and launches an attack, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3061.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3062",
+      "name": "Mark of Mushi（虫之痕/虫の痕）",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sleep, like I did once!",
+      "description": "When Mushishi receives damage, and if she's not immobile, she has a 25% of gaining immunity to that damage and has a 100% base chance of inflicting the attacker with Mar of Mushi, lasts for 2 turns. Only triggers once for a single attack.\n;\n:\n;Mark of Mushi (虫の痕)\n:\n:'''Debuff, Mark''': Becomes vulnerable, damage received is increased by 30%.",
+      "upgrades": [],
+      "icon": "assets/skills/3062.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3063",
+      "name": "Protection of Mushi（虫之护/蟲の護り）",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "There's no need to be afraid of my cocoon.",
+      "description": "Mushishi dispels 1 debuff or control effect from up to 3 allies and restores the HP of all allies by 12% of her max HP. For allies affected by the dispelling effect, the healing effect on them is reduced by 30%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Number of allies can dispel from increases to 4."
+        },
+        {
+          "lvl": 3,
+          "text": "HP restored increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "Reduced healing effect decreases to 20%."
+        },
+        {
+          "lvl": 5,
+          "text": "HP restored increases to 18%."
+        }
+      ],
+      "icon": "assets/skills/3063.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Mushishi.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Gain 50000 EXP by placing Mushishi in Realm Training.",
+      "reward": "Shikigami No.306 ×10"
+    },
+    {
+      "condition": "Increases Mushishi's level to 30.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/306skin1.webp",
+  "stats": {
+    "min": {
+      "no": 306,
+      "en": null,
+      "atk": 104,
+      "hp": 1206,
+      "def": 60,
+      "spd": 105,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 306,
+      "en": null,
+      "atk": 2385,
+      "hp": 14013,
+      "def": 388,
+      "spd": 115,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

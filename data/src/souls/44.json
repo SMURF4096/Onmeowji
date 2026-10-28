@@ -1,0 +1,16 @@
+{
+  "no": 44,
+  "en": "Amefurikozo",
+  "cn": "雨降",
+  "jp": "雨降り小僧",
+  "type": "DEF",
+  "image": "File:SoulO44.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Amefurikozo",
+  "imageUrl": "assets/souls/Soul44.webp",
+  "localImage": "assets/souls/Soul44.webp",
+  "combo2": "Increases DEF by 30%",
+  "combo4": "When the equipper's HP goes below 30% for the first time, their max HP is decreased to 1 and they gain 3 Dew stacks. When receiving damage, consume 1 Dew stack and absorb all the damage.",
+  "location": "Soul Zones (Thursday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M64.webp"
+}

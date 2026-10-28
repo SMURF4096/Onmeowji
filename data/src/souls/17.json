@@ -1,0 +1,16 @@
+{
+  "no": 17,
+  "en": "Soul Edge",
+  "cn": "薙魂",
+  "jp": "Teikon",
+  "type": "HP",
+  "image": "File:Soul17.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Soul_Edge",
+  "imageUrl": "assets/souls/Soul17.webp",
+  "localImage": "assets/souls/Soul17.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "When an ally is attacked by a single target attack the equipper has a 50% chance of reducing the ally's received damage by 20% and sharing 40% of the remaining damage.",
+  "location": "Soul Zones · Sougenbi · Chapter 20 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M30.webp"
+}

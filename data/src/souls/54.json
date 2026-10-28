@@ -1,0 +1,16 @@
+{
+  "no": 54,
+  "en": "Wispzoa",
+  "cn": "海月火玉",
+  "jp": "海月の火の玉",
+  "type": "Crit",
+  "image": "File:Soul54.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Wispzoa",
+  "imageUrl": "assets/souls/Soul54.webp",
+  "localImage": "assets/souls/Soul54.webp",
+  "combo2": "Increases Crit by 15%",
+  "combo4": "When there is enough onibi on the equipper's turn, their onibi using skills will consume 1 additional onibi and damage dealt will be increased by 40%.",
+  "location": "Sea of Eternity (Wednesday, Friday, Sunday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CN TW JP GL",
+  "art": "assets/souls/M48.webp"
+}

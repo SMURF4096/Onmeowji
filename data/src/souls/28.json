@@ -1,0 +1,16 @@
+{
+  "no": 28,
+  "en": "Sea Sprite",
+  "cn": "蚌精",
+  "jp": "蛤の精",
+  "type": "HIT",
+  "image": "File:Soul28.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Sea_Sprite",
+  "imageUrl": "assets/souls/Soul28.webp",
+  "localImage": "assets/souls/Soul28.webp",
+  "combo2": "Increases HIT by 15%",
+  "combo4": "Grants all allies with a shield that can absorb damage equal to 10% of the eqipper's HP at the start of battle.",
+  "location": "Soul Zones (Monday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Chapter 11 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M3.webp"
+}

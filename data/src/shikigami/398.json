@@ -1,0 +1,181 @@
+{
+  "no": 398,
+  "en": "Amanozako",
+  "cn": "天逆每",
+  "jp": "天逆毎",
+  "gl": "天逆毎",
+  "rarity": "SR",
+  "image": "File:398.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Amanozako",
+  "cv": "Yukako Kiuchi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/398.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/398.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "79",
+        "lv2": null,
+        "max": "1903"
+      },
+      "hp": {
+        "lv1": "1184",
+        "lv2": null,
+        "max": "13671"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "481"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3981",
+      "name": "One with Fear (惧中人)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey! Leave me alone to enjoy the humans' fear.",
+      "description": "Those with fear have no where to run. <br>Amanozaku attacks a single target dealing damage equal to 80% of her ATK. If an enemy has Fear, she commands them to use a normal attack on the same target (other than herself). ; Fear (恐惧) : :'''Debuff, Mark''': Ineffective on monsters. Max of 8 stacks. When the inflicted target uses a normal attack on an ally, adds 2 stacks; when they use a normal attack on an enemy, lose 1 stack. At the start of the inflicted target's turn, they have a 15% base chance × the current number stacks of being inflicted with Silence, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100% and the normal attack damage dealt by the commanded enemy with Fear is increased by 40%."
+        }
+      ],
+      "icon": "assets/skills/3981.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3982",
+      "name": "Shadowdread (惧影随)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Shh, your fear makes me powerful.",
+      "description": "Exclusive effect.\nYou can never shake off your fear. Amanozako inflicts 4 stacks of Fear on a non-summoned enemy and increases her own move bar by 50%. She can inflict Fear on 1 enemy at a single time and she is immune to Fear.\n; Fear (恐惧)\n:\n:'''Debuff, Mark''': Ineffective on monsters. Max of 8 stacks. When the inflicted target uses a normal attack on an ally, adds 2 stacks; when they use a normal attack on an enemy, lose 1 stack. At the start of the inflicted target's turn, they have a 15% base chance × the current number stacks of being inflicted with Silence, lasts for 1 turn.",
+      "upgrades": [],
+      "icon": "assets/skills/3982.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3983a",
+      "name": "Dread Blade Wind (惧刃之风/惧刃の風)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Let the Dread Blade Wind rages on...",
+      "description": "Amanozako calls the Dread Storm, it has a 10% base chance of inflicting Silence on all enemies, lasts for 1 turn. Each Fear stack inflicted on the enemy increases the base chance by 3%. ; :",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 11%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 12%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 13%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 15% and each Fear stack inflicted on the enemy increases the base chance by 5%."
+        }
+      ],
+      "icon": "assets/skills/3983a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3983b",
+      "name": "Spreading Fear (惧意蔓延)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Surrender to chaos in fear. Amanozako consumes 3 stacks of Fear to have a 60% base chance of inflicting Confuse on all enemies, lasts for 1 turn. Then issues a Call to Arms to all allies to attack the enemy with Fear.\nIf the enemy has less than 6 or more stacks of Fear, this skill changes to Dread Blade Wind.",
+      "upgrades": [],
+      "icon": "assets/skills/3983b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Amanozako's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Amanozako's skills 8 times",
+      "reward": "Shikigami No.398 ×10"
+    },
+    {
+      "condition": "With Amanozako win 30 times in .",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/398skin1.webp"
+}

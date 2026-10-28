@@ -1,0 +1,152 @@
+{
+  "no": 416,
+  "en": "Arakawa Frog",
+  "cn": "荒川呱",
+  "jp": "荒川蛙",
+  "gl": "荒川蛙",
+  "rarity": "N",
+  "image": "File:416.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Arakawa_Frog",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/416.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/416.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "118 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "66 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "B",
+        null
+      ],
+      "def": [
+        "C",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4161",
+      "name": "Gero: Swimming Fish (呱·游鱼)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4161.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4162",
+      "name": "Gero: Engulfment (呱·吞噬)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Attacks target twice, each time dealing 66% damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4162.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Arakawa Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Arakawa Frog and another player who has Lord Arakawa.",
+      "reward": "Shikigami No.416 ×2"
+    },
+    {
+      "condition": "Clear a stage-10 Evo zone in solo mode with Arakawa Frog.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/416skin1.webp"
+}

@@ -1,0 +1,265 @@
+{
+  "no": 337,
+  "en": "Ichigo Kurosaki",
+  "cn": "黑崎一护",
+  "jp": "黒崎 一護",
+  "gl": "黒崎 一護",
+  "rarity": "SSR",
+  "image": "File:337.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ichigo_Kurosaki",
+  "cv": "Masakazu Morita",
+  "intro": "",
+  "method": "Limited Collab Event",
+  "imageUrl": "assets/shikigami/337.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/337.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "138",
+        "lv2": null,
+        "max": "3198"
+      },
+      "hp": {
+        "lv1": "842",
+        "lv2": null,
+        "max": "9898"
+      },
+      "def": {
+        "lv1": "62",
+        "lv2": null,
+        "max": "398"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "3371a",
+      "name": "Zangetsu (斬月)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Zangetsu!",
+      "description": "Ichigo leaps toward to strike a single target, dealing damage equal to 80% of his ATK. <br>At the end of a non-summon enemy's turn, his move bar is increased by 8%. <br>''(While Ichigo is in his 2nd and 4th skins, this skill changes to Tensa Zangetsu.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3371a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3371b",
+      "name": "Tensa Zangetsu (天鎖斬月)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Tensa Zangetsu!",
+      "description": "Ichigo uses Shunpo to appear before single target to strike them with his sword, dealing damage equal to 80% of his ATK. <br>At the end of a non-summon enemy's turn, his move bar is increased by 8%. <br>''(While Ichigo is in his 2nd and 4th skins, this skill changes to Zangetsu.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3371b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3372a",
+      "name": "Hollowfication (虚化)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When an ally other than himself with less than 40% of their max HP receives damage, Ichigo will counter-attack the attacker. Only triggers once per turn.\nAt the end of his turn, and if he is not Immobile, he gains 1 Reiatsu layer. For every ally with less than 40% of their max HP, he gains an additional layer of Reiatsu. When Ichigo gains 1 Reiatsu layer for the first time, Final Getsuga Tensho will be unlocked. \n;Upon Usage\n:While Ichigo is in his Hollowed form, using this skill will allow him to enter his 2nd Stage Hollowed form.\n;Reiatsu (霊圧)\n:\n:'''General, Mark''': After gaining 4 layers of Reiatsu, enter Hollowed form.\n;Hollowed (虚化)\n:\n:'''General, Mark''': Damage dealt is increased by 100%, damage received is decreased by 40%.\n;2nd Stage Hollowed (虚化・弐)\n:\n:'''General, Mark''': Damage dealt is increased by 100%, damage received is reduced by 40% and become immune to debuffs.\nCounter-attack effect changes to: When an ally receives damage, Ichigo counter attacks the attacker with Getsuga Tensho without using onibi. Only triggers once per turn. Using Zangetsu or Getsuga Tensho 4 times releases Ichigo from his hollowed forms.",
+      "upgrades": [],
+      "icon": "assets/skills/3372a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3372b",
+      "name": "Final Getsuga Tensho (最後の月牙天衝)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "When Ichigo receives lethal damage, all buffs and debuffs removed from him and he is released from all hollowed forms. He gains a new turn and attacks a random enemy, dealing damage equal to 600% of his ATK. This damage does not trigger the target's passive or souls and the damage cannot be shared.\nAfter this skill has been activated, Ichigo will be KO'd and cannot be revived.",
+      "upgrades": [],
+      "icon": "assets/skills/3372b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3373a",
+      "name": "Getsuga Tensho (月牙天衝)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Getsuga Tensho!",
+      "description": "Ichigo exerts his Reiatsu to attack an enemy, dealing damage equal to 263% of his ATK. <br>''(While Ichigo is in his 2nd and 4th skins, this skill's icon changes to Banka Getsuga Tensho.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 276%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 289%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 302%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 315%."
+        }
+      ],
+      "icon": "assets/skills/3373a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3373b",
+      "name": "Getsuga Tensho (月牙天衝)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Getsuga Tensho!",
+      "description": "Ichigo exerts his Reiatsu to attack an enemy, dealing damage equal to 263% of his ATK. <br>''(While Ichigo is in his 1st and 3rd skins, this skill's icon changes to Getsuga Tensho.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 276%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 289%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 302%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 315%."
+        }
+      ],
+      "icon": "assets/skills/3373b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ichigo.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Ichigo with another player's Rukia Kuchiki and clear any zone 10 times.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "With Ichigo win 10 times in PVN zones against Rukia Kuchiki.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/337skin1.webp",
+  "stats": {
+    "min": {
+      "no": 337,
+      "en": null,
+      "atk": 138,
+      "hp": 842,
+      "def": 62,
+      "spd": 100,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 337,
+      "en": null,
+      "atk": 3198,
+      "hp": 9898,
+      "def": 398,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

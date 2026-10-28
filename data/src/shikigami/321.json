@@ -1,0 +1,212 @@
+{
+  "no": 321,
+  "en": "Noukanshi",
+  "cn": "入殓师",
+  "jp": "納棺師",
+  "gl": "Okuribito",
+  "rarity": "SR",
+  "image": "File:321.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Noukanshi",
+  "cv": "Sho Hayami",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/321.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/321.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "127",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "790",
+        "lv2": null,
+        "max": "9342"
+      },
+      "def": {
+        "lv1": "71",
+        "lv2": null,
+        "max": "463"
+      },
+      "spd": {
+        "lv1": "94",
+        "lv2": null,
+        "max": "104"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "D",
+        "C"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "D",
+        "B"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3211",
+      "name": "Death Ritual (葬仪/葬儀)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Allow me to color your death.",
+      "description": "Okuribito unleashes the power of the underworld at a single target, dealing damage equal to 100% of his attack.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3211.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3212",
+      "name": "Soulsplit (离魂/離魂)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Time to split your soul.",
+      "description": "Okuribito attacks an enemy, dealing damage equal to 211% of his attack. ; : ;Soul Rift (魂隙) : :'''Debuff, Mark''': Inflicts indirect damage after taking an action.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 221%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 232%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 244%."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi decreases by 1."
+        }
+      ],
+      "icon": "assets/skills/3212.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3213",
+      "name": "Coffin of White Roses (荼蘼盛放之棺/花咲く棺)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 2,
+      "line": "Oriyuki, even death cannot separate us.",
+      "description": "Okuribito summons Oriyuki, the girl in his coffin, who exists for 1 turn. As long as Oriyuki is present, his SPD is decreased by 50%, his base DEF is increased by 250% and RES is increased by 70%. <br/>If he is not immobile at the end of an enemy's turn, he attacks them and the enemy with the lowest HP proportion, dealing damage equal to 20% of his ATK. Also deals extra damage equal to 10% of his ATK for each onibi spent by the enemy during the last turn. <br/>This skill's damage increases by 2.5% for every 1% of HP that he loses.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage when an enemy uses onibi increased to 20%"
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Cooldown is decreased by 1."
+        }
+      ],
+      "icon": "assets/skills/3213.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Okuribito.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Okuribito's level to 30.",
+      "reward": "Shikigami No.321 ×10"
+    },
+    {
+      "condition": "With Okuribito clear any zone 40 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/321skin1.webp",
+  "stats": {
+    "min": {
+      "no": 321,
+      "en": null,
+      "atk": 127,
+      "hp": 790,
+      "def": 71,
+      "spd": 94,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 321,
+      "en": null,
+      "atk": 3028,
+      "hp": 9342,
+      "def": 463,
+      "spd": 104,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

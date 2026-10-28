@@ -1,0 +1,212 @@
+{
+  "no": 258,
+  "en": "Ryoumenbotoke",
+  "cn": "两面佛",
+  "jp": "両面仏",
+  "gl": "Ryomen",
+  "rarity": "SSR",
+  "image": "File:258.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ryoumenbotoke",
+  "cv": "Kazuhiko Inoue",
+  "intro": "",
+  "method": "Wanted Quests • Mall: Honor Shop",
+  "imageUrl": "assets/shikigami/258.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/258.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "136",
+        "lv2": null,
+        "max": "3136"
+      },
+      "hp": {
+        "lv1": "875",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2581",
+      "name": "Random Element (风雷两生/風雷)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Bow to the might of the wind! No, tremble at the fearsome lightning!",
+      "description": "Ryoumenbotoke uses one of his faces to strike a single target; dealing damage equal to 100% of their ATK if Raijin strikes; or dealing damage equal to 25% of their ATK and inflicts Wind Fury, deals indirect damage equal to 125% of their ATK and lasts for 1 turn, if Fujin strikes. ;Wind Fury (風の怒り) : :'''Debuff, Status''': Inflicts indirect damage at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Raijin's damage increases to 105% and Fujin's damage increases to 27%, indirect damage also increases to 132%."
+        },
+        {
+          "lvl": 3,
+          "text": "Raijin's damage increases to 110% and Fujin's damage increases to 28%, indirect damage also increases to 138%."
+        },
+        {
+          "lvl": 4,
+          "text": "Raijin's damage increases to 115% and Fujin's damage increases to 29%, indirect damage also increases to 144%."
+        },
+        {
+          "lvl": 5,
+          "text": "Raijin's damage increases to 125% and Fujin's damage increases to 32%, indirect damage also increases to 157%."
+        }
+      ],
+      "icon": "assets/skills/2581.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2582",
+      "name": "Eyes of Wrath (怒目/睨み)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hide all you like! There is no escaping our wrath!",
+      "description": "When Ryoumenbotoke attacks, Rajin has a 100% base chance of inflicting targets with Eyes of Wrath: Thunder and Fujin has a 100% base chance of inflicting targets with Eyes of Wrath: Wind. Both effects lasts for turns. ;Eyes of Wrath：Thunder (雷の怒目) : :'''Debuff, Status''': Decreases DEF by 10%. ;Eyes of Wrath：Wind (風の怒目) : :'''Debuff, Status''': Decreases ATK by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Eyes of Wrath''': DEF and ATK increase to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Eyes of Wrath''': DEF and ATK increase to 14%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Eyes of Wrath''': DEF and ATK increase to 16%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Raijin attacks, decreases the move bar of all enemies with ATK lower than his own by 8%. When Fujin inflicts indirect damage on enemies with DEF lower than his own, increases his move bar by 8%."
+        }
+      ],
+      "icon": "assets/skills/2582.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2583",
+      "name": "Divine Combo (神罪连击/雷鳴)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Raging winds and lightning together are my favorite kind of weather.",
+      "description": "Ryoumenbotoke invades the enemy line-up and uses one of his faces to attack all enemies 3 times, dealing damage equal to 44% of their ATK with each attack if Raijin strikes; or dealing damage equal to 11% of their ATK with each attack and inflicts Vortex Assault, deals indirect damage equal to 55% of their ATK and lasts for 1 turn, if Fujin strikes. ;Vortex Assault (風の襲撃) : :'''Debuff, Status''': Inflicts indirect damage at the end of turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Raijin's damage increases to 47% and Fujin's damage increases to 12%, indirect damage also increases to 59%."
+        },
+        {
+          "lvl": 3,
+          "text": "Raijin's damage increases to 49% and Fujin's damage increases to 13%, indirect damage also increases to 61%."
+        },
+        {
+          "lvl": 4,
+          "text": "Raijin's damage increases to 51% and Fujin's damage increases to 14%, indirect damage also increases to 64%."
+        },
+        {
+          "lvl": 5,
+          "text": "Raijin's damage increases to 55% and Fujin's damage increases to 15%, indirect damage also increases to 69%."
+        }
+      ],
+      "icon": "assets/skills/2583.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Ryoumenbotoke take part in 30 Realm Raids.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Ryoumenbotoke's level to 30.",
+      "reward": "Shikigami No.258 ×10"
+    },
+    {
+      "condition": "Increase Ryoumenbotoke's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/258skin1.webp",
+  "stats": {
+    "min": {
+      "no": 258,
+      "en": null,
+      "atk": 136,
+      "hp": 875,
+      "def": 61,
+      "spd": 99,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 258,
+      "en": null,
+      "atk": 3136,
+      "hp": 10482,
+      "def": 401,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

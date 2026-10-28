@@ -1,0 +1,212 @@
+{
+  "no": 255,
+  "en": "Enma",
+  "cn": "阎魔",
+  "jp": "閻魔",
+  "gl": "閻魔",
+  "rarity": "SSR",
+  "image": "File:255.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Enma",
+  "cv": "Mamiko Noto",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/255.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/255.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "2466"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "70",
+        "lv2": null,
+        "max": "454"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "127"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2551",
+      "name": "Demon Mask (鬼面)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Time to face death...",
+      "description": "Enma summons a demon mask to strike a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2551.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2552",
+      "name": "Soul Plunder (夺魂/魂奪取)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Your soul belongs to me.",
+      "description": "Enma gains Ghost Rider. <br>She summons a White Ghost when an enemy is KO'd to take their spot. The White Ghost sacrifices itself to attack all enemies on its next action, dealing damage equal to 100% of her ATK. This damage does not trigger souls or passives. <br>The White Ghost inherits 10% of Enma's HP and 50% of her ATK. The enemy whose spot is occupied by a White Ghost cannot be revived. <br>When using Spirit Crush she has a 50% base chance of Morphing targets into a Black Ghost, lasts for 1 turn. ;Ghost Rider (魂馳) :'''Buff, Mark''': If there's a Ghost on the enemy's side, Enma gains 50% of damage reduction. If there are none, her damage dealt is increased by 50%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 55%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 65%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 70%."
+        }
+      ],
+      "icon": "assets/skills/2552.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2553",
+      "name": "Spirit Crush (怨魂重压/怨魂重压）",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Surrender to me!",
+      "description": "Enma summons departed spirits to crush 1 enemy, dealing damage equal to 211% of her ATK and has a 100% base chance of inflicting them with Silence, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 222%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 233%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 244%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 255%."
+        }
+      ],
+      "icon": "assets/skills/2553.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Enma.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Enma with another player's Hangan and clear any zone 10 times.",
+      "reward": "Shikigami No.255 ×10"
+    },
+    {
+      "condition": "With Enma clear stage 9 of the Orochi soul zone (solo).",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/255skin1.webp",
+  "stats": {
+    "min": {
+      "no": 255,
+      "en": null,
+      "atk": 104,
+      "hp": 1014,
+      "def": 70,
+      "spd": 107,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 255,
+      "en": null,
+      "atk": 2466,
+      "hp": 11963,
+      "def": 454,
+      "spd": 127,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

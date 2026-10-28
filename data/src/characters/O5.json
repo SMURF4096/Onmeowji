@@ -1,0 +1,240 @@
+{
+  "no": "O5",
+  "role": "champion",
+  "page": "Minamoto no Yorimitsu",
+  "en": "Minamoto no Yorimitsu",
+  "cn": "源赖光",
+  "jp": "源頼光",
+  "unlock": "Chapter 26",
+  "cv": "Toshiyuki Morikawa",
+  "intro": "",
+  "image": "assets/onmyoji/O5.webp",
+  "imageUrl": "assets/onmyoji/O5.webp",
+  "stats2": {
+    "atk": {
+      "lv1": "3256",
+      "max": "6382"
+    },
+    "hp": {
+      "lv1": "13847",
+      "max": "20826"
+    },
+    "def": {
+      "lv1": "536",
+      "max": "806"
+    },
+    "spd": {
+      "lv1": "100",
+      "max": "142"
+    },
+    "crit": {
+      "lv1": "0",
+      "max": "20"
+    },
+    "cdmg": {
+      "lv1": "150",
+      "max": "150"
+    },
+    "effhit": {
+      "lv1": "0",
+      "max": "0"
+    },
+    "effres": {
+      "lv1": "0",
+      "max": "0"
+    }
+  },
+  "skills": [
+    {
+      "image": "o5skill1",
+      "icon": "assets/skills/O5skill1.webp",
+      "name": "Heavenly Blade (天剣)",
+      "type": "Normal",
+      "cooldown": 0,
+      "description": "Yorimitsu attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ]
+    },
+    {
+      "image": "o5skill2",
+      "icon": "assets/skills/O5skill2.webp",
+      "name": "Heavenly Purge (天誅・八華斬)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Yorimitsu launches a 3-strike attack on a targeted enemy, dealing damage equal to 68% of his ATK with each strike. Then launches a 5-strike attack on random enemies, dealing damage equal to 120% of his ATK with each strike. The random attack prioritizes undamaged enemies, and the damage is reduced by 50% for each subsequent strike on the same enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage to targeted enemies increases to 72%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage to random enemies increases to 126%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage to targeted enemies increases to 76%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage to random enemies increases to 126%."
+        }
+      ]
+    },
+    {
+      "image": "o5skill3",
+      "icon": "assets/skills/O5skill3.webp",
+      "name": "Armor the World (天下布武)",
+      "type": "Special",
+      "cooldown": 0,
+      "description": "Yorimitsu launches a 3-strike attack on 1 enemy, dealing damage equal to 100% of his ATK with each strike. Then deal an additional strike, dealing true damage equal to 21% of the target's lost HP (cannot exceed 35% of his initial ATK).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 106%."
+        },
+        {
+          "lvl": 3,
+          "text": "True damage increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 112%."
+        },
+        {
+          "lvl": 5,
+          "text": "When the targeted enemy receives damage and their HP is below 30%, automatically uses this skill on them (excludes monsters, triggers once before the start of each turn)."
+        }
+      ]
+    },
+    {
+      "image": "o5skill4",
+      "icon": "assets/skills/O5skill4.webp",
+      "name": "Weaponized Demon (鬼神の策)",
+      "type": "Special",
+      "cooldown": 1,
+      "description": "Yorimitsu decreases the DEF of all enemies by 150, lasts for 1 turn. Also inflicts them with 1 Slash stack. ;Slash (剑伤) : :General, Mark: When attacked, inflicted with true damage equal to 70% of Yorimitsu's ATK and removes 1 stack. If triggered by the Ghost Armour, the damage increases by 30%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Number of Slash stacks inflicted increases to 2."
+        },
+        {
+          "lvl": 3,
+          "text": "DEF reduction duration increases to 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "Slash: True damage increases to 90%."
+        },
+        {
+          "lvl": 5,
+          "text": "DEF reduction increases to 170."
+        }
+      ]
+    },
+    {
+      "image": "o5skill5",
+      "icon": "assets/skills/O5skill5.webp",
+      "name": "Blood Pact (血之契)",
+      "type": "Special",
+      "cooldown": 3,
+      "description": "Yorimitsu grants command of the Ghost Armour to another ally and increases his own Crit by 22%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Crit increases to 26%."
+        },
+        {
+          "lvl": 3,
+          "text": "Upon usage, the damage absorption of the Ghost Armour increases to 40% of his initial ATK."
+        },
+        {
+          "lvl": 4,
+          "text": "Crit increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon usage, the damage absorption of the Ghost Armour increases to 50% of his initial ATK."
+        }
+      ]
+    },
+    {
+      "image": "o5skill6",
+      "icon": "assets/skills/O5skill6.webp",
+      "name": "Ghost Garb (鬼冑)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "Each time Yorimitsu is attacked, Ghost Armour absorbs 30% of his initial ATK. (Cannot exceed 600% of his initial ATK, refreshes at the start of turn.)",
+      "upgrades": []
+    },
+    {
+      "image": "o5skill7",
+      "icon": "assets/skills/O5skill7.webp",
+      "name": "Blade Bastion (剣之累)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "When the commander of the Ghost Armour is attacked, but not damaged, it strikes the source of the attack dealing damage equal to 130% of Yorimitsu's ATK (up to 5 times before the start of each turn). Each times it launches a strike, damage for the next strike is increased by 10%, up to 2 strikes, lasts for 1 turn",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the next strike increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of boosted strikes increases to 3."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage boost duration increases to 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage for the initial strike increases to 150%."
+        }
+      ]
+    },
+    {
+      "image": "o5skill8",
+      "icon": "assets/skills/O5skill8.webp",
+      "name": "Fearless (無畏)",
+      "type": "Passive",
+      "cooldown": 0,
+      "description": "Each time an enemy is inflicted with a debuff effect, Yorimitsu gains 1 Anticipation stack, lasts for 3 turns. When an enemy is KO'd, his move bar is increased by 30%. ;Anticipation (剑意/剣意) : :Buff, Mark: Max of 12 stacks. Each stack increases his damage dealt by 1%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Anticipation: Each stack increases his Crit by 1%."
+        },
+        {
+          "lvl": 3,
+          "text": "Anticipation: Max stacks increases to 18."
+        },
+        {
+          "lvl": 4,
+          "text": "Anticipation: Each stack increases his SPD by 2%."
+        },
+        {
+          "lvl": 5,
+          "text": "Anticipation: Max stacks increases to 24."
+        }
+      ]
+    }
+  ]
+}

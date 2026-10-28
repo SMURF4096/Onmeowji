@@ -1,0 +1,212 @@
+{
+  "no": 351,
+  "en": "Suzuka Gozen",
+  "cn": "铃鹿御前",
+  "jp": "鈴鹿御前",
+  "gl": "鈴鹿御前",
+  "rarity": "SSR",
+  "image": "File:351.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Suzuka_Gozen",
+  "cv": "Youko Hikasa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/351.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/351.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "141",
+        "lv2": null,
+        "max": "3270"
+      },
+      "hp": {
+        "lv1": "1131",
+        "lv2": null,
+        "max": "13216"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "384"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3511",
+      "name": "Shadowchaser (逐影)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Mt. Suzuka is where we truly belong.",
+      "description": "Suzuka Gozen uses her white hot Shadowchaser to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3511.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3512",
+      "name": "Mountain's Soul: Ultra (麓魂・极)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "No one will be left behind this time.",
+      "description": "Suzuka Gozen wields her Nether Bow to attack 1 enemy, dealing damage equal to 211% of her ATK and gains Obligated Duty until her next turn. ; : ;Obligated Duty (義の心) : :'''Buff, Mark''': Exclusive effect. Creates a shield that can absorb 115% of her ATK, cannot be dispelled. While the shield is active, enemies cannot target Suzuka Gozen's allies. The shield can can take up to 5 attacks. When the shield is destroyed, this effect is removed. ;Mountain's Barrier (麓障) : :'''Buff, Mark''': Damage received is reduced by 60% (cannot exceed 40% of her ATK). This effect is removed upon receiving a single attack. ;Crit RES :Source of damage has its Crit reduced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After using this skill, the move bar for all allies is increased by 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "As long as she has Obligated Duty, her RES increased by 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "As long as she has Obligated Duty, her Crit RES increased by 200%."
+        },
+        {
+          "lvl": 5,
+          "text": "When she gains Obligated Duty and if the targeted enemy is not immobile, they are forced to gain a new turn and launch a normal attack at Suzuka Gozen (monsters or summonable enemies are unaffected)."
+        }
+      ],
+      "icon": "assets/skills/3512.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3513",
+      "name": "Crashing Barrage (万羽浪行)",
+      "type": "Special",
+      "onibi": 4,
+      "cooldown": 0,
+      "line": "Don't you dare belittle Mt. Suzuka.",
+      "description": "Suzuka Gozen combines the power of her two weapons and shoots Shadowchaser with her Nether Bow to launch a 5-strike attack on all enemies, dealing damage equal to 44% of her ATK with each strike and also inflicts 10% of HP Steal.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 47%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 5,
+          "text": "Each onibi spent by an ally increases her own ATK and DEF by 2% (max 50 stack)."
+        }
+      ],
+      "icon": "assets/skills/3513.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Suzuka Gozen with another player's Ootakemaru and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Suzuka Gozen's skills 12 times.",
+      "reward": "Shikigami No.351 ×10"
+    },
+    {
+      "condition": "With Suzuka Gozen win 30 times in PVP, Practice or Spar.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/351skin1.webp",
+  "stats": {
+    "min": {
+      "no": 351,
+      "en": null,
+      "atk": 141,
+      "hp": 1131,
+      "def": 60,
+      "spd": 100,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 351,
+      "en": null,
+      "atk": 3270,
+      "hp": 13216,
+      "def": 384,
+      "spd": 110,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

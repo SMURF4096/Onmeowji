@@ -1,0 +1,93 @@
+{
+  "no": 560,
+  "en": "Tamatori",
+  "cn": "玉取",
+  "jp": "Tamatori",
+  "gl": "Tamatori",
+  "rarity": "SSR",
+  "type": "ATK",
+  "role": "shikigami",
+  "image": "File:560.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tamatori",
+  "cv": "Kei Shindou",
+  "intro": "",
+  "method": "Summon • Demon Parade • Not yet released on GL (postponed)",
+  "art": "assets/art/560skin1.webp",
+  "localImage": "assets/shikigami/560.webp",
+  "imageUrl": "assets/shikigami/560.webp",
+  "skills": [
+    {
+      "name": "Treasure Hunting",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5601.webp",
+      "description": "Tamatori attacks a single target dealing damage equal to 100% of her ATK. Gains Secret Treasure points (max 18). Level 2: 105%. Level 3: 110%. Level 4: 115%. Level 5: 125% and she gains 2 Secret Treasure points.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and she gains 2 Secret Treasure points."
+        }
+      ],
+      "group": "Normal"
+    },
+    {
+      "name": "Big Spender",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5602.webp",
+      "description": "Exclusive effect. When Tamatori uses Confrontation (3 strikes), she deals 40%, 75% and 95% of her ATK per strike and gains 2 Secret Treasure points per strike. At 18 points, after a Duel ends, she attacks all enemies for 126% ATK, ignoring enemy soul effects. Level 2: last strike 107%. Level 3: last strike 206% at 8 points. Level 4: +6% damage per 40 initial SPD (max 36%). Level 5: when receiving damage of 12%+ initial HP while uncontrolled, inflicts Golden Showdown on the source (1 turn).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage for the last attack of Tamatori's Confrontation increases to 107%."
+        },
+        {
+          "lvl": 3,
+          "text": "When she has 8 Secret Treasure points, damage for the last attack of Tamatori's Confrontation increases to 206%."
+        },
+        {
+          "lvl": 4,
+          "text": "For every 40 initial SPD she has, her damage dealt increases by 6%, max of 36%."
+        },
+        {
+          "lvl": 5,
+          "text": "The following effect triggers when Tamatori is not inflicted with a control effect and there is no enemy with Golden Showdown; when she receives damage equal to 12% or more if her initial HP, inflicts Golden Showdown on the source of the damage, lasts for 1 turn."
+        }
+      ],
+      "group": "Passive"
+    },
+    {
+      "name": "Burn One’s Boats",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5603a.webp",
+      "description": "Tamatori selects 1 enemy for a Duel. Against summoned entities or monsters she immediately uses Confrontation and gains 2 Secret Treasure points. Level 2: gains Sharkperson’s Jewel for 1 turn. Level 3: inflicts Golden Showdown (1 turn). Level 4: when Golden Showdown disappears, move bar +30%. Level 5: on losing HP or lethal damage, loses all Secret Treasure and recovers 30% HP (once per battle).",
+      "group": "Special"
+    },
+    {
+      "name": "Confrontation",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "icon": "assets/skills/5603b.webp",
+      "description": "Attacks a target 3 times, dealing 40% of ATK per strike. When used in a Duel, the strikes are dealt in turns.",
+      "upgrades": [],
+      "group": "Special"
+    }
+  ]
+}

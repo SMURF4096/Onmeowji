@@ -1,0 +1,273 @@
+{
+  "no": 588,
+  "en": "Syaoran Li",
+  "cn": "李小狼",
+  "jp": "リ・シャオラン",
+  "gl": "リ・シャオラン",
+  "rarity": "SSR",
+  "image": "File:588.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Syaoran_Li",
+  "cv": "",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/588.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/588.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3216"
+      },
+      "hp": {
+        "lv1": "854",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "60",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5881a",
+      "name": "Element: Fire (火神招来)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Syaoran attacks a single target dealing damage equal to 100% of his ATK. <br>''(While Syaoran is in his 1st or 2nd skin, this skill changes to Element: Wind.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5881a.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "5881b",
+      "name": "Element: Wind (風華招来)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Syaoran attacks a single target dealing damage equal to 100% of his ATK. <br>''(While Syaoran is in his 3rd skin, this skill changes to Element: Fire.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5881b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5882a",
+      "name": "Magic Trace (魔力追踪)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "At the end of turn, Syaoran has a 70% chance to gain an Ofuda. When an Ofuda is consumed, his HP is recovered by 65% of his ATK for per Ofuda. <br>''(While Syaoran is in his 3rd skin, this skill's icon changes into an ofuda with a cool toned glow.)'' ;Ofuda (道符) : :'''General, Mark''': Max of 3 stacks. Each stack decreases the onibi cost of his special skill by 1 and decreases his damage received by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "When ally other than himself uses a special skill on their turn, he gains an Ofuda (max of 1 per turn)."
+        },
+        {
+          "lvl": 4,
+          "text": "When the current HP for any enemy is less than or equal to their initial max HP, his move bar is increased by 15%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically starts battle with 1 Ofuda."
+        }
+      ],
+      "icon": "assets/skills/5882a.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5882b",
+      "name": "Magic Trace (魔力追踪)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "At the end of turn, Syaoran has a 70% chance to gain an Ofuda. When an Ofuda is consumed, his HP is recovered by 65% of his ATK for per Ofuda. <br>''(While Syaoran is in his 1st or 2nd skin, this skill's icon changes into an ofuda with a warm toned glow.)'' ;Ofuda (道符) : :'''General, Mark''': Max of 3 stacks. Each stack decreases the onibi cost of his special skill by 1 and decreases his damage received by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 100%."
+        },
+        {
+          "lvl": 3,
+          "text": "When ally other than himself uses a special skill on their turn, he gains an Ofuda (max of 1 per turn)."
+        },
+        {
+          "lvl": 4,
+          "text": "When the current HP for any enemy is less than or equal to their initial max HP, his move bar is increased by 15%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically starts battle with 1 Ofuda."
+        }
+      ],
+      "icon": "assets/skills/5882b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5883a",
+      "name": "Element: Lightning (雷帝招来)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Syaoran consumes all Ofuda and for each Ofuda consumed, he decreases an targeted enemy's initial max HP by 11% (each decrease from a consumed Ofuda cannot exceed 235% of his initial ATK), lasts for 5 turns. Then attacks them dealing damage equal to 289% of his ATK. <br>''(While Syaoran is in his 3rd skin, this skill changes to Element: Ice.)'' ;Ofuda (道符/御札) : :'''General, Mark''': Max of 3 stacks. Each stack decreases the onibi cost of his special skill by 1 and decreases his damage received by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 302%."
+        },
+        {
+          "lvl": 3,
+          "text": "For each Ofuda consumed, the damage multiplier is increased by 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 315%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each 1% of reduced max HP the enemy has, also decreases their non-crit damage dealt by 1%."
+        }
+      ],
+      "icon": "assets/skills/5883a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5883b",
+      "name": "Element: Ice (氷華招来)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Syaoran consumes all Ofuda and for each Ofuda consumed, he decreases an targeted enemy's initial max HP by 11% (each decrease from a consumed Ofuda cannot exceed 235% of his initial ATK), lasts for 5 turns. Then attacks them dealing damage equal to 289% of his ATK. <br>''(While Syaoran is in his 1st or 2nd skin, this skill changes to Element: Lightning.)'' ;Ofuda (道符/御札) : :'''General, Mark''': Max of 3 stacks. Each stack decreases the onibi cost of his special skill by 1 and decreases his damage received by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 289%."
+        },
+        {
+          "lvl": 3,
+          "text": "For each Ofuda consumed, the damage multiplier is increased by 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 315%."
+        },
+        {
+          "lvl": 5,
+          "text": "For each 1% of reduced max HP the enemy has, also decreases their non-crit damage dealt by 1%."
+        }
+      ],
+      "icon": "assets/skills/5883b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "? ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/588skin1.webp"
+}

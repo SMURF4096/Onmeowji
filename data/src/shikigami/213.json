@@ -1,0 +1,208 @@
+{
+  "no": 213,
+  "en": "Doujo",
+  "cn": "童女",
+  "jp": "Dojo",
+  "gl": "Dojo",
+  "rarity": "R",
+  "image": "File:213.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Doujo",
+  "cv": "Ai Kakuma",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/213.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/213.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "2412"
+      },
+      "hp": {
+        "lv1": "1099",
+        "lv2": null,
+        "max": "12988"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "423"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2131",
+      "name": "Feather Pierce (羽刺/羽刺)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Oh... My feathers!",
+      "description": "Doujo hardens her feathers and shoots them at a single target, dealing damage equal to 100% of her ATK and gains Feather Shelter, lasts 1 turn. ;Feather Shelter (羽の加護) : :'''Buff, Mark''': Increases RES by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2131.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2132",
+      "name": "Feather Cloak (羽衣/羽の衣)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Brother, where are you?",
+      "description": "When receiving damage, Doujo's Feather Cloak prevents damage equal to 3% of her max HP, up to 40% of the damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases HP proportion prevented to 3.5%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases HP proportion prevented to 4%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases HP proportion prevented to 4.5%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases HP proportion prevented to 5%."
+        }
+      ],
+      "icon": "assets/skills/2132.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2133",
+      "name": "Sacrifice (命之祭献/命のきらめき)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "My life... Take it!",
+      "description": "Doujo spends 30% of her current HP to restore the HP of all other allies by 10% of her max HP. <br>When her HP is below 30%, she also restores her own HP. ; : ;Protection of Fate (命の加護) : :'''Buff, Mark''': Increases RES by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "HP restored increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "HP cost decreases to 20%."
+        }
+      ],
+      "icon": "assets/skills/2133.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Doujo gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Doujo with another player's Oguna and clear any zone 10 times.",
+      "reward": "Shikigami No.213 ×10"
+    },
+    {
+      "condition": "Donate 5 Doujo shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/213skin1.webp",
+  "stats": {
+    "min": {
+      "no": 213,
+      "en": null,
+      "atk": 103,
+      "hp": 1099,
+      "def": 65,
+      "spd": 99,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 213,
+      "en": null,
+      "atk": 2412,
+      "hp": 12988,
+      "def": 423,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

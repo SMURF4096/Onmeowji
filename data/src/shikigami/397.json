@@ -1,0 +1,181 @@
+{
+  "no": 397,
+  "en": "Gintoki Sakata",
+  "cn": "坂田银时",
+  "jp": "坂田銀時",
+  "gl": "坂田銀時",
+  "rarity": "SSR",
+  "image": "File:397.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Gintoki_Sakata",
+  "cv": "Tomokazu Sugita",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/397.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/397.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "134",
+        "lv2": null,
+        "max": "3101"
+      },
+      "hp": {
+        "lv1": "961",
+        "lv2": null,
+        "max": "11404"
+      },
+      "def": {
+        "lv1": "56",
+        "lv2": null,
+        "max": "371"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3971",
+      "name": "Toyako Slash (洞爺湖斬撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Gintoki attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and has 20% base chance to inflict the enemy with Taunt, lasts for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/3971.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "3971",
+      "name": "Sugar Rush (糖分追撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''(This skill triggers when an enemy is inflicted with Taunt or Provocation.)''\nGintoki increases his move bar by 5% and and inflicts the enemy with Seal, lasts for 1 turn. Then he attacks a single target dealing damage equal to 198% of his ATK, when attacking monsters the damage increases to 297%.",
+      "upgrades": [],
+      "icon": "assets/skills/3971.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3972",
+      "name": "Sugar Content (糖分)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. Gintoki gains 6 stacks of Sugar at the start of battle and his turn. When the enemy is inflicted with Taunt or Provocation, and if he isn't inflicted with a control effect or Banish and similar effects, he will consume 1 stack of Sugar to attack the enemy with Sugar Rush.\n;\n:\n;Sugar (糖分)\n:\n:'''Buff, Mark''': Each layer increases RES by 10%, HIT by 5%, DEF by 5% and ATK by 5%.",
+      "upgrades": [],
+      "icon": "assets/skills/3972.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3973",
+      "name": "Silver Soul (銀ノ魂)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Gintoki attacks all enemies 3 times, dealing damage equal to 62% of his ATK with each attack. Also has a 12% base chance to inflict Provocation on a selected target and inflicts Taunt on every other enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 67%."
+        },
+        {
+          "lvl": 3,
+          "text": "Base chance increases to 15%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 72%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 18%."
+        }
+      ],
+      "icon": "assets/skills/3973.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Gintoki's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Gintoki's skills 8 times.",
+      "reward": "Shikigami No.397 ×10"
+    },
+    {
+      "condition": "Team Gintoki with another player's Kagura & Sadaharu and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/397skin1.webp"
+}

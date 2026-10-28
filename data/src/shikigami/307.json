@@ -1,0 +1,195 @@
+{
+  "no": 307,
+  "en": "Nekomata",
+  "cn": "猫掌柜",
+  "jp": "猫又",
+  "gl": "猫又",
+  "rarity": "SR",
+  "image": "File:307.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nekomata",
+  "cv": "Yui Horie",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/307.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/307.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": null,
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "415"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3071",
+      "name": "Hear Meow Call (猫猫召来/猫ちゃん召喚)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Go get 'em, kitties!",
+      "description": "Nekomata attacks a single target dealing damage equal to 80% of her ATK and summons one her kittens for assistance. ;Kuronosuke (黒之助) :Has a 60% chance of removing an onibi from the enemy. ;Yukihime (雪姫) :Deals additional damage equal to 40% of Nekomata's ATK. ;Chacha (茶々) :Decreases the target's move bar by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 84%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 88%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 92%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3071.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3072",
+      "name": "Meownified Attack (猫合战/猫合戦)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 2,
+      "line": "Don't be lazy Tachibana, let's get to work!",
+      "description": "Nekomata channels her energy to enlarge Tachibana and Rides her for 2 turns. When mounted, Nekomata's SPD is increased by 20 and she can summon two of her kittens instead.\n;\n:\n;Ride (騎乗)\n:'''General, Mark''': Nekomata rides Tachibana, she gains a boost to her normal attack and special skill.",
+      "upgrades": [],
+      "icon": "assets/skills/3072.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3073",
+      "name": "Scuffling Kitties (猫猫乱斗/猫ちゃん乱闘)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "How dare you make a fuss in my tavern!",
+      "description": "Nekomata launches a 5-strike attack on an enemy, dealing damage equal to 42% of her ATK with each strike and summons one her kittens for assistance. ;Kuronosuke (黒之助) :Has a 60% chance of removing an onibi from the enemy. ;Yukihime (雪姫) :Deals additional damage equal to 40% of Nekomata's ATK. ;Chacha (茶々) :Decreases the target's move bar by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 44%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 46%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 48%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 50%."
+        }
+      ],
+      "icon": "assets/skills/3073.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Nekomata's to level 30.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Clear stage 9 of the Orochi soul zone (solo) with Nekomata.",
+      "reward": "Shikigami No.307 ×10"
+    },
+    {
+      "condition": "With Nekomata win 30 times in Duel, Practice or Spar against Oitsukigami.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/307skin1.webp",
+  "stats": {
+    "min": {
+      "no": 307,
+      "en": null,
+      "atk": 128,
+      "hp": 907,
+      "def": 64,
+      "spd": 108,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 307,
+      "en": null,
+      "atk": 3002,
+      "hp": 10709,
+      "def": 415,
+      "spd": 118,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

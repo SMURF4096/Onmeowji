@@ -1,0 +1,198 @@
+{
+  "no": 601,
+  "en": "Omoikane no Kami",
+  "cn": "阶式神",
+  "jp": "Omoikane",
+  "gl": "Omoikane",
+  "rarity": "SSR",
+  "image": "File:601.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Omoikane_no_Kami",
+  "cv": "Igarashi Masashi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/601.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/601.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "89",
+        "lv2": null,
+        "max": "2144"
+      },
+      "hp": {
+        "lv1": "1270",
+        "lv2": null,
+        "max": "14697"
+      },
+      "def": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "534"
+      },
+      "spd": {
+        "lv1": "100",
+        "lv2": null,
+        "max": "110"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "S",
+        "S"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "6011",
+      "name": "Blazepath (焰途)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Follow this guidance and arrive at true wisom.",
+      "description": "Omoikane attacks a single target dealing damage equal to 100% of his ATK. ;Faith (信仰) : :'''Buff''', '''Mark''': Unique effect. Max 12 stacks. Upon reaching the limit, this effect is removed and all allies gain a shield that cannot be dispelled, absorbing damage equal to 16% of Omoikane no Kami's max HP for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%, gains one stack of Faith."
+        }
+      ],
+      "icon": "assets/skills/6011.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "6012",
+      "name": "Vigilance (警醒)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "These words strike deep enough to awaken even the deafened",
+      "description": "Exclusive effect. When an ally has Wisdom Flame on the field, Omoikane no Kami gains the skill Enlightenment. ;Wisdom Flame (智识之火) : :'''Buff''', '''Mark''': Increases CRIT DMG by 30%. ;Faith (信仰) : :'''Buff''', '''Mark''': Unique effect. Max 12 stacks. Upon reaching the limit, this effect is removed and all allies gain a shield that cannot be dispelled, absorbing damage equal to 16% of Omoikane no Kami's max HP for 2 turns. ;Fixed DMG :One of the types of damage, ignores DEF, does not land CRIT hits and is unaffected by damage increase/reduction effects.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "For each turn, where allies do not cast a skill, Omoikane gains 1 stack of Faith."
+        },
+        {
+          "lvl": 3,
+          "text": "Enlightenment's Fixed DMG multiplier is increased to 16%."
+        },
+        {
+          "lvl": 4,
+          "text": "When Faith is removed, the Wisdom Flame bearer with the highest ATK gains 1 turn."
+        },
+        {
+          "lvl": 5,
+          "text": "Enlightenment's Fixed DMG multiplier is increased to 20%"
+        }
+      ],
+      "icon": "assets/skills/6012.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6012a",
+      "name": "Enlightenment (启蒙)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "When the bearer of Wisdom Flame and Fire Shikigami cast skills to attack, Omoikane no Kami assists by casting a skill, dealing damage equal to 12% Fixed DMG of this attack's damage (Can be triggered up to 40 times per action. Damage dealt to each target cannot exceed 2400% of Omoikane no Kami's starting ATK.)\n;Wisdom Flame (智识之火)\n:\n:'''Buff''', '''Mark''': Increases CRIT DMG by 30%.",
+      "upgrades": [],
+      "icon": "assets/skills/6012a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6013",
+      "name": "Wisdom Aflame Forever (智火长明)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "With this body of mine, I shall keep the Wisdom Flame burning forever.",
+      "description": "Lose 24% of current HP to grant Wisdom Flame to an ally. ;Wisdom Flame (智识之火) : :'''Buff''', '''Mark''': Increases CRIT DMG by 30%. ;Upper Hand (先机) :Take action at the start of battle",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "On cast, gain Shield equal to the HP lost and it cannot be dispelled"
+        },
+        {
+          "lvl": 3,
+          "text": "Wisdom Flame increases the CRIT DMG boost to 60%"
+        },
+        {
+          "lvl": 4,
+          "text": "Gain 3 orbs on cast"
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Casts on the allied shikigami with the highest ATK"
+        }
+      ],
+      "icon": "assets/skills/6013.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Omoikane no Kami's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Omoikane no Kami's skills 12 times.",
+      "reward": "Shikigami No.601 ×10"
+    },
+    {
+      "condition": "With Omoikane no Kami, trigger any skill 100 times in any battle.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/601skin1.webp"
+}

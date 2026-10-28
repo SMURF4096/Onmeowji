@@ -1,0 +1,198 @@
+{
+  "no": 399,
+  "en": "Kotodama",
+  "cn": "言灵",
+  "jp": "言霊",
+  "gl": "言霊",
+  "rarity": "SSR",
+  "image": "File:399.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kotodama",
+  "cv": "Satomi Arai",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/399.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/399.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "135",
+        "lv2": null,
+        "max": "3123"
+      },
+      "hp": {
+        "lv1": "928",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "472"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "A"
+      ],
+      "def": [
+        "B",
+        "A"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "B",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3991",
+      "name": "Word's Action (言动/言動)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Words can hurt you; they can also save your life!",
+      "description": "The heart is born formless; it's the words that manifest good and evil. <br>Kotodama attacks a single target with the power of words, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and she has a 20% base chance to inflict the target with Silence, lasts for 1 turn."
+        }
+      ],
+      "icon": "assets/skills/3991.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3992",
+      "name": "Spoken Sin (语罪/言罪)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I decide who I am! I speak for myself!",
+      "description": "Exclusive effect. After the start of battle, when the enemy gains Faux Orb for the first time, they will gain an additional Faux Orb. Whenever the enemy gains 3 or more orbs, Kotodama gains 2 Inkling stacks. At the end of a non-summoned enemies' turn, she gains 1 Inkling stack. ; : ;Inkling (墨灵/墨霊) : :'''Buff, Mark''': Max of 8 stacks. Each stack increases her RES by 8% and damage reduction by 6%. Whenever she has 8 stacks, and if she is not Immobile, consumes all stacks to use Words Manifestation, attacks all enemies dealing damage equal to 87% of her ATK and grants the enemy 2 Faux Orb. ;Faux Orb (义火/義火) : :'''General, Mark''': Exclusive effect. Max of 5 stacks and occupies the enemy's onibi bar. The enemy uses this first as a substitute for onibi when using special skills. Upon gaining this, an equal number of onibi become infected. If there are not enough onibi to be infected, deals damage to the non-summoned enemy at the top of the move bar equal to 80% of her ATK and has a 100% base chance of inflicting the enemy with Silence. If a monster gains this, grants you 2 onibi instead. At the end of a non-summoned enemy's turn, deals damage equal to 30% of her ATK to them. When an enemy only uses Faux Orb to use a special skill, replaces that skill with Lies Silenced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Words Manifestation triggers, she also gains a Words Shield that can absorb damage equal to 14% of her max HP, lasts for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Upper Hand''': Automatically gains 3 Inkling stacks at the start of battle."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Inkling''': Words Manifestation's damage increases to 96%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Inkling''': Words Manifestation's damage increases to 115%."
+        }
+      ],
+      "icon": "assets/skills/3992.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3993a",
+      "name": "Secret of Mantras (真言奥秘)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Everything can firm a mantra, and every word has a true meaning.",
+      "description": "Gives words a soul and rides on words to discover the secret of mantras. <br>Kotodama launches an attack on all enemies, dealing damaging equal to 210% of her ATK and grants the enemy 2 Faux Orbs. If the enemy is a monster, inflicts a follow-up attack on all enemies, dealing damage equal to 100% of her ATK. ;Faux Orb (义火/義火) :30px :'''General, Mark''': Exclusive effect. Max of 5 stacks and occupies the enemy's onibi bar. The enemy uses this first as a substitute for onibi when using special skills. Upon gaining this, an equal number of onibi become infected. If there are not enough onibi to be infected, deals damage to the non-summoned enemy at the top of the move bar equal to 80% of her ATK and has a 100% base chance of inflicting the enemy with Silence. If a monster gains this, grants you 2 onibi instead. At the end of a non-summoned enemy's turn, deals damage equal to 30% of her ATK to them. When an enemy only uses Faux Orb to use a special skill, replaces that skill with Lies Silenced.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "After using this skill, increases the ATK for all non-summoned allies by 30% when they use normal attacks, lasts for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "For each 1 Faux Orb the enemy has used, has a 40% base chance of inflicting the them with Silence, lasts for 1 turn. Does not trigger when Lies Silenced is used."
+        },
+        {
+          "lvl": 4,
+          "text": "If the enemy is a monster, increases the boost to ATK for non-summoned allies when they use normal attacks to 55%, lasts for 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "For each 1 Faux Orb the enemy used, decreases the damage dealt by the skill by 30%."
+        }
+      ],
+      "icon": "assets/skills/3993a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3993b",
+      "name": "Lies Silenced (诳默/誑默)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "''When an enemy only uses Faux Orb to use a special skill, replaces that skill with this skill.''\nCauses the enemy's skill to have no effect when used.",
+      "upgrades": [],
+      "icon": "assets/skills/3993b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kotodama's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kotodama's skills 10 times.",
+      "reward": "Shikigami No.399 ×10"
+    },
+    {
+      "condition": "With Kotodama win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/399skin1.webp"
+}

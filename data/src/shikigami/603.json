@@ -1,0 +1,186 @@
+{
+  "no": 603,
+  "en": "Bishamonten",
+  "cn": "毗沙门天",
+  "jp": "毘沙門天",
+  "gl": "毘沙門天",
+  "rarity": "SSR",
+  "image": "File:603.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Bishamonten",
+  "cv": "Masaya Fukunishi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/603.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/603.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "157",
+        "lv2": null,
+        "max": "3591"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "423"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "6031",
+      "name": "Thunder Fist (震拳)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hey, I'm not an evil god, don't run!",
+      "description": "Bishamonten attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%, gain 1 stack of Fortune Might."
+        }
+      ],
+      "icon": "assets/skills/6031.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6032",
+      "name": "Discipline (戒•定•慧)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "You lot, get over here and train together",
+      "description": "Exclusive only. Elephant Drum is awakened and sustained for 3 turns. When Elephant Drum is present, gain 1 onibi, 2 stacks of Fortune Might and increase all allies move bar by 20%. ;Fortune Might (福威) ; :'''Buff''', '''Mark''': Up to 5 stacks. Each stack increases Effect RES by 30%. ;Heart Drum (心鼓) ; ;'''Buff, Mark''': Max 6 stacks, upon reaching the limit, remove all stacks and cast Discipline with no cost. This triggers up to 3 times before Bishamonten's next turn. ;Elephant Drum (象鼓) ; :While on the field, 50% of the damage Bishamonten takes is evenly shared by other allies as transferred damage. This damage is non-lethal, does not trigger souls or passive effects, and transferred damage cannot trigger again. When triggered, gain 1 stack of Heart Drum. ;Sustain (维持) :A status or mark will last depending on the number of turns of the originator, and not target. ;Lose (失去) :Not like receiving damage, lost HP cannot Crit, is not absorbed by shields and does not trigger damage related effects. When a shikigami loses most of their HP and/or continues to lose more HP, their remaining cannot drop below 1 HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Elephant Drum sounds, the 2 enemies with the lowest HP ratio lose 10% of their max HP, up to 100% of Bishamonten's starting ATK."
+        },
+        {
+          "lvl": 3,
+          "text": "When an enemy loses HP, Bishamonten gains 1 stack of Heart Drum (max 6 stacks per action)"
+        },
+        {
+          "lvl": 4,
+          "text": "While Elephant Drum is on the field, this unit shares 30% of the single-target damage allies take."
+        },
+        {
+          "lvl": 5,
+          "text": "Upper Hand: Cast Discipline"
+        }
+      ],
+      "icon": "assets/skills/6032.webp"
+    },
+    {
+      "group": "Special",
+      "image": "6033",
+      "name": "Heavenshaker Staff (撼天伏魔棍)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Bear a thousand weights, ring out boundless blessings!",
+      "description": "Consume all Fortune Might to attack the enemy target, dealing 300% ATK damage, with the damage multiplier increasing by 30% for each Fortune Might consumed. After use, before the start of the next turn, Elephant Drum is triggered and move bar is increased by 20%. ;Fortune Might (福威) ; :'''Buff''', '''Mark''': Up to 5 stacks. Each stack increases Effect RES by 30%. ;Elephant Drum (象鼓) ; :While on the field, 50% of the damage Bishamonten takes is evenly shared by other allies as transferred damage. This damage is non-lethal, does not trigger souls or passive effects, and transferred damage cannot trigger again. When triggered, gain 1 stack of Heart Drum.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increased to 330%, with each stack's Fortune Might coefficient boost increased to 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "While Elephant Drum is on the field, onibi cost is reduced by 1."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increased to 360%, with each stack's Fortune Might coefficient boost increased to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the damage dealt during the attack is absorbed, shared or nullified, immediately gain 3 stacks of Fortune Might and attack the same target 1 more time. This effect does not trigger consecutively."
+        }
+      ],
+      "icon": "assets/skills/6033.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.603 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/603skin1.webp"
+}

@@ -1,0 +1,212 @@
+{
+  "no": 311,
+  "en": "Menreiki",
+  "cn": "面灵气",
+  "jp": "面霊気",
+  "gl": "面霊気",
+  "rarity": "SSR",
+  "image": "File:311.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Menreiki",
+  "cv": "Kana Hanazawa",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/311.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/311.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "3243"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": null,
+        "max": "10140"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "119"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "C"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3111",
+      "name": "Enchant (注灵/注霊)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Here's all the pain that has eluded you.",
+      "description": "Menreiki inflicts a Blank Mask on a single dealing indirect damage equal to 100% of her ATK, lasts for 1 turn. ;Blank Mask (無面) :'''General, Mark''': Menreiki's white mask. Deals indirect damage before a turn begins. :''(A golden circle of light will appear underneath inflicted targets.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3111.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3112",
+      "name": "Masks of Recurrence (轮回之面/輪廻の面)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It's time to wake up.",
+      "description": "Each layer of Mask of Evil on the battlefield increases Menreiki's SPD by 10 and damage dealt by 10%. Each layer of Mask of Goodwill increases her RES by 10% and damage reduction by 10%. <br>After an ally takes an action, the Mask of Goodwill increases their move bar by 5% before it transforms into a Mask of Evil and transfers to a random enemy. Priority is given to enemies without Mask of Evil, followed by enemies with the lowest HP proportion. ;Mask of Evil (悪面) :'''General, Mark''': Menreiki's black mask. Created by Forbidden Masks. Inflicted on enemies. Can be stacked. :''(1-5 black masks will circle around enemies.)'' ;Mask of Goodwill (善面) : '''General, Mark''': Menreiki's red mask. Created by Forbidden Masks. Granted to allies. Cannot be stacked. :''(A red mask will appear in front of allies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Mask of Evil's boost to SPD increases to 15."
+        },
+        {
+          "lvl": 3,
+          "text": "Mask of Goodwill's boost to RES increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "Mask of Evil's boost to SPD increases to 20"
+        },
+        {
+          "lvl": 5,
+          "text": "Mask of Goodwill's boost to move bar increases to 10%."
+        }
+      ],
+      "icon": "assets/skills/3112.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3113",
+      "name": "Forbidden Masks (禁断之面/禁断の面)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Forget everything; become a blank slate.",
+      "description": "Mereiki recalls all 7 masks, increasing the move bar of allies with Mask of Goodwill by 20% and inflicting indirect damage equal to 130% of her ATK to enemies with Mask of Evil (increases by 10% for each of Mask of Evil). Then, she releases 7 masks. First granting them to other allies as Mask of Goodwill, then inflicting the rest on enemies as Mask of Evil (priority is given to enemies without Mask of Evil, followed by enemies with the lowest HP proportion). <br>Menreiki cannot grant herself Mask of Goodwill. ; : ;Mask of Evil (悪面) :'''General, Mark''': Menreiki's black mask. Created by Forbidden Masks. Inflicted on enemies. Can be stacked. :''(1-5 black masks will circle around enemies.)'' ;Mask of Goodwill (善面) : '''General, Mark''': Menreiki's red mask. Created by Forbidden Masks. Granted to allies. Cannot be stacked. :''(A red mask will appear in front of allies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Mask of Evil's indirect damage increases to 140%."
+        },
+        {
+          "lvl": 3,
+          "text": "Mask of Goodwill's boost to move bar increases to 25%."
+        },
+        {
+          "lvl": 4,
+          "text": "Mask of Evil's indirect damage increases to 150%."
+        },
+        {
+          "lvl": 5,
+          "text": "Mask of Goodwill's boost to move bar increases 30%."
+        }
+      ],
+      "icon": "assets/skills/3113.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Menreiki.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Menreiki clear any zone 40 times.",
+      "reward": "Shikigami No.311 ×10"
+    },
+    {
+      "condition": "Have Menreiki take part in 30 Realm Raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/311skin1.webp",
+  "stats": {
+    "min": {
+      "no": 311,
+      "en": null,
+      "atk": 140,
+      "hp": 864,
+      "def": 61,
+      "spd": 109,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 311,
+      "en": null,
+      "atk": 3243,
+      "hp": 10140,
+      "def": 397,
+      "spd": 119,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

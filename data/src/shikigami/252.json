@@ -1,0 +1,191 @@
+{
+  "no": 252,
+  "en": "Hououka",
+  "cn": "凤凰火",
+  "jp": "鳳凰火",
+  "gl": "鳳凰火",
+  "rarity": "SR",
+  "image": "File:252.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hououka",
+  "cv": "Marina Inoue",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/252.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/252.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "2680"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "441"
+      },
+      "spd": {
+        "lv1": "96",
+        "lv2": null,
+        "max": "106"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2521",
+      "name": "Fire Launch (凤火/鳳火)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The fire of the phoenix cleanses all.",
+      "description": "Hououka focuses her flame and launches it at a single target, dealing damage equal to 100% of her ATK and has a 50% base chance of stealing 10% of Crit, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2521.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2522",
+      "name": "Blaze (烈焰/烈火)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The weak will turn to ashes amidst the flames!",
+      "description": "When Hououka attacks, she has a 50% base chance of inflicting Daze on enemies with a debuff or control effect.",
+      "upgrades": [],
+      "icon": "assets/skills/2522.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2523",
+      "name": "Phoenix Flame (凤凰业火/鳳凰業火)",
+      "type": "Passive",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Some like it hot... Hahaha!",
+      "description": "Hououka summons the flame of the phoenix to attack all enemies, dealing damage equal to 99% of her ATK. If she lands a crit, has a 25% chance of gaining an extra turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 104%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 109%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 114%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 119%."
+        }
+      ],
+      "icon": "assets/skills/2523.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Hououka.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Hououka win 5 times in {{Popup",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/252skin1.webp",
+  "stats": {
+    "min": {
+      "no": 252,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 96,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 252,
+      "en": null,
+      "atk": 2680,
+      "hp": 11393,
+      "def": 441,
+      "spd": 106,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "no": 225,
+  "en": "Kyonshii Otouto",
+  "cn": "跳跳弟弟",
+  "jp": "キョンシー弟",
+  "gl": "Kyonshi Ototo",
+  "rarity": "R",
+  "image": "File:225.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kyonshii_Otouto",
+  "cv": "Minami Takayama",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/225.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/225.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "92",
+        "lv2": null,
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "94",
+        "lv2": null,
+        "max": "104"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2251",
+      "name": "Mighty Punch (直拳/正拳突き)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Take this!",
+      "description": "Kyonshii Otouto sneaks up a single target and punches an enemy with all his might, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2251.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2252",
+      "name": "Inversion (驱逐/駆逐)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Stay away from me!",
+      "description": "When Kyonshii Otouto receives damage, his ATK increases by 5% of damage received. :''(The increase to ATK is permanent and is represented by Kyonshii Otouto growing larger.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "ATK increases to 6%."
+        },
+        {
+          "lvl": 3,
+          "text": "ATK increases to 7%."
+        },
+        {
+          "lvl": 4,
+          "text": "ATK increases to 8%."
+        },
+        {
+          "lvl": 5,
+          "text": "ATK increases to 9%."
+        }
+      ],
+      "icon": "assets/skills/2252.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2253",
+      "name": "Noxious Spray (毒气喷泉/毒気噴水)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Hey, how d'ya like this corpse mist?!",
+      "description": "Kyonshii Otouto sprays noxious mist at all enemies, dealing damage equal to 76% of his ATK and inflicts them with with Kyonshii Poison, which deals indirect damage equal to 22% of his ATK, lasts for 2 turns. <br>When Kyonshii Poison is dispelled from an enemy, he inflicts them with Corrosion Toxin, lasts for 2 turns. ;Kyonshii Poison (キョンシー毒) : :'''Debuff, Status''': Inflicts indirect damage at the end of turn. ;Corrosion Toxin (腐食毒素) : :'''Debuff, Mark''': Decreases DEF by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 80% and Kyonshii Poison's indirect damage increases to 23%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 84% and Kyonshii Poison's indirect damage increases to 24%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 88% and Kyonshii Poison's indirect damage increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 92% and Kyonshii Poison's indirect damage increases to 26%."
+        }
+      ],
+      "icon": "assets/skills/2253.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Kyonshii Otouto win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Kyonshii Otouto with another player's Kyonshii Imouto and clear any zone 10 times.",
+      "reward": "Shikigami No.225 ×10"
+    },
+    {
+      "condition": "Collect 40 Kyonshii Otouto shards from Demon Parade.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/225skin1.webp",
+  "stats": {
+    "min": {
+      "no": 225,
+      "en": null,
+      "atk": 130,
+      "hp": 907,
+      "def": 92,
+      "spd": 94,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 225,
+      "en": null,
+      "atk": 3028,
+      "hp": 10709,
+      "def": 410,
+      "spd": 104,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

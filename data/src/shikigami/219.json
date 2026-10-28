@@ -1,0 +1,195 @@
+{
+  "no": 219,
+  "en": "Shuten Douji",
+  "cn": "酒吞童子",
+  "jp": "Shuten Doji",
+  "gl": "Shuten Doji",
+  "rarity": "SSR",
+  "image": "File:219.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shuten_Douji",
+  "cv": "Sakaguchi Shuuhei",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/219.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/219.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "133",
+        "lv2": null,
+        "max": "3136"
+      },
+      "hp": {
+        "lv1": "939",
+        "lv2": null,
+        "max": "11165"
+      },
+      "def": {
+        "lv1": "58",
+        "lv2": null,
+        "max": "375"
+      },
+      "spd": {
+        "lv1": "103",
+        "lv2": null,
+        "max": "113"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2191",
+      "name": "Calabash Spray (鬼葫芦/鬼瓢箪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Behold my power!",
+      "description": "Shuten Douji sprays a single target enemy with noxious vapors from his calabash, dealing damage equal to 100% of his ATK. Also inflicts 1 follow-up attack for each layer of Madness he has. Does not trigger when launching a counter-attack. ;Madness (狂気) :'''Buff, Status''': Increases the number of follow-up attacks Calabash Spray inflicts. :''(1-4 flaming calabash will circle around him, 1 calabash represents 1 layer.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2191.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2192",
+      "name": "Madness (狂气/狂気)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I want more... More!",
+      "description": "At the end of a turn, Shuten Doji has a 50% chance of gaining 1 layer of Madness. When he is attacked, he has a 25% chance of gaining 1 layer. \nMadness has a max of 4 layers. \n;Madness (狂気)\n:'''Buff, Status''': Increases the number of follow-up attacks Calabash Spray inflicts.\n:''(1-4 flaming calabash will circle around him, 1 calabash represents 1 layer.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2192.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2193",
+      "name": "Healing Rage (狂啸/狂い吠え)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 3,
+      "line": "I'm not done yet! Hahaha!",
+      "description": "Shuten Doji emits a burst of energy, restoring his HP by 30% of his max HP and increases his move bar by 50%. He then goes Demoniac for a number of turns (equal to the layers of Madness he has). All layers of Madness are consumed when his Demoniac state ends. ;Demoniac (鬼王降临/鬼王降臨) : :'''Buff, Mark''': Grants him immunity to all control effect and effects such as Banish. His attacks also deal 10% HP Steal. ;Madness (狂気) :'''Buff, Status''': Increases the number of follow-up attacks Calabash Spray inflicts. :''(1-4 flaming calabash will circle around him, 1 calabash represents 1 layer.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Demoniac''': HP Steal increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Demoniac''': HP Steal increases to 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Demoniac''': HP Steal increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Demoniac''': HP Steal increases to 30%."
+        }
+      ],
+      "icon": "assets/skills/2193.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team Shuten Douji with another player's Kijo Momiji and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Shuten Douji's level to 30.",
+      "reward": "Shikigami No.219 ×10"
+    },
+    {
+      "condition": "Increase Shuten Douji's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/219skin1.webp",
+  "stats": {
+    "min": {
+      "no": 219,
+      "en": null,
+      "atk": 133,
+      "hp": 939,
+      "def": 58,
+      "spd": 103,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 219,
+      "en": null,
+      "atk": 3136,
+      "hp": 11165,
+      "def": 375,
+      "spd": 113,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

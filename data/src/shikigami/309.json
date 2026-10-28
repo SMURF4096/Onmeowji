@@ -1,0 +1,194 @@
+{
+  "no": 309,
+  "en": "Okou",
+  "cn": "阿香",
+  "jp": "お香",
+  "gl": "Oko",
+  "rarity": "SR",
+  "image": "File:309.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Okou",
+  "cv": "Eri Kitamura",
+  "intro": "",
+  "imageUrl": "assets/shikigami/309.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/309.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "136",
+        "lv2": null,
+        "max": "3270"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10596"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "104",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "B",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3091",
+      "name": "Venomous Fangs (蛇卒·毒牙)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "It's fine as long as you don't overdo it.",
+      "description": "Okou commands her snake to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3091.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3092",
+      "name": "Snake Shadow (蛇之影/蛇の影)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Sorry, did I scare you?",
+      "description": "When Okou attacks, she has a 100% base chance of inflicting 1 Snake Shadow layer, lasts for 3 turns and has a max of 3 layers.\n;\n:\n;Snake Shadow (蛇の影)\n:\n:'''Debuff, Status''': Max of 3 layers. DEF is decreased by 8% per layer.\n:''(1-3 small purple snakes will float around an inflicted enemy.)''",
+      "upgrades": [],
+      "icon": "assets/skills/3092.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3093",
+      "name": "Snake Jailer: Rage (蛇卒·狂暴/蛇卒・狂乱)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "My feminine wiles will stop you in your tracks!",
+      "description": "Okou summons Snake Force to attack a single target dealing damage equal to 180% of her ATK. Each layer of Snake Shadow inflicts extra damage equal to 40% of her ATK. She also has a 100% base chance to inflict Daze on enemies with 3 Snake Shadow layers. ;Snake Shadow (蛇の影) : :'''Debuff, Status''': Max of 3 layers. DEF is decreased by 8% per layer. :''(1-3 small purple snakes will float around an inflicted enemy.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 189%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 198%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 207%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 216%."
+        }
+      ],
+      "icon": "assets/skills/3093.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Awaken Okou.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Okou clear stage 9 of the Orochi soul zone (solo).",
+      "reward": "Shikigami No.309 ×10"
+    },
+    {
+      "condition": "Team Okou with another player's Hozuki and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/309skin1.webp",
+  "stats": {
+    "min": {
+      "no": 309,
+      "en": null,
+      "atk": 136,
+      "hp": 907,
+      "def": 61,
+      "spd": 104,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 309,
+      "en": null,
+      "atk": 3270,
+      "hp": 10596,
+      "def": 401,
+      "spd": 114,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

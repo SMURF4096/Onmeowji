@@ -1,0 +1,198 @@
+{
+  "no": 372,
+  "en": "Inaba Kaguya Hime",
+  "cn": "因幡辉夜姬",
+  "jp": "因幡かぐや姫",
+  "gl": "因幡かぐや姫",
+  "rarity": "SP",
+  "image": "File:372.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Inaba_Kaguya_Hime",
+  "cv": "Ayana Taketatsu",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/372.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/372.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "140",
+        "lv2": null,
+        "max": "2949"
+      },
+      "hp": {
+        "lv1": "1067",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "397"
+      },
+      "spd": {
+        "lv1": "113",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "165",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "A",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3721",
+      "name": "Crystal Light (瑠璃光)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Lights focus through the crystal.",
+      "description": "SP Kaguya Hime forms moonlight into a crystal to attack a single target dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3721.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3722",
+      "name": "Wishful Night (願満夜)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "May the moon shine forever, just as you wished.",
+      "description": "Exclusive effect. <br>SP Kaguya Hime creates a field that lasts for 1 turn and grants herself 3 points of Wish Power. In the field, her RES is increased by 80% and all other allies gain Wish's Protection whenever they use a skill, lasts for 1 turn. ;Wish Power (願力) : :'''General, Mark''': Max of 8 points. When an ally doesn't have enough onibi to use a skill, an equal number of Wish Power can be used instead. :''(SP Kaguya also gains a separate yellow stack of Wish Power based on the total number of Wish Power used and is used for the skill Reflected Devastation. Max of 24 points.)'' ;Wish's Protection (願佑) : :'''Buff, Mark''': Grants 30% of SP Kaguya Hime's Crit DMG and DEF. Cannot exceed 120% Crit DMG and 200 DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While the field is active, onibi gained from souls are converted into an equal number of Wish Power."
+        },
+        {
+          "lvl": 3,
+          "text": "While the field is active, she gains 3 points of Wish Power at the start of her turn."
+        },
+        {
+          "lvl": 4,
+          "text": "Duration of the field increases to 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3722.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3723a",
+      "name": "Reflected Devastation (寂光映月)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Behold the moon of devastation.",
+      "description": "SP Kaguya Hime turns the glowing moon cocoon into a crystal kaleidoscope to attack all enemies dealing damage equal to 138% of her ATK and issues a Call to Arms to allies under Wish's Protection. Also, the onibi cost for the skill Wishful Night is reduced by 1 the next time it is used. ;Wish's Protection (願佑) : :'''Buff, Mark''': Grants 30% of SP Kaguya Hime's Crit DMG and DEF. Cannot exceed 120% Crit DMG and 200 DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Each point of Wish Power granted, increases her Crit DMG by 5% (max of 120%)."
+        },
+        {
+          "lvl": 3,
+          "text": "Each point of Wish Power granted, she creates a shield that can absorb 12% of her max HP (max 8 layers and lasts for 2 turns)."
+        },
+        {
+          "lvl": 4,
+          "text": "When she has 12 points of Wish Power, this skill will ignore enemy passives and souls."
+        },
+        {
+          "lvl": 5,
+          "text": "When she has 24 points of Wish Power, Inaba Rabbit will be summoned and the skill Cleansing Moon will trigger."
+        }
+      ],
+      "icon": "assets/skills/3723a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3723b",
+      "name": "Cleansing Moon (月の洗礼)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inaba Rabbit becomes Winged Tsukinohime who launches another attack on all enemies, dealing damage equal to 153% of SP Kaguya Hime's ATK. The damage from this attack ignores the enemy passives and souls.",
+      "upgrades": [],
+      "icon": "assets/skills/3723b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Kaguya Hime's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kaguya Hime's skills 12 times.",
+      "reward": "Shikigami No.372 ×10"
+    },
+    {
+      "condition": "Summon Inaba Rabbit to use Cleansing Moon 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/372skin1.webp"
+}

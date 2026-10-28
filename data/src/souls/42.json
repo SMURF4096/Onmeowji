@@ -1,0 +1,16 @@
+{
+  "no": 42,
+  "en": "Nakiishi",
+  "cn": "夜啼石",
+  "jp": "Yonaki Ishi",
+  "type": "HP",
+  "image": "File:SoulO42.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nakiishi",
+  "imageUrl": "assets/souls/Soul42.webp",
+  "localImage": "assets/souls/Soul42.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "When a non-summoned ally is KO'd, gain 30% of their initial ATK and DEF (max of 5 stacks and cannot exceed more the 150% of the equipper's initial stats).",
+  "location": "Soul Zones (Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M62.webp"
+}

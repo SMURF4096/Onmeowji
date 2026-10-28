@@ -1,0 +1,215 @@
+{
+  "no": 367,
+  "en": "Kaisei Kachou Fuugetsu",
+  "cn": "绘世花鸟卷",
+  "jp": "絵世花鳥風月",
+  "gl": "Virtuoso Hana",
+  "rarity": "SP",
+  "image": "File:367.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kaisei_Kachou_Fuugetsu",
+  "cv": "Saori Hayami",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/367.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/367.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "2278"
+      },
+      "hp": {
+        "lv1": "1355",
+        "lv2": null,
+        "max": "14469"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": null,
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "112",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3671",
+      "name": "Plum Blossom Strike (寒梅裁雪/寒梅裁雪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do you like painting Winter Blossom Brach in Spring?",
+      "description": "SP Kachou Fuugetsu paints a colorful flower branch to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125% and she gains helter (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/3671.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3672",
+      "name": "Bound by Ink (墨气常萦/墨気常縈)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "A few strokes mark the passing of a few centuries.",
+      "description": "Exclusive effect. <br>Grants Inkbound to all allies. ; Inkbound (墨縈) : :'''Buff, Mark''': When HP is restored, amount restored is increased by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Inkbound''': Boost to amount restored increases to 30%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Inkbound''': Increases RES by 20%."
+        },
+        {
+          "lvl": 4,
+          "text": "At the start of battle, max HP is permanently increased by 10% for all non-summoned allies with Inkbound."
+        },
+        {
+          "lvl": 5,
+          "text": "When the Lifelike Image disappears outside of SP Kachou Fuugetsu's turn, her move bar is increased by 30%."
+        }
+      ],
+      "icon": "assets/skills/3672.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3673a",
+      "name": "Picturesque Life (绘梦浮生/絵夢浮生)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "All these blossoms are nothing more than a scroll of old memories.",
+      "description": "SP Kachou Fuugetsu summons a Lifelike Image, sustained for 4 turns. It draws all enemies into a picturesque field then inflicts a selected non-summoned enemy with Ink-chased. If the marked enemy is KO'd, the Lifelike Image will disappear. <br>When the Lifelike Image is present, this skill changes to Blossom Rain. ; Ink-chased (逐墨) : :'''General, Mark''': Whenever other enemies receive non-transferred damage, the Lifelike Image deals 10% of that damage as transferred damage to the inflicted target. ; Lifelike Image (浮生画影) : A special summoned entity, cannot receive damage, is immune to debuffs and control effects and it is immobile. Damage dealt by the Lifelike Image cannot exceed 1200% of SP Kachou Fuugetsu's max HP. :''(Uses enemy summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Lifelike Image's transferred damage to inflicted enemies increases to 15%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Lifelike Image is present, AOE damage dealt by allies is increased by 10%."
+        },
+        {
+          "lvl": 4,
+          "text": "Lifelike Image's transferred damage to inflicted enemies increases to 25%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Lifelike Image is present, AOE damage dealt by allies is increased by 20%."
+        }
+      ],
+      "icon": "assets/skills/3673a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3673b",
+      "name": "Blossom Rain (繁花坠露/繁花墜露)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "SP Kachou Fuugetsu restores the HP of an ally other than herself by 8% of her max HP. The same restore effect will then bounce to 2 allies, prioritizing allies with the lowest HP. <br>If the restore effect crits, the Lifelike Image will deal transferred damage equal to 20% of HP restored to the enemy marked with Ink-chased. If the inflicted enemy is a monster, the Lifelike Image will deal transferred damage equal to 100% the amount of HP restored instead. <br>When the Lifelike Image disappears, this skill changes to Picturesque Life.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 10%."
+        },
+        {
+          "lvl": 3,
+          "text": "Number of times the restore effect triggers increases to 3."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 12%."
+        },
+        {
+          "lvl": 5,
+          "text": "Number of times the restore effect triggers increases to 4."
+        }
+      ],
+      "icon": "assets/skills/3673b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Team SP Kachou Fuugetsu with another player's Kachou Fuugetsu and clear any zone 10 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kachou Fuugetsu's skills 8 times.",
+      "reward": "Shikigami No.367 ×10"
+    },
+    {
+      "condition": "Increase SP Kachou Fuugetsu's level to 40.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/367skin1.webp"
+}

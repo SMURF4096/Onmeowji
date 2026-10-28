@@ -1,0 +1,16 @@
+{
+  "no": 7,
+  "en": "Boroboroton",
+  "cn": "被服",
+  "jp": "暮露暮露団",
+  "type": "HP",
+  "image": "File:Soul7.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Boroboroton",
+  "imageUrl": "assets/souls/Soul7.webp",
+  "localImage": "assets/souls/Soul7.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "Received damage is decreased 30%.",
+  "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 1 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M12.webp"
+}

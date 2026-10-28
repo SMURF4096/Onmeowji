@@ -1,0 +1,212 @@
+{
+  "no": 326,
+  "en": "Inari Miketsu",
+  "cn": "稻荷神御馔津",
+  "jp": "稲荷御饌津",
+  "gl": "Divine Miketsu",
+  "rarity": "SP",
+  "image": "File:326.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Inari_Miketsu",
+  "cv": "Kawasumi Ayako",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/326.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/326.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "146",
+        "lv2": null,
+        "max": "3082"
+      },
+      "hp": {
+        "lv1": "1064",
+        "lv2": null,
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "485"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "10%",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "S",
+        "S"
+      ],
+      "spd": [
+        "A",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3261",
+      "name": "Fox Bell (狐鈴)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "With my bell, I shall protect this area.",
+      "description": "SP Miketsu rings her blessing bell to send out one of her foxes to attack a single target, dealing damage equal to 80% of her ATK. Also has a 50% base chance of inflicting one of the following effects for 1 turn; Silence, Suppress, Seal, or Grounded.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 85%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 90%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 5,
+          "text": "Base chance increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3261.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3262",
+      "name": "Sunlit Fox Realm (狐狩り・日曜界)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "My wish is that humans could live in a peaceful life under the sun.",
+      "description": "Exclusive effect. <br>SP Miketsu creates a sunlit realm that lasts for 1 turn. While the realm is active, increases the SPD and RES of all allies by 20 and 20%, respectively. <br>At the end of an allies' turn, increases the move bar of another ally at the top of the turn order by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When increasing an ally' move bar, has a 40% chance to dispel 1 debuff or control effect on them."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to dispel increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance to dispel increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Boost to move bar increases to 25%."
+        }
+      ],
+      "icon": "assets/skills/3262.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3263",
+      "name": "Moonlit Fox Realm (狐狩り・月影界)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Darkness my fall, but hope shall remain.",
+      "description": "SP Miketsu creates a moonlit realm that lasts for 1 turn. While the realm is active, increases the ATK and DEF of all allies by 20%. <br>At the end of an enemy's turn, SP Miketsu attacks that enemy them with Fox Bell. This attack will not trigger the target's souls or passive and debuff duration is increased to 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "ATK and DEF increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "While the realm is active, SP Miketsu SPD is increased by 30 and RES by 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "ATK and DEF increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Moon Realm is automatically activated at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3263.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With SP Miketsu clear any zone 30 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Miketsu's skill 8 times.",
+      "reward": "Shikigami No.326 ×10"
+    },
+    {
+      "condition": "Increase SP Miketsu's level to 35.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/326skin1.webp",
+  "stats": {
+    "min": {
+      "no": 326,
+      "en": null,
+      "atk": 146,
+      "hp": 1064,
+      "def": 83,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 326,
+      "en": null,
+      "atk": 3082,
+      "hp": 11393,
+      "def": 485,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

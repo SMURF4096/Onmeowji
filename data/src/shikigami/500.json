@@ -1,0 +1,169 @@
+{
+  "no": 500,
+  "en": "Kagura & Sadaharu",
+  "cn": "神乐&定春",
+  "jp": "神楽&定春",
+  "gl": "神楽&定春",
+  "rarity": "SSR",
+  "image": "File:500.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kagura_%26_Sadaharu",
+  "cv": "Rie Kugimiya (Kagura) · Mikako Takahashi (Sadaharu)",
+  "intro": "",
+  "method": "Limited Collab Event (Summon)",
+  "imageUrl": "assets/shikigami/500.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/500.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "132",
+        "lv2": null,
+        "max": "3047"
+      },
+      "hp": {
+        "lv1": "928",
+        "lv2": null,
+        "max": "11063"
+      },
+      "def": {
+        "lv1": "59",
+        "lv2": null,
+        "max": "393"
+      },
+      "spd": {
+        "lv1": "107",
+        "lv2": null,
+        "max": "117"
+      },
+      "crit": {
+        "lv1": "9",
+        "lv2": null,
+        "max": "9"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "A",
+        "A"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5001",
+      "name": "Let's go, Sadaharu! (行くネ、定春！)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kagura & Sadaharu attack a single target dealing damage equal to 25% and 70% of their ATK in that order. Then inflict the target with Straight Man and Sadaharu's Heavy Attack respectively, both effects last for 2 turn. ;Straight Man (ツッコミ) : :'''Debuff, Status''': Decreases DEF and RES by 50%, lasts for 2 turns. ;Sadaharu's Heavy Attack (定春重撃) : :'''Debuff, Status''': Max of 3 stacks. At the start of turn, dealt indirect damage equal to 33% of their ATK, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 30% and 75%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 35% and 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 40% and 85%."
+        },
+        {
+          "lvl": 5,
+          "text": "Dispels 1 buff from the target."
+        }
+      ],
+      "icon": "assets/skills/5001.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5002",
+      "name": "Gotta Protect (守護必達)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Exclusive effect. When an ally with Umbrella Shield attacks a single enemy, Kagura & Sadaharu will Assist with a normal attack.\nWhen an ally with Umbrella Shield is inflicted with a debuff or control effect, they will launch up to 4 counter-attacks per turn on the source. Their move is increased by 5% when an enemy with Sadaharu's Heavy Attack receives damage from a single target attack (can trigger once per attack).\n;Sadaharu's Heavy Attack (定春重撃)\n:\n:'''Debuff, Status''': Max of 3 stacks. At the start of turn, dealt indirect damage equal to 33% of their ATK, lasts for 2 turns.\n;Umbrella Shield (傘の盾)\n:\n:An undispellable shield that can absorb damage equal to 180% of ATK (cannot exceed 200% of the target's max HP). Reduces non-indirect damage received by 60%.",
+      "upgrades": [],
+      "icon": "assets/skills/5002.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5003",
+      "name": "Go All Out (全力以赴)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kagura grants Umbrella Shield to an ally, lasts for 3 turns. Also increases the move bar for herself and the ally by 30%. ;Umbrella Shield (傘の盾) : :An undispellable shield that can absorb damage equal to 180% of ATK (cannot exceed 200% of the target's max HP). Reduces non-indirect damage received by 60%. :''(An orb with a small circling umbrella around it will appear around protected allies to indicate that the shield is active.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Absorption for Umbrella Shield increases to 200%."
+        },
+        {
+          "lvl": 3,
+          "text": "Absorption for Umbrella Shield increases to 220%."
+        },
+        {
+          "lvl": 4,
+          "text": "When Kagura & Sadaharu deal damage, the HP for allies' Umbrella Shield is restored by 80% of the damage dealt until the shield HP is restored back to the initial 220% ATK and refreshes the duration for the turn."
+        },
+        {
+          "lvl": 5,
+          "text": "When Kagura & Sadaharu are not Immobile, they gain Umbrella Shield at the end of turn."
+        }
+      ],
+      "icon": "assets/skills/5003.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Kagura & Sadaharu's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Kagura & Sadaharu's skills 8 times.",
+      "reward": "Shikigami No.500 ×10"
+    },
+    {
+      "condition": "Team Kagura & Sadaharu with another player's Gintoki Sakata and clear any zone ## times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/500skin1.webp"
+}

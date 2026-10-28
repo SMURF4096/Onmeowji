@@ -1,0 +1,212 @@
+{
+  "no": 349,
+  "en": "Fuuri",
+  "cn": "风狸",
+  "jp": "風狸",
+  "gl": "Furi",
+  "rarity": "SR",
+  "image": "File:349.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Fuuri",
+  "cv": "Oosaka Ryouta",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/349.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/349.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": "|HpGr1    = B",
+        "max": "3602"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": "|DefGr1   = D",
+        "max": "11393"
+      },
+      "def": {
+        "lv1": "51",
+        "lv2": "|SpdGr1   = C",
+        "max": "388"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": "109",
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": "3",
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "A",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "C",
+        "A"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3491",
+      "name": "Tornado: Shuriken (竜巻・手裏剣)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "No one runs away faster than me!",
+      "description": "Fuuri uses his short sword to attack a single target, dealing damage equal to 100% of his ATK. Then grants himself Sprint, lasts for 1 turn. ; Sprint (奔襲) : :'''Buff, Status''': SPD is increased by 30.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3491.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3492",
+      "name": "Afterimage: Decoy (残影・変わり身の術)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hehe! You'll never hit me!",
+      "description": "When Fuuri receives a normal attack, and if he is not immobile, he has a 10% chance to Dodge the attack. If he manages to Dodge, he gains 40% of Crit RES, lasts for 2 turns. <br>When attacking an enemy, Fuuri enters Paper Tiger state. ;Dodge :Grants immunity to all damage from normal attacks, including normal attacks from Assist or Call to Arms. Also grants immunity to any debuffs or control effects inflicted with normal attacks. ;Paper Tiger (弱者いじめ) :When Fuuri deals damage (including Shrapnel Tombs), ignores 300 DEF if the target's ATK is lower than his own and reduces his own Crit by 80% if the target's ATK is higher.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance to Dodge increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to Dodge increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance to Dodge increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "Crit RES increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/3492.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3493",
+      "name": "Windmill: Shrapnel Tomb (風車・雷火弾)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Boom!",
+      "description": "Fuuri wields his giant shuriken with agility to attack an enemy, dealing damage equal to 100% of his ATK. Then inflicts them with Shrapnel Tomb. The next time he uses this skill, Shrapnel Tomb will detonate dealing indirect damage equal to 175% of his ATK. ;Shrapnel Tomb (雷火弾) : :'''General, Mark''': When detonated, deals indirect damage equal to 175% of Fuuri's ATK. It is removed after being detonated.<br>After each detonation, the ignore DEF for Fuuri's Paper Tiger state is increased by 50 (cannot exceed 300).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 125%."
+        },
+        {
+          "lvl": 5,
+          "text": "Indirect damage increases to 350%."
+        }
+      ],
+      "icon": "assets/skills/3493.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Clear any zone with Fuuri 40 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Fuuri's level to 30.",
+      "reward": "Shikigami No.349 ×10"
+    },
+    {
+      "condition": "Increase Fuuri's skills 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/349skin1.webp",
+  "stats": {
+    "min": {
+      "no": 349,
+      "en": null,
+      "atk": 128,
+      "hp": 960,
+      "def": 51,
+      "spd": 99,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 349,
+      "en": null,
+      "atk": 3002,
+      "hp": 11393,
+      "def": 388,
+      "spd": 109,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

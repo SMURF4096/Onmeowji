@@ -1,0 +1,212 @@
+{
+  "no": 320,
+  "en": "Ittan Momen",
+  "cn": "一反木绵",
+  "jp": "一反木綿",
+  "gl": "Ittan-momen",
+  "rarity": "SR",
+  "image": "File:320.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ittan_Momen",
+  "cv": "Kotono Mitsuishi",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/320.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/320.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "118",
+        "lv2": null,
+        "max": "2734"
+      },
+      "hp": {
+        "lv1": "1003",
+        "lv2": null,
+        "max": "11735"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": null,
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "A"
+      ],
+      "hp": [
+        "B",
+        "A"
+      ],
+      "def": [
+        "C",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "B",
+        "B"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3201",
+      "name": "Wrapping Strike (缠击/纏撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "You have nowhere to run.",
+      "description": "Ittan Mommen rushes forward to attack a single target, dealing damage equal to 100% of her ATK. Also has a 100% base chance of inflicting them with Entangling Obstruction, lasts for 1 turn. ;Entangling Obstruction (纏わり阻害) : :'''Debuff, Status''': Decreases damage dealt by 15%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Duration for Entangling Obstruction increases to 2 turns."
+        }
+      ],
+      "icon": "assets/skills/3201.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3202",
+      "name": "Snow Weaving (雪织/雪織)",
+      "type": "Special",
+      "onibi": 1,
+      "cooldown": 0,
+      "line": "This is the intertwining of fate. No one can escape destiny.",
+      "description": "Ittan Momen Binds an enemy, dealing damage equal to 80% of her ATK and inflicts 3 layers of Wrap. She steals 40% of HIT from the enemy as long as they are under Bind. <br/>Using this skill on an enemy already inflicted with Bind again consumes all layers of Wrap, dealing damage equal to 185% of her ATK (each layer of Wrap consumed deals an extra 21% of damage). <br/>When Ittan Momen receives damage from a normal attack, it removes a layer of Wrap from the enemy with Bind. ; : ;Wrap (巻き込み) : :'''Debuff, Mark''': Gradually tightens to decreases the target's SPD by 25. Increases by 1 layer at the end of the inflicted target's turn. ;Bind (束縛) : :Only 1 enemy can be bound at a time. Changing targets will cause all layers of Wrap to be removed. When Wrap expires, Bind will also be removed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Extra damage for each layer increases to 26%."
+        },
+        {
+          "lvl": 3,
+          "text": "Extra damage for each layer increases to 31%."
+        },
+        {
+          "lvl": 4,
+          "text": "Extra damage for each layer increases to 36%."
+        },
+        {
+          "lvl": 5,
+          "text": "Also steals 40% of RES and 40% of Crit from the enemy as long as they are under Bind."
+        }
+      ],
+      "icon": "assets/skills/3202.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3203",
+      "name": "Crimson Night (绯夜散华/緋夜散華)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I will bloom in your scattered blood.",
+      "description": "Ittan Momen launches a 4-strike attack on 1 enemy and the enemy with Bind, dealing damage equal to 45% of her ATK on the first 3 strikes and 125% of her ATK on the last hit. Then, inflicts 1 layer of Wrap on the enemy with Bind. <br/>Does not launch multiple strikes if the targeted enemy and enemy with Bind are the same. ;Wrap (巻き込み) : :'''Debuff, Mark''': Gradually tightens to decreases the target's SPD by 25. Increases by 1 layer at the end of the inflicted target's turn. ;Bind (束縛) : :Only 1 enemy can be bound at a time. Changing targets will cause all layers of Wrap to be removed. When Wrap expires, Bind will also be removed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage of the final hit increases to 153%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage of the final hit increases to 181%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage of the final hit increases to 209%."
+        },
+        {
+          "lvl": 5,
+          "text": "Gains 2 onibi if only 1 enemy is attacked."
+        }
+      ],
+      "icon": "assets/skills/3203.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Ittan Momen.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Ittan Momen's skills 6 times.",
+      "reward": "Magatama ×10"
+    },
+    {
+      "condition": "With Ittan Momen win 30 times in Duel, Practice or Spar against Okuribito.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/320skin1.webp",
+  "stats": {
+    "min": {
+      "no": 320,
+      "en": null,
+      "atk": 118,
+      "hp": 1003,
+      "def": 63,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 320,
+      "en": null,
+      "atk": 2734,
+      "hp": 11735,
+      "def": 419,
+      "spd": 118,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

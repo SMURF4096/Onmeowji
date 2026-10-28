@@ -1,0 +1,186 @@
+{
+  "no": 578,
+  "en": "Shinjou Hoshiguma Douji",
+  "cn": "神酿星熊童子",
+  "jp": "神釀星熊童子",
+  "gl": "Ambrosial Hoshiguma Doji",
+  "rarity": "SP",
+  "image": "File:578.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shinjou_Hoshiguma_Douji",
+  "cv": "Yuuki Kaji",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/578.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/578.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "2224"
+      },
+      "hp": {
+        "lv1": "1270",
+        "lv2": null,
+        "max": "13557"
+      },
+      "def": {
+        "lv1": "74",
+        "lv2": null,
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "108"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "C",
+        "C"
+      ],
+      "hp": [
+        "S",
+        "S"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5781",
+      "name": "Intoxicating Sip (小醉怡情)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don’t say I didn’t warn you.",
+      "description": "SP Hoshiguma Douji attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120% and has a 40% base chance to inflict Confuse (lasts for 1 turn)."
+        }
+      ],
+      "icon": "assets/skills/5781.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5782",
+      "name": "Maximum Enjoyment (宾主尽欢)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "You sure can drink!",
+      "description": "SP Hoshiguma Douji forces the non-summoned ally with the highest ATK to attack a selected target. Upon usage, dispels 1 debuff from all allies (prioritises control effects). ; (豪胆) : :'''Buff, Mark''': This effect is immediately consumed to dispel Confuse when inflicted with it.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Has a 100% base chance to Seal the selected target, lasts for 2 turns."
+        },
+        {
+          "lvl": 3,
+          "text": "Also dispels 2 buffs from the selected target."
+        },
+        {
+          "lvl": 4,
+          "text": "Also forces 1 confused non-summoned enemy (prioritises the enemy with highest ATK) to attack the selected target."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon usage, grants all allies 豪胆, lasts for 2 turns."
+        }
+      ],
+      "icon": "assets/skills/5782.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5783",
+      "name": "Bottoms Up (饮过三巡)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "You’ll tell me everything if you’re drunk.",
+      "description": "Exclusive effect. SP Hoshiguma Douji creates a Banquet realm, lasts for 2 turns. While the realm is active, he is immune to Confuse and all other non-summoned entities have a 40% base chance of becoming inflicted with Confuse at the end of their turn, lasts for 1 turn, (limit of 3 times per entity before the start of his turn).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "While the realm is active, allies inflicted with Confuse gain 30% of damage reduction."
+        },
+        {
+          "lvl": 3,
+          "text": "While the realm is active, when Confuse is removed from an ally, their move bar is increased by 25% (only triggers once per ally before the start of SP Hoshiguma Douji's turn)."
+        },
+        {
+          "lvl": 4,
+          "text": "While the realm is active, enemies inflicted with Confuse have their Crit DMG decreased by 40%, lasts for 2 turns."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5783.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.578 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/578skin1.webp"
+}

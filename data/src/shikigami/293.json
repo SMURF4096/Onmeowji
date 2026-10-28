@@ -1,0 +1,224 @@
+{
+  "no": 293,
+  "en": "Doumeki",
+  "cn": "百目鬼",
+  "jp": "Dodomeki",
+  "gl": "Dodomeki",
+  "rarity": "SR",
+  "image": "File:293.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Doumeki",
+  "cv": "Rina Hidaka",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests",
+  "imageUrl": "assets/shikigami/293.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/293.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "118",
+        "lv2": null,
+        "max": "2734"
+      },
+      "hp": {
+        "lv1": "801",
+        "lv2": null,
+        "max": "9456"
+      },
+      "def": {
+        "lv1": "77",
+        "lv2": null,
+        "max": "507"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "d",
+        "c"
+      ],
+      "def": [
+        "a",
+        "s"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "c",
+        "c"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2931",
+      "name": "Flaming Eye (瞳炎)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "What a beautiful pair of eyes...",
+      "description": "Doumeki uses a Flaming Eye to attack a single target, dealing damage equal to 100% of her ATK. If the target is inflicted with Gaze State, increases its duration by 1 turn. ;Gaze State (凝視状態) : :'''Debuff, Status''': All special skills are changed to Evil Light.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2931.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2932",
+      "name": "Ghoul Eye（鬼眸/鬼目）",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Show me what's on your mind...",
+      "description": "When an enemy lands a crit attack, Doumeki has a 40% chance of opening a Ghost Eye. When she has opened 5 Ghost Eyes, she closes all 5 and immediately uses Cursed Eye with spending any onibi.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Chance increases to 50%."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance increases to 70%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance increases to 80%."
+        }
+      ],
+      "icon": "assets/skills/2932.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2933",
+      "name": "Cursed eye（诅咒之眼/呪いの目）",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Such beautiful eyes... can I keep them?",
+      "description": "Doumeki uses her ominous Ghost Eyes to gaze upon all enemies and has a 100% base chance of inflicting them with Gaze State, lasts for 1 turn. ; : ;Gaze State (凝視状態) : :'''Debuff, Status''': All special skills are changed to Evil Light.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Evil Light's damage increases to 222%"
+        },
+        {
+          "lvl": 3,
+          "text": "Evil Light's damage increases to 233%"
+        },
+        {
+          "lvl": 4,
+          "text": "Evil Light's damage increases to 244%"
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost is decreases to 2."
+        }
+      ],
+      "icon": "assets/skills/2933.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2933b",
+      "name": "Evil Light（邪光）",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": ":''Enemy special skills are changed to this skill while inflicted with Gaze State.''\nWhen an enemy uses this skill, Doumeki deals indirect damage equal to 211% of her ATK to them, as well as additional indirect damage equal to 8% of their max HP (cannot exceed 600% of her ATK). After this, Gaze State is removed from all enemies.",
+      "upgrades": [],
+      "icon": "assets/skills/2933b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Doumeki.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Collect 8 Doumeki shards from Demon Parade.",
+      "reward": "Shikigami No.293 ×10"
+    },
+    {
+      "condition": "Have Doumeki take part in 30 Realm Raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/293skin1.webp",
+  "stats": {
+    "min": {
+      "no": 293,
+      "en": null,
+      "atk": 118,
+      "hp": 801,
+      "def": 77,
+      "spd": 108,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 293,
+      "en": null,
+      "atk": 2734,
+      "hp": 9456,
+      "def": 507,
+      "spd": 118,
+      "crit": 3,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "no": 211,
+  "en": "Kuro Mujou",
+  "cn": "鬼使黑",
+  "jp": "黒無常",
+  "gl": "黒無常",
+  "rarity": "SR",
+  "image": "File:211.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kuro_Mujou",
+  "cv": "Nakai Kazuya",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Demon Seal • Dispatch",
+  "imageUrl": "assets/shikigami/211.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/211.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "132",
+        "lv2": null,
+        "max": "3420"
+      },
+      "hp": {
+        "lv1": "875",
+        "lv2": null,
+        "max": "10368"
+      },
+      "def": {
+        "lv1": "63",
+        "lv2": null,
+        "max": "410"
+      },
+      "spd": {
+        "lv1": "91",
+        "lv2": null,
+        "max": "101"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "d",
+        "b"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2111",
+      "name": "Punishment (惩戒/制裁)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Spare me your excuses. To the underworld with you!",
+      "description": "Kuro Mujou wields his deadly scythe to punish a single target, dealing damage equal to 100% of his ATK. <br>In the new turn gained from Necrosis, this skill changes to Soul Chaser.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2111.webp"
+    },
+    {
+      "group": "Normal",
+      "image": "2111b",
+      "name": "Soul Chaser (追魂)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Kuro Mujou wields his scythe to launch a 2-strike follow-up attack on a single target, dealing damage equal to 100% of his ATK with each strike. Increases his Crit by 50%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2111b.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2112",
+      "name": "Necrosis (索命/死神)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "There is no escape.",
+      "description": "Kuro Mujou gains a new turn immediately after KO'ing an enemy.",
+      "upgrades": [],
+      "icon": "assets/skills/2112.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2113",
+      "name": "Death Sentence (死亡宣判/死の宣告)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Don't you know that you're already dead? Here, let me show you!",
+      "description": "Kuro Mujou swings his scythe, striking all enemies and dealing damage equal to 106% of his ATK. His Crit and damage dealt are increased by 50% for enemies with more than 40% HP and decreased by 50% for enemies with less than 40% HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 111%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 117%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 122%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 128%."
+        }
+      ],
+      "icon": "assets/skills/2113.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kuro Mujou gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Team Kuro Mujou with another player's Shiro Mujou and clear any zone 10 times.",
+      "reward": "Shikigami No.211 ×10"
+    },
+    {
+      "condition": "Increase Kuro Mujou's skill 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/211skin1.webp",
+  "stats": {
+    "min": {
+      "no": 211,
+      "en": null,
+      "atk": 132,
+      "hp": 875,
+      "def": 63,
+      "spd": 91,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 211,
+      "en": null,
+      "atk": 3109,
+      "hp": 10368,
+      "def": 410,
+      "spd": 101,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "no": 40,
+  "en": "Chirizuka",
+  "cn": "尘冢",
+  "jp": "塵塚",
+  "type": "ATK",
+  "image": "File:SoulO40.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Chirizuka",
+  "imageUrl": "assets/souls/Soul40.webp",
+  "localImage": "assets/souls/Soul40.webp",
+  "combo2": "Increases ATK by 15%",
+  "combo4": "When taking an action, damage dealt is increased by 25%. For each non-summoned ally there is of more than the enemy, damage dealt is increased by an additional 4% (max of 45%).",
+  "location": "Soul Zones (Monday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M60.webp"
+}

@@ -1,0 +1,212 @@
+{
+  "no": 322,
+  "en": "Rengoku Ibaraki Douji",
+  "cn": "炼狱茨木童子",
+  "jp": "煉獄茨木童子",
+  "gl": "Inferno Ibaraki Doji",
+  "rarity": "SP",
+  "image": "File:322.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Rengoku_Ibaraki_Douji",
+  "cv": "Fukuyama Jun · Sayaka Senbongi (Skin 4)",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/322.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/322.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "145",
+        "lv2": null,
+        "max": "3323"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "58",
+        "lv2": null,
+        "max": "379"
+      },
+      "spd": {
+        "lv1": "112",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "15",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "C",
+        "C"
+      ],
+      "spd": [
+        "S",
+        null
+      ],
+      "crit": [
+        "S",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3221",
+      "name": "Demonic Claw (鬼爪)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Never underestimate my demonic power.",
+      "description": "SP Ibaraki Douji slashes his demonic claw at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3221.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3222",
+      "name": "Enraged Will (狂意)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Tremble before my will to battle!",
+      "description": "When the Demonic Flames from the Inferno Gate attacks more than 1 enemy, for each extra enemy, increases the damage of the Demonic Flames by 10% (max of 20%).",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases max to 30%"
+        },
+        {
+          "lvl": 3,
+          "text": "Increases max to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases max to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "If the Demonic Flames KO's a non-summonable enemy, the Demonic Arm attack that follows inflicts an extra attack, dealing damage equal to the total excess damage from the previous Demonic Flame."
+        }
+      ],
+      "icon": "assets/skills/3222.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3223",
+      "name": "Inferno Gate (炼狱之门/煉獄の門)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "So useless!",
+      "description": "SP Ibaraki Douji channels strong demonic power to open the Inferno Gate and commands the burning Demonic Flame to attack all enemies, dealing damage equal to 131% of his ATK. Also calls forth a giant Demonic Arm to crush 1 enemy, dealing damage equal to 131% of his ATK. <br/>If the target is KO'd by the Demonic Flame, the Demonic Arm will attack the enemy with highest HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 138%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 145%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 151%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 164%."
+        }
+      ],
+      "icon": "assets/skills/3223.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Ibaraki Doji's skills 8 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With SP Ibaraki Doji win 10 times in PVP, Practice or Spar against Shuten Douji.",
+      "reward": "Shikigami No.322 ×10"
+    },
+    {
+      "condition": "Team SP Ibaraki Doji with another player's Shuten Douji and clear any zone 10 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/322skin1.webp",
+  "stats": {
+    "min": {
+      "no": 322,
+      "en": null,
+      "atk": 145,
+      "hp": 864,
+      "def": 58,
+      "spd": 112,
+      "crit": 15,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 322,
+      "en": null,
+      "atk": 3323,
+      "hp": 10254,
+      "def": 379,
+      "spd": 112,
+      "crit": 15,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

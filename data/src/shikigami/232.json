@@ -1,0 +1,195 @@
+{
+  "no": 232,
+  "en": "Tesso",
+  "cn": "铁鼠",
+  "jp": "鉄鼠",
+  "gl": "鉄鼠",
+  "rarity": "R",
+  "image": "File:232.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tesso",
+  "cv": "Souichirou Hoshi",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Chapter 3|Chapter 3: Challenge Zone",
+  "imageUrl": "assets/shikigami/232.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/232.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "124",
+        "lv2": null,
+        "max": "2921"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": null,
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "65",
+        "lv2": null,
+        "max": "428"
+      },
+      "spd": {
+        "lv1": "105",
+        "lv2": null,
+        "max": "115"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "a"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2321",
+      "name": "Jingle Jingle (钱响叮当/チャリンチャリン)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Jingle jangle, jingle jangle, it's payback time!",
+      "description": "Tesso whizzes towards a single target on a sparkling gold coin and smacks them while they're distracted, dealing damage equal to 100% of his ATK and has a 50% base chance of inflicting them with Money Fling, lasts for 2 turns. ;Money Fling (銭撃) : :'''Debuff, State''': Decreases Crit by 20%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2321.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2322",
+      "name": "Insurance Policy (横财护身/あぶく銭護身)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "If you want to live, you need money!",
+      "description": "When Tesso is attacked, he has a 40% base chance of inflicting Bribed on the attacker, lasts for 2 turns.\nWinning a battle with Tesso grants a 9% coin bonus.\n;Bribed (買収)\n:\n:'''Debuff, Status''': Decreases ATK by 20%.",
+      "upgrades": [],
+      "icon": "assets/skills/2322.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2323",
+      "name": "Gold Barrage (钱即正义/銭こそ、正義だ)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "There are worse ways to due than in a flurry of gold! Hahaha!",
+      "description": "Tesso commands countless gold coins to fly at all enemies twice, dealing damage equal to 44% of his attack each time and has a 100% base chance of inflicting them with 1 layer of Flaw, lasts for 2 turns. ;Flaw (隙あり) : :'''Debuff, Status''': Inflicted target becomes vulnerable, their damage received is increased by 40%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 46%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 48%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 52%."
+        }
+      ],
+      "icon": "assets/skills/2323.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Tesso clear stage 5 of the Orochi soul zone (solo).",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Wish for 15 Tesso shards in guild.",
+      "reward": "Shikigami No.232 ×10"
+    },
+    {
+      "condition": "Donate 5 Tesso shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/232skin1.webp",
+  "stats": {
+    "min": {
+      "no": 232,
+      "en": null,
+      "atk": 124,
+      "hp": 907,
+      "def": 65,
+      "spd": 105,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 232,
+      "en": null,
+      "atk": 2421,
+      "hp": 10709,
+      "def": 428,
+      "spd": 115,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

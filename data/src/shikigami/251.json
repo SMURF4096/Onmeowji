@@ -1,0 +1,212 @@
+{
+  "no": 251,
+  "en": "Hangan",
+  "cn": "判官",
+  "jp": "",
+  "gl": "Hangan",
+  "rarity": "SR",
+  "image": "File:251.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hangan",
+  "cv": "Akira Ishida",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/251.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/251.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "130",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "886",
+        "lv2": null,
+        "max": "10482"
+      },
+      "def": {
+        "lv1": "64",
+        "lv2": null,
+        "max": "419"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2511",
+      "name": "Brush of Death (墨笔夺魂/墨筆の魂奪取)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "My brush will cleave your soul from your body.",
+      "description": "Hangan uses his brush to splash ink at a single target, dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2511.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2512",
+      "name": "No Mercy (无情/無情)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Death is simply an inevitable part of life.",
+      "description": "When Hangan deals damage, increases his Crit by 1% for each 1% of target's HP decreased. His damage to revived targets is increased by 10%.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage to revived targets increases to 20%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage to revived targets increases to 30%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage to revived targets increases to 40%."
+        },
+        {
+          "lvl": 5,
+          "text": "If his Crit is above 100%, increases his Crit DMG by 1% for each 1% of excess Crit."
+        }
+      ],
+      "icon": "assets/skills/2512.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2513",
+      "name": "Death Penalty (死亡宣告/死の宣告)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The verdict is death by Hangan!",
+      "description": "Hangan sentences all enemies to death, dealing damage equal to 100% of his ATK and inflicts a Death Penalty, lasts for 1 turn. The Death Penalty deals indirect damage equal to 100% to Inflicted targets at the start of their next turn if it is not removed. ;Death Penalty (死亡裁決) : :'''Debuff, Mark''': Absorbs an amount of healing equal to the damage dealt by the Death Sentence. Death Penalty is removed when the max amount is absorbed.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage and indirect damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage and indirect damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage and indirect damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage and indirect damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2513.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Hangan win 30 times in .",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Hangan.",
+      "reward": "Shikigami No.251 ×10"
+    },
+    {
+      "condition": "Donate 5 Hangan shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/251skin1.webp",
+  "stats": {
+    "min": {
+      "no": 251,
+      "en": null,
+      "atk": 130,
+      "hp": 886,
+      "def": 64,
+      "spd": 108,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 251,
+      "en": null,
+      "atk": 3028,
+      "hp": 10482,
+      "def": 419,
+      "spd": 118,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

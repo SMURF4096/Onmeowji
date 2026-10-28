@@ -1,0 +1,16 @@
+{
+  "no": 27,
+  "en": "Dice Sprite",
+  "cn": "骰子鬼",
+  "jp": "骰子の鬼",
+  "type": "RES",
+  "image": "File:Soul27.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Dice_Sprite",
+  "imageUrl": "assets/souls/Soul27.webp",
+  "localImage": "assets/souls/Soul27.webp",
+  "combo2": "Increases resist by 15%",
+  "combo4": "When resisting, launches a counter-attack at the source. Damage for the counter-attack is increased by 50%. Move bar is increased by 25% when inflicted with a control effect.",
+  "location": "Chapter 24 · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M2.webp"
+}

@@ -1,0 +1,16 @@
+{
+  "no": "OB06",
+  "page": "Soul Edge (Bondling)",
+  "en": "Soul Edge",
+  "cn": null,
+  "jp": null,
+  "area": "|Ominous Land",
+  "type": "|DEF",
+  "image": "assets/bondlings/OB06s1.webp",
+  "imageUrl": "assets/bondlings/OB06s1.webp",
+  "skins": [
+    "assets/bondlings/OB01skin6.webp",
+    "assets/bondlings/OB02skin6.webp"
+  ],
+  "skill": "When an allied shikigami takes lethal damage, restores HP to 20% and the onmyoji shares the excess damage (this effect can be trigged up to 3 times.) When the Onmyoji's HP is 50% or below, Soul Edge attacks all enemies, dealing 100% daamge and increasing all allies damage by 30% for 2 turns. Cooldown: 2 turns."
+}

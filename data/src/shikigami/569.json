@@ -1,0 +1,186 @@
+{
+  "no": 569,
+  "en": "Nekogawa",
+  "cn": "猫川",
+  "jp": "",
+  "gl": "Nekogawa",
+  "rarity": "SSR",
+  "image": "File:569.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Nekogawa",
+  "cv": "Yuuya Hirose",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/569.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/569.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "147",
+        "lv2": null,
+        "max": "3377"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": null,
+        "max": "10368"
+      },
+      "def": {
+        "lv1": "55",
+        "lv2": null,
+        "max": "366"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "C",
+        "B"
+      ],
+      "def": [
+        "D",
+        "C"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5691",
+      "name": "Temperature Test (深温)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do not enter when it's too hot.",
+      "description": "Always test the temperature before you enter the pool. Nekogawa splashes spring water at a single target twice, dealing damage equal to 42% of his ATK with each splash.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 47%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 52%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 57%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 62%."
+        }
+      ],
+      "icon": "assets/skills/5691.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "5692",
+      "name": "Deluge (泉涌)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Welcome.",
+      "description": "When an ally passes the Private Pool, they enjoy the healing effect from the hot spring; their HP is recovered by 98% of Nekogawa's ATK and have a 40% chance of having 1 debuff or control effect dispelled from them, prioritizing the control effects. ;Private Pool (別館私湯) : :Located in the fixed position 70%. It is immune to debuffs and control effects. It inherits HP equal to 550% of Nekogawa's ATK and 100% of his DEF, and it cannot take actions. Whenever allies use normal attacks 6 times, and if he is not inflicted with a control effect, the Springwater Cat launches a 6-strike attack on random enemies, dealing damage equal to 125% of Nekogawa's ATK with each strike without triggering the enemies' soul effects, and then summons the Private Pool again. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "When Nekogawa passes through the Private Pool, the recovered HP for him is doubled."
+        },
+        {
+          "lvl": 3,
+          "text": "Chance to dispel increases to 60%."
+        },
+        {
+          "lvl": 4,
+          "text": "Chance to dispel increases to 80%."
+        },
+        {
+          "lvl": 5,
+          "text": "Chance to dispel increases to 100%."
+        }
+      ],
+      "icon": "assets/skills/5692.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5693",
+      "name": "Deep Cleaning (洗筋伐髄)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "I guarantee you a thorough change... for extra money of course.",
+      "description": "Nekogawa summons the Private Pool. While the Private Pool is present on the battlefield, increases all allies' normal attack damage by 20%. When he summons the Private Pool again, its HP is recovered to 100% and allows all allies to enjoy the healing effect from the hot spring once again. ; : ;Private Pool (別館私湯) : :Located in the fixed position 70%. It is immune to debuffs and control effects. It inherits HP equal to 550% of Nekogawa's ATK and 100% of his DEF, and it cannot take actions. Whenever allies use normal attacks 6 times, and if he is not inflicted with a control effect, the Springwater Cat launches a 6-strike attack on random enemies, dealing damage equal to 125% of Nekogawa's ATK with each strike without triggering the enemies' soul effects, and then summons the Private Pool again. :''(Uses ally summon spot.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to allies' normal attack damage increases to 35%."
+        },
+        {
+          "lvl": 3,
+          "text": "When Nekogawa passes through the Private Pool, he is regarded as having reaching the end of the move bar."
+        },
+        {
+          "lvl": 4,
+          "text": "Boost to allies' normal attack damage increases to 50%."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5693.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase Nekogawa's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Nekogawa's skills 12 times.",
+      "reward": "Shikigami No.569 ×10"
+    },
+    {
+      "condition": "With Nekogawa win 30 times in PVN zones.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/569skin1.webp"
+}

@@ -1,0 +1,186 @@
+{
+  "no": 577,
+  "en": "Kikinyou",
+  "cn": "鬼金羊",
+  "jp": "Guijinyang",
+  "gl": "Guijinyang",
+  "rarity": "SSR",
+  "image": "File:577.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kikinyou",
+  "cv": "Kou Bankoubara",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/577.webp",
+  "rarityIcon": "assets/icons/SSR.webp",
+  "localImage": "assets/shikigami/577.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "83",
+        "lv2": null,
+        "max": "2010"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "12646"
+      },
+      "def": {
+        "lv1": "79",
+        "lv2": null,
+        "max": "507"
+      },
+      "spd": {
+        "lv1": "108",
+        "lv2": null,
+        "max": "118"
+      },
+      "crit": {
+        "lv1": "3",
+        "lv2": null,
+        "max": "3"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "30"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "D",
+        "D"
+      ],
+      "hp": [
+        "A",
+        "S"
+      ],
+      "def": [
+        "A",
+        "S"
+      ],
+      "spd": [
+        "A",
+        "S"
+      ],
+      "crit": [
+        "C",
+        "C"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5771",
+      "name": "Surprise Ram (金羊奇袭)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Let's warm up before the curtain call.",
+      "description": "Kikinyou attacks a single target dealing damage equal to 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/5771.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5772",
+      "name": "Shadow Maneuver(宿影暗渡)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "There's always a surprise behind every trick.",
+      "description": "Exclusive effect. When the enemy loses 1 Average Onibi, Kikinyou gains 1 stack 宿影阵. ;Upon Usage :Kikinyou performs a sleight of hand, removes up to 2 Average Onibi from allies and returns an equal number of onibi back. ;? (宿影阵) : :'''Buff, Mark''': Max of 10 stacks. When the max is reached, all stacks are removed and immediately uses 宿影暗渡. ;Average Onibi (泛鬼火) :Any onibi on the onibi bar, includes Wish Power and Faux Orbs.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Upper Hand''': Automatically gains 5 宿影阵 stacks at the start of battle."
+        },
+        {
+          "lvl": 3,
+          "text": "'''宿影阵''': Max limit decreases to 8."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Upon Usage''': Also removes 1 onibi from the enemy."
+        },
+        {
+          "lvl": 5,
+          "text": "When 宿影阵 reaches its max limit, he gains Shelter."
+        }
+      ],
+      "icon": "assets/skills/5772.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5773",
+      "name": "Ghost's Marvel: Constellation (鬼宿奇惊·长星)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "The puzzles in the world are always lethal.",
+      "description": "Exclusive effect. Kikinyou decreases all enemies HIT by 30%, lasts for 1 turn. Also has a 65% base chance to inflict Constellation Puzzle on a targeted enemy. ;Constellation Puzzle (长星锁) : :'''Debuff, Mark''': When the inflicted target reaches the bottom of the move bar, this effect us removed and 鬼宿奇惊·长星 is used to skip their turn. Kikinyou is immune to 长星锁.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Base chance increases to 70%."
+        },
+        {
+          "lvl": 3,
+          "text": "'''长星锁''': Also decreases the enemy's DEF by 100."
+        },
+        {
+          "lvl": 4,
+          "text": "Base chance increases to 75%."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon usage, on the next non-summoned ally's, other than himself, turn they will consume 3 less onibi."
+        }
+      ],
+      "icon": "assets/skills/5773.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "?",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "?",
+      "reward": "Shikigami No.577 ×10"
+    },
+    {
+      "condition": "?",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/577skin1.webp"
+}

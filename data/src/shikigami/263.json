@@ -1,0 +1,195 @@
+{
+  "no": 263,
+  "en": "Futakuchi Onna",
+  "cn": "二口女",
+  "jp": "Futakuchi",
+  "gl": "Futakuchi",
+  "rarity": "SR",
+  "image": "File:263.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Futakuchi_Onna",
+  "cv": "Mayumi Shintani",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch • Demon Seal",
+  "imageUrl": "assets/shikigami/263.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/263.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "112",
+        "lv2": "124",
+        "max": "2626"
+      },
+      "hp": {
+        "lv1": "971",
+        "lv2": "1078",
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": "76",
+        "max": "445"
+      },
+      "spd": {
+        "lv1": "106",
+        "lv2": "116",
+        "max": "116"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": "5",
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "b"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "b",
+        "a"
+      ],
+      "spd": [
+        "a",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2631",
+      "name": "Surprise Attack (意外袭击/襲撃)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "I just want to show my respect!",
+      "description": "Futakuchi Onna bows her head in respect and the malicious entity on the back of her head seizes the opportunity to attack a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2631.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2632",
+      "name": "Fear (恐惧/恐怖)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "No! Stay back!",
+      "description": "When an ally takes an action, Futakuchi Onna has a 40% chance to gain a stack of Vial of Demon Force, max of 6 stacks.\n;Upper Hand\n:Automatically gains 4 stacks of Vial of Demon Force at the start of battle.\n; Vial of Demon Force (妖気弾)\n:'''Buff, Status''': Max of 6 stacks. Each stack allows Apology to inflict 1 follow-up attack.\n:''(1-6 blue flaming orbs will circle around Futakuchi Onna, 1 orb represents 1 stack.)''",
+      "upgrades": [],
+      "icon": "assets/skills/2632.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2633",
+      "name": "Apology (歉意/謝罪)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "I-I didn't mean to do it. I'm sorry!",
+      "description": "Futakuchi Onna spends all her Vial of Demon Force to inflict a 2-strike attack on random enemies, dealing damage equal to 51% of her ATK with each strike. Each stack of Vial of Demon Force inflicts 1 follow-up attack. ; Vial of Demon Force (妖気弾) :'''Buff, Status''': Max of 6 stacks. Each stack allows Apology to inflict 1 follow-up attack. :''(1-6 blue flaming orbs will circle around Futakuchi Onna, 1 orb represents 1 stack.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 54%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 57%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 60%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 63%."
+        }
+      ],
+      "icon": "assets/skills/2633.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Futakuchi Onna.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Have Futakuchi Onna take part in 60 Realm Raids.",
+      "reward": "Shikigami No.263 ×10"
+    },
+    {
+      "condition": "With Futakuchi Onna clear any zone 59 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/263skin1.webp",
+  "stats": {
+    "min": {
+      "no": 263,
+      "en": null,
+      "atk": 112,
+      "hp": 971,
+      "def": 68,
+      "spd": 106,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 263,
+      "en": null,
+      "atk": 2626,
+      "hp": 11507,
+      "def": 445,
+      "spd": 116,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

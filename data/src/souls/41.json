@@ -1,0 +1,16 @@
+{
+  "no": 41,
+  "en": "Abura Akago",
+  "cn": "油赤子",
+  "jp": "Abura Akago",
+  "type": "HIT",
+  "image": "File:SoulO41.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Abura_Akago",
+  "imageUrl": "assets/souls/Soul41.webp",
+  "localImage": "assets/souls/Soul41.webp",
+  "combo2": "Increases HIT by 15%",
+  "combo4": "Exclusive effect. At the start of battle, gain 2 Spirit stacks. Each Spirit stack increases all allies' DEF by 8%. If an ally doesn't have enough onibi to use a special skill, an equal number of Spirit stacks can be consumed instead.",
+  "location": "Soul Zones (Friday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M61.webp"
+}

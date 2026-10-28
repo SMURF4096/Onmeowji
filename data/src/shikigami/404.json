@@ -1,0 +1,178 @@
+{
+  "no": 404,
+  "en": "Green Imp",
+  "cn": "天邪鬼绿",
+  "jp": "天邪鬼緑",
+  "gl": "天邪鬼緑",
+  "rarity": "N",
+  "image": "File:404.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Green_Imp",
+  "cv": "N/A",
+  "intro": "",
+  "imageUrl": "assets/shikigami/404.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/404.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4041",
+      "name": "Hit (我打/ぶん殴る)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Amanojaku Midori leaps and attacks a single enemy with a paddle, dealing 100% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4041.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4042",
+      "name": "Hit Hit Hit (我打打打/オラ!オラ!オラ!)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "Amanojaku Midori leaps and attacks a single enemy 3 times with a paddle. Deals 72% of attack damage each time.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+5% damage"
+        }
+      ],
+      "icon": "assets/skills/4042.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "|reward1 = Gold ×5000",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "|reward2 = ×10",
+      "reward": "×10"
+    }
+  ],
+  "art": "assets/art/404skin1.webp",
+  "stats": {
+    "min": {
+      "no": 404,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 404,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

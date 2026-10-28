@@ -1,0 +1,195 @@
+{
+  "no": 297,
+  "en": "Hiyoribou",
+  "cn": "日和坊",
+  "jp": "Hiyoribo",
+  "gl": "Hiyoribo",
+  "rarity": "SR",
+  "image": "File:297.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hiyoribou",
+  "cv": "Suzuko Mimori",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quest • Demon Seal • Dispatch",
+  "imageUrl": "assets/shikigami/297.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/297.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "2358"
+      },
+      "hp": {
+        "lv1": "1195",
+        "lv2": null,
+        "max": "14013"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": null,
+        "max": "392"
+      },
+      "spd": {
+        "lv1": "102",
+        "lv2": null,
+        "max": "112"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "c",
+        "c"
+      ],
+      "hp": [
+        "s",
+        "s"
+      ],
+      "def": [
+        "c",
+        "c"
+      ],
+      "spd": [
+        "b",
+        "s"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "2971",
+      "name": "Blazing Sun (阳炎/陽炎)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Don't you know not to stare directly into the sun?",
+      "description": "Hiyoribou focuses the energy of the sun and casts it onto a single target, dealing damage equal to 100% of her ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2971.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2972",
+      "name": "Sunshine and Rain (晴雨)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Keep it up, everyone!",
+      "description": "Hiyoribou helps her allies by storing sunshine energy in her Sunshine Doll. Storage limit is equal to her max HP.\nWhen a non-summoned ally receives damage, she stores 25% of the damage as sunshine energy in the Sunshine Doll.\nWhen an enemy ends their turn, she consumes sunshine energy to restore the HP of a non-summoned ally with the lowest HP by 30% of their lost HP.\n;\n:",
+      "upgrades": [],
+      "icon": "assets/skills/2972.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2973",
+      "name": "Nourishment (滋养/滋養)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 5,
+      "line": "Don't ever give up!",
+      "description": "When an ally is KO'd, and if Hiyoribou's passive is not Sealed, she sacrifices her Sunshine Doll to revive a random KO'd ally and restores their HP by 100% of their max HP. Also spends 50% of the stored sunshine energy to restore the HP all non-summoned allies by a shared amount. The Sunshine Doll revives in 4 turns. If multiple Hiyoribou are present, all of their Sunshine Dolls will be sacrificed. When using this skill while Hiyoribou's Sunshine Doll is present, stores sunshine energy equal to 25% of her max HP. When the Sunshine Doll is sacrificed, decreased its revival cooldown by 1.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Shared HP restored increases to 75%."
+        },
+        {
+          "lvl": 3,
+          "text": "When using this skill, stored sunshine energy increases to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Shared HP restored increases to 100%."
+        },
+        {
+          "lvl": 5,
+          "text": "Sunshine Doll's revival cooldown decreases to 3."
+        }
+      ],
+      "icon": "assets/skills/2973.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Hiyoribou.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Hiyoribou to level 30.",
+      "reward": "Shikigami No.297 ×10"
+    },
+    {
+      "condition": "Increase Hiyoribou's skills 8 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/297skin1.webp",
+  "stats": {
+    "min": {
+      "no": 297,
+      "en": null,
+      "atk": 102,
+      "hp": 1195,
+      "def": 61,
+      "spd": 102,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 297,
+      "en": null,
+      "atk": 2358,
+      "hp": 14013,
+      "def": 392,
+      "spd": 112,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

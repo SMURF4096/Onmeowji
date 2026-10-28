@@ -1,0 +1,17 @@
+{
+  "no": 69,
+  "en": "Bond Weaver",
+  "cn": "纺缘锤",
+  "jp": "願紡錘",
+  "type": "Random Stat",
+  "image": "File:Soul69.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Bond_Weaver",
+  "imageUrl": "assets/souls/Soul69.webp",
+  "localImage": "assets/souls/Soul69.webp",
+  "combo2": "At the start of battle and at the start of each own turn, gain Bond Guard. Bond Guard: Blocks 500 damage upon being attacked by a monster; removed after blocking damage equal to 300% of initial DEF.",
+  "combo4": "",
+  "location": "时空秘境",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M69.webp",
+  "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+}

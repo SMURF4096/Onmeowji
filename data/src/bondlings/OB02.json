@@ -1,0 +1,16 @@
+{
+  "no": "OB02",
+  "page": "Snowball (Bondling)",
+  "en": "Snowball",
+  "cn": "茨球",
+  "jp": "茨玉",
+  "area": "| Heian-kyo",
+  "type": "| ATK",
+  "image": "assets/bondlings/OB02s1.webp",
+  "imageUrl": "assets/bondlings/OB02s1.webp",
+  "skins": [
+    "assets/bondlings/OB02skin1.webp",
+    "assets/bondlings/OB02skin2.webp"
+  ],
+  "skill": "When the onmyoji uses a Skill, increases their Crit by 100% for 2 turns; if single-target damage is dealt with the Skill, increases the damage by 50%; if only one target is attacked, orders Snowball to launch a follow-up strike on the enemy, dealing damage equal to 150% of the onmyoji's ATK."
+}

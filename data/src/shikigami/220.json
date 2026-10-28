@@ -1,0 +1,224 @@
+{
+  "no": 220,
+  "en": "Inugami",
+  "cn": "犬神",
+  "jp": "",
+  "gl": "Inugami",
+  "rarity": "SR",
+  "image": "File:220.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Inugami",
+  "cv": "Toshihiko Seki",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/220.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/220.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "128",
+        "lv2": "142",
+        "max": "3002"
+      },
+      "hp": {
+        "lv1": "864",
+        "lv2": "960",
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "66",
+        "lv2": "74",
+        "max": "432"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": "109",
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": "10",
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "s",
+        "s"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2201",
+      "name": "Heart Strike (心斩/心剣)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "My heart's wish is my blade's command. En garde!",
+      "description": "Inugami's heart becomes one with his sword as he wields it against a single target, dealing damage to equal 100% of his ATK.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/2201.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2202",
+      "name": "Protection (守护/守護)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "My friend, I'm here to protect you!",
+      "description": "Exclusive effect. <br>At the start of battle and at the end of Inugami's turn, he grants half of his allies with a Protection Mark. Allies with the lowest proportion of HP, rounded down, are prioritized. <br>When a counter-attack triggered by Protection Mark is launched, his ATK is increased by 30% of the counter-attacked enemy's ATK (cannot exceed 210% of Inugami's base ATK), lasts until the end of Inugami's next turn. <br>When counter-attacking, Inugami also inflicts the enemy with Tailed, lasts for 1 turn. If 2 or more enemies have Tailed, the onibi cost for Sword Flurry is decreased by 2. ;Upon Usage :Inugami grants Best Friend to 1 ally, sustained for 1 turn. When an ally with Best Friend is KO'd, removes all control effects on Inugami, increases his move bar by 30%, and changes this skill to Best Friend's Rage. He also creates a shield to protect himself that can absorb damage equal to 100% of his ATK, and a shield for all other allies that can absorb damage equal to 30% of his ATK, both last 1 turn. ;Protection Mark (守護の印) :'''Common, Mark''': When an ally receives non-transferred damage, Inugami launches a counter-attack against the source of the damage, dealing damage equal to 110% of his ATK. :''(A paw print will circle around protected allies.)'' ;Tailed (凝視) : :'''Debuff, Mark''': Decreases ATK by 35%. ;Buddy! (友よ！) : :'''General, Mark''': Inugami's best friend. He will become enraged when his best friend is KO'd.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Counter-attack damage increases to 115%."
+        },
+        {
+          "lvl": 3,
+          "text": "Counter-attack damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Counter-attack damage increases to 125%."
+        },
+        {
+          "lvl": 5,
+          "text": "Counter-attack damage increases to 135%."
+        }
+      ],
+      "icon": "assets/skills/2202.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2202b",
+      "name": "Best Friend's Rage (親友の怒り)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Inugami's base ATK is increased by 210% and he grants Protection Mark to all allies.\nWhenever a Protection Mark triggers a counter attack, recovers his own HP by 15% of the damage dealt; if Inugami is Immobile, dispels 1 control effect or debuff on him instead.\nSword Flurry's damage dealt no longer decreased when attacking the same enemy and its cost is decreased by 2 onibi. Before Inugami's next turn, each 1 new ally KO'd allows his next Sword Flurry to inflict 1 additional follow-up strike.",
+      "upgrades": [],
+      "icon": "assets/skills/2202b.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2203",
+      "name": "Sword Flurry (心剑乱舞/心剣乱舞)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "My heart and my sword are united!",
+      "description": "Inugami rushes about, unleashing a flurry of 5 blows on all enemies, prioritising enemies who haven't been attacked, dealing damage equal to 92% of his ATK with each blow. <br>Damage is decreased by 50% for each blow on the same enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 96%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 104%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 108%."
+        }
+      ],
+      "icon": "assets/skills/2203.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Inugami.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "With Inugami win 5 times in against Kyuumei Neko.",
+      "reward": "Shikigami No.220 ×10"
+    },
+    {
+      "condition": "Donate 5 Inugami shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/220skin1.webp",
+  "stats": {
+    "min": {
+      "no": 220,
+      "en": null,
+      "atk": 128,
+      "hp": 864,
+      "def": 66,
+      "spd": 99,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 220,
+      "en": null,
+      "atk": 3002,
+      "hp": 10254,
+      "def": 432,
+      "spd": 109,
+      "crit": 10,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "no": 52,
+  "en": "Leviathan",
+  "cn": "恶楼",
+  "jp": "悪樓",
+  "type": "HP",
+  "image": "File:Soul52.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Leviathan",
+  "imageUrl": "assets/souls/Soul52.webp",
+  "localImage": "assets/souls/Soul52.webp",
+  "combo2": "Increases HP by 15%",
+  "combo4": "At the start of battle, gain the Leviathan Force (increases damage dealt and damage reduction by 80%). For the equipper's first 8 turns of battle, Leviathan Force is temporarily sealed.",
+  "location": "Soul Zones (Tuesday, Saturday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M46.webp"
+}

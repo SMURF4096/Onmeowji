@@ -1,0 +1,16 @@
+{
+  "no": 24,
+  "en": "Shadow",
+  "cn": "破势",
+  "jp": "破勢",
+  "type": "Crit",
+  "image": "File:Soul24.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shadow",
+  "imageUrl": "assets/souls/Soul24.webp",
+  "localImage": "assets/souls/Soul24.webp",
+  "combo2": "Increases crit by 15%.",
+  "combo4": "Increases damage by 40% against targets with more than 70% HP.",
+  "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 2 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M27.webp"
+}

@@ -1,0 +1,16 @@
+{
+  "no": 53,
+  "en": "Conch Blower",
+  "cn": "贝吹坊",
+  "jp": "貝吹坊",
+  "type": "ATK",
+  "image": "File:Soul53.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Conch_Blower",
+  "imageUrl": "assets/souls/Soul53.webp",
+  "localImage": "assets/souls/Soul53.webp",
+  "combo2": "Increases attack by 15%",
+  "combo4": "At the start of turn, creates a Shell Shield to block damage once. While Shell Shield is active, the equipper's damage dealt is increased by 25%.",
+  "location": "Soul Zones · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M47.webp"
+}

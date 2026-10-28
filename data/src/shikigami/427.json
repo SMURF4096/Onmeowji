@@ -1,0 +1,156 @@
+{
+  "no": 427,
+  "en": "Higanbana Frog",
+  "cn": "彼岸花呱",
+  "jp": "彼岸花蛙",
+  "gl": "彼岸花蛙",
+  "rarity": "N",
+  "image": "File:427.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Higanbana_Frog",
+  "cv": "Akiha Matsui",
+  "intro": "",
+  "imageUrl": "assets/shikigami/427.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/427.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 ->",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "950 ->",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 ->",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 ->",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150 ->",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        null
+      ],
+      "hp": [
+        "C",
+        null
+      ],
+      "def": [
+        "B",
+        null
+      ],
+      "spd": [
+        "B",
+        null
+      ],
+      "crit": [
+        "D",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "4271",
+      "name": "Gero: Flower of Death (呱·死亡之花)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Deals 100% of attack damage to a single enemy.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4271.webp"
+    },
+    {
+      "group": "Special",
+      "image": "4272",
+      "name": "Gero: Flower Sea of Blood (呱·血之花海)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "",
+      "description": "Summons 1 level of flowers, creating a shield that absorbs 2% of the lost HP.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "4% of hp lost as barrier"
+        },
+        {
+          "lvl": 3,
+          "text": "6% of hp lost as barrier"
+        },
+        {
+          "lvl": 4,
+          "text": "8% of hp lost as barrier"
+        },
+        {
+          "lvl": 5,
+          "text": "10% of hp lost as barrier"
+        }
+      ],
+      "icon": "assets/skills/4272.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Win 30 battles with Higanbana Frog.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win 10 co-op battles with Higanbana Frog and another player who has Higanbana.",
+      "reward": "Shikigami No.427 ×2"
+    },
+    {
+      "condition": "Have Higanbana Frog take part in 30 realm raids.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/427skin1.webp"
+}

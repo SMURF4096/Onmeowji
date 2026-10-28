@@ -1,0 +1,212 @@
+{
+  "no": 216,
+  "en": "Kodokushi",
+  "cn": "巫蛊师",
+  "jp": "蠱毒師",
+  "gl": "蠱毒師",
+  "rarity": "R",
+  "image": "File:216.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Kodokushi",
+  "cv": "Yasuhiro Mamiya",
+  "intro": "",
+  "method": "Summon • Demon Parade • Wanted Quests • Dispatch",
+  "imageUrl": "assets/shikigami/216.webp",
+  "rarityIcon": "assets/icons/R.webp",
+  "localImage": "assets/shikigami/216.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "131",
+        "lv2": "145",
+        "max": "3055"
+      },
+      "hp": {
+        "lv1": "907",
+        "lv2": "1003",
+        "max": "10709"
+      },
+      "def": {
+        "lv1": "61",
+        "lv2": "69",
+        "max": "406"
+      },
+      "spd": {
+        "lv1": "95",
+        "lv2": "105",
+        "max": "105"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": "8",
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": "150",
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": "20",
+        "max": "20"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": "0",
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "a",
+        "s"
+      ],
+      "hp": [
+        "c",
+        "b"
+      ],
+      "def": [
+        "c",
+        "b"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "2161",
+      "name": "Bug Toss (施蛊/毒虫を放つ)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Hehehe... My little friend would like to get to know you better...",
+      "description": "Kodokushi throws bugs at a single target dealing damage equal to 100% of his ATK, deals an extra 20% of damage if the target is inflicted with Louse Toxin. ;Louse Toxin (毒虫が宿る) :'''Debuff, Status''': Creates extra effects for Kodokushi's skills. :''(A purple louse will circle around inflicted enemies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 120%."
+        }
+      ],
+      "icon": "assets/skills/2161.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "2162",
+      "name": "Death Puppetry (迷魂蛊/迷魂毒虫)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Lovely bugs, do my bidding!",
+      "description": "When an enemy infested with Louse Toxin is KO'd, they become Kodokushi's puppet and fight for him. <br>The puppet inherits 20% of Kodokushi's HP and 30% of his ATK. ;Louse Toxin (毒虫が宿る) :'''Debuff, Status''': Creates extra effects for Kodokushi's skills. :''(A purple louse will circle around inflicted enemies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Increases inherited HP to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "Increases inherited attack to 40%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases inherited HP to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases inherited attack to 50%."
+        }
+      ],
+      "icon": "assets/skills/2162.webp"
+    },
+    {
+      "group": "Special",
+      "image": "2163",
+      "name": "Venom Burst (魔蛊毒爆/魔毒虫爆発)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "Hehehe! Explode for me, my lovelies!",
+      "description": "Kodokushi sends out his louses to attack all enemies dealing damage equal to 109% of his ATK and has a 40% base chance of inflicting Louse Toxin on them, lasts for 3 turns. ;Louse Toxin (毒虫が宿る) :'''Debuff, Status''': Creates extra effects for Kodokushi's skills. :''(A purple louse will circle around inflicted enemies.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 120%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 125%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 131%."
+        }
+      ],
+      "icon": "assets/skills/2163.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Have Kodokushi gain 50000 Realm or Entrust EXP.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Evolve Kodokushi.",
+      "reward": "Shikigami No.216 ×10"
+    },
+    {
+      "condition": "Donate 5 Kodokushi shards in guild.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/216skin1.webp",
+  "stats": {
+    "min": {
+      "no": 216,
+      "en": null,
+      "atk": 131,
+      "hp": 907,
+      "def": 61,
+      "spd": 95,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 216,
+      "en": null,
+      "atk": 3055,
+      "hp": 10709,
+      "def": 406,
+      "spd": 105,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 20,
+      "effres": 0
+    }
+  }
+}

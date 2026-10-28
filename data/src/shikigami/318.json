@@ -1,0 +1,212 @@
+{
+  "no": 318,
+  "en": "Okikumushi",
+  "cn": "於菊虫",
+  "jp": "お菊虫",
+  "gl": "お菊虫",
+  "rarity": "SR",
+  "image": "File:318.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Okikumushi",
+  "cv": "Mari Hagai",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/318.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/318.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "126",
+        "lv2": null,
+        "max": "2948"
+      },
+      "hp": {
+        "lv1": "1014",
+        "lv2": null,
+        "max": "11963"
+      },
+      "def": {
+        "lv1": "57",
+        "lv2": null,
+        "max": "375"
+      },
+      "spd": {
+        "lv1": "99",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "5",
+        "lv2": null,
+        "max": "5"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        "s"
+      ],
+      "hp": [
+        "b",
+        "a"
+      ],
+      "def": [
+        "d",
+        "c"
+      ],
+      "spd": [
+        "c",
+        "a"
+      ],
+      "crit": [
+        "b",
+        "b"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3181",
+      "name": "Venomous Spit (吐丝/吐糸)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Listen close and listen well!",
+      "description": "Okikumushi spits poison at a single target, dealing damage equal to 60% of her ATK and has a 100% base chance of inflicting them with Grade 1 of Poison, lasts for 2 turns.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 66%."
+        },
+        {
+          "lvl": 3,
+          "text": "Inflicts Grade 2 of Poison instead."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 72%."
+        },
+        {
+          "lvl": 5,
+          "text": "Inflicts Grade 3 of Poison instead."
+        }
+      ],
+      "icon": "assets/skills/3181.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3182",
+      "name": "Breakout (破茧/繭破り)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Is your cocoon broken?",
+      "description": "When Okikumushi deals damage, and if the target is inflicted with Poison, one of the stacks of Poison will randomly explode and deal indirect damage equal to 8% of her ATK * the Poison's Grade.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 12%."
+        },
+        {
+          "lvl": 3,
+          "text": "After exploding, inflicts another higher Grade of Poison, lasting 1 more turn."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 16%."
+        },
+        {
+          "lvl": 5,
+          "text": "Increases her SPD by 10 for each enemy with Poison."
+        }
+      ],
+      "icon": "assets/skills/3182.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3183",
+      "name": "Caterpillar Venom's (虫之毒/虫の毒)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "It's already too late for regrets!",
+      "description": "Okikumushi spits 5 shots of venom at random enemies, dealing damage equal to 30% of her ATK with each shot, prioritizing enemies she hasn't attacked and has a 100% base chance of inflicting Grade 2 of Poison, lasts for 2 turns. ; : ;Bugs Grudge (虫怨) : :Deals indirect at the end of turn, lasts for 1 turn.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Inflicts Grade 3 of Poison instead."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 36%."
+        },
+        {
+          "lvl": 4,
+          "text": "Increases shots of venom to 6."
+        },
+        {
+          "lvl": 5,
+          "text": "Onibi cost is decreased by 1."
+        }
+      ],
+      "icon": "assets/skills/3183.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Evolve Okikumushi.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Okikumushi's level to 30.",
+      "reward": "Shikigami No.318 ×10"
+    },
+    {
+      "condition": "with Okikumushi clear any zone 30 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/318skin1.webp",
+  "stats": {
+    "min": {
+      "no": 318,
+      "en": null,
+      "atk": 126,
+      "hp": 1014,
+      "def": 57,
+      "spd": 99,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 318,
+      "en": null,
+      "atk": 2948,
+      "hp": 11963,
+      "def": 375,
+      "spd": 109,
+      "crit": 5,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

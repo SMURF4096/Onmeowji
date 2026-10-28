@@ -1,0 +1,198 @@
+{
+  "no": 586,
+  "en": "Unjou Fukengaku",
+  "cn": "云间不见岳",
+  "jp": "雲上不見岳",
+  "gl": "Lavaforged Fukengaku",
+  "rarity": "SP",
+  "image": "File:586.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Unjou_Fukengaku",
+  "cv": "Kenshou Ono & Yui Ishikawa",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/586.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/586.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "2412"
+      },
+      "hp": {
+        "lv1": "960",
+        "lv2": null,
+        "max": "10254"
+      },
+      "def": {
+        "lv1": "101",
+        "lv2": null,
+        "max": "595"
+      },
+      "spd": {
+        "lv1": "109",
+        "lv2": null,
+        "max": "109"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "B",
+        "B"
+      ],
+      "hp": [
+        "B",
+        "B"
+      ],
+      "def": [
+        "SS",
+        "SS"
+      ],
+      "spd": [
+        "A",
+        "A"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "5861",
+      "name": "Towering (巍峨)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The world changes easily, but stone remains unyielding.",
+      "description": "SP Fukengaku attacks a single target dealing damage equal to 300% of his DEF.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 340%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 380%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 420%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 480%."
+        }
+      ],
+      "icon": "assets/skills/5861.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5862",
+      "name": "Blazing Cliff (炎崖)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Ice melts, snow thaws, and flames strike the skies.",
+      "description": "Exclusive effect. SP Fukengaku creates a Volcanic realm, sustained for 3 turns. All targets that take an action in the realm are inflicted with 1 Scorching Fire stack. When allies use special skills in the realm, their damage dealt is increased by 15%. ;Scorching Fire (炙烤) : :'''Common, Mark''': Max of 5 stacks. When attacked by a Fire Shikigami, the damage received is increased by 16% and 1 stack is removed, then additional damage equal to 300% of SP Fukengaku's DEF is inflicted.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Boost to damage dealt increases to 25%."
+        },
+        {
+          "lvl": 3,
+          "text": "When ally Fire Shikigami use special skills in the realm, their onibi cost is decreased by 1."
+        },
+        {
+          "lvl": 4,
+          "text": "Inflicts all enemies with 3 Scorching Fire stacks upon usage."
+        },
+        {
+          "lvl": 5,
+          "text": "'''Upper Hand''': Automatically uses this skill at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/5862.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5863a",
+      "name": "Way Home (归山之路)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 0,
+      "line": "",
+      "description": "When an ally Fire Shikigami uses a special skill in the Volcanic realm, SP Fukengaku gains 1 Burning Wick stack. ;Upon Usage :SP Fukengaku gains 2 Burning Wick stacks and restores the HP of all allies by 200% of his initial DEF. ;Burning Wick (熔芯) : :'''Common, Mark''': Max of 8 stacks. Upon gaining a stack, restores the HP of the non-summoned ally with the lowest HP by 200% of SP Fukengaku's initial DEF. At max stacks, removes all stacks and immediately uses Eruption.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "HP restored increases to 220%."
+        },
+        {
+          "lvl": 3,
+          "text": "When healing, increases allies' DEF by 25% of SP Fukengaku's initial DEF, lasts for 2 turns."
+        },
+        {
+          "lvl": 4,
+          "text": "HP restored increases to 240%."
+        },
+        {
+          "lvl": 5,
+          "text": "When healing, increases allies' ATK by 160% of SP Fukengaku's initial DEF (cannot exceed 25% of the ally's initial ATK), lasts for 2 turns."
+        }
+      ],
+      "icon": "assets/skills/5863a.webp"
+    },
+    {
+      "group": "Special",
+      "image": "5863b",
+      "name": "Blazing Mountainfall (崩山炙落)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The road is long, but the green mountains remain in sight.",
+      "description": "SP Fukengaku attacks all enemies 3 times, dealing damage equal to 600% of his DEF with each attack (a single hit from this skill cannot exceed more than 20x of his initial ATK), then inflicts 5 Scorching Fire stacks. After using this skill for the first time, permanently increases all allies' damage dealt by 30%.\n;Scorching Fire (炙烤)\n:\n:'''Common, Mark''': Max of 5 stacks. When attacked by a Fire Shikigami, the damage received is increased by 16% and 1 stack is removed, then additional damage equal to 300% of SP Fukengaku's DEF is inflicted.",
+      "upgrades": [],
+      "icon": "assets/skills/5863b.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Fukengaku's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Fukengaku's skills 12 times.",
+      "reward": "Shikigami No.586 ×10"
+    },
+    {
+      "condition": "Win 30 battles with SP Fukengaku.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/586skin1.webp"
+}

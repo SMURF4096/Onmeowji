@@ -1,0 +1,153 @@
+{
+  "no": 400,
+  "en": "Grave Digger",
+  "cn": "盗墓小鬼",
+  "jp": "墓荒らしの霊",
+  "gl": "墓荒らしの霊",
+  "rarity": "N",
+  "image": "File:400.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Grave_Digger",
+  "cv": "Shintani Mayumi",
+  "intro": "",
+  "imageUrl": "assets/shikigami/400.webp",
+  "rarityIcon": "assets/icons/N.webp",
+  "localImage": "assets/shikigami/400.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "114 → 2412",
+        "lv2": null,
+        "max": null
+      },
+      "hp": {
+        "lv1": "960 → 10254",
+        "lv2": null,
+        "max": null
+      },
+      "def": {
+        "lv1": "68 → 397",
+        "lv2": null,
+        "max": null
+      },
+      "spd": {
+        "lv1": "100 → 100",
+        "lv2": null,
+        "max": null
+      },
+      "crit": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": null
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      },
+      "res": {
+        "lv1": null,
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "b",
+        null
+      ],
+      "hp": [
+        "b",
+        null
+      ],
+      "def": [
+        "b",
+        null
+      ],
+      "spd": [
+        "b",
+        null
+      ],
+      "crit": [
+        "d",
+        null
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Special",
+      "image": "4001",
+      "name": "Black Flames of Darkness (/闇の黒炎)",
+      "type": "Special",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "",
+      "description": "Hakaarashi no Rei steps forth and uses black flames to attack a single enemy. Deals 100% of attack damage.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 3,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 4,
+          "text": "+5% damage"
+        },
+        {
+          "lvl": 5,
+          "text": "+10% damage"
+        }
+      ],
+      "icon": "assets/skills/4001.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Wish 10 Hakaarashi no Rei shards in the guild.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Win in the Arena with Hakaarashi no Rei 40 times.",
+      "reward": "Shikigami No.400 ×10"
+    },
+    {
+      "condition": "Obtain 40 Hakaarashi no Rei shards from Hyakki Yakou.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/400skin1.webp",
+  "stats": {
+    "min": {
+      "no": 400,
+      "en": null,
+      "atk": 114,
+      "hp": 960,
+      "def": 68,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 400,
+      "en": null,
+      "atk": 2412,
+      "hp": 10254,
+      "def": 397,
+      "spd": 100,
+      "crit": 0,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

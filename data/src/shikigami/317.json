@@ -1,0 +1,212 @@
+{
+  "no": 317,
+  "en": "Ninmenju",
+  "cn": "人面树",
+  "jp": "Jinmenju",
+  "gl": "Jinmenju",
+  "rarity": "SR",
+  "image": "File:317.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Ninmenju",
+  "cv": "Natsuki Hanae",
+  "intro": "",
+  "method": "Shrine",
+  "imageUrl": "assets/shikigami/317.webp",
+  "rarityIcon": "assets/icons/SR.webp",
+  "localImage": "assets/shikigami/317.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "77",
+        "lv2": null,
+        "max": "1796"
+      },
+      "hp": {
+        "lv1": "1120",
+        "lv2": null,
+        "max": "12988"
+      },
+      "def": {
+        "lv1": "78",
+        "lv2": null,
+        "max": "512"
+      },
+      "spd": {
+        "lv1": "88",
+        "lv2": null,
+        "max": "98"
+      },
+      "crit": {
+        "lv1": "8",
+        "lv2": null,
+        "max": "8"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "d",
+        "d"
+      ],
+      "hp": [
+        "a",
+        "s"
+      ],
+      "def": [
+        "a",
+        "s"
+      ],
+      "spd": [
+        "d",
+        "c"
+      ],
+      "crit": [
+        "a",
+        "a"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3171",
+      "name": "Holy Wood (神木)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Do you really expect your prayer to be answered?",
+      "description": "Ninmenju attacks a single target dealing damage equal to 100% of his DEF. ;Exclusive effect :At the end of an enemy's turn, Ninmenju inflicts 1 layer of Baneful Flower on the enemy if they have less than 3 layers, or inflicts indirect damage equal to 90% of his DEF if they already have 3 layers of Baneful Flower. ;Baneful Flower (災厄の花) : :'''Debuff, Status''': The flower that's planted onto enemies. Max of 3 layers. :''(Effect icon will change based on how many layers are inflicted.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 105%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 110%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 115%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 125%."
+        }
+      ],
+      "icon": "assets/skills/3171.webp"
+    },
+    {
+      "group": "Passive",
+      "image": "3172",
+      "name": "Baneful Flower (灾厄花/災厄の花)",
+      "type": "Passive",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "Red is the most lethal color of all.",
+      "description": "At the end of Ninmenju's turn, consumes all layers of Baneful Flower on enemies, dealing indirect damage equal to 90% of his DEF for each layer consumed. ; : ;Baneful Flower (災厄の花) : :'''Debuff, Status''': The flower that's planted onto enemies. Max of 3 layers. :''(Effect icon will change based on how many layers are inflicted.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 95%."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 100%."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 105%."
+        },
+        {
+          "lvl": 5,
+          "text": "When Baneful Flower is dispelled, his DEF is increased by 5% (lasts for 2 turns, can be dispelled)."
+        }
+      ],
+      "icon": "assets/skills/3172.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3173",
+      "name": "Baneful Root (祸根/禍根)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "A blessing or a bane? It depends solely on how you receive it.",
+      "description": "Ninmenju gains Protection of Root, lasts for 3 turns. <br/>Consumes all layers of Baneful Flower on enemies, dealing indirect damage equal to 216% of his DEF for each layer consumed. ;Protection of Root (禍根の守り) : :'''Buff, State''': Increases RES by 20%. ;Baneful Flower (災厄の花) : :'''Debuff, Status''': The flower that's planted onto enemies. Max of 3 layers. :''(Effect icon will change based on how many layers are inflicted.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Indirect damage increases to 227%."
+        },
+        {
+          "lvl": 3,
+          "text": "Indirect damage increases to 238%."
+        },
+        {
+          "lvl": 4,
+          "text": "Indirect damage increases to 248%."
+        },
+        {
+          "lvl": 5,
+          "text": "Protection of Root increases his initial DEF by 6% at the start of battle."
+        }
+      ],
+      "icon": "assets/skills/3173.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "With Ninmenju clear any zone 30 times.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase Ninmenju's level to 30.",
+      "reward": ""
+    },
+    {
+      "condition": "Increase Ninmenju's skills 6 times.",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/317skin1.webp",
+  "stats": {
+    "min": {
+      "no": 317,
+      "en": null,
+      "atk": 77,
+      "hp": 1120,
+      "def": 78,
+      "spd": 88,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    },
+    "max": {
+      "no": 317,
+      "en": null,
+      "atk": 1796,
+      "hp": 12988,
+      "def": 512,
+      "spd": 98,
+      "crit": 8,
+      "critdmg": 150,
+      "effhit": 0,
+      "effres": 0
+    }
+  }
+}

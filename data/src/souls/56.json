@@ -1,0 +1,16 @@
+{
+  "no": 56,
+  "en": "Tomb Robber",
+  "cn": "火之车",
+  "jp": "火の車",
+  "type": "DEF",
+  "image": "File:Soul56.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Tomb_Robber",
+  "imageUrl": "assets/souls/Soul56.webp",
+  "localImage": "assets/souls/Soul56.webp",
+  "combo2": "Increases DEF by 30%.",
+  "combo4": "Grants 1 Tomb Fire stack at the end of the equipped unit's turn.",
+  "location": "Orochi Soul Zones: Stage 12 (Saturday, Sunday) · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M50.webp"
+}

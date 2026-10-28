@@ -1,0 +1,16 @@
+{
+  "no": 45,
+  "en": "Hinoenma",
+  "cn": "飞缘魔",
+  "jp": "飛縁魔",
+  "type": "HIT",
+  "image": "File:Soul45.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Hinoenma",
+  "imageUrl": "assets/souls/Soul45.webp",
+  "localImage": "assets/souls/Soul45.webp",
+  "combo2": "Increases HIT by 15%",
+  "combo4": "When inflicting a debuff, ignore 30% of target's resist.",
+  "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
+  "version": "CH TW JP GL",
+  "art": "assets/souls/M45.webp"
+}

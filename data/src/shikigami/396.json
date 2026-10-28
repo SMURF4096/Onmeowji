@@ -1,0 +1,186 @@
+{
+  "no": 396,
+  "en": "Shura Kidoumaru",
+  "cn": "修罗鬼童丸",
+  "jp": "修羅鬼童丸",
+  "gl": "修羅鬼童丸",
+  "rarity": "SP",
+  "image": "File:396.png",
+  "wiki": "https://onmyoji.fandom.com/wiki/Shura_Kidoumaru",
+  "cv": "KENN",
+  "intro": "",
+  "method": "Summon • Demon Parade",
+  "imageUrl": "assets/shikigami/396.webp",
+  "rarityIcon": "assets/icons/SP.webp",
+  "localImage": "assets/shikigami/396.webp",
+  "stats2": {
+    "base": {
+      "atk": {
+        "lv1": "144",
+        "lv2": null,
+        "max": "3028"
+      },
+      "hp": {
+        "lv1": "1078",
+        "lv2": null,
+        "max": "11507"
+      },
+      "def": {
+        "lv1": "68",
+        "lv2": null,
+        "max": "401"
+      },
+      "spd": {
+        "lv1": "114",
+        "lv2": null,
+        "max": "114"
+      },
+      "crit": {
+        "lv1": "10",
+        "lv2": null,
+        "max": "10"
+      },
+      "cdmg": {
+        "lv1": "150",
+        "lv2": null,
+        "max": "150"
+      },
+      "acc": {
+        "lv1": "0",
+        "lv2": null,
+        "max": "0"
+      },
+      "res": {
+        "lv1": "0",
+        "lv2": null,
+        "max": null
+      }
+    },
+    "grades": {
+      "atk": [
+        "S",
+        "S"
+      ],
+      "hp": [
+        "A",
+        "A"
+      ],
+      "def": [
+        "B",
+        "B"
+      ],
+      "spd": [
+        "S",
+        "S"
+      ],
+      "crit": [
+        "S",
+        "S"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "group": "Normal",
+      "image": "3961",
+      "name": "Corrode Bones (蚀骸/蝕骸)",
+      "type": "Normal",
+      "onibi": 0,
+      "cooldown": 0,
+      "line": "The hunt begins.",
+      "description": "SP Kidoumaru commands demons to launch a 2-strike attack on a single target, dealing damage equal to 50% of his ATK with each strike.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 53%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 56%."
+        },
+        {
+          "lvl": 4,
+          "text": "Damage increases to 59%."
+        },
+        {
+          "lvl": 5,
+          "text": "Damage increases to 62%."
+        }
+      ],
+      "icon": "assets/skills/3961.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3962",
+      "name": "Lock Soul(骨锁拥魂/魂の骨鎖)",
+      "type": "Special",
+      "onibi": 2,
+      "cooldown": 1,
+      "line": "Embrace this joy with your soul.",
+      "description": "Exclusive effect. SP Kidoumaru lays a hunting trap while the hunter stalks outside the web's reach. Enemies' skills prioritise targets other than SP Kidoumaru. He loses this effect when he has Web of Souls. ;Upon Usage :SP Kidoumaru inflicts Delirious on 1 enemy and he gains 2 Web of Souls stacks.If he doesn't have Web of Souls while using this skill, increases his move bar by 40%. ; Web of Souls (魂网/魂の網) : :'''General, Mark''': Max of 3 stacks. Maintains the Delirious effect and grants him immunity to control effects. Removes 1 stack at the end of his turn or when he's inflicted with a control effect. :''(SP Kidoumaru has a separate yellow stack of Web of Souls to indicate how many stacks of Web of Souls he has lost. Max of 2 stacks.)'' ; Delirious (失魂) : :'''Debuff, Mark''': At the start of turn, has a 60% base chance of forcing the enemy to use a normal attack on a random ally. Can only be inflicted on 1 target at a single time. Does not effect monsters.",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "'''Web of Souls''': Each stack grants him 20% of damage reduction."
+        },
+        {
+          "lvl": 3,
+          "text": "'''Delirious''': Base chance increases to 80%."
+        },
+        {
+          "lvl": 4,
+          "text": "'''Web of Souls''': Damage reduction increases to 30%."
+        },
+        {
+          "lvl": 5,
+          "text": "Upon using this skill, number of Web of Souls stacks gained increases to 3."
+        }
+      ],
+      "icon": "assets/skills/3962.webp"
+    },
+    {
+      "group": "Special",
+      "image": "3963",
+      "name": "Lost in Demon City (迷迹鬼城/彷徨う鬼城)",
+      "type": "Special",
+      "onibi": 3,
+      "cooldown": 0,
+      "line": "Lose yourself in the warm hunting ground.",
+      "description": "SP Kidoumaru brings Demon City, the land of strife, to the battlefield. He commands the demons he's hunting to launch a 3-strike attack on 1 enemy, dealing damage equal to 77% of his ATK with each hit and 50% of HP Steal. Also prevents the target's place on the move bar from being altered, lasts for 2 turns. If he has Web of Souls, the damage is inflicted onto all enemies. ; Web of Souls (魂网/魂の網) : :'''General, Mark''': Max of 3 stacks. Maintains the Delirious effect and grants him immunity to control effects. Removes 1 stack at the end of his turn or when he's inflicted with a control effect. :''(SP Kidoumaru has a separate yellow stack of Web of Souls to indicate how many stacks of Web of Souls he has lost. Max of 2 stacks.)''",
+      "upgrades": [
+        {
+          "lvl": 2,
+          "text": "Damage increases to 86%."
+        },
+        {
+          "lvl": 3,
+          "text": "Damage increases to 95%."
+        },
+        {
+          "lvl": 4,
+          "text": "If he has Web of Souls upon using this skill, he gains 1 Web of Souls stacks."
+        },
+        {
+          "lvl": 5,
+          "text": "Whenever he loses 2 Web of Souls stacks, and if he is not immobile, he uses Hunting Strike to launch a 2-strike attack on all enemies, dealing damage equal to 49% of his ATK with each strike. Does not trigger enemies' souls."
+        }
+      ],
+      "icon": "assets/skills/3963.webp"
+    }
+  ],
+  "bio": [
+    {
+      "condition": "Increase SP Kidoumaru's level to 40.",
+      "reward": "Gold ×5000"
+    },
+    {
+      "condition": "Increase SP Kidoumaru's skills 12 times.",
+      "reward": "Shikigami No.396 ×10"
+    },
+    {
+      "condition": "With SP Kidoumaru win 30 times in .",
+      "reward": ""
+    }
+  ],
+  "art": "assets/art/396skin1.webp"
+}
