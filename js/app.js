@@ -16,7 +16,7 @@ const fmtText = (s) => esc(String(s ?? "")
   .replace(/(?:^|\n)\s*:\s*/g, "— ")
   .replace(/(^|\n)\s*;\s*/g, "$1"));
 
-const DATA_V = "v31";
+const DATA_V = "v32";
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
   const [sh, so, st, ch, bo, ic] = await Promise.all([
