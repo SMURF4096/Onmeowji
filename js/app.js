@@ -16,15 +16,16 @@ const fmtText = (s) => esc(String(s ?? "")
   .replace(/(?:^|\n)\s*:\s*/g, "— ")
   .replace(/(^|\n)\s*;\s*/g, "$1"));
 
+const DATA_V = "v30";
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
   const [sh, so, st, ch, bo, ic] = await Promise.all([
-    fetch(base + "shikigami.json").then((r) => r.json()),
-    fetch(base + "souls.json").then((r) => r.json()),
-    fetch(base + "stats.json").then((r) => r.json()),
-    fetch(base + "onmyoji.json").then((r) => r.json()),
-    fetch(base + "bondlings.json").then((r) => r.json()),
-    fetch(base + "status-icons.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    fetch(base + "shikigami.json?" + DATA_V).then((r) => r.json()),
+    fetch(base + "souls.json?" + DATA_V).then((r) => r.json()),
+    fetch(base + "stats.json?" + DATA_V).then((r) => r.json()),
+    fetch(base + "onmyoji.json?" + DATA_V).then((r) => r.json()),
+    fetch(base + "bondlings.json?" + DATA_V).then((r) => r.json()),
+    fetch(base + "status-icons.json?" + DATA_V).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ]);
   state.shikigami = sh;
   state.souls = so.sort((a, b) => a.no - b.no);
@@ -354,14 +355,11 @@ let charQuery = "";
 
 function charCard(c) {
   const sub = c.unlock ? `${esc(c.unlock)}` : "";
-  // Show first skill icon if available
-  const skillIcon = (c.skills && c.skills[0]?.icon) ? `<img class="char-skill-icon" src="${c.skills[0].icon}" alt="" loading="lazy" onerror="this.style.display='none'">` : "";
   return `
     <div class="card" data-id="${esc(c.no)}" data-tab="${c.role}" tabindex="0" role="button"
          aria-label="${esc(c.en)} (${c.role})">
       <span class="sheen" aria-hidden="true"></span>
       ${c.image || c.imageUrl ? `<img src="${c.image ?? c.imageUrl}" loading="lazy" decoding="async" alt="${esc(c.en)}">` : `<div class="skeleton"></div>`}
-      ${skillIcon}
       <div class="name"><strong>${esc(c.en)}</strong>${c.cn ? `<div class="cn">${esc(c.cn)}</div>` : ""}</div>
       <div class="meta"><span class="badge ${c.role === "onmyoji" ? "SSR" : "SP"}">${c.role === "onmyoji" ? "Onmyoji" : "Champion"}</span>${sub ? `<span class="no">${sub}</span>` : ""}</div>
     </div>`;
@@ -941,7 +939,7 @@ function startClockBand() {
 
 /* ============ calendar.html — daily game buffs, dated on fixed EST (UTC-5) ============ */
 /* boss avatar for each day-of-week (0=Sun → 6=Sat); M1..M6, M56 */
-const CAL_BOSSES = ["assets/souls/M56.png", "assets/souls/Ml6.png", "assets/souls/Ml5.png", "assets/souls/Ml2.png", "assets/souls/Ml3.png", "assets/souls/Ml4.png", "assets/souls/Ml1.png"];
+const CAL_BOSSES = ["assets/souls/M56.webp", "assets/souls/Ml6.webp", "assets/souls/Ml5.webp", "assets/souls/Ml2.webp", "assets/souls/Ml3.webp", "assets/souls/Ml4.webp", "assets/souls/Ml1.webp"];
 
 const BUFFS = ["Fighting Soul", "Dash", "Skillful", "Fragile", "Curse Spell", "Strong Fire", "Raging Wind"];
 /* effect copy as referenced from the wiki (Fighting Soul: "Buff51ATK" template junk removed) */
@@ -954,7 +952,7 @@ const BUFF_DESC = {
   "Curse Spell": "Transferred damage is increased by 30%.",
   "Raging Wind": "When dealing damage on own turn, inflicts additional true damage equal to 20% of the damage dealt to the enemy.",
 };
-const buffIco = (name) => `assets/buffs/${name.toLowerCase().replace(" ", "-")}.png`;
+const buffIco = (name) => `assets/buffs/${name.toLowerCase().replace(" ", "-")}.webp`;
 /* the game's daily-buff rotation (provisional model, canonical in tools/buff-predictor.py):
    a continuous day count from REFERENCE = 2026-08-01 (Strong Fire),
    block/position = divmod(n, 7), extra +1 from position >= 2 within a block.

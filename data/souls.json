@@ -7,13 +7,13 @@
     "type": "DEF",
     "image": "File:Soul1.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Snow_Spirit",
-    "imageUrl": "assets/souls/Soul1.png",
-    "localImage": "assets/souls/Soul1.png",
+    "imageUrl": "assets/souls/Soul1.webp",
+    "localImage": "assets/souls/Soul1.webp",
     "combo2": "Increases DEF by 30%",
     "combo4": "When dealing damage, has a 15% base chance (chance increases to 30% if target has Slow) to inflict targets with Freeze when dealing damage, lasts for 1 turn. When attacked, decreases attacker’s SPD by 30, lasts for 1 turn.",
     "location": "Soul Zones (Monday, Weekends) · Orochi: Stages 1-1 · Sougenbi · Sea of Eternity · Chapter 7 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M6.png"
+    "art": "assets/souls/M6.webp"
   },
   {
     "no": 2,
@@ -23,13 +23,13 @@
     "type": "HP",
     "image": "File:Soul2.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Jizo_Statue",
-    "imageUrl": "assets/souls/Soul2.png",
-    "localImage": "assets/souls/Soul2.png",
+    "imageUrl": "assets/souls/Soul2.webp",
+    "localImage": "assets/souls/Soul2.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "When receiving a crit attack, gain a shield that can absorb 10% of damage received and has 30% chance to grant random allies shields, chance to trigger is lowered by 60% against taunted targets.",
     "location": "Soul Zones (Monday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Fallen Sun · Sea of Eternity · Chapter 26 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M7.png"
+    "art": "assets/souls/M7.webp"
   },
   {
     "no": 3,
@@ -39,13 +39,13 @@
     "type": "ATK",
     "image": "File:Soul3.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Nightwing",
-    "imageUrl": "assets/souls/Soul3.png",
-    "localImage": "assets/souls/Soul3.png",
+    "imageUrl": "assets/souls/Soul3.webp",
+    "localImage": "assets/souls/Soul3.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "When dealing damage, gain 20% HP Steal.",
     "location": "Soul Zones (Thursday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Chapter 4 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M8.png"
+    "art": "assets/souls/M8.webp"
   },
   {
     "no": 4,
@@ -55,13 +55,13 @@
     "type": "HP",
     "image": "File:Soul4.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Holy_Flame",
-    "imageUrl": "assets/souls/Soul4.png",
-    "localImage": "assets/souls/Soul4.png",
+    "imageUrl": "assets/souls/Soul4.webp",
+    "localImage": "assets/souls/Soul4.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "At the end of turn, if HP is below 30%, 15% of max HP will be restored.",
     "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 8 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M9.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M9.webp"
   },
   {
     "no": 5,
@@ -71,13 +71,13 @@
     "type": "Crit",
     "image": "File:Soul5.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Samisen",
-    "imageUrl": "assets/souls/Soul5.png",
-    "localImage": "assets/souls/Soul5.png",
+    "imageUrl": "assets/souls/Soul5.webp",
+    "localImage": "assets/souls/Soul5.webp",
     "combo2": "Increases crit by 15%",
     "combo4": "When an ally is inflicted with a control effect, the equipper's speed is increased by 30, lasts for 2 turns. Cannot be dispelled, max of 2 layers.",
     "location": "Soul Zones (Monday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M10.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M10.webp"
   },
   {
     "no": 6,
@@ -87,13 +87,13 @@
     "type": "RES",
     "image": "File:Soul6.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Mimic",
-    "imageUrl": "assets/souls/Soul6.png",
-    "localImage": "assets/souls/Soul6.png",
+    "imageUrl": "assets/souls/Soul6.webp",
+    "localImage": "assets/souls/Soul6.webp",
     "combo2": "Increases resist by 15%",
     "combo4": "When dealing damage has 25% base chance to inflict a daze, silence, 40% reduced healing or confuse.",
     "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 15 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M11.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M11.webp"
   },
   {
     "no": 7,
@@ -103,13 +103,13 @@
     "type": "HP",
     "image": "File:Soul7.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boroboroton",
-    "imageUrl": "assets/souls/Soul7.png",
-    "localImage": "assets/souls/Soul7.png",
+    "imageUrl": "assets/souls/Soul7.webp",
+    "localImage": "assets/souls/Soul7.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "Received damage is decreased 30%.",
     "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 1 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M12.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M12.webp"
   },
   {
     "no": 8,
@@ -119,13 +119,13 @@
     "type": "DEF",
     "image": "File:Soul8.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Fortune_Cat",
-    "imageUrl": "assets/souls/Soul8.png",
-    "localImage": "assets/souls/Soul8.png",
+    "imageUrl": "assets/souls/Soul8.webp",
+    "localImage": "assets/souls/Soul8.webp",
     "combo2": "Increases defense by 30%.",
     "combo4": "Has a 50% chance to gain 2 onibi at the start of turn.",
     "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 16 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M13.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M13.webp"
   },
   {
     "no": 9,
@@ -135,13 +135,13 @@
     "type": "DEF",
     "image": "File:Soul9.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Shy_Soul",
-    "imageUrl": "assets/souls/Soul9.png",
-    "localImage": "assets/souls/Soul9.png",
+    "imageUrl": "assets/souls/Soul9.webp",
+    "localImage": "assets/souls/Soul9.webp",
     "combo2": "Increases defense by 30%",
     "combo4": "When dealing damage has 23% base chance to inflict sleep on the target, lasts for 1 turn.",
     "location": "Soul Zones (Thursday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 17 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M14.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M14.webp"
   },
   {
     "no": 10,
@@ -151,13 +151,13 @@
     "type": "ATK",
     "image": "File:Soul10.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Soultaker",
-    "imageUrl": "assets/souls/Soul10.png",
-    "localImage": "assets/souls/Soul10.png",
+    "imageUrl": "assets/souls/Soul10.webp",
+    "localImage": "assets/souls/Soul10.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "Has a 20% chance to gain a new turn at the end of turn.",
     "location": "Soul Zones (Wednesday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Chapter 6 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M15.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M15.webp"
   },
   {
     "no": 11,
@@ -167,13 +167,13 @@
     "type": "DEF",
     "image": "File:Soul11.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Dawn_Fairy",
-    "imageUrl": "assets/souls/Soul11.png",
-    "localImage": "assets/souls/Soul11.png",
+    "imageUrl": "assets/souls/Soul11.webp",
+    "localImage": "assets/souls/Soul11.webp",
     "combo2": "Increases defense by 30%",
     "combo4": "When dealing damage has 20% chance to reduce target's action bar by 30%, chance is increased to 30% against targets with buff effects.",
     "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 25 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M16.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M16.webp"
   },
   {
     "no": 12,
@@ -183,13 +183,13 @@
     "type": "HP",
     "image": "File:Soul12.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Mirror_Lady",
-    "imageUrl": "assets/souls/Soul12.png",
-    "localImage": "assets/souls/Soul12.png",
+    "imageUrl": "assets/souls/Soul12.webp",
+    "localImage": "assets/souls/Soul12.webp",
     "combo2": "Increases HP by 15%.",
     "combo4": "Has a 30% chance of reflecting 100% of damage received, chance decreases by 60% against taunted targets.",
     "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 9 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M17.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M17.webp"
   },
   {
     "no": 13,
@@ -199,13 +199,13 @@
     "type": "HP",
     "image": "File:Soul13.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Priestess",
-    "imageUrl": "assets/souls/Soul13.png",
-    "localImage": "assets/souls/Soul13.png",
+    "imageUrl": "assets/souls/Soul13.webp",
+    "localImage": "assets/souls/Soul13.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "When dealing damage has a 10% chance of inflicting daze on the target, lasts for 1 turn. If there are no enemies inflicted with Daze, chance increases to 20%.",
     "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 12 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M18.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M18.webp"
   },
   {
     "no": 14,
@@ -215,13 +215,13 @@
     "type": "ATK",
     "image": "File:Soul14.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Scarlet",
-    "imageUrl": "assets/souls/Soul14.png",
-    "localImage": "assets/souls/Soul14.png",
+    "imageUrl": "assets/souls/Soul14.webp",
+    "localImage": "assets/souls/Soul14.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "Has a 35% chance to counter-attack with a normal attack after receiving damage, chance is decreased by 60% against taunted targets.",
     "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 5 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M19.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M19.webp"
   },
   {
     "no": 15,
@@ -231,13 +231,13 @@
     "type": "HIT",
     "image": "File:Soul15.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Azure_Basan",
-    "imageUrl": "assets/souls/Soul15.png",
-    "localImage": "assets/souls/Soul15.png",
+    "imageUrl": "assets/souls/Soul15.webp",
+    "localImage": "assets/souls/Soul15.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "Gain 3 onibi at the start of a round.",
     "location": "Soul Zones (Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M20.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M20.webp"
   },
   {
     "no": 16,
@@ -247,13 +247,13 @@
     "type": "ATK",
     "image": "File:Soul16.png",
     "wiki": "https://onmyoji.fandom.com/wiki/House_Imp",
-    "imageUrl": "assets/souls/Soul16.png",
-    "localImage": "assets/souls/Soul16.png",
+    "imageUrl": "assets/souls/Soul16.webp",
+    "localImage": "assets/souls/Soul16.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "Increases damage by 45% when attacking a target inflicted with a control effect.",
     "location": "Soul Zones (Friay, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 13 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M21.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M21.webp"
   },
   {
     "no": 17,
@@ -263,13 +263,13 @@
     "type": "HP",
     "image": "File:Soul17.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Soul_Edge",
-    "imageUrl": "assets/souls/Soul17.png",
-    "localImage": "assets/souls/Soul17.png",
+    "imageUrl": "assets/souls/Soul17.webp",
+    "localImage": "assets/souls/Soul17.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "When an ally is attacked by a single target attack the equipper has a 50% chance of reducing the ally's received damage by 20% and sharing 40% of the remaining damage.",
     "location": "Soul Zones · Sougenbi · Chapter 20 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M30.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M30.webp"
   },
   {
     "no": 18,
@@ -279,13 +279,13 @@
     "type": "ATK",
     "image": "File:Soul18.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Watcher",
-    "imageUrl": "assets/souls/Soul18.png",
-    "localImage": "assets/souls/Soul18.png",
+    "imageUrl": "assets/souls/Soul18.webp",
+    "localImage": "assets/souls/Soul18.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "Increases damage dealt by 10% for each 15% of target’s HP reduced.",
     "location": "Soul Zones (Thursday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 10 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M22.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M22.webp"
   },
   {
     "no": 19,
@@ -295,13 +295,13 @@
     "type": "DEF",
     "image": "File:Soul19.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Tree_Nymph",
-    "imageUrl": "assets/souls/Soul19.png",
-    "localImage": "assets/souls/Soul19.png",
+    "imageUrl": "assets/souls/Soul19.webp",
+    "localImage": "assets/souls/Soul19.webp",
     "combo2": "Increases defense by 30%",
     "combo4": "Has a 25% chance to decrease target's onibi by 1 when an ally takes damage, chance decreases by 60% against taunted targets. Effect does not stack with multiple hits.",
     "location": "Soul Zones · Sougenbi · Chapter 19 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M29.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M29.webp"
   },
   {
     "no": 20,
@@ -311,13 +311,13 @@
     "type": "HP",
     "image": "File:Soul20.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Tree_Spirit",
-    "imageUrl": "assets/souls/Soul20.png",
-    "localImage": "assets/souls/Soul20.png",
+    "imageUrl": "assets/souls/Soul20.webp",
+    "localImage": "assets/souls/Soul20.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "All healing effects increase by 20% (increases by 50% instead if equipper's HP is below 20%).",
     "location": "Soul Zones (Thursday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 18 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M23.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M23.webp"
   },
   {
     "no": 21,
@@ -327,13 +327,13 @@
     "type": "Crit",
     "image": "File:Soul21.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Claws",
-    "imageUrl": "assets/souls/Soul21.png",
-    "localImage": "assets/souls/Soul21.png",
+    "imageUrl": "assets/souls/Soul21.webp",
+    "localImage": "assets/souls/Soul21.webp",
     "combo2": "Increases crit by 15%",
     "combo4": "When dealing damage, has a 50% chance to ignore 45% of target's defense.",
     "location": "Soul Zones (Monday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 14 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M24.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M24.webp"
   },
   {
     "no": 22,
@@ -343,13 +343,13 @@
     "type": "ATK",
     "image": "File:Soul22.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Harpy",
-    "imageUrl": "assets/souls/Soul22.png",
-    "localImage": "assets/souls/Soul22.png",
+    "imageUrl": "assets/souls/Soul22.webp",
+    "localImage": "assets/souls/Soul22.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "Gain 3 onibi upon KO'ing a target.",
     "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 3 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M25.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M25.webp"
   },
   {
     "no": 23,
@@ -359,13 +359,13 @@
     "type": "Crit",
     "image": "File:Soul23.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Fenikkusu",
-    "imageUrl": "assets/souls/Soul23.png",
-    "localImage": "assets/souls/Soul23.png",
+    "imageUrl": "assets/souls/Soul23.webp",
+    "localImage": "assets/souls/Soul23.webp",
     "combo2": "Increases crit by 15%.",
     "combo4": "When a \"non-monster target\" is KO’d, restores the equipper's max HP by 20% and increases their damage by 20% (up to 120%) until the end of battle.",
     "location": "Chapter 22 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M26.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M26.webp"
   },
   {
     "no": 24,
@@ -375,13 +375,13 @@
     "type": "Crit",
     "image": "File:Soul24.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Shadow",
-    "imageUrl": "assets/souls/Soul24.png",
-    "localImage": "assets/souls/Soul24.png",
+    "imageUrl": "assets/souls/Soul24.webp",
+    "localImage": "assets/souls/Soul24.webp",
     "combo2": "Increases crit by 15%.",
     "combo4": "Increases damage by 40% against targets with more than 70% HP.",
     "location": "Soul Zones (Friday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Chapter 2 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M27.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M27.webp"
   },
   {
     "no": 25,
@@ -391,13 +391,13 @@
     "type": "Crit",
     "image": "File:Soul25.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Tomb_Guard",
-    "imageUrl": "assets/souls/Soul25.png",
-    "localImage": "assets/souls/Soul25.png",
+    "imageUrl": "assets/souls/Soul25.webp",
+    "localImage": "assets/souls/Soul25.webp",
     "combo2": "Increases crit by 15%",
     "combo4": "Increases crit damage by 0.5% per 1% of HP lost.",
     "location": "Chapter 27 · Chapter 28 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M28.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M28.webp"
   },
   {
     "no": 26,
@@ -407,13 +407,13 @@
     "type": "DEF",
     "image": "File:Soul26.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Pearl",
-    "imageUrl": "assets/souls/Soul26.png",
-    "localImage": "assets/souls/Soul26.png",
+    "imageUrl": "assets/souls/Soul26.webp",
+    "localImage": "assets/souls/Soul26.webp",
     "combo2": "Increases defense by 30%",
     "combo4": "When healing, creates an undispellable shield that can absorb damage equal to 30% of the healing, lasts for 2 turns.",
     "location": "Chapter 23 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M1.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M1.webp"
   },
   {
     "no": 27,
@@ -423,13 +423,13 @@
     "type": "RES",
     "image": "File:Soul27.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Dice_Sprite",
-    "imageUrl": "assets/souls/Soul27.png",
-    "localImage": "assets/souls/Soul27.png",
+    "imageUrl": "assets/souls/Soul27.webp",
+    "localImage": "assets/souls/Soul27.webp",
     "combo2": "Increases resist by 15%",
     "combo4": "When resisting, launches a counter-attack at the source. Damage for the counter-attack is increased by 50%. Move bar is increased by 25% when inflicted with a control effect.",
     "location": "Chapter 24 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M2.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M2.webp"
   },
   {
     "no": 28,
@@ -439,13 +439,13 @@
     "type": "HIT",
     "image": "File:Soul28.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Sea_Sprite",
-    "imageUrl": "assets/souls/Soul28.png",
-    "localImage": "assets/souls/Soul28.png",
+    "imageUrl": "assets/souls/Soul28.webp",
+    "localImage": "assets/souls/Soul28.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "Grants all allies with a shield that can absorb damage equal to 10% of the eqipper's HP at the start of battle.",
     "location": "Soul Zones (Monday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Chapter 11 · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M3.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M3.webp"
   },
   {
     "no": 29,
@@ -455,13 +455,13 @@
     "type": "DEF",
     "image": "File:Soul29.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Temptress",
-    "imageUrl": "assets/souls/Soul29.png",
-    "localImage": "assets/souls/Soul29.png",
+    "imageUrl": "assets/souls/Soul29.webp",
+    "localImage": "assets/souls/Soul29.webp",
     "combo2": "Increases defense by 30%",
     "combo4": "When dealing damage has a 25% base chance to inflict confuse on the target, lasts for 1 turn.",
     "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M4.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M4.webp"
   },
   {
     "no": 30,
@@ -471,13 +471,13 @@
     "type": "Crit",
     "image": "File:Soul30.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Seductress",
-    "imageUrl": "assets/souls/Soul30.png",
-    "localImage": "assets/souls/Soul30.png",
+    "imageUrl": "assets/souls/Soul30.webp",
+    "localImage": "assets/souls/Soul30.webp",
     "combo2": "Increases crit by 15%",
     "combo4": "When dealing crit attacks, has a 40% chance to deal extra damage equal to 10% of the target's max HP. Cannot exceed 120% of the equipper's attack.",
     "location": "Soul Zones (Thursday, Weekends) · Orochi (Stages 1-11) · Sougenbi · Sea of Eternity · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M5.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M5.webp"
   },
   {
     "no": 31,
@@ -487,13 +487,13 @@
     "type": "RES",
     "image": "File:Soul31.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Senecio",
-    "imageUrl": "assets/souls/Soul31.png",
-    "localImage": "assets/souls/Soul31.png",
+    "imageUrl": "assets/souls/Soul31.webp",
+    "localImage": "assets/souls/Soul31.webp",
     "combo2": "Increases resist by 15%",
     "combo4": "When receiving damage, has 25% base chance to inflict the attacker with daze, lasts for 1 turn. Chance is decreased by 60% against taunted targets, if the equipper is attacked multiple times it will only activate once.",
     "location": "Soul Zones · Sougenbi · Chapter 21 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M31.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M31.webp"
   },
   {
     "no": 32,
@@ -503,13 +503,13 @@
     "type": "ATK",
     "image": "File:Soul32.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Kyoukotsu",
-    "imageUrl": "assets/souls/Soul32.png",
-    "localImage": "assets/souls/Soul32.png",
+    "imageUrl": "assets/souls/Soul32.webp",
+    "localImage": "assets/souls/Soul32.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "When dealing damage, damage is increased by 8% damage per onibi currently have upon using a skill.",
     "location": "Soul Zones (Friday) · Orochi (Stage 11) · Soul Zones (Weekends) · Orochi (Stages 1-11) · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M32.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M32.webp"
   },
   {
     "no": 33,
@@ -519,98 +519,93 @@
     "type": "RES",
     "image": "File:Soul33.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Yamabiko",
-    "imageUrl": "assets/souls/Soul33.png",
-    "localImage": "assets/souls/Soul33.png",
+    "imageUrl": "assets/souls/Soul33.webp",
+    "localImage": "assets/souls/Soul33.webp",
     "combo2": "Increases RES by 15%",
     "combo4": "When a control effect is successfully resisted, has a 50% chance to reflect the effect to the source and is guaranteed to inflict them with the resisted control effect.",
     "location": "Orochi Soul Zones: Stage 11 (Tuesday) · Orochi Soul Zones: Stages 1-11 (Weekends) · Mystery Soul Shop · Mystic Trader · Kraken/Enraged Kraken (Random)",
-    "version": "",
-    "art": "assets/souls/M33.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M33.webp"
   },
   {
     "no": 34,
-    "en": "Boss Souls",
+    "en": "Tsuchigumo",
     "cn": "土蜘蛛",
-    "jp": "",
+    "jp": "土蜘蛛",
     "type": "Random Stat",
     "image": "File:Soul34.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul34.png",
-    "localImage": "assets/souls/Soul34.png",
+    "imageUrl": "assets/souls/Soul34.webp",
+    "localImage": "assets/souls/Soul34.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
-    "combo4": "At the start of each battle against monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them. Stacks removed after receiving damage 3 times, reduced SPD by 10% and inflicting 10% indirect damage for 1 turn",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M34.webp"
   },
   {
     "no": 35,
-    "en": "Boss Souls",
+    "en": "Oboroguruma",
     "cn": "胧车",
     "jp": "朧車",
     "type": "Random Stat",
     "image": "File:Soul35.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul35.png",
-    "localImage": "assets/souls/Soul35.png",
+    "imageUrl": "assets/souls/Soul35.webp",
+    "localImage": "assets/souls/Soul35.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive passive effect. When taking attacks from monsters, has a 50% chance of raising the Move Bar by 30%. Triggers only once for a single attack.",
-    "combo4": "Exclusive passive effect. When taking attacks from monsters, has a 75% chance of raising the Move Bar by 30%. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M35.webp"
   },
   {
     "no": 36,
-    "en": "Boss Souls",
+    "en": "Odokuro",
     "cn": "荒骷髅",
     "jp": "餓者髑髏",
     "type": "Random Stat",
     "image": "File:Soul36.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul36.png",
-    "localImage": "assets/souls/Soul36.png",
+    "imageUrl": "assets/souls/Soul36.webp",
+    "localImage": "assets/souls/Soul36.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive passive effect. Increases damage dealt to monsters by 10% for 1 turn. If attacked by monsters, increases damage boost effect to 25%.",
-    "combo4": "Exclusive passive effect. Increases damage dealt to monsters by 15% for 2 turns. If attacked by monsters, increases damage boost effect to 40%.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M36.webp"
   },
   {
     "no": 37,
-    "en": "Boss Souls",
+    "en": "Namazu",
     "cn": "地震鲶",
     "jp": "社鯰",
     "type": "Random Stat",
     "image": "File:Soul37.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul37.png",
-    "localImage": "assets/souls/Soul37.png",
+    "imageUrl": "assets/souls/Soul37.webp",
+    "localImage": "assets/souls/Soul37.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive passive effect. At the start of a battle against monsters, grants 60% damage reduction. When taking damage, transfer 6% damage reduction to 1.5% damage boost. Triggers only once for a single attack.",
-    "combo4": "Exclusive passive effect. At the start of a battle against monsters, grants 70% damage reduction. When taking damage, transfer 8% damage reduction to 2% damage boost. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M37.webp"
   },
   {
     "no": 38,
-    "en": "Boss Souls",
+    "en": "Shinkiro",
     "cn": "蜃气楼",
-    "jp": "蜃気楼",
+    "jp": "社鯰",
     "type": "Random Stat",
     "image": "File:Soul38.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul38.png",
-    "localImage": "assets/souls/Soul38.png",
+    "imageUrl": "assets/souls/Soul38.webp",
+    "localImage": "assets/souls/Soul38.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive passive effect. At the start of battle against monsters, grants a shelter. Shelter regenerates 5 turns after being lifted.",
-    "combo4": "Exclusive passive effect. At the start of battle against monsters, grants a shelter. Shelter regenerates 4 turns after being lifted.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M38.webp"
   },
   {
     "no": 39,
@@ -620,13 +615,13 @@
     "type": "Crit",
     "image": "File:Soul39.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Kataha_no_Ashi",
-    "imageUrl": "assets/souls/Soul39.png",
-    "localImage": "assets/souls/Soul39.png",
+    "imageUrl": "assets/souls/Soul39.webp",
+    "localImage": "assets/souls/Soul39.webp",
     "combo2": "Increases Crit by 15%",
     "combo4": "When current HP is at max, damage dealt is increased by 45%.",
     "location": "Soul Zones (Wednesday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M59.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M59.webp"
   },
   {
     "no": 40,
@@ -636,13 +631,13 @@
     "type": "ATK",
     "image": "File:SoulO40.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Chirizuka",
-    "imageUrl": "assets/souls/SoulO40.png",
-    "localImage": "assets/souls/SoulO40.png",
+    "imageUrl": "assets/souls/Soul40.webp",
+    "localImage": "assets/souls/Soul40.webp",
     "combo2": "Increases ATK by 15%",
     "combo4": "When taking an action, damage dealt is increased by 25%. For each non-summoned ally there is of more than the enemy, damage dealt is increased by an additional 4% (max of 45%).",
     "location": "Soul Zones (Monday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M60.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M60.webp"
   },
   {
     "no": 41,
@@ -652,13 +647,13 @@
     "type": "HIT",
     "image": "File:SoulO41.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Abura_Akago",
-    "imageUrl": "assets/souls/SoulO41.png",
-    "localImage": "assets/souls/SoulO41.png",
+    "imageUrl": "assets/souls/Soul41.webp",
+    "localImage": "assets/souls/Soul41.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "Exclusive effect. At the start of battle, gain 2 Spirit stacks. Each Spirit stack increases all allies' DEF by 8%. If an ally doesn't have enough onibi to use a special skill, an equal number of Spirit stacks can be consumed instead.",
     "location": "Soul Zones (Friday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M61.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M61.webp"
   },
   {
     "no": 42,
@@ -668,13 +663,13 @@
     "type": "HP",
     "image": "File:SoulO42.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Nakiishi",
-    "imageUrl": "assets/souls/SoulO42.png",
-    "localImage": "assets/souls/SoulO42.png",
+    "imageUrl": "assets/souls/Soul42.webp",
+    "localImage": "assets/souls/Soul42.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "When a non-summoned ally is KO'd, gain 30% of their initial ATK and DEF (max of 5 stacks and cannot exceed more the 150% of the equipper's initial stats).",
     "location": "Soul Zones (Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M62.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M62.webp"
   },
   {
     "no": 43,
@@ -684,13 +679,13 @@
     "type": "RES",
     "image": "File:SoulO43.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Okuri-inu",
-    "imageUrl": "assets/souls/SoulO43.png",
-    "localImage": "assets/souls/SoulO43.png",
+    "imageUrl": "assets/souls/Soul43.webp",
+    "localImage": "assets/souls/Soul43.webp",
     "combo2": "Increases RES by 15%",
     "combo4": "When the equipper is inflicted with a control effect for the first time, gain 1 Night Parade stack. Night Parade increases RES by 80%, max of 3 stacks. At the start of turn, and if the equipper is able to take an action, removes Night Parade effect.",
     "location": "Soul Zones (Tuesday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M63.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M63.webp"
   },
   {
     "no": 44,
@@ -700,13 +695,13 @@
     "type": "DEF",
     "image": "File:SoulO44.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Amefurikozo",
-    "imageUrl": "assets/souls/SoulO44.png",
-    "localImage": "assets/souls/SoulO44.png",
+    "imageUrl": "assets/souls/Soul44.webp",
+    "localImage": "assets/souls/Soul44.webp",
     "combo2": "Increases DEF by 30%",
     "combo4": "When the equipper's HP goes below 30% for the first time, their max HP is decreased to 1 and they gain 3 Dew stacks. When receiving damage, consume 1 Dew stack and absorb all the damage.",
     "location": "Soul Zones (Thursday, Weekends) · Orochi (Stage 13) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M64.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M64.webp"
   },
   {
     "no": 45,
@@ -716,13 +711,13 @@
     "type": "HIT",
     "image": "File:Soul45.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Hinoenma",
-    "imageUrl": "assets/souls/Soul45.png",
-    "localImage": "assets/souls/Soul45.png",
+    "imageUrl": "assets/souls/Soul45.webp",
+    "localImage": "assets/souls/Soul45.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "When inflicting a debuff, ignore 30% of target's resist.",
     "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M45.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M45.webp"
   },
   {
     "no": 46,
@@ -732,13 +727,13 @@
     "type": "ATK",
     "image": "File:Soul46.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Hyosube",
-    "imageUrl": "assets/souls/Soul46.png",
-    "localImage": "assets/souls/Soul46.png",
+    "imageUrl": "assets/souls/Soul46.webp",
+    "localImage": "assets/souls/Soul46.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "At the end of turn gain 1 layer of a Piercing Arrow, each layer ignores 75 of target's defense when attacking. Max 3 layers.",
     "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M46.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M46.webp"
   },
   {
     "no": 47,
@@ -748,13 +743,13 @@
     "type": "Crit",
     "image": "File:Soul47.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Aonyobo",
-    "imageUrl": "assets/souls/Soul47.png",
-    "localImage": "assets/souls/Soul47.png",
+    "imageUrl": "assets/souls/Soul47.webp",
+    "localImage": "assets/souls/Soul47.webp",
     "combo2": "Increases crit by 15%",
     "combo4": "When the equipper receives a lethal hit for the first time all buffs and debuffs will be removed, HP restored to 100% and become frozen for 1 turn. While frozen, defense is increased by 100% and they become immune to debuffs. If the equipper survives the frozen status, HP is restored to 100% again.<br>Only triggers once per battle.",
     "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M47.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M47.webp"
   },
   {
     "no": 48,
@@ -764,30 +759,29 @@
     "type": "HP",
     "image": "File:Soul48.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Nuribotoke",
-    "imageUrl": "assets/souls/Soul48.png",
-    "localImage": "assets/souls/Soul48.png",
+    "imageUrl": "assets/souls/Soul48.webp",
+    "localImage": "assets/souls/Soul48.webp",
     "combo2": "Increases by HP by 15%",
     "combo4": "Unique effect. <br>At the end of the equipper's turn, after they use a normal attack or are immobile, resist and damage for all allies is increased by 15%. The effect is doubled for the equipper. Lasts for 2 turns.",
     "location": "Soul Zones · Fallen Sun · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M48.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M48.webp"
   },
   {
     "no": 49,
-    "en": "Boss Souls",
+    "en": "Ghostly Songstress",
     "cn": "鬼灵歌伎",
     "jp": "鬼霊歌姫",
     "type": "Random Stat",
     "image": "File:Soul49.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul49.png",
-    "localImage": "assets/souls/Soul49.png",
-    "combo2": "Exclusive passive effect. After dealing damage to monsters 5 times, the next damage dealt to a monster inflicts damage equal to 20% of its max HP, ignoring its DEF, to a max of 255% of own ATK.",
-    "combo4": "Exclusive passive effect. After dealing damage to monsters 3 times, the next damage dealt to a monster inflicts damage equal to 30% of its max HP, ignoring its DEF, to a max of 355% of own ATK.",
+    "imageUrl": "assets/souls/Soul49.webp",
+    "localImage": "assets/souls/Soul49.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
+    "combo4": "Exclusive passive effect. After dealing damage to monsters 5 times, the next damage dealt to a monster inflicts damage equal to 20% of its max HP, ignoring its DEF, to a max of 255% of own ATK.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M56.webp"
   },
   {
     "no": 50,
@@ -797,13 +791,13 @@
     "type": "HIT",
     "image": "File:Soul50.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Wisp",
-    "imageUrl": "assets/souls/Soul50.png",
-    "localImage": "assets/souls/Soul50.png",
+    "imageUrl": "assets/souls/Soul50.webp",
+    "localImage": "assets/souls/Soul50.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "At the start of turn gain 1 stack of Thought (increases resist by 15%), max of 3 stacks. An equal amount of Thought stacks are consumed first before onibi when using skills that require onibi.",
     "location": "Soul Zones (Monday, Wednesday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M44.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M44.webp"
   },
   {
     "no": 51,
@@ -813,13 +807,13 @@
     "type": "RES",
     "image": "File:Soul51.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Merrow",
-    "imageUrl": "assets/souls/Soul51.png",
-    "localImage": "assets/souls/Soul51.png",
+    "imageUrl": "assets/souls/Soul51.webp",
+    "localImage": "assets/souls/Soul51.webp",
     "combo2": "Increases resist by 15%",
     "combo4": "At the end of the turn, 1 random debuff will be dispelled from the equipper or an ally. If no damage is dealt on that turn, 2 additional random debuffs will also be dispelled.",
     "location": "Soul Zones (Monday, Friday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
     "version": "CN TW JP GL",
-    "art": "assets/souls/M45.png"
+    "art": "assets/souls/M45.webp"
   },
   {
     "no": 52,
@@ -829,13 +823,13 @@
     "type": "HP",
     "image": "File:Soul52.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Leviathan",
-    "imageUrl": "assets/souls/Soul52.png",
-    "localImage": "assets/souls/Soul52.png",
+    "imageUrl": "assets/souls/Soul52.webp",
+    "localImage": "assets/souls/Soul52.webp",
     "combo2": "Increases HP by 15%",
     "combo4": "At the start of battle, gain the Leviathan Force (increases damage dealt and damage reduction by 80%). For the equipper's first 8 turns of battle, Leviathan Force is temporarily sealed.",
     "location": "Soul Zones (Tuesday, Saturday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M46.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M46.webp"
   },
   {
     "no": 53,
@@ -845,13 +839,13 @@
     "type": "ATK",
     "image": "File:Soul53.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Conch_Blower",
-    "imageUrl": "assets/souls/Soul53.png",
-    "localImage": "assets/souls/Soul53.png",
+    "imageUrl": "assets/souls/Soul53.webp",
+    "localImage": "assets/souls/Soul53.webp",
     "combo2": "Increases attack by 15%",
     "combo4": "At the start of turn, creates a Shell Shield to block damage once. While Shell Shield is active, the equipper's damage dealt is increased by 25%.",
     "location": "Soul Zones · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M47.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M47.webp"
   },
   {
     "no": 54,
@@ -861,13 +855,13 @@
     "type": "Crit",
     "image": "File:Soul54.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Wispzoa",
-    "imageUrl": "assets/souls/Soul54.png",
-    "localImage": "assets/souls/Soul54.png",
+    "imageUrl": "assets/souls/Soul54.webp",
+    "localImage": "assets/souls/Soul54.webp",
     "combo2": "Increases Crit by 15%",
     "combo4": "When there is enough onibi on the equipper's turn, their onibi using skills will consume 1 additional onibi and damage dealt will be increased by 40%.",
     "location": "Sea of Eternity (Wednesday, Friday, Sunday) · Mystery Soul Shop · Mystic Trader",
     "version": "CN TW JP GL",
-    "art": "assets/souls/M48.png"
+    "art": "assets/souls/M48.webp"
   },
   {
     "no": 55,
@@ -877,13 +871,13 @@
     "type": "DEF",
     "image": "File:Soul55.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Oracle",
-    "imageUrl": "assets/souls/Soul55.png",
-    "localImage": "assets/souls/Soul55.png",
+    "imageUrl": "assets/souls/Soul55.webp",
+    "localImage": "assets/souls/Soul55.webp",
     "combo2": "Increases defense by 15%",
     "combo4": "After taking damage, recovers HP by 10% of the damage received. Grants Shell (max 1 stack) at the start of battle and before taking an action. When received damage exceeds 60% of own max HP, the damage will be reduced by 60% and Shell will be removed.",
     "location": "Soul Zones (Wednesday, Saturday, Sunday) · Sea of Eternity · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M49.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M49.webp"
   },
   {
     "no": 56,
@@ -893,13 +887,13 @@
     "type": "DEF",
     "image": "File:Soul56.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Tomb_Robber",
-    "imageUrl": "assets/souls/Soul56.png",
-    "localImage": "assets/souls/Soul56.png",
+    "imageUrl": "assets/souls/Soul56.webp",
+    "localImage": "assets/souls/Soul56.webp",
     "combo2": "Increases DEF by 30%.",
     "combo4": "Grants 1 Tomb Fire stack at the end of the equipped unit's turn.",
     "location": "Orochi Soul Zones: Stage 12 (Saturday, Sunday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M50.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M50.webp"
   },
   {
     "no": 57,
@@ -909,13 +903,13 @@
     "type": "ATK",
     "image": "File:Soul57.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Possessor",
-    "imageUrl": "assets/souls/Soul57.png",
-    "localImage": "assets/souls/Soul57.png",
+    "imageUrl": "assets/souls/Soul57.webp",
+    "localImage": "assets/souls/Soul57.webp",
     "combo2": "Increases ATK by 15%",
     "combo4": "Increases damage dealt by 20%. If it's dealt to the same target, increases the damage dealt by subsequent strikes by 40% and 60% respectively. Damage boost loops 20%, 40%, 60% for further strikes.",
     "location": "Orochi Soul Zones: Stage 12 (Thursday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M51.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M51.webp"
   },
   {
     "no": 58,
@@ -925,13 +919,13 @@
     "type": "HP",
     "image": "File:Soul58.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Tapper",
-    "imageUrl": "assets/souls/Soul58.png",
-    "localImage": "assets/souls/Soul58.png",
+    "imageUrl": "assets/souls/Soul58.webp",
+    "localImage": "assets/souls/Soul58.webp",
     "combo2": "Increases HP by 15%.",
     "combo4": "Exclusive effect.<br>If the equipped unit's starting Crit is over 120%, reduces Crit DMG taken by non-summoned ally entities by 15%.",
     "location": "Orochi Soul Zones: Stage 12 (Tuesday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M52.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M52.webp"
   },
   {
     "no": 59,
@@ -941,13 +935,13 @@
     "type": "Crit",
     "image": "File:Soul59.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Echoer",
-    "imageUrl": "assets/souls/Soul59.png",
-    "localImage": "assets/souls/Soul59.png",
+    "imageUrl": "assets/souls/Soul59.webp",
+    "localImage": "assets/souls/Soul59.webp",
     "combo2": "Increases Crit by 15%.",
     "combo4": "Grants the equipped unit a 20% chance of Assisting.",
     "location": "Orochi Soul Zones: Stage 12 (Friday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M53.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M53.webp"
   },
   {
     "no": 60,
@@ -957,13 +951,13 @@
     "type": "HIT",
     "image": "File:Soul60.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Bell-Haunt",
-    "imageUrl": "assets/souls/Soul60.png",
-    "localImage": "assets/souls/Soul60.png",
+    "imageUrl": "assets/souls/Soul60.webp",
+    "localImage": "assets/souls/Soul60.webp",
     "combo2": "Increases HIT by 15%",
     "combo4": "Exclusive effect.<br>When the equipped unit lands a controling effect on their turn, for each target, increases the damage dealt by non-summoned ally entities by 5%, up to 40% for 2 turns (triggers only once for multiple hits on the same target.)",
     "location": "Orochi Soul Zones: Stage 12 (Monday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M54.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M54.webp"
   },
   {
     "no": 61,
@@ -973,13 +967,13 @@
     "type": "RES",
     "image": "File:Soul61.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Dangler",
-    "imageUrl": "assets/souls/Soul61.png",
-    "localImage": "assets/souls/Soul61.png",
+    "imageUrl": "assets/souls/Soul61.webp",
+    "localImage": "assets/souls/Soul61.webp",
     "combo2": "Increases RES by 15%.",
     "combo4": "Fills up the Orb Bar by an additional 1 slot and heals the HP of the non-summoned ally entity with the lowest proportion of HP by 700% of the equipped unit's DEF.",
     "location": "Orochi Soul Zones: Stage 12 (Wednesday) · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M55.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M55.webp"
   },
   {
     "no": 62,
@@ -989,13 +983,13 @@
     "type": "Random Stat",
     "image": "File:Soul62.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
-    "imageUrl": "assets/souls/Soul62.png",
-    "localImage": "assets/souls/Soul62.png",
+    "imageUrl": "assets/souls/Soul62.webp",
+    "localImage": "assets/souls/Soul62.webp",
     "combo2": "Exclusive effect. When the equipped unit lands a controlling effect or Banishes a monster during their turn, for each target, increases all non-summoned ally entities's SPD by 15, up to a maximum of 90. Sustainable for 1 turn. Triggers only once for multiple hits on the same target.",
     "combo4": "Exclusive effect. When the equipped unit lands a controlling effect or Banishes a monster during their turn, for each target, increases all non-summoned ally entities's SPD by 25, up to a maximum of 135. Sustainable for 1 turn. Triggers only once for multiple hits on the same target.",
     "location": "Demon Encounter · Mall",
-    "version": "",
-    "art": "assets/souls/M56.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M56.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1006,13 +1000,12 @@
     "type": "Crit DMG",
     "image": "File:Soul63.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Mutodori",
-    "imageUrl": "assets/souls/Soul63.png",
-    "localImage": "assets/souls/Soul63.png",
+    "imageUrl": "assets/souls/Soul63.webp",
+    "localImage": "assets/souls/Soul63.webp",
     "combo2": "Increases Crit DMG by 20%.",
     "combo4": "At the end of the turn, permanently increases damage by 15%, up to 45%.",
     "location": "Fallen Soul Zone: Stage 4 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M57.png"
+    "version": "CH TW JP GL"
   },
   {
     "no": 64,
@@ -1022,13 +1015,13 @@
     "type": "DEF",
     "image": "File:Soul64.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Chartbringer",
-    "imageUrl": "assets/souls/Soul64.png",
-    "localImage": "assets/souls/Soul64.png",
+    "imageUrl": "assets/souls/Soul64.webp",
+    "localImage": "assets/souls/Soul64.webp",
     "combo2": "Increases DEF by 30%.",
     "combo4": "Exclusive effect. When an ally is attacked, grants Chart Protection lasting 1 turn on them.",
     "location": "Fallen Soul Zone: Stage 4 · Mystery Soul Shop · Mystic Trader",
-    "version": "",
-    "art": "assets/souls/M58.png"
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M58.webp"
   },
   {
     "no": 65,
@@ -1038,13 +1031,13 @@
     "type": "Random Stat",
     "image": "File:Soul65.png",
     "wiki": "https://onmyoji.fandom.com/wiki/The_Mirror_of_Yata",
-    "imageUrl": "assets/souls/Soul65.png",
-    "localImage": "assets/souls/Soul65.png",
+    "imageUrl": "assets/souls/Soul65.webp",
+    "localImage": "assets/souls/Soul65.webp",
     "combo2": "Exclusive effect. When dealing damage during battle against monsters, inflicts Scorching Radiance. Inflicting Scorching Radiance again removes it to increase damage by 20%",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M65.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M65.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1055,13 +1048,13 @@
     "type": "Random Stat",
     "image": "File:Soul66.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Feather_Slash",
-    "imageUrl": "assets/souls/Soul66.png",
-    "localImage": "assets/souls/Soul66.png",
+    "imageUrl": "assets/souls/Soul66.webp",
+    "localImage": "assets/souls/Soul66.webp",
     "combo2": "Grants a 50 DEF-ignoring effect at the start of battle against monsters.",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M66.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M66.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1072,13 +1065,13 @@
     "type": "Random Stat",
     "image": "File:Soul67.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Prophecy_Astrolabe",
-    "imageUrl": "assets/souls/Soul67.png",
-    "localImage": "assets/souls/Soul67.png",
+    "imageUrl": "assets/souls/Soul67.webp",
+    "localImage": "assets/souls/Soul67.webp",
     "combo2": "Exclusive effect. When using a skill in battle against monsters, increases the Onmyoji's Crit by 15% of the equipped unit's Crit.",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M67.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M67.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1089,13 +1082,13 @@
     "type": "Random Stat",
     "image": "File:Soul68.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Moonstone",
-    "imageUrl": "assets/souls/Soul68.png",
-    "localImage": "assets/souls/Soul68.png",
+    "imageUrl": "assets/souls/Soul68.webp",
+    "localImage": "assets/souls/Soul68.webp",
     "combo2": "Exclusive effect. While an allied summoned entity is present, the monsters' total Effect RES is reduced by 30% (not exceeding 50% of own initial RES).",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M68.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M68.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1106,13 +1099,13 @@
     "type": "Random Stat",
     "image": "File:Soul69.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Bond_Weaver",
-    "imageUrl": "assets/souls/Soul69.png",
-    "localImage": "assets/souls/Soul69.png",
+    "imageUrl": "assets/souls/Soul69.webp",
+    "localImage": "assets/souls/Soul69.webp",
     "combo2": "At the start of battle and at the start of each own turn, gain Bond Guard. Bond Guard: Blocks 500 damage upon being attacked by a monster; removed after blocking damage equal to 300% of initial DEF.",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M69.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M69.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   },
   {
@@ -1123,13 +1116,13 @@
     "type": "Random Stat",
     "image": "File:Soul70.png",
     "wiki": "https://onmyoji.fandom.com/wiki/Prosperity_Arrow",
-    "imageUrl": "assets/souls/Soul70.png",
-    "localImage": "assets/souls/Soul70.png",
+    "imageUrl": "assets/souls/Soul70.webp",
+    "localImage": "assets/souls/Soul70.webp",
     "combo2": "Exclusive effect. When battling against monsters, after the turn ends, raises the Onmyoji's Move Bar by 10% (limited to once before the Onmyoji's turn begins).",
     "combo4": "",
     "location": "时空秘境",
-    "version": "",
-    "art": "assets/souls/M70.png",
+    "version": "CH TW JP GL",
+    "art": "assets/souls/M70.webp",
     "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
   }
 ]
