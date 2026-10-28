@@ -131,7 +131,7 @@
         "name": "Spell: Purge （言灵·一式/言霊・一式）",
         "type": "Special",
         "cooldown": 0,
-        "description": "",
+        "description": "Seimei explodes all amulets on the field and eliminates their effects. Each amulet an ally has restores their HP by 10% and each amulet an enemy has deals damage equal to 10% of his ATK.",
         "upgrades": []
       },
       {
@@ -450,7 +450,7 @@
         "name": "Summon: Afterlife (召唤·续命/召喚·延命)",
         "type": "Special",
         "cooldown": 2,
-        "description": "",
+        "description": "Kagura summons souls of the dead to possess and protect an ally, lasts for 2 turns. If the ally is KO'd while possessed, they will continue to exist as a spirit for 2 turns.",
         "upgrades": []
       },
       {
@@ -717,7 +717,7 @@
         "name": "Occult: Pursuit (秘术·穷追/秘術·窮追)",
         "type": "Passive",
         "cooldown": 0,
-        "description": "",
+        "description": "When Hiromasa uses Celestial Arrow, the Panther has a 30% chance of attacking alongside him, dealing damage equal to 100% of his ATK. Each time Hiromasa or his shadow double attacks, he gains a stack of Charged Force.",
         "upgrades": []
       }
     ]
@@ -906,7 +906,7 @@
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
-        "description": "",
+        "description": "Grants Divination Sigil to a designated ally for 1 turn. When the ally is KO'd, they will revive upon their next action and heal themselves for 20% of their max HP.",
         "upgrades": []
       },
       {
@@ -915,7 +915,7 @@
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
-        "description": "",
+        "description": "Grants Divination Sigil to a designated ally for 1 turn. When the ally takes a direct single target attack or indirect damage, reflects 80% of the damage taken.",
         "upgrades": []
       },
       {
@@ -924,7 +924,7 @@
         "name": "Divination Sigil (占卜之印/占いの印)",
         "type": "|Cooldown    = 1",
         "cooldown": 1,
-        "description": "",
+        "description": "Grants Divination Sigil to a designated ally for 2 turns, healing them by 30% of their lost HP at the start of their turn.",
         "upgrades": []
       },
       {
@@ -933,7 +933,7 @@
         "name": "Purification (净化/浄化)",
         "type": "Passive",
         "cooldown": 0,
-        "description": "",
+        "description": "At the start of turn or when healing an ally, dispels all debuffs from self and 1 random ally. When any ally is affected by a control effect, raises self's Move Bar by 10%, once per turn.",
         "upgrades": []
       }
     ]
@@ -1121,7 +1121,7 @@
         "name": "Ghost Garb (鬼冑)",
         "type": "Passive",
         "cooldown": 0,
-        "description": "",
+        "description": "Each time Yorimitsu is attacked, Ghost Armour absorbs 30% of his initial ATK. (Cannot exceed 600% of his initial ATK, refreshes at the start of turn.)",
         "upgrades": []
       },
       {

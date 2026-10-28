@@ -16,7 +16,7 @@ const fmtText = (s) => esc(String(s ?? "")
   .replace(/(?:^|\n)\s*:\s*/g, "— ")
   .replace(/(^|\n)\s*;\s*/g, "$1"));
 
-const DATA_V = "v30";
+const DATA_V = "v31";
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
   const [sh, so, st, ch, bo, ic] = await Promise.all([
@@ -981,6 +981,15 @@ function drawCalendar() {
     .format(new Date(Date.UTC(calYear, calMonth - 1, 1)));
   head.textContent = monthName;
 
+  /* inject the 7 weekday boss icons into the thead once (one per day-of-week, above day names) */
+  const thRow = document.querySelector(".cal-table thead tr");
+  if (thRow && !thRow.querySelector(".cal-boss")) {
+    thRow.querySelectorAll("th").forEach((th, i) => {
+      const src = CAL_BOSSES[i] ?? "";
+      th.innerHTML = `${src ? `<img class="cal-boss" src="${esc(src)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ""}<span class="cal-th-name">${esc(th.textContent.trim())}</span>`;
+    });
+  }
+
   const rows = [];
   let tr = [];
   const flush = () => { if (tr.length) rows.push(tr); };
@@ -989,9 +998,7 @@ function drawCalendar() {
     const today = calYear === nowY && calMonth === nowM && d === nowD;
     const weekend = (first + d - 1) % 7 === 0 || (first + d - 1) % 7 === 6;
     const buff = buffForDay(calYear, calMonth, d);
-    const bossIco = CAL_BOSSES[(first + d - 1) % 7] ?? "";
     tr.push(`<td class="cal-cell${today ? " today" : ""}${weekend ? " weekend" : ""}">
-      ${bossIco ? `<img class="cal-boss" src="${esc(bossIco)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ""}
       <div class="cal-day">${d}${today ? '<span class="cal-flag">today</span>' : ""}</div>
       <div class="cal-buff-row"><img class="cal-ico" src="${buffIco(buff)}" alt="" loading="lazy" onerror="this.style.display='none'"><span class="cal-buff" title="${esc(buff)}: ${esc(BUFF_DESC[buff] ?? "")}">${buff}</span></div>
       <time datetime="${calYear}-${String(calMonth).padStart(2, "0")}-${String(d).padStart(2, "0")}" hidden>true</time></td>`);

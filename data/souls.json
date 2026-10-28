@@ -977,7 +977,7 @@
   },
   {
     "no": 62,
-    "en": "Boss Souls",
+    "en": "Nightly Aramitama",
     "cn": "夜荒魂",
     "jp": "Yoru Aramitama",
     "type": "Random Stat",
@@ -985,12 +985,11 @@
     "wiki": "https://onmyoji.fandom.com/wiki/Boss_Souls",
     "imageUrl": "assets/souls/Soul62.webp",
     "localImage": "assets/souls/Soul62.webp",
+    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%",
     "combo2": "Exclusive effect. When the equipped unit lands a controlling effect or Banishes a monster during their turn, for each target, increases all non-summoned ally entities's SPD by 15, up to a maximum of 90. Sustainable for 1 turn. Triggers only once for multiple hits on the same target.",
-    "combo4": "Exclusive effect. When the equipped unit lands a controlling effect or Banishes a monster during their turn, for each target, increases all non-summoned ally entities's SPD by 25, up to a maximum of 135. Sustainable for 1 turn. Triggers only once for multiple hits on the same target.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M56.webp",
-    "combo1": "Increases a random base stat: ATK by 8%, HP by 8%, DEF by 16%, HIT by 8%, RES by 8% and Crit by 8%"
+    "art": "assets/souls/M56.webp"
   },
   {
     "no": 63,
