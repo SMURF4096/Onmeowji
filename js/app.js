@@ -16,7 +16,7 @@ const fmtText = (s) => esc(String(s ?? "")
   .replace(/(?:^|\n)\s*:\s*/g, "— ")
   .replace(/(^|\n)\s*;\s*/g, "$1"));
 
-const DATA_V = "v33";
+const DATA_V = "v34";
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
   const [sh, so, st, ch, bo, ic] = await Promise.all([
@@ -586,7 +586,12 @@ function highlightStatuses(escapedMain, effects) {
     const skey = findStatusKey(f.name);
     const ico = state.statusIcons?.[skey]
       ? `<img class="fx-ico" src="${esc(state.statusIcons[skey].url)}" alt="" loading="lazy" onerror="this.remove()">` : "";
-    html = html.replace(new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])"), (all, pre, word) => `${pre}<b class="ef ${cls}">${ico}${word}</b>`);
+    /* exact-case match first; fall back to case-insensitive so prose mentions
+       like "increasing their received damage" still highlight ("Increasing…"
+       must start uppercase in the glossary section for the parser) */
+    let re = new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])");
+    if (!re.test(html)) re = new RegExp("(^|[^A-Za-z])(" + name + ")(?![A-Za-z])", "i");
+    html = html.replace(re, (all, pre, word) => `${pre}<b class="ef ${cls}">${ico}${word}</b>`);
   }
   return html;
 }

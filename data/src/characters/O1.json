@@ -78,7 +78,7 @@
       "name": "Spell: Bind （言灵·缚/言霊・縛)",
       "type": "Special",
       "cooldown": 2,
-      "description": "Seimei binds a target with a field, increasing their received damage by 10%. Also has a 50% base chance of inflicting Bind. The bound enemy can use normal attacks to break the bind. The field inherits 5% of Seimei's HP. ;Bind :Confined or bound targets can only use normal attack when they move, dealing enough damage releases them from the effect.",
+      "description": "Seimei binds a target with a field, increasing their received damage by 10%. Also has a 50% base chance of inflicting Bind. The bound enemy can use normal attacks to break the bind. The field inherits 5% of Seimei's HP. ;Bind :Confined or bound targets can only use normal attack when they move, dealing enough damage releases them from the effect. ;Increasing their received damage : :'''Debuff''': The target takes more damage from all sources while bound in the field.",
       "upgrades": [
         {
           "lvl": 2,
@@ -268,6 +268,11 @@
       "file": "Debuff26.png",
       "url": "assets/status/Debuff26.webp",
       "jp": "気絶"
+    },
+    "increasing their received damage": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "霊符・滅"
     }
   }
 }

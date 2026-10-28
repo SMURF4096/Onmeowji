@@ -1513,5 +1513,10 @@
     "file": "Debuff34.png",
     "url": "assets/status/Debuff34.webp",
     "jp": "霊符・滅"
+  },
+  "increasing their received damage": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "霊符・滅"
   }
 }
