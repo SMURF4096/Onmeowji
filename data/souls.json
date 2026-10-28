@@ -541,7 +541,7 @@
     "combo2": "Exclusive passive effect. When dealing damage to monsters, inflicts a layer of Tsuchigumo mark (stacks up to 3 layers) on them, reducing their SPD by 10% and inflicting 10% indirect damage for 1 turn",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M34.webp"
+    "art": "assets/souls/Ml1.webp"
   },
   {
     "no": 35,
@@ -557,7 +557,7 @@
     "combo2": "Exclusive passive effect. When taking attacks from monsters, has a 50% chance of raising the Move Bar by 30%. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M35.webp"
+    "art": "assets/souls/Ml2.webp"
   },
   {
     "no": 36,
@@ -573,7 +573,7 @@
     "combo2": "Exclusive passive effect. Increases damage dealt to monsters by 10% for 1 turn. If attacked by monsters, increases damage boost effect to 25%.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M36.webp"
+    "art": "assets/souls/Ml3.webp"
   },
   {
     "no": 37,
@@ -589,7 +589,7 @@
     "combo2": "Exclusive passive effect. At the start of a battle against monsters, grants 60% damage reduction. When taking damage, transfer 6% damage reduction to 1.5% damage boost. Triggers only once for a single attack.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M37.webp"
+    "art": "assets/souls/Ml4.webp"
   },
   {
     "no": 38,
@@ -605,7 +605,7 @@
     "combo2": "Exclusive passive effect. At the start of battle against monsters, grants a shelter. Shelter regenerates 5 turns after being lifted.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M38.webp"
+    "art": "assets/souls/Ml5.webp"
   },
   {
     "no": 39,
@@ -781,7 +781,7 @@
     "combo4": "Exclusive passive effect. After dealing damage to monsters 5 times, the next damage dealt to a monster inflicts damage equal to 20% of its max HP, ignoring its DEF, to a max of 255% of own ATK.",
     "location": "Demon Encounter · Mall",
     "version": "CH TW JP GL",
-    "art": "assets/souls/M56.webp"
+    "art": "assets/souls/Ml6.webp"
   },
   {
     "no": 50,
