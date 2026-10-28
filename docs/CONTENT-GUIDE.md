@@ -5,19 +5,56 @@
 ```
 data/
   src/                    ← EDIT HERE (source of truth)
-    shikigami/{no}.json   one file per shikigami: profile, bio, skills, images, stats{min,max}
+    shikigami/{no}.json   one file per shikigami: profile, bio, skills,
+                          images, level-1/max stats AND any status-icon
+                          overrides for its skills — everything for that
+                          one character in one place
     souls/{no}.json       one file per soul (combo bonuses, art, image)
     characters/{no}.json  one file per onmyoji / champion (stats2 + skills embedded)
     bondlings/{no}.json   one file per bondling
-    status-icons.json     the global status-name → icon glossary map (one file)
+    status-icons.json     shared status glossary used by many entries
+                          (statuses like "Ghost Rider" appear on dozens of
+                          entries — fix once here, applies everywhere)
     _order.json           bundle order per category (only matters for display order)
   shikigami.json          GENERATED — what the site fetches (do not hand-edit)
   souls.json              GENERATED
   onmyoji.json            GENERATED
   bondlings.json          GENERATED
   stats.json              GENERATED (min/max arrays built from each shikigami's stats)
-  status-icons.json       GENERATED (copy of src)
+  status-icons.json       GENERATED (glossary with per-entry overrides folded in)
 ```
+
+## Revising one shikigami = opening exactly one file
+
+`data/src/shikigami/{no}.json` contains everything about that character:
+
+- `en / cn / jp / gl / rarity / cv / method / wiki` — identity fields
+- `imageUrl / localImage / rarityIcon` — portrait image
+- `skills[]` — each skill's name, type, onibi, cooldown, description, line, upgrades, icon path
+- `bio[]` — the evolution/level reward entries
+- `stats.min / stats.max` — level-1 and max base stats (the stat page is generated from these)
+- `statusIcons` — *optional* overrides for statuses used by this character's skills
+
+### Overriding a status icon for one character
+
+If a skill references a status whose icon is wrong *for this character only*,
+put the override inside the character's own file and build:
+
+```json
+"statusIcons": {
+  "sleep": "assets/status/Debuff29.webp",
+  "watchful eye": "assets/status/Buff111.webp"
+}
+```
+
+- Names are matched case-insensitively (keys are lowercased during the build).
+- The build folds these over the shared glossary and strips the field from the
+  generated bundle — the field stays in the source file, so your revision
+  lives with the character.
+- A warning is printed if the icon file doesn't exist on disk.
+- Use the shared `data/src/status-icons.json` only when the fix should apply
+  to *every* entry that displays that status (they're shared; most statuses
+  appear on dozens of characters).
 
 The site's pages keep fetching `data/*.json` exactly as before, so page code
 doesn't change when you edit sources — you just rebuild.

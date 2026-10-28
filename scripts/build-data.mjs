@@ -57,12 +57,38 @@ for (const s of shik) {
 write("shikigami.json", bundleShik);
 write("stats.json", { min, max });
 
-write("souls.json", read("souls"));
-write("onmyoji.json", read("characters"));
-write("bondlings.json", read("bondlings"));
+/* status-icon overrides:
+   any entry can carry `statusIcons: { "<status name>": "assets/status/X.webp" }` —
+   build folds it over the shared glossary (data/src/status-icons.json) and strips
+   the field from the generated bundle, so revising a shikigami's icons happens
+   inside that shikigami's file while the shared 300-status map stays single-edit. */
+const iconBase = JSON.parse(fs.readFileSync(path.join(SRC, "status-icons.json"), "utf8"));
+const overrideLog = [], missingFiles = [];
+const stripOverrides = (entries, cat) => {
+  for (const e of entries) {
+    if (!e?.statusIcons || typeof e.statusIcons !== "object") continue;
+    for (const [name, v] of Object.entries(e.statusIcons)) {
+      const file = typeof v === "string" ? { file: path.basename(v), url: v, jp: "" } : { file: v.file, url: v.url ?? v.file, jp: v.jp ?? "" };
+      if (!fs.existsSync(path.join(ROOT, file.url))) missingFiles.push(`${cat} ${e.no ?? e.en}: ${name} → ${file.url}`);
+      iconBase[name.toLowerCase().trim()] = file;
+      overrideLog.push(`${e.en ?? e.no}: ${name} → ${file.file}`);
+    }
+    delete e.statusIcons;
+  }
+};
+const soulsB = read("souls"), charsB = read("characters"), bondsB = read("bondlings");
+stripOverrides(shik, "shikigami");
+stripOverrides(soulsB, "souls");
+stripOverrides(charsB, "characters");
+stripOverrides(bondsB, "bondlings");
 
-/* status-icons: copied verbatim */
-fs.copyFileSync(path.join(SRC, "status-icons.json"), path.join(TMP, "status-icons.json"));
+write("souls.json", soulsB);
+write("onmyoji.json", charsB);
+write("bondlings.json", bondsB);
+
+write("status-icons.json", iconBase);
+if (overrideLog.length) console.log(`status-icon overrides folded: ${overrideLog.length}\n  ${overrideLog.join("\n  ")}`);
+if (missingFiles.length) console.log(`WARNING — overridden icons missing on disk:\n  ${missingFiles.join("\n  ")}`);
 
 /* deploy or verify */
 const SITE_FILES = ["shikigami.json", "stats.json", "souls.json", "onmyoji.json", "bondlings.json", "status-icons.json"];
