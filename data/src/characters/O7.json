@@ -240,5 +240,12 @@
         }
       ]
     }
-  ]
+  ],
+  "statusIcons": {
+    "disarm": {
+      "file": "Debuff107.png",
+      "url": "assets/status/Debuff107.webp",
+      "jp": "缴械"
+    }
+  }
 }

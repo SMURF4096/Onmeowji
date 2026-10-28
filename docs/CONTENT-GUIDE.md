@@ -6,23 +6,22 @@
 data/
   src/                    ← EDIT HERE (source of truth)
     shikigami/{no}.json   one file per shikigami: profile, bio, skills,
-                          images, level-1/max stats AND any status-icon
-                          overrides for its skills — everything for that
-                          one character in one place
+                          images, level-1/max stats AND its status/buff
+                          icons — everything for that one character
     souls/{no}.json       one file per soul (combo bonuses, art, image)
-    characters/{no}.json  one file per onmyoji / champion (stats2 + skills embedded)
+    characters/{no}.json  one file per onmyoji / champion (stats2, skills
+                          AND its status/buff icons)
     bondlings/{no}.json   one file per bondling
-    status-icons.json     SMALL shared fallback: statuses used by onmyoji /
-                          champion characters and bondlings (Amulet, Shield,
-                          Bind, …). New shikigami entries seed their own icons
-                          into their own files on every build.
+    status-icons.json     small shared fallback only: statuses referenced
+                          by NO entry. On every build each entry keeps its
+                          own icons in its own file.
     _order.json           bundle order per category (only matters for display order)
   shikigami.json          GENERATED — what the site fetches (do not hand-edit)
   souls.json              GENERATED
   onmyoji.json            GENERATED
   bondlings.json          GENERATED
   stats.json              GENERATED (min/max arrays built from each shikigami's stats)
-  status-icons.json       GENERATED (shared fallback with per-entry statusIcons folded in)
+  status-icons.json       GENERATED (all per-entry statusIcons folded over the shared fallback)
 ```
 
 ## Revising one shikigami = opening exactly one file
@@ -37,25 +36,28 @@ data/
 - `statusIcons` — status/buff icons for the statuses this character's skills
   use (seeded automatically on every build; you can tweak entries by hand)
 
-### Status/buff icons: mostly per-shikigami, small shared fallback
+### Status/buff icons: per-entry everywhere, shared file is just a fallback
 
-Every status/buff icon a shikigami's skills reference is stored inside that
-shikigami's own file. On every `build-data.mjs` run, the build re-scans skills
-with the same parser the site uses and:
+Every status/buff icon any entry resolves (shikigami, onmyoji/champion
+characters) is stored inside that entry's own file. On every `build-data.mjs`
+run, the build re-scans skills with the same parser the site uses and:
 
-- seeds `statusIcons` into each shikigami's file for statuses it references
+- seeds `statusIcons` into each entry's own file for the statuses it references
   (new entries added via `add-entry.mjs` are picked up automatically), and
-- keeps only truly shared statuses — the ones onmyoji/champion characters and
-  bondlings use (Amulet, Shield, Bind, …) — in `data/src/status-icons.json`,
-  which acts as the fallback for those few.
+- drops every referenced key out of `data/src/status-icons.json`, which then
+  only holds keys that NO entry currently references.
+
+Souls (combo bonuses) and bondlings (bonding effect) display their text
+plain, without icon resolution — nothing to seed there.
 
 So a status like Momo no Sei's `blooming` (Buff51.png) lives in
-`data/src/shikigami/200.json` — revising it means opening that one file.
-Only when a fix should apply to onmyoji/champion characters too (the 16
-shared keys) do you edit `data/src/status-icons.json`.
+`data/src/shikigami/200.json`, and Seimei's `amulet` / `bind` / `shield`
+live in `data/src/characters/O1.json` — revising either means opening that
+one file. Only fixes that should apply to an icon NO entry references go
+into `data/src/status-icons.json`.
 
 Manual per-entry overrides are still possible — just edit the `statusIcons`
-values in the character's own file and build:
+values in the entry's own file and build:
 
 ```json
 "statusIcons": {

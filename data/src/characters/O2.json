@@ -237,5 +237,12 @@
         }
       ]
     }
-  ]
+  ],
+  "statusIcons": {
+    "continuous damage": {
+      "file": "Debuff00.png",
+      "url": "assets/status/Debuff00.webp",
+      "jp": ""
+    }
+  }
 }

@@ -9,35 +9,10 @@
     "url": "assets/status/Debuff34.webp",
     "jp": "黑子/黒石"
   },
-  "amulet": {
-    "file": "Buff74.png",
-    "url": "assets/status/Buff74.webp",
-    "jp": "呪符"
-  },
   "2nd stage hollowed": {
     "file": "Unique01.png",
     "url": "assets/status/Unique01.webp",
     "jp": "虚化・弐"
-  },
-  "shield": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": ""
-  },
-  "continuous damage": {
-    "file": "Debuff00.png",
-    "url": "assets/status/Debuff00.webp",
-    "jp": ""
-  },
-  "bind": {
-    "file": "Debuff38.png",
-    "url": "assets/status/Debuff38.webp",
-    "jp": "束縛"
-  },
-  "disarm": {
-    "file": "Debuff107.png",
-    "url": "assets/status/Debuff107.webp",
-    "jp": "缴械"
   },
   "secret treasure": {
     "file": "Buff168.png",
@@ -93,6 +68,11 @@
     "file": "Indirect11.png",
     "url": "assets/status/Indirect11.webp",
     "jp": "狐の印"
+  },
+  "shield": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": ""
   },
   "cat vengeance": {
     "file": "Debuff56.png",
@@ -344,6 +324,11 @@
     "url": "assets/status/Indirect16.webp",
     "jp": "毒の羽"
   },
+  "continuous damage": {
+    "file": "Debuff00.png",
+    "url": "assets/status/Debuff00.webp",
+    "jp": ""
+  },
   "nitaro's whistle": {
     "file": "Buff51.png",
     "url": "assets/status/Buff51.webp",
@@ -519,6 +504,11 @@
     "url": "assets/status/Debuff35.webp",
     "jp": "白子/白石"
   },
+  "amulet": {
+    "file": "Buff74.png",
+    "url": "assets/status/Buff74.webp",
+    "jp": "呪符"
+  },
   "scale": {
     "file": "Debuff14.png",
     "url": "assets/status/Debuff14.webp",
@@ -613,6 +603,11 @@
     "file": "Debuff36.png",
     "url": "assets/status/Debuff36.webp",
     "jp": "巻き込み"
+  },
+  "bind": {
+    "file": "Debuff38.png",
+    "url": "assets/status/Debuff38.webp",
+    "jp": "束縛"
   },
   "soul rift": {
     "file": "Indirect20.png",
@@ -1218,6 +1213,11 @@
     "file": "Buff152.png",
     "url": "assets/status/Buff152.webp",
     "jp": "傘の盾"
+  },
+  "disarm": {
+    "file": "Debuff107.png",
+    "url": "assets/status/Debuff107.webp",
+    "jp": "缴械"
   },
   "peacock plume": {
     "file": "Buff155.png",

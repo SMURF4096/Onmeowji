@@ -1,16 +1,18 @@
 /**
  * localize-status-icons.mjs — running part of the build (also usable standalone).
  *
- * Moves the status/buff icons a shikigami's skills reference INTO that
- * shikigami's own file (data/src/shikigami/{no}.json → `statusIcons`), so
- * revising one shikigami only ever opens one file. New entries added later
- * (e.g. via scripts/add-entry.mjs) are picked up automatically on every build.
+ * Moves the status/buff icons an entry's skills reference INTO that entry's own
+ * file (data/src/{shikigami,characters,bondlings,souls}/{no}.json →
+ * `statusIcons`), so revising one entity only ever opens one file. New entries
+ * added later (e.g. via scripts/add-entry.mjs) are picked up automatically on
+ * every build.
  *
  * - Uses the SAME resolver as the site (js/app.js parseSkillDesc +
  *   findStatusKey), so it seeds exactly the statuses that show icons today.
- * - A status referenced by several shikigami is copied into each of them.
- * - A status is REMOVED from the shared glossary only when no character /
- *   bondling still needs it (they keep the shared file as fallback).
+ * - A status referenced by several entries is copied into each of them.
+ * - After seeding, every referenced key drops OUT of the shared glossary
+ *   (data/src/status-icons.json) — it only remains a fallback for keys nothing
+ *   references (and the tiny residual list of junk keys from the wiki source).
  * - `scripts/build-data.mjs` folds the per-entry maps back into the generated
  *   status-icons.json — runtime behaviour is unchanged.
  *
@@ -69,21 +71,25 @@ export function localize() {
   const readDir = (cat) => fs.readdirSync(path.join(SRC, cat)).filter((f) => f.endsWith(".json"))
     .map((f) => ({ f, e: JSON.parse(fs.readFileSync(path.join(SRC, cat, f), "utf8")) }));
 
+  const CATS = ["shikigami", "characters", "bondlings", "souls"];
+
   /* statuses already localized live inside per-entry statusIcons, not the shared
      glossary — fold them back in for resolution so NEW entries referencing an
      already-localized status (e.g. "blooming") still self-seed on build */
   const localized = {};
-  for (const { f, e } of readDir("shikigami")) {
-    for (const [name, v] of Object.entries(e.statusIcons ?? {})) {
-      const file = typeof v === "string" ? { file: path.basename(v), url: v, jp: "" } : { file: v.file, url: v.url ?? v.file, jp: v.jp ?? "" };
-      localized[name.toLowerCase().trim()] = file;
+  for (const cat of CATS) {
+    for (const { f, e } of readDir(cat)) {
+      for (const [name, v] of Object.entries(e.statusIcons ?? {})) {
+        const file = typeof v === "string" ? { file: path.basename(v), url: v, jp: "" } : { file: v.file, url: v.url ?? v.file, jp: v.jp ?? "" };
+        localized[name.toLowerCase().trim()] = file;
+      }
     }
   }
   const resolver = { ...localized, ...glossary }; /* shared glossary wins where both have a key */
 
   /* reference map: key → entries that use it, per category */
-  const refsByCat = { shikigami: new Map(), characters: new Map(), bondlings: new Map(), souls: new Map() };
-  for (const cat of Object.keys(refsByCat)) {
+  const refsByCat = Object.fromEntries(CATS.map((c) => [c, new Map()]));
+  for (const cat of CATS) {
     for (const { f, e } of readDir(cat)) {
       for (const k of [...(e.skills ?? []), ...(e.skill ? [e.skill] : [])]) {
         if (!k?.description && !k?.upgrades) continue;
@@ -102,31 +108,34 @@ export function localize() {
     }
   }
 
-  /* seed per-shikigami statusIcons (skip unless something actually changed) */
+  /* seed per-entry statusIcons in every category (skip unless something changed) */
   let moved = 0, filesTouched = 0;
-  for (const [key, users] of refsByCat.shikigami) {
-    for (const { f } of users) {
-      const p = path.join(SRC, "shikigami", f);
-      const beforeRaw = fs.readFileSync(p, "utf8");
-      const e = JSON.parse(beforeRaw);
-      if (e.statusIcons?.[key]) continue; /* already there */
-      e.statusIcons ??= {};
-      e.statusIcons[key] = resolver[key];
-      e.statusIcons = Object.fromEntries(Object.entries(e.statusIcons).sort(([a], [b]) => a.localeCompare(b)));
-      const afterRaw = JSON.stringify(e, null, 2) + "\n";
-      if (afterRaw !== beforeRaw) { fs.writeFileSync(p, afterRaw); filesTouched++; }
+  for (const cat of CATS) {
+    for (const [key, users] of refsByCat[cat]) {
+      for (const { f } of users) {
+        const p = path.join(SRC, cat, f);
+        const beforeRaw = fs.readFileSync(p, "utf8");
+        const e = JSON.parse(beforeRaw);
+        if (e.statusIcons?.[key]) continue; /* already there */
+        e.statusIcons ??= {};
+        e.statusIcons[key] = resolver[key];
+        e.statusIcons = Object.fromEntries(Object.entries(e.statusIcons).sort(([a], [b]) => a.localeCompare(b)));
+        const afterRaw = JSON.stringify(e, null, 2) + "\n";
+        if (afterRaw !== beforeRaw) { fs.writeFileSync(p, afterRaw); filesTouched++; }
+      }
+      moved++;
+      /* the key now lives with every entry that references it */
+      if (key in glossary) delete glossary[key];
     }
-    moved++;
-    /* drop from the shared glossary unless characters/bondlings still use it */
-    const stillShared = refsByCat.characters.has(key) || refsByCat.bondlings.has(key);
-    if (!stillShared && key in glossary) delete glossary[key];
   }
 
   if (JSON.stringify(glossary) !== glossaryBefore) fs.writeFileSync(glossaryPath, JSON.stringify(glossary, null, 2) + "\n");
 
-  if (moved || filesTouched) {
-    console.log(`localize-status-icons: ${moved} status key(s) referenced by shikigami, ${filesTouched} file(s) updated`);
-    console.log(`  shared glossary now holds ${Object.keys(glossary).length} key(s)`);
+  if (moved || filesTouched || JSON.stringify(glossary) !== glossaryBefore) {
+    const catSummary = CATS.map((c) => `${c} ${refsByCat[c].size}`).join(" / ");
+    console.log(`localize-status-icons: ${moved} status key(s) self-seeded (${catSummary}), ${filesTouched} file(s) updated`);
+    if (JSON.stringify(glossary) !== glossaryBefore || moved || filesTouched)
+      console.log(`  shared glossary holds ${Object.keys(glossary).length} key(s) (fallback only)`);
   }
   return { moved, filesTouched, glossaryKeys: Object.keys(glossary).length };
 }

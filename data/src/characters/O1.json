@@ -237,5 +237,22 @@
         }
       ]
     }
-  ]
+  ],
+  "statusIcons": {
+    "amulet": {
+      "file": "Buff74.png",
+      "url": "assets/status/Buff74.webp",
+      "jp": "呪符"
+    },
+    "bind": {
+      "file": "Debuff38.png",
+      "url": "assets/status/Debuff38.webp",
+      "jp": "束縛"
+    },
+    "shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": ""
+    }
+  }
 }

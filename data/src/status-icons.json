@@ -9,35 +9,10 @@
     "url": "assets/status/Debuff34.webp",
     "jp": "黑子/黒石"
   },
-  "amulet": {
-    "file": "Buff74.png",
-    "url": "assets/status/Buff74.webp",
-    "jp": "呪符"
-  },
   "2nd stage hollowed": {
     "file": "Unique01.png",
     "url": "assets/status/Unique01.webp",
     "jp": "虚化・弐"
-  },
-  "shield": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": ""
-  },
-  "continuous damage": {
-    "file": "Debuff00.png",
-    "url": "assets/status/Debuff00.webp",
-    "jp": ""
-  },
-  "bind": {
-    "file": "Debuff38.png",
-    "url": "assets/status/Debuff38.webp",
-    "jp": "束縛"
-  },
-  "disarm": {
-    "file": "Debuff107.png",
-    "url": "assets/status/Debuff107.webp",
-    "jp": "缴械"
   },
   "secret treasure": {
     "file": "Buff168.png",
