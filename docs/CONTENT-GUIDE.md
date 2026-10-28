@@ -126,6 +126,55 @@ clean those up only when nothing else uses them.
 Adds/removes are just keys in `data/src/status-icons.json`
 (name → { file, url, jp }). The icons live in `assets/status/`.
 
+### Create a brand-new status (icon + description + type)
+
+A status is fully defined by two things inside the entry's own file:
+its **glossary section in a skill description** (description text + type)
+and its **`statusIcons` mapping** (icon image). Worked example, verified
+in-browser (chip + definition card + icon all render):
+
+1. **Put the icon image** in `assets/status/` (webp preferred, e.g.
+   `Buff999.webp` — reuse the wiki Buff/Debuff/Indirect/Unique numbering
+   or any custom name).
+
+2. **In `data/src/shikigami/{no}.json`** (the shikigami that owns the
+   skill), append the glossary section to that skill's `description`:
+
+   ```text
+   ...existing skill text. ;Aurora Guard (極光の護り) : :'''Buff''': Reduces incoming damage by 20%.
+   ```
+
+   - `;Name (jp) : :` starts the section; the jp name is optional.
+   - The `'''...'''` block is the **type**. One or two, comma-separated:
+     `'''Buff'''`, `'''Debuff'''`, `'''Buff, Mark'''`, `'''Mark'''`,
+     `'''General'''` …
+   - Colors come from the type: Buff → green, Debuff → red, anything else
+     (General/Mark) → neutral.
+   - The text after the type is the **description** shown in the skill's
+     effect list.
+
+3. **Map the icon in the same file** (same file — one-file revision):
+
+   ```json
+   "statusIcons": {
+     "aurora guard": { "file": "Buff999.webp", "url": "assets/status/Buff999.webp", "jp": "極光の護り" }
+   }
+   ```
+
+   The key is the status name as it appears before the `(jp)`, lowercased
+   (matching is case-insensitive). This mapping is required the first time:
+   a brand-new status name is not auto-seeded, because the build only copies
+   icons it can already resolve. After it exists in one file, any OTHER entry
+   that references the same status name auto-seeds the mapping on the next
+   build.
+
+4. **Build** (`node scripts/build-data.mjs`) and bump `DATA_V` in
+   `js/app.js` if you want returning visitors to pick the change up.
+
+To reuse an existing status in a new skill, just mention its name in the
+description (or add a `;Name (jp) : :'''Type''': text` section) — the icon
+seeds itself on build.
+
 ## Notes & gotchas
 
 - **Never edit `data/*.json` at the root directly** — a rebuild overwrites it.
