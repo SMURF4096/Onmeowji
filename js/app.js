@@ -16,7 +16,7 @@ const fmtText = (s) => esc(String(s ?? "")
   .replace(/(?:^|\n)\s*:\s*/g, "— ")
   .replace(/(^|\n)\s*;\s*/g, "$1"));
 
-const DATA_V = "v32";
+const DATA_V = "v33";
 async function loadAll() {
   const base = document.body.dataset.data ?? "data/";
   const [sh, so, st, ch, bo, ic] = await Promise.all([
@@ -523,7 +523,10 @@ function parseSkillDesc(k) {
     .replace(/\s+/g, " ").trim();
   const effects = [];
   for (const seg of parts.slice(1)) {
-    const m = seg.match(/^([^:]{1,60}?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
+    /* name may itself contain one ": Sub" segment (Amulet: Chaos, Fox Shadow：Shelter) —
+       the optional (?:\s*:\s*[^\s:]...) swallows it only when the type quotes can't be
+       reached without it, so plain names parse exactly as before */
+    const m = seg.match(/^([^:]{1,60}?(?:\s*:\s*[^\s:][^:]{0,39}?)?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
     if (m) {
       effects.push({
         name: m[1].trim(),

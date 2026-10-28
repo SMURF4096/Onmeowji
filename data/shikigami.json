@@ -5481,6 +5481,11 @@
     ],
     "art": "assets/art/230skin1.webp",
     "statusIcons": {
+      "daze": {
+        "file": "Debuff26.png",
+        "url": "assets/status/Debuff26.webp",
+        "jp": "気絶"
+      },
       "diamond sutra": {
         "file": "Buff50.png",
         "url": "assets/status/Buff50.webp",
@@ -7349,7 +7354,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/243skin1.webp"
+    "art": "assets/art/243skin1.webp",
+    "statusIcons": {
+      "daze": {
+        "file": "Debuff26.png",
+        "url": "assets/status/Debuff26.webp",
+        "jp": "気絶"
+      }
+    }
   },
   {
     "no": 244,
@@ -8941,7 +8953,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/252skin1.webp"
+    "art": "assets/art/252skin1.webp",
+    "statusIcons": {
+      "daze": {
+        "file": "Debuff26.png",
+        "url": "assets/status/Debuff26.webp",
+        "jp": "気絶"
+      }
+    }
   },
   {
     "no": 253,
@@ -19032,7 +19051,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/308skin1.webp"
+    "art": "assets/art/308skin1.webp",
+    "statusIcons": {
+      "daze": {
+        "file": "Debuff26.png",
+        "url": "assets/status/Debuff26.webp",
+        "jp": "気絶"
+      }
+    }
   },
   {
     "no": 309,
@@ -24497,6 +24523,11 @@
         "file": "Buff16.png",
         "url": "assets/status/Buff16.webp",
         "jp": "蟹殻"
+      },
+      "daze": {
+        "file": "Debuff26.png",
+        "url": "assets/status/Debuff26.webp",
+        "jp": "気絶"
       },
       "jump-start": {
         "file": "Buff57.png",

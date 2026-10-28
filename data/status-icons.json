@@ -184,6 +184,11 @@
     "url": "assets/status/Debuff34.webp",
     "jp": "呪火"
   },
+  "daze": {
+    "file": "Debuff26.png",
+    "url": "assets/status/Debuff26.webp",
+    "jp": "気絶"
+  },
   "diamond sutra": {
     "file": "Buff50.png",
     "url": "assets/status/Buff50.webp",
@@ -1498,5 +1503,15 @@
     "file": "Unique87.png",
     "url": "assets/status/Unique87.webp",
     "jp": "盛放"
+  },
+  "amulet: chaos": {
+    "file": "Debuff35.png",
+    "url": "assets/status/Debuff35.webp",
+    "jp": "霊符・乱"
+  },
+  "amulet: death": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "霊符・滅"
   }
 }

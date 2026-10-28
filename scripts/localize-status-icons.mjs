@@ -36,7 +36,8 @@ function parseSkillDesc(raw) {
   const main = parts[0].replace(/;\s*:\s*/g, " ").replace(/\s+/g, " ").trim().toLowerCase();
   const effects = [];
   for (const seg of parts.slice(1)) {
-    const m = seg.match(/^([^:]{1,60}?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
+    /* mirror of js/app.js parseSkillDesc — name may contain one ": Sub" segment */
+    const m = seg.match(/^([^:]{1,60}?(?:\s*:\s*[^\s:][^:]{0,39}?)?)\s*(?:\(([^)]*)\))?\s*[:\s]*'{2,4}([^']+?)'{2,4}\s*[:.?]*\s*([\s\S]*)$/);
     if (m) { effects.push(m[1].trim().toLowerCase()); continue; }
     const n = seg.match(/^([^:]{1,60}?)\s*:+\s*([\s\S]{10,})$/);
     if (n && /^[A-Z]/.test(n[1])) effects.push(n[1].trim().toLowerCase());

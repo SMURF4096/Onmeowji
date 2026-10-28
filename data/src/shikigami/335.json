@@ -215,6 +215,11 @@
       "url": "assets/status/Buff16.webp",
       "jp": "蟹殻"
     },
+    "daze": {
+      "file": "Debuff26.png",
+      "url": "assets/status/Debuff26.webp",
+      "jp": "気絶"
+    },
     "jump-start": {
       "file": "Buff57.png",
       "url": "assets/status/Buff57.webp",

@@ -210,6 +210,11 @@
     }
   },
   "statusIcons": {
+    "daze": {
+      "file": "Debuff26.png",
+      "url": "assets/status/Debuff26.webp",
+      "jp": "気絶"
+    },
     "diamond sutra": {
       "file": "Buff50.png",
       "url": "assets/status/Buff50.webp",

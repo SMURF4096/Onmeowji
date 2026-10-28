@@ -23,7 +23,7 @@ const BROWSER_HEADERS = {
 
 let ok = 0, fail = [], skipped = 0;
 for (const [name, ic] of Object.entries(map)) {
-  if (ic.url.startsWith("assets/status/")) { skipped++; continue; }
+  if (ic.url.startsWith("assets/status/") && fs.existsSync(path.join("assets/status", path.basename(ic.url)))) { skipped++; continue; }
   /* Special:FilePath redirects to the canonical static URL even for
      case-shifted file names (debuff28.png → Debuff28.png) */
   const res = await fetch("https://onmyoji.fandom.com/wiki/Special:FilePath/" + encodeURIComponent(ic.file.replace(/\.png$/i, "") + ".png"), {
@@ -31,7 +31,10 @@ for (const [name, ic] of Object.entries(map)) {
     headers: BROWSER_HEADERS,
   });
   const buf = Buffer.from(await res.arrayBuffer());
-  const finalFile = (new URL(res.url)).pathname.split("/images/")[1]?.split("/").pop(); /* /images/x/xy/<File> */
+  /* final URL is .../images/x/xy/<File>.png/revision/latest?cb=... — pick the
+     segment that actually carries an image extension ("latest" is not a name) */
+  const finalFile = (new URL(res.url)).pathname.split("/images/")[1]?.split("/")
+    .find((s) => /\.(png|webp|jpe?g|gif)$/i.test(s)); /* /images/x/xy/<File> */
   const file = finalFile ?? ic.file.replace(/[^\w.\-]/g, "_");
   const dest = path.join("assets/status", file);
   if (res.ok && buf.length && !String(res.headers.get("content-type") ?? "").includes("text/html")) {

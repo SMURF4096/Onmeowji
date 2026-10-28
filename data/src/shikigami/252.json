@@ -187,5 +187,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "daze": {
+      "file": "Debuff26.png",
+      "url": "assets/status/Debuff26.webp",
+      "jp": "気絶"
+    }
   }
 }

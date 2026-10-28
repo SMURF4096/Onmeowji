@@ -52,7 +52,7 @@
       "name": "Basic Skill（基础术式/通常攻撃）",
       "type": "Normal",
       "cooldown": 0,
-      "description": "Seimei uses an amulet to attack a single target, dealing damage equal to 100% of his ATK. ;Amulet: Chaos (霊符・乱) : :Damage dealt by the target is decreased by 20%, lasts 2 turns.",
+      "description": "Seimei uses an amulet to attack a single target, dealing damage equal to 100% of his ATK. ;Amulet: Chaos (霊符・乱) : :'''Debuff''': Damage dealt by the target is decreased by 20%, lasts 2 turns.",
       "upgrades": [
         {
           "lvl": 2,
@@ -139,7 +139,7 @@
       "name": "Amulet: Death （符咒·灭/霊符・滅）",
       "type": "Special",
       "cooldown": 0,
-      "description": "Seimei inflicts Amulet: Death on all enemies. It increases their received damage by 15%, pasts for 2 turns.",
+      "description": "Seimei inflicts Amulet: Death on all enemies. It increases their received damage by 15%, pasts for 2 turns. ;Amulet: Death (霊符・滅) : :'''Debuff''': Increases received damage by 15%, lasts for 2 turns.",
       "upgrades": [
         {
           "lvl": 2,
@@ -191,7 +191,7 @@
       "name": "Divine Lightning（雷帝召来/雷光招来)",
       "type": "Passive",
       "cooldown": 0,
-      "description": "When Seimei receives an attack, there is a 10% chance to summon Shinryu. Shinryu invokes lightning to attack all enemies, dealing damage equal to 100% of his ATK.",
+      "description": "When Seimei receives an attack, there is a 10% chance to summon Shinryu. Shinryu invokes lightning to attack all enemies, dealing damage equal to 100% of his ATK. ;Daze (気絶) : :'''Debuff''': The target cannot act for 1 turn.",
       "upgrades": [
         {
           "lvl": 2,
@@ -253,6 +253,21 @@
       "file": "Buff52.png",
       "url": "assets/status/Buff52.webp",
       "jp": ""
+    },
+    "amulet: chaos": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "霊符・乱"
+    },
+    "amulet: death": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "霊符・滅"
+    },
+    "daze": {
+      "file": "Debuff26.png",
+      "url": "assets/status/Debuff26.webp",
+      "jp": "気絶"
     }
   }
 }
