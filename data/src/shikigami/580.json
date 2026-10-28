@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/580skin1.webp"
+  "art": "assets/art/580skin1.webp",
+  "statusIcons": {
+    "teru teru bouzu": {
+      "file": "Buff191.png",
+      "url": "assets/status/Buff191.webp",
+      "jp": "霹雳娃娃"
+    },
+    "sunshine doll": {
+      "file": "Buff197.png",
+      "url": "assets/status/Buff197.webp",
+      "jp": "晴空娃娃"
+    }
+  }
 }

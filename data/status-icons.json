@@ -1,13 +1,153 @@
 {
+  "\">cuteness is justice</span>|inline=1|popup=part of the official name is a mistranslation of a similar but shorter word. the official gl name of this effect is lolita justice.}}": {
+    "file": "Buff53.png",
+    "url": "assets/status/Buff53.webp",
+    "jp": "萝莉正义/可愛いは正義"
+  },
+  "\">the black stone</span>|inline=1|popup=the official term is mistranslated as \"kuro\". the correct term is \"the black stone\".}}": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "黑子/黒石"
+  },
+  "amulet": {
+    "file": "Buff74.png",
+    "url": "assets/status/Buff74.webp",
+    "jp": "呪符"
+  },
+  "2nd stage hollowed": {
+    "file": "Unique01.png",
+    "url": "assets/status/Unique01.webp",
+    "jp": "虚化・弐"
+  },
+  "shield": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": ""
+  },
+  "continuous damage": {
+    "file": "Debuff00.png",
+    "url": "assets/status/Debuff00.webp",
+    "jp": ""
+  },
+  "bind": {
+    "file": "Debuff38.png",
+    "url": "assets/status/Debuff38.webp",
+    "jp": "束縛"
+  },
+  "disarm": {
+    "file": "Debuff107.png",
+    "url": "assets/status/Debuff107.webp",
+    "jp": "缴械"
+  },
+  "secret treasure": {
+    "file": "Buff168.png",
+    "url": "assets/status/Buff168.webp",
+    "jp": "秘宝"
+  },
+  "golden showdown": {
+    "file": "Debuff119.png",
+    "url": "assets/status/Debuff119.webp",
+    "jp": "黄金対決"
+  },
+  "duel": {
+    "file": "Debuff43.png",
+    "url": "assets/status/Debuff43.webp",
+    "jp": "決闘"
+  },
+  "sharkperson's jewel": {
+    "file": "Buff169.png",
+    "url": "assets/status/Buff169.webp",
+    "jp": "鮫人玉"
+  },
+  "?": {
+    "file": "Buff186.png",
+    "url": "assets/status/Buff186.webp",
+    "jp": "宿影阵"
+  },
+  "amulet·break": {
+    "file": "Indirect39.png",
+    "url": "assets/status/Indirect39.webp",
+    "jp": "符咒•破"
+  },
+  "buff114": {
+    "file": "Buff114.png",
+    "jp": "妖華 (2段)",
+    "url": "assets/status/Buff114.webp"
+  },
+  "buff113": {
+    "file": "Buff113.png",
+    "jp": "妖華",
+    "url": "assets/status/Buff113.webp"
+  },
+  "blooming": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "満開"
+  },
+  "ice shield": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": "氷鎧"
+  },
+  "cunning mark": {
+    "file": "Indirect11.png",
+    "url": "assets/status/Indirect11.webp",
+    "jp": "狐の印"
+  },
   "cat vengeance": {
     "file": "Debuff56.png",
     "url": "assets/status/Debuff56.webp",
     "jp": "九命猫・復習"
   },
+  "firewater": {
+    "file": "Indirect09.png",
+    "url": "assets/status/Indirect09.webp",
+    "jp": "酒火"
+  },
+  "nourishment": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "光合成"
+  },
+  "life steal": {
+    "file": "Indirect17.png",
+    "url": "assets/status/Indirect17.webp",
+    "jp": "命を奪う"
+  },
   "blind": {
     "file": "Debuff24.png",
     "url": "assets/status/Debuff24.webp",
     "jp": "目を覆う"
+  },
+  "feather shelter": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "羽の加護"
+  },
+  "protection of fate": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "命の加護"
+  },
+  "bunny dance": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "兎の舞"
+  },
+  "silence": {
+    "file": "Debuff29.png",
+    "url": "assets/status/Debuff29.webp",
+    "jp": "SILENCE"
+  },
+  "heroic posture": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "勇気凛々"
+  },
+  "shelter": {
+    "file": "Buff56.png",
+    "url": "assets/status/Buff56.webp",
+    "jp": ""
   },
   "demoniac": {
     "file": "Buff25.png",
@@ -24,20 +164,55 @@
     "url": "assets/status/Buff150.webp",
     "jp": "友よ！"
   },
+  "haunting souls": {
+    "file": "Indirect07.png",
+    "url": "assets/status/Indirect07.webp",
+    "jp": "亡魂憑依"
+  },
+  "fury fire": {
+    "file": "Buff23.png",
+    "url": "assets/status/Buff23.webp",
+    "jp": "怒りの炎"
+  },
   "shackle of tears": {
     "file": "Debuff36.png",
     "url": "assets/status/Debuff36.webp",
     "jp": "涙の絆"
   },
-  "\">cuteness is justice</span>|inline=1|popup=part of the official name is a mistranslation of a similar but shorter word. the official gl name of this effect is lolita justice.}}": {
-    "file": "Buff53.png",
-    "url": "assets/status/Buff53.webp",
-    "jp": "萝莉正义/可愛いは正義"
+  "kyonshii poison": {
+    "file": "Indirect12.png",
+    "url": "assets/status/Indirect12.webp",
+    "jp": "キョンシー毒"
+  },
+  "corrosion toxin": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "腐食毒素"
   },
   "grow up": {
     "file": "Buff72.png",
     "url": "assets/status/Buff72.webp",
     "jp": "早く大きくなって"
+  },
+  "hardened": {
+    "file": "Buff32.png",
+    "url": "assets/status/Buff32.webp",
+    "jp": "石化"
+  },
+  "cursed fire": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "呪火"
+  },
+  "diamond sutra": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "金剛経"
+  },
+  "maple doll": {
+    "file": "Indirect15.png",
+    "url": "assets/status/Indirect15.webp",
+    "jp": "紅葉の人形"
   },
   "money fling": {
     "file": "Debuff45.png",
@@ -54,25 +229,160 @@
     "url": "assets/status/Debuff34.webp",
     "jp": "隙あり"
   },
+  "aquatic impairment": {
+    "file": "Debuff36.png",
+    "url": "assets/status/Debuff36.webp",
+    "jp": "水流の泡"
+  },
+  "drizzle": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": "細雨"
+  },
+  "fox fury mark": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "狐の印"
+  },
+  "blessed seed": {
+    "file": "Buff22.png",
+    "url": "assets/status/Buff22.webp",
+    "jp": "祝福の種"
+  },
+  "photosynthesis": {
+    "file": "Buff30.png",
+    "url": "assets/status/Buff30.webp",
+    "jp": "光合成"
+  },
+  "butterfly's dance": {
+    "file": "Buff48.png",
+    "url": "assets/status/Buff48.webp",
+    "jp": "蝶の舞"
+  },
+  "morale boost": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": ""
+  },
+  "empowering flow": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "逐流"
+  },
+  "reign": {
+    "file": "Buff192.png",
+    "url": "assets/status/Buff192.webp",
+    "jp": "君臨"
+  },
+  "isolation": {
+    "file": "Debuff18.png",
+    "url": "assets/status/Debuff18.webp",
+    "jp": "ISOLATION"
+  },
+  "grudged": {
+    "file": "Debuff49.png",
+    "url": "assets/status/Debuff49.webp",
+    "jp": "因縁"
+  },
+  "death penalty": {
+    "file": "Indirect23.png",
+    "url": "assets/status/Indirect23.webp",
+    "jp": "死亡裁決"
+  },
+  "ki focus": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "気功"
+  },
+  "ghost rider": {
+    "file": "Buff53.png",
+    "url": "assets/status/Buff53.webp",
+    "jp": "GHOST RIDER"
+  },
+  "lingering sound": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": "余韻"
+  },
+  "wind fury": {
+    "file": "Indirect21.png",
+    "url": "assets/status/Indirect21.webp",
+    "jp": "風の怒り"
+  },
+  "eyes of wrath：thunder": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "雷の怒目"
+  },
+  "eyes of wrath：wind": {
+    "file": "Debuff35.png",
+    "url": "assets/status/Debuff35.webp",
+    "jp": "風の怒目"
+  },
+  "vortex assault": {
+    "file": "Indirect21.png",
+    "url": "assets/status/Indirect21.webp",
+    "jp": "風の襲撃"
+  },
+  "forest vines": {
+    "file": "Debuff23.png",
+    "url": "assets/status/Debuff23.webp",
+    "jp": "森の力"
+  },
+  "circle of life": {
+    "file": "Buff73.png",
+    "url": "assets/status/Buff73.webp",
+    "jp": "生生流転"
+  },
   "burning fire": {
     "file": "Indirect18.png",
     "url": "assets/status/Indirect18.webp",
     "jp": "焚火"
+  },
+  "poisonous feathers": {
+    "file": "Indirect16.png",
+    "url": "assets/status/Indirect16.webp",
+    "jp": "毒の羽"
+  },
+  "nitaro's whistle": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "二太郎指笛"
+  },
+  "santaro's whistle": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "三太郎指笛"
   },
   "first feathers": {
     "file": "Buff51.png",
     "url": "assets/status/Buff51.webp",
     "jp": "羽初"
   },
-  "fury fire": {
-    "file": "Buff23.png",
-    "url": "assets/status/Buff23.webp",
-    "jp": "怒りの炎"
-  },
   "demonic arm": {
     "file": "Buff154.png",
     "url": "assets/status/Buff154.webp",
     "jp": "鬼の手"
+  },
+  "candlelight": {
+    "file": "Buff62.png",
+    "url": "assets/status/Buff62.webp",
+    "jp": "ろうそくの炎"
+  },
+  "dance of recovery": {
+    "file": "Buff41.png",
+    "url": "assets/status/Buff41.webp",
+    "jp": "蘇生の舞"
+  },
+  "cherry blossom": {
+    "file": "Indirect06.png",
+    "url": "assets/status/Indirect06.webp",
+    "jp": "桜吹雪"
+  },
+  "glorious blade": {
+    "file": "Buff113.png",
+    "url": "assets/status/Buff113.webp",
+    "jp": "妖華"
   },
   "arachnid venom": {
     "file": "Indirect22.png",
@@ -84,20 +394,60 @@
     "url": "assets/status/Debuff43.webp",
     "jp": "鬼面"
   },
+  "draining": {
+    "file": "Debuff35.png",
+    "url": "assets/status/Debuff35.webp",
+    "jp": "DRAINING"
+  },
+  "wind's protection": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": "風護"
+  },
+  "wind aegis": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": "風佑"
+  },
   "divine light": {
     "file": "Buff50.png",
     "url": "assets/status/Buff50.webp",
     "jp": "仏の力"
+  },
+  "prank": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "悪戯"
+  },
+  "revenant": {
+    "file": "Unique82.png",
+    "url": "assets/status/Unique82.webp",
+    "jp": ""
   },
   "protection of shiro": {
     "file": "Buff52.png",
     "url": "assets/status/Buff52.webp",
     "jp": "白の守り"
   },
+  "nectar": {
+    "file": "Buff47.png",
+    "url": "assets/status/Buff47.webp",
+    "jp": "かぐわしい花"
+  },
+  "dragon jewel": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "龙首之玉"
+  },
   "fan dance": {
     "file": "Buff51.png",
     "url": "assets/status/Buff51.webp",
     "jp": "扇の舞"
+  },
+  "golden feather": {
+    "file": "Debuff34.png",
+    "url": "assets/status/Debuff34.webp",
+    "jp": "黄金の羽"
   },
   "random buff": {
     "file": "Buff51.png",
@@ -108,6 +458,16 @@
     "file": "Debuff35.png",
     "url": "assets/status/Debuff35.webp",
     "jp": "ランダムデバフ"
+  },
+  "carrot": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "ニンジン"
+  },
+  "heavenly scroll： heart assault": {
+    "file": "Indirect24.png",
+    "url": "assets/status/Indirect24.webp",
+    "jp": ""
   },
   "ice mark": {
     "file": "Debuff36.png",
@@ -124,20 +484,40 @@
     "url": "assets/status/Buff26.webp",
     "jp": "畏"
   },
-  "\">the black stone</span>|inline=1|popup=the official term is mistranslated as \"kuro\". the correct term is \"the black stone\".}}": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "黑子/黒石"
+  "moon's blessing": {
+    "file": "Buff29.png",
+    "url": "assets/status/Buff29.webp",
+    "jp": "月の祝福"
+  },
+  "trapped beast": {
+    "file": "Buff51.png",
+    "url": "assets/status/Buff51.webp",
+    "jp": "困獣"
+  },
+  "laceration": {
+    "file": "Indirect13.png",
+    "url": "assets/status/Indirect13.webp",
+    "jp": "引き裂き"
+  },
+  "alert": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": "警戒"
+  },
+  "owl's dance": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": "梟の舞"
+  },
+  "demon's bane": {
+    "file": "Debuff24.png",
+    "url": "assets/status/Debuff24.webp",
+    "jp": "降魔"
   },
   "the white stone": {
     "file": "Debuff35.png",
     "url": "assets/status/Debuff35.webp",
     "jp": "白子/白石"
-  },
-  "amulet": {
-    "file": "Buff74.png",
-    "url": "assets/status/Buff74.webp",
-    "jp": "呪符"
   },
   "scale": {
     "file": "Debuff14.png",
@@ -184,10 +564,30 @@
     "url": "assets/status/Buff00.webp",
     "jp": "逐風"
   },
-  "soul barrier": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": "霊魂結界"
+  "burnt flame": {
+    "file": "Debuff35.png",
+    "url": "assets/status/Debuff35.webp",
+    "jp": "残炎"
+  },
+  "fox shadow：shelter": {
+    "file": "Buff59.png",
+    "url": "assets/status/Buff59.webp",
+    "jp": "狐影・守"
+  },
+  "baneful flower": {
+    "file": "Indirect03.png",
+    "url": "assets/status/Indirect03.webp",
+    "jp": "災厄の花"
+  },
+  "protection of root": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": "禍根の守り"
+  },
+  "bugs grudge": {
+    "file": "Indirect02.png",
+    "url": "assets/status/Indirect02.webp",
+    "jp": "虫怨"
   },
   "amulet of exorcism": {
     "file": "Debuff10.png",
@@ -199,6 +599,41 @@
     "url": "assets/status/Debuff42.webp",
     "jp": "四魂封印"
   },
+  "soul barrier": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": "霊魂結界"
+  },
+  "entangling obstruction": {
+    "file": "Debuff35.png",
+    "url": "assets/status/Debuff35.webp",
+    "jp": "纏わり阻害"
+  },
+  "wrap": {
+    "file": "Debuff36.png",
+    "url": "assets/status/Debuff36.webp",
+    "jp": "巻き込み"
+  },
+  "soul rift": {
+    "file": "Indirect20.png",
+    "url": "assets/status/Indirect20.webp",
+    "jp": "魂隙"
+  },
+  "revel mark": {
+    "file": "Buff38.png",
+    "url": "assets/status/Buff38.webp",
+    "jp": "喜びの印"
+  },
+  "teeth armor": {
+    "file": "Buff18.png",
+    "url": "assets/status/Buff18.webp",
+    "jp": "鯨の牙"
+  },
+  "body armor": {
+    "file": "Buff06.png",
+    "url": "assets/status/Buff06.webp",
+    "jp": "鯨鎧"
+  },
   "unholy force": {
     "file": "Buff17.png",
     "url": "assets/status/Buff17.webp",
@@ -208,6 +643,26 @@
     "file": "Debuff05.png",
     "url": "assets/status/Debuff05.webp",
     "jp": "五感喪失"
+  },
+  "wind shield": {
+    "file": "Buff52.png",
+    "url": "assets/status/Buff52.webp",
+    "jp": "風の盾"
+  },
+  "crimson breath": {
+    "file": "Buff12.png",
+    "url": "assets/status/Buff12.webp",
+    "jp": "赤影の息"
+  },
+  "shadow stealth": {
+    "file": "Buff50.png",
+    "url": "assets/status/Buff50.webp",
+    "jp": ""
+  },
+  "stealth protection": {
+    "file": "Buff13.png",
+    "url": "assets/status/Buff13.webp",
+    "jp": ""
   },
   "sorrowful state": {
     "file": "Unique14.png",
@@ -244,6 +699,41 @@
     "url": "assets/status/Buff53.webp",
     "jp": "覆土の力"
   },
+  "unflinching": {
+    "file": "Buff80.png",
+    "url": "assets/status/Buff80.webp",
+    "jp": "不動の守護"
+  },
+  "sea fury": {
+    "file": "Buff21.png",
+    "url": "assets/status/Buff21.webp",
+    "jp": "海の怒り"
+  },
+  "carapace": {
+    "file": "Buff16.png",
+    "url": "assets/status/Buff16.webp",
+    "jp": "蟹殻"
+  },
+  "jump-start": {
+    "file": "Buff57.png",
+    "url": "assets/status/Buff57.webp",
+    "jp": "力が湧いてきた"
+  },
+  "san no mai： shirofune": {
+    "file": "Buff05.png",
+    "url": "assets/status/Buff05.webp",
+    "jp": "参の舞・白刀"
+  },
+  "ice wound": {
+    "file": "Indirect01.png",
+    "url": "assets/status/Indirect01.webp",
+    "jp": "凍傷"
+  },
+  "ice quake": {
+    "file": "Debuff36.png",
+    "url": "assets/status/Debuff36.webp",
+    "jp": "氷震"
+  },
   "reiatsu": {
     "file": "Buff14.png",
     "url": "assets/status/Buff14.webp",
@@ -254,10 +744,45 @@
     "url": "assets/status/Buff51.webp",
     "jp": "虚化"
   },
-  "2nd stage hollowed": {
-    "file": "Unique01.png",
-    "url": "assets/status/Unique01.webp",
-    "jp": "虚化・弐"
+  "falling papers": {
+    "file": "Buff04.png",
+    "url": "assets/status/Buff04.webp",
+    "jp": "落紙"
+  },
+  "paper blade": {
+    "file": "Indirect00.png",
+    "url": "assets/status/Indirect00.webp",
+    "jp": "紙刃"
+  },
+  "high spirit's force": {
+    "file": "Buff08.png",
+    "url": "assets/status/Buff08.webp",
+    "jp": "大妖の力"
+  },
+  "demoniac state": {
+    "file": "Buff02.png",
+    "url": "assets/status/Buff02.webp",
+    "jp": "鬼王の姿"
+  },
+  "accused": {
+    "file": "Debuff03.png",
+    "url": "assets/status/Debuff03.webp",
+    "jp": "攻撃の的"
+  },
+  "blade of the mind": {
+    "file": "Buff106.png",
+    "url": "assets/status/Buff106.webp",
+    "jp": "心剣"
+  },
+  "shadow cut": {
+    "file": "Debuff02.png",
+    "url": "assets/status/Debuff02.webp",
+    "jp": "影切"
+  },
+  "endangered": {
+    "file": "Debuff01.png",
+    "url": "assets/status/Debuff01.webp",
+    "jp": "危"
   },
   "mirror's wrath": {
     "file": "Debuff46.png",
@@ -274,10 +799,30 @@
     "url": "assets/status/Buff52.webp",
     "jp": "鏡盾"
   },
-  "grudged": {
-    "file": "Debuff49.png",
-    "url": "assets/status/Debuff49.webp",
-    "jp": "因縁"
+  "bone lock": {
+    "file": "Debuff50.png",
+    "url": "assets/status/Debuff50.webp",
+    "jp": "骸の鎖"
+  },
+  "demon madness": {
+    "file": "Buff63.png",
+    "url": "assets/status/Buff63.webp",
+    "jp": "狂"
+  },
+  "asura": {
+    "file": "Buff64.png",
+    "url": "assets/status/Buff64.webp",
+    "jp": "修羅"
+  },
+  "bone chains": {
+    "file": "Debuff50.png",
+    "url": "assets/status/Debuff50.webp",
+    "jp": "骸の鎖"
+  },
+  "hidden secret": {
+    "file": "Buff53.png",
+    "url": "assets/status/Buff53.webp",
+    "jp": "ステルス"
   },
   "focused": {
     "file": "Buff67.png",
@@ -294,11 +839,6 @@
     "url": "assets/status/Buff66.webp",
     "jp": "怒った"
   },
-  "shelter": {
-    "file": "Buff56.png",
-    "url": "assets/status/Buff56.webp",
-    "jp": ""
-  },
   "light drain": {
     "file": "Debuff51.png",
     "url": "assets/status/Debuff51.webp",
@@ -308,6 +848,31 @@
     "file": "Buff68.png",
     "url": "assets/status/Buff68.webp",
     "jp": "不滅"
+  },
+  "sprint": {
+    "file": "Buff00.png",
+    "url": "assets/status/Buff00.webp",
+    "jp": "奔襲"
+  },
+  "shrapnel tomb": {
+    "file": "Indirect27.png",
+    "url": "assets/status/Indirect27.webp",
+    "jp": "雷火弾"
+  },
+  "scorpion venom": {
+    "file": "Indirect28.png",
+    "url": "assets/status/Indirect28.webp",
+    "jp": "蠍毒"
+  },
+  "obligated duty": {
+    "file": "Buff69.png",
+    "url": "assets/status/Buff69.webp",
+    "jp": "義の心"
+  },
+  "mountain's barrier": {
+    "file": "Buff53.png",
+    "url": "assets/status/Buff53.webp",
+    "jp": "麓障"
   },
   "burning resentment": {
     "file": "Indirect29.png",
@@ -384,6 +949,21 @@
     "url": "assets/status/Buff133.webp",
     "jp": "金蓮"
   },
+  "decayed blood": {
+    "file": "Buff94.png",
+    "url": "assets/status/Buff94.webp",
+    "jp": "腐血"
+  },
+  "possess": {
+    "file": "Buff93.png",
+    "url": "assets/status/Buff93.webp",
+    "jp": "附身/憑依"
+  },
+  "full stomach": {
+    "file": "Buff102.png",
+    "url": "assets/status/Buff102.webp",
+    "jp": "飽食"
+  },
   "grain reserve": {
     "file": "Unique25.png",
     "url": "assets/status/Unique25.webp",
@@ -424,6 +1004,11 @@
     "url": "assets/status/Debuff68.webp",
     "jp": "夜の禊"
   },
+  "shadowprey": {
+    "file": "Debuff75.png",
+    "url": "assets/status/Debuff75.webp",
+    "jp": "影食"
+  },
   "holy fire": {
     "file": "Buff107.png",
     "url": "assets/status/Buff107.webp",
@@ -438,671 +1023,6 @@
     "file": "Unique29.png",
     "url": "assets/status/Unique29.webp",
     "jp": "梦忍法/夢忍法"
-  },
-  "makeup": {
-    "file": "Indirect31.png",
-    "url": "assets/status/Indirect31.webp",
-    "jp": "粉妆/粉粧"
-  },
-  "thunder aegis": {
-    "file": "Buff123.png",
-    "url": "assets/status/Buff123.webp",
-    "jp": "雷盾"
-  },
-  "thunder tomb": {
-    "file": "Debuff80.png",
-    "url": "assets/status/Debuff80.webp",
-    "jp": "雷塚"
-  },
-  "seasonal change": {
-    "file": "Buff127.png",
-    "url": "assets/status/Buff127.webp",
-    "jp": "四季流转/四季の流れ"
-  },
-  "season of rejuvenation": {
-    "file": "Buff128.png",
-    "url": "assets/status/Buff128.webp",
-    "jp": "岁时生息/季節の休息"
-  },
-  "seasonling": {
-    "file": "Unique35.png",
-    "url": "assets/status/Unique35.webp",
-    "jp": "季灵/季霊"
-  },
-  "sugar": {
-    "file": "Buff151.png",
-    "url": "assets/status/Buff151.webp",
-    "jp": "糖分"
-  },
-  "inkling": {
-    "file": "Buff148.png",
-    "url": "assets/status/Buff148.webp",
-    "jp": "墨灵/墨霊"
-  },
-  "faux orb": {
-    "file": "Unique45.png",
-    "url": "assets/status/Unique45.webp",
-    "jp": "义火/義火"
-  },
-  "drumbeat": {
-    "file": "Buff54.png",
-    "url": "assets/status/Buff54.webp",
-    "jp": ""
-  },
-  "karmic hindrance": {
-    "file": "Debuff111.png",
-    "url": "assets/status/Debuff111.webp",
-    "jp": "業障"
-  },
-  "divine power": {
-    "file": "Buff157.png",
-    "url": "assets/status/Buff157.webp",
-    "jp": "神力"
-  },
-  "red earthly bond": {
-    "file": "Buff159.png",
-    "url": "assets/status/Buff159.webp",
-    "jp": "俗縁・赤"
-  },
-  "blue earthly bond": {
-    "file": "Buff158.png",
-    "url": "assets/status/Buff158.webp",
-    "jp": "俗縁・青"
-  },
-  "vulpine protection": {
-    "file": "Buff167.png",
-    "url": "assets/status/Buff167.webp",
-    "jp": "霊狐守護"
-  },
-  "heart's flame": {
-    "file": "Buff166.png",
-    "url": "assets/status/Buff166.webp",
-    "jp": "心焔"
-  },
-  "fox mark": {
-    "file": "Debuff118.png",
-    "url": "assets/status/Debuff118.webp",
-    "jp": "狐印/狐の印"
-  },
-  "tempo": {
-    "file": "Unique57.png",
-    "url": "assets/status/Unique57.webp",
-    "jp": "リズム"
-  },
-  "true rhythm": {
-    "file": "Buff176.png",
-    "url": "assets/status/Buff176.webp",
-    "jp": "心の弦"
-  },
-  "parade lover": {
-    "file": "Buff173.png",
-    "url": "assets/status/Buff173.webp",
-    "jp": "福运/福運"
-  },
-  "fortune shelter": {
-    "file": "Buff173.png",
-    "url": "assets/status/Buff173.webp",
-    "jp": "福運・守"
-  },
-  "sparrow's mark": {
-    "file": "Debuff124.png",
-    "url": "assets/status/Debuff124.webp",
-    "jp": "雀の印"
-  },
-  "critical defense": {
-    "file": "Unique62.png",
-    "url": "assets/status/Unique62.webp",
-    "jp": "会心守勢"
-  },
-  "wanted criminal": {
-    "file": "Debuff125.png",
-    "url": "assets/status/Debuff125.webp",
-    "jp": "通缉"
-  },
-  "cold snow": {
-    "file": "Unique63.png",
-    "url": "assets/status/Unique63.webp",
-    "jp": "寒雪"
-  },
-  "clear sky": {
-    "file": "Unique64.png",
-    "url": "assets/status/Unique64.webp",
-    "jp": "晴空"
-  },
-  "flower memory": {
-    "file": "Debuff128.png",
-    "url": "assets/status/Debuff128.webp",
-    "jp": "花忆"
-  },
-  "boar, deer, butterflies": {
-    "file": "Unique68.png",
-    "url": "assets/status/Unique68.webp",
-    "jp": "猪鹿蝶"
-  },
-  "scorching fire": {
-    "file": "Indirect38.png",
-    "url": "assets/status/Indirect38.webp",
-    "jp": "炙烤"
-  },
-  "burning wick": {
-    "file": "Unique76.png",
-    "url": "assets/status/Unique76.webp",
-    "jp": "熔芯"
-  },
-  "blooming": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "満開"
-  },
-  "ice shield": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": "氷鎧"
-  },
-  "cunning mark": {
-    "file": "Indirect11.png",
-    "url": "assets/status/Indirect11.webp",
-    "jp": "狐の印"
-  },
-  "shield": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": ""
-  },
-  "firewater": {
-    "file": "Indirect09.png",
-    "url": "assets/status/Indirect09.webp",
-    "jp": "酒火"
-  },
-  "nourishment": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "光合成"
-  },
-  "life steal": {
-    "file": "Indirect17.png",
-    "url": "assets/status/Indirect17.webp",
-    "jp": "命を奪う"
-  },
-  "feather shelter": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "羽の加護"
-  },
-  "protection of fate": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "命の加護"
-  },
-  "heroic posture": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "勇気凛々"
-  },
-  "haunting souls": {
-    "file": "Indirect07.png",
-    "url": "assets/status/Indirect07.webp",
-    "jp": "亡魂憑依"
-  },
-  "kyonshii poison": {
-    "file": "Indirect12.png",
-    "url": "assets/status/Indirect12.webp",
-    "jp": "キョンシー毒"
-  },
-  "corrosion toxin": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "腐食毒素"
-  },
-  "hardened": {
-    "file": "Buff32.png",
-    "url": "assets/status/Buff32.webp",
-    "jp": "石化"
-  },
-  "cursed fire": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "呪火"
-  },
-  "diamond sutra": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "金剛経"
-  },
-  "maple doll": {
-    "file": "Indirect15.png",
-    "url": "assets/status/Indirect15.webp",
-    "jp": "紅葉の人形"
-  },
-  "aquatic impairment": {
-    "file": "Debuff36.png",
-    "url": "assets/status/Debuff36.webp",
-    "jp": "水流の泡"
-  },
-  "drizzle": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": "細雨"
-  },
-  "fox fury mark": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "狐の印"
-  },
-  "bunny dance": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "兎の舞"
-  },
-  "blessed seed": {
-    "file": "Buff22.png",
-    "url": "assets/status/Buff22.webp",
-    "jp": "祝福の種"
-  },
-  "photosynthesis": {
-    "file": "Buff30.png",
-    "url": "assets/status/Buff30.webp",
-    "jp": "光合成"
-  },
-  "butterfly's dance": {
-    "file": "Buff48.png",
-    "url": "assets/status/Buff48.webp",
-    "jp": "蝶の舞"
-  },
-  "morale boost": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": ""
-  },
-  "empowering flow": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "逐流"
-  },
-  "reign": {
-    "file": "Buff192.png",
-    "url": "assets/status/Buff192.webp",
-    "jp": "君臨"
-  },
-  "death penalty": {
-    "file": "Indirect23.png",
-    "url": "assets/status/Indirect23.webp",
-    "jp": "死亡裁決"
-  },
-  "ki focus": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "気功"
-  },
-  "lingering sound": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": "余韻"
-  },
-  "wind fury": {
-    "file": "Indirect21.png",
-    "url": "assets/status/Indirect21.webp",
-    "jp": "風の怒り"
-  },
-  "eyes of wrath：thunder": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "雷の怒目"
-  },
-  "eyes of wrath：wind": {
-    "file": "Debuff35.png",
-    "url": "assets/status/Debuff35.webp",
-    "jp": "風の怒目"
-  },
-  "vortex assault": {
-    "file": "Indirect21.png",
-    "url": "assets/status/Indirect21.webp",
-    "jp": "風の襲撃"
-  },
-  "forest vines": {
-    "file": "Debuff23.png",
-    "url": "assets/status/Debuff23.webp",
-    "jp": "森の力"
-  },
-  "circle of life": {
-    "file": "Buff73.png",
-    "url": "assets/status/Buff73.webp",
-    "jp": "生生流転"
-  },
-  "continuous damage": {
-    "file": "Debuff00.png",
-    "url": "assets/status/Debuff00.webp",
-    "jp": ""
-  },
-  "nitaro's whistle": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "二太郎指笛"
-  },
-  "santaro's whistle": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "三太郎指笛"
-  },
-  "candlelight": {
-    "file": "Buff62.png",
-    "url": "assets/status/Buff62.webp",
-    "jp": "ろうそくの炎"
-  },
-  "dance of recovery": {
-    "file": "Buff41.png",
-    "url": "assets/status/Buff41.webp",
-    "jp": "蘇生の舞"
-  },
-  "cherry blossom": {
-    "file": "Indirect06.png",
-    "url": "assets/status/Indirect06.webp",
-    "jp": "桜吹雪"
-  },
-  "glorious blade": {
-    "file": "Buff113.png",
-    "url": "assets/status/Buff113.webp",
-    "jp": "妖華"
-  },
-  "wind's protection": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": "風護"
-  },
-  "wind aegis": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": "風佑"
-  },
-  "prank": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "悪戯"
-  },
-  "revenant": {
-    "file": "Unique82.png",
-    "url": "assets/status/Unique82.webp",
-    "jp": ""
-  },
-  "nectar": {
-    "file": "Buff47.png",
-    "url": "assets/status/Buff47.webp",
-    "jp": "かぐわしい花"
-  },
-  "poisonous feathers": {
-    "file": "Indirect16.png",
-    "url": "assets/status/Indirect16.webp",
-    "jp": "毒の羽"
-  },
-  "golden feather": {
-    "file": "Debuff34.png",
-    "url": "assets/status/Debuff34.webp",
-    "jp": "黄金の羽"
-  },
-  "carrot": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "ニンジン"
-  },
-  "heavenly scroll： heart assault": {
-    "file": "Indirect24.png",
-    "url": "assets/status/Indirect24.webp",
-    "jp": ""
-  },
-  "moon's blessing": {
-    "file": "Buff29.png",
-    "url": "assets/status/Buff29.webp",
-    "jp": "月の祝福"
-  },
-  "trapped beast": {
-    "file": "Buff51.png",
-    "url": "assets/status/Buff51.webp",
-    "jp": "困獣"
-  },
-  "laceration": {
-    "file": "Indirect13.png",
-    "url": "assets/status/Indirect13.webp",
-    "jp": "引き裂き"
-  },
-  "alert": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": "警戒"
-  },
-  "owl's dance": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": "梟の舞"
-  },
-  "demon's bane": {
-    "file": "Debuff24.png",
-    "url": "assets/status/Debuff24.webp",
-    "jp": "降魔"
-  },
-  "burnt flame": {
-    "file": "Debuff35.png",
-    "url": "assets/status/Debuff35.webp",
-    "jp": "残炎"
-  },
-  "fox shadow：shelter": {
-    "file": "Buff59.png",
-    "url": "assets/status/Buff59.webp",
-    "jp": "狐影・守"
-  },
-  "baneful flower": {
-    "file": "Indirect03.png",
-    "url": "assets/status/Indirect03.webp",
-    "jp": "災厄の花"
-  },
-  "protection of root": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "禍根の守り"
-  },
-  "bugs grudge": {
-    "file": "Indirect02.png",
-    "url": "assets/status/Indirect02.webp",
-    "jp": "虫怨"
-  },
-  "entangling obstruction": {
-    "file": "Debuff35.png",
-    "url": "assets/status/Debuff35.webp",
-    "jp": "纏わり阻害"
-  },
-  "wrap": {
-    "file": "Debuff36.png",
-    "url": "assets/status/Debuff36.webp",
-    "jp": "巻き込み"
-  },
-  "bind": {
-    "file": "Debuff38.png",
-    "url": "assets/status/Debuff38.webp",
-    "jp": "束縛"
-  },
-  "soul rift": {
-    "file": "Indirect20.png",
-    "url": "assets/status/Indirect20.webp",
-    "jp": "魂隙"
-  },
-  "revel mark": {
-    "file": "Buff38.png",
-    "url": "assets/status/Buff38.webp",
-    "jp": "喜びの印"
-  },
-  "teeth armor": {
-    "file": "Buff18.png",
-    "url": "assets/status/Buff18.webp",
-    "jp": "鯨の牙"
-  },
-  "body armor": {
-    "file": "Buff06.png",
-    "url": "assets/status/Buff06.webp",
-    "jp": "鯨鎧"
-  },
-  "wind shield": {
-    "file": "Buff52.png",
-    "url": "assets/status/Buff52.webp",
-    "jp": "風の盾"
-  },
-  "crimson breath": {
-    "file": "Buff12.png",
-    "url": "assets/status/Buff12.webp",
-    "jp": "赤影の息"
-  },
-  "shadow stealth": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": ""
-  },
-  "stealth protection": {
-    "file": "Buff13.png",
-    "url": "assets/status/Buff13.webp",
-    "jp": ""
-  },
-  "unflinching": {
-    "file": "Buff80.png",
-    "url": "assets/status/Buff80.webp",
-    "jp": "不動の守護"
-  },
-  "sea fury": {
-    "file": "Buff21.png",
-    "url": "assets/status/Buff21.webp",
-    "jp": "海の怒り"
-  },
-  "carapace": {
-    "file": "Buff16.png",
-    "url": "assets/status/Buff16.webp",
-    "jp": "蟹殻"
-  },
-  "jump-start": {
-    "file": "Buff57.png",
-    "url": "assets/status/Buff57.webp",
-    "jp": "力が湧いてきた"
-  },
-  "san no mai： shirofune": {
-    "file": "Buff05.png",
-    "url": "assets/status/Buff05.webp",
-    "jp": "参の舞・白刀"
-  },
-  "ice wound": {
-    "file": "Indirect01.png",
-    "url": "assets/status/Indirect01.webp",
-    "jp": "凍傷"
-  },
-  "ice quake": {
-    "file": "Debuff36.png",
-    "url": "assets/status/Debuff36.webp",
-    "jp": "氷震"
-  },
-  "falling papers": {
-    "file": "Buff04.png",
-    "url": "assets/status/Buff04.webp",
-    "jp": "落紙"
-  },
-  "paper blade": {
-    "file": "Indirect00.png",
-    "url": "assets/status/Indirect00.webp",
-    "jp": "紙刃"
-  },
-  "high spirit's force": {
-    "file": "Buff08.png",
-    "url": "assets/status/Buff08.webp",
-    "jp": "大妖の力"
-  },
-  "demoniac state": {
-    "file": "Buff02.png",
-    "url": "assets/status/Buff02.webp",
-    "jp": "鬼王の姿"
-  },
-  "accused": {
-    "file": "Debuff03.png",
-    "url": "assets/status/Debuff03.webp",
-    "jp": "攻撃の的"
-  },
-  "blade of the mind": {
-    "file": "Buff106.png",
-    "url": "assets/status/Buff106.webp",
-    "jp": "心剣"
-  },
-  "shadow cut": {
-    "file": "Debuff02.png",
-    "url": "assets/status/Debuff02.webp",
-    "jp": "影切"
-  },
-  "endangered": {
-    "file": "Debuff01.png",
-    "url": "assets/status/Debuff01.webp",
-    "jp": "危"
-  },
-  "bone lock": {
-    "file": "Debuff50.png",
-    "url": "assets/status/Debuff50.webp",
-    "jp": "骸の鎖"
-  },
-  "demon madness": {
-    "file": "Buff63.png",
-    "url": "assets/status/Buff63.webp",
-    "jp": "狂"
-  },
-  "asura": {
-    "file": "Buff64.png",
-    "url": "assets/status/Buff64.webp",
-    "jp": "修羅"
-  },
-  "bone chains": {
-    "file": "Debuff50.png",
-    "url": "assets/status/Debuff50.webp",
-    "jp": "骸の鎖"
-  },
-  "hidden secret": {
-    "file": "Buff53.png",
-    "url": "assets/status/Buff53.webp",
-    "jp": "ステルス"
-  },
-  "sprint": {
-    "file": "Buff00.png",
-    "url": "assets/status/Buff00.webp",
-    "jp": "奔襲"
-  },
-  "shrapnel tomb": {
-    "file": "Indirect27.png",
-    "url": "assets/status/Indirect27.webp",
-    "jp": "雷火弾"
-  },
-  "scorpion venom": {
-    "file": "Indirect28.png",
-    "url": "assets/status/Indirect28.webp",
-    "jp": "蠍毒"
-  },
-  "obligated duty": {
-    "file": "Buff69.png",
-    "url": "assets/status/Buff69.webp",
-    "jp": "義の心"
-  },
-  "mountain's barrier": {
-    "file": "Buff53.png",
-    "url": "assets/status/Buff53.webp",
-    "jp": "麓障"
-  },
-  "decayed blood": {
-    "file": "Buff94.png",
-    "url": "assets/status/Buff94.webp",
-    "jp": "腐血"
-  },
-  "possess": {
-    "file": "Buff93.png",
-    "url": "assets/status/Buff93.webp",
-    "jp": "附身/憑依"
-  },
-  "full stomach": {
-    "file": "Buff102.png",
-    "url": "assets/status/Buff102.webp",
-    "jp": "飽食"
-  },
-  "shadowprey": {
-    "file": "Debuff75.png",
-    "url": "assets/status/Debuff75.webp",
-    "jp": "影食"
   },
   "valuable feather": {
     "file": "Debuff72.png",
@@ -1133,6 +1053,11 @@
     "file": "Buff115.png",
     "url": "assets/status/Buff115.webp",
     "jp": "海霊"
+  },
+  "makeup": {
+    "file": "Indirect31.png",
+    "url": "assets/status/Indirect31.webp",
+    "jp": "粉妆/粉粧"
   },
   "eyes of enma": {
     "file": "Debuff77.png",
@@ -1179,6 +1104,16 @@
     "url": "assets/status/Buff119.webp",
     "jp": "叶之护/葉の守護"
   },
+  "thunder aegis": {
+    "file": "Buff123.png",
+    "url": "assets/status/Buff123.webp",
+    "jp": "雷盾"
+  },
+  "thunder tomb": {
+    "file": "Debuff80.png",
+    "url": "assets/status/Debuff80.webp",
+    "jp": "雷塚"
+  },
   "power of the stars": {
     "file": "Buff125.png",
     "url": "assets/status/Buff125.webp",
@@ -1193,6 +1128,21 @@
     "file": "Debuff83.png",
     "url": "assets/status/Debuff83.webp",
     "jp": "失神"
+  },
+  "seasonal change": {
+    "file": "Buff127.png",
+    "url": "assets/status/Buff127.webp",
+    "jp": "四季流转/四季の流れ"
+  },
+  "season of rejuvenation": {
+    "file": "Buff128.png",
+    "url": "assets/status/Buff128.webp",
+    "jp": "岁时生息/季節の休息"
+  },
+  "seasonling": {
+    "file": "Unique35.png",
+    "url": "assets/status/Unique35.webp",
+    "jp": "季灵/季霊"
   },
   "mirror's ward": {
     "file": "Buff143.png",
@@ -1234,10 +1184,40 @@
     "url": "assets/status/Debuff98.webp",
     "jp": "失魂"
   },
-  "disarm": {
-    "file": "Debuff107.png",
-    "url": "assets/status/Debuff107.webp",
-    "jp": "缴械"
+  "sugar": {
+    "file": "Buff151.png",
+    "url": "assets/status/Buff151.webp",
+    "jp": "糖分"
+  },
+  "inkling": {
+    "file": "Buff148.png",
+    "url": "assets/status/Buff148.webp",
+    "jp": "墨灵/墨霊"
+  },
+  "faux orb": {
+    "file": "Unique45.png",
+    "url": "assets/status/Unique45.webp",
+    "jp": "义火/義火"
+  },
+  "drumbeat": {
+    "file": "Buff54.png",
+    "url": "assets/status/Buff54.webp",
+    "jp": ""
+  },
+  "straight man": {
+    "file": "Debuff102.png",
+    "url": "assets/status/Debuff102.webp",
+    "jp": "ツッコミ"
+  },
+  "sadaharu's heavy attack": {
+    "file": "Debuff101.png",
+    "url": "assets/status/Debuff101.webp",
+    "jp": "定春重撃"
+  },
+  "umbrella shield": {
+    "file": "Buff152.png",
+    "url": "assets/status/Buff152.webp",
+    "jp": "傘の盾"
   },
   "peacock plume": {
     "file": "Buff155.png",
@@ -1259,6 +1239,11 @@
     "url": "assets/status/Debuff110.webp",
     "jp": "纒繞/絡みつく"
   },
+  "karmic hindrance": {
+    "file": "Debuff111.png",
+    "url": "assets/status/Debuff111.webp",
+    "jp": "業障"
+  },
   "burning heat": {
     "file": "Debuff112.png",
     "url": "assets/status/Debuff112.webp",
@@ -1268,6 +1253,21 @@
     "file": "Buff161.png",
     "url": "assets/status/Buff161.webp",
     "jp": "火浣"
+  },
+  "divine power": {
+    "file": "Buff157.png",
+    "url": "assets/status/Buff157.webp",
+    "jp": "神力"
+  },
+  "red earthly bond": {
+    "file": "Buff159.png",
+    "url": "assets/status/Buff159.webp",
+    "jp": "俗縁・赤"
+  },
+  "blue earthly bond": {
+    "file": "Buff158.png",
+    "url": "assets/status/Buff158.webp",
+    "jp": "俗縁・青"
   },
   "seed": {
     "file": "Buff163.png",
@@ -1299,25 +1299,20 @@
     "url": "assets/status/Buff165.webp",
     "jp": "盗取"
   },
-  "secret treasure": {
-    "file": "Buff168.png",
-    "url": "assets/status/Buff168.webp",
-    "jp": "秘宝"
+  "vulpine protection": {
+    "file": "Buff167.png",
+    "url": "assets/status/Buff167.webp",
+    "jp": "霊狐守護"
   },
-  "golden showdown": {
-    "file": "Debuff119.png",
-    "url": "assets/status/Debuff119.webp",
-    "jp": "黄金対決"
+  "heart's flame": {
+    "file": "Buff166.png",
+    "url": "assets/status/Buff166.webp",
+    "jp": "心焔"
   },
-  "duel": {
-    "file": "Debuff43.png",
-    "url": "assets/status/Debuff43.webp",
-    "jp": "決闘"
-  },
-  "sharkperson's jewel": {
-    "file": "Buff169.png",
-    "url": "assets/status/Buff169.webp",
-    "jp": "鮫人玉"
+  "fox mark": {
+    "file": "Debuff118.png",
+    "url": "assets/status/Debuff118.webp",
+    "jp": "狐印/狐の印"
   },
   "taki's pact": {
     "file": "Unique55.png",
@@ -1328,6 +1323,26 @@
     "file": "Buff171.png",
     "url": "assets/status/Buff171.webp",
     "jp": "护航/航行護衛"
+  },
+  "tempo": {
+    "file": "Unique57.png",
+    "url": "assets/status/Unique57.webp",
+    "jp": "リズム"
+  },
+  "true rhythm": {
+    "file": "Buff176.png",
+    "url": "assets/status/Buff176.webp",
+    "jp": "心の弦"
+  },
+  "parade lover": {
+    "file": "Buff173.png",
+    "url": "assets/status/Buff173.webp",
+    "jp": "福运/福運"
+  },
+  "fortune shelter": {
+    "file": "Buff173.png",
+    "url": "assets/status/Buff173.webp",
+    "jp": "福運・守"
   },
   "veil of curse": {
     "file": "Unique59.png",
@@ -1349,10 +1364,30 @@
     "url": "assets/status/Debuff16.webp",
     "jp": "烟之鬼"
   },
-  "?": {
-    "file": "Buff186.png",
-    "url": "assets/status/Buff186.webp",
-    "jp": "宿影阵"
+  "sparrow's mark": {
+    "file": "Debuff124.png",
+    "url": "assets/status/Debuff124.webp",
+    "jp": "雀の印"
+  },
+  "critical defense": {
+    "file": "Unique62.png",
+    "url": "assets/status/Unique62.webp",
+    "jp": "会心守勢"
+  },
+  "wanted criminal": {
+    "file": "Debuff125.png",
+    "url": "assets/status/Debuff125.webp",
+    "jp": "通缉"
+  },
+  "cold snow": {
+    "file": "Unique63.png",
+    "url": "assets/status/Unique63.webp",
+    "jp": "寒雪"
+  },
+  "clear sky": {
+    "file": "Unique64.png",
+    "url": "assets/status/Unique64.webp",
+    "jp": "晴空"
   },
   "constellation puzzle": {
     "file": "Debuff126.png",
@@ -1378,6 +1413,16 @@
     "file": "Buff197.png",
     "url": "assets/status/Buff197.webp",
     "jp": "晴空娃娃"
+  },
+  "flower memory": {
+    "file": "Debuff128.png",
+    "url": "assets/status/Debuff128.webp",
+    "jp": "花忆"
+  },
+  "boar, deer, butterflies": {
+    "file": "Unique68.png",
+    "url": "assets/status/Unique68.webp",
+    "jp": "猪鹿蝶"
   },
   "chord": {
     "file": "Unique70.png",
@@ -1414,6 +1459,16 @@
     "url": "assets/status/Unique74.webp",
     "jp": "血色之花"
   },
+  "scorching fire": {
+    "file": "Indirect38.png",
+    "url": "assets/status/Indirect38.webp",
+    "jp": "炙烤"
+  },
+  "burning wick": {
+    "file": "Unique76.png",
+    "url": "assets/status/Unique76.webp",
+    "jp": "熔芯"
+  },
   "lurking shark": {
     "file": "Unique77.png",
     "url": "assets/status/Unique77.webp",
@@ -1439,64 +1494,9 @@
     "url": "assets/status/Buff200.webp",
     "jp": "巫灵雪刃"
   },
-  "amulet·break": {
-    "file": "Indirect39.png",
-    "url": "assets/status/Indirect39.webp",
-    "jp": "符咒•破"
-  },
   "full bloom": {
     "file": "Unique87.png",
     "url": "assets/status/Unique87.webp",
     "jp": "盛放"
-  },
-  "straight man": {
-    "file": "Debuff102.png",
-    "url": "assets/status/Debuff102.webp",
-    "jp": "ツッコミ"
-  },
-  "sadaharu's heavy attack": {
-    "file": "Debuff101.png",
-    "url": "assets/status/Debuff101.webp",
-    "jp": "定春重撃"
-  },
-  "umbrella shield": {
-    "file": "Buff152.png",
-    "url": "assets/status/Buff152.webp",
-    "jp": "傘の盾"
-  },
-  "isolation": {
-    "file": "Debuff18.png",
-    "jp": "ISOLATION",
-    "url": "assets/status/Debuff18.webp"
-  },
-  "silence": {
-    "file": "Debuff29.png",
-    "jp": "SILENCE",
-    "url": "assets/status/Debuff29.webp"
-  },
-  "ghost rider": {
-    "file": "Buff53.png",
-    "jp": "GHOST RIDER",
-    "url": "assets/status/Buff53.webp"
-  },
-  "draining": {
-    "file": "Debuff35.png",
-    "jp": "DRAINING",
-    "url": "assets/status/Debuff35.webp"
-  },
-  "buff114": {
-    "file": "Buff114.png",
-    "jp": "妖華 (2段)",
-    "url": "assets/status/Buff114.webp"
-  },
-  "buff113": {
-    "file": "Buff113.png",
-    "jp": "妖華",
-    "url": "assets/status/Buff113.webp"
-  },
-  "dragon jewel": {
-    "file": "Buff50.png",
-    "url": "assets/status/Buff50.webp",
-    "jp": "龙首之玉"
   }
 }

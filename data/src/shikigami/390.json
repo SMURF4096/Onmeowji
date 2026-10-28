@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/390skin1.webp"
+  "art": "assets/art/390skin1.webp",
+  "statusIcons": {
+    "power of the stars": {
+      "file": "Buff125.png",
+      "url": "assets/status/Buff125.webp",
+      "jp": "星辰の力"
+    }
+  }
 }

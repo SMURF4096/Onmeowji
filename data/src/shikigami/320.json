@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "entangling obstruction": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "纏わり阻害"
+    },
+    "wrap": {
+      "file": "Debuff36.png",
+      "url": "assets/status/Debuff36.webp",
+      "jp": "巻き込み"
+    },
+    "bind": {
+      "file": "Debuff38.png",
+      "url": "assets/status/Debuff38.webp",
+      "jp": "束縛"
+    }
   }
 }

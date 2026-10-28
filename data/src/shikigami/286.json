@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "golden feather": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "黄金の羽"
+    }
   }
 }

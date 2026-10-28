@@ -191,5 +191,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "feathery tutelage": {
+      "file": "Buff76.png",
+      "url": "assets/status/Buff76.webp",
+      "jp": "羽授"
+    },
+    "feathery caring": {
+      "file": "Buff77.png",
+      "url": "assets/status/Buff77.webp",
+      "jp": "羽念"
+    }
   }
 }

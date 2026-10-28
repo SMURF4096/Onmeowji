@@ -230,5 +230,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/575skin1.webp"
+  "art": "assets/art/575skin1.webp",
+  "statusIcons": {
+    "wanted criminal": {
+      "file": "Debuff125.png",
+      "url": "assets/status/Debuff125.webp",
+      "jp": "通缉"
+    },
+    "cold snow": {
+      "file": "Unique63.png",
+      "url": "assets/status/Unique63.webp",
+      "jp": "寒雪"
+    },
+    "clear sky": {
+      "file": "Unique64.png",
+      "url": "assets/status/Unique64.webp",
+      "jp": "晴空"
+    }
+  }
 }

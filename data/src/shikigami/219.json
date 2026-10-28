@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "demoniac": {
+      "file": "Buff25.png",
+      "url": "assets/status/Buff25.webp",
+      "jp": "鬼王降临/鬼王降臨"
+    }
   }
 }

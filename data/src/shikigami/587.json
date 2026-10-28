@@ -269,5 +269,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/587skin1.webp"
+  "art": "assets/art/587skin1.webp",
+  "statusIcons": {
+    "magical power": {
+      "file": "Buff198.png",
+      "url": "assets/status/Buff198.webp",
+      "jp": "魔力"
+    },
+    "mirage": {
+      "file": "Debuff132.png",
+      "url": "assets/status/Debuff132.webp",
+      "jp": "幻影"
+    }
+  }
 }

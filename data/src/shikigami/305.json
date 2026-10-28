@@ -191,5 +191,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "scale": {
+      "file": "Debuff14.png",
+      "url": "assets/status/Debuff14.webp",
+      "jp": "天秤"
+    },
+    "revealed": {
+      "file": "Unique03.png",
+      "url": "assets/status/Unique03.webp",
+      "jp": "見破る"
+    }
   }
 }

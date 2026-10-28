@@ -211,5 +211,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/602skin1.webp"
+  "art": "assets/art/602skin1.webp",
+  "statusIcons": {
+    "shelter": {
+      "file": "Buff56.png",
+      "url": "assets/status/Buff56.webp",
+      "jp": ""
+    }
+  }
 }

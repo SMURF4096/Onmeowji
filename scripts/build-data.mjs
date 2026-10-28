@@ -12,6 +12,7 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import { localize } from "./localize-status-icons.mjs";
 
 const checkOnly = process.argv.includes("--check");
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
@@ -43,6 +44,9 @@ const cmpNum = (a, b) => {
   return a.localeCompare(b, undefined, { numeric: true });
 };
 const write = (name, obj) => fs.writeFileSync(path.join(TMP, name), JSON.stringify(obj, null, 2) + "\n");
+
+/* keep per-shikigami status maps in sync before bundling (no-op when up to date) */
+localize();
 
 /* shikigami + stats.json */
 const shik = read("shikigami");
@@ -87,7 +91,7 @@ write("onmyoji.json", charsB);
 write("bondlings.json", bondsB);
 
 write("status-icons.json", iconBase);
-if (overrideLog.length) console.log(`status-icon overrides folded: ${overrideLog.length}\n  ${overrideLog.join("\n  ")}`);
+if (overrideLog.length) console.log(`status-icon overrides folded: ${overrideLog.length} (per-entry statusIcons + shared glossary)`);
 if (missingFiles.length) console.log(`WARNING — overridden icons missing on disk:\n  ${missingFiles.join("\n  ")}`);
 
 /* deploy or verify */

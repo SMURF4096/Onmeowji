@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/394skin1.webp"
+  "art": "assets/art/394skin1.webp",
+  "statusIcons": {
+    "lost star": {
+      "file": "Debuff97.png",
+      "url": "assets/status/Debuff97.webp",
+      "jp": "惑星"
+    }
+  }
 }

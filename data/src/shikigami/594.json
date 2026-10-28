@@ -81,5 +81,12 @@
       ],
       "group": "Special"
     }
-  ]
+  ],
+  "statusIcons": {
+    "shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": ""
+    }
+  }
 }

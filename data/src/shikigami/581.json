@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/581skin1.webp"
+  "art": "assets/art/581skin1.webp",
+  "statusIcons": {
+    "flower memory": {
+      "file": "Debuff128.png",
+      "url": "assets/status/Debuff128.webp",
+      "jp": "花忆"
+    },
+    "boar, deer, butterflies": {
+      "file": "Unique68.png",
+      "url": "assets/status/Unique68.webp",
+      "jp": "猪鹿蝶"
+    }
+  }
 }

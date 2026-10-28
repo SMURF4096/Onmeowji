@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/378skin1.webp"
+  "art": "assets/art/378skin1.webp",
+  "statusIcons": {
+    "valuable feather": {
+      "file": "Debuff72.png",
+      "url": "assets/status/Debuff72.webp",
+      "jp": "惜羽"
+    }
+  }
 }

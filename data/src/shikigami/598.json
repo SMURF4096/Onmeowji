@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/598skin1.webp"
+  "art": "assets/art/598skin1.webp",
+  "statusIcons": {
+    "full bloom": {
+      "file": "Unique87.png",
+      "url": "assets/status/Unique87.webp",
+      "jp": "盛放"
+    }
+  }
 }

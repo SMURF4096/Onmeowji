@@ -190,5 +190,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "snake shadow": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "蛇の影"
+    }
   }
 }

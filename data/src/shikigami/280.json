@@ -200,5 +200,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "dragon jewel": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "龙首之玉"
+    }
   }
 }

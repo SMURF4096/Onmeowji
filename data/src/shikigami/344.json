@@ -261,5 +261,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "mirror's wrath": {
+      "file": "Debuff46.png",
+      "url": "assets/status/Debuff46.webp",
+      "jp": "鏡怒"
+    },
+    "mirror's protection": {
+      "file": "Buff61.png",
+      "url": "assets/status/Buff61.webp",
+      "jp": "鏡護"
+    },
+    "mirror shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "鏡盾"
+    }
   }
 }

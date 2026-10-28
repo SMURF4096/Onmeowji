@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "grudged": {
+      "file": "Debuff49.png",
+      "url": "assets/status/Debuff49.webp",
+      "jp": "因縁"
+    }
   }
 }

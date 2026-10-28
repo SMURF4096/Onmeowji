@@ -232,5 +232,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "nether seeds": {
+      "file": "Debuff58.png",
+      "url": "assets/status/Debuff58.webp",
+      "jp": "溟種"
+    },
+    "nether flower": {
+      "file": "Buff85.png",
+      "url": "assets/status/Buff85.webp",
+      "jp": "溟花"
+    }
   }
 }

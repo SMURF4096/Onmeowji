@@ -223,5 +223,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/574skin1.webp"
+  "art": "assets/art/574skin1.webp",
+  "statusIcons": {
+    "sparrow's mark": {
+      "file": "Debuff124.png",
+      "url": "assets/status/Debuff124.webp",
+      "jp": "雀の印"
+    },
+    "critical defense": {
+      "file": "Unique62.png",
+      "url": "assets/status/Unique62.webp",
+      "jp": "会心守勢"
+    }
+  }
 }

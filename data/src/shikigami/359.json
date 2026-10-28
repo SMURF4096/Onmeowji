@@ -304,5 +304,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "total concentration": {
+      "file": "Unique19.png",
+      "url": "assets/status/Unique19.webp",
+      "jp": ""
+    }
   }
 }

@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/582skin1.webp"
+  "art": "assets/art/582skin1.webp",
+  "statusIcons": {
+    "chord": {
+      "file": "Unique70.png",
+      "url": "assets/status/Unique70.webp",
+      "jp": "和音"
+    },
+    "resonance wall": {
+      "file": "Unique15.png",
+      "url": "assets/status/Unique15.webp",
+      "jp": "共鸣之墙"
+    }
+  }
 }

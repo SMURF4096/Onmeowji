@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 40
     }
+  },
+  "statusIcons": {
+    "demon's bane": {
+      "file": "Debuff24.png",
+      "url": "assets/status/Debuff24.webp",
+      "jp": "降魔"
+    }
   }
 }

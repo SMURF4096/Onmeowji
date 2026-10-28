@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "falling papers": {
+      "file": "Buff04.png",
+      "url": "assets/status/Buff04.webp",
+      "jp": "落紙"
+    },
+    "paper blade": {
+      "file": "Indirect00.png",
+      "url": "assets/status/Indirect00.webp",
+      "jp": "紙刃"
+    }
   }
 }

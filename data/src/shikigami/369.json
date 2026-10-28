@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/369skin1.webp"
+  "art": "assets/art/369skin1.webp",
+  "statusIcons": {
+    "full stomach": {
+      "file": "Buff102.png",
+      "url": "assets/status/Buff102.webp",
+      "jp": "飽食"
+    }
+  }
 }

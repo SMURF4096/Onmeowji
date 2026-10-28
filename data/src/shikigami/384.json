@@ -165,5 +165,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/384skin1.webp"
+  "art": "assets/art/384skin1.webp",
+  "statusIcons": {
+    "makeup": {
+      "file": "Indirect31.png",
+      "url": "assets/status/Indirect31.webp",
+      "jp": "粉妆/粉粧"
+    }
+  }
 }

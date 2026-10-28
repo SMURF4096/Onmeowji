@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "poisonous feathers": {
+      "file": "Indirect16.png",
+      "url": "assets/status/Indirect16.webp",
+      "jp": "毒の羽"
+    },
+    "bugs grudge": {
+      "file": "Indirect02.png",
+      "url": "assets/status/Indirect02.webp",
+      "jp": "虫怨"
+    }
   }
 }

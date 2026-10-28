@@ -194,5 +194,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/599skin1.webp"
+  "art": "assets/art/599skin1.webp",
+  "statusIcons": {
+    "bathed in fire": {
+      "file": "Buff161.png",
+      "url": "assets/status/Buff161.webp",
+      "jp": "火浣"
+    }
+  }
 }

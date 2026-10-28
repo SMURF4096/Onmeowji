@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/557skin1.webp"
+  "art": "assets/art/557skin1.webp",
+  "statusIcons": {
+    "wither": {
+      "file": "Indirect33.png",
+      "url": "assets/status/Indirect33.webp",
+      "jp": "凋零"
+    },
+    "destroyed": {
+      "file": "Unique54.png",
+      "url": "assets/status/Unique54.webp",
+      "jp": "毁灭/毁滅"
+    }
+  }
 }

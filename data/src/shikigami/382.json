@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/382skin1.webp"
+  "art": "assets/art/382skin1.webp",
+  "statusIcons": {
+    "sea genie": {
+      "file": "Buff115.png",
+      "url": "assets/status/Buff115.webp",
+      "jp": "海霊"
+    }
+  }
 }

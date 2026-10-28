@@ -216,5 +216,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "cunning mark": {
+      "file": "Indirect11.png",
+      "url": "assets/status/Indirect11.webp",
+      "jp": "狐の印"
+    }
   }
 }

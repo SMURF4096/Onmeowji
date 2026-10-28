@@ -152,5 +152,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/427skin1.webp"
+  "art": "assets/art/427skin1.webp",
+  "statusIcons": {
+    "shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": ""
+    }
+  }
 }

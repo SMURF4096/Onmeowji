@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/386skin1.webp"
+  "art": "assets/art/386skin1.webp",
+  "statusIcons": {
+    "thunder breathing": {
+      "file": "Buff120.png",
+      "url": "assets/status/Buff120.webp",
+      "jp": "雷の呼吸"
+    },
+    "thunderclap": {
+      "file": "Buff121.png",
+      "url": "assets/status/Buff121.webp",
+      "jp": "霹靂"
+    }
+  }
 }

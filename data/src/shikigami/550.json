@@ -240,5 +240,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/550skin1.webp"
+  "art": "assets/art/550skin1.webp",
+  "statusIcons": {
+    "disarm": {
+      "file": "Debuff107.png",
+      "url": "assets/status/Debuff107.webp",
+      "jp": "缴械"
+    },
+    "peacock plume": {
+      "file": "Buff155.png",
+      "url": "assets/status/Buff155.webp",
+      "jp": "孔雀翎"
+    }
+  }
 }

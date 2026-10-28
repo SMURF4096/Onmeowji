@@ -177,5 +177,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/398skin1.webp"
+  "art": "assets/art/398skin1.webp",
+  "statusIcons": {
+    "silence": {
+      "file": "Debuff29.png",
+      "jp": "SILENCE",
+      "url": "assets/status/Debuff29.webp"
+    },
+    "fear": {
+      "file": "Buff26.png",
+      "url": "assets/status/Buff26.webp",
+      "jp": "畏"
+    }
+  }
 }

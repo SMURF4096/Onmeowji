@@ -203,5 +203,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "silence": {
+      "file": "Debuff29.png",
+      "jp": "SILENCE",
+      "url": "assets/status/Debuff29.webp"
+    },
+    "fan dance": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "扇の舞"
+    }
   }
 }

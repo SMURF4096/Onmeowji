@@ -182,5 +182,27 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/379skin1.webp"
+  "art": "assets/art/379skin1.webp",
+  "statusIcons": {
+    "rock pattern：cloud's color": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "峦纹·云衣/巒紋・雲衣"
+    },
+    "rock pattern：cloud": {
+      "file": "Unique30.png",
+      "url": "assets/status/Unique30.webp",
+      "jp": "峦纹·云/巒紋・雲"
+    },
+    "rock pattern：mountain views": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "峦纹·山色/巒紋・山色"
+    },
+    "rock pattern：mountain": {
+      "file": "Unique31.png",
+      "url": "assets/status/Unique31.webp",
+      "jp": "峦纹·山/巒紋・山"
+    }
+  }
 }

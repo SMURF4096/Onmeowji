@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "cat vengeance": {
+      "file": "Debuff56.png",
+      "url": "assets/status/Debuff56.webp",
+      "jp": "九命猫・復習"
+    }
   }
 }

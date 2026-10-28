@@ -237,5 +237,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "high spirit's force": {
+      "file": "Buff08.png",
+      "url": "assets/status/Buff08.webp",
+      "jp": "大妖の力"
+    },
+    "demoniac state": {
+      "file": "Buff02.png",
+      "url": "assets/status/Buff02.webp",
+      "jp": "鬼王の姿"
+    }
   }
 }

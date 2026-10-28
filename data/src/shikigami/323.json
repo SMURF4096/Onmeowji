@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "revel mark": {
+      "file": "Buff38.png",
+      "url": "assets/status/Buff38.webp",
+      "jp": "喜びの印"
+    }
   }
 }

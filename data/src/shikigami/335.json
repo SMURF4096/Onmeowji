@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "carapace": {
+      "file": "Buff16.png",
+      "url": "assets/status/Buff16.webp",
+      "jp": "蟹殻"
+    },
+    "jump-start": {
+      "file": "Buff57.png",
+      "url": "assets/status/Buff57.webp",
+      "jp": "力が湧いてきた"
+    }
   }
 }

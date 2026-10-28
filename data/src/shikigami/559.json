@@ -194,5 +194,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/559skin1.webp"
+  "art": "assets/art/559skin1.webp",
+  "statusIcons": {
+    "vulpine protection": {
+      "file": "Buff167.png",
+      "url": "assets/status/Buff167.webp",
+      "jp": "霊狐守護"
+    },
+    "heart's flame": {
+      "file": "Buff166.png",
+      "url": "assets/status/Buff166.webp",
+      "jp": "心焔"
+    },
+    "fox mark": {
+      "file": "Debuff118.png",
+      "url": "assets/status/Debuff118.webp",
+      "jp": "狐印/狐の印"
+    }
+  }
 }

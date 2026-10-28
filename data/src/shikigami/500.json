@@ -165,5 +165,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/500skin1.webp"
+  "art": "assets/art/500skin1.webp",
+  "statusIcons": {
+    "straight man": {
+      "file": "Debuff102.png",
+      "url": "assets/status/Debuff102.webp",
+      "jp": "ツッコミ"
+    },
+    "sadaharu's heavy attack": {
+      "file": "Debuff101.png",
+      "url": "assets/status/Debuff101.webp",
+      "jp": "定春重撃"
+    },
+    "umbrella shield": {
+      "file": "Buff152.png",
+      "url": "assets/status/Buff152.webp",
+      "jp": "傘の盾"
+    }
+  }
 }

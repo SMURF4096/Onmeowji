@@ -237,5 +237,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "glorious blade": {
+      "file": "Buff113.png",
+      "url": "assets/status/Buff113.webp",
+      "jp": "妖華"
+    }
   }
 }

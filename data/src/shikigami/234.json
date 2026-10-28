@@ -196,5 +196,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "nourishment": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "光合成"
+    },
+    "aquatic impairment": {
+      "file": "Debuff36.png",
+      "url": "assets/status/Debuff36.webp",
+      "jp": "水流の泡"
+    },
+    "drizzle": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "細雨"
+    }
   }
 }

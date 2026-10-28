@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "shelter": {
+      "file": "Buff56.png",
+      "url": "assets/status/Buff56.webp",
+      "jp": ""
+    },
+    "moon's blessing": {
+      "file": "Buff29.png",
+      "url": "assets/status/Buff29.webp",
+      "jp": "月の祝福"
+    }
   }
 }

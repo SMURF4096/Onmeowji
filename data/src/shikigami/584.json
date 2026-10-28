@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/584skin1.webp"
+  "art": "assets/art/584skin1.webp",
+  "statusIcons": {
+    "recall": {
+      "file": "Unique73.png",
+      "url": "assets/status/Unique73.webp",
+      "jp": "回溯"
+    },
+    "moment of silence": {
+      "file": "Debuff131.png",
+      "url": "assets/status/Debuff131.webp",
+      "jp": "时寂之刻"
+    }
+  }
 }

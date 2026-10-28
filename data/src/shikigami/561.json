@@ -182,5 +182,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/561skin1.webp"
+  "art": "assets/art/561skin1.webp",
+  "statusIcons": {
+    "alert": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "警戒"
+    },
+    "taki's pact": {
+      "file": "Unique55.png",
+      "url": "assets/status/Unique55.webp",
+      "jp": "泷之契/瀧の契"
+    },
+    "convoy": {
+      "file": "Buff171.png",
+      "url": "assets/status/Buff171.webp",
+      "jp": "护航/航行護衛"
+    }
+  }
 }

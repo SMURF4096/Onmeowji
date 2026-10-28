@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "accused": {
+      "file": "Debuff03.png",
+      "url": "assets/status/Debuff03.webp",
+      "jp": "攻撃の的"
+    }
   }
 }

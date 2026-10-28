@@ -182,5 +182,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/551skin1.webp"
+  "art": "assets/art/551skin1.webp",
+  "statusIcons": {
+    "sylvan soul": {
+      "file": "Debuff109.png",
+      "url": "assets/status/Debuff109.webp",
+      "jp": "森の霊"
+    },
+    "sylvan heart": {
+      "file": "Unique50.png",
+      "url": "assets/status/Unique50.webp",
+      "jp": "森の心"
+    },
+    "vinebound": {
+      "file": "Debuff110.png",
+      "url": "assets/status/Debuff110.webp",
+      "jp": "纒繞/絡みつく"
+    }
+  }
 }

@@ -249,5 +249,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/373skin1.webp"
+  "art": "assets/art/373skin1.webp",
+  "statusIcons": {
+    "waltz": {
+      "file": "Unique27.png",
+      "url": "assets/status/Unique27.webp",
+      "jp": "共舞"
+    },
+    "sigil of the night": {
+      "file": "Debuff68.png",
+      "url": "assets/status/Debuff68.webp",
+      "jp": "夜の禊"
+    }
+  }
 }

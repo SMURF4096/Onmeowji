@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "draining": {
+      "file": "Debuff35.png",
+      "jp": "DRAINING",
+      "url": "assets/status/Debuff35.webp"
+    },
+    "wind's protection": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "風護"
+    },
+    "wind aegis": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "風佑"
+    }
   }
 }

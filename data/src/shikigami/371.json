@@ -218,5 +218,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/371skin1.webp"
+  "art": "assets/art/371skin1.webp",
+  "statusIcons": {
+    "shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": ""
+    },
+    "kaleidoscope paper": {
+      "file": "Indirect30.png",
+      "url": "assets/status/Indirect30.webp",
+      "jp": "百花紙"
+    },
+    "paper shield": {
+      "file": "Buff112.png",
+      "url": "assets/status/Buff112.webp",
+      "jp": "花紙盾"
+    }
+  }
 }

@@ -237,5 +237,32 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "bone lock": {
+      "file": "Debuff50.png",
+      "url": "assets/status/Debuff50.webp",
+      "jp": "骸の鎖"
+    },
+    "demon madness": {
+      "file": "Buff63.png",
+      "url": "assets/status/Buff63.webp",
+      "jp": "狂"
+    },
+    "asura": {
+      "file": "Buff64.png",
+      "url": "assets/status/Buff64.webp",
+      "jp": "修羅"
+    },
+    "bone chains": {
+      "file": "Debuff50.png",
+      "url": "assets/status/Debuff50.webp",
+      "jp": "骸の鎖"
+    },
+    "hidden secret": {
+      "file": "Buff53.png",
+      "url": "assets/status/Buff53.webp",
+      "jp": "ステルス"
+    }
   }
 }

@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "amulet": {
+      "file": "Buff74.png",
+      "url": "assets/status/Buff74.webp",
+      "jp": "呪符"
+    }
   }
 }

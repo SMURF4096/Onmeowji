@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "butterfly's dance": {
+      "file": "Buff48.png",
+      "url": "assets/status/Buff48.webp",
+      "jp": "蝶の舞"
+    }
   }
 }

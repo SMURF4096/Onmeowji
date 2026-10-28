@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/391skin1.webp"
+  "art": "assets/art/391skin1.webp",
+  "statusIcons": {
+    "soul binder": {
+      "file": "Debuff81.png",
+      "url": "assets/status/Debuff81.webp",
+      "jp": "縛魂香"
+    },
+    "distracted": {
+      "file": "Debuff83.png",
+      "url": "assets/status/Debuff83.webp",
+      "jp": "失神"
+    }
+  }
 }

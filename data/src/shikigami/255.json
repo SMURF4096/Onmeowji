@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "silence": {
+      "file": "Debuff29.png",
+      "jp": "SILENCE",
+      "url": "assets/status/Debuff29.webp"
+    },
+    "ghost rider": {
+      "file": "Buff53.png",
+      "jp": "GHOST RIDER",
+      "url": "assets/status/Buff53.webp"
+    }
   }
 }

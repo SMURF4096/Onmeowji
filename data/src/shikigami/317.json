@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "baneful flower": {
+      "file": "Indirect03.png",
+      "url": "assets/status/Indirect03.webp",
+      "jp": "災厄の花"
+    },
+    "protection of root": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "禍根の守り"
+    }
   }
 }

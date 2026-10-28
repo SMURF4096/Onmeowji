@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "candlelight": {
+      "file": "Buff62.png",
+      "url": "assets/status/Buff62.webp",
+      "jp": "ろうそくの炎"
+    }
   }
 }

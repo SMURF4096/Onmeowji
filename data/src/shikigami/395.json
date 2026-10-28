@@ -182,5 +182,27 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/395skin1.webp"
+  "art": "assets/art/395skin1.webp",
+  "statusIcons": {
+    "moonshine": {
+      "file": "Buff145.png",
+      "url": "assets/status/Buff145.webp",
+      "jp": "照君"
+    },
+    "glittering light": {
+      "file": "Unique42.png",
+      "url": "assets/status/Unique42.webp",
+      "jp": "流光"
+    },
+    "gathered glimmer": {
+      "file": "Buff146.png",
+      "url": "assets/status/Buff146.webp",
+      "jp": "集落光"
+    },
+    "radiance lost": {
+      "file": "Debuff96.png",
+      "url": "assets/status/Debuff96.webp",
+      "jp": "失彩"
+    }
+  }
 }

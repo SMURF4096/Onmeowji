@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "mark of mushi": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "虫の痕"
+    }
   }
 }

@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "nectar": {
+      "file": "Buff47.png",
+      "url": "assets/status/Buff47.webp",
+      "jp": "かぐわしい花"
+    }
   }
 }

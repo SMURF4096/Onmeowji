@@ -191,5 +191,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "random buff": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "ランダムバフ"
+    },
+    "random debuff": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "ランダムデバフ"
+    }
   }
 }

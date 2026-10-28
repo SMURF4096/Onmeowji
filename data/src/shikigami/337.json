@@ -261,5 +261,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "reiatsu": {
+      "file": "Buff14.png",
+      "url": "assets/status/Buff14.webp",
+      "jp": "霊圧"
+    },
+    "hollowed": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "虚化"
+    }
   }
 }

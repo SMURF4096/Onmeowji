@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "fear": {
+      "file": "Buff26.png",
+      "url": "assets/status/Buff26.webp",
+      "jp": "畏"
+    }
   }
 }

@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "shield": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": ""
+    }
   }
 }

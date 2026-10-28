@@ -211,5 +211,27 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/388skin1.webp"
+  "art": "assets/art/388skin1.webp",
+  "statusIcons": {
+    "into the woods": {
+      "file": "Buff118.png",
+      "url": "assets/status/Buff118.webp",
+      "jp": "林隐状态/林隠状態"
+    },
+    "burnt leaf": {
+      "file": "Indirect32.png",
+      "url": "assets/status/Indirect32.webp",
+      "jp": "叶烬/葉の灰"
+    },
+    "red erosion": {
+      "file": "Debuff79.png",
+      "url": "assets/status/Debuff79.webp",
+      "jp": "红蚀/紅蝕"
+    },
+    "leaf buffer": {
+      "file": "Buff119.png",
+      "url": "assets/status/Buff119.webp",
+      "jp": "叶之护/葉の守護"
+    }
+  }
 }

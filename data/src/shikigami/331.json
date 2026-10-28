@@ -220,5 +220,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "hatred mark": {
+      "file": "Buff35.png",
+      "url": "assets/status/Buff35.webp",
+      "jp": "怨根の印"
+    },
+    "spreading hatred": {
+      "file": "Debuff37.png",
+      "url": "assets/status/Debuff37.webp",
+      "jp": "御怨蔓延"
+    },
+    "sealing field": {
+      "file": "Unique12.png",
+      "url": "assets/status/Unique12.webp",
+      "jp": "封印結界"
+    }
   }
 }

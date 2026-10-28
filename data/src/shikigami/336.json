@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "san no mai： shirofune": {
+      "file": "Buff05.png",
+      "url": "assets/status/Buff05.webp",
+      "jp": "参の舞・白刀"
+    },
+    "ice wound": {
+      "file": "Indirect01.png",
+      "url": "assets/status/Indirect01.webp",
+      "jp": "凍傷"
+    },
+    "ice quake": {
+      "file": "Debuff36.png",
+      "url": "assets/status/Debuff36.webp",
+      "jp": "氷震"
+    }
   }
 }

@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "blessed seed": {
+      "file": "Buff22.png",
+      "url": "assets/status/Buff22.webp",
+      "jp": "祝福の種"
+    },
+    "photosynthesis": {
+      "file": "Buff30.png",
+      "url": "assets/status/Buff30.webp",
+      "jp": "光合成"
+    }
   }
 }

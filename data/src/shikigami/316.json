@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "burnt flame": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "残炎"
+    },
+    "fox shadow：shelter": {
+      "file": "Buff59.png",
+      "url": "assets/status/Buff59.webp",
+      "jp": "狐影・守"
+    }
   }
 }

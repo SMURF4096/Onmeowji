@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "heroic posture": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "勇気凛々"
+    },
+    "shelter": {
+      "file": "Buff56.png",
+      "url": "assets/status/Buff56.webp",
+      "jp": ""
+    }
   }
 }

@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/385skin1.webp"
+  "art": "assets/art/385skin1.webp",
+  "statusIcons": {
+    "eyes of enma": {
+      "file": "Debuff77.png",
+      "url": "assets/status/Debuff77.webp",
+      "jp": "阎魔之目/閻魔の目"
+    },
+    "evil's imprisonment": {
+      "file": "Debuff78.png",
+      "url": "assets/status/Debuff78.webp",
+      "jp": "恶灵刑期/悪霊刑期"
+    }
+  }
 }

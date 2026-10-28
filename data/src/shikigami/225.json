@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "kyonshii poison": {
+      "file": "Indirect12.png",
+      "url": "assets/status/Indirect12.webp",
+      "jp": "キョンシー毒"
+    },
+    "corrosion toxin": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "腐食毒素"
+    }
   }
 }

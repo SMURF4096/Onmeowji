@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/372skin1.webp"
+  "art": "assets/art/372skin1.webp",
+  "statusIcons": {
+    "wish power": {
+      "file": "Buff105.png",
+      "url": "assets/status/Buff105.webp",
+      "jp": "願力"
+    },
+    "wish's protection": {
+      "file": "Buff104.png",
+      "url": "assets/status/Buff104.webp",
+      "jp": "願佑"
+    }
+  }
 }

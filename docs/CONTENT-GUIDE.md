@@ -12,16 +12,17 @@ data/
     souls/{no}.json       one file per soul (combo bonuses, art, image)
     characters/{no}.json  one file per onmyoji / champion (stats2 + skills embedded)
     bondlings/{no}.json   one file per bondling
-    status-icons.json     shared status glossary used by many entries
-                          (statuses like "Ghost Rider" appear on dozens of
-                          entries — fix once here, applies everywhere)
+    status-icons.json     SMALL shared fallback: statuses used by onmyoji /
+                          champion characters and bondlings (Amulet, Shield,
+                          Bind, …). New shikigami entries seed their own icons
+                          into their own files on every build.
     _order.json           bundle order per category (only matters for display order)
   shikigami.json          GENERATED — what the site fetches (do not hand-edit)
   souls.json              GENERATED
   onmyoji.json            GENERATED
   bondlings.json          GENERATED
   stats.json              GENERATED (min/max arrays built from each shikigami's stats)
-  status-icons.json       GENERATED (glossary with per-entry overrides folded in)
+  status-icons.json       GENERATED (shared fallback with per-entry statusIcons folded in)
 ```
 
 ## Revising one shikigami = opening exactly one file
@@ -33,12 +34,28 @@ data/
 - `skills[]` — each skill's name, type, onibi, cooldown, description, line, upgrades, icon path
 - `bio[]` — the evolution/level reward entries
 - `stats.min / stats.max` — level-1 and max base stats (the stat page is generated from these)
-- `statusIcons` — *optional* overrides for statuses used by this character's skills
+- `statusIcons` — status/buff icons for the statuses this character's skills
+  use (seeded automatically on every build; you can tweak entries by hand)
 
-### Overriding a status icon for one character
+### Status/buff icons: mostly per-shikigami, small shared fallback
 
-If a skill references a status whose icon is wrong *for this character only*,
-put the override inside the character's own file and build:
+Every status/buff icon a shikigami's skills reference is stored inside that
+shikigami's own file. On every `build-data.mjs` run, the build re-scans skills
+with the same parser the site uses and:
+
+- seeds `statusIcons` into each shikigami's file for statuses it references
+  (new entries added via `add-entry.mjs` are picked up automatically), and
+- keeps only truly shared statuses — the ones onmyoji/champion characters and
+  bondlings use (Amulet, Shield, Bind, …) — in `data/src/status-icons.json`,
+  which acts as the fallback for those few.
+
+So a status like Momo no Sei's `blooming` (Buff51.png) lives in
+`data/src/shikigami/200.json` — revising it means opening that one file.
+Only when a fix should apply to onmyoji/champion characters too (the 16
+shared keys) do you edit `data/src/status-icons.json`.
+
+Manual per-entry overrides are still possible — just edit the `statusIcons`
+values in the character's own file and build:
 
 ```json
 "statusIcons": {
@@ -52,9 +69,6 @@ put the override inside the character's own file and build:
   generated bundle — the field stays in the source file, so your revision
   lives with the character.
 - A warning is printed if the icon file doesn't exist on disk.
-- Use the shared `data/src/status-icons.json` only when the fix should apply
-  to *every* entry that displays that status (they're shared; most statuses
-  appear on dozens of characters).
 
 The site's pages keep fetching `data/*.json` exactly as before, so page code
 doesn't change when you edit sources — you just rebuild.

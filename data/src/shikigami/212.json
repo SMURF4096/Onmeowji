@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "blind": {
+      "file": "Debuff24.png",
+      "url": "assets/status/Debuff24.webp",
+      "jp": "目を覆う"
+    }
   }
 }

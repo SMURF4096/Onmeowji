@@ -239,5 +239,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "force of wind": {
+      "file": "Buff45.png",
+      "url": "assets/status/Buff45.webp",
+      "jp": "風の纏"
+    }
   }
 }

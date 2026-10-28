@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "the white stone": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "白子/白石"
+    }
   }
 }

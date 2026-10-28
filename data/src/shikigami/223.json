@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "fury fire": {
+      "file": "Buff23.png",
+      "url": "assets/status/Buff23.webp",
+      "jp": "怒りの炎"
+    }
   }
 }

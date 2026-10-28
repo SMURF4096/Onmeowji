@@ -195,5 +195,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "burning fire": {
+      "file": "Indirect18.png",
+      "url": "assets/status/Indirect18.webp",
+      "jp": "焚火"
+    },
+    "poisonous feathers": {
+      "file": "Indirect16.png",
+      "url": "assets/status/Indirect16.webp",
+      "jp": "毒の羽"
+    }
   }
 }

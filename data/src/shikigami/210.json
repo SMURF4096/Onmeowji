@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "life steal": {
+      "file": "Indirect17.png",
+      "url": "assets/status/Indirect17.webp",
+      "jp": "命を奪う"
+    }
   }
 }

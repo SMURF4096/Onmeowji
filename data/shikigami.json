@@ -183,7 +183,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/200skin1.webp"
+    "art": "assets/art/200skin1.webp",
+    "statusIcons": {
+      "blooming": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "満開"
+      }
+    }
   },
   {
     "no": 201,
@@ -369,7 +376,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/201skin1.webp"
+    "art": "assets/art/201skin1.webp",
+    "statusIcons": {
+      "ice shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "氷鎧"
+      }
+    }
   },
   {
     "no": 202,
@@ -563,7 +577,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/202skin1.webp"
+    "art": "assets/art/202skin1.webp",
+    "statusIcons": {
+      "cunning mark": {
+        "file": "Indirect11.png",
+        "url": "assets/status/Indirect11.webp",
+        "jp": "狐の印"
+      }
+    }
   },
   {
     "no": 203,
@@ -1093,7 +1114,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/206skin1.webp"
+    "art": "assets/art/206skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 207,
@@ -1262,7 +1290,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/207skin1.webp"
+    "art": "assets/art/207skin1.webp",
+    "statusIcons": {
+      "cat vengeance": {
+        "file": "Debuff56.png",
+        "url": "assets/status/Debuff56.webp",
+        "jp": "九命猫・復習"
+      }
+    }
   },
   {
     "no": 208,
@@ -1448,7 +1483,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/208skin1.webp"
+    "art": "assets/art/208skin1.webp",
+    "statusIcons": {
+      "firewater": {
+        "file": "Indirect09.png",
+        "url": "assets/status/Indirect09.webp",
+        "jp": "酒火"
+      }
+    }
   },
   {
     "no": 209,
@@ -1630,7 +1672,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/209skin1.webp"
+    "art": "assets/art/209skin1.webp",
+    "statusIcons": {
+      "nourishment": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "光合成"
+      }
+    }
   },
   {
     "no": 210,
@@ -1816,7 +1865,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/210skin1.webp"
+    "art": "assets/art/210skin1.webp",
+    "statusIcons": {
+      "life steal": {
+        "file": "Indirect17.png",
+        "url": "assets/status/Indirect17.webp",
+        "jp": "命を奪う"
+      }
+    }
   },
   {
     "no": 211,
@@ -2183,7 +2239,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/212skin1.webp"
+    "art": "assets/art/212skin1.webp",
+    "statusIcons": {
+      "blind": {
+        "file": "Debuff24.png",
+        "url": "assets/status/Debuff24.webp",
+        "jp": "目を覆う"
+      }
+    }
   },
   {
     "no": 213,
@@ -2365,7 +2428,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/213skin1.webp"
+    "art": "assets/art/213skin1.webp",
+    "statusIcons": {
+      "feather shelter": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "羽の加護"
+      },
+      "protection of fate": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "命の加護"
+      }
+    }
   },
   {
     "no": 214,
@@ -2551,7 +2626,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/214skin1.webp"
+    "art": "assets/art/214skin1.webp",
+    "statusIcons": {
+      "bunny dance": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "兎の舞"
+      }
+    }
   },
   {
     "no": 215,
@@ -2737,7 +2819,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/215skin1.webp"
+    "art": "assets/art/215skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      },
+      "silence": {
+        "file": "Debuff29.png",
+        "jp": "SILENCE",
+        "url": "assets/status/Debuff29.webp"
+      }
+    }
   },
   {
     "no": 216,
@@ -3109,7 +3203,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/217skin1.webp"
+    "art": "assets/art/217skin1.webp",
+    "statusIcons": {
+      "heroic posture": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "勇気凛々"
+      },
+      "shelter": {
+        "file": "Buff56.png",
+        "url": "assets/status/Buff56.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 218,
@@ -3464,7 +3570,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/219skin1.webp"
+    "art": "assets/art/219skin1.webp",
+    "statusIcons": {
+      "demoniac": {
+        "file": "Buff25.png",
+        "url": "assets/status/Buff25.webp",
+        "jp": "鬼王降临/鬼王降臨"
+      }
+    }
   },
   {
     "no": 220,
@@ -3662,7 +3775,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/220skin1.webp"
+    "art": "assets/art/220skin1.webp",
+    "statusIcons": {
+      "tailed": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "凝視"
+      },
+      "buddy!": {
+        "file": "Buff150.png",
+        "url": "assets/status/Buff150.webp",
+        "jp": "友よ！"
+      }
+    }
   },
   {
     "no": 221,
@@ -4017,7 +4142,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/222skin1.webp"
+    "art": "assets/art/222skin1.webp",
+    "statusIcons": {
+      "haunting souls": {
+        "file": "Indirect07.png",
+        "url": "assets/status/Indirect07.webp",
+        "jp": "亡魂憑依"
+      }
+    }
   },
   {
     "no": 223,
@@ -4186,7 +4318,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/223skin1.webp"
+    "art": "assets/art/223skin1.webp",
+    "statusIcons": {
+      "fury fire": {
+        "file": "Buff23.png",
+        "url": "assets/status/Buff23.webp",
+        "jp": "怒りの炎"
+      }
+    }
   },
   {
     "no": 224,
@@ -4351,7 +4490,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/224skin1.webp"
+    "art": "assets/art/224skin1.webp",
+    "statusIcons": {
+      "shackle of tears": {
+        "file": "Debuff36.png",
+        "url": "assets/status/Debuff36.webp",
+        "jp": "涙の絆"
+      }
+    }
   },
   {
     "no": 225,
@@ -4537,7 +4683,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/225skin1.webp"
+    "art": "assets/art/225skin1.webp",
+    "statusIcons": {
+      "kyonshii poison": {
+        "file": "Indirect12.png",
+        "url": "assets/status/Indirect12.webp",
+        "jp": "キョンシー毒"
+      },
+      "corrosion toxin": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "腐食毒素"
+      }
+    }
   },
   {
     "no": 226,
@@ -4742,7 +4900,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/226skin1.webp"
+    "art": "assets/art/226skin1.webp",
+    "statusIcons": {
+      "grow up": {
+        "file": "Buff72.png",
+        "url": "assets/status/Buff72.webp",
+        "jp": "早く大きくなって"
+      }
+    }
   },
   {
     "no": 227,
@@ -4928,7 +5093,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/227skin1.webp"
+    "art": "assets/art/227skin1.webp",
+    "statusIcons": {
+      "hardened": {
+        "file": "Buff32.png",
+        "url": "assets/status/Buff32.webp",
+        "jp": "石化"
+      }
+    }
   },
   {
     "no": 228,
@@ -5114,7 +5286,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/228skin1.webp"
+    "art": "assets/art/228skin1.webp",
+    "statusIcons": {
+      "cursed fire": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "呪火"
+      }
+    }
   },
   {
     "no": 230,
@@ -5300,7 +5479,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/230skin1.webp"
+    "art": "assets/art/230skin1.webp",
+    "statusIcons": {
+      "diamond sutra": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "金剛経"
+      }
+    }
   },
   {
     "no": 231,
@@ -5486,7 +5672,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/231skin1.webp"
+    "art": "assets/art/231skin1.webp",
+    "statusIcons": {
+      "maple doll": {
+        "file": "Indirect15.png",
+        "url": "assets/status/Indirect15.webp",
+        "jp": "紅葉の人形"
+      }
+    }
   },
   {
     "no": 232,
@@ -5655,7 +5848,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/232skin1.webp"
+    "art": "assets/art/232skin1.webp",
+    "statusIcons": {
+      "money fling": {
+        "file": "Debuff45.png",
+        "url": "assets/status/Debuff45.webp",
+        "jp": "銭撃"
+      },
+      "bribed": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "買収"
+      },
+      "flaw": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "隙あり"
+      }
+    }
   },
   {
     "no": 233,
@@ -6015,7 +6225,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/234skin1.webp"
+    "art": "assets/art/234skin1.webp",
+    "statusIcons": {
+      "nourishment": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "光合成"
+      },
+      "aquatic impairment": {
+        "file": "Debuff36.png",
+        "url": "assets/status/Debuff36.webp",
+        "jp": "水流の泡"
+      },
+      "drizzle": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "細雨"
+      }
+    }
   },
   {
     "no": 236,
@@ -6197,7 +6424,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/236skin1.webp"
+    "art": "assets/art/236skin1.webp",
+    "statusIcons": {
+      "fox fury mark": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "狐の印"
+      }
+    }
   },
   {
     "no": 237,
@@ -6379,7 +6613,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/237skin1.webp"
+    "art": "assets/art/237skin1.webp",
+    "statusIcons": {
+      "bunny dance": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "兎の舞"
+      }
+    }
   },
   {
     "no": 238,
@@ -6565,7 +6806,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/238skin1.webp"
+    "art": "assets/art/238skin1.webp",
+    "statusIcons": {
+      "blessed seed": {
+        "file": "Buff22.png",
+        "url": "assets/status/Buff22.webp",
+        "jp": "祝福の種"
+      },
+      "photosynthesis": {
+        "file": "Buff30.png",
+        "url": "assets/status/Buff30.webp",
+        "jp": "光合成"
+      }
+    }
   },
   {
     "no": 241,
@@ -6751,7 +7004,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/241skin1.webp"
+    "art": "assets/art/241skin1.webp",
+    "statusIcons": {
+      "butterfly's dance": {
+        "file": "Buff48.png",
+        "url": "assets/status/Buff48.webp",
+        "jp": "蝶の舞"
+      }
+    }
   },
   {
     "no": 242,
@@ -7599,7 +7859,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/246skin1.webp"
+    "art": "assets/art/246skin1.webp",
+    "statusIcons": {
+      "morale boost": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 247,
@@ -7954,7 +8221,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/248skin1.webp"
+    "art": "assets/art/248skin1.webp",
+    "statusIcons": {
+      "empowering flow": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "逐流"
+      },
+      "reign": {
+        "file": "Buff192.png",
+        "url": "assets/status/Buff192.webp",
+        "jp": "君臨"
+      },
+      "isolation": {
+        "file": "Debuff18.png",
+        "jp": "ISOLATION",
+        "url": "assets/status/Debuff18.webp"
+      }
+    }
   },
   {
     "no": 249,
@@ -8123,7 +8407,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/249skin1.webp"
+    "art": "assets/art/249skin1.webp",
+    "statusIcons": {
+      "grudged": {
+        "file": "Debuff49.png",
+        "url": "assets/status/Debuff49.webp",
+        "jp": "因縁"
+      }
+    }
   },
   {
     "no": 250,
@@ -8478,7 +8769,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/251skin1.webp"
+    "art": "assets/art/251skin1.webp",
+    "statusIcons": {
+      "death penalty": {
+        "file": "Indirect23.png",
+        "url": "assets/status/Indirect23.webp",
+        "jp": "死亡裁決"
+      }
+    }
   },
   {
     "no": 252,
@@ -8812,7 +9110,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/253skin1.webp"
+    "art": "assets/art/253skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 254,
@@ -8998,7 +9303,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/254skin1.webp"
+    "art": "assets/art/254skin1.webp",
+    "statusIcons": {
+      "ki focus": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "気功"
+      }
+    }
   },
   {
     "no": 255,
@@ -9184,7 +9496,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/255skin1.webp"
+    "art": "assets/art/255skin1.webp",
+    "statusIcons": {
+      "silence": {
+        "file": "Debuff29.png",
+        "jp": "SILENCE",
+        "url": "assets/status/Debuff29.webp"
+      },
+      "ghost rider": {
+        "file": "Buff53.png",
+        "jp": "GHOST RIDER",
+        "url": "assets/status/Buff53.webp"
+      }
+    }
   },
   {
     "no": 256,
@@ -9366,7 +9690,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/256skin1.webp"
+    "art": "assets/art/256skin1.webp",
+    "statusIcons": {
+      "lingering sound": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "余韻"
+      }
+    }
   },
   {
     "no": 257,
@@ -9721,7 +10052,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/258skin1.webp"
+    "art": "assets/art/258skin1.webp",
+    "statusIcons": {
+      "wind fury": {
+        "file": "Indirect21.png",
+        "url": "assets/status/Indirect21.webp",
+        "jp": "風の怒り"
+      },
+      "eyes of wrath：thunder": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "雷の怒目"
+      },
+      "eyes of wrath：wind": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "風の怒目"
+      },
+      "vortex assault": {
+        "file": "Indirect21.png",
+        "url": "assets/status/Indirect21.webp",
+        "jp": "風の襲撃"
+      }
+    }
   },
   {
     "no": 259,
@@ -9906,7 +10259,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/259skin1.webp"
+    "art": "assets/art/259skin1.webp",
+    "statusIcons": {
+      "forest vines": {
+        "file": "Debuff23.png",
+        "url": "assets/status/Debuff23.webp",
+        "jp": "森の力"
+      },
+      "circle of life": {
+        "file": "Buff73.png",
+        "url": "assets/status/Buff73.webp",
+        "jp": "生生流転"
+      }
+    }
   },
   {
     "no": 260,
@@ -10079,7 +10444,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/260skin1.webp"
+    "art": "assets/art/260skin1.webp",
+    "statusIcons": {
+      "burning fire": {
+        "file": "Indirect18.png",
+        "url": "assets/status/Indirect18.webp",
+        "jp": "焚火"
+      },
+      "poisonous feathers": {
+        "file": "Indirect16.png",
+        "url": "assets/status/Indirect16.webp",
+        "jp": "毒の羽"
+      }
+    }
   },
   {
     "no": 261,
@@ -10265,7 +10642,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/261skin1.webp"
+    "art": "assets/art/261skin1.webp",
+    "statusIcons": {
+      "continuous damage": {
+        "file": "Debuff00.png",
+        "url": "assets/status/Debuff00.webp",
+        "jp": ""
+      },
+      "nitaro's whistle": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "二太郎指笛"
+      },
+      "santaro's whistle": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "三太郎指笛"
+      }
+    }
   },
   {
     "no": 262,
@@ -10434,7 +10828,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/262skin1.webp"
+    "art": "assets/art/262skin1.webp",
+    "statusIcons": {
+      "first feathers": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "羽初"
+      }
+    }
   },
   {
     "no": 263,
@@ -10933,7 +11334,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/265skin1.webp"
+    "art": "assets/art/265skin1.webp",
+    "statusIcons": {
+      "fury fire": {
+        "file": "Buff23.png",
+        "url": "assets/status/Buff23.webp",
+        "jp": "怒りの炎"
+      },
+      "demonic arm": {
+        "file": "Buff154.png",
+        "url": "assets/status/Buff154.webp",
+        "jp": "鬼の手"
+      }
+    }
   },
   {
     "no": 266,
@@ -11119,7 +11532,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/266skin1.webp"
+    "art": "assets/art/266skin1.webp",
+    "statusIcons": {
+      "candlelight": {
+        "file": "Buff62.png",
+        "url": "assets/status/Buff62.webp",
+        "jp": "ろうそくの炎"
+      }
+    }
   },
   {
     "no": 267,
@@ -11305,7 +11725,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/267skin1.webp"
+    "art": "assets/art/267skin1.webp",
+    "statusIcons": {
+      "dance of recovery": {
+        "file": "Buff41.png",
+        "url": "assets/status/Buff41.webp",
+        "jp": "蘇生の舞"
+      },
+      "cherry blossom": {
+        "file": "Indirect06.png",
+        "url": "assets/status/Indirect06.webp",
+        "jp": "桜吹雪"
+      }
+    }
   },
   {
     "no": 268,
@@ -11698,7 +12130,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/269skin1.webp"
+    "art": "assets/art/269skin1.webp",
+    "statusIcons": {
+      "glorious blade": {
+        "file": "Buff113.png",
+        "url": "assets/status/Buff113.webp",
+        "jp": "妖華"
+      }
+    }
   },
   {
     "no": 270,
@@ -11867,7 +12306,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/270skin1.webp"
+    "art": "assets/art/270skin1.webp",
+    "statusIcons": {
+      "arachnid venom": {
+        "file": "Indirect22.png",
+        "url": "assets/status/Indirect22.webp",
+        "jp": "喰心毒液"
+      }
+    }
   },
   {
     "no": 271,
@@ -12065,7 +12511,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/271skin1.webp"
+    "art": "assets/art/271skin1.webp",
+    "statusIcons": {
+      "demon mask": {
+        "file": "Debuff43.png",
+        "url": "assets/status/Debuff43.webp",
+        "jp": "鬼面"
+      }
+    }
   },
   {
     "no": 272,
@@ -12251,7 +12704,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/272skin1.webp"
+    "art": "assets/art/272skin1.webp",
+    "statusIcons": {
+      "draining": {
+        "file": "Debuff35.png",
+        "jp": "DRAINING",
+        "url": "assets/status/Debuff35.webp"
+      },
+      "wind's protection": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "風護"
+      },
+      "wind aegis": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "風佑"
+      }
+    }
   },
   {
     "no": 273,
@@ -12420,7 +12890,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/273skin1.webp"
+    "art": "assets/art/273skin1.webp",
+    "statusIcons": {
+      "divine light": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "仏の力"
+      }
+    }
   },
   {
     "no": 274,
@@ -12597,7 +13074,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/274skin1.webp"
+    "art": "assets/art/274skin1.webp",
+    "statusIcons": {
+      "prank": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "悪戯"
+      }
+    }
   },
   {
     "no": 275,
@@ -13138,7 +13622,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/277skin1.webp"
+    "art": "assets/art/277skin1.webp",
+    "statusIcons": {
+      "revenant": {
+        "file": "Unique82.png",
+        "url": "assets/status/Unique82.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 278,
@@ -13299,7 +13790,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/278skin1.webp"
+    "art": "assets/art/278skin1.webp",
+    "statusIcons": {
+      "protection of shiro": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "白の守り"
+      }
+    }
   },
   {
     "no": 279,
@@ -13485,7 +13983,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/279skin1.webp"
+    "art": "assets/art/279skin1.webp",
+    "statusIcons": {
+      "nectar": {
+        "file": "Buff47.png",
+        "url": "assets/status/Buff47.webp",
+        "jp": "かぐわしい花"
+      }
+    }
   },
   {
     "no": 280,
@@ -13663,7 +14168,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/280skin1.webp"
+    "art": "assets/art/280skin1.webp",
+    "statusIcons": {
+      "dragon jewel": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "龙首之玉"
+      }
+    }
   },
   {
     "no": 281,
@@ -14030,7 +14542,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/282skin1.webp"
+    "art": "assets/art/282skin1.webp",
+    "statusIcons": {
+      "silence": {
+        "file": "Debuff29.png",
+        "jp": "SILENCE",
+        "url": "assets/status/Debuff29.webp"
+      },
+      "fan dance": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "扇の舞"
+      }
+    }
   },
   {
     "no": 283,
@@ -14431,7 +14955,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/285skin1.webp"
+    "art": "assets/art/285skin1.webp",
+    "statusIcons": {
+      "poisonous feathers": {
+        "file": "Indirect16.png",
+        "url": "assets/status/Indirect16.webp",
+        "jp": "毒の羽"
+      }
+    }
   },
   {
     "no": 286,
@@ -14617,7 +15148,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/286skin1.webp"
+    "art": "assets/art/286skin1.webp",
+    "statusIcons": {
+      "golden feather": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "黄金の羽"
+      }
+    }
   },
   {
     "no": 287,
@@ -14786,7 +15324,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/287skin1.webp"
+    "art": "assets/art/287skin1.webp",
+    "statusIcons": {
+      "random buff": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "ランダムバフ"
+      },
+      "random debuff": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "ランダムデバフ"
+      }
+    }
   },
   {
     "no": 288,
@@ -14972,7 +15522,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/288skin1.webp"
+    "art": "assets/art/288skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 289,
@@ -15157,7 +15714,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/289skin1.webp"
+    "art": "assets/art/289skin1.webp",
+    "statusIcons": {
+      "carrot": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "ニンジン"
+      }
+    }
   },
   {
     "no": 290,
@@ -15529,7 +16093,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/291skin1.webp"
+    "art": "assets/art/291skin1.webp",
+    "statusIcons": {
+      "heavenly scroll： heart assault": {
+        "file": "Indirect24.png",
+        "url": "assets/status/Indirect24.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 292,
@@ -15698,7 +16269,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/292skin1.webp"
+    "art": "assets/art/292skin1.webp",
+    "statusIcons": {
+      "ice mark": {
+        "file": "Debuff36.png",
+        "url": "assets/status/Debuff36.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 293,
@@ -15896,7 +16474,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/293skin1.webp"
+    "art": "assets/art/293skin1.webp",
+    "statusIcons": {
+      "gaze state": {
+        "file": "Debuff15.png",
+        "url": "assets/status/Debuff15.webp",
+        "jp": "凝視状態"
+      }
+    }
   },
   {
     "no": 294,
@@ -16065,7 +16650,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/294skin1.webp"
+    "art": "assets/art/294skin1.webp",
+    "statusIcons": {
+      "fear": {
+        "file": "Buff26.png",
+        "url": "assets/status/Buff26.webp",
+        "jp": "畏"
+      }
+    }
   },
   {
     "no": 295,
@@ -16251,7 +16843,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/295skin1.webp"
+    "art": "assets/art/295skin1.webp",
+    "statusIcons": {
+      "shelter": {
+        "file": "Buff56.png",
+        "url": "assets/status/Buff56.webp",
+        "jp": ""
+      },
+      "moon's blessing": {
+        "file": "Buff29.png",
+        "url": "assets/status/Buff29.webp",
+        "jp": "月の祝福"
+      }
+    }
   },
   {
     "no": 296,
@@ -16437,7 +17041,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/296skin1.webp"
+    "art": "assets/art/296skin1.webp",
+    "statusIcons": {
+      "trapped beast": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "困獣"
+      },
+      "laceration": {
+        "file": "Indirect13.png",
+        "url": "assets/status/Indirect13.webp",
+        "jp": "引き裂き"
+      }
+    }
   },
   {
     "no": 297,
@@ -16792,7 +17408,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/298skin1.webp"
+    "art": "assets/art/298skin1.webp",
+    "statusIcons": {
+      "alert": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "警戒"
+      },
+      "owl's dance": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "梟の舞"
+      }
+    }
   },
   {
     "no": 300,
@@ -17164,7 +17792,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/301skin1.webp"
+    "art": "assets/art/301skin1.webp",
+    "statusIcons": {
+      "demon's bane": {
+        "file": "Debuff24.png",
+        "url": "assets/status/Debuff24.webp",
+        "jp": "降魔"
+      }
+    }
   },
   {
     "no": 302,
@@ -17519,7 +18154,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/303skin1.webp"
+    "art": "assets/art/303skin1.webp",
+    "statusIcons": {
+      "the white stone": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "白子/白石"
+      }
+    }
   },
   {
     "no": 304,
@@ -17688,7 +18330,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/304skin1.webp"
+    "art": "assets/art/304skin1.webp",
+    "statusIcons": {
+      "amulet": {
+        "file": "Buff74.png",
+        "url": "assets/status/Buff74.webp",
+        "jp": "呪符"
+      }
+    }
   },
   {
     "no": 305,
@@ -17857,7 +18506,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/305skin1.webp"
+    "art": "assets/art/305skin1.webp",
+    "statusIcons": {
+      "scale": {
+        "file": "Debuff14.png",
+        "url": "assets/status/Debuff14.webp",
+        "jp": "天秤"
+      },
+      "revealed": {
+        "file": "Unique03.png",
+        "url": "assets/status/Unique03.webp",
+        "jp": "見破る"
+      }
+    }
   },
   {
     "no": 306,
@@ -18026,7 +18687,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/306skin1.webp"
+    "art": "assets/art/306skin1.webp",
+    "statusIcons": {
+      "mark of mushi": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "虫の痕"
+      }
+    }
   },
   {
     "no": 307,
@@ -18532,7 +19200,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/309skin1.webp"
+    "art": "assets/art/309skin1.webp",
+    "statusIcons": {
+      "snake shadow": {
+        "file": "Debuff34.png",
+        "url": "assets/status/Debuff34.webp",
+        "jp": "蛇の影"
+      }
+    }
   },
   {
     "no": 310,
@@ -19073,7 +19748,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/312skin1.webp"
+    "art": "assets/art/312skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 313,
@@ -19290,7 +19972,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/313skin1.webp"
+    "art": "assets/art/313skin1.webp",
+    "statusIcons": {
+      "force of wind": {
+        "file": "Buff45.png",
+        "url": "assets/status/Buff45.webp",
+        "jp": "風の纏"
+      }
+    }
   },
   {
     "no": 314,
@@ -19488,7 +20177,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/314skin1.webp"
+    "art": "assets/art/314skin1.webp",
+    "statusIcons": {
+      "weakened after resurrection": {
+        "file": "Unique10.png",
+        "url": "assets/status/Unique10.webp",
+        "jp": "復活結界による衰弱"
+      },
+      "fractured mark": {
+        "file": "Debuff32.png",
+        "url": "assets/status/Debuff32.webp",
+        "jp": "破裂の印"
+      }
+    }
   },
   {
     "no": 315,
@@ -19657,7 +20358,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/315skin1.webp"
+    "art": "assets/art/315skin1.webp",
+    "statusIcons": {
+      "soar into the clouds": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "雲を貫く"
+      },
+      "chasing the wind": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "逐風"
+      }
+    }
   },
   {
     "no": 316,
@@ -19843,7 +20556,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/316skin1.webp"
+    "art": "assets/art/316skin1.webp",
+    "statusIcons": {
+      "burnt flame": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "残炎"
+      },
+      "fox shadow：shelter": {
+        "file": "Buff59.png",
+        "url": "assets/status/Buff59.webp",
+        "jp": "狐影・守"
+      }
+    }
   },
   {
     "no": 317,
@@ -20029,7 +20754,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/317skin1.webp"
+    "art": "assets/art/317skin1.webp",
+    "statusIcons": {
+      "baneful flower": {
+        "file": "Indirect03.png",
+        "url": "assets/status/Indirect03.webp",
+        "jp": "災厄の花"
+      },
+      "protection of root": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": "禍根の守り"
+      }
+    }
   },
   {
     "no": 318,
@@ -20215,7 +20952,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/318skin1.webp"
+    "art": "assets/art/318skin1.webp",
+    "statusIcons": {
+      "poisonous feathers": {
+        "file": "Indirect16.png",
+        "url": "assets/status/Indirect16.webp",
+        "jp": "毒の羽"
+      },
+      "bugs grudge": {
+        "file": "Indirect02.png",
+        "url": "assets/status/Indirect02.webp",
+        "jp": "虫怨"
+      }
+    }
   },
   {
     "no": 319,
@@ -20384,7 +21133,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/319skin1.webp"
+    "art": "assets/art/319skin1.webp",
+    "statusIcons": {
+      "amulet": {
+        "file": "Buff74.png",
+        "url": "assets/status/Buff74.webp",
+        "jp": "呪符"
+      },
+      "amulet of exorcism": {
+        "file": "Debuff10.png",
+        "url": "assets/status/Debuff10.webp",
+        "jp": "破魔"
+      },
+      "shikon seal": {
+        "file": "Debuff42.png",
+        "url": "assets/status/Debuff42.webp",
+        "jp": "四魂封印"
+      },
+      "soul barrier": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "霊魂結界"
+      }
+    }
   },
   {
     "no": 320,
@@ -20570,7 +21341,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/320skin1.webp"
+    "art": "assets/art/320skin1.webp",
+    "statusIcons": {
+      "entangling obstruction": {
+        "file": "Debuff35.png",
+        "url": "assets/status/Debuff35.webp",
+        "jp": "纏わり阻害"
+      },
+      "wrap": {
+        "file": "Debuff36.png",
+        "url": "assets/status/Debuff36.webp",
+        "jp": "巻き込み"
+      },
+      "bind": {
+        "file": "Debuff38.png",
+        "url": "assets/status/Debuff38.webp",
+        "jp": "束縛"
+      }
+    }
   },
   {
     "no": 321,
@@ -20756,7 +21544,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/321skin1.webp"
+    "art": "assets/art/321skin1.webp",
+    "statusIcons": {
+      "soul rift": {
+        "file": "Indirect20.png",
+        "url": "assets/status/Indirect20.webp",
+        "jp": "魂隙"
+      }
+    }
   },
   {
     "no": 322,
@@ -21128,7 +21923,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/323skin1.webp"
+    "art": "assets/art/323skin1.webp",
+    "statusIcons": {
+      "revel mark": {
+        "file": "Buff38.png",
+        "url": "assets/status/Buff38.webp",
+        "jp": "喜びの印"
+      }
+    }
   },
   {
     "no": 324,
@@ -21314,7 +22116,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/324skin1.webp"
+    "art": "assets/art/324skin1.webp",
+    "statusIcons": {
+      "teeth armor": {
+        "file": "Buff18.png",
+        "url": "assets/status/Buff18.webp",
+        "jp": "鯨の牙"
+      },
+      "body armor": {
+        "file": "Buff06.png",
+        "url": "assets/status/Buff06.webp",
+        "jp": "鯨鎧"
+      }
+    }
   },
   {
     "no": 325,
@@ -21560,7 +22374,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/325skin1.webp"
+    "art": "assets/art/325skin1.webp",
+    "statusIcons": {
+      "unholy force": {
+        "file": "Buff17.png",
+        "url": "assets/status/Buff17.webp",
+        "jp": "不浄の力"
+      },
+      "all senses fail": {
+        "file": "Debuff05.png",
+        "url": "assets/status/Debuff05.webp",
+        "jp": "五感喪失"
+      }
+    }
   },
   {
     "no": 326,
@@ -21932,7 +22758,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/327skin1.webp"
+    "art": "assets/art/327skin1.webp",
+    "statusIcons": {
+      "wind shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "風の盾"
+      }
+    }
   },
   {
     "no": 328,
@@ -22118,7 +22951,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/328skin1.webp"
+    "art": "assets/art/328skin1.webp",
+    "statusIcons": {
+      "crimson breath": {
+        "file": "Buff12.png",
+        "url": "assets/status/Buff12.webp",
+        "jp": "赤影の息"
+      }
+    }
   },
   {
     "no": 329,
@@ -22304,7 +23144,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/329skin1.webp"
+    "art": "assets/art/329skin1.webp",
+    "statusIcons": {
+      "shadow stealth": {
+        "file": "Buff50.png",
+        "url": "assets/status/Buff50.webp",
+        "jp": ""
+      },
+      "stealth protection": {
+        "file": "Buff13.png",
+        "url": "assets/status/Buff13.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 330,
@@ -22577,7 +23429,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/330skin1.webp"
+    "art": "assets/art/330skin1.webp",
+    "statusIcons": {
+      "sorrowful state": {
+        "file": "Unique14.png",
+        "url": "assets/status/Unique14.webp",
+        "jp": "離別"
+      }
+    }
   },
   {
     "no": 331,
@@ -22775,7 +23634,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/331skin1.webp"
+    "art": "assets/art/331skin1.webp",
+    "statusIcons": {
+      "hatred mark": {
+        "file": "Buff35.png",
+        "url": "assets/status/Buff35.webp",
+        "jp": "怨根の印"
+      },
+      "spreading hatred": {
+        "file": "Debuff37.png",
+        "url": "assets/status/Debuff37.webp",
+        "jp": "御怨蔓延"
+      },
+      "sealing field": {
+        "file": "Unique12.png",
+        "url": "assets/status/Unique12.webp",
+        "jp": "封印結界"
+      }
+    }
   },
   {
     "no": 332,
@@ -23014,7 +23890,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/332skin1.webp"
+    "art": "assets/art/332skin1.webp",
+    "statusIcons": {
+      "bone shield": {
+        "file": "Buff79.png",
+        "url": "assets/status/Buff79.webp",
+        "jp": "骨盾"
+      },
+      "double crit": {
+        "file": "Buff39.png",
+        "url": "assets/status/Buff39.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 333,
@@ -23212,7 +24100,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/333skin1.webp"
+    "art": "assets/art/333skin1.webp",
+    "statusIcons": {
+      "force of earth": {
+        "file": "Buff53.png",
+        "url": "assets/status/Buff53.webp",
+        "jp": "覆土の力"
+      }
+    }
   },
   {
     "no": 334,
@@ -23398,7 +24293,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/334skin1.webp"
+    "art": "assets/art/334skin1.webp",
+    "statusIcons": {
+      "unflinching": {
+        "file": "Buff80.png",
+        "url": "assets/status/Buff80.webp",
+        "jp": "不動の守護"
+      },
+      "sea fury": {
+        "file": "Buff21.png",
+        "url": "assets/status/Buff21.webp",
+        "jp": "海の怒り"
+      }
+    }
   },
   {
     "no": 335,
@@ -23584,7 +24491,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/335skin1.webp"
+    "art": "assets/art/335skin1.webp",
+    "statusIcons": {
+      "carapace": {
+        "file": "Buff16.png",
+        "url": "assets/status/Buff16.webp",
+        "jp": "蟹殻"
+      },
+      "jump-start": {
+        "file": "Buff57.png",
+        "url": "assets/status/Buff57.webp",
+        "jp": "力が湧いてきた"
+      }
+    }
   },
   {
     "no": 336,
@@ -23770,7 +24689,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/336skin1.webp"
+    "art": "assets/art/336skin1.webp",
+    "statusIcons": {
+      "san no mai： shirofune": {
+        "file": "Buff05.png",
+        "url": "assets/status/Buff05.webp",
+        "jp": "参の舞・白刀"
+      },
+      "ice wound": {
+        "file": "Indirect01.png",
+        "url": "assets/status/Indirect01.webp",
+        "jp": "凍傷"
+      },
+      "ice quake": {
+        "file": "Debuff36.png",
+        "url": "assets/status/Debuff36.webp",
+        "jp": "氷震"
+      }
+    }
   },
   {
     "no": 337,
@@ -24009,7 +24945,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/337skin1.webp"
+    "art": "assets/art/337skin1.webp",
+    "statusIcons": {
+      "reiatsu": {
+        "file": "Buff14.png",
+        "url": "assets/status/Buff14.webp",
+        "jp": "霊圧"
+      },
+      "hollowed": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "虚化"
+      }
+    }
   },
   {
     "no": 338,
@@ -24644,7 +25592,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/340skin1.webp"
+    "art": "assets/art/340skin1.webp",
+    "statusIcons": {
+      "falling papers": {
+        "file": "Buff04.png",
+        "url": "assets/status/Buff04.webp",
+        "jp": "落紙"
+      },
+      "paper blade": {
+        "file": "Indirect00.png",
+        "url": "assets/status/Indirect00.webp",
+        "jp": "紙刃"
+      }
+    }
   },
   {
     "no": 341,
@@ -24859,7 +25819,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/341skin1.webp"
+    "art": "assets/art/341skin1.webp",
+    "statusIcons": {
+      "high spirit's force": {
+        "file": "Buff08.png",
+        "url": "assets/status/Buff08.webp",
+        "jp": "大妖の力"
+      },
+      "demoniac state": {
+        "file": "Buff02.png",
+        "url": "assets/status/Buff02.webp",
+        "jp": "鬼王の姿"
+      }
+    }
   },
   {
     "no": 342,
@@ -25045,7 +26017,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/342skin1.webp"
+    "art": "assets/art/342skin1.webp",
+    "statusIcons": {
+      "accused": {
+        "file": "Debuff03.png",
+        "url": "assets/status/Debuff03.webp",
+        "jp": "攻撃の的"
+      }
+    }
   },
   {
     "no": 343,
@@ -25231,7 +26210,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/343skin1.webp"
+    "art": "assets/art/343skin1.webp",
+    "statusIcons": {
+      "blade of the mind": {
+        "file": "Buff106.png",
+        "url": "assets/status/Buff106.webp",
+        "jp": "心剣"
+      },
+      "shadow cut": {
+        "file": "Debuff02.png",
+        "url": "assets/status/Debuff02.webp",
+        "jp": "影切"
+      },
+      "endangered": {
+        "file": "Debuff01.png",
+        "url": "assets/status/Debuff01.webp",
+        "jp": "危"
+      }
+    }
   },
   {
     "no": 344,
@@ -25470,7 +26466,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/344skin1.webp"
+    "art": "assets/art/344skin1.webp",
+    "statusIcons": {
+      "mirror's wrath": {
+        "file": "Debuff46.png",
+        "url": "assets/status/Debuff46.webp",
+        "jp": "鏡怒"
+      },
+      "mirror's protection": {
+        "file": "Buff61.png",
+        "url": "assets/status/Buff61.webp",
+        "jp": "鏡護"
+      },
+      "mirror shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "鏡盾"
+      }
+    }
   },
   {
     "no": 345,
@@ -25685,7 +26698,34 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/345skin1.webp"
+    "art": "assets/art/345skin1.webp",
+    "statusIcons": {
+      "bone lock": {
+        "file": "Debuff50.png",
+        "url": "assets/status/Debuff50.webp",
+        "jp": "骸の鎖"
+      },
+      "demon madness": {
+        "file": "Buff63.png",
+        "url": "assets/status/Buff63.webp",
+        "jp": "狂"
+      },
+      "asura": {
+        "file": "Buff64.png",
+        "url": "assets/status/Buff64.webp",
+        "jp": "修羅"
+      },
+      "bone chains": {
+        "file": "Debuff50.png",
+        "url": "assets/status/Debuff50.webp",
+        "jp": "骸の鎖"
+      },
+      "hidden secret": {
+        "file": "Buff53.png",
+        "url": "assets/status/Buff53.webp",
+        "jp": "ステルス"
+      }
+    }
   },
   {
     "no": 346,
@@ -25854,7 +26894,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/346skin1.webp"
+    "art": "assets/art/346skin1.webp",
+    "statusIcons": {
+      "grudged": {
+        "file": "Debuff49.png",
+        "url": "assets/status/Debuff49.webp",
+        "jp": "因縁"
+      },
+      "focused": {
+        "file": "Buff67.png",
+        "url": "assets/status/Buff67.webp",
+        "jp": "精神統一"
+      }
+    }
   },
   {
     "no": 347,
@@ -26023,7 +27075,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/347skin1.webp"
+    "art": "assets/art/347skin1.webp",
+    "statusIcons": {
+      "shelter": {
+        "file": "Buff56.png",
+        "url": "assets/status/Buff56.webp",
+        "jp": ""
+      },
+      "fateful bond": {
+        "file": "Buff65.png",
+        "url": "assets/status/Buff65.webp",
+        "jp": "縁"
+      },
+      "frustration": {
+        "file": "Buff66.png",
+        "url": "assets/status/Buff66.webp",
+        "jp": "怒った"
+      }
+    }
   },
   {
     "no": 348,
@@ -26221,7 +27290,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/348skin1.webp"
+    "art": "assets/art/348skin1.webp",
+    "statusIcons": {
+      "light drain": {
+        "file": "Debuff51.png",
+        "url": "assets/status/Debuff51.webp",
+        "jp": "奪火"
+      },
+      "unextinguished": {
+        "file": "Buff68.png",
+        "url": "assets/status/Buff68.webp",
+        "jp": "不滅"
+      }
+    }
   },
   {
     "no": 349,
@@ -26407,7 +27488,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/349skin1.webp"
+    "art": "assets/art/349skin1.webp",
+    "statusIcons": {
+      "sprint": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "奔襲"
+      },
+      "shrapnel tomb": {
+        "file": "Indirect27.png",
+        "url": "assets/status/Indirect27.webp",
+        "jp": "雷火弾"
+      }
+    }
   },
   {
     "no": 350,
@@ -26593,7 +27686,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/350skin1.webp"
+    "art": "assets/art/350skin1.webp",
+    "statusIcons": {
+      "scorpion venom": {
+        "file": "Indirect28.png",
+        "url": "assets/status/Indirect28.webp",
+        "jp": "蠍毒"
+      }
+    }
   },
   {
     "no": 351,
@@ -26779,7 +27879,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/351skin1.webp"
+    "art": "assets/art/351skin1.webp",
+    "statusIcons": {
+      "obligated duty": {
+        "file": "Buff69.png",
+        "url": "assets/status/Buff69.webp",
+        "jp": "義の心"
+      },
+      "mountain's barrier": {
+        "file": "Buff53.png",
+        "url": "assets/status/Buff53.webp",
+        "jp": "麓障"
+      }
+    }
   },
   {
     "no": 352,
@@ -26977,7 +28089,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/352skin1.webp"
+    "art": "assets/art/352skin1.webp",
+    "statusIcons": {
+      "poisonous feathers": {
+        "file": "Indirect16.png",
+        "url": "assets/status/Indirect16.webp",
+        "jp": "毒の羽"
+      },
+      "burning resentment": {
+        "file": "Indirect29.png",
+        "url": "assets/status/Indirect29.webp",
+        "jp": "怨火"
+      },
+      "bewitching stare": {
+        "file": "Unique17.png",
+        "url": "assets/status/Unique17.webp",
+        "jp": "瞳蠱"
+      }
+    }
   },
   {
     "no": 353,
@@ -27392,7 +28521,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/354skin1.webp"
+    "art": "assets/art/354skin1.webp",
+    "statusIcons": {
+      "feathery tutelage": {
+        "file": "Buff76.png",
+        "url": "assets/status/Buff76.webp",
+        "jp": "羽授"
+      },
+      "feathery caring": {
+        "file": "Buff77.png",
+        "url": "assets/status/Buff77.webp",
+        "jp": "羽念"
+      }
+    }
   },
   {
     "no": 355,
@@ -27587,7 +28728,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/355skin1.webp"
+    "art": "assets/art/355skin1.webp",
+    "statusIcons": {
+      "mountain's erosion": {
+        "file": "Debuff55.png",
+        "url": "assets/status/Debuff55.webp",
+        "jp": "麓蝕"
+      },
+      "mountain's crush": {
+        "file": "Debuff54.png",
+        "url": "assets/status/Debuff54.webp",
+        "jp": "麓圧"
+      },
+      "mountain's boom": {
+        "file": "Unique18.png",
+        "url": "assets/status/Unique18.webp",
+        "jp": "麓沢"
+      }
+    }
   },
   {
     "no": 356,
@@ -27785,7 +28943,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/356skin1.webp"
+    "art": "assets/art/356skin1.webp",
+    "statusIcons": {
+      "tidal dream": {
+        "file": "Debuff57.png",
+        "url": "assets/status/Debuff57.webp",
+        "jp": "汐夢"
+      },
+      "sound of the tides": {
+        "file": "Buff81.png",
+        "url": "assets/status/Buff81.webp",
+        "jp": "潮声"
+      },
+      "dirge": {
+        "file": "Buff83.png",
+        "url": "assets/status/Buff83.webp",
+        "jp": "悲歌"
+      }
+    }
   },
   {
     "no": 357,
@@ -28007,7 +29182,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/357skin1.webp"
+    "art": "assets/art/357skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 358,
@@ -28217,7 +29399,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/358skin1.webp"
+    "art": "assets/art/358skin1.webp",
+    "statusIcons": {
+      "nether seeds": {
+        "file": "Debuff58.png",
+        "url": "assets/status/Debuff58.webp",
+        "jp": "溟種"
+      },
+      "nether flower": {
+        "file": "Buff85.png",
+        "url": "assets/status/Buff85.webp",
+        "jp": "溟花"
+      }
+    }
   },
   {
     "no": 359,
@@ -28499,7 +29693,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/359skin1.webp"
+    "art": "assets/art/359skin1.webp",
+    "statusIcons": {
+      "total concentration": {
+        "file": "Unique19.png",
+        "url": "assets/status/Unique19.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 360,
@@ -28714,7 +29915,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/360skin1.webp"
+    "art": "assets/art/360skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 361,
@@ -28883,7 +30091,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/361skin1.webp"
+    "art": "assets/art/361skin1.webp",
+    "statusIcons": {
+      "soot balls": {
+        "file": "Buff131.png",
+        "url": "assets/status/Buff131.webp",
+        "jp": "カビの玉"
+      }
+    }
   },
   {
     "no": 362,
@@ -29279,7 +30494,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/363skin1.webp"
+    "art": "assets/art/363skin1.webp",
+    "statusIcons": {
+      "golden lotus": {
+        "file": "Buff133.png",
+        "url": "assets/status/Buff133.webp",
+        "jp": "金蓮"
+      }
+    }
   },
   {
     "no": 364,
@@ -29663,7 +30885,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/365skin1.webp"
+    "art": "assets/art/365skin1.webp",
+    "statusIcons": {
+      "decayed blood": {
+        "file": "Buff94.png",
+        "url": "assets/status/Buff94.webp",
+        "jp": "腐血"
+      },
+      "possess": {
+        "file": "Buff93.png",
+        "url": "assets/status/Buff93.webp",
+        "jp": "附身/憑依"
+      }
+    }
   },
   {
     "no": 366,
@@ -30448,7 +31682,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/369skin1.webp"
+    "art": "assets/art/369skin1.webp",
+    "statusIcons": {
+      "full stomach": {
+        "file": "Buff102.png",
+        "url": "assets/status/Buff102.webp",
+        "jp": "飽食"
+      }
+    }
   },
   {
     "no": 370,
@@ -30646,7 +31887,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/370skin1.webp"
+    "art": "assets/art/370skin1.webp",
+    "statusIcons": {
+      "grain reserve": {
+        "file": "Unique25.png",
+        "url": "assets/status/Unique25.webp",
+        "jp": "不動穀"
+      },
+      "huge appetite": {
+        "file": "Buff103.png",
+        "url": "assets/status/Buff103.webp",
+        "jp": "食欲増進"
+      }
+    }
   },
   {
     "no": 371,
@@ -30868,7 +32121,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/371skin1.webp"
+    "art": "assets/art/371skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      },
+      "kaleidoscope paper": {
+        "file": "Indirect30.png",
+        "url": "assets/status/Indirect30.webp",
+        "jp": "百花紙"
+      },
+      "paper shield": {
+        "file": "Buff112.png",
+        "url": "assets/status/Buff112.webp",
+        "jp": "花紙盾"
+      }
+    }
   },
   {
     "no": 372,
@@ -31066,7 +32336,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/372skin1.webp"
+    "art": "assets/art/372skin1.webp",
+    "statusIcons": {
+      "wish power": {
+        "file": "Buff105.png",
+        "url": "assets/status/Buff105.webp",
+        "jp": "願力"
+      },
+      "wish's protection": {
+        "file": "Buff104.png",
+        "url": "assets/status/Buff104.webp",
+        "jp": "願佑"
+      }
+    }
   },
   {
     "no": 373,
@@ -31319,7 +32601,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/373skin1.webp"
+    "art": "assets/art/373skin1.webp",
+    "statusIcons": {
+      "waltz": {
+        "file": "Unique27.png",
+        "url": "assets/status/Unique27.webp",
+        "jp": "共舞"
+      },
+      "sigil of the night": {
+        "file": "Debuff68.png",
+        "url": "assets/status/Debuff68.webp",
+        "jp": "夜の禊"
+      }
+    }
   },
   {
     "no": 375,
@@ -31505,7 +32799,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/375skin1.webp"
+    "art": "assets/art/375skin1.webp",
+    "statusIcons": {
+      "shadowprey": {
+        "file": "Debuff75.png",
+        "url": "assets/status/Debuff75.webp",
+        "jp": "影食"
+      }
+    }
   },
   {
     "no": 376,
@@ -31703,7 +33004,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/376skin1.webp"
+    "art": "assets/art/376skin1.webp",
+    "statusIcons": {
+      "holy fire": {
+        "file": "Buff107.png",
+        "url": "assets/status/Buff107.webp",
+        "jp": "神火"
+      }
+    }
   },
   {
     "no": 377,
@@ -31901,7 +33209,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/377skin1.webp"
+    "art": "assets/art/377skin1.webp",
+    "statusIcons": {
+      "ninja mines": {
+        "file": "Buff108.png",
+        "url": "assets/status/Buff108.webp",
+        "jp": "迷兔炸弹/迷兎爆弾"
+      },
+      "ninja tricks": {
+        "file": "Unique29.png",
+        "url": "assets/status/Unique29.webp",
+        "jp": "梦忍法/夢忍法"
+      }
+    }
   },
   {
     "no": 378,
@@ -32087,7 +33407,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/378skin1.webp"
+    "art": "assets/art/378skin1.webp",
+    "statusIcons": {
+      "valuable feather": {
+        "file": "Debuff72.png",
+        "url": "assets/status/Debuff72.webp",
+        "jp": "惜羽"
+      }
+    }
   },
   {
     "no": 379,
@@ -32273,7 +33600,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/379skin1.webp"
+    "art": "assets/art/379skin1.webp",
+    "statusIcons": {
+      "rock pattern：cloud's color": {
+        "file": "Buff51.png",
+        "url": "assets/status/Buff51.webp",
+        "jp": "峦纹·云衣/巒紋・雲衣"
+      },
+      "rock pattern：cloud": {
+        "file": "Unique30.png",
+        "url": "assets/status/Unique30.webp",
+        "jp": "峦纹·云/巒紋・雲"
+      },
+      "rock pattern：mountain views": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": "峦纹·山色/巒紋・山色"
+      },
+      "rock pattern：mountain": {
+        "file": "Unique31.png",
+        "url": "assets/status/Unique31.webp",
+        "jp": "峦纹·山/巒紋・山"
+      }
+    }
   },
   {
     "no": 382,
@@ -32459,7 +33808,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/382skin1.webp"
+    "art": "assets/art/382skin1.webp",
+    "statusIcons": {
+      "sea genie": {
+        "file": "Buff115.png",
+        "url": "assets/status/Buff115.webp",
+        "jp": "海霊"
+      }
+    }
   },
   {
     "no": 383,
@@ -32838,7 +34194,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/384skin1.webp"
+    "art": "assets/art/384skin1.webp",
+    "statusIcons": {
+      "makeup": {
+        "file": "Indirect31.png",
+        "url": "assets/status/Indirect31.webp",
+        "jp": "粉妆/粉粧"
+      }
+    }
   },
   {
     "no": 385,
@@ -33024,7 +34387,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/385skin1.webp"
+    "art": "assets/art/385skin1.webp",
+    "statusIcons": {
+      "eyes of enma": {
+        "file": "Debuff77.png",
+        "url": "assets/status/Debuff77.webp",
+        "jp": "阎魔之目/閻魔の目"
+      },
+      "evil's imprisonment": {
+        "file": "Debuff78.png",
+        "url": "assets/status/Debuff78.webp",
+        "jp": "恶灵刑期/悪霊刑期"
+      }
+    }
   },
   {
     "no": 386,
@@ -33210,7 +34585,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/386skin1.webp"
+    "art": "assets/art/386skin1.webp",
+    "statusIcons": {
+      "thunder breathing": {
+        "file": "Buff120.png",
+        "url": "assets/status/Buff120.webp",
+        "jp": "雷の呼吸"
+      },
+      "thunderclap": {
+        "file": "Buff121.png",
+        "url": "assets/status/Buff121.webp",
+        "jp": "霹靂"
+      }
+    }
   },
   {
     "no": 387,
@@ -33396,7 +34783,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/387skin1.webp"
+    "art": "assets/art/387skin1.webp",
+    "statusIcons": {
+      "awareness": {
+        "file": "Buff122.png",
+        "url": "assets/status/Buff122.webp",
+        "jp": "識覚"
+      }
+    }
   },
   {
     "no": 388,
@@ -33611,7 +35005,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/388skin1.webp"
+    "art": "assets/art/388skin1.webp",
+    "statusIcons": {
+      "into the woods": {
+        "file": "Buff118.png",
+        "url": "assets/status/Buff118.webp",
+        "jp": "林隐状态/林隠状態"
+      },
+      "burnt leaf": {
+        "file": "Indirect32.png",
+        "url": "assets/status/Indirect32.webp",
+        "jp": "叶烬/葉の灰"
+      },
+      "red erosion": {
+        "file": "Debuff79.png",
+        "url": "assets/status/Debuff79.webp",
+        "jp": "红蚀/紅蝕"
+      },
+      "leaf buffer": {
+        "file": "Buff119.png",
+        "url": "assets/status/Buff119.webp",
+        "jp": "叶之护/葉の守護"
+      }
+    }
   },
   {
     "no": 389,
@@ -33809,7 +35225,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/389skin1.webp"
+    "art": "assets/art/389skin1.webp",
+    "statusIcons": {
+      "thunder aegis": {
+        "file": "Buff123.png",
+        "url": "assets/status/Buff123.webp",
+        "jp": "雷盾"
+      },
+      "thunder tomb": {
+        "file": "Debuff80.png",
+        "url": "assets/status/Debuff80.webp",
+        "jp": "雷塚"
+      }
+    }
   },
   {
     "no": 390,
@@ -33995,7 +35423,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/390skin1.webp"
+    "art": "assets/art/390skin1.webp",
+    "statusIcons": {
+      "power of the stars": {
+        "file": "Buff125.png",
+        "url": "assets/status/Buff125.webp",
+        "jp": "星辰の力"
+      }
+    }
   },
   {
     "no": 391,
@@ -34181,7 +35616,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/391skin1.webp"
+    "art": "assets/art/391skin1.webp",
+    "statusIcons": {
+      "soul binder": {
+        "file": "Debuff81.png",
+        "url": "assets/status/Debuff81.webp",
+        "jp": "縛魂香"
+      },
+      "distracted": {
+        "file": "Debuff83.png",
+        "url": "assets/status/Debuff83.webp",
+        "jp": "失神"
+      }
+    }
   },
   {
     "no": 392,
@@ -34444,7 +35891,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/392skin1.webp"
+    "art": "assets/art/392skin1.webp",
+    "statusIcons": {
+      "seasonal change": {
+        "file": "Buff127.png",
+        "url": "assets/status/Buff127.webp",
+        "jp": "四季流转/四季の流れ"
+      },
+      "season of rejuvenation": {
+        "file": "Buff128.png",
+        "url": "assets/status/Buff128.webp",
+        "jp": "岁时生息/季節の休息"
+      },
+      "seasonling": {
+        "file": "Unique35.png",
+        "url": "assets/status/Unique35.webp",
+        "jp": "季灵/季霊"
+      }
+    }
   },
   {
     "no": 393,
@@ -34630,7 +36094,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/393skin1.webp"
+    "art": "assets/art/393skin1.webp",
+    "statusIcons": {
+      "mirror's ward": {
+        "file": "Buff143.png",
+        "url": "assets/status/Buff143.webp",
+        "jp": "神鏡庇佑"
+      }
+    }
   },
   {
     "no": 394,
@@ -34816,7 +36287,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/394skin1.webp"
+    "art": "assets/art/394skin1.webp",
+    "statusIcons": {
+      "lost star": {
+        "file": "Debuff97.png",
+        "url": "assets/status/Debuff97.webp",
+        "jp": "惑星"
+      }
+    }
   },
   {
     "no": 395,
@@ -35002,7 +36480,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/395skin1.webp"
+    "art": "assets/art/395skin1.webp",
+    "statusIcons": {
+      "moonshine": {
+        "file": "Buff145.png",
+        "url": "assets/status/Buff145.webp",
+        "jp": "照君"
+      },
+      "glittering light": {
+        "file": "Unique42.png",
+        "url": "assets/status/Unique42.webp",
+        "jp": "流光"
+      },
+      "gathered glimmer": {
+        "file": "Buff146.png",
+        "url": "assets/status/Buff146.webp",
+        "jp": "集落光"
+      },
+      "radiance lost": {
+        "file": "Debuff96.png",
+        "url": "assets/status/Debuff96.webp",
+        "jp": "失彩"
+      }
+    }
   },
   {
     "no": 396,
@@ -35188,7 +36688,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/396skin1.webp"
+    "art": "assets/art/396skin1.webp",
+    "statusIcons": {
+      "web of souls": {
+        "file": "Buff147.png",
+        "url": "assets/status/Buff147.webp",
+        "jp": "魂网/魂の網"
+      },
+      "delirious": {
+        "file": "Debuff98.png",
+        "url": "assets/status/Debuff98.webp",
+        "jp": "失魂"
+      }
+    }
   },
   {
     "no": 397,
@@ -35369,7 +36881,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/397skin1.webp"
+    "art": "assets/art/397skin1.webp",
+    "statusIcons": {
+      "sugar": {
+        "file": "Buff151.png",
+        "url": "assets/status/Buff151.webp",
+        "jp": "糖分"
+      }
+    }
   },
   {
     "no": 398,
@@ -35550,7 +37069,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/398skin1.webp"
+    "art": "assets/art/398skin1.webp",
+    "statusIcons": {
+      "silence": {
+        "file": "Debuff29.png",
+        "jp": "SILENCE",
+        "url": "assets/status/Debuff29.webp"
+      },
+      "fear": {
+        "file": "Buff26.png",
+        "url": "assets/status/Buff26.webp",
+        "jp": "畏"
+      }
+    }
   },
   {
     "no": 399,
@@ -35748,7 +37279,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/399skin1.webp"
+    "art": "assets/art/399skin1.webp",
+    "statusIcons": {
+      "inkling": {
+        "file": "Buff148.png",
+        "url": "assets/status/Buff148.webp",
+        "jp": "墨灵/墨霊"
+      },
+      "faux orb": {
+        "file": "Unique45.png",
+        "url": "assets/status/Unique45.webp",
+        "jp": "义火/義火"
+      }
+    }
   },
   {
     "no": 400,
@@ -36672,7 +38215,14 @@
         "reward": "Shikigami No.406 ×10"
       }
     ],
-    "art": "assets/art/406skin1.webp"
+    "art": "assets/art/406skin1.webp",
+    "statusIcons": {
+      "drumbeat": {
+        "file": "Buff54.png",
+        "url": "assets/status/Buff54.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 407,
@@ -39254,7 +40804,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/427skin1.webp"
+    "art": "assets/art/427skin1.webp",
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 428,
@@ -40044,7 +41601,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/500skin1.webp"
+    "art": "assets/art/500skin1.webp",
+    "statusIcons": {
+      "straight man": {
+        "file": "Debuff102.png",
+        "url": "assets/status/Debuff102.webp",
+        "jp": "ツッコミ"
+      },
+      "sadaharu's heavy attack": {
+        "file": "Debuff101.png",
+        "url": "assets/status/Debuff101.webp",
+        "jp": "定春重撃"
+      },
+      "umbrella shield": {
+        "file": "Buff152.png",
+        "url": "assets/status/Buff152.webp",
+        "jp": "傘の盾"
+      }
+    }
   },
   {
     "no": 550,
@@ -40288,7 +41862,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/550skin1.webp"
+    "art": "assets/art/550skin1.webp",
+    "statusIcons": {
+      "disarm": {
+        "file": "Debuff107.png",
+        "url": "assets/status/Debuff107.webp",
+        "jp": "缴械"
+      },
+      "peacock plume": {
+        "file": "Buff155.png",
+        "url": "assets/status/Buff155.webp",
+        "jp": "孔雀翎"
+      }
+    }
   },
   {
     "no": 551,
@@ -40474,7 +42060,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/551skin1.webp"
+    "art": "assets/art/551skin1.webp",
+    "statusIcons": {
+      "sylvan soul": {
+        "file": "Debuff109.png",
+        "url": "assets/status/Debuff109.webp",
+        "jp": "森の霊"
+      },
+      "sylvan heart": {
+        "file": "Unique50.png",
+        "url": "assets/status/Unique50.webp",
+        "jp": "森の心"
+      },
+      "vinebound": {
+        "file": "Debuff110.png",
+        "url": "assets/status/Debuff110.webp",
+        "jp": "纒繞/絡みつく"
+      }
+    }
   },
   {
     "no": 552,
@@ -40643,7 +42246,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/552skin1.webp"
+    "art": "assets/art/552skin1.webp",
+    "statusIcons": {
+      "karmic hindrance": {
+        "file": "Debuff111.png",
+        "url": "assets/status/Debuff111.webp",
+        "jp": "業障"
+      }
+    }
   },
   {
     "no": 553,
@@ -40887,7 +42497,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/553skin1.webp"
+    "art": "assets/art/553skin1.webp",
+    "statusIcons": {
+      "burning heat": {
+        "file": "Debuff112.png",
+        "url": "assets/status/Debuff112.webp",
+        "jp": "灼烧/灼熱"
+      },
+      "bathed in fire": {
+        "file": "Buff161.png",
+        "url": "assets/status/Buff161.webp",
+        "jp": "火浣"
+      }
+    }
   },
   {
     "no": 554,
@@ -41080,7 +42702,29 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/554skin1.webp"
+    "art": "assets/art/554skin1.webp",
+    "statusIcons": {
+      "shelter": {
+        "file": "Buff56.png",
+        "url": "assets/status/Buff56.webp",
+        "jp": ""
+      },
+      "divine power": {
+        "file": "Buff157.png",
+        "url": "assets/status/Buff157.webp",
+        "jp": "神力"
+      },
+      "red earthly bond": {
+        "file": "Buff159.png",
+        "url": "assets/status/Buff159.webp",
+        "jp": "俗縁・赤"
+      },
+      "blue earthly bond": {
+        "file": "Buff158.png",
+        "url": "assets/status/Buff158.webp",
+        "jp": "俗縁・青"
+      }
+    }
   },
   {
     "no": 555,
@@ -41266,7 +42910,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/555skin1.webp"
+    "art": "assets/art/555skin1.webp",
+    "statusIcons": {
+      "seed": {
+        "file": "Buff163.png",
+        "url": "assets/status/Buff163.webp",
+        "jp": "種子"
+      }
+    }
   },
   {
     "no": 556,
@@ -41452,7 +43103,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/556skin1.webp"
+    "art": "assets/art/556skin1.webp",
+    "statusIcons": {
+      "heavenly radiance": {
+        "file": "Unique53.png",
+        "url": "assets/status/Unique53.webp",
+        "jp": "天晖/光暉"
+      },
+      "purged by light": {
+        "file": "Debuff113.png",
+        "url": "assets/status/Debuff113.webp",
+        "jp": "光涤/光滌"
+      }
+    }
   },
   {
     "no": 557,
@@ -41638,7 +43301,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/557skin1.webp"
+    "art": "assets/art/557skin1.webp",
+    "statusIcons": {
+      "wither": {
+        "file": "Indirect33.png",
+        "url": "assets/status/Indirect33.webp",
+        "jp": "凋零"
+      },
+      "destroyed": {
+        "file": "Unique54.png",
+        "url": "assets/status/Unique54.webp",
+        "jp": "毁灭/毁滅"
+      }
+    }
   },
   {
     "no": 558,
@@ -41824,7 +43499,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/558skin1.webp"
+    "art": "assets/art/558skin1.webp",
+    "statusIcons": {
+      "stolen": {
+        "file": "Buff165.png",
+        "url": "assets/status/Buff165.webp",
+        "jp": "盗取"
+      }
+    }
   },
   {
     "no": 559,
@@ -42022,7 +43704,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/559skin1.webp"
+    "art": "assets/art/559skin1.webp",
+    "statusIcons": {
+      "vulpine protection": {
+        "file": "Buff167.png",
+        "url": "assets/status/Buff167.webp",
+        "jp": "霊狐守護"
+      },
+      "heart's flame": {
+        "file": "Buff166.png",
+        "url": "assets/status/Buff166.webp",
+        "jp": "心焔"
+      },
+      "fox mark": {
+        "file": "Debuff118.png",
+        "url": "assets/status/Debuff118.webp",
+        "jp": "狐印/狐の印"
+      }
+    }
   },
   {
     "no": 560,
@@ -42301,7 +44000,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/561skin1.webp"
+    "art": "assets/art/561skin1.webp",
+    "statusIcons": {
+      "alert": {
+        "file": "Buff00.png",
+        "url": "assets/status/Buff00.webp",
+        "jp": "警戒"
+      },
+      "taki's pact": {
+        "file": "Unique55.png",
+        "url": "assets/status/Unique55.webp",
+        "jp": "泷之契/瀧の契"
+      },
+      "convoy": {
+        "file": "Buff171.png",
+        "url": "assets/status/Buff171.webp",
+        "jp": "护航/航行護衛"
+      }
+    }
   },
   {
     "no": 562,
@@ -42721,7 +44437,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/563skin1.webp"
+    "art": "assets/art/563skin1.webp",
+    "statusIcons": {
+      "tempo": {
+        "file": "Unique57.png",
+        "url": "assets/status/Unique57.webp",
+        "jp": "リズム"
+      },
+      "true rhythm": {
+        "file": "Buff176.png",
+        "url": "assets/status/Buff176.webp",
+        "jp": "心の弦"
+      }
+    }
   },
   {
     "no": 564,
@@ -43153,7 +44881,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/565skin1.webp"
+    "art": "assets/art/565skin1.webp",
+    "statusIcons": {
+      "parade lover": {
+        "file": "Buff173.png",
+        "url": "assets/status/Buff173.webp",
+        "jp": "福运/福運"
+      },
+      "fortune shelter": {
+        "file": "Buff173.png",
+        "url": "assets/status/Buff173.webp",
+        "jp": "福運・守"
+      }
+    }
   },
   {
     "no": 566,
@@ -44083,7 +45823,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/570skin1.webp"
+    "art": "assets/art/570skin1.webp",
+    "statusIcons": {
+      "veil of curse": {
+        "file": "Unique59.png",
+        "url": "assets/status/Unique59.webp",
+        "jp": "呪紗/呪織"
+      },
+      "corrosive curse": {
+        "file": "Debuff122.png",
+        "url": "assets/status/Debuff122.webp",
+        "jp": "咒蚀/呪蝕"
+      }
+    }
   },
   {
     "no": 572,
@@ -44269,7 +46021,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/572skin1.webp"
+    "art": "assets/art/572skin1.webp",
+    "statusIcons": {
+      "incorporeal smoke": {
+        "file": "Unique60.png",
+        "url": "assets/status/Unique60.webp",
+        "jp": "煙霧無形"
+      },
+      "smoke phantom": {
+        "file": "Debuff16.png",
+        "url": "assets/status/Debuff16.webp",
+        "jp": "烟之鬼"
+      }
+    }
   },
   {
     "no": 573,
@@ -44682,7 +46446,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/574skin1.webp"
+    "art": "assets/art/574skin1.webp",
+    "statusIcons": {
+      "sparrow's mark": {
+        "file": "Debuff124.png",
+        "url": "assets/status/Debuff124.webp",
+        "jp": "雀の印"
+      },
+      "critical defense": {
+        "file": "Unique62.png",
+        "url": "assets/status/Unique62.webp",
+        "jp": "会心守勢"
+      }
+    }
   },
   {
     "no": 575,
@@ -44916,7 +46692,24 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/575skin1.webp"
+    "art": "assets/art/575skin1.webp",
+    "statusIcons": {
+      "wanted criminal": {
+        "file": "Debuff125.png",
+        "url": "assets/status/Debuff125.webp",
+        "jp": "通缉"
+      },
+      "cold snow": {
+        "file": "Unique63.png",
+        "url": "assets/status/Unique63.webp",
+        "jp": "寒雪"
+      },
+      "clear sky": {
+        "file": "Unique64.png",
+        "url": "assets/status/Unique64.webp",
+        "jp": "晴空"
+      }
+    }
   },
   {
     "no": 576,
@@ -45259,7 +47052,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/577skin1.webp"
+    "art": "assets/art/577skin1.webp",
+    "statusIcons": {
+      "constellation puzzle": {
+        "file": "Debuff126.png",
+        "url": "assets/status/Debuff126.webp",
+        "jp": "长星锁"
+      }
+    }
   },
   {
     "no": 578,
@@ -45445,7 +47245,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/578skin1.webp"
+    "art": "assets/art/578skin1.webp",
+    "statusIcons": {
+      "(豪胆)": {
+        "file": "Buff188.png",
+        "url": "assets/status/Buff188.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 579,
@@ -45631,7 +47438,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/579skin1.webp"
+    "art": "assets/art/579skin1.webp",
+    "statusIcons": {
+      "genjo": {
+        "file": "Unique67.png",
+        "url": "assets/status/Unique67.webp",
+        "jp": "玄象"
+      }
+    }
   },
   {
     "no": 580,
@@ -45817,7 +47631,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/580skin1.webp"
+    "art": "assets/art/580skin1.webp",
+    "statusIcons": {
+      "teru teru bouzu": {
+        "file": "Buff191.png",
+        "url": "assets/status/Buff191.webp",
+        "jp": "霹雳娃娃"
+      },
+      "sunshine doll": {
+        "file": "Buff197.png",
+        "url": "assets/status/Buff197.webp",
+        "jp": "晴空娃娃"
+      }
+    }
   },
   {
     "no": 581,
@@ -46015,7 +47841,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/581skin1.webp"
+    "art": "assets/art/581skin1.webp",
+    "statusIcons": {
+      "flower memory": {
+        "file": "Debuff128.png",
+        "url": "assets/status/Debuff128.webp",
+        "jp": "花忆"
+      },
+      "boar, deer, butterflies": {
+        "file": "Unique68.png",
+        "url": "assets/status/Unique68.webp",
+        "jp": "猪鹿蝶"
+      }
+    }
   },
   {
     "no": 582,
@@ -46201,7 +48039,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/582skin1.webp"
+    "art": "assets/art/582skin1.webp",
+    "statusIcons": {
+      "chord": {
+        "file": "Unique70.png",
+        "url": "assets/status/Unique70.webp",
+        "jp": "和音"
+      },
+      "resonance wall": {
+        "file": "Unique15.png",
+        "url": "assets/status/Unique15.webp",
+        "jp": "共鸣之墙"
+      }
+    }
   },
   {
     "no": 583,
@@ -46358,7 +48208,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/583skin1.webp"
+    "art": "assets/art/583skin1.webp",
+    "statusIcons": {
+      "time radiance": {
+        "file": "Unique71.png",
+        "url": "assets/status/Unique71.webp",
+        "jp": ""
+      },
+      "time seam": {
+        "file": "Debuff130.png",
+        "url": "assets/status/Debuff130.webp",
+        "jp": "时之缝"
+      }
+    }
   },
   {
     "no": 584,
@@ -46544,7 +48406,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/584skin1.webp"
+    "art": "assets/art/584skin1.webp",
+    "statusIcons": {
+      "recall": {
+        "file": "Unique73.png",
+        "url": "assets/status/Unique73.webp",
+        "jp": "回溯"
+      },
+      "moment of silence": {
+        "file": "Debuff131.png",
+        "url": "assets/status/Debuff131.webp",
+        "jp": "时寂之刻"
+      }
+    }
   },
   {
     "no": 585,
@@ -46730,7 +48604,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/585skin1.webp"
+    "art": "assets/art/585skin1.webp",
+    "statusIcons": {
+      "blood red flower": {
+        "file": "Unique74.png",
+        "url": "assets/status/Unique74.webp",
+        "jp": "血色之花"
+      }
+    }
   },
   {
     "no": 586,
@@ -46928,7 +48809,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/586skin1.webp"
+    "art": "assets/art/586skin1.webp",
+    "statusIcons": {
+      "scorching fire": {
+        "file": "Indirect38.png",
+        "url": "assets/status/Indirect38.webp",
+        "jp": "炙烤"
+      },
+      "burning wick": {
+        "file": "Unique76.png",
+        "url": "assets/status/Unique76.webp",
+        "jp": "熔芯"
+      }
+    }
   },
   {
     "no": 571,
@@ -47114,7 +49007,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/571skin1.webp"
+    "art": "assets/art/571skin1.webp",
+    "statusIcons": {
+      "lurking shark": {
+        "file": "Unique77.png",
+        "url": "assets/status/Unique77.webp",
+        "jp": "暗鲨"
+      }
+    }
   },
   {
     "no": 587,
@@ -47387,7 +49287,19 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/587skin1.webp"
+    "art": "assets/art/587skin1.webp",
+    "statusIcons": {
+      "magical power": {
+        "file": "Buff198.png",
+        "url": "assets/status/Buff198.webp",
+        "jp": "魔力"
+      },
+      "mirage": {
+        "file": "Debuff132.png",
+        "url": "assets/status/Debuff132.webp",
+        "jp": "幻影"
+      }
+    }
   },
   {
     "no": 588,
@@ -47660,7 +49572,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/588skin1.webp"
+    "art": "assets/art/588skin1.webp",
+    "statusIcons": {
+      "ofuda": {
+        "file": "Buff196.png",
+        "url": "assets/status/Buff196.webp",
+        "jp": "道符"
+      }
+    }
   },
   {
     "no": 590,
@@ -47858,7 +49777,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/590skin1.webp"
+    "art": "assets/art/590skin1.webp",
+    "statusIcons": {
+      "cat vengeance": {
+        "file": "Debuff56.png",
+        "url": "assets/status/Debuff56.webp",
+        "jp": "九命猫・復習"
+      }
+    }
   },
   {
     "no": 591,
@@ -48044,7 +49970,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/591skin1.webp"
+    "art": "assets/art/591skin1.webp",
+    "statusIcons": {
+      "snowy edge": {
+        "file": "Buff200.png",
+        "url": "assets/status/Buff200.webp",
+        "jp": "巫灵雪刃"
+      }
+    }
   },
   {
     "no": 592,
@@ -48315,7 +50248,14 @@
         ],
         "group": "Special"
       }
-    ]
+    ],
+    "statusIcons": {
+      "shield": {
+        "file": "Buff52.png",
+        "url": "assets/status/Buff52.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 595,
@@ -48447,7 +50387,14 @@
         ],
         "group": "Special"
       }
-    ]
+    ],
+    "statusIcons": {
+      "amulet": {
+        "file": "Buff74.png",
+        "url": "assets/status/Buff74.webp",
+        "jp": "呪符"
+      }
+    }
   },
   {
     "no": 596,
@@ -49034,7 +50981,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/598skin1.webp"
+    "art": "assets/art/598skin1.webp",
+    "statusIcons": {
+      "full bloom": {
+        "file": "Unique87.png",
+        "url": "assets/status/Unique87.webp",
+        "jp": "盛放"
+      }
+    }
   },
   {
     "no": 599,
@@ -49232,7 +51186,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/599skin1.webp"
+    "art": "assets/art/599skin1.webp",
+    "statusIcons": {
+      "bathed in fire": {
+        "file": "Buff161.png",
+        "url": "assets/status/Buff161.webp",
+        "jp": "火浣"
+      }
+    }
   },
   {
     "no": 600,
@@ -49827,7 +51788,14 @@
         "reward": ""
       }
     ],
-    "art": "assets/art/602skin1.webp"
+    "art": "assets/art/602skin1.webp",
+    "statusIcons": {
+      "shelter": {
+        "file": "Buff56.png",
+        "url": "assets/status/Buff56.webp",
+        "jp": ""
+      }
+    }
   },
   {
     "no": 603,

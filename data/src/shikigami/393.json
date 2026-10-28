@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/393skin1.webp"
+  "art": "assets/art/393skin1.webp",
+  "statusIcons": {
+    "mirror's ward": {
+      "file": "Buff143.png",
+      "url": "assets/status/Buff143.webp",
+      "jp": "神鏡庇佑"
+    }
+  }
 }

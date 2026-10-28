@@ -227,5 +227,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "grow up": {
+      "file": "Buff72.png",
+      "url": "assets/status/Buff72.webp",
+      "jp": "早く大きくなって"
+    }
   }
 }

@@ -204,5 +204,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "fox fury mark": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "狐の印"
+    }
   }
 }

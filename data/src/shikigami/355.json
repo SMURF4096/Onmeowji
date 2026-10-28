@@ -217,5 +217,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "mountain's erosion": {
+      "file": "Debuff55.png",
+      "url": "assets/status/Debuff55.webp",
+      "jp": "麓蝕"
+    },
+    "mountain's crush": {
+      "file": "Debuff54.png",
+      "url": "assets/status/Debuff54.webp",
+      "jp": "麓圧"
+    },
+    "mountain's boom": {
+      "file": "Unique18.png",
+      "url": "assets/status/Unique18.webp",
+      "jp": "麓沢"
+    }
   }
 }

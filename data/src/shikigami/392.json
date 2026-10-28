@@ -259,5 +259,22 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/392skin1.webp"
+  "art": "assets/art/392skin1.webp",
+  "statusIcons": {
+    "seasonal change": {
+      "file": "Buff127.png",
+      "url": "assets/status/Buff127.webp",
+      "jp": "四季流转/四季の流れ"
+    },
+    "season of rejuvenation": {
+      "file": "Buff128.png",
+      "url": "assets/status/Buff128.webp",
+      "jp": "岁时生息/季節の休息"
+    },
+    "seasonling": {
+      "file": "Unique35.png",
+      "url": "assets/status/Unique35.webp",
+      "jp": "季灵/季霊"
+    }
+  }
 }

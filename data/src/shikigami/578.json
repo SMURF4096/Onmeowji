@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/578skin1.webp"
+  "art": "assets/art/578skin1.webp",
+  "statusIcons": {
+    "(豪胆)": {
+      "file": "Buff188.png",
+      "url": "assets/status/Buff188.webp",
+      "jp": ""
+    }
+  }
 }

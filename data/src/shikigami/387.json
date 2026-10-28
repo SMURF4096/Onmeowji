@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/387skin1.webp"
+  "art": "assets/art/387skin1.webp",
+  "statusIcons": {
+    "awareness": {
+      "file": "Buff122.png",
+      "url": "assets/status/Buff122.webp",
+      "jp": "識覚"
+    }
+  }
 }

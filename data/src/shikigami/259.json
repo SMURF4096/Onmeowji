@@ -207,5 +207,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "forest vines": {
+      "file": "Debuff23.png",
+      "url": "assets/status/Debuff23.webp",
+      "jp": "森の力"
+    },
+    "circle of life": {
+      "file": "Buff73.png",
+      "url": "assets/status/Buff73.webp",
+      "jp": "生生流転"
+    }
   }
 }

@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "blooming": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "満開"
+    }
   }
 }

@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "obligated duty": {
+      "file": "Buff69.png",
+      "url": "assets/status/Buff69.webp",
+      "jp": "義の心"
+    },
+    "mountain's barrier": {
+      "file": "Buff53.png",
+      "url": "assets/status/Buff53.webp",
+      "jp": "麓障"
+    }
   }
 }

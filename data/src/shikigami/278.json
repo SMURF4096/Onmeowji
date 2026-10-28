@@ -183,5 +183,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "protection of shiro": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "白の守り"
+    }
   }
 }

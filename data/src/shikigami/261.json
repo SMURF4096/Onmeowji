@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "continuous damage": {
+      "file": "Debuff00.png",
+      "url": "assets/status/Debuff00.webp",
+      "jp": ""
+    },
+    "nitaro's whistle": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "二太郎指笛"
+    },
+    "santaro's whistle": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "三太郎指笛"
+    }
   }
 }

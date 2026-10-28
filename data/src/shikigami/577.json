@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/577skin1.webp"
+  "art": "assets/art/577skin1.webp",
+  "statusIcons": {
+    "constellation puzzle": {
+      "file": "Debuff126.png",
+      "url": "assets/status/Debuff126.webp",
+      "jp": "长星锁"
+    }
+  }
 }

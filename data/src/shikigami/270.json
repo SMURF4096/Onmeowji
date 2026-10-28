@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "arachnid venom": {
+      "file": "Indirect22.png",
+      "url": "assets/status/Indirect22.webp",
+      "jp": "喰心毒液"
+    }
   }
 }

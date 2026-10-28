@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/375skin1.webp"
+  "art": "assets/art/375skin1.webp",
+  "statusIcons": {
+    "shadowprey": {
+      "file": "Debuff75.png",
+      "url": "assets/status/Debuff75.webp",
+      "jp": "影食"
+    }
+  }
 }

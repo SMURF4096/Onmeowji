@@ -191,5 +191,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "soar into the clouds": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "雲を貫く"
+    },
+    "chasing the wind": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "逐風"
+    }
   }
 }

@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "death penalty": {
+      "file": "Indirect23.png",
+      "url": "assets/status/Indirect23.webp",
+      "jp": "死亡裁決"
+    }
   }
 }

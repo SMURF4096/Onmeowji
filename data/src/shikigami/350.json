@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "scorpion venom": {
+      "file": "Indirect28.png",
+      "url": "assets/status/Indirect28.webp",
+      "jp": "蠍毒"
+    }
   }
 }

@@ -220,5 +220,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "light drain": {
+      "file": "Debuff51.png",
+      "url": "assets/status/Debuff51.webp",
+      "jp": "奪火"
+    },
+    "unextinguished": {
+      "file": "Buff68.png",
+      "url": "assets/status/Buff68.webp",
+      "jp": "不滅"
+    }
   }
 }

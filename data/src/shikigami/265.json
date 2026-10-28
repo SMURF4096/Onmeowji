@@ -191,5 +191,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "fury fire": {
+      "file": "Buff23.png",
+      "url": "assets/status/Buff23.webp",
+      "jp": "怒りの炎"
+    },
+    "demonic arm": {
+      "file": "Buff154.png",
+      "url": "assets/status/Buff154.webp",
+      "jp": "鬼の手"
+    }
   }
 }

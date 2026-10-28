@@ -177,5 +177,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/397skin1.webp"
+  "art": "assets/art/397skin1.webp",
+  "statusIcons": {
+    "sugar": {
+      "file": "Buff151.png",
+      "url": "assets/status/Buff151.webp",
+      "jp": "糖分"
+    }
+  }
 }

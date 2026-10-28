@@ -242,5 +242,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/565skin1.webp"
+  "art": "assets/art/565skin1.webp",
+  "statusIcons": {
+    "parade lover": {
+      "file": "Buff173.png",
+      "url": "assets/status/Buff173.webp",
+      "jp": "福运/福運"
+    },
+    "fortune shelter": {
+      "file": "Buff173.png",
+      "url": "assets/status/Buff173.webp",
+      "jp": "福運・守"
+    }
+  }
 }

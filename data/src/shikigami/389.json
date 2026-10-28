@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/389skin1.webp"
+  "art": "assets/art/389skin1.webp",
+  "statusIcons": {
+    "thunder aegis": {
+      "file": "Buff123.png",
+      "url": "assets/status/Buff123.webp",
+      "jp": "雷盾"
+    },
+    "thunder tomb": {
+      "file": "Debuff80.png",
+      "url": "assets/status/Debuff80.webp",
+      "jp": "雷塚"
+    }
+  }
 }

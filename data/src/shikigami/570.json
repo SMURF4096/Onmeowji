@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/570skin1.webp"
+  "art": "assets/art/570skin1.webp",
+  "statusIcons": {
+    "veil of curse": {
+      "file": "Unique59.png",
+      "url": "assets/status/Unique59.webp",
+      "jp": "呪紗/呪織"
+    },
+    "corrosive curse": {
+      "file": "Debuff122.png",
+      "url": "assets/status/Debuff122.webp",
+      "jp": "咒蚀/呪蝕"
+    }
+  }
 }

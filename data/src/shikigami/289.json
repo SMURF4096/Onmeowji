@@ -207,5 +207,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "carrot": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "ニンジン"
+    }
   }
 }

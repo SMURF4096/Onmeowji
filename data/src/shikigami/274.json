@@ -199,5 +199,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "prank": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "悪戯"
+    }
   }
 }

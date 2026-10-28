@@ -191,5 +191,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "shelter": {
+      "file": "Buff56.png",
+      "url": "assets/status/Buff56.webp",
+      "jp": ""
+    },
+    "fateful bond": {
+      "file": "Buff65.png",
+      "url": "assets/status/Buff65.webp",
+      "jp": "縁"
+    },
+    "frustration": {
+      "file": "Buff66.png",
+      "url": "assets/status/Buff66.webp",
+      "jp": "怒った"
+    }
   }
 }

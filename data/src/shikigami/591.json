@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/591skin1.webp"
+  "art": "assets/art/591skin1.webp",
+  "statusIcons": {
+    "snowy edge": {
+      "file": "Buff200.png",
+      "url": "assets/status/Buff200.webp",
+      "jp": "巫灵雪刃"
+    }
+  }
 }

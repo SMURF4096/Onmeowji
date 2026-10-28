@@ -207,5 +207,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "morale boost": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": ""
+    }
   }
 }

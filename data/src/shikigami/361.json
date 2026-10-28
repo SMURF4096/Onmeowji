@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 60
     }
+  },
+  "statusIcons": {
+    "soot balls": {
+      "file": "Buff131.png",
+      "url": "assets/status/Buff131.webp",
+      "jp": "カビの玉"
+    }
   }
 }

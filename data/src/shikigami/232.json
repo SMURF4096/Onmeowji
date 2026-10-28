@@ -191,5 +191,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "money fling": {
+      "file": "Debuff45.png",
+      "url": "assets/status/Debuff45.webp",
+      "jp": "銭撃"
+    },
+    "bribed": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "買収"
+    },
+    "flaw": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "隙あり"
+    }
   }
 }

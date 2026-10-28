@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "crimson breath": {
+      "file": "Buff12.png",
+      "url": "assets/status/Buff12.webp",
+      "jp": "赤影の息"
+    }
   }
 }

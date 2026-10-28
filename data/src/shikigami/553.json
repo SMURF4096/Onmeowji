@@ -240,5 +240,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/553skin1.webp"
+  "art": "assets/art/553skin1.webp",
+  "statusIcons": {
+    "burning heat": {
+      "file": "Debuff112.png",
+      "url": "assets/status/Debuff112.webp",
+      "jp": "灼烧/灼熱"
+    },
+    "bathed in fire": {
+      "file": "Buff161.png",
+      "url": "assets/status/Buff161.webp",
+      "jp": "火浣"
+    }
+  }
 }

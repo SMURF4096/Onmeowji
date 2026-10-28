@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "firewater": {
+      "file": "Indirect09.png",
+      "url": "assets/status/Indirect09.webp",
+      "jp": "酒火"
+    }
   }
 }

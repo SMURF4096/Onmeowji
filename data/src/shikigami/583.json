@@ -153,5 +153,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/583skin1.webp"
+  "art": "assets/art/583skin1.webp",
+  "statusIcons": {
+    "time radiance": {
+      "file": "Unique71.png",
+      "url": "assets/status/Unique71.webp",
+      "jp": ""
+    },
+    "time seam": {
+      "file": "Debuff130.png",
+      "url": "assets/status/Debuff130.webp",
+      "jp": "时之缝"
+    }
+  }
 }

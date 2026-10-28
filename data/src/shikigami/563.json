@@ -230,5 +230,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/563skin1.webp"
+  "art": "assets/art/563skin1.webp",
+  "statusIcons": {
+    "tempo": {
+      "file": "Unique57.png",
+      "url": "assets/status/Unique57.webp",
+      "jp": "リズム"
+    },
+    "true rhythm": {
+      "file": "Buff176.png",
+      "url": "assets/status/Buff176.webp",
+      "jp": "心の弦"
+    }
+  }
 }

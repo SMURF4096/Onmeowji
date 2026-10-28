@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "haunting souls": {
+      "file": "Indirect07.png",
+      "url": "assets/status/Indirect07.webp",
+      "jp": "亡魂憑依"
+    }
   }
 }

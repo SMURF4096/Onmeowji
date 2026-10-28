@@ -220,5 +220,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "tailed": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "凝視"
+    },
+    "buddy!": {
+      "file": "Buff150.png",
+      "url": "assets/status/Buff150.webp",
+      "jp": "友よ！"
+    }
   }
 }

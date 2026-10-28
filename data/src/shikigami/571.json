@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/571skin1.webp"
+  "art": "assets/art/571skin1.webp",
+  "statusIcons": {
+    "lurking shark": {
+      "file": "Unique77.png",
+      "url": "assets/status/Unique77.webp",
+      "jp": "暗鲨"
+    }
+  }
 }

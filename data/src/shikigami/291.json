@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "heavenly scroll： heart assault": {
+      "file": "Indirect24.png",
+      "url": "assets/status/Indirect24.webp",
+      "jp": ""
+    }
   }
 }

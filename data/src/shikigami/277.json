@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "revenant": {
+      "file": "Unique82.png",
+      "url": "assets/status/Unique82.webp",
+      "jp": ""
+    }
   }
 }

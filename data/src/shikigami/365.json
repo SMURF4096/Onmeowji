@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "decayed blood": {
+      "file": "Buff94.png",
+      "url": "assets/status/Buff94.webp",
+      "jp": "腐血"
+    },
+    "possess": {
+      "file": "Buff93.png",
+      "url": "assets/status/Buff93.webp",
+      "jp": "附身/憑依"
+    }
   }
 }

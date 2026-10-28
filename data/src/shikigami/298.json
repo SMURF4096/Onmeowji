@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "alert": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "警戒"
+    },
+    "owl's dance": {
+      "file": "Buff00.png",
+      "url": "assets/status/Buff00.webp",
+      "jp": "梟の舞"
+    }
   }
 }

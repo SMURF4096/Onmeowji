@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "divine light": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "仏の力"
+    }
   }
 }

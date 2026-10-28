@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "shadow stealth": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": ""
+    },
+    "stealth protection": {
+      "file": "Buff13.png",
+      "url": "assets/status/Buff13.webp",
+      "jp": ""
+    }
   }
 }

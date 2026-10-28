@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/579skin1.webp"
+  "art": "assets/art/579skin1.webp",
+  "statusIcons": {
+    "genjo": {
+      "file": "Unique67.png",
+      "url": "assets/status/Unique67.webp",
+      "jp": "玄象"
+    }
+  }
 }

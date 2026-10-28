@@ -268,5 +268,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "unholy force": {
+      "file": "Buff17.png",
+      "url": "assets/status/Buff17.webp",
+      "jp": "不浄の力"
+    },
+    "all senses fail": {
+      "file": "Debuff05.png",
+      "url": "assets/status/Debuff05.webp",
+      "jp": "五感喪失"
+    }
   }
 }

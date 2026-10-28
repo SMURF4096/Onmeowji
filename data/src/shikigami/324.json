@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "teeth armor": {
+      "file": "Buff18.png",
+      "url": "assets/status/Buff18.webp",
+      "jp": "鯨の牙"
+    },
+    "body armor": {
+      "file": "Buff06.png",
+      "url": "assets/status/Buff06.webp",
+      "jp": "鯨鎧"
+    }
   }
 }

@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "soul rift": {
+      "file": "Indirect20.png",
+      "url": "assets/status/Indirect20.webp",
+      "jp": "魂隙"
+    }
   }
 }

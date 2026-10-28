@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "diamond sutra": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "金剛経"
+    }
   }
 }

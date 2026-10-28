@@ -191,5 +191,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "ice mark": {
+      "file": "Debuff36.png",
+      "url": "assets/status/Debuff36.webp",
+      "jp": ""
+    }
   }
 }

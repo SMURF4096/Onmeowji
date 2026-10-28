@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/399skin1.webp"
+  "art": "assets/art/399skin1.webp",
+  "statusIcons": {
+    "inkling": {
+      "file": "Buff148.png",
+      "url": "assets/status/Buff148.webp",
+      "jp": "墨灵/墨霊"
+    },
+    "faux orb": {
+      "file": "Unique45.png",
+      "url": "assets/status/Unique45.webp",
+      "jp": "义火/義火"
+    }
+  }
 }

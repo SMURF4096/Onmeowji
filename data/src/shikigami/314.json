@@ -220,5 +220,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "weakened after resurrection": {
+      "file": "Unique10.png",
+      "url": "assets/status/Unique10.webp",
+      "jp": "復活結界による衰弱"
+    },
+    "fractured mark": {
+      "file": "Debuff32.png",
+      "url": "assets/status/Debuff32.webp",
+      "jp": "破裂の印"
+    }
   }
 }

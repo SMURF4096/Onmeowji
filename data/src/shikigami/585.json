@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/585skin1.webp"
+  "art": "assets/art/585skin1.webp",
+  "statusIcons": {
+    "blood red flower": {
+      "file": "Unique74.png",
+      "url": "assets/status/Unique74.webp",
+      "jp": "血色之花"
+    }
+  }
 }

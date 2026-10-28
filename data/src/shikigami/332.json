@@ -261,5 +261,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "bone shield": {
+      "file": "Buff79.png",
+      "url": "assets/status/Buff79.webp",
+      "jp": "骨盾"
+    },
+    "double crit": {
+      "file": "Buff39.png",
+      "url": "assets/status/Buff39.webp",
+      "jp": ""
+    }
   }
 }

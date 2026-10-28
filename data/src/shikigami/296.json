@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "trapped beast": {
+      "file": "Buff51.png",
+      "url": "assets/status/Buff51.webp",
+      "jp": "困獣"
+    },
+    "laceration": {
+      "file": "Indirect13.png",
+      "url": "assets/status/Indirect13.webp",
+      "jp": "引き裂き"
+    }
   }
 }

@@ -194,5 +194,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/376skin1.webp"
+  "art": "assets/art/376skin1.webp",
+  "statusIcons": {
+    "holy fire": {
+      "file": "Buff107.png",
+      "url": "assets/status/Buff107.webp",
+      "jp": "神火"
+    }
+  }
 }

@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/558skin1.webp"
+  "art": "assets/art/558skin1.webp",
+  "statusIcons": {
+    "stolen": {
+      "file": "Buff165.png",
+      "url": "assets/status/Buff165.webp",
+      "jp": "盗取"
+    }
+  }
 }

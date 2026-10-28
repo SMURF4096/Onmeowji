@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/586skin1.webp"
+  "art": "assets/art/586skin1.webp",
+  "statusIcons": {
+    "scorching fire": {
+      "file": "Indirect38.png",
+      "url": "assets/status/Indirect38.webp",
+      "jp": "炙烤"
+    },
+    "burning wick": {
+      "file": "Unique76.png",
+      "url": "assets/status/Unique76.webp",
+      "jp": "熔芯"
+    }
+  }
 }

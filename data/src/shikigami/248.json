@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "empowering flow": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "逐流"
+    },
+    "reign": {
+      "file": "Buff192.png",
+      "url": "assets/status/Buff192.webp",
+      "jp": "君臨"
+    },
+    "isolation": {
+      "file": "Debuff18.png",
+      "jp": "ISOLATION",
+      "url": "assets/status/Debuff18.webp"
+    }
   }
 }

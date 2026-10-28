@@ -191,5 +191,27 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "amulet": {
+      "file": "Buff74.png",
+      "url": "assets/status/Buff74.webp",
+      "jp": "呪符"
+    },
+    "amulet of exorcism": {
+      "file": "Debuff10.png",
+      "url": "assets/status/Debuff10.webp",
+      "jp": "破魔"
+    },
+    "shikon seal": {
+      "file": "Debuff42.png",
+      "url": "assets/status/Debuff42.webp",
+      "jp": "四魂封印"
+    },
+    "soul barrier": {
+      "file": "Buff52.png",
+      "url": "assets/status/Buff52.webp",
+      "jp": "霊魂結界"
+    }
   }
 }

@@ -208,5 +208,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "blade of the mind": {
+      "file": "Buff106.png",
+      "url": "assets/status/Buff106.webp",
+      "jp": "心剣"
+    },
+    "shadow cut": {
+      "file": "Debuff02.png",
+      "url": "assets/status/Debuff02.webp",
+      "jp": "影切"
+    },
+    "endangered": {
+      "file": "Debuff01.png",
+      "url": "assets/status/Debuff01.webp",
+      "jp": "危"
+    }
   }
 }

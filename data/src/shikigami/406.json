@@ -157,5 +157,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "drumbeat": {
+      "file": "Buff54.png",
+      "url": "assets/status/Buff54.webp",
+      "jp": ""
+    }
   }
 }

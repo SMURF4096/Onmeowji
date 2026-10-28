@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/370skin1.webp"
+  "art": "assets/art/370skin1.webp",
+  "statusIcons": {
+    "grain reserve": {
+      "file": "Unique25.png",
+      "url": "assets/status/Unique25.webp",
+      "jp": "不動穀"
+    },
+    "huge appetite": {
+      "file": "Buff103.png",
+      "url": "assets/status/Buff103.webp",
+      "jp": "食欲増進"
+    }
+  }
 }

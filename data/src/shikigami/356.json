@@ -220,5 +220,22 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "tidal dream": {
+      "file": "Debuff57.png",
+      "url": "assets/status/Debuff57.webp",
+      "jp": "汐夢"
+    },
+    "sound of the tides": {
+      "file": "Buff81.png",
+      "url": "assets/status/Buff81.webp",
+      "jp": "潮声"
+    },
+    "dirge": {
+      "file": "Buff83.png",
+      "url": "assets/status/Buff83.webp",
+      "jp": "悲歌"
+    }
   }
 }

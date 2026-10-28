@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "dance of recovery": {
+      "file": "Buff41.png",
+      "url": "assets/status/Buff41.webp",
+      "jp": "蘇生の舞"
+    },
+    "cherry blossom": {
+      "file": "Indirect06.png",
+      "url": "assets/status/Indirect06.webp",
+      "jp": "桜吹雪"
+    }
   }
 }

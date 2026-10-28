@@ -182,5 +182,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/555skin1.webp"
+  "art": "assets/art/555skin1.webp",
+  "statusIcons": {
+    "seed": {
+      "file": "Buff163.png",
+      "url": "assets/status/Buff163.webp",
+      "jp": "種子"
+    }
+  }
 }

@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/572skin1.webp"
+  "art": "assets/art/572skin1.webp",
+  "statusIcons": {
+    "incorporeal smoke": {
+      "file": "Unique60.png",
+      "url": "assets/status/Unique60.webp",
+      "jp": "煙霧無形"
+    },
+    "smoke phantom": {
+      "file": "Debuff16.png",
+      "url": "assets/status/Debuff16.webp",
+      "jp": "烟之鬼"
+    }
+  }
 }

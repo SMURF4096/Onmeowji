@@ -269,5 +269,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/588skin1.webp"
+  "art": "assets/art/588skin1.webp",
+  "statusIcons": {
+    "ofuda": {
+      "file": "Buff196.png",
+      "url": "assets/status/Buff196.webp",
+      "jp": "道符"
+    }
+  }
 }

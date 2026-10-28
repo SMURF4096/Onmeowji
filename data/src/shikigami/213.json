@@ -204,5 +204,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "feather shelter": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "羽の加護"
+    },
+    "protection of fate": {
+      "file": "Buff50.png",
+      "url": "assets/status/Buff50.webp",
+      "jp": "命の加護"
+    }
   }
 }

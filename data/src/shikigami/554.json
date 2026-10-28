@@ -189,5 +189,27 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/554skin1.webp"
+  "art": "assets/art/554skin1.webp",
+  "statusIcons": {
+    "shelter": {
+      "file": "Buff56.png",
+      "url": "assets/status/Buff56.webp",
+      "jp": ""
+    },
+    "divine power": {
+      "file": "Buff157.png",
+      "url": "assets/status/Buff157.webp",
+      "jp": "神力"
+    },
+    "red earthly bond": {
+      "file": "Buff159.png",
+      "url": "assets/status/Buff159.webp",
+      "jp": "俗縁・赤"
+    },
+    "blue earthly bond": {
+      "file": "Buff158.png",
+      "url": "assets/status/Buff158.webp",
+      "jp": "俗縁・青"
+    }
+  }
 }

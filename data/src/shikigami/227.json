@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "hardened": {
+      "file": "Buff32.png",
+      "url": "assets/status/Buff32.webp",
+      "jp": "石化"
+    }
   }
 }

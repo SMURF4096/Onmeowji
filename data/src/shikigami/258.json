@@ -208,5 +208,27 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "wind fury": {
+      "file": "Indirect21.png",
+      "url": "assets/status/Indirect21.webp",
+      "jp": "風の怒り"
+    },
+    "eyes of wrath：thunder": {
+      "file": "Debuff34.png",
+      "url": "assets/status/Debuff34.webp",
+      "jp": "雷の怒目"
+    },
+    "eyes of wrath：wind": {
+      "file": "Debuff35.png",
+      "url": "assets/status/Debuff35.webp",
+      "jp": "風の怒目"
+    },
+    "vortex assault": {
+      "file": "Indirect21.png",
+      "url": "assets/status/Indirect21.webp",
+      "jp": "風の襲撃"
+    }
   }
 }

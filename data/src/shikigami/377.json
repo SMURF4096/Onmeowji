@@ -194,5 +194,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/377skin1.webp"
+  "art": "assets/art/377skin1.webp",
+  "statusIcons": {
+    "ninja mines": {
+      "file": "Buff108.png",
+      "url": "assets/status/Buff108.webp",
+      "jp": "迷兔炸弹/迷兎爆弾"
+    },
+    "ninja tricks": {
+      "file": "Unique29.png",
+      "url": "assets/status/Unique29.webp",
+      "jp": "梦忍法/夢忍法"
+    }
+  }
 }

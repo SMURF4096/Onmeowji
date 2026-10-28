@@ -208,5 +208,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "maple doll": {
+      "file": "Indirect15.png",
+      "url": "assets/status/Indirect15.webp",
+      "jp": "紅葉の人形"
+    }
   }
 }

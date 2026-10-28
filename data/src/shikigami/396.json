@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/396skin1.webp"
+  "art": "assets/art/396skin1.webp",
+  "statusIcons": {
+    "web of souls": {
+      "file": "Buff147.png",
+      "url": "assets/status/Buff147.webp",
+      "jp": "魂网/魂の網"
+    },
+    "delirious": {
+      "file": "Debuff98.png",
+      "url": "assets/status/Debuff98.webp",
+      "jp": "失魂"
+    }
+  }
 }

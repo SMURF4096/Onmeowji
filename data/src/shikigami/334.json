@@ -208,5 +208,17 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "unflinching": {
+      "file": "Buff80.png",
+      "url": "assets/status/Buff80.webp",
+      "jp": "不動の守護"
+    },
+    "sea fury": {
+      "file": "Buff21.png",
+      "url": "assets/status/Buff21.webp",
+      "jp": "海の怒り"
+    }
   }
 }

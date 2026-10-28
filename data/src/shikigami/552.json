@@ -165,5 +165,12 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/552skin1.webp"
+  "art": "assets/art/552skin1.webp",
+  "statusIcons": {
+    "karmic hindrance": {
+      "file": "Debuff111.png",
+      "url": "assets/status/Debuff111.webp",
+      "jp": "業障"
+    }
+  }
 }

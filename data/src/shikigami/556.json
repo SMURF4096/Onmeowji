@@ -182,5 +182,17 @@
       "reward": ""
     }
   ],
-  "art": "assets/art/556skin1.webp"
+  "art": "assets/art/556skin1.webp",
+  "statusIcons": {
+    "heavenly radiance": {
+      "file": "Unique53.png",
+      "url": "assets/status/Unique53.webp",
+      "jp": "天晖/光暉"
+    },
+    "purged by light": {
+      "file": "Debuff113.png",
+      "url": "assets/status/Debuff113.webp",
+      "jp": "光涤/光滌"
+    }
+  }
 }

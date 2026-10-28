@@ -295,5 +295,12 @@
       "effhit": 0,
       "effres": 0
     }
+  },
+  "statusIcons": {
+    "sorrowful state": {
+      "file": "Unique14.png",
+      "url": "assets/status/Unique14.webp",
+      "jp": "離別"
+    }
   }
 }
