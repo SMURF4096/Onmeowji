@@ -1110,6 +1110,89 @@ function renderCalendar() {
     drawCalendar();
     if (!picker?.hidden) closePicker();
   });
+
+  renderSecretZones();
+}
+
+/* ============ Speed Challenge Secret Zone — weekly rotation, cutoff Sun 23:59 EST ============ */
+/* Rotation order as provided by the user; images are temporary shikigami portraits. */
+const SECRET_ZONES = [
+  { en: "Arakawa's Fury",   shiki: "Arakawa no Aruji", rarity: "SSR", no: 248 },
+  { en: "Ubume's Shield",   shiki: "Ubume",            rarity: "SR",  no: 262 },
+  { en: "Hopping Rage",     shiki: "Yama Usagi",       rarity: "R",   no: 237 },
+  { en: "Shishio's Wake",   shiki: "Shishio",          rarity: "SSR", no: 259 },
+  { en: "Aoandon Tales",    shiki: "Aoandon",          rarity: "SSR", no: 266 },
+  { en: "Bond of Momiji",   shiki: "Kijo Momiji",      rarity: "SR",  no: 231 },
+  { en: "Cry me a River",   shiki: "Ame Onna",         rarity: "R",   no: 224 },
+  { en: "Summer Poem",      shiki: "Kamaitachi",       rarity: "SR",  no: 261 },
+  { en: "Blade's secret",   shiki: "Youtou Hime",      rarity: "SSR", no: 269 },
+  { en: "Riverside Tales",  shiki: "Kappa",            rarity: "R",   no: 209 },
+];
+/* Anchor: the week starting Mon 2026-10-26 EST (ending Sun 2026-11-01 23:59) is zone index 0.
+   If the live rotation is offset, shift this date by whole weeks. */
+const ZONE_REF = Date.UTC(2026, 9, 26);
+const ZONE_WEEK = 7 * 864e5;
+
+/* instant of the next Sunday 23:59:59.999 EST strictly after `now` (EST wall clock) */
+function zoneWeekEnd(now) {
+  const d = new Date(now.getTime());
+  const daysUntilSun = (7 - d.getUTCDay()) % 7;
+  d.setUTCDate(d.getUTCDate() + daysUntilSun);
+  d.setUTCHours(23, 59, 59, 999);
+  if (d.getTime() <= now.getTime()) d.setUTCDate(d.getUTCDate() + 7);
+  return d.getTime();
+}
+
+function zoneIndexFor(now) {
+  const weeks = Math.floor((now.getTime() - ZONE_REF) / ZONE_WEEK);
+  return ((weeks % SECRET_ZONES.length) + SECRET_ZONES.length) % SECRET_ZONES.length;
+}
+
+function fmtZoneCountdown(ms) {
+  if (ms < 0) ms = 0;
+  const s = Math.floor(ms / 1000);
+  const dd = String(Math.floor(s / 86400)).padStart(2, "0");
+  const hh = String(Math.floor((s % 86400) / 3600)).padStart(2, "0");
+  const mm = String(Math.floor((s % 3600) / 60)).padStart(2, "0");
+  const ss = String(s % 60).padStart(2, "0");
+  return `${dd}:${hh}:${mm}:${ss}`;
+}
+
+function renderSecretZones() {
+  const grid = document.getElementById("zone-grid");
+  const line = document.getElementById("zone-line");
+  if (!grid) return;
+
+  const now = estNow();
+  const idx = zoneIndexFor(now);
+  const cur = SECRET_ZONES[idx];
+  const end = zoneWeekEnd(now);
+
+  if (line) {
+    line.innerHTML = `This week's Speed Challenge Secret Zone is <b>${esc(cur.shiki)}</b> — <b>${esc(cur.en)}</b>. It cuts off in <b class="zone-inline-count" id="zone-count-inline">--:--:--:--</b> (Sunday 23:59 EST).`;
+  }
+
+  grid.innerHTML = SECRET_ZONES.map((z, i) => `
+    <article class="zone-card${i === idx ? " now" : ""}${i === (idx + 1) % SECRET_ZONES.length ? " next" : ""}">
+      <div class="zone-img"><img src="assets/shikigami/${z.no}.webp" alt="${esc(z.shiki)}" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()"></div>
+      <div class="zone-body">
+        <div class="zone-top"><b class="zone-name">${esc(z.en)}</b><span class="zone-rarity r-${z.rarity.toLowerCase()}">${z.rarity}</span>${i === idx ? '<span class="cal-flag">now</span>' : ""}</div>
+        <div class="zone-shiki">${esc(z.shiki)}</div>
+        <div class="zone-count" data-end="${i === idx ? end : ""}">${i === idx ? fmtZoneCountdown(end - now.getTime()) : ""}</div>
+      </div>
+    </article>`).join("");
+
+  const tick = () => {
+    const n = estNow();
+    /* re-roll at week rollover so the highlighted card + countdown follow the rotation */
+    if (zoneIndexFor(n) !== idx) { renderSecretZones(); return; }
+    const left = zoneWeekEnd(n) - n.getTime();
+    const txt = fmtZoneCountdown(left);
+    grid.querySelectorAll(".zone-count[data-end]").forEach((el) => { el.textContent = txt; });
+    const inline = document.getElementById("zone-count-inline");
+    if (inline) inline.textContent = txt;
+  };
+  setInterval(tick, 1000);
 }
 
 /* boot by page */
