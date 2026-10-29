@@ -518,14 +518,17 @@ input, textarea { caret-color: var(--gold-soft); }
 .zone-card .r-r   { --rar-rgb: var(--r-rgb); }
 .zone-card.now .cal-flag { margin-left: auto; }
 .zone-shiki { color: var(--muted); font-size: 0.74rem; }
-.zone-count {
+.zone-timer {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-bottom: 1.2rem;
+}
+.zone-timer b {
   color: var(--gold-soft);
   font-variant-numeric: tabular-nums;
-  font-size: 0.95rem;
-  letter-spacing: 0.06em;
-  min-height: 1.2em;
+  letter-spacing: 0.04em;
+  font-weight: 600;
 }
-.zone-inline-count { font-variant-numeric: tabular-nums; }
 
 /* buff effect compendium (calendar.html) */
 .cal-docs-head { font-size: 1.3rem; }

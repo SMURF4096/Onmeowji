@@ -1164,6 +1164,7 @@ function fmtZoneCountdown(ms) {
 function renderSecretZones() {
   const grid = document.getElementById("zone-grid");
   const line = document.getElementById("zone-line");
+  const timer = document.getElementById("zone-timer");
   if (!grid) return;
 
   const now = estNow();
@@ -1171,8 +1172,11 @@ function renderSecretZones() {
   const cur = SECRET_ZONES[idx];
   const end = zoneWeekEnd(now);
 
+  if (timer) {
+    timer.innerHTML = `Cuts off in <b class="zone-count" id="zone-count">${fmtZoneCountdown(end - now.getTime())}</b> — Sunday 23:59 EST.`;
+  }
   if (line) {
-    line.innerHTML = `This week's Speed Challenge Secret Zone is <b>${esc(cur.shiki)}</b> — <b>${esc(cur.en)}</b>. It cuts off in <b class="zone-inline-count" id="zone-count-inline">--</b> (Sunday 23:59 EST).`;
+    line.innerHTML = `This week's Speed Challenge Secret Zone is <b>${esc(cur.shiki)}</b> — <b>${esc(cur.en)}</b>.`;
   }
 
   grid.innerHTML = SECRET_ZONES.map((z, i) => `
@@ -1181,7 +1185,6 @@ function renderSecretZones() {
       <div class="zone-body">
         <div class="zone-top"><b class="zone-name">${esc(z.en)}</b><span class="zone-rarity r-${z.rarity.toLowerCase()}">${z.rarity}</span>${i === idx ? '<span class="cal-flag">now</span>' : ""}</div>
         <div class="zone-shiki">${esc(z.shiki)}</div>
-        <div class="zone-count" data-end="${i === idx ? end : ""}">${i === idx ? fmtZoneCountdown(end - now.getTime()) : ""}</div>
       </div>
     </article>`).join("");
 
@@ -1189,11 +1192,8 @@ function renderSecretZones() {
     const n = estNow();
     /* re-roll at week rollover so the highlighted card + countdown follow the rotation */
     if (zoneIndexFor(n) !== idx) { renderSecretZones(); return; }
-    const left = zoneWeekEnd(n) - n.getTime();
-    const txt = fmtZoneCountdown(left);
-    grid.querySelectorAll(".zone-count[data-end]").forEach((el) => { el.textContent = txt; });
-    const inline = document.getElementById("zone-count-inline");
-    if (inline) inline.textContent = txt;
+    const el = document.getElementById("zone-count");
+    if (el) el.textContent = fmtZoneCountdown(zoneWeekEnd(n) - n.getTime());
   };
   setInterval(tick, 1000);
 }
