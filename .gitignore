@@ -5,3 +5,4 @@ ses_*.json
 server.log
 nohup.out
 design-extract-output/
+ux-ui-agent-skills/
