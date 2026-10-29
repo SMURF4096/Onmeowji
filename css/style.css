@@ -487,10 +487,11 @@ input, textarea { caret-color: var(--gold-soft); }
 }
 .zone-card.next { opacity: 0.72; }
 .zone-img {
-  aspect-ratio: 1 / 1;
-  background: rgb(255 255 255 / 0.02) center / cover no-repeat;
+  position: relative;
+  aspect-ratio: 2 / 1;
+  background: rgb(255 255 255 / 0.02) center 22% / cover no-repeat;
 }
-.zone-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.zone-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 22%; display: block; }
 .zone-img.no-img { display: none; }
 .zone-body { padding: 0.65rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.3rem; }
 .zone-top { display: flex; align-items: baseline; gap: 0.45rem; min-width: 0; }
